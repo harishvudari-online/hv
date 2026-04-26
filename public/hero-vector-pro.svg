@@ -1,0 +1,78 @@
+<svg width="760" height="760" viewBox="0 0 760 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- papers / ideas around -->
+  <g stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round">
+    <path d="M126 186L208 170"/>
+    <path d="M116 214H196"/>
+    <path d="M120 242L212 234"/>
+    <path d="M548 176L644 188"/>
+    <path d="M560 214H650"/>
+    <path d="M548 244L640 252"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="96" y="458" width="568" height="24" rx="12" fill="#0E355A"/>
+  <rect x="92" y="480" width="24" height="150" rx="10" fill="#0A2A48"/>
+  <rect x="644" y="480" width="24" height="150" rx="10" fill="#0A2A48"/>
+
+  <!-- cups -->
+  <rect x="132" y="410" width="52" height="60" rx="10" fill="#123E63"/>
+  <path d="M184 430C200 430 204 452 184 456" stroke="#1BE7FF" stroke-width="6" stroke-linecap="round"/>
+  <rect x="580" y="418" width="48" height="52" rx="9" fill="#123E63"/>
+  <path d="M628 434C642 434 646 450 628 454" stroke="#1BE7FF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- chair -->
+  <ellipse cx="394" cy="512" rx="66" ry="24" fill="#0A2F50"/>
+  <rect x="374" y="484" width="40" height="76" rx="16" fill="#10466E"/>
+
+  <!-- developer -->
+  <g filter="url(#softGlow)">
+    <circle cx="380" cy="286" r="48" fill="#8ED8FF"/>
+    <path d="M336 278C350 236 414 232 428 278" fill="#00C2FF"/>
+    <rect x="324" y="344" width="112" height="142" rx="28" fill="#0E4672"/>
+    <rect x="312" y="360" width="38" height="22" rx="11" fill="#8ED8FF"/>
+    <rect x="410" y="360" width="38" height="22" rx="11" fill="#8ED8FF"/>
+    <rect x="344" y="478" width="34" height="88" rx="15" fill="#0A2F50"/>
+    <rect x="388" y="478" width="34" height="88" rx="15" fill="#0A2F50"/>
+    <circle cx="362" cy="286" r="18" stroke="#073457" stroke-width="6"/>
+    <circle cx="398" cy="286" r="18" stroke="#073457" stroke-width="6"/>
+    <path d="M380 286H380.5" stroke="#073457" stroke-width="6" stroke-linecap="round"/>
+    <path d="M364 312C374 320 386 320 396 312" stroke="#073457" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- laptop -->
+  <g filter="url(#softGlow)">
+    <rect x="252" y="334" width="256" height="148" rx="16" fill="#0B2A48"/>
+    <rect x="268" y="352" width="224" height="108" rx="10" fill="#091F35"/>
+    <path d="M230 488H530L500 518H260L230 488Z" fill="#154A73"/>
+    <path d="M380 385C370 385 366 396 374 404C382 412 378 422 366 422C378 432 396 426 398 412C400 398 394 385 380 385Z" fill="#1BE7FF" fill-opacity="0.85"/>
+  </g>
+
+  <!-- code text lines -->
+  <g stroke="#1BE7FF" stroke-width="6" stroke-linecap="round">
+    <path d="M288 382H372"/>
+    <path d="M288 406H434"/>
+    <path d="M288 430H398"/>
+  </g>
+
+  <!-- plants -->
+  <g filter="url(#softGlow)">
+    <rect x="48" y="552" width="72" height="88" rx="12" fill="#10456D"/>
+    <path d="M84 552V496" stroke="#1BE7FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M84 520C68 500 52 500 42 512" stroke="#00C2FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M84 520C100 500 116 500 126 512" stroke="#00C2FF" stroke-width="8" stroke-linecap="round"/>
+    <rect x="640" y="548" width="72" height="92" rx="12" fill="#10456D"/>
+    <path d="M676 548V496" stroke="#1BE7FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M676 518C658 500 644 500 632 512" stroke="#00C2FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M676 518C694 500 708 500 720 512" stroke="#00C2FF" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

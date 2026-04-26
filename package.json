@@ -1,0 +1,39 @@
+{
+  "name": "portfolio-ui",
+  "version": "1.0.0",
+  "description": "Senior UI Engineer portfolio for Harish Vudari",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "watch:build": "chokidar \"src/**/*\" \"public/**/*\" \"*.{js,json,ts,tsx,css}\" -c \"npm run build\"",
+    "dev:auto": "npm run dev",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "portfolio",
+    "angular developer",
+    "react developer",
+    "ui engineer"
+  ],
+  "author": "Harish Vudari",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^1.11.0",
+    "next": "^13.5.6",
+    "next-seo": "^6.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.45",
+    "chokidar-cli": "^3.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^13.5.6",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,75 @@
+<svg width="760" height="760" viewBox="0 0 760 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCircuit" x1="74" y1="74" x2="686" y2="686" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C315A"/>
+      <stop offset="1" stop-color="#071C36"/>
+    </linearGradient>
+    <linearGradient id="pulseLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1BE7FF" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#1BE7FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#1BE7FF" stop-opacity="0.1"/>
+    </linearGradient>
+    <clipPath id="centerClip">
+      <circle cx="380" cy="380" r="98"/>
+    </clipPath>
+  </defs>
+
+  <rect width="760" height="760" rx="42" fill="#051329"/>
+  <rect x="74" y="74" width="612" height="612" rx="34" fill="url(#bgCircuit)" stroke="#1FBCE9" stroke-opacity="0.35" stroke-width="3"/>
+
+  <!-- Circuit tracks -->
+  <path d="M132 250H270L320 300" stroke="#1BE7FF" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M628 250H490L440 300" stroke="#1BE7FF" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M132 510H270L320 460" stroke="#1BE7FF" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M628 510H490L440 460" stroke="#1BE7FF" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M380 132V270" stroke="#1BE7FF" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+  <path d="M380 628V490" stroke="#1BE7FF" stroke-opacity="0.22" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Center processing node -->
+  <circle cx="380" cy="380" r="110" fill="#0D345F" stroke="#1BE7FF" stroke-opacity="0.42" stroke-width="3"/>
+  <circle cx="380" cy="380" r="98" fill="#0A2849"/>
+  <path d="M346 346L320 380L346 414" stroke="#8CEFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M414 346L440 380L414 414" stroke="#8CEFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M398 334L362 426" stroke="#1BE7FF" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Animated micro scan -->
+  <g clip-path="url(#centerClip)" opacity="0.68">
+    <rect x="270" y="282" width="56" height="196" fill="url(#pulseLine)">
+      <animate attributeName="x" values="270;470" dur="6.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Corner capability nodes -->
+  <circle cx="132" cy="250" r="30" fill="#0A294B" stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3"/>
+  <g opacity="0.82">
+    <rect x="118" y="236" width="9" height="9" fill="#1BE7FF"/>
+    <rect x="129" y="236" width="9" height="9" fill="#0E4F7D"/>
+    <rect x="140" y="236" width="9" height="9" fill="#1BE7FF"/>
+    <rect x="118" y="247" width="9" height="9" fill="#0E4F7D"/>
+    <rect x="129" y="247" width="9" height="9" fill="#1BE7FF"/>
+    <rect x="140" y="247" width="9" height="9" fill="#0E4F7D"/>
+  </g>
+
+  <circle cx="628" cy="250" r="30" fill="#0A294B" stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3"/>
+  <path d="M624 232L608 254H624L615 270L642 244H626L634 232H624Z" fill="#1BE7FF"/>
+
+  <circle cx="132" cy="510" r="30" fill="#0A294B" stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3"/>
+  <path d="M116 510L127 521L148 499" stroke="#8DEFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="628" cy="510" r="30" fill="#0A294B" stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3"/>
+  <path d="M628 492L645 502V520L628 530L611 520V502L628 492Z" fill="#125588"/>
+  <path d="M628 498L640 505V517L628 524L616 517V505L628 498Z" fill="#1BE7FF" fill-opacity="0.35"/>
+
+  <circle cx="380" cy="132" r="24" fill="#0A294B" stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3"/>
+  <path d="M380 120L370 132L380 144L390 132L380 120Z" fill="#8DEFFF"/>
+
+  <circle cx="380" cy="628" r="24" fill="#0A294B" stroke="#1BE7FF" stroke-opacity="0.45" stroke-width="3"/>
+  <path d="M369 627H391" stroke="#8DEFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M380 616V638" stroke="#8DEFFF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Pulse particles -->
+  <circle cx="260" cy="190" r="3" fill="#1BE7FF" fill-opacity="0.5"/>
+  <circle cx="500" cy="186" r="4" fill="#1BE7FF" fill-opacity="0.62"/>
+  <circle cx="256" cy="568" r="4" fill="#1BE7FF" fill-opacity="0.62"/>
+  <circle cx="506" cy="574" r="3" fill="#1BE7FF" fill-opacity="0.5"/>
+</svg>
