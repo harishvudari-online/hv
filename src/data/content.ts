@@ -377,6 +377,6 @@ export const content: Record<string, LocalizedContent> = {
       { qualification: "Standard X / SSC", institution: "Sri Sharadha Vidhya Mandir (AP State Board)", result: "74%" }
     ],
     profile:
-      "Date of Birth: 20th July 1993 | Languages: English, Telugu, Hindi"
+      "Date of Birth: 20th July 1993 | Languages: English, Telugu, Hindi | Marital Status: Married"
   }
 };
