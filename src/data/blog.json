@@ -38,6 +38,126 @@
   ],
   "posts": [
     {
+      "slug": "asml-high-na-euv-intel-tsmc-samsung",
+      "title": "ASML High NA EUV: Intel Ships While TSMC Waits Until 2030",
+      "excerpt": "ASML High NA EUV now has public production dates. Intel is already in high-volume manufacturing. Samsung and SK hynix target 2028 DRAM. TSMC commits for 2030 AI nodes. Standard EUV is sold out through 2027.",
+      "category": "chips",
+      "tags": [
+        "ASML High NA",
+        "High NA EUV",
+        "TSMC",
+        "Intel Foundry"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "ASML High NA EUV Timeline 2026: Intel, TSMC, Samsung",
+        "metaDescription": "ASML High NA EUV is in Intel production. Samsung and SK hynix target 2028 DRAM. TSMC commits for 2030 AI nodes. Dates, $400M tools, and 12-inch masks.",
+        "keywords": [
+          "ASML High NA EUV",
+          "High NA EUV production timeline",
+          "TSMC High NA 2030",
+          "Samsung High NA DRAM 2028",
+          "SK hynix High NA 2028",
+          "Intel High NA Panther Lake",
+          "ASML EXE:5200B",
+          "12-inch photomasks High NA"
+        ]
+      },
+      "image": {
+        "src": "/blog/asml-high-na-euv-hero.svg",
+        "alt": "Illustration of ASML High NA EUV production dates showing Intel shipping now, Samsung and SK hynix DRAM in 2028, and TSMC logic in 2030",
+        "caption": "Intel is live. Memory aims at 2028. TSMC logic High NA is a 2030 foundry story."
+      },
+      "sources": [
+        {
+          "title": "Reuters: ASML extends chipmaking dominance as customers embrace High NA",
+          "url": "https://www.reuters.com/world/asia-pacific/asml-extends-chipmaking-dominance-customers-embrace-high-na-2026-09-14/"
+        },
+        {
+          "title": "ASML: TSMC and ASML announce 12-inch photomask initiative for High NA EUV",
+          "url": "https://www.asml.com/en/news/press-releases/2026/tsmc-and-asml-announce-industry-transition-to-large-format-photomasks-for-high-na-euv"
+        },
+        {
+          "title": "Intel Foundry: High NA EUV readiness and one million wafers processed",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html"
+        },
+        {
+          "title": "CNBC: TSMC and Samsung commit to ASML High NA EUV tools for AI chips",
+          "url": "https://www.cnbc.com/2026/09/08/tsmc-samsung-asml-high-na-euv-machine-ai-chips.html"
+        },
+        {
+          "title": "SK hynix Newsroom: first commercial High NA EUV EXE:5200B at M16",
+          "url": "https://news.skhynix.com/en/sk-hynix-introduces-industrys-first-commercial-high-na-euv/"
+        },
+        {
+          "title": "Herald Business: SK hynix aims to apply High NA EUV to DRAM by 2028",
+          "url": "https://biz.heraldcorp.com/article/10867691"
+        },
+        {
+          "title": "ASML: High NA EUV first high-volume logic product at Intel Foundry",
+          "url": "https://www.globenewswire.com/news-release/2026/07/15/3327453/0/en/High-NA-EUV-reaches-new-readiness-milestone-with-first-high-volume-Logic-product.html"
+        },
+        {
+          "title": "Tom's Hardware: Intel ships high-volume logic chips made with High NA EUV",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-becomes-the-first-company-to-ship-high-volume-logic-chips-made-with-asmls-high-na-euv-select-panther-lake-layers-on-18a-are-now-dual-qualified-for-0-55-na-scanners"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Reuters reported that ASML High NA EUV now has customer production dates, while the company's existing $200 million EUV machines, the tools that print the smallest circuits in commercial AI chips, are all but sold out through 2027. High NA tools cost about $400 million. TSMC, Samsung, and SK hynix all set production windows. Intel, the early adopter, said the scanners already meet throughput and reliability standards, and that it has processed more than a million wafers with High NA.",
+            "The dates are not the same product. On 7 September, Intel Foundry and ASML said High NA is already in high-volume manufacturing on select layers of a subset of Intel Core Ultra Series 3 processors, code-named Panther Lake, on Intel 18A in Oregon. Overlay, throughput, and availability are meeting Intel's expectations. Those layers are dual-qualified against ASML's existing 0.33 NA NXE platform. The company is using today's 6-inch masks, with or without stitching.",
+            "On 8 September, ASML and TSMC announced an industry push to 12-inch photomasks. TSMC intends to use High NA in high-volume manufacturing for advanced nodes starting in 2030, citing increasingly complex transistor architectures required for AI applications. The 12-inch mask pilot is targeted for 2031, with full lithography system readiness for advanced node production in 2033. Samsung said DRAM High NA production starts in 2028. SK hynix said the same year for DRAM mass production. Micron has ordered tools and has not set a production date."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is the lithography bottleneck behind the [AI chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). You cannot buy more NVIDIA, AMD, or custom accelerators than the EUV line can print. Standard EUV being sold out through 2027 is a capacity fact, not a rumor. High NA is the next printer. Reuters says it can print features about 40% smaller than standard EUV, which can cut manufacturing steps. SK hynix, which assembled an EXE:5200B at its M16 fab in Icheon in September 2025, says the NA moves from 0.33 to 0.55, with 1.7 times smaller transistors and 2.9 times higher density versus the prior EUV system.",
+            "Memory lands first. Samsung and SK hynix putting High NA on DRAM in 2028 is the near-term AI supply story, because HBM sits next to every frontier training cluster. TSMC committing for 2030 is the logic story. It is not a promise that this year's GPU or the next node already uses High NA. TSMC had questioned whether a $400 million tool was worth it. The 8 September statement closes that debate for the 2030s, not for 2026 tape-outs.",
+            "Custom silicon does not escape the queue. [OpenAI Jalape\u00f1o](/blog/openai-jalapeno-inference-chip) and [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) still sit on someone else's wafers. Samsung pairing models with fabs in the [Mistral partnership](/blog/samsung-mistral-ai-chip-partnership) is a yield and defect-detection play. It does not replace a High NA scanner. [Enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) that assumes infinite GPU supply is now a procurement error. The printer is booked."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/asml-high-na-euv-timeline.svg",
+            "alt": "Timeline of ASML High NA EUV showing Intel in production now, standard EUV sold out through 2027, Samsung and SK hynix DRAM in 2028, and TSMC logic in 2030",
+            "caption": "Score four clocks. Intel is shipping. 2027 is a sold-out EUV year. 2028 is DRAM. 2030 is TSMC logic."
+          },
+          "paragraphs": [
+            "Foundry and GPU buyers feel the TSMC date. If your accelerator roadmap assumes TSMC High NA before 2030, rewrite it. TSMC said High NA layer counts will rise as AI transistor architectures get harder. Until then, 0.33 NA EUV plus multi-patterning and advanced packaging remain the working plan. That is why this briefing is adjacent to, not a duplicate of, the GPU and TPU race note.",
+            "Memory buyers feel 2028. HBM and next-density DRAM are the AI bottleneck that does not wait for TSMC's 2030 logic node. SK hynix already has a production-class EXE:5200B on the floor. Samsung's 2028 DRAM date is earlier than some analysts expected, per Reuters citing Morningstar. Micron is the open item: tools on order, no production year. Do not treat a purchase order as a process of record.",
+            "Intel Foundry customers can use High NA now, on 6-inch masks, including stitching in the PDK. That is a foundry differentiation claim, not a guarantee that every 18A layer is High NA. Procurement and finance sit one layer up. A $400 million High NA tool is roughly twice a $200 million EUV tool. ASML is expanding capacity in Eindhoven. JPMorgan, cited by Reuters, estimated a 94% share of the global lithography market in 2025, and a monopoly on commercial EUV. Nikon, Canon, and Chinese DUV vendors are not a 2026 substitute for this class of AI chip printing."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Reuters reported on 14 September 2026 that ASML's $200 million EUV machines are all but sold out through 2027, and that High NA tools cost about $400 million. Fact: Intel Foundry said on 7 September 2026 that High NA is in high-volume manufacturing on select Panther Lake layers, with more than one million wafers processed across certification, R&D, and volume production. Fact: TSMC said it will use High NA in high-volume manufacturing for advanced nodes starting in 2030. Fact: Samsung and SK hynix each pointed to DRAM High NA production in 2028. Fact: ASML and TSMC targeted a 12-inch mask pilot in 2031 and system readiness in 2033. Fact: Micron ordered tools without a production date.",
+            "Prediction: 2028 DRAM High NA will change AI memory cost and density before 2030 TSMC logic High NA changes GPU transistors. Prediction: most 2026-2027 AI clusters still ride 0.33 NA EUV, packaging, and HBM process tweaks, not High NA logic. Prediction: the 12-inch mask program is a 2030s productivity story, not a 2027 capacity unlock. Do not staff a cluster buy on a photomask consortium."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Intel publishes High NA layer counts beyond the Panther Lake subset, and whether external foundry customers get the same dual-qualified flows. Watch Samsung and SK hynix yield on 2028 DRAM, not the ceremony photos from 2025 tool installs. Watch whether Micron names a year. Watch TSMC's actual High NA layer list for the first 2030 node, and whether any logic High NA slips into a 2029 bridge node. Watch ASML's next capacity add after the Eindhoven expansion, because sold-out EUV through 2027 is the constraint that High NA is supposed to relieve later. And watch 12-inch mask standards only as an ecosystem story. If a training cluster has to land in 2027, it needs a live EUV slot, not a 2033 scanner."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is ASML High NA EUV? It is ASML's next-generation extreme ultraviolet lithography, with a numerical aperture of 0.55 versus 0.33 on current EUV scanners. The higher NA prints finer circuit patterns. High NA tools cost about $400 million, roughly twice a standard EUV machine. Intel is already using them in production on selected layers.",
+            "When will TSMC use High NA EUV? TSMC said it intends to use ASML High NA in high-volume manufacturing for advanced nodes starting in 2030. It also said High NA layer counts should rise as AI transistor architectures get more complex. That is a foundry date, not a 2026 GPU SKU.",
+            "Is Intel already using High NA EUV in production? Yes. Intel Foundry and ASML said High NA is in high-volume manufacturing on select Intel 18A layers for a subset of Core Ultra Series 3 (Panther Lake) processors, with more than one million wafers processed. The layers are dual-qualified against standard 0.33 NA EUV.",
+            "When will Samsung and SK hynix use High NA for DRAM? Both companies have pointed to 2028 for DRAM High NA production. SK hynix assembled a production-class EXE:5200B at its M16 fab in 2025. Micron has ordered High NA tools but has not set a production date."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "samsung-mistral-ai-chip-partnership",
       "title": "Samsung Mistral AI Partnership: The Chip Fab Gets a Model",
       "excerpt": "Samsung will run Mistral Large on-premises inside Device Solutions after leading Mistral's 3 billion euro Series D. Defect detection and yield stay in the fab. No public cloud for process data.",
@@ -111,7 +231,7 @@
         {
           "heading": "Why it matters",
           "paragraphs": [
-            "The [AI chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) has been a supply story: who ships HBM, GPUs, TPUs, and Trainium. [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) and [OpenAI's Jalapeño](/blog/openai-jalapeno-inference-chip) are silicon products. This deal is the other half of the loop. The company that already sells memory, logic, and foundry capacity will use a frontier model to inspect, tune, and yield those lines. If defect prediction and equipment optimization hold, the scarce input is no longer only wafers. It is proprietary fab data that cannot be scraped.",
+            "The [AI chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) has been a supply story: who ships HBM, GPUs, TPUs, and Trainium. [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) and [OpenAI's Jalape\u00f1o](/blog/openai-jalapeno-inference-chip) are silicon products. This deal is the other half of the loop. The company that already sells memory, logic, and foundry capacity will use a frontier model to inspect, tune, and yield those lines. If defect prediction and equipment optimization hold, the scarce input is no longer only wafers. It is proprietary fab data that cannot be scraped.",
             "On-premises is the procurement fact. [Enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) fails when a plant's most valuable logs leave the building. Samsung is not routing DS data through a public Mistral endpoint. Custom models sit next to the tools. That is closer to sovereign industrial AI than to a Copilot seat. It is also why Mistral, not a closed US lab, got the contract. Open weights and private compute are the pitch Mistral used to raise the round, citing Airbus, ASML, and HSBC as existing enterprise proof.",
             "The money resets Europe's price of a full-stack lab. More than 21 billion euros is still far below US frontier names, and [OpenAI's IPO delay](/blog/openai-ipo-delay-2026-safety) is a different market. For buyers, the tell is industrial: ASML at Series C, Samsung at Series D. Chip equipment and chip manufacturing are underwriting the lab that will sit inside their own plants. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) bought a distribution hub. Samsung bought a model layer it can lock in the fab."
           ]
