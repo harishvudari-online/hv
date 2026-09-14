@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Salesforce Agentforce job-ready agents and long-horizon runtime</title>
+  <desc id="desc">Editorial illustration of seven Salesforce Agentforce job-ready agents ahead of Dreamforce 2026, with six generally available and Hunter still in pilot on the long-horizon runtime until November.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1060" cy="560" r="250" fill="#FF9B80" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Salesforce Agentforce: job-ready agents, weeks-long runtime</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">14 Sep 2026  |  Dreamforce 15-17 Sep  |  Hunter GA November 2026</text>
+
+  <rect x="118" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="148" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Generally available</text>
+  <rect x="148" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="166" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Casey, Paige, Carter: service, HR, shopper</text>
+  <text x="166" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Marshall, Piper, Fin: supply chain, inbound, CX</text>
+  <text x="166" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Multi-Agent Orchestration is live now</text>
+  <text x="148" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Each ships with job skills, actions, and data models</text>
+
+  <rect x="622" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="652" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Still a wait</text>
+  <rect x="652" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="670" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Hunter outbound sales: pilot until November</text>
+  <text x="670" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Long-horizon runtime: memory, durable plans</text>
+  <text x="670" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">AI Skills and Agent Optimizer: GA in October</text>
+  <text x="652" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">No published price or edition pack for the seven</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">The chat ends. The quarter does not. Hunter is the first agent Salesforce says can keep going.</text>
+</svg>

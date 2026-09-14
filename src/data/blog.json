@@ -37,6 +37,129 @@
     }
   ],
   "posts": [
+    {
+      "slug": "salesforce-agentforce-job-ready-agents",
+      "title": "Salesforce Agentforce: Job-Ready Agents That Run for Weeks",
+      "excerpt": "Salesforce restated seven job-ready Agentforce agents a day before Dreamforce. Six are generally available. Hunter stays in pilot until November. The long-horizon runtime is the actual product.",
+      "category": "tools",
+      "tags": [
+        "Salesforce Agentforce",
+        "job-ready agents",
+        "long-horizon runtime",
+        "Agentforce Hunter"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Salesforce Agentforce Job-Ready Agents 2026: Hunter Runtime",
+        "metaDescription": "Salesforce shipped 7 job-ready Agentforce agents plus a long-horizon runtime. Hunter stays in pilot until November. AI Skills and Optimizer go GA in October.",
+        "keywords": [
+          "Salesforce Agentforce job-ready agents",
+          "Agentforce long-horizon runtime",
+          "Agentforce Hunter",
+          "Agentforce Hunter GA date",
+          "Agentforce Coworker AI Skills",
+          "Agentforce Agent Optimizer",
+          "Multi-Agent Orchestration Salesforce",
+          "Agentic Work Units",
+          "Agent Script Salesforce",
+          "Salesforce job-ready agents Casey Paige Carter"
+        ]
+      },
+      "image": {
+        "src": "/blog/salesforce-agentforce-job-ready-hero.svg",
+        "alt": "Illustration of Salesforce Agentforce job-ready agents with six generally available and Hunter still in pilot on the long-horizon runtime until November 2026, ahead of Dreamforce",
+        "caption": "The chat ends. The quarter does not. Hunter is the first agent Salesforce says can keep going."
+      },
+      "sources": [
+        {
+          "title": "Salesforce: Agentforce job-ready agents for high-value work",
+          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
+        },
+        {
+          "title": "Salesforce: Asia-Pacific restatement of the Agentforce portfolio (14 Sep 2026)",
+          "url": "https://www.salesforce.com/ap/news/press-releases/2026/09/14/ph-salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/"
+        },
+        {
+          "title": "Unite.AI: Salesforce debuts job-ready Agentforce agents and long-horizon runtime",
+          "url": "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/"
+        },
+        {
+          "title": "ppc.land: Salesforce agents gain a runtime that pursues goals over weeks",
+          "url": "https://ppc.land/salesforce-agents-gain-a-runtime-that-pursues-goals-over-weeks-not-chats/"
+        },
+        {
+          "title": "Salesforce: The Agentic Work Unit (25 Feb 2026)",
+          "url": "https://www.salesforce.com/news/stories/agentic-work-units/"
+        },
+        {
+          "title": "Salesforce Developers: Agent Script documentation",
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-script.html"
+        },
+        {
+          "title": "CXOToday: Salesforce expands Agentforce with job-ready AI agents",
+          "url": "https://cxotoday.com/media-coverage/salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/"
+        },
+        {
+          "title": "Diginomica: Salesforce introduces Agentic Work Units",
+          "url": "https://diginomica.com/how-much-worth-awus-introducing-new-metric-track-agentic-value-salesforce-turns-strong-full-year"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Salesforce's Asia-Pacific newsroom restated the Agentforce job-ready agents portfolio, a day before Dreamforce opens in San Francisco. The US story ran on 11 September. The product cut is the same: seven named agents, a long-horizon runtime, and three platform additions. Salesforce says it has delivered 7 billion Agentic Work Units across Agentforce and Slack, including 3.2 billion in the second quarter.",
+            "The seven agents are Casey for customer service, Paige for IT and HR, Carter for shoppers, Marshall for supply chain, Piper for inbound pipeline, Fin for customer experience, and Hunter for outbound sales. Salesforce lists the first six as generally available. Hunter stays in pilot, with general availability planned for November 2026. Each ships with skills, actions, and data models for the job, can be renamed, and sits on Customer 360. Agent Script, Salesforce's open-source language for agent behavior, is the control plane that mixes LLM reasoning with deterministic rules.",
+            "Hunter is the first agent on the new long-horizon runtime. Salesforce describes three parts: memory that keeps context across sessions, durable execution that keeps a plan running across days and weeks, and dynamic steering from user feedback. AI Skills in Agentforce Coworker is in pilot, with general availability in October. Multi-Agent Orchestration is generally available now. Agent Optimizer, which builds, tests, and reads session traces, is also planned for October."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Frontier labs sell a model that can use a computer. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and the [Agents API Codex harness](/blog/openai-agents-api-codex-harness) are that stack. Salesforce is selling a job. The buyer does not start with a prompt. The buyer starts with Casey or Hunter already wired to CRM objects. That is closer to [tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work) than to a new intelligence index.",
+            "The long-horizon runtime is the claim that matters. Chat agents die when the tab closes. A quarter-end rescue of at-risk deals does not. Memory plus durable execution is the same product idea as a workflow engine, with an LLM choosing the next step. [Sakana's Fugu coordinators](/blog/sakana-fugu-ultra-v2-fugu-max) route specialist models. Salesforce routes specialist jobs. Different layer, same coordination problem.",
+            "The 7 billion AWU figure is a vendor meter, not an audit. Salesforce defined an Agentic Work Unit in February as one discrete task: a prompt processed, a reasoning chain completed, or a tool invoked. Independent coverage notes there is no external audit and no breakdown by agent. A failed tool call can still count as work. Treat it the way [enterprise buyers](/blog/enterprise-ai-adoption-what-is-working) treat token tables: a consumption number, not proof that a case stayed closed."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/salesforce-agentforce-runtime-stack.svg",
+            "alt": "Diagram of Salesforce Agentforce job-ready agents on Customer 360, with Hunter first on the long-horizon runtime of memory, durable execution, and dynamic steering, plus October and November general-availability dates",
+            "caption": "Hunter is first on the weeks-long runtime. The other six are GA without it. Price is still unpublished."
+          },
+          "paragraphs": [
+            "Salesforce customers who already run Agentforce feel it first. Six agents are generally available. Hunter is the one on the long-horizon runtime, and it is still a pilot until November. Teams that want weeks-long outbound work are buying a wait, not a SKU. Dreamforce runs 15 to 17 September at Moscone. Pricing, packaging, and edition structure were not in the announcement.",
+            "Sales, service, commerce, and HR teams inherit named agents. Salesforce attributes customer numbers to the launch: Engine's Eva fully resolves 50 percent of chat inquiries; Perk's Hunter builds 60 percent of sales pipeline; Autism Queensland's Paige resolves 70 percent of administrative requests; Hibbett AI handles 90 percent of core shopper journeys after six weeks; Asana's Piper drives 4x conversation volume, with customers deploying Piper in 45 days on average; Fin autonomously resolves 79 percent of Anthropic conversations it sees. Those are Salesforce-cited figures. They are not third-party audits.",
+            "IT and security sit one layer up. Every agent is said to run inside customer rules, permissions, and security. Agent Script can force if/else, variable state, and action chaining so the LLM is not the only decision maker. Marshall's audit record of every supply-chain action is the back-office version of that promise. [Model pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) still sits underneath. Salesforce did not publish an AWU price or a token-to-AWU bill for this portfolio. [Job design](/blog/anthropic-ai-jobs-2030-econ-scenarios) is the other bill: Hunter that researches and reaches out for weeks is a seller's calendar, not only a CRM feature."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Salesforce's 11 September US story and 14 September Asia-Pacific restatement name seven job-ready Agentforce agents, with Hunter in pilot and general availability planned for November 2026. Fact: Casey, Paige, Carter, Marshall, Piper, and Fin are listed as generally available. Fact: Hunter is the first agent on the long-horizon runtime, described as memory, durable execution, and dynamic steering. Fact: AI Skills is in pilot, with general availability in October 2026. Multi-Agent Orchestration is generally available. Agent Optimizer is planned for October 2026. Fact: Salesforce cites 7 billion Agentic Work Units across Agentforce and Slack, including 3.2 billion in the second quarter. Fact: the February AWU definition is one discrete task accomplished by an AI agent. Fact: Dreamforce 2026 runs 15 to 17 September. Fact: Salesforce did not publish pricing or edition packaging for the new portfolio.",
+            "Prediction: Dreamforce will attach a price or a credit bundle to AWUs before Hunter's November general availability, because a weeks-long sales agent is otherwise unbudgetable. Prediction: Casey, Paige, and Piper will be the volume agents; Hunter's runtime will stay the keynote. Prediction: Agent Script, not the LLM, will be the approval gate that legal and IT actually sign. Do not staff a company-wide Agentforce rollout on a pilot sales agent."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch Dreamforce on 15 to 17 September for a price, a credit pack, or an edition that names these seven agents. Watch whether Hunter's long-horizon runtime stays exclusive through November, or whether Casey and Marshall get memory and durable execution sooner. Watch AI Skills and Agent Optimizer on the October general-availability date, and whether teaching Coworker a task once actually replicates across Slack and CRM. Watch whether Salesforce publishes an AWU breakdown by agent, or keeps a single vanity total. Watch Fin Apex and the model layer under the job layer. And watch whether a weeks-long Hunter plan still asks for seller approval when the deal is at risk, or starts sending mail on its own."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What are Salesforce Agentforce job-ready agents? They are seven prebuilt Agentforce agents Salesforce announced for sales, service, commerce, employee experience, and back-office work. Each ships with skills, actions, and data models for a named job and can be renamed. Six are generally available. Hunter, the outbound sales agent, is in pilot, with general availability planned for November 2026.",
+            "What is the Agentforce long-horizon runtime? It is a runtime Salesforce says lets agents pursue goals across days and weeks instead of a single conversation. It uses memory across sessions, durable execution that keeps plans running, and dynamic steering from user feedback. Hunter is the first agent on it.",
+            "When does Agentforce Hunter become generally available? Salesforce lists Hunter as pilot now, with general availability in November 2026. It is the outbound sales agent and the first agent on the long-horizon runtime.",
+            "What is an Agentic Work Unit? Salesforce defined an AWU in February 2026 as one discrete task accomplished by an AI agent, such as a prompt processed, a reasoning chain completed, or a tool invoked. The September announcement cites 7 billion AWUs across Agentforce and Slack, including 3.2 billion in the second quarter. Salesforce counts the metric. There is no published third-party audit.",
+            "When do Agentforce AI Skills and Agent Optimizer go generally available? Salesforce says AI Skills in Agentforce Coworker is in pilot, with general availability in October 2026. Agent Optimizer is also planned for October 2026. Multi-Agent Orchestration is generally available now."
+          ]
+        }
+      ]
+    },
   {
     "slug": "google-ai-contribution-pilot-search-console",
     "title": "Google AI Contribution Pilot: Search Console Pays for Answers",
