@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stackTitle stackDesc">
+  <title id="stackTitle">Who depends on the Hugging Face hub</title>
+  <desc id="stackDesc">Four layers showing labs, the open hub, developers, and rival chips.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">The trust test after close</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Neutrality will show up in ranking, inference defaults, and rival silicon support.</text>
+
+  <rect x="110" y="210" width="980" height="72" rx="16" fill="#08203A" stroke="#76B900" stroke-opacity="0.5"/>
+  <text x="138" y="254" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22">Model labs publishing open weights</text>
+
+  <rect x="110" y="300" width="980" height="72" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.6"/>
+  <text x="138" y="344" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22">Hugging Face discovery, cards, datasets, and demos</text>
+
+  <rect x="110" y="390" width="980" height="72" rx="16" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.45"/>
+  <text x="138" y="434" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22">Enterprises, researchers, and 18M developers</text>
+
+  <rect x="110" y="480" width="980" height="54" rx="14" fill="#12355A"/>
+  <text x="138" y="514" fill="#B8E986" font-family="Inter, Arial, sans-serif" font-size="18">Watch AMD, Intel, Trainium, and TPU models stay as easy to find as NVIDIA SKUs</text>
+</svg>

@@ -126,6 +126,96 @@
       ]
     },
     {
+      "slug": "nvidia-buys-hugging-face-open-model-hub",
+      "title": "NVIDIA Buys Hugging Face: The Open-Model Hub Becomes a Chip Story",
+      "excerpt": "A $12.9 billion agreement would put the default marketplace for open models inside NVIDIA. The filing is clear. The hard test is whether the hub stays vendor-neutral after close.",
+      "category": "companies",
+      "tags": [
+        "NVIDIA",
+        "Hugging Face",
+        "open models",
+        "M&A"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "NVIDIA Buys Hugging Face: Open-Model Hub Deal, 2026",
+        "metaDescription": "What NVIDIA's $12.9B Hugging Face deal means for open models, rival chips, developers, and whether the hub stays compute-agnostic.",
+        "keywords": [
+          "NVIDIA Hugging Face",
+          "open source AI",
+          "AI companies",
+          "open models"
+        ]
+      },
+      "image": {
+        "src": "/blog/nvidia-hugging-face-hero.svg",
+        "alt": "Illustration of NVIDIA silicon connecting to the Hugging Face open-model hub",
+        "caption": "NVIDIA is buying distribution, not another accelerator SKU. The promise is that the hub stays open to other chips."
+      },
+      "sources": [
+        {
+          "title": "NVIDIA to Acquire Hugging Face (Jensen Huang)",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+        },
+        {
+          "title": "NVIDIA Form 8-K, September 3, 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
+        },
+        {
+          "title": "BBC: Nvidia strikes $12.9bn deal to buy Hugging Face",
+          "url": "https://www.bbc.com/news/articles/cr4vnr5g1k7o"
+        },
+        {
+          "title": "CNBC: Hugging Face approached Nvidia's Huang",
+          "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 2, 2026, NVIDIA signed a definitive agreement to acquire Hugging Face. Jensen Huang published the news the next day. The structure is about $11.9 billion for stockholders plus up to $1 billion in employee retention equity, for a headline value of about $12.9 billion. Close is targeted for the first half of 2027, if regulators agree.",
+            "Hugging Face is the public square for open models, datasets, and demo apps. BBC reported more than 18 million developers, more than three million models, and more than 200,000 company users. CEO Clement Delangue told CNBC he approached Huang over the summer because open-source AI needed more compute, scale, and visibility.",
+            "NVIDIA's 8-K says the platform will stay open: people can still upload and download the models and datasets they choose, and the hub will keep supporting other silicon vendors. Huang wrote that NVIDIA compute will not be required to build on or deploy through Hugging Face."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is not a chip launch. It is NVIDIA buying the distribution layer where open weights actually move. That layer already shapes which models get tried, fine-tuned, and served. CNBC called it NVIDIA's second-largest purchase after the Groq asset deal, and a step beyond GPUs into software.",
+            "Some of NVIDIA's largest customers, including Microsoft, Meta, and OpenAI, are building their own accelerators. Owning the open hub is a hedge. Even if some training leaves NVIDIA silicon, developers may still pass through a NVIDIA-owned marketplace.",
+            "The deal also lands weeks after a high-profile security incident in which AI agents breached Hugging Face. Delangue called it an engineering failure and said an NVIDIA-tuned open model helped contain it. Huang argued that open models give defenders an asymmetric advantage, because more people can inspect and patch than attack."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/nvidia-hugging-face-stack.svg",
+            "alt": "Diagram of model labs, the Hugging Face hub, developers, and rival chip support",
+            "caption": "The first trust test is practical: do AMD, Intel, Trainium, and TPU models stay as easy to find as NVIDIA's?"
+          },
+          "paragraphs": [
+            "Model labs that publish weights, enterprises that download them, and rival chip vendors all sit on this hub. BBC noted that Amazon, AMD, and Intel were among Hugging Face's backers. Those firms now have to decide whether a NVIDIA-owned square still works as a neutral storefront.",
+            "NVIDIA's own Nemotron line gets a louder default channel. Closed API vendors lose nothing immediately. A better-funded open hub does make good-enough local and self-hosted models easier to find, which can pressure token prices over time."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: the agreement, price range, retention pool, and first-half 2027 close target are in NVIDIA's SEC filing. Fact: NVIDIA has publicly committed to keep the hub open and silicon-agnostic. Fact: the close is not guaranteed.",
+            "Prediction: regulators will spend more time on platform neutrality than on the sticker price. Prediction: the first trust test will be boring and measurable, whether non-NVIDIA models remain as easy to discover and run as NVIDIA's."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the merger filings for exclusive inference or ranking terms. Watch whether Hugging Face endpoints quietly default to NVIDIA serving. Watch whether AMD, Google, and AWS double down on alternative hubs if they stop trusting the main one. Employee retention after the equity pool vests will say as much as the press release."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "ai-chip-race-nvidia-amd-tpu-trainium",
       "title": "The AI Chip Race: NVIDIA, AMD, Google TPU, and AWS Trainium",
       "excerpt": "Compute is still the bottleneck. Here is how the major chip and cloud players are competing on performance, supply, and price in 2026.",
