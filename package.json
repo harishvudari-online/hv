@@ -8,7 +8,10 @@
     "watch:build": "chokidar \"src/**/*\" \"public/**/*\" \"*.{js,json,ts,tsx,css}\" -c \"npm run build\"",
     "dev:auto": "npm run dev",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:vercel": "bash scripts/deploy-vercel.sh",
+    "verify:production": "bash scripts/verify-production.sh",
+    "test:deploy-entrypoint": "bash scripts/test-deploy-entrypoint.sh"
   },
   "keywords": [
     "portfolio",
