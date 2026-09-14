@@ -158,6 +158,137 @@
       ]
     },
     {
+      "slug": "claude-code-weekly-limits-september-2026",
+      "title": "Claude Code Weekly Limits: A 17% Cut Anthropic Calls 25% Up",
+      "excerpt": "Claude Code weekly limits changed today. The 50% boost ended 13 September. Anthropic now documents a 25% raise versus May. Versus last week that is a 17% cut.",
+      "category": "pricing",
+      "tags": [
+        "Claude Code weekly limits",
+        "Anthropic",
+        "usage limits",
+        "Claude Code /usage"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Claude Code Weekly Limits 2026: 17% Cut, 25% Up",
+        "metaDescription": "Claude Code weekly limits changed today. The 50% boost ended 13 Sep. Anthropic documents a 25% raise vs May. Versus last week it is a 17% cut. Run /usage.",
+        "keywords": [
+          "Claude Code weekly limits",
+          "Claude Code weekly limits September 2026",
+          "Claude Code 25% increase",
+          "Claude Code 17% reduction",
+          "Claude Code usage limits",
+          "Claude Code Pro Max weekly limit",
+          "Claude Code /usage",
+          "Claude Code 50% promotion ended",
+          "Anthropic Claude Code rate limits",
+          "Claude Code Team Enterprise limits"
+        ]
+      },
+      "image": {
+        "src": "/blog/claude-code-weekly-limits-hero.svg",
+        "alt": "Illustration of Claude Code weekly limits on 14 September 2026 moving from a temporary 50 percent boost that ended 13 September to a permanent 25 percent increase over the May baseline, which is a 17 percent cut versus last week",
+        "caption": "Two true percentages. One weekly bar. Run /usage before you upgrade."
+      },
+      "sources": [
+        {
+          "title": "Anthropic Help Center: Claude Code May-August 2026 weekly limits promotion",
+          "url": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion"
+        },
+        {
+          "title": "ClaudeDevs: permanent 25% weekly-limit raise from 14 September (29 Aug 2026)",
+          "url": "https://x.com/ClaudeDevs/status/2093742321473065266"
+        },
+        {
+          "title": "ClaudeDevs: 17% reduction versus the temporary boosted level (29 Aug 2026)",
+          "url": "https://x.com/ClaudeDevs/status/2093742322525810912"
+        },
+        {
+          "title": "Anthropic: Claude plans and pricing",
+          "url": "https://claude.com/pricing"
+        },
+        {
+          "title": "Anthropic Help Center: Use Claude Code with your Pro or Max plan",
+          "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan"
+        },
+        {
+          "title": "Anthropic Help Center: Models, usage, and limits in Claude Code",
+          "url": "https://support.claude.com/en/articles/14552983-models-usage-and-limits-in-claude-code"
+        },
+        {
+          "title": "AI Catchup: Help Center documents the 25% Claude Code weekly increase",
+          "url": "https://aicatchup.com/news/claude-code-weekly-limits-permanent-25-percent-september-2026"
+        },
+        {
+          "title": "Using Claude: Claude Code weekly limits 25% increase FAQ",
+          "url": "https://usingclaude.com/en/pricing/plans/claude-code-weekly-limits-permanent-25-percent-faq"
+        },
+        {
+          "title": "Digital Applied: Claude Code weekly limits drop 17% on 14 September",
+          "url": "https://www.digitalapplied.com/blog/claude-code-weekly-limit-reduction-september-14"
+        },
+        {
+          "title": "Implicator: Anthropic cuts current Claude Code weekly limits 17% on 14 Sep",
+          "url": "https://www.implicator.ai/anthropic-claude-code-weekly-limits-september-14/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Claude Code weekly limits moved. The temporary 50% boost that ran from 13 May through 13 September at 11:59 p.m. PT is over. AI Catchup, which has been checking Anthropic's Help Center article on that promotion, says the page was rewritten this morning at 06:59 UTC. The new wording states that from 14 September weekly limits in Claude Code are 25% higher than they were before the promotion for Pro, Max, Team, and seat-based Enterprise plans.",
+            "That 25% figure is not new. ClaudeDevs posted it on 29 August, plus the other half: compared with the boosted level then in force, it is a 17% reduction. Indexed, the pre-May baseline is 100, last week's promotional level is 150, and today's documented level is 125. Both percentages are true. They use different denominators. 1.25 divided by 1.50 is about 0.833, so the new bar is about 17% below the promotional one.",
+            "Until this morning the durable Help Center page, per AI Catchup's checks through 2 September, said only that limits would return to their standard levels after 13 September. It did not print 25%. The rewrite is the documentation catch-up. claude.com/pricing and the Models, usage, and limits article still do not carry the figure. The command that matters is /usage."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Subscription coding agents sell a meter, not a model. [Apple Intelligence daily limits](/blog/apple-intelligence-daily-limits-unpriced-fee) ship without a price. Anthropic ships a weekly Claude Code cap and two percentages that sound like opposites. Teams that staffed August on the 1.5x window are now on 1.25x of the old standard. [Model list prices](/blog/ai-model-pricing-is-changing-what-teams-can-ship) did not move. The included bucket did.",
+            "The other layer did not move. Five-hour session limits sit beside the weekly cap. Anthropic's pricing page still describes Max 5x and Max 20x as 5x or 20x more usage than Pro per five-hour session. Hitting a daytime throttle is often that window, not the weekly bar. Mixing the two is how people upgrade a plan when they only needed to wait a few hours.",
+            "[Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) sits on the same weekly pool for Max and premium Team seats, at up to 50% of the weekly limit. A smaller weekly bar is a smaller Fable bar. That is a coding-agent budget event, not a model-card event. It is also why [tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work) now include a /usage check, not only a model picker."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/claude-code-weekly-limits-stack.svg",
+            "alt": "Diagram of Claude Code usage layers with the May baseline indexed at 100, the 13 May to 13 September promotional boost at 150, and the 14 September permanent 25 percent level at 125, beside unchanged five-hour session limits",
+            "caption": "Weekly Claude Code limits changed. Five-hour session limits, list prices, and API rates did not."
+          },
+          "paragraphs": [
+            "Pro, Max, Team, and seat-based Enterprise users who run Claude Code feel it first. Free plans and consumption-based Enterprise seats were excluded from the 50% promotion. Anthropic's pricing page still says Claude Code is included in paid plans and shares usage with chat. The Help Center change names Claude Code weekly limits. It does not restate a matching cut for Claude chat or Cowork. Do not assume the chat bar moved by the same 17% until /usage shows it.",
+            "Heavy Claude Code users who sat above about 83% of last week's weekly bar will hit the new ceiling. Usage credits remain the overflow valve: after the included bucket, paid plans can keep going at API rates. That is a published overflow price, unlike Apple's unpublished fee. The [Agents API Codex harness](/blog/openai-agents-api-codex-harness) is the comparison buyers will make. OpenAI's Tibo Sottiaux said in late August that Codex Pro 20x is weekly usage, quite precisely 20 times Plus, without a five-hour cap. Treat that as a vendor claim, not a third-party audit.",
+            "Legal and finance sit one layer up. Coverage of a proposed class action, Kahn v. Anthropic, 3:26-cv-05763 in the Northern District of California, alleges Max 5x and Max 20x delivered lower weekly multiples than the labels implied. No class has been certified. Implicator reported that Anthropic declined to comment. Do not staff a procurement memo on an uncertified complaint."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: ClaudeDevs on 29 August said standard weekly limits in Claude Code would rise 25% from 14 September for Pro, Max, Team, and seat-based Enterprise, and that the then-current 50% increase would hold until then. Fact: the follow-up said that compared with then-current capacity, it is a 17% reduction. Fact: AI Catchup quotes the Help Center, updated 14 September 2026 at 06:59 UTC, stating the 50% promotion ran 13 May through 13 September and that from 14 September weekly limits in Claude Code are 25% higher than before the promotion. Fact: the same article said five-hour limits were not affected by the promotion. Fact: claude.com/pricing lists Pro at $20 monthly or $17 annualized, Max from $100, and says paid plans add weekly limits on top of five-hour windows, with Claude Code sharing the pool. Fact: Anthropic has not published an absolute token or message count for the new weekly bar.",
+            "Prediction: /usage will show a weekly figure about 17% below last week's promotional reading for eligible seats. Prediction: the visibility-and-control changes ClaudeDevs teased will land as a UI, not as another percentage, because the 25/17 split already burned trust. Prediction: teams that lived on the promotional ceiling will enable usage credits or split batch work onto API keys before they cancel. Do not treat a Help Center rewrite as a price cut or a price hike. The subscription list price did not move."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch /usage today against a reading from last week. Watch whether claude.com/pricing and the general limits article pick up the 25% line, or leave it only on the old promotion page. Watch the visibility-and-control follow-up ClaudeDevs promised. Watch whether chat and Cowork weekly bars actually move on Pro and Max, given the shared-pool language. Watch Fable 5.1 headroom on Max, because 50% of a smaller week is a smaller Fable week. And watch whether Codex's weekly 20x claim, or usage credits at API rates, become the default overflow rather than a Max 20x upgrade."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What are Claude Code weekly limits as of 14 September 2026? Anthropic documents that Claude Code weekly limits are 25% higher than they were before the May 2026 promotion for Pro, Max, Team, and seat-based Enterprise plans. The temporary 50% boost ended 13 September at 11:59 p.m. PT. Versus last week's boosted level, ClaudeDevs called that a 17% reduction.",
+            "Did Claude Code usage limits go up or down today? Up against the pre-May baseline, down against last week. Indexed, the old standard is 100, the promotional level was 150, and today's documented level is 125. Both the 25% increase and the 17% cut are true. They use different baselines.",
+            "Do Claude Code five-hour limits change on 14 September 2026? No. Anthropic's promotion article said five-hour usage limits were not affected. Max 5x and Max 20x still describe usage versus Pro per five-hour session on the pricing page. A daytime throttle is often that window, not the weekly bar.",
+            "Which Claude plans are affected by the weekly limit change? ClaudeDevs and the Help Center name Pro, Max, Team, and seat-based Enterprise. Free plans and consumption-based Enterprise seats were excluded from the 50% promotion. API pay-as-you-go billing is unchanged. Run /usage to see your account.",
+            "How do I check my Claude Code weekly limit? Run /usage in the Claude Code CLI. Anthropic does not publish a fixed message or token count. Paid-plan usage across Claude chat and Claude Code can share a pool. If you hit the included bucket, usage credits let you keep going at API rates."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "salesforce-agentforce-job-ready-agents",
       "title": "Salesforce Agentforce: Job-Ready Agents That Run for Weeks",
       "excerpt": "Salesforce restated seven job-ready Agentforce agents a day before Dreamforce. Six are generally available. Hunter stays in pilot until November. The long-horizon runtime is the actual product.",
