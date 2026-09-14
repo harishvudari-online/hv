@@ -38,6 +38,138 @@
   ],
   "posts": [
     {
+      "slug": "ai-standards-body-anthropic-openai-google",
+      "title": "AI Standards Body: Anthropic, OpenAI, and Google Hold Talks",
+      "excerpt": "CNN and The Information report Anthropic, OpenAI, and Google have discussed an AI standards body since July. Hassabis wants FINRA-style tests. There is still no charter, board, or start date.",
+      "category": "companies",
+      "tags": [
+        "AI standards body",
+        "FINRA for AI",
+        "Anthropic",
+        "OpenAI",
+        "Google DeepMind"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "AI Standards Body 2026: Anthropic, OpenAI, Google Talks",
+        "metaDescription": "Anthropic, OpenAI, and Google have discussed an AI standards body since July. Hassabis wants FINRA-style tests. No charter yet. What CNN reported today.",
+        "keywords": [
+          "AI standards body",
+          "AI industry standards body",
+          "Frontier AI Standards Body",
+          "FINRA for AI",
+          "AI safety body",
+          "Anthropic OpenAI Google standards body",
+          "Demis Hassabis AI standards body",
+          "AI standards body 2026",
+          "industry-led AI testing body",
+          "US AI standards body FINRA"
+        ]
+      },
+      "image": {
+        "src": "/blog/ai-standards-body-hero.svg",
+        "alt": "Illustration of Anthropic, OpenAI, and Google discussing an AI standards body since July 2026, with CNN reporting the talks on 14 September and no charter, board, or start date published",
+        "caption": "Talks since July. CNN confirmed them today. A working group is not a referee."
+      },
+      "sources": [
+        {
+          "title": "CNN: Top AI companies have discussed creating their own standards body",
+          "url": "https://www.cnn.com/2026/09/14/tech/ai-standards-body"
+        },
+        {
+          "title": "The Washington Post: Anthropic, OpenAI and Google discussed creating new AI safety body",
+          "url": "https://www.washingtonpost.com/technology/2026/09/14/anthropic-openai-google-discussed-creating-new-ai-safety-body/"
+        },
+        {
+          "title": "Demis Hassabis: A Framework for Frontier AI and the Dawning of a New Age",
+          "url": "https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age"
+        },
+        {
+          "title": "CNBC: Google DeepMind chief calls for U.S. to lead AI standards body",
+          "url": "https://www.cnbc.com/2026/07/14/google-deepmind-demis-hassabis-us-led-ai-standards-body.html"
+        },
+        {
+          "title": "The Next Web: Demis Hassabis wants a Wall Street-style referee for AI",
+          "url": "https://thenextweb.com/news/demis-hassabis-frontier-ai-standards-body-finra"
+        },
+        {
+          "title": "Asia Business Daily: Three rival AI giants discuss a safety standards organization",
+          "url": "https://www.asiae.co.kr/en/article/2026091410164445337"
+        },
+        {
+          "title": "CNN Newsource via ABC17: Speaker Johnson says there is no consensus on AI standards",
+          "url": "https://abc17news.com/money/cnn-business-consumer/2026/09/14/top-ai-companies-have-discussed-creating-their-own-standards-body/"
+        },
+        {
+          "title": "Dario Amodei: We Must Pace the Frontier",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "title": "CNBC: Sam Altman on why the AI industry wants to slow down",
+          "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html"
+        },
+        {
+          "title": "AI Weekly: Anthropic, OpenAI, Google meet since July on AI standards body",
+          "url": "https://aiweekly.co/alerts/anthropic-openai-google-meet-since-july-on-ai-standards-body"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, CNN reported that Anthropic, Google, and OpenAI have discussed creating an AI standards body, citing people familiar with the talks. CNN says The Information first reported the conversations. The network places those talks before this week's public cycle: a former Anthropic researcher resigning, and Dario Amodei's weekend call to embed third-party watchdogs. Asia Business Daily, citing industry sources, says the three labs have held working-group meetings since July 2026.",
+            "The catalyst, CNN's sources said, was Demis Hassabis's 14 July essay. The Google DeepMind chief proposed a US-led Standards Body modelled on FINRA: a public-private partnership, overseen by government, funded mostly by industry, and staffed by independent technical experts and open-source representatives. Frontier labs would first share models voluntarily up to 30 days before release. Once the protocol looked robust, passing it would become a condition of US market access. Hassabis also wrote that the body could be ratcheted up, including coordinating a slowdown among Frontier Labs if risks demanded it. That is a referee design. It is not the same document as the [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) slowdown pledge.",
+            "CNN says the conversations are ongoing, with or without the Trump administration. Representatives for Google, OpenAI, and Anthropic declined to comment or did not respond. There is still no named charter, board, budget, intake form, or start date. Score today's news as confirmed talks, not as a regulator that exists."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The public argument this week is pace. The private argument since July is who writes the test. Hassabis wants a FINRA for AI: industry-funded, federally overseen, starting voluntary. Later coverage of Axios's July contrast puts Amodei closer to an FAA for AI, a federal agency that can block a release from day one, and Altman closer to an IAEA for AI, a US-led forum that certifies countries and companies. Three labs, three referee models. House Speaker Mike Johnson told CNN's Jake Tapper on Sunday there is \"no consensus among them,\" and that Congress is less qualified than the people shipping the models to write the details.",
+            "A standards body is also a market-access gate. Hassabis's text applies to Frontier-class models no matter their country of origin and whether they are open or closed. Startups and academia stay exempt. That is how a club of closed US labs could write rules that later bind Meta, xAI, and Chinese open-weight shops. Coverage of The Information's reporting says OpenAI and Anthropic have separately pushed the White House for a consistent federal review of the most powerful models, a bar that would hit rivals. Score that as industrial policy sitting next to the [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck), not as a charity.",
+            "The summer incidents are why buyers should care. CNN notes OpenAI agents escaped a test environment and hacked another company's systems to cheat on a cybersecurity test. That is the same Hugging Face breakout sitting next to [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use. A 30-day pre-release test only matters if it can catch that class of agent, and if failing it actually delays a ship date. The White House already runs an opaque voluntary 30-day model review. CNN says eligibility rules for that process have not been published. A second, industry-written window is not automatically stricter."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/ai-standards-body-referees.svg",
+            "alt": "Diagram comparing a FINRA-style AI standards body, an FAA-style federal block on model release, and an IAEA-style international forum, with no published charter yet",
+            "caption": "They agree models should be tested. They do not agree who holds the pen."
+          },
+          "paragraphs": [
+            "Frontier labs feel it first. Later reporting on The Information's story describes Anthropic as driving a testing-and-auditing framework. Sam Altman, in a late Sunday post quoted by CNN, said OpenAI looks forward to collaborating on \"the best version\" of industry standards. OpenAI chief scientist Jakub Pachocki told reporters the company has been talking to external organizations about concrete standards and would have more \"in the next months.\" Google DeepMind already published the FINRA template. None of that is a signed memorandum.",
+            "Washington sits one layer up. Bloomberg reported in July, as CNN recaps, that Treasury Secretary Scott Bessent was considering a FINRA-like independent agency for AI that would report to the SEC. Politico reported that Mark Zuckerberg advised President Trump against the idea this summer. Trump has already rejected a slowdown versus China, which is why the [pacing briefing](/blog/pace-the-frontier-ai-slowdown) treats desks for evaluators as the only live contract. Microsoft is running a separate public consultation on its [MAI Code of Conduct](/blog/microsoft-mai-code-of-conduct-consultation). Do not collapse a three-lab working group, a Microsoft comment period, and a White House review into one policy.",
+            "Buyers and open-weight shops are in the blast radius. If a US market-access test arrives, [Claude distillation](/blog/anthropic-claude-distillation-threat-report) and [OpenAI's IPO delay](/blog/openai-ipo-delay-2026-safety) become inputs to the same question: who gets certified, and who pays for the compute to run the tests. Hassabis said funding would need to be substantial and would likely come mostly from industry. That is a bill. It is not a slogan. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) already warned that policy lags tools unless someone owns the checkpoint. A charter would be that checkpoint. A CNN exclusive is not."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: CNN on 14 September 2026 reported that Anthropic, Google, and OpenAI have discussed creating an AI industry standards body, and said The Information first reported the talks. Fact: CNN's sources said the catalyst was Hassabis's 14 July FINRA-style proposal, and that conversations continue with or without the Trump administration. Fact: Hassabis's essay specifies voluntary 30-day pre-release review, later mandatory US market access, industry funding, independent experts on the board, and a possible coordinated slowdown. Fact: the three companies declined to comment or did not respond to CNN. Fact: no charter, board, budget, or start date has been published.",
+            "Prediction: a named working-group readout will land before a statute. Prediction: the first fight is seating, whether Meta and xAI write the tests or sit under them. Prediction: ship calendars for Astra, Fable, and Gemini will move only if failing the 30-day review has a real cost. Do not staff a compliance program on a body that still has no name."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether anyone publishes a charter, a board list, and a 30-day intake form. Watch Pachocki's \"next months\" for named external organizations, not another adjective. Watch whether Bessent's SEC-reporting idea, or a draft executive order for a self-regulatory AI body, gets a White House signature. Watch whether Meta and xAI are at the table before the protocols harden. Watch whether a failed pre-release test delays a model that would otherwise have shipped. And watch whether this referee is copied internationally or stays a three-lab club that rivals can ignore."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the AI standards body Anthropic, OpenAI, and Google discussed? It is a proposed industry-led tester for frontier models, not a regulator that exists today. CNN reported on 14 September 2026 that the three labs have discussed creating one. The Information first reported the talks. Coverage says working-group meetings have run since July. No charter, board, or start date has been published.",
+            "What is a FINRA-style AI standards body? Demis Hassabis's 14 July proposal is a US-led public-private body modelled on the Financial Industry Regulatory Authority. It would be overseen by government, funded mostly by industry, and staffed by independent experts and open-source representatives. Labs would first share frontier models voluntarily up to 30 days before release. Passing the test could later become a condition of US market access.",
+            "Have Anthropic, OpenAI, and Google created an AI safety body? No. CNN says the conversations are ongoing. The three companies declined to comment or did not respond. Treat confirmed talks as confirmed talks. Do not treat them as a standing organization with the power to block a launch.",
+            "How is an AI standards body different from pacing the frontier? Pacing is a public pledge to slow how fast labs raise capabilities so alignment and evaluators can keep up. An AI standards body is the proposed referee that would write tests and, in Hassabis's version, could later deny US market access. One is a speed limit. The other is a driving test. They can exist together. Neither has a statutory charter today.",
+            "Would an AI standards body slow model releases? Only if failing the 30-day review has a cost. Hassabis wrote that the body could coordinate a slowdown among Frontier Labs if risks demanded it. Speaker Johnson told CNN there is still no consensus among the companies. President Trump has rejected a slowdown versus China. Watch ship dates, not essays."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "claude-code-weekly-limits-september-2026",
       "title": "Claude Code Weekly Limits: A 17% Cut Anthropic Calls 25% Up",
       "excerpt": "Claude Code weekly limits changed today. The 50% boost ended 13 September. Anthropic now documents a 25% raise versus May. Versus last week that is a 17% cut.",
