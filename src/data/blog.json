@@ -38,6 +38,109 @@
   ],
   "posts": [
     {
+      "slug": "sakana-fugu-ultra-v2-fugu-max",
+      "title": "Sakana Fugu Ultra v2: Orchestration Beats a Single Flagship",
+      "excerpt": "Sakana AI shipped Fugu Ultra v2 and Fugu Max on 11 September. Ultra v2 posts 74.3 on DeepSWE without GPT-6 Astra in the pool. Max undercuts Sonnet-class output prices at $2/$6.",
+      "category": "tools",
+      "tags": [
+        "Sakana Fugu",
+        "Fugu Ultra v2",
+        "Fugu Max",
+        "multi-agent orchestration"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Sakana Fugu Ultra v2 2026: Pricing and Benchmarks",
+        "metaDescription": "Sakana AI shipped Fugu Ultra v2 and Fugu Max on 11 Sep 2026. Compare $2/$6 vs $5/$30 API pricing, DeepSWE 74.3, and when orchestration beats GPT-6 Astra.",
+        "keywords": [
+          "Sakana Fugu Ultra v2",
+          "Fugu Max pricing",
+          "Sakana AI Fugu",
+          "Fugu Ultra v2 vs GPT-6 Astra",
+          "Fugu Max token price",
+          "multi-agent orchestration model",
+          "Sakana Fugu OpenAI compatible API"
+        ]
+      },
+      "image": {
+        "src": "/blog/sakana-fugu-ultra-v2-hero.svg",
+        "alt": "Illustration of Sakana Fugu Max at $2/$6 per million tokens beside Fugu Ultra v2 at $5/$30, with DeepSWE 74.3 and no GPT-6 Astra in the pool",
+        "caption": "Same coordinator, two price points. Ultra v2's published scores do not use Astra or Fable in the pool."
+      },
+      "sources": [
+        {
+          "title": "Sakana AI: Introducing Fugu Max and Fugu Ultra v2",
+          "url": "https://sakana.ai/fugu-max-release/"
+        },
+        {
+          "title": "Sakana Fugu product page",
+          "url": "https://sakana.ai/fugu/"
+        },
+        {
+          "title": "OpenRouter: Sakana Fugu Max pricing and context",
+          "url": "https://openrouter.ai/sakana/fugu-max"
+        },
+        {
+          "title": "GIGAZINE: Fugu Ultra v2 and Fugu Max launch coverage",
+          "url": "https://gigazine.net/gsc_news/en/20260914-fugu-ultra-v2/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 11 September 2026, Tokyo lab Sakana AI released Fugu Max and Fugu Ultra v2. Both SKUs share one learned orchestration architecture, pointed at two jobs. Max asks for the best answer at the lowest token spend. Ultra v2 asks for peak quality on hard, multi-step work. Sakana's launch note is explicit that neither product is a single giant network. A coordinator routes across a pool of open-weights and specialized models, then returns one OpenAI-compatible completion.",
+            "GIGAZINE covered the launch this morning, which is why the comparison to [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) is in the feed today, three days after the API went live. Existing Fugu users change a model parameter. There is no SDK migration.",
+            "The independence claim is the headline, not a raw leaderboard sweep. Sakana says Fugu Ultra v2's training cutoff is 28 August 2026, and that Fable 5, Fable 5.1, and GPT-6 Astra are not in its agent pool. Scores that beat those flagships, if they hold, come from orchestration, not from secretly calling the models being compared."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Buyers have been paying flagship prices for mixed work. A lookup, a chart read, and a repo migration should not all hit the same trillion-parameter endpoint. Fugu Max is priced at $2 per million input tokens and $6 per million output tokens, with cached input at $0.25. Sakana says that output rate sits 40 to 60 percent below Sonnet 5, GPT 5.6 Terra, and Kimi K3, and that Max expands the cost-performance Pareto frontier on seven of ten benchmarks. OpenRouter lists the same $2/$6, a 1 million token context window, 128,000 completion tokens, image and PDF input, function calling, structured outputs, and web search at $10 per 1,000 calls.",
+            "Fugu Ultra v2 is the expensive lane: $5 input, $30 output, $0.50 cached, rising to $10 / $45 / $1.00 above 272K context. Sakana reports best or joint-best scores on five of eight hard benches (GDP.pdf, Chartography, SWEFish, DeepSWE, Toolathon) and a top-two finish on seven of eight. The two numbers it put on the chart are 48.3 on Chartography, against 27.3 for Opus 5 and 29.5 for Fable 5, and 74.3 on DeepSWE, which it says beats models that cost three to five times more per token.",
+            "This is a different bet from [OpenAI's Agents API](/blog/openai-agents-api-codex-harness), which sells a hosted harness around one lab's models. Fugu sells the router as the model. The Max pool includes NVIDIA's Nemotron family, which sits next to [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub): open weights get more valuable when something is paid to pick them. That is also the next chapter of the [model pricing reset](/blog/ai-model-pricing-is-changing-what-teams-can-ship). If Max holds quality at $6 output, flagship output prices have a new ceiling."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/sakana-fugu-ultra-v2-stack.svg",
+            "alt": "Diagram of open-weight, closed-expert, and recursive Fugu agents routing through one coordinator into a single billed OpenAI-compatible API",
+            "caption": "You send one request. Fugu assembles the crew. Pool membership and routing policy stay proprietary."
+          },
+          "paragraphs": [
+            "Engineering teams that already speak the OpenAI protocol can point a client at Sakana's endpoint, or at OpenRouter's sakana/fugu-max and sakana/fugu-ultra-v2.0 ids. Subscriptions on Sakana's product page are $20, $100, and $200 a month. Pay-as-you-go bills tokens. Sakana says that when multiple agents run, it does not stack fees. You pay a single rate based on the top-tier model involved. Orchestration tokens still count as ordinary input and output.",
+            "EU and EEA buyers are out for now. Sakana says Fugu is not yet available there while it works toward GDPR and EU-specific rules. That is a procurement fact, not a footnote. India, the US, and other non-EEA teams can trial today. Open-model builders and NVIDIA win distribution if Max's pool keeps growing. Closed labs lose a little lock-in if Ultra v2's no-Astra, no-Fable scores survive third-party evals.",
+            "Platform teams that already built an internal router should treat Fugu as a priced alternative, not as proof that homemade orchestration is free. The research underneath, Sakana's ICLR 2026 TRINITY and Conductor papers, is about learned coordinators assigning Thinker, Worker, and Verifier roles. The product wraps that in one model id. Reproducibility is the tax: you cannot inspect which specialist answered, and you cannot download the orchestrator weights."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Sakana published Max and Ultra v2 on 11 September 2026 as generally available API SKUs. Fact: list prices are $2/$6 for Max and $5/$30 for Ultra v2, with the Ultra long-context bump above 272K tokens. Fact: Sakana reports Max as best overall on six benches, including Terminal Bench 2.1, and Ultra v2 at 48.3 on Chartography and 74.3 on DeepSWE. Fact: Sakana states Fable 5, Fable 5.1, and GPT-6 Astra are not in the Ultra v2 pool. Fact: the product is API-only, with no public orchestrator weights, and is not yet sold in the EU or EEA.",
+            "Prediction: Max becomes the default trial SKU because the price is easy to defend in a budget review. Prediction: the first serious objection will be reproducibility, because pool membership and routing policy are proprietary. Prediction: if a constituent model is withdrawn or export-restricted, Ultra v2's independence story will be tested in public within a quarter."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch third-party reruns of DeepSWE, Chartography, and Terminal Bench 2.1, not only Sakana's plots. Watch whether the Ultra v2 model id fugu-ultra-v2.0 stays on the Ultra v1 $5/$30 card or gets its own rate sheet. Watch OpenRouter availability. A 1 million token context window does not help if the route is down. Watch EU access. Watch whether Nemotron remains in the Max pool after the Hugging Face integration settles. And watch how this sits against [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks): cheap open weights are more useful when a coordinator, not a human, decides when to call them."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Sakana Fugu Ultra v2? It is the quality-first SKU of Sakana AI's Fugu family, released on 11 September 2026. Sakana describes Fugu as a multi-agent system delivered as one model: a coordinator routes work across a pool of separately trained models and returns a single OpenAI-compatible response. Ultra v2 is the capability lane. Fugu Max is the cost lane.",
+            "How much does Fugu Max cost per million tokens? Sakana and OpenRouter list Fugu Max at $2 per million input tokens and $6 per million output tokens, with cached input at $0.25. OpenRouter also lists web search at $10 per 1,000 calls. Fugu Ultra v2 lists at $5 input, $30 output, and $0.50 cached, rising to $10 / $45 / $1.00 above 272K context.",
+            "Does Fugu Ultra v2 use GPT-6 Astra or Claude Fable 5.1? Sakana says no. The launch note states that Fable 5, Fable 5.1, and GPT-6 Astra are not in the Fugu Ultra v2 agent pool, and that the published scores do not rely on those proprietary flagships.",
+            "Is Sakana Fugu available in the EU? Not yet. Sakana's product page says Fugu is not available in the EU or EEA while the company works toward GDPR and EU-specific rules. Teams outside that region can use the hosted API or OpenRouter ids today."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "deepseek-v4-1-flash-pricing-api-benchmarks",
       "title": "DeepSeek V4.1 Flash: Open Weights Beat Pro on Agents",
       "excerpt": "DeepSeek shipped V4.1 Flash as deepseek-flash on 10 September. It is cheaper than V4 Pro and stronger on several agent tests. Pro still runs after today's planned cutover, because users pushed back.",
@@ -225,7 +328,7 @@
           "paragraphs": [
             "Employees and secondary holders feel it first. A 2026 OpenAI IPO was a liquidity event. A 2027 listing is another year of lockup logic, even if the S-1 remains on file. Buyers who underwrote a $1 trillion print this autumn have to re-underwrite safety process, evaluator desks, and whether [Astra](/blog/gpt-6-astra-computer-use-flagship) ship dates slip when outside reviewers get badges.",
             "Anthropic staff and Claude customers sit in the other chair. CNBC says annualized revenue hit $65 billion in July, and the Financial Times reported a second straight operating-profit quarter. That is a listing story that does not need OpenAI to go first. It is also a trust story. A CNBC Generation Lab survey of 18- to 34-year-olds found more than 75 percent do not trust Amodei to act responsibly, and about 70 percent said the same of Altman. Listing does not fix that poll. It does put the numbers in 10-Ks.",
-            "Chip vendors and cloud landlords sit in the blast radius. OpenAI told investors in February it is targeting about $600 billion of compute spend by 2030. Anthropic has stacked deals with Nscale, AMD, SpaceX, and Google. PitchBook's Harrison Rolfes told CNBC that model-company valuations may deserve a discount because it is hard to trust safe commercialization. Gene Munster of Deepwater predicted nothing material will slow, because the market is underwriting uninterrupted model gains. The honest read for anyone tracking [the chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) is to watch capex guidance, not the essay. If training calendars hold, the IPO delay is a share-class story. If they move, it is a [Jalapeño](/blog/openai-jalapeno-inference-chip) and GPU story too."
+            "Chip vendors and cloud landlords sit in the blast radius. OpenAI told investors in February it is targeting about $600 billion of compute spend by 2030. Anthropic has stacked deals with Nscale, AMD, SpaceX, and Google. PitchBook's Harrison Rolfes told CNBC that model-company valuations may deserve a discount because it is hard to trust safe commercialization. Gene Munster of Deepwater predicted nothing material will slow, because the market is underwriting uninterrupted model gains. The honest read for anyone tracking [the chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) is to watch capex guidance, not the essay. If training calendars hold, the IPO delay is a share-class story. If they move, it is a [Jalape\u00f1o](/blog/openai-jalapeno-inference-chip) and GPU story too."
           ]
         },
         {
@@ -578,11 +681,11 @@
     },
     {
       "slug": "openai-jalapeno-inference-chip",
-      "title": "OpenAI Jalapeño Chip: First Results Beat NVIDIA on Watts",
+      "title": "OpenAI Jalape\u00f1o Chip: First Results Beat NVIDIA on Watts",
       "excerpt": "OpenAI's first custom inference chip posted 1.5 to 1.9 times more work per watt at Hot Chips. The A0 samples are real. Volume, and a fair NVIDIA fight, still sit in 2027.",
       "category": "chips",
       "tags": [
-        "OpenAI Jalapeño",
+        "OpenAI Jalape\u00f1o",
         "AI chips",
         "inference",
         "NVIDIA"
@@ -590,36 +693,36 @@
       "publishedAt": "2026-09-14",
       "readingMinutes": 7,
       "seo": {
-        "metaTitle": "OpenAI Jalapeño Chip 2026: Benchmarks vs NVIDIA",
-        "metaDescription": "OpenAI's Jalapeño inference chip posted 1.5 to 1.9x more work per watt at Hot Chips. What A0 samples show vs NVIDIA, TCO vs Rubin, and when volume ships.",
+        "metaTitle": "OpenAI Jalape\u00f1o Chip 2026: Benchmarks vs NVIDIA",
+        "metaDescription": "OpenAI's Jalape\u00f1o inference chip posted 1.5 to 1.9x more work per watt at Hot Chips. What A0 samples show vs NVIDIA, TCO vs Rubin, and when volume ships.",
         "keywords": [
-          "OpenAI Jalapeño chip",
+          "OpenAI Jalape\u00f1o chip",
           "OpenAI inference chip",
-          "Jalapeño vs NVIDIA",
+          "Jalape\u00f1o vs NVIDIA",
           "custom AI ASIC",
           "OpenAI Broadcom chip"
         ]
       },
       "image": {
         "src": "/blog/openai-jalapeno-hero.svg",
-        "alt": "Illustration of the OpenAI Jalapeño inference chip showing work per watt, latency, and 2027 volume status",
-        "caption": "Jalapeño is a 700W inference ASIC, not a training GPU. OpenAI published the first InferenceX numbers on 25 Aug 2026."
+        "alt": "Illustration of the OpenAI Jalape\u00f1o inference chip showing work per watt, latency, and 2027 volume status",
+        "caption": "Jalape\u00f1o is a 700W inference ASIC, not a training GPU. OpenAI published the first InferenceX numbers on 25 Aug 2026."
       },
       "sources": [
         {
-          "title": "OpenAI: Jalapeño's first results",
+          "title": "OpenAI: Jalape\u00f1o's first results",
           "url": "https://openai.com/index/jalapeno-first-results/"
         },
         {
-          "title": "SemiAnalysis: OpenAI Jalapeño vs NVIDIA Blackwell and Rubin",
+          "title": "SemiAnalysis: OpenAI Jalape\u00f1o vs NVIDIA Blackwell and Rubin",
           "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
         },
         {
-          "title": "THE DECODER: Jalapeño beats NVIDIA Blackwell and Rubin in inference benchmarks",
+          "title": "THE DECODER: Jalape\u00f1o beats NVIDIA Blackwell and Rubin in inference benchmarks",
           "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/"
         },
         {
-          "title": "TechRadar: OpenAI lifts the lid on its in-house Jalapeño chip",
+          "title": "TechRadar: OpenAI lifts the lid on its in-house Jalape\u00f1o chip",
           "url": "https://www.techradar.com/pro/openai-lifts-the-lid-on-its-in-house-jalapeno-chip-with-benchmarks-claiming-it-beats-nvidias-gb300"
         }
       ],
@@ -627,49 +730,49 @@
         {
           "heading": "What happened",
           "paragraphs": [
-            "On August 25, 2026, OpenAI published the first results for Jalapeño, its first custom inference chip, at Hot Chips. The company designed the ASIC with Broadcom. Design work started in mid-2024. The CoWoS package taped out in November 2025. OpenAI says older models helped with the design, and current models sped up programming.",
-            "The published bake-off used SemiAnalysis InferenceX on three public models: GPT-OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. Across those rows, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. Interactive workloads were 2.1 to 4.1 times higher. GPT-OSS reached about 1,400 tokens per second per user. DeepSeek R1 topped 700 tokens per second at concurrency one. OpenAI supplied the numbers. SemiAnalysis watched some of the lab runs."
+            "On August 25, 2026, OpenAI published the first results for Jalape\u00f1o, its first custom inference chip, at Hot Chips. The company designed the ASIC with Broadcom. Design work started in mid-2024. The CoWoS package taped out in November 2025. OpenAI says older models helped with the design, and current models sped up programming.",
+            "The published bake-off used SemiAnalysis InferenceX on three public models: GPT-OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. Across those rows, Jalape\u00f1o delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. Interactive workloads were 2.1 to 4.1 times higher. GPT-OSS reached about 1,400 tokens per second per user. DeepSeek R1 topped 700 tokens per second at concurrency one. OpenAI supplied the numbers. SemiAnalysis watched some of the lab runs."
           ]
         },
         {
           "heading": "Why it matters",
           "paragraphs": [
-            "This is not another GPU SKU. Jalapeño is an inference-only ASIC. It does not train. It is also not a private OpenAI-only kernel: SemiAnalysis says the chip is a general LLM inference accelerator, and the public models in the bake-off are not OpenAI flagships. The useful metric is tokens per megawatt, because OpenAI is power-limited, not cash-limited. A 700W package that holds sustained power at or below 550W on the tested loads is a datacenter story before it is a FLOPS story.",
-            "The NVIDIA comparison is the headline, and it needs a split. Blackwell is the easy win. Vera Rubin is the fairer rival because both use HBM4, and Rubin systems already ship. SemiAnalysis says Jalapeño still leads on output tokens per megawatt, even though the NVIDIA rows used multi-token prediction and Jalapeño did not. On total cost of ownership per token, the two land roughly even today. That is the live fight: watts now, dollars later, once speculative decoding lands on the OpenAI stack. It does not rewrite the broader [NVIDIA, AMD, TPU, and Trainium race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). It adds a lab-owned inference lane inside it."
+            "This is not another GPU SKU. Jalape\u00f1o is an inference-only ASIC. It does not train. It is also not a private OpenAI-only kernel: SemiAnalysis says the chip is a general LLM inference accelerator, and the public models in the bake-off are not OpenAI flagships. The useful metric is tokens per megawatt, because OpenAI is power-limited, not cash-limited. A 700W package that holds sustained power at or below 550W on the tested loads is a datacenter story before it is a FLOPS story.",
+            "The NVIDIA comparison is the headline, and it needs a split. Blackwell is the easy win. Vera Rubin is the fairer rival because both use HBM4, and Rubin systems already ship. SemiAnalysis says Jalape\u00f1o still leads on output tokens per megawatt, even though the NVIDIA rows used multi-token prediction and Jalape\u00f1o did not. On total cost of ownership per token, the two land roughly even today. That is the live fight: watts now, dollars later, once speculative decoding lands on the OpenAI stack. It does not rewrite the broader [NVIDIA, AMD, TPU, and Trainium race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). It adds a lab-owned inference lane inside it."
           ]
         },
         {
           "heading": "Who is affected",
           "image": {
             "src": "/blog/openai-jalapeno-compare.svg",
-            "alt": "Diagram comparing OpenAI Jalapeño with NVIDIA on watts, total cost of ownership, and shipping timelines",
+            "alt": "Diagram comparing OpenAI Jalape\u00f1o with NVIDIA on watts, total cost of ownership, and shipping timelines",
             "caption": "Score three things separately: work per watt, tokens per dollar, and whether the chip is in a rack customers can buy."
           },
           "paragraphs": [
-            "OpenAI's own serving fleet feels it first. More tokens per watt is how [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use traffic, voice minutes, and agent traces stay inside a power envelope. CFO Sarah Friar said Jalapeño complements NVIDIA, AMD, AWS, Cerebras, and CoreWeave rather than replacing them. Treat that as capacity planning, not a breakup. NVIDIA still sells OpenAI a lot of silicon. OpenAI now has a second supply of inference watts.",
-            "Buyers who want a Japan-origin, air-cooled CPU path should keep reading [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu). That is a sovereignty product. Jalapeño is a frontier-lab product. Cloud operators and GPU lessors should watch software bring-up more than the press chart. SemiAnalysis noted that OpenAI stood up a stack from zero in months, which is why the CUDA moat argument is in play. Model distribution is a different layer: [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) still sits on the hub side, not the serving ASIC."
+            "OpenAI's own serving fleet feels it first. More tokens per watt is how [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use traffic, voice minutes, and agent traces stay inside a power envelope. CFO Sarah Friar said Jalape\u00f1o complements NVIDIA, AMD, AWS, Cerebras, and CoreWeave rather than replacing them. Treat that as capacity planning, not a breakup. NVIDIA still sells OpenAI a lot of silicon. OpenAI now has a second supply of inference watts.",
+            "Buyers who want a Japan-origin, air-cooled CPU path should keep reading [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu). That is a sovereignty product. Jalape\u00f1o is a frontier-lab product. Cloud operators and GPU lessors should watch software bring-up more than the press chart. SemiAnalysis noted that OpenAI stood up a stack from zero in months, which is why the CUDA moat argument is in play. Model distribution is a different layer: [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) still sits on the hub side, not the serving ASIC."
           ]
         },
         {
           "heading": "Facts versus predictions",
           "paragraphs": [
-            "Fact: OpenAI published the 1.5x to 1.9x work-per-watt and 1.7x to 3.6x latency ranges on 25 August 2026 for the three public models above. Fact: Jalapeño A0 is rated at 700W, uses HBM4, and has not shipped beyond engineering samples. Fact: SemiAnalysis verified some InferenceX runs in person and still flags missing AgentX results, missing larger models such as DeepSeek V4 Pro and Kimi K3, and a Rubin fleet that already ships.",
-            "Prediction: the B0 stepping, which SemiAnalysis says is in the fab with about 25% better performance per watt, will matter more than the A0 press chart. Prediction: NVIDIA will not lose training share to Jalapeño this cycle. The fight is inference TCO inside OpenAI's own halls, then whether those kernels ever become a merchant SKU."
+            "Fact: OpenAI published the 1.5x to 1.9x work-per-watt and 1.7x to 3.6x latency ranges on 25 August 2026 for the three public models above. Fact: Jalape\u00f1o A0 is rated at 700W, uses HBM4, and has not shipped beyond engineering samples. Fact: SemiAnalysis verified some InferenceX runs in person and still flags missing AgentX results, missing larger models such as DeepSeek V4 Pro and Kimi K3, and a Rubin fleet that already ships.",
+            "Prediction: the B0 stepping, which SemiAnalysis says is in the fab with about 25% better performance per watt, will matter more than the A0 press chart. Prediction: NVIDIA will not lose training share to Jalape\u00f1o this cycle. The fight is inference TCO inside OpenAI's own halls, then whether those kernels ever become a merchant SKU."
           ]
         },
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch whether end-of-2026 means a handful of racks or a named cluster. Watch AgentX and long-context cache behavior, because 8k-in/1k-out is an easier workload than agent traces. Watch speculative decoding on Jalapeño; SemiAnalysis treats that as leftover headroom versus Rubin. Watch B0 silicon and 2027 volume, not just A0 demos. And watch whether OpenAI keeps buying NVIDIA systems at scale. A custom chip that complements the GPU bill is a win. A custom chip that has to replace it, before yield and compilers are boring, is a risk."
+            "Watch whether end-of-2026 means a handful of racks or a named cluster. Watch AgentX and long-context cache behavior, because 8k-in/1k-out is an easier workload than agent traces. Watch speculative decoding on Jalape\u00f1o; SemiAnalysis treats that as leftover headroom versus Rubin. Watch B0 silicon and 2027 volume, not just A0 demos. And watch whether OpenAI keeps buying NVIDIA systems at scale. A custom chip that complements the GPU bill is a win. A custom chip that has to replace it, before yield and compilers are boring, is a risk."
           ]
         },
         {
           "heading": "FAQ",
           "paragraphs": [
-            "What is the OpenAI Jalapeño chip? It is OpenAI's first custom AI inference ASIC, co-designed with Broadcom and shown at Hot Chips on 25 August 2026. It runs large language models. It does not train them. OpenAI says the architecture works on in-house and third-party models.",
-            "How does the OpenAI Jalapeño chip compare with NVIDIA? On the published InferenceX rows, Jalapeño delivered 1.5 to 1.9 times more work per watt than the comparison NVIDIA systems, with 1.7 to 3.6 times lower latency. SemiAnalysis says Vera Rubin is the fairer rival than Blackwell. Tokens per dollar currently land about even.",
-            "When will the OpenAI Jalapeño chip ship? OpenAI plans to start deploying Jalapeño in its own compute fleet by the end of 2026. SemiAnalysis and later coverage say volume ramps through 2027. What exists today is A0 engineering-sample silicon, with a B0 stepping already in the fab.",
-            "Does Jalapeño replace NVIDIA GPUs? No. OpenAI still partners with NVIDIA, AMD, AWS, and other suppliers. Jalapeño is an extra inference supply inside a power-limited fleet. Training-scale clusters, and chips customers can order this quarter, still sit on merchant GPUs, TPUs, and Trainium."
+            "What is the OpenAI Jalape\u00f1o chip? It is OpenAI's first custom AI inference ASIC, co-designed with Broadcom and shown at Hot Chips on 25 August 2026. It runs large language models. It does not train them. OpenAI says the architecture works on in-house and third-party models.",
+            "How does the OpenAI Jalape\u00f1o chip compare with NVIDIA? On the published InferenceX rows, Jalape\u00f1o delivered 1.5 to 1.9 times more work per watt than the comparison NVIDIA systems, with 1.7 to 3.6 times lower latency. SemiAnalysis says Vera Rubin is the fairer rival than Blackwell. Tokens per dollar currently land about even.",
+            "When will the OpenAI Jalape\u00f1o chip ship? OpenAI plans to start deploying Jalape\u00f1o in its own compute fleet by the end of 2026. SemiAnalysis and later coverage say volume ramps through 2027. What exists today is A0 engineering-sample silicon, with a B0 stepping already in the fab.",
+            "Does Jalape\u00f1o replace NVIDIA GPUs? No. OpenAI still partners with NVIDIA, AMD, AWS, and other suppliers. Jalape\u00f1o is an extra inference supply inside a power-limited fleet. Training-scale clusters, and chips customers can order this quarter, still sit on merchant GPUs, TPUs, and Trainium."
           ]
         }
       ]
@@ -1617,7 +1720,7 @@
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability — not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
+            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability \u2014 not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
           ]
         }
       ]
@@ -1681,7 +1784,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: employers are already rewriting job descriptions around AI tools and asking for evaluation, prompt-to-product workflow, and systems thinking. Fact: several support and content operations teams have already reduced junior layers.",
-            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end — data, evals, fallbacks, and cost — more than people who only generate drafts."
+            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end \u2014 data, evals, fallbacks, and cost \u2014 more than people who only generate drafts."
           ]
         },
         {
@@ -1740,7 +1843,7 @@
         {
           "heading": "What changed for builders",
           "paragraphs": [
-            "Features that used to stay in internal demos — full-repo review, continuous research agents, meeting-to-ticket pipelines — are crossing into production because inference is cheaper and routing is better.",
+            "Features that used to stay in internal demos \u2014 full-repo review, continuous research agents, meeting-to-ticket pipelines \u2014 are crossing into production because inference is cheaper and routing is better.",
             "The winning architecture is rarely 'one frontier model for everything.' It is a router: cheap models for classification and extraction, mid-tier models for drafting, and expensive models only for high-stakes reasoning."
           ]
         },
@@ -1798,7 +1901,7 @@
           "heading": "The pattern that works",
           "paragraphs": [
             "The tools that stick are not generic chat windows. They are copilots with a privileged seat: the IDE, the ticket queue, the CRM, the browser tab where research already happens.",
-            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals — not another landing page."
+            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals \u2014 not another landing page."
           ]
         },
         {
@@ -1875,7 +1978,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: multiple labs now ship models that can use tools and long documents in production. Fact: distillation and smaller specialist models are doing more real traffic than keynote clips suggest.",
-            "Prediction: the next year rewards teams that version prompts, evals, and models together — the same way they already version APIs — more than teams that chase every launch."
+            "Prediction: the next year rewards teams that version prompts, evals, and models together \u2014 the same way they already version APIs \u2014 more than teams that chase every launch."
           ]
         }
       ]
@@ -2051,7 +2154,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: benchmark saturation and contamination are widely reported problems. Fact: regulators and large buyers are asking for documented risk processes, not vibes.",
-            "Prediction: the next prestige research area that product companies will hire for is evaluation science — people who can prove a system improved — not only people who can call a new API."
+            "Prediction: the next prestige research area that product companies will hire for is evaluation science \u2014 people who can prove a system improved \u2014 not only people who can call a new API."
           ]
         }
       ]
