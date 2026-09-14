@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Z.AI $5 billion raise for Fully Self-Training GLM</title>
+  <desc id="desc">Editorial illustration of Z.AI Co Ltd filing a Hong Kong share placing of about $2 billion and a $3 billion zero-coupon convertible bond sale on 13 September 2026, with 60 percent of net proceeds earmarked for next-generation GLM models and Fully Self-Training. Cash is not in the bank until closing.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1060" cy="560" r="250" fill="#F4C15D" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Z.AI $5 billion: a filing, not a banked cheque</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">HKEX 13 Sep 2026  |  2513.HK  |  60% to GLM and Fully Self-Training</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">H-share placing</text>
+  <rect x="142" y="272" width="252" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="306" width="198" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="340" width="230" height="22" rx="6" fill="#12355A"/>
+  <text x="142" y="392" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Up to 21.965m shares at HK$714</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Gross ~HK$15.68b  |  close 16 Sep</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="472" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Convertible bonds</text>
+  <rect x="472" y="272" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="488" y="304" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">RMB 20.14b, USD settled</text>
+  <text x="488" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Zero coupon, due 16 Sep 2027</text>
+  <text x="488" y="352" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Convert at HK$892.50</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Gross ~US$3.02b  |  issue 18 Sep</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="802" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Use of proceeds</text>
+  <rect x="802" y="272" width="252" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="300" width="210" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="328" width="236" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="356" width="168" height="18" rx="5" fill="#12355A"/>
+  <text x="802" y="402" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">60% GLM + Fully Self-Training</text>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">15% expansion  |  25% balance sheet</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Reuters rounded the two deals to $5 billion. The filing still lists closing conditions.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Score cash on the closing dates, not the Sunday announcement.</text>
+</svg>
