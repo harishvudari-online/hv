@@ -38,6 +38,118 @@
   ],
   "posts": [
     {
+      "slug": "openai-ipo-delay-2026-safety",
+      "title": "OpenAI IPO Delay: Altman Takes 2026 Off the Table",
+      "excerpt": "Sam Altman told Fortune a 2026 listing would be an ill-advised moment. Sarah Friar already told staff OpenAI will be public in 2027. Anthropic is still walking toward Nasdaq.",
+      "category": "companies",
+      "tags": [
+        "OpenAI IPO",
+        "OpenAI IPO delay",
+        "Sam Altman",
+        "Anthropic IPO"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "OpenAI IPO Delay 2026: Not This Year, Wait for 2027",
+        "metaDescription": "Sam Altman told Fortune a 2026 OpenAI IPO would be ill-advised. What the delay, Sarah Friar's 2027 target, and Anthropic's Nasdaq path mean for investors.",
+        "keywords": [
+          "OpenAI IPO delay",
+          "OpenAI IPO 2026",
+          "will OpenAI go public in 2026",
+          "OpenAI IPO 2027",
+          "Sam Altman IPO",
+          "Sarah Friar OpenAI",
+          "Anthropic IPO Nasdaq"
+        ]
+      },
+      "image": {
+        "src": "/blog/openai-ipo-delay-hero.svg",
+        "alt": "Illustration of OpenAI taking 2026 off the IPO calendar, pointing to a 2027 listing, while Anthropic keeps a Nasdaq path open",
+        "caption": "Altman took 2026 off the table. Friar already told staff the public company year is 2027. Anthropic has not matched that pause."
+      },
+      "sources": [
+        {
+          "title": "Fortune: Sam Altman says an OpenAI IPO now would be an ill-advised moment",
+          "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
+        },
+        {
+          "title": "CNBC: Anthropic walks tightrope to Nasdaq while pushing a slowdown",
+          "url": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html"
+        },
+        {
+          "title": "CNBC: Sam Altman on why the AI industry wants to slow down",
+          "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html"
+        },
+        {
+          "title": "The New York Times: OpenAI leans toward holding up IPO until next year",
+          "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html"
+        },
+        {
+          "title": "Reuters: OpenAI leans toward waiting until next year for IPO",
+          "url": "https://www.reuters.com/business/trump-administration-asks-openai-stagger-release-new-model-information-reports-2026-06-25/"
+        },
+        {
+          "title": "Bloomberg: OpenAI IPO will not happen until 2027, Altman tells Fortune",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "The OpenAI IPO delay is now a quote, not a rumor. In a Fortune interview published Saturday, September 12, 2026, Sam Altman said a listing this year would be an ill-advised moment, given what is happening with safety. Pressed on whether 2026 is off in favor of 2027, he answered, not 2026. The company still has a confidential S-1. It does not have a 2026 pricing date.",
+            "The CFO already set the year. CNBC reports that Sarah Friar told employees at an all-hands last month that OpenAI will be a public company in 2027. That matches the June New York Times account that OpenAI was leaning toward waiting, after advisers offered a choice between a 2027 listing near a $1 trillion valuation and a faster deal at a lower mark. Altman treated the trillion-dollar bar as non-negotiable then. He is now treating the calendar as non-negotiable too.",
+            "The reason he named is governance, not a missed banker window. OpenAI has lived with a split nonprofit and for-profit structure so it can make decisions that are not obviously in the interest of the business and its shareholders, he told Fortune. He said society needs to contend with models at each level of capability, and that the company has discussed pauses when it hits new capability rungs. That is the same week he backed Dario Amodei's call to [pace the frontier](/blog/pace-the-frontier-ai-slowdown), and the same month [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) is still rolling out as a computer-use flagship."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking will OpenAI go public in 2026 now have a CEO answer: no. The useful follow-up is why the OpenAI IPO delay is a safety story rather than a market-window story. Altman tied the wait to alignment work, independent evaluators, and room to ignore shareholder pressure. A public company that can pause a training run is a different product from a public company that has to explain a missed quarter after it pauses a training run.",
+            "The contrast sitting on the same tape is Anthropic. CNBC reported Monday that Anthropic, last marked at $965 billion, confidentially filed in June, picked Nasdaq, and is still meeting prospective investors for a debut that some bankers have talked up near $2 trillion. Amodei published the pacing essay on Saturday. He did not take the IPO off the table. Investor Matt Murphy told CNBC he does not see why growth would slow or why the company should wait. Altimeter's Brad Gerstner, who holds both names, said Anthropic will likely forge ahead and that the market knows how to price risk, pointing at SpaceX.",
+            "SpaceX is the 2026 precedent Altman has to live next to. Fortune notes the rocket-and-AI listing raised $85 billion in June, jumped toward $1.8 trillion, then cooled. CNBC now puts SpaceX around $2 trillion, with Grok inside that stack and already showing up in [Microsoft Copilot](/blog/grok-microsoft-copilot-word-excel-powerpoint). Public investors can buy that AI exposure today. They cannot buy OpenAI. If Anthropic lists first, the first clean public multiple on a frontier lab will be Claude's, not ChatGPT's."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/openai-ipo-delay-paths.svg",
+            "alt": "Diagram comparing OpenAI's 2027 public-company target with Anthropic's nearer Nasdaq path and SpaceX as the 2026 IPO precedent",
+            "caption": "Three clocks. OpenAI says 2027. Anthropic is still in investor meetings. SpaceX is already public."
+          },
+          "paragraphs": [
+            "Employees and secondary holders feel it first. A 2026 OpenAI IPO was a liquidity event. A 2027 listing is another year of lockup logic, even if the S-1 remains on file. Buyers who underwrote a $1 trillion print this autumn have to re-underwrite safety process, evaluator desks, and whether [Astra](/blog/gpt-6-astra-computer-use-flagship) ship dates slip when outside reviewers get badges.",
+            "Anthropic staff and Claude customers sit in the other chair. CNBC says annualized revenue hit $65 billion in July, and the Financial Times reported a second straight operating-profit quarter. That is a listing story that does not need OpenAI to go first. It is also a trust story. A CNBC Generation Lab survey of 18- to 34-year-olds found more than 75 percent do not trust Amodei to act responsibly, and about 70 percent said the same of Altman. Listing does not fix that poll. It does put the numbers in 10-Ks.",
+            "Chip vendors and cloud landlords sit in the blast radius. OpenAI told investors in February it is targeting about $600 billion of compute spend by 2030. Anthropic has stacked deals with Nscale, AMD, SpaceX, and Google. PitchBook's Harrison Rolfes told CNBC that model-company valuations may deserve a discount because it is hard to trust safe commercialization. Gene Munster of Deepwater predicted nothing material will slow, because the market is underwriting uninterrupted model gains. The honest read for anyone tracking [the chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) is to watch capex guidance, not the essay. If training calendars hold, the IPO delay is a share-class story. If they move, it is a [Jalapeño](/blog/openai-jalapeno-inference-chip) and GPU story too."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Altman told Fortune on 12 September 2026 that a listing now would be an ill-advised moment and that 2026 is not the year. Fact: Friar told staff OpenAI will be a public company in 2027. Fact: OpenAI has a confidential S-1 and, as of June reporting, aimed at a valuation near $1 trillion. Fact: Anthropic confidentially filed in June, has selected Nasdaq, was last privately marked at $965 billion, and is still meeting investors. Fact: SpaceX listed in June and is now valued around $2 trillion. Fact: Altman said the split nonprofit structure exists so OpenAI can make calls that are not obviously in shareholders' interest.",
+            "Prediction: Anthropic lists before OpenAI, unless the pacing essay becomes a prospectus risk factor that clears the calendar. Prediction: OpenAI's 2027 year holds only if evaluator access and a federal framework look real, not if Astra's product calendar is the only clock. Prediction: public multiples will haircut frontier labs for containment incidents, then pay up for revenue if Claude and ChatGPT keep compounding."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether OpenAI amends or withdraws the confidential S-1, or simply lets it age into 2027. Watch Friar's next all-hands language for a quarter, not a year. Watch Anthropic's public prospectus, exchange, and whether the pacing plan shows up as a risk factor or a marketing line. Watch AI stocks after Monday's slide, and whether capex from Microsoft, Amazon, Google, and NVIDIA actually flexes. Watch whether independent evaluators get named desks, which is the live test in the [pace the frontier](/blog/pace-the-frontier-ai-slowdown) briefing. And watch the Hugging Face incident's legal tail, because that breach is now part of the IPO narrative, not only a [hub acquisition](/blog/nvidia-buys-hugging-face-open-model-hub) story."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "Will OpenAI go public in 2026? No. Sam Altman told Fortune a 2026 IPO would be an ill-advised moment and said the year is not 2026. CFO Sarah Friar told employees last month that OpenAI will be a public company in 2027.",
+            "Why did OpenAI delay its IPO? Altman named safety and alignment, not a closed market window. He said society has to contend with models at each capability level, that the company has discussed pauses, and that OpenAI's nonprofit control exists so it can make decisions that are not obviously in shareholders' interest.",
+            "When is the OpenAI IPO now expected? OpenAI has not set a 2027 pricing date. The live year is 2027, from Friar's all-hands comment and Altman's Fortune interview. A confidential S-1 is already on file from earlier this year.",
+            "Is Anthropic still going public in 2026? It has not taken the listing off the table. CNBC reported Monday that Anthropic picked Nasdaq, is meeting prospective investors, and was last privately valued at $965 billion, with some bankers talking about a much larger debut. Timing can still slip.",
+            "Does the AI slowdown cancel the OpenAI IPO? No. Altman backed pacing and independent evaluators, and he ruled out a 2026 listing. He did not cancel going public. The delay is a year and a governance claim, not a withdrawal from public markets."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "grok-microsoft-copilot-word-excel-powerpoint",
       "title": "Grok in Microsoft Copilot: Word, Excel, and PowerPoint",
       "excerpt": "Microsoft is putting Grok from SpaceXAI into Copilot inside Word, Excel, and PowerPoint. It is a Frontier preview, off by default, and blocked in the EU, EFTA, and UK.",
