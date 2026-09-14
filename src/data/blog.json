@@ -37,6 +37,126 @@
     }
   ],
   "posts": [
+    {
+      "slug": "microsoft-mai-code-of-conduct-consultation",
+      "title": "Microsoft MAI Code of Conduct Opens for Public Consultation",
+      "excerpt": "Satya Nadella said Microsoft will publish a Code of Conduct for first-party MAI models today. The pledge covers Humanist Superintelligence, embedded evaluators, and enterprise-owned weights. The customer services code is a different document.",
+      "category": "companies",
+      "tags": [
+        "Microsoft MAI",
+        "MAI Code of Conduct",
+        "Satya Nadella",
+        "Humanist Superintelligence"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Microsoft MAI Code of Conduct 2026: Consultation Guide",
+        "metaDescription": "Microsoft opens a public MAI Code of Conduct consultation today. What Nadella pledged, which models it covers, and how it differs from the customer services code.",
+        "keywords": [
+          "Microsoft MAI Code of Conduct",
+          "MAI Code of Conduct public consultation",
+          "Satya Nadella superintelligence",
+          "Humanist Superintelligence",
+          "MAI-Thinking-1",
+          "Microsoft first-party AI models",
+          "Microsoft Enterprise AI Services Code of Conduct",
+          "Satya Nadella embedded evaluators"
+        ]
+      },
+      "image": {
+        "src": "/blog/microsoft-mai-code-of-conduct-hero.svg",
+        "alt": "Illustration of the Microsoft MAI Code of Conduct public consultation on 14 September 2026, with Nadella's human-control pledge beside the MAI model family on Foundry and OpenRouter",
+        "caption": "The headline is a Code of Conduct for first-party MAI models. The May 2026 customer services code is already live and is not today's document."
+      },
+      "sources": [
+        {
+          "title": "Microsoft AI: Building a hill-climbing machine, launching seven new MAI models",
+          "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+        },
+        {
+          "title": "Microsoft Blog: Microsoft Build 2026",
+          "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+        },
+        {
+          "title": "Microsoft AI: Introducing MAI-Thinking-1",
+          "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
+        },
+        {
+          "title": "Microsoft Learn: Use MAI-Thinking-1 in Foundry",
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-thinking"
+        },
+        {
+          "title": "Microsoft Learn: Code of Conduct for Microsoft AI Services",
+          "url": "https://learn.microsoft.com/en-us/legal/ai-code-of-conduct"
+        },
+        {
+          "title": "Anadolu Agency: Microsoft chief backs pacing AI and independent evaluators",
+          "url": "https://www.aa.com.tr/en/world/microsoft-chief-backs-pacing-ai-independent-evaluators-for-superintelligence/4056214"
+        },
+        {
+          "title": "Unite.AI: Nadella announces public consultation on Microsoft MAI model rules",
+          "url": "https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/"
+        },
+        {
+          "title": "TechBriefly: Nadella says superintelligence without human control is not worth it",
+          "url": "https://techbriefly.com/2026/09/14/nadella-superintelligence-not-worth-pursuing-human-control/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 13 September 2026, Microsoft chairman and CEO Satya Nadella posted that any pursuit of superintelligence has to stay grounded in one test: if the AI is not helping humanity and is not under human control, it is not worth pursuing. He welcomed the research and the \"deliberate pacing needed to get alignment right,\" backed ideas such as embedded evaluators, and said governance cannot be controlled by a handful of entities. It has to draw in the ecosystem, countries, academia, and other fields. He also said Microsoft would publish a Code of Conduct underlying its first-party MAI models for public consultation on Monday, 14 September 2026. Anadolu Agency, Unite.AI, and TechBriefly all carried that timeline. Mustafa Suleyman, CEO of Microsoft AI, replied the same day. He called the view straightforward common sense, and said any technology that fails to serve humanity is a failure and should be rejected.",
+            "The MAI family is not a new rumor. On 2 June 2026, at Build, Microsoft AI launched seven in-house models. [MAI-Thinking-1](https://microsoft.ai/news/introducing-mai-thinking-1/) is the flagship reasoning SKU: a mid-sized sparse mixture of experts with about 35 billion active parameters, a 256K context window, no third-party distillation, and a public preview on Microsoft Foundry. MAI-Code-1-Flash is the Copilot and VS Code coding SKU, with 5 billion active parameters. MAI-Image-2.5 and its Flash variant cover text-to-image and image editing. MAI Transcribe-1.5 lists 43 languages. MAI-Voice-2 lists more than 15, with a Flash variant then listed as coming soon. The same June note put the models on Foundry, OpenRouter, Fireworks, and Baseten, and said developers would be able to tune the weights themselves. The lab's stated goal is Humanist Superintelligence: advanced systems designed to serve people and organizations, remaining tools under human oversight.",
+            "Do not confuse today's consultation with a document that already exists. Microsoft Learn hosts the [Enterprise AI Services Code of Conduct](https://learn.microsoft.com/en-us/legal/ai-code-of-conduct), last revised as version 4.0 on 1 May 2026. That text binds customers of Microsoft AI Services. MAI model cards already point at it. Nadella's 14 September consultation is about rules under the first-party MAI models themselves. As of this briefing, microsoft.ai and the Microsoft blog have not posted a public URL for that new consultation text. The Sunday post is on the record. The PDF is the missing artifact."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The [pace the frontier](/blog/pace-the-frontier-ai-slowdown) debate is about slowing how fast labs raise capabilities. Microsoft's move is narrower and more commercial. It is about how first-party MAI models should behave, who owns the learning loop, and whether a hyperscaler's own stack will take outside desks the way Anthropic and OpenAI pledged evaluator access. A Code of Conduct that names SKUs, audit rights, and weight ownership is a procurement document. A slogan about Humanist Superintelligence is not.",
+            "Nadella's operational line is enterprise control. He wrote that every organization should be able to build its own continuous learning loop, or hill-climbing machine, without becoming dependent on any one model provider, and should embed its knowledge in models and weights it controls. That matches Frontier Tuning from the June launch: reinforcement learning inside the customer's boundary. Microsoft said a tuned Excel MAI model matched GPT 5.4 while being up to 10 times more efficient. If the consultation makes that ownership a rule, buyers get a test they can write into a contract. If it stays a slide, [enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) still fails the same way: the platform SKU is treated as infrastructure until the policy attached to it changes.",
+            "It also sits next to Microsoft's other Copilot story this week. [Grok in Word, Excel, and PowerPoint](/blog/grok-microsoft-copilot-word-excel-powerpoint) is a third-party SpaceXAI model behind an admin gate, off in the EU. MAI-Code-1-Flash and MAI-Thinking-1 are first-party SKUs already in Copilot, Foundry, and VS Code. A Code of Conduct that only covers MAI leaves Grok, OpenAI, and Anthropic routes on different paper. Buyers need to know which policy attaches to which model ID. Microsoft's lab also says it does not distill from other labs, which is the opposite of the unauthorized [Claude distillation](/blog/anthropic-claude-distillation-threat-report) CISA is tracking. A public MAI code that repeats the no-distillation claim, with a right to inspect data lineage, would be stronger than a model-card footnote. That is the same [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) product teams already feel when a safety claim cannot be checked."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/microsoft-mai-code-of-conduct-stack.svg",
+            "alt": "Diagram separating Microsoft's May 2026 customer Enterprise AI Services Code of Conduct, the 14 September 2026 first-party MAI Code of Conduct consultation, and the embedded evaluator pledge Nadella backed",
+            "caption": "Score three columns. The customer code is live. The MAI model consultation needs a URL. Evaluator desks need a named start date."
+          },
+          "paragraphs": [
+            "Foundry and Azure application teams feel it first. MAI-Thinking-1 is already a Chat Completions deployment in Microsoft Foundry, with model version 2026-06-01. If the Code of Conduct adds use limits, logging, or independent review on that ID, every agent that hardcoded it needs a policy pass, not a model swap. Copilot and VS Code teams on MAI-Code-1-Flash sit in the same blast radius. The June model card already points at GitHub Copilot terms plus the customer services code. Today's consultation is the extra layer, if it actually publishes.",
+            "Security, legal, and procurement sit one layer up. They already have a customer Code of Conduct, Responsible AI Standard language, and product terms. They do not yet have a first-party MAI-model code they can comment on. The useful questions are specific: which MAI SKUs are in scope, whether Frontier Tuning and Mayo Clinic co-created weights are in or out, whether OpenRouter and Fireworks copies follow the same text, and whether Grok in Copilot is carved out. Open-source buyers should read the closed-and-open sentence in Nadella's post as a direction, not a license grant.",
+            "Safety organizations are the third lane. Anthropic named METR-class evaluators with desks and the right to publish. OpenAI said it would match employee-like access. Nadella backed embedded evaluators as an idea and asked for mechanisms that make the talk real. He did not name an evaluator, a start date, or a publish-without-edit clause for Microsoft. Until those appear, Microsoft has endorsed the [pacing](/blog/pace-the-frontier-ai-slowdown) direction without matching the only live commitment on the table."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Nadella said on 13 September 2026 that Microsoft would publish a Code of Conduct for first-party MAI models for public consultation on 14 September 2026, and that superintelligence which does not help humanity or stay under human control is not worth pursuing. Fact: Suleyman publicly backed that standard the same day. Fact: Microsoft AI launched the MAI family on 2 June 2026, including MAI-Thinking-1, MAI-Code-1-Flash, MAI-Image-2.5, MAI Transcribe-1.5, and MAI-Voice-2, with distribution on Foundry, OpenRouter, Fireworks, and Baseten. Fact: MAI-Thinking-1 is documented on Microsoft Learn as a Foundry preview with model version 2026-06-01. Fact: the Enterprise AI Services Code of Conduct version 4.0 is dated 1 May 2026 and applies to customers of Microsoft AI Services. Fact: as of this briefing, a public consultation URL for a new first-party MAI-model Code of Conduct has not appeared on microsoft.ai or the Microsoft blog.",
+            "Prediction: the consultation text will look more like an update to model-card and Responsible AI language than like Anthropic's evaluator contract, unless it names an outside team with publish rights. Prediction: Grok and other third-party Copilot models will stay on separate terms, which is the first confusion in tenant reviews. Prediction: Frontier Tuning customers will care more about weight ownership and data residency clauses than about the Humanist Superintelligence slogan. Do not staff a compliance program on a Sunday social post."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Microsoft posts a dated consultation page, a comment window, and a list of MAI SKUs in scope. Watch whether the text covers only first-party MAI models or also third-party Copilot routes such as Grok. Watch whether it adds evaluator desks, badges, and a no-editorial-veto publish right, or only restates Humanist Superintelligence. Watch Foundry and OpenRouter listings for MAI-Thinking-1 and MAI-Code-1-Flash, in case use limits or logging change with the code. Watch Frontier Tuning and the Mayo Clinic co-created health model for a different ownership clause. And watch whether Microsoft names an independent evaluator this quarter. If the calendars for MAI, Copilot, and Astra do not move, pacing remains messaging."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the Microsoft MAI Code of Conduct? It is the first-party rule set Satya Nadella said Microsoft would publish on 14 September 2026 for public consultation, covering in-house MAI models. It is not the same document as the Enterprise AI Services Code of Conduct that already binds customers on Microsoft Learn.",
+            "Does the MAI Code of Conduct replace Microsoft's Enterprise AI Services Code of Conduct? No. Version 4.0 of the customer services code is dated 1 May 2026 and still applies to Microsoft AI Services. MAI model cards already cite it. Nadella's consultation is an additional layer for first-party MAI models. Until Microsoft posts the new text, treat the May customer code as the live contract and the Sunday post as intent.",
+            "Which Microsoft MAI models does the consultation cover? Nadella said it underlies first-party MAI models. The June 2026 family includes MAI-Thinking-1, MAI-Code-1-Flash, MAI-Image-2.5, MAI Transcribe-1.5, and MAI-Voice-2, plus Flash variants. The consultation page, once posted, has to name the SKUs. Third-party Copilot models such as Grok are a separate paper trail unless the text says otherwise.",
+            "Did Satya Nadella agree to slow down AI development? He welcomed deliberate pacing so alignment can be a design goal, and he backed embedded evaluators. He also said AI benefits should spread, and that enterprises should keep control of their own learning loops and weights. That is not a training freeze. Microsoft has not matched Anthropic's named evaluator commitment with a start date."
+          ]
+        }
+      ]
+    },
 {
       "slug": "grok-4-8-release-date",
       "title": "Grok 4.8 Release Date: A 2.5T Model With No API",
