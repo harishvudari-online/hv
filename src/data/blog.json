@@ -38,6 +38,126 @@
   ],
   "posts": [
     {
+      "slug": "amazon-nova-premier-eol-bedrock",
+      "title": "Amazon Nova Premier End of Life: Two Bedrock Models Die Today",
+      "excerpt": "AWS Bedrock stops Nova Premier and original Nova Sonic today. Canvas and Reel follow on 30 September. Nova 2 Lite, Nova 2 Sonic, Forge, and Act stay. Migration is not automatic.",
+      "category": "pricing",
+      "tags": [
+        "Amazon Nova",
+        "Nova Premier",
+        "AWS Bedrock",
+        "model lifecycle"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Amazon Nova Premier EOL 2026: Bedrock Cutover Guide",
+        "metaDescription": "Amazon Nova Premier and original Nova Sonic hit end of life today. What Bedrock rejects, which Nova 2 SKUs stay, and the 30 Sep Canvas and Reel cutoff.",
+        "keywords": [
+          "Amazon Nova Premier end of life",
+          "Amazon Nova Premier EOL",
+          "amazon.nova-premier-v1:0",
+          "Nova Sonic end of life",
+          "AWS Bedrock Nova migration",
+          "Nova Canvas end of life",
+          "Nova Reel end of life",
+          "Nova 2 Sonic vs Nova Sonic"
+        ]
+      },
+      "image": {
+        "src": "/blog/amazon-nova-premier-eol-hero.svg",
+        "alt": "Illustration of Amazon Nova Premier and original Nova Sonic shutting down on 14 September 2026 beside Nova 2 Lite, Nova 2 Sonic, Forge, and Act that remain active",
+        "caption": "Two model IDs stop today. AWS will not remap them. Canvas and Reel have 16 days left."
+      },
+      "sources": [
+        {
+          "title": "AWS: Amazon Nova Premier model card",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-premier.html"
+        },
+        {
+          "title": "AWS: Amazon Bedrock model lifecycle",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
+        },
+        {
+          "title": "AWS: Amazon Nova Sonic model card",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-sonic.html"
+        },
+        {
+          "title": "AWS: Amazon Nova 2 Sonic model card",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html"
+        },
+        {
+          "title": "AWS: Amazon Nova Canvas model card",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-canvas.html"
+        },
+        {
+          "title": "AWS: Amazon Nova Reel model card",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-reel.html"
+        },
+        {
+          "title": "Reuters: Amazon winds down most flagship AI models",
+          "url": "https://finance.yahoo.com/technology/ai/articles/amazon-winds-down-most-flagship-103406019.html"
+        },
+        {
+          "title": "AWS: Amazon Nova product page",
+          "url": "https://aws.amazon.com/nova/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Amazon Bedrock reaches the published end of life for two first-party models: Nova Premier (`amazon.nova-premier-v1:0`) and the original Nova Sonic (`amazon.nova-sonic-v1:0`). AWS's model cards list those dates in plain text. After the EOL date, the company says the model is removed from all Regions and requests fail, unless you have a private arrangement with the provider. Migration does not happen automatically. If a production path still points at Premier or Sonic v1, it is a broken path as of today, not a soft warning.",
+            "Both IDs have been Legacy since 13 March 2026, a six-month notice window. During Legacy, new customers could not start on those SKUs, existing accounts could lose access after 15 days of inactivity, and new Provisioned Throughput was blocked. Premier launched on 31 October 2025 as Amazon's 1 million token multimodal teacher for distillation. Original Sonic launched in March 2025 as the speech-to-speech stack. They are not the Nova 2 line. Nova 2 Sonic (`amazon.nova-2-sonic-v1:0`) is a separate, Active model.",
+            "The calendar does not stop at today. Nova Canvas (`amazon.nova-canvas-v1:0`) and Nova Reel (`amazon.nova-reel-v1:0`) are Legacy with a 30 September 2026 EOL. That is a 16-day media deadline, not a rumor. On 28 July, Reuters, citing Business Insider, reported Amazon was winding down Premier, Omni, Reel, and Canvas while shifting people toward a Frontier Model Research group led by Pieter Abbeel, with a new flagship expected at re:Invent later this year. An Amazon spokesperson told Reuters the company continues to invest in Nova models customers rely on and in the next generation of frontier research. The Bedrock cards are the contract. The July report is the strategy."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is a price and reliability event before it is a research event. Premier was the expensive understanding SKU: 1 million token context, reasoning, and the teacher that distilled into cheaper Nova Pro, Lite, and Micro students. When the teacher ID dies, every agent, RAG job, and distillation pipeline that hardcoded it stops earning. The [model pricing reset](/blog/ai-model-pricing-is-changing-what-teams-can-ship) already pushed teams toward cheaper workhorses. Today the cheap-path argument is inverted. You cannot keep the old flagship rate because the flagship is gone. You pay for a living SKU, or you pay in outages.",
+            "Original Sonic is the sharper trap because the name overlaps the replacement. Nova 2 Sonic is Active, with a 1 million token context window and no EOL date on its card. GPT-Live-1 is a different vendor's [voice meter](/blog/gpt-live-1-voice-api-pricing). Neither one is `amazon.nova-sonic-v1:0`. A grep that stops at \"Nova Sonic\" will miss the version. A grep for the model ID will not.",
+            "Amazon is not leaving Bedrock. Nova 2 Lite remains the cost-effective reasoning lane, with a 1 million token window and Forge customization. Nova Act still sells browser-use agents on a Nova 2 Lite stack. Forge still sells open training checkpoints. Those products are the live bill. Premier's death is also a reminder that [enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) fails when a platform SKU is treated as infrastructure. A model ID is a lease. The lease ended this morning."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/amazon-nova-premier-eol-timeline.svg",
+            "alt": "Timeline of Amazon Nova Premier and Nova Sonic end of life on 14 September 2026, Canvas and Reel on 30 September, and a reported re:Invent frontier model later in 2026",
+            "caption": "Score the dates separately. 14 September is a hard fail. 30 September is the media cutoff. re:Invent is not a migration plan."
+          },
+          "paragraphs": [
+            "Bedrock application teams feel it first. Search code, prompts, inference profiles, Step Functions, and SageMaker pipelines for `nova-premier-v1` and `nova-sonic-v1`. Cross-Region profiles that used `us.amazon.nova-premier-v1:0` fail the same way. Distillation jobs that named Premier as teacher cannot start new runs on a dead ID. Existing custom endpoints created before Legacy may still serve, per AWS's customized-model notes, but they are not a plan to keep writing against Premier.",
+            "Voice and contact-center stacks that never left Sonic v1 need a same-day cut to Nova 2 Sonic, or to another speech model you already evaluated. Creative teams on Canvas and Reel have until 30 September. AWS has not published a first-party image or video twin on those cards. Do not wait for a silent remap. Omni is the messy middle: Reuters listed it in the wind-down, and AWS has not posted a public EOL date for it. Treat Omni as keep-the-lights-on until a card says otherwise, not as a Premier substitute.",
+            "Procurement and finance sit one layer up. A Bedrock invoice that assumed Premier tokens in Q4 is now a forecast error. Teams that already dual-run [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse), [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship), [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access), or [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) can fail over inside the same control plane or out of it. The work is a bake-off, not a hope that Amazon will extend today by a week."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: AWS lists Nova Premier and original Nova Sonic at end of life on 14 September 2026, after Legacy dates of 13 March 2026. Fact: AWS lists Nova Canvas and Nova Reel at end of life on 30 September 2026. Fact: AWS says migration is not automatic and that after EOL, requests fail unless a private arrangement exists. Fact: Nova 2 Sonic is documented as Active with model ID `amazon.nova-2-sonic-v1:0`. Fact: Reuters reported on 28 July 2026 that Amazon was winding down Premier, Omni, Reel, and Canvas, and that a new flagship is expected at re:Invent under Pieter Abbeel's frontier group.",
+            "Prediction: most broken production will be Premier agent traces and Sonic v1 voice sessions, not Canvas, because those IDs die first. Prediction: Nova 2 Lite becomes the default Amazon-native landing spot for text work, while reasoning-heavy Premier jobs move to another Bedrock flagship rather than wait for re:Invent. Prediction: Omni stays confusing until AWS either posts an EOL date or a GA replacement. Do not staff a migration on a conference keynote."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether AWS posts a named replacement on the Premier card, or whether the card simply stays Legacy until it is removed. Watch Nova 2 Lite quality and price on the jobs Premier used to win, especially long-context RAG and distillation teacher roles. Watch Nova 2 Sonic latency and tool-calling against the v1 sessions you already tuned. Watch Canvas and Reel traffic through 30 September, and whether a Nova 2 image or video SKU appears before that date. Watch Omni's model card for an EOL line that still does not exist. And watch re:Invent only as a research story. If a workload has to run on Tuesday, it needs a live model ID on Monday."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Amazon Nova Premier end of life? It is the date AWS stops serving Nova Premier on Amazon Bedrock. The model card lists 14 September 2026. After that date, calls to `amazon.nova-premier-v1:0` fail in every Region unless you have a private arrangement. AWS says it will not migrate traffic for you.",
+            "Does original Nova Sonic still work after 14 September 2026? No. The original speech model, `amazon.nova-sonic-v1:0`, shares today's EOL date. Nova 2 Sonic is a different, Active model with ID `amazon.nova-2-sonic-v1:0`. Point voice workloads at the v2 ID, or at another speech API you have already tested.",
+            "What should I migrate to after Nova Premier EOL? AWS has not named a single Premier replacement on the model card. For Amazon-native text and reasoning, Nova 2 Lite is the live SKU, with Forge for custom training and Nova Act for browser agents. For harder reasoning, compare other Bedrock flagships rather than waiting for a reported re:Invent model.",
+            "When do Nova Canvas and Nova Reel shut down? AWS lists 30 September 2026 as the end-of-life date for Nova Canvas and Nova Reel. They remain Legacy until then. Image and video jobs should move before that date. Omni was included in July reporting on the wind-down, but it does not have a public EOL date on the same schedule."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "sakana-fugu-ultra-v2-fugu-max",
       "title": "Sakana Fugu Ultra v2: Orchestration Beats a Single Flagship",
       "excerpt": "Sakana AI shipped Fugu Ultra v2 and Fugu Max on 11 September. Ultra v2 posts 74.3 on DeepSWE without GPT-6 Astra in the pool. Max undercuts Sonnet-class output prices at $2/$6.",

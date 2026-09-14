@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Amazon Nova Premier end of life on Amazon Bedrock</title>
+  <desc id="desc">Editorial illustration of Nova Premier and original Nova Sonic shutting down on 14 September 2026 beside Nova 2 SKUs that remain active.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#FF7A59" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Amazon Nova Premier end of life: 14 Sep 2026</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Bedrock stops two IDs today. Canvas and Reel follow on 30 Sep. Migration is not automatic.</text>
+
+  <rect x="118" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#FF7A59" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="148" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Stops today</text>
+  <rect x="148" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="166" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">amazon.nova-premier-v1:0</text>
+  <text x="166" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">amazon.nova-sonic-v1:0</text>
+  <text x="166" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Requests fail unless a private deal exists</text>
+  <text x="148" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Legacy since 13 Mar 2026. AWS will not remap traffic.</text>
+
+  <rect x="622" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="652" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Still active</text>
+  <rect x="652" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="670" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Nova 2 Lite and Nova 2 Sonic</text>
+  <text x="670" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Nova Forge and Nova Act</text>
+  <text x="670" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Canvas and Reel live until 30 Sep</text>
+  <text x="652" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Swap the model ID. Retest quality, latency, and cost.</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">Premier was the 1M-token distillation teacher. Sonic v1 is not Nova 2 Sonic.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Amazon Nova Bedrock retirement timeline</title>
+  <desc id="desc">Timeline of Nova Premier and Nova Sonic end of life on 14 September 2026, Canvas and Reel on 30 September, and a possible re:Invent frontier model later in 2026.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="180" cy="80" r="220" fill="#00C2FF" fill-opacity="0.14"/>
+  <circle cx="1040" cy="560" r="240" fill="#7CFFB2" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="124" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Four dates. Only two of them are hard cutovers.</text>
+  <text x="118" y="162" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="17">AWS published the EOL calendar. The re:Invent flagship is still a report, not a model ID.</text>
+
+  <rect x="118" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="138" y="240" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">13 Mar 2026</text>
+  <text x="138" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Premier and Sonic v1</text>
+  <text x="138" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">enter Legacy on Bedrock.</text>
+  <text x="138" y="320" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">No new Provisioned Throughput.</text>
+
+  <rect x="368" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#FF7A59" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="388" y="240" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">14 Sep 2026</text>
+  <text x="388" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Premier and Sonic v1</text>
+  <text x="388" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">end of life. Calls fail.</text>
+  <text x="388" y="320" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">Today. Inventory these IDs.</text>
+
+  <rect x="618" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#FFB347" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="638" y="240" fill="#FFD08A" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">30 Sep 2026</text>
+  <text x="638" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Canvas and Reel v1</text>
+  <text x="638" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">reach end of life.</text>
+  <text x="638" y="320" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">16 days to retarget media jobs.</text>
+
+  <rect x="868" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="888" y="240" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">re:Invent 2026</text>
+  <text x="888" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Reported frontier model</text>
+  <text x="888" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">under Pieter Abbeel.</text>
+  <text x="888" y="320" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">Do not wait on this date.</text>
+
+  <rect x="118" y="380" width="980" height="140" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="148" y="430" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Buyer checklist for the Bedrock cutover</text>
+  <text x="148" y="464" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">1. Grep for nova-premier-v1 and nova-sonic-v1.  2. Point speech at nova-2-sonic-v1:0.</text>
+  <text x="148" y="492" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">3. Retest Premier work on Nova 2 Lite or another Bedrock flagship.  4. Finish Canvas and Reel swaps before 30 Sep.</text>
+</svg>
