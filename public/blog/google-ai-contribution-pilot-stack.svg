@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stackTitle stackDesc">
+  <title id="stackTitle">Three Google publisher money paths beside AI contribution</title>
+  <desc id="desc">Diagram comparing Google News Showcase lump-sum licensing, the AI Performance Report with no payment, and the AI Contribution Pilot that pays only when a page shapes a generated answer.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Three Google money paths. Only one meters the answer.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Showcase pays a catalog. AI reports show impressions. Contribution pays a hidden formula.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.4"/>
+  <text x="134" y="256" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">News Showcase</text>
+  <text x="134" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Negotiated licensing</text>
+  <text x="134" y="324" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Upfront or catalog fee</text>
+  <text x="134" y="368" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">2,800 titles, 33 countries</text>
+  <text x="134" y="396" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">News AI scheme: 200+ titles</text>
+  <text x="134" y="444" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">The old door for majors</text>
+
+  <rect x="448" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.55"/>
+  <text x="472" y="256" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">AI Performance</text>
+  <text x="472" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Search Console report</text>
+  <text x="472" y="324" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Impressions, pages, countries</text>
+  <text x="472" y="368" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Shipped worldwide 31 Aug</text>
+  <text x="472" y="396" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Grounding toggle optional</text>
+  <text x="472" y="444" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Visibility, not a paycheck</text>
+
+  <rect x="786" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55"/>
+  <text x="810" y="256" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Contribution Pilot</text>
+  <text x="810" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Invite-only earnings widget</text>
+  <text x="810" y="324" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Pays generation, not citations</text>
+  <text x="810" y="368" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Dozens of publishers invited</text>
+  <text x="810" y="396" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Formula unpublished</text>
+  <text x="810" y="444" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">The new meter</text>
+</svg>

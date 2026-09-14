@@ -37,6 +37,131 @@
     }
   ],
   "posts": [
+  {
+    "slug": "google-ai-contribution-pilot-search-console",
+    "title": "Google AI Contribution Pilot: Search Console Pays for Answers",
+    "excerpt": "Google is paying invited publishers when their pages help generate Gemini, AI Overviews, or AI Mode answers. Search Console shows a monthly total. The rate card is still unpublished.",
+    "category": "pricing",
+    "tags": [
+      "Google AI contribution pilot",
+      "Search Console",
+      "AI Overviews",
+      "publisher licensing"
+    ],
+    "publishedAt": "2026-09-14",
+    "readingMinutes": 7,
+    "seo": {
+      "metaTitle": "Google AI Contribution Pilot 2026: Search Console Pay",
+      "metaDescription": "Google AI Contribution Pilot pays invited publishers in Search Console when pages help generate Gemini, AI Overviews, or AI Mode answers. Rate card unpublished.",
+      "keywords": [
+        "Google AI contribution pilot",
+        "Google AI contribution pilot Search Console",
+        "Google pay publishers AI Overviews",
+        "Google AI Mode publisher payments",
+        "Gemini AI contribution payments",
+        "Google pay-per-use AI licensing",
+        "Search Console AI earnings",
+        "Google AI Performance Report",
+        "Google News Showcase vs AI contribution",
+        "Google publisher AI licensing 2026",
+        "AI Overviews pay publishers",
+        "Search Console AI contribution widget"
+      ]
+    },
+    "image": {
+      "src": "/blog/google-ai-contribution-pilot-hero.svg",
+      "alt": "Illustration of the Google AI Contribution Pilot paying invited publishers through a Search Console widget when pages help generate Gemini, AI Overviews, or AI Mode answers, with the payout formula unpublished",
+      "caption": "The click used to be the invoice. Now Google meters the answer and hides the formula."
+    },
+    "sources": [
+      {
+        "title": "Digiday: Google rolls out pay-per-use AI licensing program to publishers",
+        "url": "https://digiday.com/media/google-rolls-out-pay-per-use-ai-licensing-program-to-publishers/"
+      },
+      {
+        "title": "Search Engine Roundtable: Google Search Console AI contribution pilot",
+        "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"
+      },
+      {
+        "title": "Storyboard18: Google tests usage-based payouts for publishers in AI responses",
+        "url": "https://www.storyboard18.com/digital/google-tests-pay-per-use-for-publishers-in-ai-responses-ws-l-110639.htm"
+      },
+      {
+        "title": "Adgully: Google tests pay-per-use model for publisher content in AI answers",
+        "url": "https://www.adgully.com/post/20528/google-tests-pay-per-use-model-for-publisher-content-in-ai-answers"
+      },
+      {
+        "title": "Google: New opportunities, control and insights for website owners (3 June 2026, updated 31 August)",
+        "url": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/"
+      },
+      {
+        "title": "Google: How AI Mode and AI Overviews help you explore the web",
+        "url": "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/"
+      },
+      {
+        "title": "Google Search Central: Optimizing for generative AI features on Google Search",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      },
+      {
+        "title": "PPC Land: Google AI contribution pilot and platform-set publisher rates",
+        "url": "https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What happened",
+        "paragraphs": [
+          "Today, 14 September 2026, Digiday reported that Google is quietly scaling the Google AI contribution pilot inside Search Console. Publishers who accept the Program Terms see an AI earnings widget with a monthly total. Google told Digiday the scheme is an early-stage learning pilot to reward high-quality content, on top of the traffic and tools it already provides. Search Engine Roundtable published the help-doc language the same morning. Storyboard18 and Adgully independently repeated the product list: Gemini, AI Overviews, and AI Mode.",
+          "The help document, quoted by Search Engine Roundtable from Digiday's screenshots, is specific about what counts. Earnings accrue when a page contributes significantly to the creation of an AI-generated response. A page used only to confirm a fact after the answer is written, or a link shown after generation, does not qualify. That split is the news. Visibility in an AI answer is not the same event as contribution to the answer.",
+          "Google has not published a rate card, a per-query price, or a qualifying-score formula. Digiday says payments are based more on value than raw usage, and that publishers can cancel in Search Console at any time. At least dozens of publishers have been approached. Digiday could not confirm the number. The pitch has landed better with small and mid-sized sites than with large newsrooms, and it has widened beyond news. Search Engine Roundtable first spotted the surface in April. Today's reporting is the first public copy of the welcome screen and the generation-versus-citation rule."
+        ]
+      },
+      {
+        "heading": "Why it matters",
+        "paragraphs": [
+          "Search used to pay publishers with a click. [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) already sits in the Gemini app, AI Mode, and Gemini in Sheets. Google's 3 June blog, updated 31 August, said AI Overviews has over 2.5 billion monthly active users and AI Mode has passed one billion. Those surfaces answer on the results page. The referral invoice shrinks even when impressions rise. A Search Console widget that pays for generation is Google testing a replacement unit of account, not restoring ten blue links.",
+          "The unpublished formula is the other half. [Apple Intelligence](/blog/apple-intelligence-daily-limits-unpriced-fee) shipped a daily meter with no published fee. This pilot ships a paycheck with no published rate. Teams that already treat [model pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) as a product constraint should read the same pattern here: Google can change the economics of grounding without a public SKU. David Buttle of Spur, quoted by Digiday, called it a hedge against a world where Google would have to pay for actual usage of journalism in AI.",
+          "It is also a legal and regulatory object. Google's June post said it was engaging with the UK Competition and Markets Authority while testing a Search Console toggle that lets sites opt out of grounding in AI Overviews, AI Mode, and Discover. That toggle is a refuse switch. The contribution pilot is a pay switch. They are not the same control. [Enterprise buyers](/blog/enterprise-ai-adoption-what-is-working) who license content into their own agents should not copy Google's unpublished score and call it a marketplace."
+        ]
+      },
+      {
+        "heading": "Who is affected",
+        "image": {
+          "src": "/blog/google-ai-contribution-pilot-stack.svg",
+          "alt": "Diagram comparing Google News Showcase negotiated licensing, the Search Console AI Performance Report that shows impressions without payment, and the AI Contribution Pilot that pays only when a page shapes a generated Gemini, AI Overviews, or AI Mode answer",
+          "caption": "Showcase pays a catalog. AI reports show impressions. Contribution pays a hidden formula."
+        },
+        "paragraphs": [
+          "Small and mid-sized publishers feel the invite first. Digiday says they are more likely to join than large newsrooms. Some participants called early returns peanuts relative to advertising. Another executive told Digiday the lowball numbers offered to their company and several peers did not clear an internal revenue threshold, and that talks were still open. Luke Stillman of Madison and Wall argued that smaller sites lack leverage for a bespoke deal, so a Search Console check is incremental upside and a reputational hedge for Google.",
+          "Large newsrooms sit one layer up. Google News Showcase already covers more than 2,800 publications in 33 countries. Google's news AI scheme covers more than 200 titles globally. OpenAI-style lump-sum licenses are the other door. Joining a black-box meter can weaken that leverage if Google later points to the widget as proof that compensation exists. The AI Performance Report, rolled out from the UK test in June to all websites worldwide on 31 August, already shows impressions, pages, and countries. An impression is not an earning event under the help doc.",
+          "SEO and content teams sit on the measurement split. Google Search Central still tells sites to ship unique, crawlable pages if they want to appear in generative Search. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) made model weights a priced distribution object. This pilot tries to make grounding a priced inference object. Do not staff a rewrite program on a widget Google has not opened to the full Search Console population. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) for publishers is still traffic plus licensing, not a secret per-answer fee."
+        ]
+      },
+      {
+        "heading": "Facts versus predictions",
+        "paragraphs": [
+          "Fact: Digiday dated the AI contribution pilot report 14 September 2026 and said Google confirmed it as an early-stage learning pilot inside Search Console, with a monthly earnings widget and no detailed payout formula. Fact: Search Engine Roundtable quoted the help document: qualifying events are pages that significantly influence generation in the Gemini app, AI Overviews, and AI Mode; post-generation fact checks and citation links do not pay. Fact: publishers accept Program Terms, can cancel anytime, and bank transfers can differ from estimated earnings after tax or local thresholds. Fact: Digiday reported at least dozens of publishers approached, a wider-than-news mix, and stronger interest among small and mid-sized sites, without a confirmed headcount. Fact: Google's 3 June 2026 Search Ecosystem post, updated 31 August, put AI Overviews above 2.5 billion monthly users, AI Mode above one billion, and said the grounding-opt-out toggle plus AI insights had rolled out worldwide. Fact: Google has not published a rate card, a qualifying-score formula, or a public signup URL.",
+          "Prediction: the first useful signal will be whether Google publishes per-page earnings, not the monthly lump in the widget. Prediction: large newsrooms stay on Showcase and negotiated licenses, while smaller sites accept the peanuts to stay inside the tent. Prediction: citation links in AI Overviews will keep looking like payment to readers and keep paying nothing under the current rule. Do not budget 2027 publisher P&L on an unpublished formula."
+        ]
+      },
+      {
+        "heading": "What to watch next",
+        "paragraphs": [
+          "Watch whether Google opens a public help page and a rate card, or keeps the document behind the invite. Watch whether the AI Performance Report and the earnings widget ever share a page-level join key, so a publisher can see which URL was paid. Watch who stays out because the numbers are peanuts, and whether those refusals become a bargaining bloc. Watch CMA and other regulators treat the unpublished score as a market-power fact, not a product experiment. Watch whether OpenAI-style lump-sum licenses remain the only priced alternative. And watch whether Google-Extended and the grounding toggle become the refuse switch that the contribution widget never is."
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "paragraphs": [
+          "What is the Google AI contribution pilot? It is an invite-only Search Console program that pays participating publishers when their pages contribute significantly to AI-generated responses in the Gemini app, AI Overviews, and AI Mode. Google calls it an early-stage learning pilot. Digiday and Search Engine Roundtable reported the details on 14 September 2026.",
+          "Does Google pay publishers for AI Overviews citations? Not under the help document quoted today. A page that is linked after an answer is generated, or used only to confirm a fact, does not qualify. Payment is tied to the generation phase, when web content significantly influences what response is produced.",
+          "How do publishers join the Google AI contribution pilot? Google approaches selected sites. Participants accept Program Terms in Search Console, add payment details, and can cancel in settings at any time. There is no public signup URL. Search Engine Roundtable notes the surface lives in Search Console, not Publisher Center or AdSense.",
+          "How much does the Google AI contribution pilot pay? Google has not published a rate card or a per-query price. Search Console shows a monthly earnings number with some history. Participating executives told Digiday the interface is a black box, and some called early returns peanuts versus advertising revenue.",
+          "Is the AI Performance Report the same as AI contribution pay? No. The AI Performance Report, rolled out worldwide by 31 August 2026, shows impressions and which pages appear in generative Search. The contribution pilot is a separate earnings widget for invited publishers. An impression is not automatically a paid contribution."
+        ]
+      }
+    ]
+  },
     {
       "slug": "amdkernelvault-hip-triton-kernel-agents",
       "title": "AMDKernelVault: An 8B Model Beats GPT-5 on HIP Kernels",
