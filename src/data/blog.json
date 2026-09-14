@@ -38,6 +38,114 @@
   ],
   "posts": [
     {
+      "slug": "anthropic-claude-distillation-threat-report",
+      "title": "Anthropic Claude Distillation: 190 Million Exchanges Named",
+      "excerpt": "Anthropic's 10 September threat report attributes more than 151 million Claude exchanges to Alibaba, 23 million to Moonshot, and 12.1 million to DeepSeek. CISA named six labs two days earlier.",
+      "category": "companies",
+      "tags": [
+        "Anthropic",
+        "Claude distillation",
+        "CISA AA26-251A",
+        "Qwen"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Anthropic Claude Distillation 2026: 190M Exchanges",
+        "metaDescription": "Anthropic Claude distillation report: 151M exchanges to Alibaba, 23M to Moonshot, 12.1M to DeepSeek. CISA AA26-251A, transfer stations, and buyer checks.",
+        "keywords": [
+          "Anthropic Claude distillation",
+          "Anthropic threat intelligence report September 2026",
+          "Alibaba Qwen Claude distillation",
+          "Moonshot Kimi Claude routing",
+          "DeepSeek Claude distillation",
+          "CISA AA26-251A",
+          "illicit AI model distillation",
+          "Claude chain of thought extraction"
+        ]
+      },
+      "image": {
+        "src": "/blog/anthropic-claude-distillation-hero.svg",
+        "alt": "Illustration of 190 million Claude exchanges Anthropic attributed to Alibaba Qwen, Moonshot Kimi, DeepSeek, Zhipu, and Xiaomi beside CISA advisory AA26-251A",
+        "caption": "Anthropic quantified Claude traffic. CISA named an overlapping, not identical, set of labs two days earlier."
+      },
+      "sources": [
+        {
+          "title": "Anthropic: Detecting and countering misuse of AI, September 2026",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        },
+        {
+          "title": "CISA: Joint advisory AA26-251A on industrial-scale distillation",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+        },
+        {
+          "title": "CISA, NSA, and FBI news release on China-based distillation campaigns",
+          "url": "https://www.cisa.gov/news-events/news/cisa-nsa-and-fbi-warn-china-based-ai-companies-targeting-us-ai-models-industrial-scale-knowledge"
+        },
+        {
+          "title": "TechCrunch: Anthropic details distillation campaigns from Alibaba, Moonshot, and DeepSeek",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+        },
+        {
+          "title": "CNBC: Chinese AI labs used millions of Claude exchanges, Anthropic says",
+          "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 10 September 2026, Anthropic published Detecting and countering misuse of AI, its fourth public threat report. The window is December 2025 through August 2026. The chapter that moved markets is illicit distillation: industrial-scale, covert extraction of Claude capabilities into other labs' models, usually through fake accounts, stolen cards, stolen API keys, and proxy services Anthropic calls transfer stations. Distillation itself is a normal training method. Anthropic's definition of the illicit version is the covert campaign, not the algorithm.",
+            "The quantified Claude campaigns are the headline. Operators affiliated with Alibaba's Qwen / Tongyi Lab, tracked as GTG-16005, account for more than 151 million exchanges between May and July 2026, peaking near 3 million a day from more than 3,500 fraudulent accounts. Anthropic says a fixed prompt forced Opus 4.6 and 4.7 to write chain-of-thought traces that were converted into supervised fine-tuning data for Qwen 3.5, 3.6, and 3.7. Moonshot AI, maker of Kimi, is attributed more than 23 million exchanges in the same window. DeepSeek is attributed more than 12.1 million over 14 days in July. Zhipu, branded Z.ai, is attributed more than 3.4 million over 17 days in June and July. Xiaomi's MiMo campaign is attributed more than 400,000 over 20 days in March and April. Added together, that is about 190 million Claude exchanges Anthropic says it attributed with high confidence.",
+            "Two days earlier, on 8 September, CISA, NSA, and the FBI published joint cybersecurity advisory AA26-251A. That document names DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI, and says those firms extracted billions of tokens across millions of exchanges from US frontier models, including Claude, GPT, Gemini, and Grok variants, since at least late 2024. The CISA list and the Anthropic list overlap. They are not the same. CISA adds StepFun and spreads the claim across several US labs. Anthropic adds Xiaomi and SenseTime, and publishes Claude-only volumes. Treat them as two primary sources, not one story copied twice."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is a provenance and privacy event before it is a geopolitics event. If a cheaper student model was trained on stolen Opus reasoning traces, the [model pricing reset](/blog/ai-model-pricing-is-changing-what-teams-can-ship) is not only about list rates. It is about who paid for the teacher. [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) is already in the feed as an open-weight agent SKU. Anthropic's claim is the counter: some of that cheapness may be unpaid Claude time. The numbers are Anthropic's. CISA's advisory is a government attribution. Neither is an independent eval of Qwen or Kimi quality.",
+            "Moonshot's silent forwarding is the sharper enterprise risk. Anthropic says Moonshot relayed customer requests to Claude, showed Claude's answers as Kimi, and saved at least some of those exchanges. In one 10-day window it counted almost 300,000 relays, mostly to Opus, through 5,380 fraudulent accounts that looked like Singapore and Japan traffic. DeepSeek, per the same report, tagged users arriving through Claude Code, the Claude Agent SDK, or OpenCode, and relayed selected sessions to Opus. If your team sent a repo through a third-party model router into a PRC assistant, the report says that traffic may have landed at Anthropic without consent, including names, credentials, and company data.",
+            "[Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) summarized thinking, preserved thinking, and locked system prompts on new API accounts because this attack pattern exists. Anthropic says Haiku, Sonnet, and Opus carried almost all of the misuse in the report. Fable and Mythos appeared in one illicit distillation case. Zhipu tried Fable's cyber capabilities, hit the stronger safeguards, and switched back to Opus 4.6. That is a product fact sitting next to the [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) slowdown talk: independent evaluators inside labs will not matter if the training set was scraped from a rival's API."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/anthropic-claude-distillation-labs.svg",
+            "alt": "Side by side lists of labs Anthropic named for Claude distillation on 10 September 2026 and labs CISA, NSA, and FBI named in advisory AA26-251A on 8 September 2026",
+            "caption": "Score the overlap, then the gaps. CISA adds StepFun. Anthropic adds Xiaomi and SenseTime. MiniMax sits in both, with different evidence."
+          },
+          "paragraphs": [
+            "Anthropic API teams feel the enforcement first. Transfer-station traffic looks a lot like a high-throughput agent fleet: shared accounts, 24/7 load, new subscriptions that hit the cap on day one, identical prompts, and pathway switching when a route is banned. CISA's mitigations include monitoring those patterns and, more awkwardly, subtly degrading answers for suspected distillation. A legitimate [OpenAI Agents API](/blog/openai-agents-api-codex-harness) or internal router can trip the same alarms. If quality drops without an incident ticket, ask whether you look like a proxy farm.",
+            "Buyers of Qwen, Kimi, DeepSeek, GLM, MiniMax, and MiMo need a provenance question, not a panic ban. Ask whether the vendor distilled from a US frontier API, whether user prompts were forwarded to a third lab, and whether that forwarding is in the DPA. Anthropic's own examples include a pharmaceutical capex workbook and live bot tokens that arrived through a China-headquartered coding assistant on a third-party router. That is a privacy incident if it happened to your staff, even if you never bought Claude.",
+            "Frontier labs besides Anthropic sit in the CISA text: GPT, Gemini, and Grok variants are named as distillation targets. OpenAI has said as much since early 2025. Google published an adversarial distillation tracker earlier this year. Procurement and [enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) reviews should treat model IDs as leases with a data-flow map, the same way they already treat a Bedrock SKU. Legal teams in the EU and India should read the silent-relay claims against local privacy law, not only against Anthropic's terms."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Anthropic published its September 2026 threat report on 10 September, covering disrupted activity from December 2025 through August 2026, including illicit distillation. Fact: Anthropic attributes more than 151 million Claude exchanges to Alibaba-affiliated operators between May and July 2026, more than 23 million to Moonshot, more than 12.1 million to DeepSeek over 14 days in July, more than 3.4 million to Zhipu, and more than 400,000 to Xiaomi. Fact: Anthropic says Moonshot and DeepSeek silently relayed some of their own customers' requests to Claude. Fact: CISA, NSA, and the FBI published AA26-251A on 8 September naming DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI. Fact: Anthropic says Fable and Mythos were largely unused in the misuse cases, with one illicit distillation exception, and that Fable 5.1 added preserved thinking to make CoT extraction harder.",
+            "Prediction: named labs will call this competition framing, not a confession, and will point to legitimate distillation papers. Prediction: the first buyer action that actually ships is a contract clause on prompt forwarding and training-data provenance, not a wholesale block of open Chinese weights. Prediction: silent response degradation, if labs adopt CISA's advice at scale, will create a new class of hard-to-debug agent failures. Do not treat 190 million exchanges as proof that Qwen 3.7 equals Opus. Treat it as a claim about how the training set was built."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Alibaba, Moonshot, DeepSeek, Zhipu, Xiaomi, MiniMax, SenseTime, or StepFun publish a numbered rebuttal, not a slogan. Watch whether OpenAI or Google match Anthropic's volume tables for GPT, Gemini, and Grok. Watch Fable 5.1 preserved thinking and summarized CoT against the next cross-session replay trick. Watch transfer-station takedowns, and whether stolen customer API keys keep showing up as the access path. Watch procurement language on prompt forwarding, especially for teams that already mix [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) with Claude. And watch how this sits against [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown): slowing a lab's own release calendar does not slow a rival that trains on the API."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Anthropic Claude distillation? In Anthropic's September 2026 threat report, illicit distillation is an industrial-scale, covert campaign to extract Claude's capabilities and replicate them in another model without authorization. Ordinary distillation, where a teacher model generates training data for a student, is a legitimate method. The illicit version, as Anthropic defines it, uses fake accounts, stolen credentials, and transfer-station proxies.",
+            "How many Claude exchanges did Anthropic attribute to distillation? Anthropic attributes more than 151 million exchanges to Alibaba-affiliated operators (May-July 2026), more than 23 million to Moonshot, more than 12.1 million to DeepSeek over 14 days in July, more than 3.4 million to Zhipu, and more than 400,000 to Xiaomi. Those five campaigns sum to about 190 million Claude exchanges. The figure is Anthropic's attribution, not an independent audit.",
+            "What is CISA advisory AA26-251A? It is a joint NSA, CISA, and FBI cybersecurity advisory dated 8 September 2026. It names DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI as running industrial-scale knowledge distillation against US frontier models, including Claude, GPT, Gemini, and Grok, since at least late 2024. It recommends detection of anomalous accounts and, in some cases, degrading answers to suspected distillation traffic.",
+            "Did Moonshot serve Claude responses as Kimi? Anthropic says yes, for some traffic. The report claims Moonshot silently forwarded customer requests to Claude, displayed Claude's answers, and saved at least a portion of those exchanges for chain-of-thought extraction. DeepSeek is accused of a similar silent relay for selected users arriving through coding harnesses. Moonshot and DeepSeek have not, as of this briefing, published a matching numbered response."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "bodhan-ai-indic-language-models",
       "title": "Bodhan AI: IIT Madras Opens Indic Language Models",
       "excerpt": "IIT Madras Bodhan AI, AI4Bharat, and NVIDIA shipped four open-weight Indic models. Speech, translation, TTS, and OCR sit under the Bharat EduAI Stack. The bet is one public layer, not another chatbot.",

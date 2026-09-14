@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anthropic versus CISA named labs for AI distillation</title>
+  <desc id="desc">Comparison of labs Anthropic named in its September 2026 Claude distillation report and labs CISA, NSA, and FBI named in advisory AA26-251A.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="210" fill="#00C2FF" fill-opacity="0.14"/>
+  <circle cx="1060" cy="560" r="240" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="124" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Two documents, two lab lists</text>
+  <text x="118" y="160" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Overlap is Alibaba, Moonshot, DeepSeek, MiniMax, and Z.AI. The rest is not a copy-paste.</text>
+
+  <rect x="118" y="190" width="460" height="300" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="142" y="232" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Anthropic, 10 Sep</text>
+  <text x="142" y="268" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Alibaba Qwen  |  Moonshot Kimi</text>
+  <text x="142" y="300" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">DeepSeek  |  Zhipu / Z.ai</text>
+  <text x="142" y="332" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Xiaomi MiMo  |  SenseTime</text>
+  <text x="142" y="364" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">MiniMax proxy shell</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Claude volumes only. High-confidence</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">attribution to named PRC labs.</text>
+  <text x="142" y="460" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Seven labs, not a CISA reprint.</text>
+
+  <rect x="622" y="190" width="460" height="300" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="646" y="232" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">CISA AA26-251A, 8 Sep</text>
+  <text x="646" y="268" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">DeepSeek  |  Moonshot AI</text>
+  <text x="646" y="300" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Alibaba  |  MiniMax</text>
+  <text x="646" y="332" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">StepFun  |  Z.AI</text>
+  <text x="646" y="364" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Targets: Claude, GPT, Gemini, Grok</text>
+  <text x="646" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Adds StepFun. Does not name Xiaomi</text>
+  <text x="646" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">or SenseTime. Transfer stations are</text>
+  <text x="646" y="460" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">the access path, not a CVE.</text>
+
+  <text x="118" y="530" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">A named lab is a claim to score, not an automatic ban. Ask for provenance, routing, and whether user traffic was forwarded.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anthropic Claude distillation threat report September 2026</title>
+  <desc id="desc">Editorial illustration of 190 million Claude exchanges Anthropic attributed to Alibaba, Moonshot, DeepSeek, Zhipu, and Xiaomi, next to CISA advisory AA26-251A.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#FF7A59" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Anthropic Claude distillation: 190M exchanges named</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Threat report 10 Sep 2026  |  CISA AA26-251A on 8 Sep  |  Attribution, not a third-party bench</text>
+
+  <rect x="118" y="200" width="460" height="290" rx="22" fill="#08203A" stroke="#FF7A59" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="148" y="248" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Anthropic quantified</text>
+  <rect x="148" y="272" width="400" height="36" rx="10" fill="#12355A"/>
+  <rect x="148" y="318" width="400" height="36" rx="10" fill="#12355A"/>
+  <rect x="148" y="364" width="400" height="36" rx="10" fill="#12355A"/>
+  <rect x="148" y="410" width="400" height="36" rx="10" fill="#12355A"/>
+  <text x="166" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Alibaba / Qwen: 151M (May-Jul)</text>
+  <text x="166" y="342" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Moonshot / Kimi: 23M</text>
+  <text x="166" y="388" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">DeepSeek: 12.1M in 14 days</text>
+  <text x="166" y="434" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Zhipu 3.4M + Xiaomi 400k</text>
+
+  <rect x="622" y="200" width="460" height="290" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="652" y="248" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">What changed</text>
+  <rect x="652" y="272" width="400" height="36" rx="10" fill="#12355A"/>
+  <rect x="652" y="318" width="400" height="36" rx="10" fill="#12355A"/>
+  <rect x="652" y="364" width="400" height="36" rx="10" fill="#12355A"/>
+  <rect x="652" y="410" width="400" height="36" rx="10" fill="#12355A"/>
+  <text x="670" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">CoT extraction via transfer stations</text>
+  <text x="670" y="342" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Silent Kimi and DeepSeek relays</text>
+  <text x="670" y="388" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">CISA names six labs, not seven</text>
+  <text x="670" y="434" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Fable 5.1 locked more thinking</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">Legitimate distillation trains a student. Illicit distillation, as Anthropic defines it, is covert industrial extraction.</text>
+</svg>
