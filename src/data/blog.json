@@ -38,6 +38,145 @@
   ],
   "posts": [
     {
+      "slug": "cognichip-aci-physics-informed-chip-design",
+      "title": "Cognichip ACI: Physics-Informed Chip Design, Not an LLM Wrapper",
+      "excerpt": "Forbes covers Cognichip ACI today. The company says physics-informed models, not LLM agents, can cut chip design tasks from months to days. AI Infra Summit starts tomorrow. No named tapeout is public.",
+      "category": "chips",
+      "tags": [
+        "Cognichip ACI",
+        "Artificial Chip Intelligence",
+        "physics-informed AI chip design",
+        "AI Infra Summit 2026"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Cognichip ACI 2026: Physics-Informed Chip Design AI",
+        "metaDescription": "Forbes covers Cognichip ACI today. Physics-informed models, not LLM agents, with a claimed 100x task speedup. AI Infra Summit starts tomorrow. What is verified.",
+        "keywords": [
+          "Cognichip ACI",
+          "Artificial Chip Intelligence",
+          "physics-informed AI chip design",
+          "Cognichip AI Infra Summit",
+          "AI chip design 2026",
+          "physics-informed foundation model semiconductors",
+          "Cognichip 100x chip design",
+          "ACI vs LLM chip design",
+          "AI EDA Cognichip",
+          "Cognichip Faraj Aalaei"
+        ]
+      },
+      "image": {
+        "src": "/blog/cognichip-aci-hero.svg",
+        "alt": "Illustration of Cognichip Artificial Chip Intelligence on 14 September 2026: a physics-informed chip design model rather than an LLM agent, Forbes coverage of a claimed 100x task speedup, and AI Infra Summit in Santa Clara with no named production tapeout",
+        "caption": "Physics in the weights. No named silicon. Score the summit demo, not the 100x slide."
+      },
+      "sources": [
+        {
+          "title": "Forbes: Cognichip Creates Physics-Informed AI Models To Speed Chip Design",
+          "url": "https://www.forbes.com/sites/karlfreund/2026/09/14/cognichip-creates-physics-informed-ai-models-to-speed-chip-design/"
+        },
+        {
+          "title": "AI Infra Summit 2026: Cognichip sponsor listing, booth 836",
+          "url": "https://www.ai-infra-summit.com/sponsor-directory/cognichip"
+        },
+        {
+          "title": "AI Infra Summit 2026: Santa Clara, 15 to 17 September",
+          "url": "https://ai-infra-summit.com/"
+        },
+        {
+          "title": "TechCrunch: Cognichip raises $60M to design the chips that power AI",
+          "url": "https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/"
+        },
+        {
+          "title": "SiliconANGLE: Cognichip raises $60M for physics-inspired chip design AI",
+          "url": "https://siliconangle.com/2026/04/01/cognichip-raises-60m-reinvent-chip-design-physics-inspired-ai-models/"
+        },
+        {
+          "title": "SemiEngineering: Cognichip Using AI To Speed Complex Chip Design",
+          "url": "https://semiengineering.com/cognichip-using-ai-to-speed-complex-chip-design/"
+        },
+        {
+          "title": "EE Times: Cognichip's Artificial Chip Intelligence Will Rely On Data",
+          "url": "https://www.eetimes.com/cognichips-artificial-chip-intelligence-will-rely-on-data/"
+        },
+        {
+          "title": "SemiWiki: CEO interview with Faraj Aalaei of Cognichip",
+          "url": "https://semiwiki.com/ceo-interviews/356556-ceo-interview-with-faraj-aalaei-of-cognichip/"
+        },
+        {
+          "title": "RCR Wireless: Cognichip wants to use AI to build AI chips",
+          "url": "https://rcrtech.com/semiconductor-news/cognichip-ai-chip-funding/"
+        },
+        {
+          "title": "Pulse2: Cognichip $60 million Series A for physics-informed AI chip design",
+          "url": "https://pulse2.com/cognichip-60-million-raised-for-physics-informed-ai-chip-design-platform/"
+        },
+        {
+          "title": "SemiEngineering: Physics-Aware AI Is The Key To Next Gen IC Design",
+          "url": "https://semiengineering.com/physics-aware-ai-is-the-key-to-next-gen-ic-design/"
+        },
+        {
+          "title": "Synopsys: AI-powered EDA solutions",
+          "url": "https://www.synopsys.com/ai/ai-powered-eda.html"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Forbes published Karl Freund's briefing on Cognichip ACI, the company's Artificial Chip Intelligence platform. Freund's frame is the one that matters for buyers. ACI is not an agent wrapped around a general LLM. It is a physics-informed foundation model trained on specifications, RTL, post-synthesis netlists, circuits, and validation data. Details are scheduled for this week's AI Infra Summit in Santa Clara, 15 to 17 September. Cognichip is listed as a Platinum sponsor at booth 836.",
+            "The speed claims are stacked, and they are not the same number. Summit copy still quotes 50 percent faster design cycles and 75 percent lower development costs, the pair Cognichip used when Seligman Ventures led a $60 million Series A on 1 April 2026. Forbes today adds a sharper vendor and adopter line: a 100x speedup on design tasks, a single engineer finishing in days work that used to take months, and FPGA concepts turning into working code in hours. Design IP stays behind the customer's firewall. Renesas vice president of engineering Manoher Bommena told Forbes that ACI is one of the more comprehensive ways to bring AI into a live design environment because it simply \"speaks chip.\"",
+            "Score a public briefing and a conference slot. Do not score a named production tapeout. SiliconANGLE and later coverage said Cognichip works with more than 30 semiconductor companies, including names in the top 20 by revenue. TechCrunch, writing at the Series A, said the company could not point to a new chip designed with the system and declined to name customers. That gap is still open this morning."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The bottleneck on the [AI chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) is no longer only wafers and High NA tools. It is design time. SemiEngineering's 2025 interview with chief product officer Stelios Diamantidis put a custom chip at more than $100 million and three to four years from idea to volume. NVIDIA Blackwell is the usual exhibit: 104 billion transistors, per TechCrunch. [ASML High NA EUV](/blog/asml-high-na-euv-intel-tsmc-samsung) now has customer production dates. [OpenAI Jalapeño](/blog/openai-jalapeno-inference-chip) has A0 samples. None of that shortens the RTL-to-signoff loop if the loop is still a 1990s waterfall.",
+            "Physics-informed is the product claim, not a slogan. SemiEngineering later argued that physics-aware models can respect invariants such as Kirchhoff's current law, which generic LLM agents do not encode. EE Times reported that Cognichip maps ten levels of automation. Diamantidis said today's general LLMs, in an expert's hands, reach ACI level one. The company's multi-year target is ACI nine, designer-like cognition. That is a roadmap. It is not a benchmark table. The contrast with [OpenAI's Agents API](/blog/openai-agents-api-codex-harness) and [AMDKernelVault](/blog/amdkernelvault-hip-triton-kernel-agents) is the same idea in a different layer: software agents write kernels and code. ACI claims to write, or at least co-write, silicon.",
+            "Incumbent EDA is the gravity well. TechCrunch listed Synopsys and Cadence as the shops Cognichip has to live next to, plus ChipAgents, which closed a $74 million extended Series A in February, and Ricursive, which raised a $300 million Series A in January. Synopsys already sells DSO.ai and VSO.ai. Cadence sells Cerebrus. Those tools mostly drive existing engines harder. They do not replace signoff. A 100x on a micro-architecture or FPGA task can be true and still leave place-and-route, timing closure, and mask prep on the old clock."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/cognichip-aci-stack.svg",
+            "alt": "Diagram comparing general LLM agents at ACI level one, Cognichip physics-informed Artificial Chip Intelligence with a claimed 100x task speedup and no named tapeout, and Synopsys and Cadence EDA signoff tools that remain on the purchase order",
+            "caption": "Agents chat. ACI claims physics. Signoff still belongs to the EDA incumbents."
+          },
+          "paragraphs": [
+            "Chip teams feel it first. Diamantidis split the market into three: leaders chasing derivatives with fewer people, mid-tier shops buying expertise they do not have, and startups that need a proof device before they can hire a full front-end team. [Samsung's Mistral partnership](/blog/samsung-mistral-ai-chip-partnership) is the fab-side version of the same idea, models inside Device Solutions for defect detection and yield. Cognichip is the design-side bet. They are not substitutes.",
+            "Foundries, custom-silicon programs, and sovereign buyers sit one layer up. [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) sells a made-in-Japan CPU. ACI, if EE Times is right about lowering the barrier for third-party IP designs, is how a country or a hyperscaler tries to staff fewer specialists. Intel CEO Lip-Bu Tan joined the board at the Series A and called the physics-informed model generational. That is a director quote. It is not an Intel product announcement.",
+            "Buyers should keep the data question in view. Chip IP is not GitHub. Cognichip has spent two years on synthetic and licensed data, plus a path for customers to train on their own RTL without exporting it. Forbes's firewall line is that path in marketing form. Until a named SoC, treat student RISC-V CPUs at San Jose State as a usability demo, not a Blackwell substitute. The [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) still applies: a task speedup without a public baseline is a claim, not a leaderboard."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Forbes on 14 September 2026 reported Cognichip ACI as physics-based models rather than LLM agents, with a claimed 100x task speedup, days-not-months adopter anecdotes, FPGA code in hours, and on-premises IP. Fact: AI Infra Summit runs 15 to 17 September 2026 in Santa Clara. Cognichip is listed as a Platinum sponsor at booth 836 with the 50 percent faster and 75 percent cheaper cycle-and-cost pair. Fact: the Series A was $60 million on 1 April 2026, total funding $93 million, and the board includes Lip-Bu Tan and Umesh Padval. Fact: TechCrunch said in April the company had not named a chip designed with ACI. Fact: later coverage cites more than 30 design companies, still unnamed.",
+            "Prediction: summit demos will show a named block, not a named 5nm SoC. Prediction: the 100x number will attach to a bounded task, verification or FPGA compile, not a full tapeout calendar. Prediction: Synopsys and Cadence remain on the purchase order for signoff even if ACI sits earlier in the flow. Do not staff a 75 percent cost cut into a 2026 budget on an unnamed customer list."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Cognichip names a production chip, a node, and a cycle time on stage this week. Watch whether the 100x is scoped to a benchmark with a baseline tool and a human hours count. Watch whether Renesas, or any of the unnamed top-20 names, goes on the record as a paying design of record. Watch whether Synopsys or Cadence treat ACI as a partner or as a seat they can replace. And watch first-pass silicon, not a slide about parallelism."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Cognichip ACI? Cognichip ACI is Artificial Chip Intelligence, a physics-informed foundation model for semiconductor design. Forbes covered it on 14 September 2026. The company trains on specifications, RTL, netlists, circuits, and validation, and presents this week at AI Infra Summit in Santa Clara. It is a design platform. It is not a GPU SKU.",
+            "Is Cognichip ACI a large language model? No. Forbes's briefing is explicit that ACI is physics-based rather than an agent wrapped around a general LLM. EE Times reported that general LLMs in an expert's hands reach only ACI level one on the company's ten-level automation map. The product claim is physics and logic in the weights, plus customer data that never leaves the firewall.",
+            "How fast is Cognichip ACI chip design? There are two vendor lines. The company still quotes 50 percent faster cycles and 75 percent lower cost, the Series A pair. Forbes today adds a 100x task speedup, days versus months for a single engineer, and FPGA concept-to-code in hours. No public baseline, node, or named tapeout supports treating 100x as a full-chip calendar.",
+            "Who is using Cognichip ACI in 2026? Coverage since April cites more than 30 semiconductor design companies, including some of the top 20 by revenue. None are named. TechCrunch said at the raise that Cognichip could not point to a new chip designed with the system. Renesas's Manoher Bommena is the only executive quoted on the record in today's Forbes piece, and that is an endorsement, not a design-of-record announcement.",
+            "When is Cognichip presenting at AI Infra Summit 2026? AI Infra Summit runs 15 to 17 September 2026 at the Santa Clara Convention Center. Cognichip is a Platinum sponsor at booth 836. Co-founder and chief architect Simon Sabato and chief product officer Stelios Diamantidis were billed to discuss silicon for physical AI. Watch for a named block and a scoped benchmark, not another 100x adjective."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "siri-model-delegation-claude-chatgpt",
       "title": "Siri Model Delegation: Claude and GPT-5.6 Are Wired, Not On",
       "excerpt": "iOS 27 and macOS Golden Gate ship today. Code shows a Model Delegation API for Claude and an Inference Providing path that can swap Siri's backend for GPT-5.6 Terra. Apple has not opened the entitlement.",
