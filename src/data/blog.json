@@ -37,6 +37,133 @@
     }
   ],
   "posts": [
+{
+      "slug": "grok-4-8-release-date",
+      "title": "Grok 4.8 Release Date: A 2.5T Model With No API",
+      "excerpt": "Elon Musk named Grok 4.8 on 13 September as a 2.5 trillion parameter model on a new C++ stack. Training finishes this week, then RL. xAI still ships Grok 4.6. Grok 4.7 has no model card.",
+      "category": "models",
+      "tags": [
+        "Grok 4.8",
+        "Grok 4.7",
+        "xAI",
+        "Grok 4.6"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Grok 4.8 Release Date 2026: 2.5T, No API Yet",
+        "metaDescription": "Musk named Grok 4.8 on 13 Sep 2026 as a 2.5T model on a new C++ stack. xAI still ships Grok 4.6 at $2/$6. Grok 4.7 has no API. See what to run today.",
+        "keywords": [
+          "Grok 4.8",
+          "Grok 4.8 release date",
+          "Grok 4.8 2.5T",
+          "Grok 4.8 vs Grok 4.7",
+          "Grok 4.8 C++ software stack",
+          "xAI Grok 4.8",
+          "Grok 4.7 delay",
+          "Grok 4.6 pricing",
+          "when is Grok 4.8 coming out",
+          "Grok 4.8 vs Grok 4.6"
+        ]
+      },
+      "image": {
+        "src": "/blog/grok-4-8-hero.svg",
+        "alt": "Illustration of shipped Grok 4.6 at $2/$6 beside delayed Grok 4.7 and named Grok 4.8, a 2.5 trillion parameter model with no API or release date",
+        "caption": "The live SKU is grok-4.6. Grok 4.8 is a founder post. Grok 4.7 still has no card."
+      },
+      "sources": [
+        {
+          "title": "SpaceXAI: Introducing Grok 4.6",
+          "url": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "title": "SpaceXAI docs: Grok 4.6 model page",
+          "url": "https://docs.x.ai/developers/models/grok-4.6"
+        },
+        {
+          "title": "SpaceXAI docs: API pricing",
+          "url": "https://docs.x.ai/developers/pricing"
+        },
+        {
+          "title": "SpaceXAI docs: API release notes",
+          "url": "https://docs.x.ai/developers/release-notes"
+        },
+        {
+          "title": "SpaceXAI: Grok 4.6 model card (PDF)",
+          "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf"
+        },
+        {
+          "title": "CellCog: Grok 4.8 release date tracker",
+          "url": "https://cellcog.ai/blog/grok-4-8-release-date/"
+        },
+        {
+          "title": "AIBase: Musk says Grok 4.8 is 2.5T on a new C++ stack",
+          "url": "https://news.aibase.com/news/31018"
+        },
+        {
+          "title": "CGTN: Musk Grok 4.8 training and RL quote",
+          "url": "https://news.cgtn.com/news/2026-09-14/news-1QqnL4SApna/p.html"
+        },
+        {
+          "title": "Newsquawk: Musk Grok 4.8 finishes training this week",
+          "url": "https://www.newsquawk.com/headlines/spacex-spcx-ceo-musk-says-grok-48-which-is-a-25t-model-trained-with-our-news-c-software-stack-will-finish-training-this-week-and-start-rl"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 13 September 2026, at 9:24 p.m. Eastern, Elon Musk replied on X with a model name that had not appeared on x.ai: Grok 4.8. The full public description is one sentence. It is a 2.5 trillion parameter model trained with xAI's new C++ software stack, it will finish training this week, and it will then start reinforcement learning. CGTN, AIBase, and Newsquawk repeated that quote on 14 September. CellCog checked xAI's news feed, model directory, API release notes, and llms.txt at 01:47 UTC the same morning and found no Grok 4.8 line, and no Grok 4.7 line either.",
+            "That is not a product launch. SpaceXAI's last numbered release is still Grok 4.6, shipped on 12 August 2026. The launch note lists the API, Cursor, Grok Build, OpenRouter, Vercel, and Cloudflare. The docs page names the model id `grok-4.6`, a 500,000 token context window, text and image in, text out, and list prices of $2 input and $6 output per million tokens below 200,000 prompt tokens, doubling above that threshold. Cached input is $0.50, or $1.00 in the long-context band. None of those fields exist for 4.8.",
+            "Grok 4.7 is the model people were actually waiting on. Musk said on 11 September that it needed a few more days to cook, and blamed an RL setting that penalized response length too hard, so the model gave up on hard tasks and skipped checking its own work. AIBase dates that delay against a 12 September window. As of this morning, there is still no 4.7 model card, API identifier, price, or eval table. Naming 4.8 two days later does not retire 4.7. It puts a larger, later run on the same calendar."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers typing Grok 4.8 release date are looking for a ship window. The honest answer is that nobody at xAI has published one. Musk's last two training-finished posts preceded actual releases by 25 days (Grok 4.6) and 52 days (Grok 4.5), per CellCog's dated record. A mid-September training finish, if it holds, points to October or early November if those gaps repeat. That arithmetic is not a date. Grok 4.5's own \"2 to 3 weeks\" promise took seven.",
+            "The contrast is the rest of the field. [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) went generally available on 1 September. [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) got a model card on 2 September. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) published a safety overview on 3 September. Those labs put ids, prices, and evals in public. xAI put a parameter count on a social post. A 2.5T label is memory theater until there is an active-parameter figure, a context window, and a token price. The Grok 4.6 card does call that model a 1.5T-scale family. Musk has also called 4.6 1.5T and 4.7 2.1T. xAI has not printed 2.1T or 2.5T on a spec sheet.",
+            "For buyers, this is a [pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) and routing event, not a science event. Grok 4.6 already sits at the same $2/$6 band as several workhorse SKUs, with a 61 on Artificial Analysis's Intelligence Index, matching GPT-5.6 Sol and trailing Fable 5 Max by one point on xAI's own table. A larger successor on a faster stack could be cheaper per useful token, or more expensive to serve. Until a card exists, the only billable Grok flagship is 4.6. [Grok in Microsoft Copilot](/blog/grok-microsoft-copilot-word-excel-powerpoint) is a different door: an Office preview of the Grok family, not a 4.8 endpoint."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/grok-4-8-ladder.svg",
+            "alt": "Timeline of Grok 4.6 shipping on 12 August 2026, Grok 4.7 missing its 11 September window, and Grok 4.8 named on 13 September with training still underway",
+            "caption": "Score the dates separately. 12 August is a product. 11 September is a miss. 13 September is a name."
+          },
+          "paragraphs": [
+            "API and agent teams feel it first. If your router already points at `grok-4.6`, keep it there. Do not reserve capacity for a 4.7 or 4.8 id that docs.x.ai does not list. Cursor and Grok Build users are on the same live SKU. GitHub Copilot already named Grok 4.6 on 14 August. Microsoft 365 Copilot's Frontier preview still talks about the Grok family, not a version. Those are distribution paths for the model that exists.",
+            "Procurement should treat Musk dates as signals, not as SLAs. Grok 4.6's launch note leaned on long-running agents, code, research, and self-testing. The 4.7 delay Musk described, quitting early and skipping review, is the opposite of that pitch. If 4.7 ships as a short-lived flagship, the way 4.5 was replaced by 4.6 in 27 days, teams that rewrote prompts for one id will rewrite them again. If 4.7 is folded into 4.8, the wait gets longer and the migration happens once.",
+            "Rival labs and open routers gain the week. A buyer who needs a dated card can stay on Fable 5.1, Gemini 3.8 Flash, or Astra, or keep a cheap orchestrated pool. xAI still has a compute story. That does not mint an API identifier. EU and UK Copilot admins already know Grok is off in the Frontier Office preview. A 4.8 that never reaches a public card does not change that gate."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Musk named Grok 4.8 on 13 September 2026 as a 2.5T model trained with a new C++ software stack that would finish training this week and then start RL. Fact: as of 14 September, xAI's public news, model docs, and release notes list Grok 4.6 and do not list Grok 4.7 or Grok 4.8. Fact: Grok 4.6 shipped on 12 August 2026 with model id `grok-4.6`, a 500k context window, and $2/$6 list pricing below 200k prompt tokens. Fact: xAI reports Grok 4.6 at 61 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Sol. Fact: Musk said on 11 September that Grok 4.7 needed more time because an RL length penalty made it quit early.",
+            "Prediction: Grok 4.7 still ships, but as a brief flagship, unless xAI skips it and jumps to 4.8. Prediction: a Grok 4.8 API, if it arrives, lands weeks after the training-finished post, not this week. Prediction: the first useful 4.8 artifact will be a model id and a price next to 4.6, not another parameter count. Do not staff a cutover on a social post."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch x.ai/news and docs.x.ai for a Grok 4.8 or Grok 4.7 model page, id, and rate card. Watch whether Musk posts that RL has started, which is the next milestone in his own sentence. Watch whether 4.7 ships at all, because every 4.8 date depends on that. Watch whether the C++ stack claim is attached to 4.7 as well, or stays a 4.8 exclusive. Watch Grok 4.6 quality on the long-agent jobs the launch note sold, especially if 4.7's early-quit bug was already leaking into 4.6 sessions. And watch list price: a larger model on a faster stack can move $2/$6 either way."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Grok 4.8? It is a Grok model Elon Musk named on 13 September 2026. He said it has 2.5 trillion parameters, is trained with xAI's new C++ software stack, will finish training the week of 14 September, and will then start reinforcement learning. xAI has not published a model page, API identifier, price, or benchmark for it.",
+            "When is the Grok 4.8 release date? There is no official Grok 4.8 release date. Musk did not give a ship day. CellCog notes that his last two training-finished posts preceded Grok 4.6 by about 25 days and Grok 4.5 by about 52 days. That is a historical gap, not a calendar invite.",
+            "Is Grok 4.7 released? No. As of 14 September 2026, xAI's docs still present Grok 4.6 as the live flagship. Musk said on 11 September that Grok 4.7 needed a few more days because an RL length penalty made it give up on hard tasks. There is still no 4.7 model card.",
+            "What should I use instead of Grok 4.8 today? Use Grok 4.6 if you already run xAI. The API id is `grok-4.6`, with $2 input and $6 output per million tokens below 200k prompt tokens, a 500k context window, and availability in the xAI API, Cursor, Grok Build, and listed partners. If you need a different lab's dated card, compare Claude Fable 5.1, Gemini 3.8 Flash, or GPT-6 Astra.",
+            "Does Grok 4.8 replace Grok in Microsoft Copilot? No. Microsoft's Copilot preview is about the Grok family inside Word, Excel, and PowerPoint. It does not name Grok 4.8. GitHub Copilot already lists Grok 4.6. A future 4.8 id would be a separate routing change."
+          ]
+        }
+      ]
+    },
     {
       "slug": "doubao-phone-assistant-saep-protocol",
       "title": "Doubao Phone Assistant: Apps Can Refuse Screen Automation",

@@ -1,0 +1,43 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Grok 4.8 named as a 2.5T model with no API yet</title>
+  <desc id="desc">Editorial illustration of shipped Grok 4.6 beside delayed Grok 4.7 and named Grok 4.8, a 2.5 trillion parameter model with no release date.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#FF7A59" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Grok 4.8 release date: named, not shipped</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Musk, 13 Sep 2026  |  2.5T on a new C++ stack  |  training this week, then RL</text>
+
+  <rect x="118" y="210" width="300" height="270" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="140" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Grok 4.6 live</text>
+  <rect x="140" y="282" width="256" height="40" rx="10" fill="#12355A"/>
+  <rect x="140" y="334" width="256" height="40" rx="10" fill="#12355A"/>
+  <rect x="140" y="386" width="256" height="40" rx="10" fill="#12355A"/>
+  <text x="154" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">API id grok-4.6</text>
+  <text x="154" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">$2 in / $6 out per 1M</text>
+  <text x="154" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Shipped 12 Aug 2026</text>
+  <text x="140" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">500k context. AA Index 61.</text>
+
+  <rect x="444" y="210" width="300" height="270" rx="22" fill="#08203A" stroke="#E8A87C" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="466" y="258" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Grok 4.7 delayed</text>
+  <rect x="466" y="282" width="256" height="40" rx="10" fill="#12355A"/>
+  <rect x="466" y="334" width="256" height="40" rx="10" fill="#12355A"/>
+  <rect x="466" y="386" width="256" height="40" rx="10" fill="#12355A"/>
+  <text x="480" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">No model card or API id</text>
+  <text x="480" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Musk: 2.1T, still in RL</text>
+  <text x="480" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">11 Sep target missed</text>
+  <text x="466" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Length penalty, early give-up.</text>
+
+  <rect x="770" y="210" width="300" height="270" rx="22" fill="#08203A" stroke="#FF7A59" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="792" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Grok 4.8 named</text>
+  <rect x="792" y="282" width="256" height="40" rx="10" fill="#12355A"/>
+  <rect x="792" y="334" width="256" height="40" rx="10" fill="#12355A"/>
+  <rect x="792" y="386" width="256" height="40" rx="10" fill="#12355A"/>
+  <text x="806" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">2.5T, Musk only</text>
+  <text x="806" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">New C++ training stack</text>
+  <text x="806" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">No date, price, or evals</text>
+  <text x="792" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Not on x.ai as of 14 Sep.</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">The live SKU is grok-4.6. A founder post is not a product you can route.</text>
+</svg>
