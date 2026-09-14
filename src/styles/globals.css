@@ -1293,6 +1293,16 @@ ul {
   background: rgba(234, 244, 255, 0.94);
 }
 
+.blog-status {
+  margin: 0.4rem 0 1rem;
+  opacity: 0.88;
+}
+
+.blog-status--error,
+.blog-status--empty {
+  color: #ff8fa0;
+}
+
 .blog-empty,
 .blog-back {
   margin-top: 1.4rem;

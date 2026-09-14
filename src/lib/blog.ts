@@ -1,24 +1,25 @@
-import { BLOG_CATEGORIES, blogPosts, type BlogCategoryId, type BlogPost } from "@/data/blog";
+import type { BlogCategoryId, BlogPost } from "@/data/blog";
+import { BLOG_CATEGORIES } from "@/data/blog";
 
 export const BLOG_PREVIEW_COUNT = 6;
 
-export function getAllPosts(): BlogPost[] {
-  return [...blogPosts].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+export function sortPosts(posts: BlogPost[]): BlogPost[] {
+  return [...posts].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 }
 
-export function getPreviewPosts(count = BLOG_PREVIEW_COUNT): BlogPost[] {
-  return getAllPosts().slice(0, count);
+export function selectPreview(posts: BlogPost[], count = BLOG_PREVIEW_COUNT): BlogPost[] {
+  return sortPosts(posts).slice(0, count);
 }
 
-export function getPostBySlug(slug: string): BlogPost | undefined {
-  return blogPosts.find((post) => post.slug === slug);
+export function selectBySlug(posts: BlogPost[], slug: string): BlogPost | undefined {
+  return posts.find((post) => post.slug === slug);
 }
 
-export function getPostsByCategory(category: BlogCategoryId): BlogPost[] {
-  return getAllPosts().filter((post) => post.category === category);
+export function selectByCategory(posts: BlogPost[], category: string): BlogPost[] {
+  return sortPosts(posts).filter((post) => post.category === category);
 }
 
-export function getCategoryLabel(category: BlogCategoryId): string {
+export function getCategoryLabel(category: string): string {
   return BLOG_CATEGORIES.find((item) => item.id === category)?.label ?? category;
 }
 
@@ -30,8 +31,8 @@ export function formatBlogDate(isoDate: string): string {
   }).format(new Date(`${isoDate}T00:00:00`));
 }
 
-export function getRelatedPosts(post: BlogPost, count = 3): BlogPost[] {
-  return getAllPosts()
+export function selectRelated(posts: BlogPost[], post: BlogPost, count = 3): BlogPost[] {
+  return sortPosts(posts)
     .filter((item) => item.slug !== post.slug)
     .sort((a, b) => {
       const aScore = Number(a.category === post.category) + a.tags.filter((tag) => post.tags.includes(tag)).length;
@@ -41,12 +42,6 @@ export function getRelatedPosts(post: BlogPost, count = 3): BlogPost[] {
     .slice(0, count);
 }
 
-export function assertBlogIntegrity(): void {
-  const slugs = blogPosts.map((post) => post.slug);
-  if (new Set(slugs).size !== slugs.length) {
-    throw new Error("Duplicate blog slugs");
-  }
-  if (blogPosts.length < BLOG_PREVIEW_COUNT) {
-    throw new Error(`Need at least ${BLOG_PREVIEW_COUNT} posts for the homepage preview`);
-  }
+export function isBlogCategoryId(value: string): value is BlogCategoryId {
+  return BLOG_CATEGORIES.some((item) => item.id === value);
 }

@@ -41,8 +41,9 @@ import { track } from "@vercel/analytics";
 import Link from "next/link";
 import { BlogCard } from "@/components/BlogCard";
 import { SiteHeader, navItems } from "@/components/SiteHeader";
+import { BlogStatus } from "@/components/BlogStatus";
 import { content } from "@/data/content";
-import { getPreviewPosts } from "@/lib/blog";
+import { useBlogList } from "@/hooks/useBlog";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 18 },
@@ -155,7 +156,7 @@ export default function Home() {
     de: { home: "Start", skills: "Fähigkeiten", experience: "Erfahrung", projects: "Projekte", blog: "Blog", contact: "Kontakt", language: "Sprache", more: "Mehr" },
     ja: { home: "ホーム", skills: "スキル", experience: "経験", projects: "プロジェクト", blog: "ブログ", contact: "連絡先", language: "言語", more: "もっと見る" }
   } as const;
-  const previewPosts = getPreviewPosts();
+  const { status: blogStatus, posts: previewPosts } = useBlogList({ preview: true });
   const headlineVariants = [
     "Senior UI Engineer (10+ Years)",
     "Angular + React Specialist",
@@ -710,16 +711,19 @@ export default function Home() {
               </Link>
             </motion.div>
             <motion.p variants={fadeUp} className="blog-section-lead">
-              Six latest briefings on AI tools, models, chips, pricing, jobs, and what could happen next. Choose one to
-              read it here, or open More for the full listing.
+              Six latest briefings loaded from the JSON blog store through the API. Choose one to read it here, or open
+              More for the full listing.
             </motion.p>
-            <div className="grid blog-grid">
-              {previewPosts.map((post) => (
-                <motion.div key={post.slug} variants={fadeUp}>
-                  <BlogCard post={post} />
-                </motion.div>
-              ))}
-            </div>
+            <BlogStatus status={blogStatus} />
+            {blogStatus === "ok" ? (
+              <div className="grid blog-grid">
+                {previewPosts.map((post) => (
+                  <motion.div key={post.slug} variants={fadeUp}>
+                    <BlogCard post={post} />
+                  </motion.div>
+                ))}
+              </div>
+            ) : null}
           </motion.section>
 
           <motion.section id="contact" className="section section--final-cta section--premium" initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }} transition={{ staggerChildren: 0.12, delayChildren: 0.05 }}>

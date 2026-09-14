@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { getAllPosts, getPreviewPosts } from "@/lib/blog";
+import { listPosts } from "@/lib/blogStore";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== "GET") {
@@ -8,17 +8,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     return;
   }
 
-  const posts = req.query.preview === "1" ? getPreviewPosts() : getAllPosts();
-  res.status(200).json({
-    platform: "AI News & Future Trends",
-    count: posts.length,
-    posts: posts.map((post) => ({
-      slug: post.slug,
-      title: post.title,
-      excerpt: post.excerpt,
-      category: post.category,
-      publishedAt: post.publishedAt,
-      readingMinutes: post.readingMinutes
-    }))
-  });
+  const preview = req.query.preview === "1";
+  const category = typeof req.query.category === "string" ? req.query.category : undefined;
+  res.status(200).json(listPosts({ preview, category }));
 }

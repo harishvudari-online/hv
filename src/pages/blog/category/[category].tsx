@@ -1,13 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
-import type { GetStaticPaths, GetStaticProps } from "next";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { Newspaper } from "lucide-react";
 import { BlogCard } from "@/components/BlogCard";
+import { BlogStatus } from "@/components/BlogStatus";
 import { SiteFrame } from "@/components/SiteFrame";
 import { SiteHeader, ThemeToggle } from "@/components/SiteHeader";
-import { BLOG_CATEGORIES, type BlogCategoryId, type BlogPost } from "@/data/blog";
-import { getCategoryLabel, getPostsByCategory } from "@/lib/blog";
+import { useBlogList } from "@/hooks/useBlog";
+import { getCategoryLabel, isBlogCategoryId } from "@/lib/blog";
 
 const navLabels = {
   home: "Home",
@@ -18,21 +19,24 @@ const navLabels = {
   contact: "Contact"
 };
 
-type CategoryPageProps = {
-  category: BlogCategoryId;
-  posts: BlogPost[];
-};
-
-export default function BlogCategoryPage({ category, posts }: CategoryPageProps) {
+export default function BlogCategoryPage() {
+  const router = useRouter();
+  const categoryParam = typeof router.query.category === "string" ? router.query.category : "";
+  const category = isBlogCategoryId(categoryParam) ? categoryParam : undefined;
+  const ready = router.isReady;
+  const { status, posts } = useBlogList({ category, enabled: ready && Boolean(category) });
   const [theme, setTheme] = useState<"dark" | "light">("dark");
-  const label = getCategoryLabel(category);
+  const label = category ? getCategoryLabel(category) : "Category";
+  const viewStatus = !ready ? "loading" : category ? status : "empty";
 
   return (
     <>
       <Head>
         <title>{label} | AI News & Future Trends</title>
         <meta name="description" content={`AI briefings in ${label}.`} />
-        <link rel="canonical" href={`https://harishvudari.online/blog/category/${category}`} />
+        {category ? (
+          <link rel="canonical" href={`https://harishvudari.online/blog/category/${category}`} />
+        ) : null}
       </Head>
       <SiteFrame theme={theme}>
         <SiteHeader activeId="blog" labels={navLabels} variant="inner">
@@ -45,34 +49,19 @@ export default function BlogCategoryPage({ category, posts }: CategoryPageProps)
             </p>
             <h1>{label} briefings</h1>
             <p className="lead">
-              <Link href="/blog">All briefings</Link> in the AI News & Future Trends archive.
+              <Link href="/blog">All briefings</Link> loaded from the JSON blog store through the API.
             </p>
           </section>
-          <div className="grid blog-grid">
-            {posts.map((post) => (
-              <BlogCard key={post.slug} post={post} />
-            ))}
-          </div>
+          <BlogStatus status={viewStatus} empty="Unknown category." />
+          {viewStatus === "ok" ? (
+            <div className="grid blog-grid">
+              {posts.map((post) => (
+                <BlogCard key={post.slug} post={post} />
+              ))}
+            </div>
+          ) : null}
         </main>
       </SiteFrame>
     </>
   );
 }
-
-export const getStaticPaths: GetStaticPaths = async () => ({
-  paths: BLOG_CATEGORIES.map((item) => ({ params: { category: item.id } })),
-  fallback: false
-});
-
-export const getStaticProps: GetStaticProps<CategoryPageProps> = async ({ params }) => {
-  const category = params?.category as BlogCategoryId;
-  if (!BLOG_CATEGORIES.some((item) => item.id === category)) {
-    return { notFound: true };
-  }
-  return {
-    props: {
-      category,
-      posts: getPostsByCategory(category)
-    }
-  };
-};
