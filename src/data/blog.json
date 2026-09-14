@@ -38,6 +38,145 @@
   ],
   "posts": [
     {
+      "slug": "softbank-openai-11-9-billion-loan",
+      "title": "SoftBank OpenAI Loan: $11.9 Billion Against a $65 Billion Bet",
+      "excerpt": "Bloomberg says SoftBank sealed an $11.87 billion two-year OpenAI loan, up from a $10 billion target. Tomorrow it prepays $25.9 billion. A $10 billion tranche is still due 1 October.",
+      "category": "companies",
+      "tags": [
+        "SoftBank OpenAI loan",
+        "SoftBank",
+        "OpenAI funding",
+        "Masayoshi Son"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "SoftBank OpenAI Loan 2026: $11.9B Facility, $65B Bet",
+        "metaDescription": "SoftBank sealed an $11.87B two-year OpenAI loan. It prepays $25.9B on 15 Sep. A $10B tranche is due 1 Oct. What Bloomberg reported and SoftBank filed.",
+        "keywords": [
+          "SoftBank OpenAI loan",
+          "SoftBank $11.9 billion loan",
+          "SoftBank OpenAI investment",
+          "SoftBank $65 billion OpenAI",
+          "SoftBank OpenAI $11.87 billion",
+          "Masayoshi Son OpenAI",
+          "SoftBank bridge loan OpenAI",
+          "SoftBank $25.9 billion repayment",
+          "SoftBank OpenAI October tranche",
+          "SoftBank OpenAI margin loan"
+        ]
+      },
+      "image": {
+        "src": "/blog/softbank-openai-loan-hero.svg",
+        "alt": "Illustration of SoftBank Group sealing an $11.87 billion two-year OpenAI loan reported on 14 September 2026, with a $25.9 billion bridge prepayment due 15 September and a $10 billion OpenAI tranche still due 1 October",
+        "caption": "Banks oversubscribed a $10 billion target. SoftBank still has a $10 billion cheque due 1 October."
+      },
+      "sources": [
+        {
+          "title": "Bloomberg: SoftBank gets upsized $11.9 billion loan in OpenAI funding push",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push"
+        },
+        {
+          "title": "The Japan Times: SoftBank gets upsized $11.9 billion loan in OpenAI funding push",
+          "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
+        },
+        {
+          "title": "The Business Times: SoftBank gets upsized US$11.9 billion loan in OpenAI funding push",
+          "url": "https://www.businesstimes.com.sg/companies-markets/softbank-gets-upsized-us11-9-billion-loan-openai-funding-push"
+        },
+        {
+          "title": "SoftBank: Early Repayment of Bridge Loans (9 Sep 2026)",
+          "url": "https://group.softbank/en/news/press/20260909"
+        },
+        {
+          "title": "SoftBank: Follow-on Investments in OpenAI (27 Feb 2026)",
+          "url": "https://group.softbank/en/news/press/20260227"
+        },
+        {
+          "title": "SoftBank: Execution of Bridge Facility Agreement for OpenAI (27 Mar 2026)",
+          "url": "https://group.softbank/en/news/press/20260327"
+        },
+        {
+          "title": "SoftBank: Execution of Follow-on Investment (First Tranche) in OpenAI",
+          "url": "https://group.softbank/en/news/press/20260401_0"
+        },
+        {
+          "title": "SoftBank: Execution of Follow-on Investment (Second Tranche) in OpenAI",
+          "url": "https://group.softbank/en/news/press/20260701"
+        },
+        {
+          "title": "Bloomberg: SoftBank secures $10 billion margin loan backed by OpenAI stake",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-06/softbank-secures-10-billion-margin-loan-backed-by-openai-stake"
+        },
+        {
+          "title": "CNBC: AI stocks slide after Anthropic, OpenAI CEOs urge slowdown",
+          "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+        },
+        {
+          "title": "Fortune: Sam Altman says an OpenAI IPO now would be an ill-advised moment",
+          "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
+        },
+        {
+          "title": "IFR: SoftBank puts lenders to the test",
+          "url": "https://www.ifre.com/loans/2476003/softbank-puts-lenders-to-the-test"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Bloomberg reported a SoftBank OpenAI loan of $11.87 billion: a two-year facility to support the OpenAI investment, up from a $10 billion target, with commitments from about 20 banks. The Japan Times and The Business Times carried the same Janice Huang story. People familiar with the matter said the facility closed last week. SoftBank declined to comment. Score the ticket as a sourced refinance, not as a numbered IR filing.",
+            "The dated cheque sits next to it. On 9 September SoftBank said it will prepay, on 15 September, the entire $25.9 billion outstanding on the $40 billion unsecured bridge it signed on 27 March to fund OpenAI follow-ons. The company has drawn $30 billion of that line. The named lenders were JPMorgan Chase, Goldman Sachs, Mizuho Bank, Sumitomo Mitsui Banking Corporation, and MUFG Bank. Maturity was 25 March 2027. Tomorrow's wire is SoftBank replacing a one-year-class bridge. It is not SoftBank walking away from OpenAI.",
+            "The equity calendar is unchanged. SoftBank's 27 February filing committed $30 billion of follow-on capital through Vision Fund 2 at a $730 billion pre-money valuation, in three $10 billion preferred-share tranches on 1 April, 1 July, and 1 October 2026. The April and July closes happened, each funded with a $10 billion bridge draw. Completing the third tranche takes cumulative OpenAI investment to $64.6 billion and ownership to about 13%. Those preferred shares convert into common on an IPO or related listing. That listing is now a 2027 story in the [OpenAI IPO delay](/blog/openai-ipo-delay-2026-safety) briefing. The loan is how Son still funds the private cheque."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking about a SoftBank OpenAI loan are not asking when ChatGPT lists. They are asking whether Masayoshi Son can keep writing $10 billion cheques after Altman took 2026 off the IPO calendar. A public listing was the cleanest path to a mark, and to converting the preferred. A two-year bank facility is the substitute. Bloomberg-compiled data in the same story puts SoftBank's 2026 bond and loan haul at about $37 billion, including this ticket. The $11.87 billion print is leverage against a private stake, not IPO proceeds.",
+            "Tokyo already priced the safety week. The Japan Times said SoftBank shares tumbled as much as 13% on Monday, the most since 17 July. CNBC put the Japan session at a 10% drop and tied the tape to [pacing the frontier](/blog/pace-the-frontier-ai-slowdown), not to a new credit agreement. Chip names from SK Hynix to ASML, Micron, Intel, and NVIDIA sold off with it. The SoftBank OpenAI loan leaked into that same session. Treat the stock as a vote on whether OpenAI's compute spend, from [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) to the [Jalapeno inference chip](/blog/openai-jalapeno-inference-chip), still compounds if labs slow capability growth. Treat the loan as the funding stack that has to survive that vote.",
+            "The term sheet that is not in SoftBank's IR room still matters for the cost of that stack. IFR earlier described a $10 billion two-year recourse facility to refinance the OpenAI bridge, with an opening margin of 275 basis points over SOFR and a 25 basis-point step-up if OpenAI had not completed an IPO within 12 months of signing. Bloomberg's sources now say a two-year facility closed last week at $11.87 billion. SoftBank has not filed those terms. Do not price a 25 basis-point IPO penalty into the $11.87 billion loan unless the company discloses it. Do notice that lenders were already writing OpenAI's listing date into a refinance while Altman was taking 2026 off the table."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/softbank-openai-loan-stack.svg",
+            "alt": "Diagram of SoftBank Group's OpenAI financing stack in September 2026 showing a $40 billion unsecured bridge being prepaid, a reported $11.87 billion two-year loan, a $10 billion margin loan against the OpenAI stake, and a possible $10 to $20 billion junk-bond sale against a $64.6 billion cumulative OpenAI investment",
+            "caption": "The $11.87B ticket is a reported refinance. The $25.9B prepay and the $10B 1 October tranche are SoftBank filings."
+          },
+          "paragraphs": [
+            "Banks feel it first. About 20 lenders, on Bloomberg's account, stretched a $10 billion target to $11.87 billion. The March bridge named five houses. The August $10 billion margin loan against the OpenAI stake, which SoftBank disclosed in its Q1 FY2026 report, named Goldman Sachs Bank USA, JPMorgan Chase Bank NA, Mizuho Securities USA, Apollo Global Funding, and Sumitomo Mitsui Banking as mandated lead arrangers. A second two-year ticket on the same name is more OpenAI paper in the same syndicate. If the last $10 billion preferred close slips, those books still have to roll.",
+            "OpenAI and its suppliers sit on the other side of 1 October. SoftBank already put $34.6 billion into the company before this year's follow-on, then $10 billion in April and $10 billion in July. The remaining $10 billion is still dated 1 October, Japan time, and can accelerate only if OpenAI lists. A delayed IPO does not, by itself, cancel that close. It does keep the stake as preferred FVTPL paper that SoftBank marks every quarter. Compute vendors tracking the [chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) should watch whether that October wire lands, not whether Altman repeats 2027.",
+            "Tokyo shareholders and rival labs are in the blast radius. SoftBank's own February filing left LTV policy unchanged: below 25% in normal markets, 35% in an emergency, plus cash to cover two years of bond redemptions. Bloomberg's story also has the company sounding out a $10 billion to $20 billion US dollar junk-bond sale in New York this week. That is a marketed idea, not a priced deal. [Z.AI's $5 billion filing](/blog/z-ai-5-billion-fully-self-training-glm) is a listed issuer asking public markets for training compute. SoftBank is a listed investor borrowing to buy more of a private lab. Different machines. Same week. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) already warned that policy lags tools unless someone owns the checkpoint. For SoftBank the checkpoint is 15 September and 1 October, not a standards-body essay."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Bloomberg on 14 September 2026, citing people familiar, said SoftBank sealed an $11.87 billion two-year loan for its OpenAI investment, up from a $10 billion target, with about 20 banks, and that SoftBank declined to comment. Fact: SoftBank's 9 September notice says it will prepay $25.9 billion on 15 September on the $40 billion March bridge, of which $30 billion has been drawn. Fact: the 27 February filing commits three $10 billion Vision Fund 2 tranches at a $730 billion pre-money valuation, taking cumulative investment to $64.6 billion and ownership to about 13% if the 1 October tranche closes. Fact: SoftBank executed the first two tranches on 1 April and 1 July, each with a $10 billion bridge draw. Fact: Japan Times reported SoftBank shares down as much as 13% on Monday; CNBC reported a 10% Japan drop.",
+            "Prediction: the 15 September prepay will clear and the $11.87 billion facility will later show up in a bond prospectus or quarterly report, which is when the rate, covenants, and any IPO step-up become facts. Prediction: the 1 October $10 billion preferred close still happens, because a delayed listing is not a delayed funding obligation in the February contract. Prediction: a New York junk-bond sale will be sized off how Monday's 13% tape settles, not off the declined-comment leak. Do not staff a credit memo on a loan SoftBank has not filed."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether the $25.9 billion leaves the bridge on 15 September. Watch a SoftBank filing, bank league table, or quarterly note that names the $11.87 billion facility, its margin, and whether an IPO delay steps that margin up. Watch the 1 October $10 billion preferred close, and whether SoftBank marks the OpenAI FVTPL line down after Monday's tape. Watch whether the New York junk-bond meetings produce a $10 billion issue or a $20 billion issue, or nothing. Watch LTV against the 25% normal cap. And watch whether OpenAI's next compute buy, including any [Jalapeno](/blog/openai-jalapeno-inference-chip) ramp, is still funded as if 2026 were an IPO year."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the SoftBank OpenAI loan reported today? Bloomberg, syndicated by The Japan Times and The Business Times, said SoftBank Group sealed an $11.87 billion two-year loan last week to support its OpenAI investment. The target had been $10 billion. About 20 banks committed. SoftBank declined to comment. There is no matching SoftBank IR filing for that ticket as of 14 September 2026.",
+            "How much is SoftBank investing in OpenAI? SoftBank's 27 February 2026 filing said it had already invested $34.6 billion through Vision Fund 2, then committed a $30 billion follow-on in three $10 billion preferred-share tranches. Completing the 1 October tranche takes the cumulative total to $64.6 billion and ownership to about 13%. The first two tranches closed on 1 April and 1 July.",
+            "When does SoftBank repay the $40 billion OpenAI bridge loan? SoftBank said on 9 September 2026 that it will prepay the entire $25.9 billion outstanding on 15 September. The $40 billion unsecured bridge was signed on 27 March with JPMorgan, Goldman Sachs, Mizuho, SMBC, and MUFG. SoftBank has drawn $30 billion of it. Original maturity was 25 March 2027.",
+            "Did SoftBank confirm the $11.87 billion facility? No. Bloomberg's sources said the two-year loan closed last week. SoftBank declined to comment. Confirmed filings cover the $40 billion bridge, the $25.9 billion prepay, the $30 billion follow-on, and the first two $10 billion OpenAI closes. Treat $11.87 billion as reported until SoftBank files it.",
+            "Does the OpenAI IPO delay change the SoftBank OpenAI loan? It changes the exit, not the dated cheque. Altman told Fortune a 2026 listing would be ill-advised, which is why the [OpenAI IPO delay](/blog/openai-ipo-delay-2026-safety) briefing now points at 2027. SoftBank's preferred shares convert on an IPO. The 1 October $10 billion tranche is still on the February timetable unless the parties change it. A delayed listing is not, by itself, a cancelled investment."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "z-ai-5-billion-fully-self-training-glm",
       "title": "Z.AI $5 Billion Raise: Capital for Fully Self-Training GLM",
       "excerpt": "Z.AI filed a $5 billion Hong Kong placing and convertible-bond sale. 60% of net proceeds is for next-gen GLM and Fully Self-Training. Closing is still ahead. The HKEX filing is the source, not a banked cheque.",
