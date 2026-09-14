@@ -38,6 +38,126 @@
   ],
   "posts": [
     {
+      "slug": "intern-s2-preview-397b-scientific-agents",
+      "title": "Intern-S2-Preview-397B: Open Weights for Science Agents",
+      "excerpt": "Shanghai AI Laboratory's Intern-S2-Preview-397B is now intern-latest. Apache 2.0 weights, a 256K window, and science benches that beat DeepSeek V4 Pro. The general coding scores do not.",
+      "category": "models",
+      "tags": [
+        "Intern-S2-Preview-397B",
+        "InternLM",
+        "scientific agents",
+        "Shanghai AI Laboratory"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Intern-S2-Preview-397B 2026: Weights, API, Science",
+        "metaDescription": "Intern-S2-Preview-397B is intern-latest. Apache 2.0 weights, 256K context, science benches versus DeepSeek V4 Pro, and a hosted intern-s2-preview-397b ID.",
+        "keywords": [
+          "Intern-S2-Preview-397B",
+          "intern-s2-preview-397b API",
+          "InternLM Intern-S2 397B",
+          "Intern-S2-Preview-397B Hugging Face",
+          "Intern-S2 397B vs DeepSeek V4 Pro",
+          "Shanghai AI Laboratory Intern-S2",
+          "Intern-S2-Preview-397B Apache 2.0",
+          "Intern-MemDec-4B"
+        ]
+      },
+      "image": {
+        "src": "/blog/intern-s2-preview-397b-hero.svg",
+        "alt": "Illustration of Intern-S2-Preview-397B as intern-latest with Apache 2.0 weights, a 256K context window, and science benchmark leads versus DeepSeek V4 Pro",
+        "caption": "intern-latest now points at intern-s2-preview-397b. Science tables lead. Terminal-Bench still trails Claude."
+      },
+      "sources": [
+        {
+          "title": "Hugging Face: Intern-S2-Preview-397B model card",
+          "url": "https://huggingface.co/internlm/Intern-S2-Preview-397B"
+        },
+        {
+          "title": "Hugging Face: Intern-S2-Preview-397B-FP8",
+          "url": "https://huggingface.co/internlm/Intern-S2-Preview-397B-FP8"
+        },
+        {
+          "title": "GitHub: InternLM Intern-S series README and weights",
+          "url": "https://github.com/InternLM/Intern-S1"
+        },
+        {
+          "title": "arXiv: Intern-S2-Preview: Scientific Agentic Foundation Model",
+          "url": "https://arxiv.org/abs/2608.13505"
+        },
+        {
+          "title": "Intern API documentation",
+          "url": "https://internlm.intern-ai.org.cn/api/document"
+        },
+        {
+          "title": "Intern Large Models chat and API",
+          "url": "https://chat.intern-ai.org.cn/"
+        },
+        {
+          "title": "ModelScope: Intern-S2-Preview-397B",
+          "url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/Intern-S2-Preview-397B"
+        },
+        {
+          "title": "Hugging Face: Intern-S2 collection",
+          "url": "https://huggingface.co/collections/internlm/intern-s2"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Shanghai AI Laboratory's InternLM line now treats Intern-S2-Preview-397B as the default hosted model. Intern API docs list intern-s2-preview-397b as a 397B-parameter scientific multimodal reasoning SKU with a 256K context window, and intern-latest currently points at that ID. The same weights sit on Hugging Face as internlm/Intern-S2-Preview-397B, with an FP8 twin at internlm/Intern-S2-Preview-397B-FP8, and on ModelScope under Shanghai_AI_Laboratory. The license is Apache 2.0. There is no mystery SKU. The model name, the API name, and the repo name match.",
+            "The technical report, Intern-S2-Preview: Scientific Agentic Foundation Model (arXiv 2608.13505), describes a staged recipe: visual pre-training on rendered scientific pages, multi-task reinforcement learning across more than 20 domains, then black-box and white-box agentic RL in sandboxed tools. Thinking mode is on by default. The card tells you not to turn it off for agent work. You can call the hosted endpoint at chat.intern-ai.org.cn, or serve BF16 or FP8 yourself with LMDeploy, vLLM, or SGLang.",
+            "This is a different product from [Bodhan AI's Indic stack](/blog/bodhan-ai-indic-language-models) and from [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks). Bodhan is language coverage. Flash is a cheap general agent. Intern-S2-Preview-397B is a science and long-horizon agent that also posts open-model highs on MMLU-Pro and SimpleQA-Verified. Treat the name as a job description, not as another frontier chatbot."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "General flagships are getting better at computer use. They are still weak at biomolecular instructions, crystal structure generation, and scientific time series. Intern-S2-Preview-397B's own table puts Biology-Instructions at 56.92, Mol-Instructions at 52.37, and SciReasoner at 63.97, ahead of DeepSeek V4 Pro, Qwen3.5-397B, and the closed GPT, Gemini, and Claude rows the paper lists. MP20 material structure generation is 67.88 against low-teens or worse for the same comparison set. That is the reason to care if you run a lab, not if you run a chatbot.",
+            "The general rows are the honesty check. MMLU-Pro 89.75 and SimpleQA-Verified 69.90 are best among the open models in Table 3. Terminal-Bench 2.1 is 67.42, ahead of DeepSeek V4 Pro's 64.00 and Qwen3.5's 51.30, and well behind Claude Opus 4.8's 84.60. SWE-Bench Pro is 61.56 versus Claude's 69.20. WildClawBench is 44.68, behind the closed flagships on that row. If your job is repo migration, this is not [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) or [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access). If your job is a paper, a spectrum, or a crystal, the comparison set is the point.",
+            "Apache 2.0 plus a hosted ID also changes the [open-model hub](/blog/nvidia-buys-hugging-face-open-model-hub) story. You can download the 397B checkpoint. You can also skip the cluster and pay Intern's meter. That split is the product. The 35B Intern-S2-Preview sibling exists for teams that cannot host 397B. Intern-S1-Pro remains the trillion-parameter science MoE in the same zoo, and the paper says the 397B S2 line beats it on seven of nine shared SciTS understanding tasks, including PHU01 F1 moving from 36.8 to 66.9."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/intern-s2-preview-397b-stack.svg",
+            "alt": "Diagram of Intern-S2-Preview-397B as a hosted intern-latest API, Apache 2.0 self-host weights, a 35B sibling, and an optional Intern-MemDec-4B biology pack on a frozen backbone",
+            "caption": "Three doors, one flagship. Hosted API, self-host weights, or a 4B memory pack. Do not mix the jobs."
+          },
+          "paragraphs": [
+            "Science and engineering orgs that already speak OpenAI or Anthropic protocols can point an agent harness at https://chat.intern-ai.org.cn/api/v1 and set the model to intern-s2-preview-397b. The card documents Claude Code and OpenClaw-style setups, including the [OpenAI Agents API](/blog/openai-agents-api-codex-harness) class of clients that only need a base URL and a model ID. Thinking mode stays on for tool-heavy work. Time series inference, including earthquake P/S picks and load forecasting, is documented for LMDeploy only. That is a serving fact, not a footnote.",
+            "Self-host teams need a real GPU island. Hugging Face lists the BF16 repo around 404B parameters. FP8 is the practical download. The [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) still applies: the science wins are vendor-reported through OpenCompass, VLMEvalKit, and AgentCompass, with 256K text and 64K multimodal generation caps. Run your own assays before you retire a closed lab SKU.",
+            "India and EU research groups that want weights they can air-gap sit next to [MIT HardFlow](/blog/mit-hardflow-safety-critical-generative-ai) on the constraint problem. Intern-S2 generates structures and traces. HardFlow is about making a generative path obey a hard constraint. They are complementary, not substitutes. Platform teams comparing [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) as a cheap general worker should not swap it for Intern-S2-Preview-397B. Different jobs."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Intern API docs list intern-s2-preview-397b with a 256K context window and say intern-latest currently points to that ID. Fact: Hugging Face and ModelScope host Intern-S2-Preview-397B and Intern-S2-Preview-397B-FP8 under Apache 2.0. Fact: the technical report reports Biology-Instructions 56.92, Mol-Instructions 52.37, SciReasoner 63.97, MMLU-Pro 89.75, SimpleQA-Verified 69.90, Terminal-Bench 2.1 67.42, and SWE-Bench Pro 61.56. Fact: Intern-MemDec-4B is a separate 4B memory attached to a frozen 397B backbone, and the paper says it lifts Biology-Instructions from 56.92 to 60.32. Fact: thinking mode is default, and the card recommends leaving it on for agents.",
+            "Prediction: most buyers will use the hosted intern-s2-preview-397b ID, not self-host 397B. Prediction: third-party coding evals will land closer to the Terminal-Bench gap with Claude than to the science table. Prediction: Memory Decoder packs, if more domains ship, become the commercial story, because they specialize science without another 397B fine-tune. Do not staff a general coding fleet on a science preview because the MMLU-Pro row looks high."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether intern-latest stays on intern-s2-preview-397b or jumps to a GA S2 without the Preview suffix. Watch independent reruns of Biology-Instructions, SciReasoner, Terminal-Bench 2.1, and SWE-Bench Pro. Watch whether LMDeploy remains the only documented time-series path. Watch Intern-MemDec-4B: one biology pack is a paper result, a catalog of packs is a product. Watch how this sits against [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) on price for mixed agent work, and against the [2026 frontier model](/blog/frontier-models-in-2026-what-changed) habit of selling one SKU for every job. And watch export and hosting: a 397B Apache checkpoint is only useful if you can run it where your data is allowed to live."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Intern-S2-Preview-397B? It is Shanghai AI Laboratory's 397B-parameter scientific multimodal foundation model for scientific intelligence and long-horizon agents. Intern API serves it as intern-s2-preview-397b, with intern-latest currently aliased to that ID. Apache 2.0 weights are on Hugging Face and ModelScope.",
+            "How do I call the intern-s2-preview-397b API? Register at internlm.intern-ai.org.cn, create a token, and send OpenAI-compatible chat completions to https://chat.intern-ai.org.cn/api/v1 with model intern-s2-preview-397b. The card also documents an Anthropic-compatible path for Claude Code. Thinking mode is on by default.",
+            "Does Intern-S2-Preview-397B beat DeepSeek V4 Pro? On the lab's science table, yes, on Biology-Instructions, Mol-Instructions, and SciReasoner. On Terminal-Bench 2.1 the paper reports 67.42 for Intern-S2-Preview-397B and 64.00 for DeepSeek V4 Pro. Closed Claude Opus 4.8 still leads those agent rows. The numbers are vendor-reported.",
+            "Is Intern-S2-Preview-397B open source? The 397B and FP8 checkpoints are released under Apache 2.0. There is also a 35B Intern-S2-Preview sibling. Intern-S1-Pro in the same zoo is a separate trillion-parameter MoE. Hosted API terms are not the same as the weight license. Read both."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "anthropic-claude-distillation-threat-report",
       "title": "Anthropic Claude Distillation: 190 Million Exchanges Named",
       "excerpt": "Anthropic's 10 September threat report attributes more than 151 million Claude exchanges to Alibaba, 23 million to Moonshot, and 12.1 million to DeepSeek. CISA named six labs two days earlier.",

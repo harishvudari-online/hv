@@ -1,0 +1,43 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Intern-S2-Preview-397B stack: API, weights, and Memory Decoder</title>
+  <desc id="desc">Diagram of Intern-S2-Preview-397B as a hosted intern-latest API, Apache 2.0 self-host weights, a 35B sibling, and an optional Intern-MemDec-4B biology pack on a frozen backbone.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.14"/>
+  <circle cx="1060" cy="560" r="250" fill="#7CFFB2" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="124" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">One science flagship, three ways to use it</text>
+  <text x="118" y="160" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Hosted ID, self-hosted weights, or a 4B memory pack on a frozen 397B backbone.</text>
+
+  <rect x="118" y="196" width="300" height="300" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="142" y="240" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Hosted API</text>
+  <text x="142" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">intern-s2-preview-397b</text>
+  <text x="142" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">intern-latest alias</text>
+  <text x="142" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">256K context window</text>
+  <text x="142" y="356" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">OpenAI and Claude Code paths</text>
+  <text x="142" y="402" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">chat.intern-ai.org.cn/api/v1</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Thinking mode on by default</text>
+  <text x="142" y="466" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="13">Skip the cluster. Pay the meter.</text>
+
+  <rect x="450" y="196" width="300" height="300" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="474" y="240" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Self-host</text>
+  <text x="474" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">BF16: Intern-S2-Preview-397B</text>
+  <text x="474" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">FP8 twin for smaller disks</text>
+  <text x="474" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Apache 2.0 on Hugging Face</text>
+  <text x="474" y="356" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Also on ModelScope</text>
+  <text x="474" y="402" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">LMDeploy, vLLM, SGLang</text>
+  <text x="474" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Time series: LMDeploy only</text>
+  <text x="474" y="466" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="13">35B sibling if 397B will not fit.</text>
+
+  <rect x="782" y="196" width="300" height="300" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="806" y="240" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Memory Decoder</text>
+  <text x="806" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Intern-MemDec-4B pack</text>
+  <text x="806" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">397B backbone stays frozen</text>
+  <text x="806" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Biology-Instructions 56.92</text>
+  <text x="806" y="356" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">to 60.32 with the 4B memory</text>
+  <text x="806" y="402" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Optional. Not in the base ID.</text>
+  <text x="806" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">One domain pack, not a catalog.</text>
+  <text x="806" y="466" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="13">Specialize without a 397B fine-tune.</text>
+
+  <text x="118" y="538" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Science table is the reason to care. Terminal-Bench 2.1 at 67.42 is not a Claude replacement.</text>
+</svg>
