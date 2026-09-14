@@ -38,6 +38,116 @@
   ],
   "posts": [
     {
+      "slug": "siri-ai-eu-delay-ios-27-dma",
+      "title": "Siri AI EU Delay: iOS 27 Ships Without the Assistant",
+      "excerpt": "iOS 27 lands today with Siri AI as the headline. EU iPhones and iPads do not get it. Apple blames the Digital Markets Act. Mac and Vision Pro still do.",
+      "category": "companies",
+      "tags": [
+        "Siri AI",
+        "Apple",
+        "Digital Markets Act",
+        "iOS 27"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Siri AI EU Delay 2026: iOS 27 DMA, What Ships",
+        "metaDescription": "iOS 27 ships Siri AI on 14 Sep 2026, except EU iPhone and iPad. What the DMA delay, Trusted System Agent, and Mac/Vision access mean for users.",
+        "keywords": [
+          "Siri AI EU delay",
+          "iOS 27 Siri AI",
+          "Digital Markets Act Apple",
+          "Siri AI not available in EU",
+          "Trusted System Agent Apple",
+          "Apple Intelligence EU"
+        ]
+      },
+      "image": {
+        "src": "/blog/siri-ai-eu-hero.svg",
+        "alt": "Illustration of Siri AI shipping with iOS 27 except EU iPhone and iPad, while Mac and Vision Pro remain available",
+        "caption": "The DMA split is by platform. EU iPhone, iPad, and Watch stay out. EU Mac and Vision Pro still get Siri AI in a supported language."
+      },
+      "sources": [
+        {
+          "title": "Apple: Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27",
+          "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/"
+        },
+        {
+          "title": "Apple: Apple Intelligence brings powerful AI capabilities into everyday experiences",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"
+        },
+        {
+          "title": "9to5Mac: Apple confirms iOS 27 release date September 14",
+          "url": "https://9to5mac.com/2026/09/09/apple-confirms-ios-27-release-date-september-14/"
+        },
+        {
+          "title": "The Verge: iOS 27 launches on September 14th with Siri AI",
+          "url": "https://www.theverge.com/news/992408/ios-27-release-date-features"
+        },
+        {
+          "title": "MacObserver: Siri AI EU exclusion and the DMA proposal Apple says regulators rejected",
+          "url": "https://www.macobserver.com/news/siri-ai-eu-exclusion-dma-proposal-regulators-rejected/"
+        },
+        {
+          "title": "CNBC: Apple partnering with Google and Nvidia for most advanced AI model",
+          "url": "https://www.cnbc.com/2026/06/08/apple-google-nvidia-ai-chips.html"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "iOS 27 is a free software update on Monday, September 14, 2026. Apple locked the date at its Surprise and Shine event on September 9. The headline feature is Siri AI, a new version of Siri that ships as an English-only beta. Apple lists French, Japanese, Korean, Portuguese, and Spanish for October.",
+            "That launch is split by region and by device. Apple's June newsroom post is still the live rule for the Siri AI EU delay: the assistant does not ship in the European Union on iOS 27, iPadOS 27, or watchOS 27. EU users can use it on macOS 27 and visionOS 27 when the device is set to a supported language. September 9 footnotes repeated the same carve-out and added that features that rely on Siri AI are also withheld on those three mobile platforms. There is still no timeline for iPhone or iPad in the EU."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is not a model-rank story. It is a distribution story. Apple built Siri AI on the next generation of Apple Foundation Models, custom work with Google and the technologies behind Gemini, running on device and through Private Cloud Compute. The heaviest cloud path now includes NVIDIA GPUs in Google Cloud, still wrapped in Apple's PCC privacy claims. That stack is live for customers who can install it. The Digital Markets Act fight decides who those customers are.",
+            "The useful search question is blunt: does iOS 27 have Siri AI in Europe? On iPhone and iPad, no. On Mac and Vision Pro, yes, in a supported language. Apple says it proposed a Trusted System Agent plus an 18-month rollout so other virtual assistants could reach the same device capabilities without a raw interoperability dump. Apple says EU regulators rejected all proposed solutions. The Commission has publicly framed Apple as seeking an exemption rather than a compliant interoperability design. Neither side has published a joint technical spec that a buyer can audit.",
+            "The models inside Siri are Apple's, refined with Gemini outputs, not a public [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) SKU sitting in Settings. That distinction will matter in Brussels as much as in Cupertino, because a gatekeeper assistant built with another gatekeeper's research is a different argument than on-device-only Siri."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/siri-ai-eu-access.svg",
+            "alt": "Diagram of Siri AI access on launch day showing EU mobile blocked, EU Mac and Vision Pro allowed, and an English beta elsewhere",
+            "caption": "Score the operating system, not the slogan. EU iPhone, iPad, and Watch are out. EU Mac and Vision Pro are in if the language is supported."
+          },
+          "paragraphs": [
+            "EU iPhone and iPad users feel it first. They get iOS 27 and iPadOS 27 without the assistant, and without the unnamed list of features that rely on it. watchOS 27 in the EU also stays on classic Siri because it needs a paired iPhone with Siri AI. Apple describes a dedicated Siri app that privately syncs conversational history over iCloud. For an EU user, that continuity has only two endpoints on day one: Mac and Vision Pro.",
+            "Hardware still gates the full feature set even where Siri AI is legal. 9to5Mac reports the most advanced Siri AI features need iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, iPhone Air, or iPhone 17 Pro. iOS 27 itself still installs back to iPhone 11 and recent SE models. Enterprise mobility teams that already wrestle with [what is working in enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) now have a region split inside one fleet.",
+            "Developers located in the EU cannot test or use the new Siri AI features for their apps on iOS and iPadOS. That is a product delay, not a research delay. It also sits next to a different policy fight: US labs talking about [pacing the frontier](/blog/pace-the-frontier-ai-slowdown) while Apple is arguing with Brussels over who may act on a phone. The [five-year outlook for business and society](/blog/five-year-outlook-ai-business-and-society) already warned that policy lags tools. Today's ship date makes that lag visible on the lock screen."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: iOS 27 ships on 14 September 2026 as a free update. Fact: Siri AI is an English beta at launch, with five more languages listed for October. Fact: Apple withholds Siri AI on EU iOS, iPadOS, and watchOS, and ships it on EU macOS and visionOS in a supported language. Fact: Apple named Trusted System Agent and an 18-month plan, and says regulators rejected the proposals. Fact: Apple Foundation Models for this generation were built with Google and Gemini technology, and the heaviest Private Cloud Compute path can run on NVIDIA GPUs in Google Cloud.",
+            "Prediction: the EU iPhone gap lasts past the October language drop. Prediction: buyers will treat Mac and Vision Pro as the EU proof points, then ask IT whether iPhone is a second-class assistant. Prediction: a DMA compromise will look like a mediated agent layer with logs, not an exemption that leaves Siri as the only system agent."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch Settings, General, Software Update on an EU iPhone after today's window. Watch whether Apple names which iOS 27 features rely on Siri AI. Watch the October language drop and whether EU iOS is still dark. Watch whether the Commission publishes a technical reason that maps to Trusted System Agent. Watch developer docs for EU App Store apps that expected Siri AI actions. And watch whether Google's role in Apple Foundation Models becomes a Brussels talking point, because the assistant's supply chain is now as political as its UI."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "Is Siri AI available in the EU on iOS 27? No. Apple is not shipping Siri AI on iOS 27, iPadOS 27, or watchOS 27 in the European Union. EU users can use Siri AI on macOS 27 and visionOS 27 when the device is set to a supported language.",
+            "Why is Siri AI delayed in the EU? Apple says the Digital Markets Act requires interoperability for virtual assistants in a way that would weaken privacy and security on iPhone and iPad. It proposed a Trusted System Agent and an 18-month rollout. Apple says EU regulators rejected those plans. There is no published date for an EU iPhone release.",
+            "What is Apple's Trusted System Agent? It is Apple's named DMA proposal: an intermediary so other virtual assistants could reach the same device capabilities as Siri AI, rolled out over 18 months. Apple has not published the technical spec. The Commission has said Apple asked for an exemption rather than a compliant interoperability design.",
+            "Which iPhones get Siri AI at launch? Where it is allowed, Siri AI starts as an English beta with iOS 27. The most advanced features are limited to iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, iPhone Air, and iPhone 17 Pro, according to 9to5Mac's device list. iOS 27 itself still updates iPhone 11 and newer, plus recent iPhone SE models.",
+            "Does Siri AI use Google Gemini? Apple says Siri AI uses Apple Foundation Models, custom-built with Google and Gemini technology, not the public Gemini app. On-device and Apple-hosted models still run on Apple silicon. The heaviest cloud path can run on NVIDIA GPUs in Google Cloud under Private Cloud Compute."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "pace-the-frontier-ai-slowdown",
       "title": "Pace the Frontier: AI Labs Pledge to Slow Capabilities",
       "excerpt": "Dario Amodei asked labs to pace the frontier. Sam Altman, Elon Musk, and Demis Hassabis backed the direction. The live commitment is embedded evaluators, not a training freeze.",
