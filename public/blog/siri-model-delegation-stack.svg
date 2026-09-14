@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stackTitle stackDesc">
+  <title id="stackTitle">Three Siri third-party model doors on launch day</title>
+  <desc id="stackDesc">Diagram comparing the built-in ChatGPT Ask extension in macOS 27 Golden Gate, the private Model Delegation entitlement used to demo Claude, and the Inference Providing protocol that can replace Siri's server model with GPT-5.6 Terra. None of the last two are user-facing on 14 September 2026.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Three doors. Only ChatGPT Ask is on the release candidate.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">macOS 27 Golden Gate RC  |  14 Sep 2026  |  No public SDK</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55"/>
+  <text x="134" y="256" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">ChatGPT Ask</text>
+  <text x="134" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Built-in Siri extension</text>
+  <text x="134" y="324" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Visible in Golden Gate RC</text>
+  <text x="134" y="368" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Fallback path since 2024,</text>
+  <text x="134" y="396" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">now inside the Ask menu</text>
+  <text x="134" y="444" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Ships as a partner hook</text>
+
+  <rect x="448" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65"/>
+  <text x="472" y="256" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Ask Claude</text>
+  <text x="472" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Model Delegation API</text>
+  <text x="472" y="324" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">App Intents AgentIntent</text>
+  <text x="472" y="368" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Private entitlement. Relays</text>
+  <text x="472" y="396" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Reminders back to Siri</text>
+  <text x="472" y="444" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Demo, not a Settings toggle</text>
+
+  <rect x="786" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.55"/>
+  <text x="810" y="256" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">GPT-5.6 Terra</text>
+  <text x="810" y="296" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Inference Providing</text>
+  <text x="810" y="324" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Siri planner prompt and tools</text>
+  <text x="810" y="368" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Can call Messages, mail,</text>
+  <text x="810" y="396" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">and contacts in the demo</text>
+  <text x="810" y="444" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Backend swap, still hidden</text>
+</svg>
