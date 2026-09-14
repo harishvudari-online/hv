@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import type { BlogPost } from "@/data/blog";
 import { formatBlogDate, getCategoryLabel } from "@/lib/blog";
@@ -15,6 +16,11 @@ export function BlogCard({ post, featured = false }: BlogCardProps) {
         <span className="period-pill">{getCategoryLabel(post.category)}</span>
         <time dateTime={post.publishedAt}>{formatBlogDate(post.publishedAt)}</time>
       </div>
+      {post.image ? (
+        <Link href={`/blog/${post.slug}`} className="blog-card-media">
+          <Image src={post.image.src} alt={post.image.alt} width={640} height={336} />
+        </Link>
+      ) : null}
       <h3>
         <Link href={`/blog/${post.slug}`}>{post.title}</Link>
       </h3>

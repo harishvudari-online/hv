@@ -1214,6 +1214,20 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.blog-card-media {
+  display: block;
+  margin: 0.75rem 0 0.15rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(45, 174, 220, 0.28);
+}
+
+.blog-card-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .blog-card h3 {
   font-family: Sora, sans-serif;
   font-size: 1.08rem;
@@ -1331,6 +1345,32 @@ ul {
 .blog-article-section p,
 .blog-article .lead {
   line-height: 1.7;
+}
+
+.blog-figure {
+  margin: 1.15rem 0 0.35rem;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(45, 174, 220, 0.32);
+  background: #0c223f;
+}
+
+.blog-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-figure figcaption {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  opacity: 0.78;
+  padding: 0.55rem 0.85rem 0.72rem;
+}
+
+.page--light .blog-figure {
+  background: #eaf4ff;
+  border-color: rgba(12, 84, 128, 0.22);
 }
 
 .blog-article-meta span {
