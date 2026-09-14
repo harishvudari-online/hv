@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Z.AI $5 billion use of proceeds and closing calendar</title>
+  <desc id="desc">Diagram of Z.AI Co Ltd September 2026 financing: 60 percent of net proceeds for next-generation GLM models and Fully Self-Training, 15 percent for expansion, 25 percent for capital structure, with the H-share placing targeted to close on 16 September and the convertible bonds on 18 September.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="80" cy="80" r="180" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1120" cy="560" r="200" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="122" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Where the $5 billion is supposed to go</text>
+  <text x="118" y="158" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Net proceeds, if both deals close. Spend-by date in the filing: 30 June 2028.</text>
+
+  <rect x="118" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="138" y="236" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">60% R&amp;D and compute</text>
+  <text x="138" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Next-gen GLM models</text>
+  <text x="138" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Fully Self-Training loop</text>
+  <text x="138" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Data, environments, kernels</text>
+  <text x="138" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Heterogeneous chip adaptation</text>
+  <text x="138" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Filing defines RSI as a vision</text>
+  <text x="138" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Not a shipped GLM-6 card</text>
+
+  <rect x="448" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="468" y="236" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">15% expansion</text>
+  <text x="468" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">MaaS, API, Coding Plan</text>
+  <text x="468" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Agent and Co-work products</text>
+  <text x="468" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Minority stakes, acquisitions</text>
+  <text x="468" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Cloud and developer partners</text>
+  <text x="468" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">H1 API mix already 86.5%</text>
+  <text x="468" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Still loss-making at RMB 2.07b</text>
+
+  <rect x="778" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#E85D4C" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="798" y="236" fill="#E85D4C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">25% and the clock</text>
+  <text x="798" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Working capital, liquidity</text>
+  <text x="798" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Placing close: 16 Sep 2026</text>
+  <text x="798" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Bond issue: 18 Sep 2026</text>
+  <text x="798" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Deals are not inter-conditional</text>
+  <text x="798" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">July placing: HK$31.4b net</text>
+  <text x="798" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">34.9% of that already spent</text>
+
+  <text x="118" y="508" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">US labs are arguing about pacing. This filing is buying compute, data loops, and time.</text>
+  <text x="118" y="538" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Score a model card, not a defined term in an HKEX glossary.</text>
+</svg>
