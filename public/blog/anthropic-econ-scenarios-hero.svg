@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anthropic AI jobs 2030: three economic scenarios</title>
+  <desc id="desc">Editorial illustration of Anthropic modest, substantial, and extreme AI job scenarios for US GDP and unemployment in 2030.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="140" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1090" cy="560" r="260" fill="#1BE7FF" fill-opacity="0.14"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Anthropic AI jobs 2030: three paths, no odds</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Econ Scenario Explorer  |  Working Paper 2026-02  |  not a forecast</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="142" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Modest</text>
+  <text x="142" y="292" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">GDP +1.6% vs no-AI</text>
+  <text x="142" y="320" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Growth 2.4% a year</text>
+  <text x="142" y="348" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Jobless rate 3.9%</text>
+  <text x="142" y="402" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Internet-sized, hard to see</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">in the macro data</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="472" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Substantial</text>
+  <text x="472" y="292" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">GDP +8.3% vs no-AI</text>
+  <text x="472" y="320" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Growth 5.4% a year</text>
+  <text x="472" y="348" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Jobless rate 4.6%</text>
+  <text x="472" y="402" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Public median lands here</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Cognitive jobs down 3.9%</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Extreme</text>
+  <text x="802" y="292" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">GDP +32.4% vs no-AI</text>
+  <text x="802" y="320" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Growth 15.4% a year</text>
+  <text x="802" y="348" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Jobless rate 11.9%</text>
+  <text x="802" y="402" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Needs fast adoption plus</text>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">recursive self-improvement</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">The pie grows on every path. Who gets paid is the live question.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Korinek, Jones, Sacher, Cotter, and McCrory, Anthropic Institute</text>
+</svg>

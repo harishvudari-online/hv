@@ -38,6 +38,105 @@
   ],
   "posts": [
     {
+      "slug": "anthropic-ai-jobs-2030-econ-scenarios",
+      "title": "Anthropic AI Jobs 2030: Three Scenarios, Not One Forecast",
+      "excerpt": "Anthropic's Economics team modeled US jobs and GDP through 2030. In the extreme path, growth hits 15% a year while economy-wide unemployment reaches 11.9%. The authors attach no probabilities.",
+      "category": "jobs",
+      "tags": [
+        "Anthropic",
+        "AI jobs",
+        "unemployment",
+        "Econ Scenario Explorer"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Anthropic AI Jobs 2030: Three Economic Scenarios",
+        "metaDescription": "Anthropic's Econ Scenario Explorer models modest, substantial, and extreme AI job paths to 2030. GDP, unemployment, wages, and what the numbers mean.",
+        "keywords": [
+          "Anthropic AI jobs 2030",
+          "Econ Scenario Explorer",
+          "AI unemployment 2030",
+          "knowledge worker jobs AI",
+          "Anthropic economic scenarios"
+        ]
+      },
+      "image": {
+        "src": "/blog/anthropic-econ-scenarios-hero.svg",
+        "alt": "Illustration of Anthropic modest, substantial, and extreme AI jobs 2030 scenarios for US GDP and unemployment",
+        "caption": "Anthropic published three 2030 paths, not a single forecast. Modest looks like the internet. Extreme is 15% growth with 11.9% unemployment."
+      },
+      "sources": [
+        {
+          "title": "Anthropic: Scenarios for our Economic Future",
+          "url": "https://www.anthropic.com/institute/econ-scenarios"
+        },
+        {
+          "title": "Korinek et al.: Economic Scenarios for Transformative AI (Working Paper 2026-02)",
+          "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
+        },
+        {
+          "title": "Euronews: Anthropic says AI could bring both 15% growth and mass unemployment by 2030",
+          "url": "https://www.euronews.com/business/2026/09/11/anthropic-says-ai-could-bring-both-15-growth-and-mass-unemployment-by-2030"
+        },
+        {
+          "title": "Fortune: Anthropic's new research maps three wildly different futures for the AI economy",
+          "url": "https://fortune.com/2026/09/10/anthropics-new-research-maps-three-wildly-different-futures-for-the-ai-economyand-the-future-of-knowledge-work/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 9, 2026, Anthropic's Economics team published Economic Scenarios for Transformative AI (The Anthropic Institute Working Paper 2026-02) and opened a public Econ Scenario Explorer. The authors are Anton Korinek, Charles I. Jones, Szymon Sacher, Tess Cotter, and Peter McCrory. The model treats US work as O*NET task bundles that AI can leave alone, augment, automate, or replace with new tasks, then maps capability and adoption into GDP, wages, labor share, and unemployment through 2030.",
+            "The paper is explicit that the scenarios are not predictions and that the authors attach no probabilities. Three illustrated paths sit on a 2% no-AI growth baseline. Modest: GDP in 2030 is 1.6% above the no-AI path, growth is 2.4% a year, cognitive employment is down 0.5% from mid-2026, and the all-worker unemployment rate is 3.9%. Substantial: GDP is 8.3% higher, growth is 5.4%, cognitive employment is down 3.9%, cognitive unemployment is 4.5%, and all-worker unemployment is 4.6%. Extreme: GDP is 32.4% higher at $44.4 trillion in 2025 prices, growth is 15.4% a year, cognitive employment falls 21.5%, cognitive unemployment hits 17.9%, and economy-wide unemployment reaches 11.9%."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is a frontier lab putting a task-based US macro model in public, with named authors, an interactive explorer, and a Morning Consult survey of 10,980 US adults. The median public answers land near the substantial path. Dario Amodei's May 2025 warning that up to half of entry-level office jobs could vanish, with unemployment at 10% to 20%, sits in the extreme lane, not the middle one.",
+            "The useful split is capability versus adoption. Korinek said that if AI can do amazing things but nobody uses it, it will not have an economic impact. Co-founder Jack Clark has said diffusion will likely be harder than people think. That is also the product story: [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and the [OpenAI Agents API](/blog/openai-agents-api-codex-harness) are bets that computer-use agents close the adoption gap. If they do, the model moves away from modest. If they stay specialist SKUs, the internet-sized path stays live.",
+            "The other number is who collects the proceeds. Labor's share of income is 60% today. It is 59.4% in modest, 56.1% in substantial, and 45.2% in extreme, with capital income more than 80% above the no-AI path in the extreme case. Average wages still rise. Cognitive pay is 0.3% below the no-AI path in substantial and 11.5% below in extreme, while other occupations are 5.9% and 33.6% above. Growth and job quality can diverge."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/anthropic-econ-scenarios-shares.svg",
+            "alt": "Diagram of US labor versus capital income shares in Anthropic modest, substantial, and extreme AI jobs 2030 scenarios",
+            "caption": "In the extreme path the economy is far larger, labor's share falls to 45.2%, and economy-wide unemployment reaches 11.9%."
+          },
+          "paragraphs": [
+            "Knowledge workers in management, professional, sales, and office jobs are the exposed group. Version 1.0 does not give AI hyper-capable robots, so electricians, nurses, and other physical occupations absorb displaced cognitive labor. That matches the practical split in our [AI jobs briefing on roles at risk and roles being created](/blog/ai-jobs-roles-at-risk-and-roles-being-created). Switching occupations is the unemployment engine: search takes time, and cognitive skills do not transfer cleanly.",
+            "Hiring managers should not treat 11.9% unemployment as the base case. They should watch whether agents actually take over task instances, not demo reels. Policy teams get a clearer fork: modest and substantial stay inside historical unemployment ranges. Extreme is a structural shock, not a normal recession, because GDP is booming while cognitive labor is dumped into a slow matching market. Anthropic already said the explorer will inform the research it funds and the policy ideas it proposes."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Working Paper 2026-02, dated September 2026, names Korinek, Jones, Sacher, Cotter, and McCrory, and the explorer is live. Fact: Table 3 lists the modest, substantial, and extreme 2030 outcomes above, including 11.9% all-worker unemployment and a 45.2% labor share on the extreme path. Fact: the authors attach no probabilities, omit policy responses, business cycles, demand shocks, catastrophic risk, and hyper-capable robots, and call version 1.0 a stark simplification.",
+            "Prediction: the next 12 to 24 months will sort modest from substantial more than they will prove extreme. Prediction: most coverage will quote 15% growth and 12% unemployment as if they were a forecast. They are the tail scenario that needs recursive self-improvement and fast adoption."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch task-level adoption, not model launch days. Watch occupational switching time in hiring data, which the survey treats as a first-class input. Watch whether capital's share keeps rising in national accounts. Watch Anthropic's own policy track, including the research the explorer is meant to steer. Compare that with the [five-year outlook on AI, business, and society](/blog/five-year-outlook-ai-business-and-society). And watch whether later versions add the missing demand side. Fortune noted the model is supply-only: if workers lose income, they also stop buying the extra output."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Anthropic's Econ Scenario Explorer? It is a public model from Anthropic's Economics team that lets you set AI capability, adoption, autonomy, productivity, and job-switching time, then see implied US GDP, wages, and unemployment in 2030.",
+            "What are the three Anthropic AI jobs 2030 scenarios? Modest is internet-sized: GDP 1.6% above the no-AI path and unemployment almost unchanged. Substantial is twice-normal growth with cognitive employment down 3.9%. Extreme is 15.4% annual growth, 11.9% unemployment, and a 45.2% labor share.",
+            "Does Anthropic predict mass unemployment by 2030? No. The paper says the scenarios are not predictions and carries no probabilities. Mass unemployment appears only in the extreme path, which the authors say would likely need recursively self-improving AI adopted quickly.",
+            "Which jobs are safer in the Anthropic model? The model only exposes cognitive occupations. Physical jobs such as nursing and electrical work absorb demand, because version 1.0 does not include hyper-capable robots."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "mit-hardflow-safety-critical-generative-ai",
       "title": "MIT HardFlow: Generative AI That Must Obey Hard Constraints",
       "excerpt": "MIT's HardFlow algorithm steers pretrained generative models so the final sample meets strict safety and physics rules. It does not retrain the model. Pretty close is no longer good enough.",
