@@ -1186,6 +1186,160 @@ ul {
   }
 }
 
+#blog,
+.blog-page {
+  scroll-margin-top: 88px;
+}
+
+.blog-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.blog-section-lead,
+.blog-count {
+  margin: 0.35rem 0 1.1rem;
+  opacity: 0.88;
+  line-height: 1.6;
+}
+
+.blog-more-btn {
+  text-decoration: none;
+}
+
+.blog-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.blog-card h3 {
+  font-family: Sora, sans-serif;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  margin: 0.7rem 0 0.45rem;
+}
+
+.blog-card h3 a:hover {
+  color: var(--accent-2);
+}
+
+.blog-card p {
+  margin: 0;
+  line-height: 1.55;
+  opacity: 0.9;
+}
+
+.blog-card-meta,
+.blog-card-footer,
+.blog-article-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  opacity: 0.82;
+}
+
+.blog-card-footer {
+  margin-top: 0.9rem;
+}
+
+.blog-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.blog-page {
+  padding: 1.4rem 0 3.5rem;
+}
+
+.blog-hero h1,
+.blog-article h1 {
+  font-family: Sora, sans-serif;
+  letter-spacing: -0.4px;
+  margin: 0.35rem 0 0.7rem;
+}
+
+.blog-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1.2rem 0 0.4rem;
+}
+
+.blog-filter {
+  border: 1px solid rgba(0, 194, 255, 0.28);
+  background: rgba(8, 25, 52, 0.5);
+  color: inherit;
+  border-radius: 999px;
+  padding: 0.35rem 0.72rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.blog-filter.is-active,
+.blog-filter:hover {
+  border-color: var(--accent);
+  background: rgba(0, 194, 255, 0.16);
+}
+
+.page--light .blog-filter {
+  background: rgba(234, 244, 255, 0.94);
+}
+
+.blog-empty,
+.blog-back {
+  margin-top: 1.4rem;
+}
+
+.blog-back a,
+.blog-crumb a {
+  color: var(--accent);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.blog-article {
+  max-width: 760px;
+}
+
+.blog-article-section h2,
+.blog-sources h2 {
+  font-family: Sora, sans-serif;
+  font-size: 1.2rem;
+  margin: 1.6rem 0 0.6rem;
+}
+
+.blog-article-section p,
+.blog-article .lead {
+  line-height: 1.7;
+}
+
+.blog-article-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+}
+
+.blog-crumb {
+  margin-bottom: 0.6rem;
+}
+
 @keyframes meshFloat {
   0% {
     transform: translate3d(0, 0, 0) scale(1);

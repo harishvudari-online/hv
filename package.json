@@ -11,7 +11,8 @@
     "lint": "next lint",
     "deploy:vercel": "bash scripts/deploy-vercel.sh",
     "verify:production": "bash scripts/verify-production.sh",
-    "test:deploy-entrypoint": "bash scripts/test-deploy-entrypoint.sh"
+    "test:deploy-entrypoint": "bash scripts/test-deploy-entrypoint.sh",
+    "test:blog": "bash scripts/test-blog.sh"
   },
   "keywords": [
     "portfolio",

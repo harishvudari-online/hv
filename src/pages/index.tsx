@@ -19,13 +19,12 @@ import {
   FileText,
   Globe2,
   GraduationCap,
-  Home as HomeIcon,
   Languages,
   Link2,
   Layers3,
-  Mail,
   MessageCircle,
   Moon,
+  Newspaper,
   Puzzle,
   Rocket,
   SendHorizontal,
@@ -39,20 +38,16 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { track } from "@vercel/analytics";
+import Link from "next/link";
+import { BlogCard } from "@/components/BlogCard";
+import { SiteHeader, navItems } from "@/components/SiteHeader";
 import { content } from "@/data/content";
+import { getPreviewPosts } from "@/lib/blog";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 18 },
   show: { opacity: 1, y: 0 }
 };
-
-const navItems = [
-  { id: "home", label: "Home", icon: HomeIcon },
-  { id: "skills", label: "Skills", icon: Wrench },
-  { id: "experience", label: "Experience", icon: Briefcase },
-  { id: "projects", label: "Projects", icon: Rocket },
-  { id: "contact", label: "Contact", icon: Mail }
-];
 
 const skillIcons: Record<string, LucideIcon> = {
   Frontend: Wrench,
@@ -153,13 +148,14 @@ export default function Home() {
   const languageMenuRef = useRef<HTMLDivElement | null>(null);
   const data = locale === "zh" ? content.zh : content.en;
   const localizedNav = {
-    en: { home: "Home", skills: "Skills", experience: "Experience", projects: "Projects", contact: "Contact", language: "Language" },
-    zh: { home: "首页", skills: "技能", experience: "经验", projects: "项目", contact: "联系", language: "语言" },
-    es: { home: "Inicio", skills: "Habilidades", experience: "Experiencia", projects: "Proyectos", contact: "Contacto", language: "Idioma" },
-    fr: { home: "Accueil", skills: "Compétences", experience: "Expérience", projects: "Projets", contact: "Contact", language: "Langue" },
-    de: { home: "Start", skills: "Fähigkeiten", experience: "Erfahrung", projects: "Projekte", contact: "Kontakt", language: "Sprache" },
-    ja: { home: "ホーム", skills: "スキル", experience: "経験", projects: "プロジェクト", contact: "連絡先", language: "言語" }
+    en: { home: "Home", skills: "Skills", experience: "Experience", projects: "Projects", blog: "Blog", contact: "Contact", language: "Language", more: "More" },
+    zh: { home: "首页", skills: "技能", experience: "经验", projects: "项目", blog: "博客", contact: "联系", language: "语言", more: "更多" },
+    es: { home: "Inicio", skills: "Habilidades", experience: "Experiencia", projects: "Proyectos", blog: "Blog", contact: "Contacto", language: "Idioma", more: "Más" },
+    fr: { home: "Accueil", skills: "Compétences", experience: "Expérience", projects: "Projets", blog: "Blog", contact: "Contact", language: "Langue", more: "Plus" },
+    de: { home: "Start", skills: "Fähigkeiten", experience: "Erfahrung", projects: "Projekte", blog: "Blog", contact: "Kontakt", language: "Sprache", more: "Mehr" },
+    ja: { home: "ホーム", skills: "スキル", experience: "経験", projects: "プロジェクト", blog: "ブログ", contact: "連絡先", language: "言語", more: "もっと見る" }
   } as const;
+  const previewPosts = getPreviewPosts();
   const headlineVariants = [
     "Senior UI Engineer (10+ Years)",
     "Angular + React Specialist",
@@ -358,30 +354,12 @@ export default function Home() {
         <div className="bg-noise" />
         <div className="bg-glow bg-glow--one" />
         <div className="bg-glow bg-glow--two" />
-        <header className={`topbar container ${isScrolled ? "topbar--scrolled" : ""}`}>
-          <span className="brand">harishvudari.online</span>
-          <nav className="nav-pills">
-            {navItems.map((item) => (
-              <a
-                key={item.id}
-                href={`#${item.id}`}
-                className={activeSection === item.id ? "is-active" : ""}
-              >
-                {activeSection === item.id ? (
-                  <motion.span
-                    layoutId="nav-active-indicator"
-                    className="nav-active-indicator"
-                    transition={{ type: "spring", stiffness: 320, damping: 26 }}
-                  />
-                ) : null}
-                <item.icon size={14} />
-                <span className="nav-text">
-                  {localizedNav[locale][item.id as keyof (typeof localizedNav)[typeof locale]] ?? item.label}
-                </span>
-              </a>
-            ))}
-          </nav>
-          <div className="topbar-tools">
+        <SiteHeader
+          activeId={activeSection}
+          labels={localizedNav[locale]}
+          isScrolled={isScrolled}
+          variant="home"
+        >
             <div className="lang-menu" ref={languageMenuRef}>
               <button
                 className={`lang-menu-trigger ${languageMenuOpen ? "is-open" : ""}`}
@@ -438,8 +416,7 @@ export default function Home() {
             >
               {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
-          </div>
-        </header>
+        </SiteHeader>
 
         <main className="container">
           <motion.section id="home" className="hero" initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} transition={{ duration: 0.6 }}>
@@ -723,6 +700,26 @@ export default function Home() {
                 </a>
               </p>
             </motion.article>
+          </motion.section>
+
+          <motion.section id="blog" className="section section--premium" initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }} transition={{ staggerChildren: 0.08 }}>
+            <motion.div variants={fadeUp} className="blog-section-head">
+              <SectionTitle icon={Newspaper} title="AI News & Future Trends" motionType="drift" />
+              <Link href="/blog" className="btn btn--ghost blog-more-btn">
+                {localizedNav[locale].more}
+              </Link>
+            </motion.div>
+            <motion.p variants={fadeUp} className="blog-section-lead">
+              Six latest briefings on AI tools, models, chips, pricing, jobs, and what could happen next. Choose one to
+              read it here, or open More for the full listing.
+            </motion.p>
+            <div className="grid blog-grid">
+              {previewPosts.map((post) => (
+                <motion.div key={post.slug} variants={fadeUp}>
+                  <BlogCard post={post} />
+                </motion.div>
+              ))}
+            </div>
           </motion.section>
 
           <motion.section id="contact" className="section section--final-cta section--premium" initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }} transition={{ staggerChildren: 0.12, delayChildren: 0.05 }}>
