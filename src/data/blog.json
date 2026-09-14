@@ -38,6 +38,129 @@
   ],
   "posts": [
     {
+      "slug": "tencent-gander-omni-interaction-agent",
+      "title": "Tencent Gander: An Open 9B Agent That Talks While It Works",
+      "excerpt": "Tencent Hunyuan Speech published Gander on 9 September: Apache-2.0 9B weights, a Cerebellum-Brain split, and Codex as the default back brain. Full-Duplex-Bench turn-taking is 100%. Pass@1 is 0.400.",
+      "category": "models",
+      "tags": [
+        "Tencent Gander",
+        "omni interaction",
+        "MiniCPM-o 4.5",
+        "Hunyuan Speech"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Tencent Gander 2026: Open 9B Omni Interaction Agent",
+        "metaDescription": "Tencent Hunyuan shipped Gander, an Apache-2.0 9B omni agent that talks while Codex works. Hugging Face weights, Full-Duplex-Bench scores, and remaining gaps.",
+        "keywords": [
+          "Tencent Gander",
+          "Gander AI model",
+          "Gander omni interaction agent",
+          "Gander-Omni Hugging Face",
+          "MiniCPM-o 4.5 Gander",
+          "Hunyuan Speech Gander",
+          "Cerebellum-Brain AI agent",
+          "open source full duplex voice AI",
+          "Gander Full-Duplex-Bench",
+          "Omni Interaction Agent arXiv 2609.08977"
+        ]
+      },
+      "image": {
+        "src": "/blog/tencent-gander-omni-hero.svg",
+        "alt": "Illustration of Tencent Gander, a 9B Apache-2.0 omni interaction agent with a Cerebellum Thinker-Talker, a local runtime, and a pluggable Codex back brain",
+        "caption": "The 9B front keeps talking. The back brain is whoever you plug in. There is still no hosted Gander API."
+      },
+      "sources": [
+        {
+          "title": "arXiv 2609.08977: Omni Interaction Agent Technical Report (Gander)",
+          "url": "https://arxiv.org/abs/2609.08977"
+        },
+        {
+          "title": "arXiv HTML: Omni Interaction Agent Technical Report full text",
+          "url": "https://arxiv.org/html/2609.08977"
+        },
+        {
+          "title": "Hugging Face: Gander-Omni/Gander model card",
+          "url": "https://huggingface.co/Gander-Omni/Gander"
+        },
+        {
+          "title": "GitHub: Omni-Interaction-Gander/Omni-Interaction-Agent",
+          "url": "https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent"
+        },
+        {
+          "title": "Project page: Gander omni interaction agent demos",
+          "url": "https://omni-interaction-gander.github.io/Omni-Interaction-Agent"
+        },
+        {
+          "title": "DOI: 10.48550/arXiv.2609.08977",
+          "url": "https://doi.org/10.48550/arXiv.2609.08977"
+        },
+        {
+          "title": "AI/TLDR: Tencent Gander 9B omni-interaction release notes",
+          "url": "https://ai-tldr.dev/releases/tencent-gander/"
+        },
+        {
+          "title": "Hugging Face README snapshot: Gander Thinker Talker Unit-8 contract",
+          "url": "https://huggingface.co/Gander-Omni/Gander/blob/main/README.md"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 9 September 2026, Tencent's Hunyuan Speech team, with Zhejiang University, Shanghai Jiao Tong University, CUHK, and NTU, posted arXiv 2609.08977, the Omni Interaction Agent Technical Report. The model is Gander. Hugging Face lists Gander-Omni/Gander as a 9B Thinker plus Talker pair derived from openbmb/MiniCPM-o-4_5, Apache License 2.0. GitHub has Omni-Interaction-Gander/Omni-Interaction-Agent. The project page is dated the same day. The dataset line on the card still says coming soon.",
+            "Gander is not a chatbot that waits for a period. It swallows streaming video, speech, and text in one-second chunks. The front Cerebellum decides listen, speak, interrupt, or hand work out. A training-free back Brain, default Codex, runs the long job. Users can barge in while that job is still open. The paper's evals drive the Brain with GPT-5.6 through the Codex worker. Claude Code is named as another legal Brain. There is no Gander API meter, no price, and no inference provider on the card.",
+            "The card is specific about the Unit-8 contract: up to 8 lexical tokens per speaking second, 50 S3 speech tokens, 25-token (about 0.5 second) streaming chunks, 16 kHz in, 24 kHz out, BF16. Training is two stages on MiniCPM-o 4.5: Thinker for 1 epoch (8,407 steps), Talker for 2 epochs (3,246 steps). The corpus in Table 2 is 2.7 million examples. Audio-visual interaction is 40.66%. Speech interaction is about 37%. Agentic interaction is 13.33%. Robustness and negative data fill the rest. Hy-Realtime is Tencent's industrial follow-on. It is named. It is not this checkpoint."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Most voice agents go quiet when they start a tool. [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing) sells the opposite as a hosted minute: $0.05, billed per second, backend tokens extra. Gander publishes the split. The 9B front stays in the conversation. The Brain is a plug. That is closer to how [OpenAI's Agents API Codex harness](/blog/openai-agents-api-codex-harness) treats Codex as a worker, except the speech loop is open weights you run yourself. Teams already treating [tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work) as a permission problem should read task_resolve the same way: allow_once, allow_session, deny, cancel.",
+            "Full-Duplex-Bench v3 is the timing score, not the job score. On 100 scenarios, Gander takes the floor at the right moment in 100% of cases and starts early in 8.0%, better than GPT-Realtime (96.0% / 13.5%) and Gemini Live 3.1 (78.0% / 19.2%). Pass@1 is 0.400, last among the six published full-duplex rows. Drive the same GPT-5.6 Brain from the transcript, skip the Cerebellum and the audio path, and Pass@1 rises to 0.520 with ToolSel 0.934. The paper's own reading: the execution tier is not the bottleneck. ASR of synthesized speech and the decision of when to delegate are.",
+            "SpokenQA is the cerebellum acting alone. Across 2,052 utterances the Brain is never called. Llama Questions 75.60%, Web Questions 59.30%, VoiceBench AlpacaEval 3.96/5, SD-QA 46.84%. That leads the full-duplex group on both SpokenQA columns. Daily-Omni is 78.53, 1.67 points under MiniCPM-o 4.5. WorldSense is 49.62, 6.08 points under the base. Fusion gain when audio and video travel together is +19.13 on Daily-Omni and +5.01 on WorldSense. Interaction training kept temporal alignment. It spent fine-grained counting. That is a measured trade, not a slogan."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/tencent-gander-omni-stack.svg",
+            "alt": "Diagram comparing Tencent Gander local Thinker Talker runtime and pluggable Codex brain against OpenAI GPT-Live-1 hosted voice sessions billed at 5 cents per minute",
+            "caption": "Gander is a local 9B stack. GPT-Live-1 is a priced minute. Same job shape. Different procurement."
+          },
+          "paragraphs": [
+            "Voice and agent researchers feel it first. The recipe is public: chunk flattening, listen/speak/interrupt tokens, 128-chunk (about two minutes) sliding context, SigLIP vision at up to 448x448, audio downsampled to about 10 tokens per second. The sample serve path wants MiniCPM-o 4.5 plus both checkpoints, Talker on a second GPU, faster-whisper-large-v3 for ASR. Apache-2.0 covers Gander-Unit8. MiniCPM-o 4.5 and Whisper have their own terms. Score a laptop demo as a research stack, not a contact-center SKU.",
+            "Product teams sit one layer up. If you already buy [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing) or [Claude Code](/blog/claude-code-weekly-limits-september-2026), Gander is a second architecture, not a drop-in. The Brain can be Codex or Claude Code. The bill then is GPU hours plus whatever that Brain charges. There is no Gander list price because there is no Gander host. [Doubao Phone Assistant](/blog/doubao-phone-assistant-saep-protocol) is a different computer-use bet: GUI taps on a phone, with SAEP so apps can refuse. Gander is full-duplex speech and video with an async worker. Do not staff them as the same assistant.",
+            "Safety and eval teams get a live illustration of the [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck). The authors say no dedicated Omni Interaction Agent benchmark exists. They report Full-Duplex-Bench, SpokenQA, VoiceBench, WorldSense, and Daily-Omni, plus website demos. Filler rate is 51.6%, the one timing metric Gander does not win, because holding the floor while the Brain works is treated as correct. Independent reruns should keep speech-in, ASR-out, and Brain-off as separate columns. A single leaderboard number will lie."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: arXiv 2609.08977 v2 is dated 9 September 2026, affiliations Hunyuan Speech (Tencent), ZJU, SJTU, CUHK, and NTU. Fact: Hugging Face publishes Gander-Omni/Gander under Apache-2.0, base openbmb/MiniCPM-o-4_5, Unit-8/50 Thinker-Talker, dataset coming soon. Fact: GitHub Omni-Interaction-Gander/Omni-Interaction-Agent and the 9 September project page host code and demos. Fact: Full-Duplex-Bench v3, 100 scenarios, Gander take-turn 100.0%, interrupt 8.0%, Pass@1 0.400; back-brain-only Pass@1 0.520, ToolSel 0.934. Fact: SpokenQA 75.60 / 59.30 with the Brain never invoked on 2,052 samples. Fact: Daily-Omni 78.53, WorldSense 49.62. Fact: no hosted API, no price, Hy-Realtime unnamed as a public SKU.",
+            "Prediction: the first useful public artifact will be an independent Full-Duplex-Bench rerun that keeps ASR-out scoring, not a screenshot of the project-page videos. Prediction: providers will serve the 9B Cerebellum before anyone hosts the full Brain loop, because Codex and Claude Code already have meters. Prediction: Hy-Realtime, if it ships, will be the product. Gander-Unit8 stays the recipe. Do not staff a voice roadmap on Pass@1 0.400 or on a dataset that is still marked coming soon."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Hugging Face drops the dataset line from coming soon, and whether the training mixture matches Table 2. Watch vLLM, SGLang, or another runtime add the Unit-8 Thinker-Talker pair, because serve.sh on two GPUs is not a fleet. Watch whether a third lab reruns Full-Duplex-Bench with the same GPT-4o judge and speech-out ASR. Watch Codex versus Claude Code as the Brain on the same tasks, including the [Claude Code weekly limit](/blog/claude-code-weekly-limits-september-2026) cut that landed today. Watch Hy-Realtime for a model card, a price, and a region. And watch whether Gander stays a paper plus weights, or whether Tencent puts a hosted omni session next to [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing)."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Tencent Gander? Gander is an open 9B omni interaction agent from Tencent's Hunyuan Speech team and university partners. It takes streaming video, speech, and text, talks in full duplex, and delegates long jobs to a training-free back brain. Weights are on Hugging Face as Gander-Omni/Gander. The technical report is arXiv 2609.08977, dated 9 September 2026.",
+            "How does the Cerebellum-Brain split work? The Cerebellum is the realtime MiniCPM-o 4.5 Thinker-Talker. It listens, speaks, interrupts, and emits task_start, task_send, or task_resolve. The Brain is a plug-in worker, default Codex, also named with Claude Code. An orchestration runtime (lean or coordinator, with a Gateway) keeps Project, Task, Run, WorkerEvent, and Delivery state. The 9B model does not do the long job itself.",
+            "What are Gander's Full-Duplex-Bench scores? On Full-Duplex-Bench v3 (100 scenarios), Gander records 100% appropriate take-turn, 8.0% premature interrupt, and Pass@1 0.400. GPT-Realtime is 96.0% / 13.5% / 0.600. A text-only back-brain run with GPT-5.6 reaches Pass@1 0.520 and ToolSel 0.934, with no audio timeline so no turn-taking scores. Those two rows are not the same test.",
+            "Is Gander free to use commercially? Gander-Unit8 is Apache License 2.0. It is derived from MiniCPM-o 4.5. The sample stack also pulls faster-whisper-large-v3. Anyone shipping a product should read those three licenses, plus whatever Codex or Claude Code contract the Brain sits on. There is no official Gander cloud SKU as of 14 September 2026.",
+            "How is Gander different from GPT-Live-1? GPT-Live-1 is OpenAI's hosted full-duplex voice API, priced at $0.05 per minute with separate backend tokens. Gander is a local 9B open-weight Cerebellum plus a pluggable Brain. Same design idea: keep talking while work runs. Different delivery: weights and a GitHub runtime versus a billed session. Gander has no published hosted price because it has no hosted endpoint."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "nvidia-cuda-q-logical-fault-tolerant-quantum",
       "title": "CUDA-Q Logical: Fermilab Cuts Quantum Codesign From Months to Weeks",
       "excerpt": "NVIDIA shipped CUDA-Q Logical today, an open orchestration layer for logical qubits. Fermilab cut fault-tolerant algorithm development from five months to three weeks. Sandia QUOPS now lives in CUDA-Q.",
