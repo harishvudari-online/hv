@@ -38,6 +38,110 @@
   ],
   "posts": [
     {
+      "slug": "deepseek-v4-1-flash-pricing-api-benchmarks",
+      "title": "DeepSeek V4.1 Flash: Open Weights Beat Pro on Agents",
+      "excerpt": "DeepSeek shipped V4.1 Flash as deepseek-flash on 10 September. It is cheaper than V4 Pro and stronger on several agent tests. Pro still runs after today's planned cutover, because users pushed back.",
+      "category": "models",
+      "tags": [
+        "DeepSeek V4.1 Flash",
+        "deepseek-flash",
+        "DeepSeek V4 Pro",
+        "open weights"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "DeepSeek V4.1 Flash 2026: Pricing, API, Benchmarks",
+        "metaDescription": "DeepSeek V4.1 Flash is live as deepseek-flash. Compare MIT weights, $0.15/$0.60 off-peak API rates, agent benches versus V4 Pro, and why Pro still runs.",
+        "keywords": [
+          "DeepSeek V4.1 Flash",
+          "deepseek-flash API",
+          "DeepSeek V4.1 Flash pricing",
+          "DeepSeek V4.1 Flash vs V4 Pro",
+          "DeepSeek Flash 1 million context",
+          "DeepSeek V4 Pro still available",
+          "deepseek-flash API price"
+        ]
+      },
+      "image": {
+        "src": "/blog/deepseek-v4-1-flash-hero.svg",
+        "alt": "Illustration of DeepSeek V4.1 Flash as a cheap open-weight agent model beside V4 Pro, which still ships after the planned 14 September cutover",
+        "caption": "Flash is the new default ID. Pro was supposed to vanish today. Official docs now say it stays."
+      },
+      "sources": [
+        {
+          "title": "DeepSeek: V4.1-Flash release note",
+          "url": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "title": "DeepSeek API Docs: Models and Pricing",
+          "url": "https://api-docs.deepseek.com/quick_start/pricing/"
+        },
+        {
+          "title": "DeepSeek API Docs: Your First API Call",
+          "url": "https://api-docs.deepseek.com/"
+        },
+        {
+          "title": "Hugging Face: DeepSeek-V4.1-Flash model card",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 10 September 2026, DeepSeek put DeepSeek-V4.1-Flash on the public API as `deepseek-flash` and published MIT-licensed weights on Hugging Face. The launch note called it the smallest model in a new architecture family, with native image understanding. Legacy names `deepseek-v4-flash` and `deepseek-v4-flash-vision-exp` already route to the new checkpoint and bill at Flash rates. That part landed.",
+            "The other part did not. DeepSeek said that from 04:00 UTC on 14 September, every `deepseek-v4-pro` request would be served by V4.1 Flash and billed at Flash prices until a later V4.1 Pro arrived. Teams spent the weekend treating that as a hard cutover. Then the live Models and Pricing page changed the footnote: in response to user demand, V4 Pro keeps running after 14 September, with billing unchanged, until DeepSeek says otherwise. The version on that page is still DeepSeek-V4-Pro-0813.",
+            "So the news today is a split, not a swap. Flash is the new cheap, open, multimodal agent SKU. Old Flash IDs are already aliases. Pro is no longer on a published kill clock. Anyone who froze tests against a 14 September reroute still needs those tests, because the next notice can land without a four-day warning."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is not a smaller snapshot of the same V4 stack. The model card describes a Causal Encoder-Decoder: 40 layers split into a 20-layer causal encoder and a 20-layer decoder. Prefill activates about 8 billion parameters per token. Decode activates about 16 billion. The backbone is a 552 billion parameter mixture of experts, 763 billion if you count the vision encoder. One shared expert and 384 routed experts sit in each MoE layer, with six routed experts active per token. Context is 1,048,576 tokens. Max output is 384,000 tokens.",
+            "The serving claim is the KV cache. Compressed Sparse Attention 2 plus FP4 main-KV caching cuts the global cache to 890 bytes per token, about one quarter of V4 Flash. SWA Bounded Replay trims the persistent cache to about one eighth. That does not change how many tokens you are billed. It is why DeepSeek can sell Flash at $0.15 uncached input and $0.60 output per million tokens off-peak, versus $0.66 and $1.98 for Pro, and still raise the concurrency cap from 500 to 2,500. Peak hours, 01:00 to 04:00 and 06:00 to 10:00 UTC on weekdays, double those Flash rates. The same pattern is showing up in other cheap agent SKUs, including [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse), and it sits inside the broader [model pricing shift](/blog/ai-model-pricing-is-changing-what-teams-can-ship).",
+            "Vendor benches are the other reason buyers care. At maximum reasoning effort, DeepSeek reports DeepSWE v1.1 at 74.2 for V4.1 Flash against 62.7 for V4 Pro and 54.4 for the old Flash. Terminal-Bench 2.1 is 90.6 against 87.9 and 82.7. AutomationBench is 54.8 against 43.2. CyberGym is 88.1 against 83.3. Pro still leads on GPQA Diamond (92.4 vs 90.9) and on the text-only Humanity's Last Exam subset (42.7 vs 39.1). Those are DeepSeek-run numbers, not a third-party bake-off. They are enough to make Flash the default for long tool loops, and not enough to delete Pro from a knowledge-heavy eval set."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/deepseek-v4-1-flash-cache.svg",
+            "alt": "Diagram of DeepSeek V4.1 Flash Causal Encoder-Decoder split, 890-byte KV cache, and off-peak versus peak API rates",
+            "caption": "Cache compression is a serving win. Your invoice still follows the published token rates, and peak hours still double them."
+          },
+          "paragraphs": [
+            "API teams feel it first. New work should call `deepseek-flash`. Keep `deepseek-v4-pro` only if a frozen eval still prefers Pro on knowledge or style. Do not treat the old Flash names as a contract. DeepSeek has not given a removal date, but the docs already call them temporary. Self-hosters get MIT weights, a Python encoding reference, and `deepseek-recipe`. There is no Jinja chat template. A 552 billion sparse model is not a laptop deploy, even after [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) made the hub a chip story.",
+            "Agent product owners sit in the next ring. DeepSeek says DeepSeek Harness is in developer preview, and the model card shows the scaffold can move DeepSWE v1.1 from 65.5 with OpenCode to 74.2 with mini-SWE-agent. That 8.7 point spread is larger than several model-to-model gaps. If you already standardized on the [OpenAI Agents API](/blog/openai-agents-api-codex-harness), rerun your own harness before you trust the highest row. The same caution applies if you compare Flash with [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship): different computer-use bets, different meters.",
+            "Buyers who need vision without a second model ID gain a lane. V4.1 Flash natively takes JPEG, PNG, GIF, and WebP. Pro still does not, on the pricing table. That is a product split, not a rumor. Teams that pinned Pro for exact tool-call formatting or a knowledge-heavy FAQ should keep a comparison route until V4.1 Pro exists, or until their eval set says Flash is good enough."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: DeepSeek launched V4.1 Flash on 10 September 2026 as `deepseek-flash`, with MIT weights and a 1 million token context. Fact: old Flash IDs now resolve to V4.1 Flash at Flash prices. Fact: the live pricing page still lists `deepseek-v4-pro` as DeepSeek-V4-Pro-0813 and says Pro API service continues after 14 September, billing unchanged, after users asked to keep it. Fact: off-peak Flash rates are $0.003 cache-hit input, $0.15 cache-miss input, and $0.60 output per million tokens. Peak rates are double. Fact: DeepSeek reports Flash ahead of Pro on several agent benches and behind Pro on GPQA Diamond and text-only HLE.",
+            "Prediction: Flash becomes the default ID for new DeepSeek traffic this quarter, while Pro remains a compatibility SKU until a named V4.1 Pro ships or the footnote changes again. Prediction: the next surprise will be a rate or routing change, not another architecture paper. Prediction: independent agent evals will shrink the DeepSWE gap once people stop using DeepSeek's favorite harness."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the Models and Pricing footnote weekly. Pro is alive because DeepSeek said so in a docs note, not because it signed a support term. Watch for a V4.1 Pro date, a removal date on the old Flash aliases, and whether Flash peak windows stay the same. Watch whether DeepSeek Harness leaves developer preview with a public scaffold that other labs can match. Watch independent Terminal-Bench and DeepSWE runs, not only the card. And watch whether open-weight serving stacks adopt the V4.1 encoding (DSML tool tags, numeric reasoning effort, mid-conversation system messages) instead of assuming the V4 template still works. That is the real self-host blocker, next to GPUs."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is DeepSeek V4.1 Flash? It is DeepSeek's September 2026 Flash model, served as `deepseek-flash`. It is a 552 billion parameter multimodal MoE with a Causal Encoder-Decoder, a 1 million token context, native image input, and MIT-licensed weights on Hugging Face.",
+            "How much does the DeepSeek V4.1 Flash API cost? On DeepSeek's direct API, off-peak rates are $0.003 per million cache-hit input tokens, $0.15 per million uncached input tokens, and $0.60 per million output tokens. Peak weekday hours cost twice as much. Gateway prices can differ.",
+            "Is DeepSeek V4.1 Flash better than V4 Pro? On DeepSeek's own agent benches, often yes. DeepSWE v1.1 is 74.2 versus 62.7, and Terminal-Bench 2.1 is 90.6 versus 87.9. V4 Pro still leads on GPQA Diamond and the text-only HLE subset. Run your own tasks before you switch a production ID.",
+            "Did DeepSeek retire V4 Pro on 14 September 2026? No. The 10 September launch note said `deepseek-v4-pro` would route to V4.1 Flash from 04:00 UTC on 14 September. The live pricing page later said Pro continues after that date, with billing unchanged, because users asked to keep it.",
+            "Is DeepSeek V4.1 Flash open source? The repository and weights use the MIT license. That is open weights, not a small model you run on a laptop. Production serving still needs specialized hardware, the V4.1 prompt format, and your own evals."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "openai-ipo-delay-2026-safety",
       "title": "OpenAI IPO Delay: Altman Takes 2026 Off the Table",
       "excerpt": "Sam Altman told Fortune a 2026 listing would be an ill-advised moment. Sarah Friar already told staff OpenAI will be public in 2027. Anthropic is still walking toward Nasdaq.",
