@@ -38,6 +38,94 @@
   ],
   "posts": [
     {
+      "slug": "claude-fable-5-1-mythos-trusted-access",
+      "title": "Claude Fable 5.1: One Model, Two Safeguard Lanes",
+      "excerpt": "Anthropic's new flagship is the same weights twice. Fable 5.1 is generally available. Mythos 5.1 opens cyber and biology work only to vetted labs.",
+      "category": "models",
+      "tags": [
+        "Claude Fable",
+        "Anthropic",
+        "Mythos",
+        "safeguards"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Claude Fable 5.1 and Mythos 5.1: Pricing, Access, 2026",
+        "metaDescription": "What Claude Fable 5.1 changes for teams: $0.25 cache reads, Mythos trusted access, EFS privacy, and how it differs from a public flagship.",
+        "keywords": [
+          "Claude Fable 5.1",
+          "Claude Mythos 5.1",
+          "Anthropic pricing",
+          "AI trusted access"
+        ]
+      },
+      "image": {
+        "src": "/blog/claude-fable-5-1-hero.svg",
+        "alt": "Illustration of Claude Fable 5.1 as a public model and Claude Mythos 5.1 as a trusted-access twin",
+        "caption": "Fable 5.1 is the public SKU. Mythos 5.1 is the same model with looser cyber and biology gates for vetted labs."
+      },
+      "sources": [
+        {
+          "title": "Anthropic: Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "title": "Claude API: Fable 5.1 overview",
+          "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+        },
+        {
+          "title": "Claude API: What's new in Fable 5.1",
+          "url": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1"
+        },
+        {
+          "title": "Anthropic pricing",
+          "url": "https://www.anthropic.com/pricing"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Anthropic released Claude Fable 5.1 and Claude Mythos 5.1 in September 2026. They are the same underlying model with different safeguard stacks. Fable 5.1 is live for general customers on the Claude API as claude-fable-5-1, plus Amazon Bedrock, Google Cloud, and Microsoft Foundry. Mythos 5.1 stays behind trusted access programs for cybersecurity and life sciences.",
+            "List prices did not move: $10 per million input tokens and $50 per million output tokens, with a 1 million token context window. The bill change is cache reads, now $0.25 per million tokens, 75% cheaper than Fable 5. Anthropic says that cuts typical workloads by about 25% and highly agentic runs by up to about 45%."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The product story is not a new chatbot. It is cheaper long-horizon agents plus a split between a public model and a gated twin. On Terminal-Bench-Science 0.1, Fable 5.1 scores 52.6% against 24.7% for Fable 5. On Terminal-Bench 4.0 it reaches 55.8%, and Mythos 5.1 reaches 60.9% because fewer cyber safeguards interrupt the run. CursorBench 3.2.0 sits at 73.4%.",
+            "Enterprise Frontier Safeguards try to square privacy with misuse detection. Customer data stays in cloud infrastructure the customer controls. Anthropic says EFS will roll out in phases this fall on Claude Code, Claude Enterprise, Bedrock, Google, and Microsoft Foundry. Until then, eligible customers can use Fable 5.1 with zero data retention."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/claude-fable-5-1-cost.svg",
+            "alt": "Diagram comparing about 25 percent typical savings and about 45 percent savings on cache-heavy agent workloads",
+            "caption": "Input and output list prices stayed put. Cache-heavy agent loops are where Fable 5.1 actually gets cheaper than Fable 5."
+          },
+          "paragraphs": [
+            "Coding and research teams get a flagship that early testers at Jane Street, Cognition, and Red Hat say is cheaper per completed task than keeping Opus 5 as the default. Defenders can now use Fable 5.1 to find software vulnerabilities, but exploit writing and penetration testing still route to Opus. Life-science R&D still needs Mythos through a US-government-linked Life Sciences Verification Program.",
+            "Rival labs feel the pricing pressure more than the headline scores. Cache-heavy agents were the expensive case. A 75% cache-read cut makes Fable-class loops viable for work that used to sit on cheaper mid-tier models."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Fable 5.1 is generally available at published $10/$50 rates, with cache reads at $0.25. Fact: Mythos 5.1 is the same model with more permissive cyber and biology safeguards, currently limited to vetted US organizations. Fact: Anthropic reports Mythos 5.1 designed high-affinity protein binders with about a 50% hit rate across 12 lab-tested targets.",
+            "Prediction: most product teams will keep Fable 5.1 off the default router and put it on long coding and research jobs where cache hits dominate. Prediction: the Mythos programs will become the template other labs copy for dual-use capability, more than a second public SKU."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch EFS launch timing and whether zero-data-retention customers actually move. Watch false-positive rates on cyber and medical queries, which Anthropic says are already down. Watch whether Mythos access expands beyond the first US cohort. Also watch EU watermark detection: Fable 5.1 outputs carry an invisible watermark, with a detection API in private preview for regulators and obligated enterprises."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "nvidia-buys-hugging-face-open-model-hub",
       "title": "NVIDIA Buys Hugging Face: The Open-Model Hub Becomes a Chip Story",
       "excerpt": "A $12.9 billion agreement would put the default marketplace for open models inside NVIDIA. The filing is clear. The hard test is whether the hub stays vendor-neutral after close.",
@@ -198,7 +286,7 @@
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability — not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
+            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability \u2014 not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
           ]
         }
       ]
@@ -262,7 +350,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: employers are already rewriting job descriptions around AI tools and asking for evaluation, prompt-to-product workflow, and systems thinking. Fact: several support and content operations teams have already reduced junior layers.",
-            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end — data, evals, fallbacks, and cost — more than people who only generate drafts."
+            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end \u2014 data, evals, fallbacks, and cost \u2014 more than people who only generate drafts."
           ]
         },
         {
@@ -321,7 +409,7 @@
         {
           "heading": "What changed for builders",
           "paragraphs": [
-            "Features that used to stay in internal demos — full-repo review, continuous research agents, meeting-to-ticket pipelines — are crossing into production because inference is cheaper and routing is better.",
+            "Features that used to stay in internal demos \u2014 full-repo review, continuous research agents, meeting-to-ticket pipelines \u2014 are crossing into production because inference is cheaper and routing is better.",
             "The winning architecture is rarely 'one frontier model for everything.' It is a router: cheap models for classification and extraction, mid-tier models for drafting, and expensive models only for high-stakes reasoning."
           ]
         },
@@ -379,7 +467,7 @@
           "heading": "The pattern that works",
           "paragraphs": [
             "The tools that stick are not generic chat windows. They are copilots with a privileged seat: the IDE, the ticket queue, the CRM, the browser tab where research already happens.",
-            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals — not another landing page."
+            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals \u2014 not another landing page."
           ]
         },
         {
@@ -456,7 +544,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: multiple labs now ship models that can use tools and long documents in production. Fact: distillation and smaller specialist models are doing more real traffic than keynote clips suggest.",
-            "Prediction: the next year rewards teams that version prompts, evals, and models together — the same way they already version APIs — more than teams that chase every launch."
+            "Prediction: the next year rewards teams that version prompts, evals, and models together \u2014 the same way they already version APIs \u2014 more than teams that chase every launch."
           ]
         }
       ]
@@ -632,7 +720,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: benchmark saturation and contamination are widely reported problems. Fact: regulators and large buyers are asking for documented risk processes, not vibes.",
-            "Prediction: the next prestige research area that product companies will hire for is evaluation science — people who can prove a system improved — not only people who can call a new API."
+            "Prediction: the next prestige research area that product companies will hire for is evaluation science \u2014 people who can prove a system improved \u2014 not only people who can call a new API."
           ]
         }
       ]

@@ -4,7 +4,12 @@ import { BLOG_CATEGORIES } from "@/data/blog";
 export const BLOG_PREVIEW_COUNT = 6;
 
 export function sortPosts(posts: BlogPost[]): BlogPost[] {
-  return [...posts].sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+  return [...posts].sort((a, b) => {
+    if (a.publishedAt === b.publishedAt) {
+      return 0;
+    }
+    return a.publishedAt < b.publishedAt ? 1 : -1;
+  });
 }
 
 export function selectPreview(posts: BlogPost[], count = BLOG_PREVIEW_COUNT): BlogPost[] {
