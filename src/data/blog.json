@@ -38,6 +38,126 @@
   ],
   "posts": [
     {
+      "slug": "iris-pro-iris-mini-search-agents",
+      "title": "Iris-pro Search Agent: Open Weights, and a Harness Worth 16 Points",
+      "excerpt": "AllSpark's Iris-pro search agent posts 88.6 on BrowseComp with discard-all context management, 72.6 without it. Iris-mini hits 82.2 at 35B. Apache 2.0 weights are on Hugging Face. The score is the agent plus the reset.",
+      "category": "tools",
+      "tags": [
+        "Iris-pro",
+        "Iris-mini",
+        "search agents",
+        "BrowseComp"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Iris-pro Search Agent 2026: BrowseComp 88.6, Iris-mini",
+        "metaDescription": "Iris-pro scores 88.6 on BrowseComp. Compare Iris-mini 35B, discard-all context management, Apache 2.0 weights, and when the search harness beats extra parameters.",
+        "keywords": [
+          "Iris-pro search agent",
+          "Iris-mini search agent",
+          "Iris-pro BrowseComp",
+          "open source search agent",
+          "AllSpark Iris-pro",
+          "discard-all context management",
+          "Iris-pro Hugging Face",
+          "SFT-RL climbing search agent"
+        ]
+      },
+      "image": {
+        "src": "/blog/iris-pro-search-agent-hero.svg",
+        "alt": "Illustration of the Iris-pro search agent at 88.6 BrowseComp with discard-all context management versus 72.6 without it, beside Iris-mini at 82.2",
+        "caption": "Headline BrowseComp is 88.6. Strip the harness and Iris-pro is 72.6. Score both numbers."
+      },
+      "sources": [
+        {
+          "title": "arXiv: Iris: Climbing to the Search Frontier (2609.04304)",
+          "url": "https://arxiv.org/abs/2609.04304"
+        },
+        {
+          "title": "arXiv HTML: Iris paper with tables and training recipe",
+          "url": "https://arxiv.org/html/2609.04304v1"
+        },
+        {
+          "title": "Hugging Face: Iris-pro model card",
+          "url": "https://huggingface.co/AllSpark-Research/Iris-pro"
+        },
+        {
+          "title": "Hugging Face: Iris-mini model card",
+          "url": "https://huggingface.co/AllSpark-Research/Iris-mini"
+        },
+        {
+          "title": "Hugging Face: AllSpark Iris collection",
+          "url": "https://huggingface.co/collections/AllSpark-Research/iris"
+        },
+        {
+          "title": "Hugging Face Papers: Iris: Climbing to the Search Frontier",
+          "url": "https://huggingface.co/papers/2609.04304"
+        },
+        {
+          "title": "GitHub: AllSpark-Research/Iris",
+          "url": "https://github.com/AllSpark-Research/Iris"
+        },
+        {
+          "title": "AI Weekly: Iris-pro 397B search agent hits 88.6 BrowseComp",
+          "url": "https://aiweekly.co/alerts/iris-pro-397b-search-agent-hits-886-browsecomp-564-hle"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "AllSpark Research has now put weights behind the Iris-pro search agent. The technical report, Iris: Climbing to the Search Frontier (arXiv 2609.04304), is dated 4 September 2026. Hugging Face Papers listed it on 7 September. The cards for AllSpark-Research/Iris-pro and AllSpark-Research/Iris-mini are live, Apache 2.0, with a GitHub repo at AllSpark-Research/Iris. The paper said the team planned to release weights and the recipe. That drop is the news today, not a new lab rumor.",
+            "Iris-pro is a 397B-total, 17B-active MoE post-trained from Qwen3.5-397B-A17B, with a 256K context window. Iris-mini is the 35B-total, 3B-active twin from Qwen3.6-35B-A3B. Both are single ReAct agents. The tool set is search and scrape. There are no sub-agents and no test-time verifier. Final answers are boxed. Serving is SGLang with OpenAI function calling. There is no hosted meter on the cards. You download BF16 weights and run them.",
+            "This is not [Intern-S2-Preview-397B](/blog/intern-s2-preview-397b-scientific-agents). That 397B is a science and multimodal agent from Shanghai AI Laboratory. Iris is a web search specialist from the AllSpark Team. It is also not [Sakana Fugu](/blog/sakana-fugu-ultra-v2-fugu-max), which sells a coordinator over a model pool. Iris is one policy, one loop, and a published reset rule."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The headline that will get copied is Iris-pro 88.6 on BrowseComp. Keep the second number next to it. Without context management, the same model is 72.6. Discard-all, the DeepSeek-V3.2 reset that clears history and restarts the question once the prompt crosses a threshold, is worth 16.0 points. Iris-mini moves from 64.7 to 82.2, a 17.5-point jump. The authors write that inference-time context management is worth more on these benches than most reported gaps between systems. They evaluate every bench with and without it, holding the tool set, context limit, and judge fixed.",
+            "That is a procurement fact before it is a research fact. Teams buying a [search tool](/blog/new-ai-tools-that-actually-change-daily-work) have been comparing leaderboard rows that mix policy and harness. [OpenAI's Agents API](/blog/openai-agents-api-codex-harness) sells the hosted harness around one lab's models. Iris publishes the open-weight policy and the reset. If you copy the 88.6 into a bake-off without discard-all, you will not reproduce it. If you add discard-all to a weaker open search agent, some of the gap closes. The paper's own no-CM table still favors Iris-mini over FORT-Searcher, OpenSeeker-v2, and REDSearcher, so the policy is not empty. The harness is just large enough to mislead a spreadsheet.",
+            "The 35B row is the cost story. Iris-mini's 82.2 BrowseComp, with discard-all, sits next to Kimi-K2.6 at 83.2 and DeepSeek-V4-Pro Preview at 83.4, both trillion-parameter class in the paper's frontier table. It also beats XYZ-Aquila-mini's 78.8. It loses DeepSearchQA to Aquila-mini, 86.9 against 89.5. That split matters. BrowseComp is long-horizon clue chasing. DeepSearchQA is evidence coverage. Do not treat one number as the product. Closed flagships still lead the top of the table: GPT-5.6 Sol 90.4, Kimi-K3 91.2, Claude Fable 5 88.0 on BrowseComp. Iris-pro is the open search agent to beat in the 400B band, not a replacement for [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship)."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/iris-pro-context-management.svg",
+            "alt": "Diagram of the Iris-pro search agent ReAct loop with discard-all context management and retry, showing BrowseComp 72.6 without the harness and 88.6 with discard-all",
+            "caption": "Discard-all is the headline setting. Retry can push Iris-pro to 90.3 on BrowseComp. The paper treats retry as extra inference cost, not the default."
+          },
+          "paragraphs": [
+            "Search-agent builders feel it first. The recipe is public enough to copy in outline: reverse-construct multi-hop questions from a web-graph, rewrite every non-answer entity so string matching fails, keep only items a reference model misses closed-book and solves with evidence, filter teacher trajectories at the trajectory and turn level, then alternate SFT and live-search RL in what the team calls SFT-RL climbing. SFT ran two epochs, global batch 64, 262,144 token sequences. RL used the Relax engine, with an in-cluster Qwen3.5-397B-A17B FP8 model as both reward judge and page summarizer. Over-long rollouts are cut at the request level and resumed from the committed prefix. If you train against a third-party judge API, you are not running their loop.",
+            "Platform and eval teams feel the harness rule. Iris-Harness, invoked from the GitHub repo, reproduces the cards with a 131,072 discard threshold in the sample command. The paper blocks Hugging Face dataset and Spaces URLs that host bench answers, at search, scrape, and a post-hoc tool-manager guard. That is an [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) the authors chose to name. If your bake-off still lets the agent fetch the answer key, you are not measuring Iris, you are measuring leakage. Serve with SGLang. Iris-pro's sample launch uses tensor parallel 8 and expert parallel 8. Iris-mini's sample uses tensor parallel 4. Neither card lists a vendor API.",
+            "Buyers who already pay for [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) or a Fugu Max router should not rip those out. Iris is a weights-and-harness project. The [open-model hub](/blog/nvidia-buys-hugging-face-open-model-hub) is how you get it. Mini is the cluster you can actually stand up. Pro is a multi-node 397B job. The conclusion of the paper also claims the search-trained teachers transferred to general tool use (BFCL, tau-bench) and cowork benches (OfficeQA, APEX). That is an author claim, not an independent replica. Treat it as a hypothesis for your own tool-use suite."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: the AllSpark Team's 4 September 2026 report lists Iris-mini at 82.2/84.8/86.9/52.3 and Iris-pro at 88.6/85.1/92.9/56.4 on BrowseComp, BrowseComp-ZH, DeepSearchQA, and text-only HLE, with discard-all on. Fact: without context management, Iris-pro is 72.6/76.8/86.4/50.8 on those four. Fact: discard-all plus retry reaches 90.3 BrowseComp for Iris-pro, which the authors do not use as the headline because retry is another full search. Fact: Hugging Face cards list Apache 2.0, 256K context, Qwen3.5-397B-A17B and Qwen3.6-35B-A3B bases, and SGLang serve commands. Fact: HLE is the 2,158-question text-only subset. Fact: Iris-mini trails XYZ-Aquila-mini on DeepSearchQA.",
+            "Prediction: most slides that cite 88.6 will omit 72.6, and most bake-offs that omit discard-all will call Iris oversold. Prediction: Iris-mini gets more real deployments than Iris-pro because 3B active experts fit more clusters than 17B active at 397B total. Prediction: closed BrowseComp leaders stay ahead until someone publishes an independent replica of Iris-Harness on a public endpoint. Do not staff a search product on an unreproduced 16-point harness gap."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether independent teams reproduce the discard-all delta on BrowseComp with Iris-Harness, not with a private wrapper. Watch whether a host stands up Iris-mini or Iris-pro so the comparison is an API ID instead of a 397B cluster. Watch DeepSearchQA, where Iris-mini still trails Aquila-mini, because evidence-coverage jobs will not follow the BrowseComp ranking. Watch whether SFT-RL climbing shows up in other open search recipes as more than a slogan. Watch the claimed transfer into BFCL and OfficeQA; if it holds, search data is a general agent ingredient, not a vertical. And watch leakage controls. If a new open search agent jumps 10 points and still can fetch Hugging Face answer keys, the number is not a product."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the Iris-pro search agent? It is AllSpark Research's open-weight web search agent, post-trained from Qwen3.5-397B-A17B. It is a 397B-total, 17B-active MoE with a 256K context window, Apache 2.0 weights on Hugging Face, and a single ReAct loop that calls search and scrape. The headline BrowseComp score of 88.6 uses discard-all context management.",
+            "What is the difference between Iris-mini and Iris-pro? Iris-mini is the 35B-total, 3B-active model from Qwen3.6-35B-A3B. With discard-all it scores 82.2 on BrowseComp, 84.8 on BrowseComp-ZH, 86.9 on DeepSearchQA, and 52.3 on text-only HLE. Iris-pro is the 397B sibling at 88.6/85.1/92.9/56.4. Mini is the cluster most teams can actually serve.",
+            "What is discard-all context management in Iris? Discard-all clears the interaction history and restarts from the original question once the running prompt crosses a threshold. The sample eval command uses a 131,072-token discard threshold. For Iris-pro, that reset lifts BrowseComp from 72.6 to 88.6. Retry is a separate, more expensive option that can push BrowseComp to 90.3. The paper reports discard-all as the default.",
+            "Are Iris-pro and Iris-mini open source? The weights and cards are Apache 2.0 on Hugging Face, with a GitHub repo at AllSpark-Research/Iris. There is no hosted vendor API on the cards. You serve them yourself with SGLang. The paper also says the team planned to release data-construction, training, and evaluation recipes alongside the weights."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "asml-high-na-euv-intel-tsmc-samsung",
       "title": "ASML High NA EUV: Intel Ships While TSMC Waits Until 2030",
       "excerpt": "ASML High NA EUV now has public production dates. Intel is already in high-volume manufacturing. Samsung and SK hynix target 2028 DRAM. TSMC commits for 2030 AI nodes. Standard EUV is sold out through 2027.",
