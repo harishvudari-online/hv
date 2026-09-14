@@ -38,6 +38,129 @@
   ],
   "posts": [
     {
+      "slug": "doubao-phone-assistant-saep-protocol",
+      "title": "Doubao Phone Assistant: Apps Can Refuse Screen Automation",
+      "excerpt": "ByteDance shipped Doubao Phone Assistant today with SAEP, so third-party apps can refuse screen automation. Operate Phone stays in beta. Nubia NaviX Ultra goes on sale 16 September.",
+      "category": "tools",
+      "tags": [
+        "Doubao Phone Assistant",
+        "SAEP",
+        "ByteDance",
+        "Nubia NaviX Ultra"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Doubao Phone Assistant SAEP 2026: Apps Can Opt Out",
+        "metaDescription": "Doubao Phone Assistant shipped today with SAEP, so apps can refuse screen automation. Nubia NaviX Ultra goes on sale 16 Sep. What Operate Phone beta covers.",
+        "keywords": [
+          "Doubao Phone Assistant",
+          "Doubao Phone Assistant consumer version",
+          "SAEP protocol",
+          "Screen Automation Execution Protocol",
+          "Doubao Operate Phone beta",
+          "Nubia NaviX Ultra",
+          "AI agent smartphone",
+          "apps refuse AI automation",
+          "ByteDance Doubao mobile assistant",
+          "Doubao MCP vs SAEP"
+        ]
+      },
+      "image": {
+        "src": "/blog/doubao-phone-assistant-saep-hero.svg",
+        "alt": "Illustration of Doubao Phone Assistant shipping on 14 September 2026 with SAEP so apps can refuse screen automation beside the Nubia NaviX Ultra sale on 16 September",
+        "caption": "The assistant can tap. The app being tapped now has a formal refuse switch."
+      },
+      "sources": [
+        {
+          "title": "TechNode: Doubao Phone Assistant launches consumer version with beta phone controls",
+          "url": "https://technode.com/2026/09/14/doubao-phone-assistant-launches-consumer-version-with-beta-phone-controls/"
+        },
+        {
+          "title": "TechNode: Nubia sets Sept. 16 launch for Doubao-powered NaviX Ultra",
+          "url": "https://technode.com/2026/09/07/nubia-navix-ultra-ai-agent-phone/"
+        },
+        {
+          "title": "BlockBeats: Doubao mobile assistant goes official, apps can reject AI operations",
+          "url": "https://en.theblockbeats.news/flash/366909"
+        },
+        {
+          "title": "Cocoloop: Doubao Phone Assistant launches and apps can refuse AI automation",
+          "url": "https://news.cocoloop.cn/en/2026/09/doubao-phone-assistant-saep/"
+        },
+        {
+          "title": "Beebom: Nubia NaviX Ultra China launch date and AI-agent phone specs",
+          "url": "https://gadgets.beebom.com/news/nubia-navix-ultra-china-launch-date-confirmed"
+        },
+        {
+          "title": "National Business Daily: Nubia NaviX Ultra Doubao AI phone launches 16 Sep",
+          "url": "http://www.nbdpress.com/articles/2026-09-08/71950.html"
+        },
+        {
+          "title": "AIBase: Nubia NaviX Ultra scheduled for 16 Sep with Doubao Mobile Assistant",
+          "url": "https://news.aibase.com/news/30861"
+        },
+        {
+          "title": "BigGo: Doubao Phone Assistant consumer edition and SAEP protocol",
+          "url": "https://finance.biggo.com/news/b5590ef4-4c9c-4c39-9e29-6e573687a604"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, ByteDance shipped the consumer version of Doubao Phone Assistant. TechNode reports screen-based Q&A, local search across photos, messages, and notes, voice activation, and a dedicated AI key. The same launch opens Operate Phone in beta. The first device is the Nubia NaviX Ultra, co-developed by ZTE and ByteDance, going on sale on 16 September at 2 p.m. Beijing time. Preorders are already open.",
+            "The same day ByteDance published SAEP, the Screen Automation Execution Protocol, with a 30-day public comment period. Third-party apps can declare which screen-automation actions they allow or refuse. Coverage from TechNode, BlockBeats, and Cocoloop says that if an app opts out, Doubao will not keep running automated taps inside it. That is the news, not a rumor about a future agent OS.",
+            "A May preview already showed the assistant. Today's cut is the consumer build. BlockBeats notes that Operate Phone was not removed. It stayed in beta. Cocoloop, citing company materials, adds a fingerprint check on the AI key, on-screen Q&A without a screenshot, Feishu Minutes follow-ups on recordings, and hybrid on-device plus cloud processing. Capability still depends on device model, system version, app adaptation, and user authorization."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Computer-use agents have been a GUI grab: accessibility APIs, screenshots, simulated taps. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and the [Agents API Codex harness](/blog/openai-agents-api-codex-harness) are the Western stack for that pattern. The app being tapped had no formal say. SAEP is the first public switch that sits on the operated app, not only on the assistant. Payments, social, and content apps care because automated traffic distorts risk control, billing, and recommendation models.",
+            "MCP is the other door. BlockBeats, citing July LatePost reporting, says the new Doubao phones will not GUI-drive Alibaba and Tencent super apps unless those apps open MCP services. SAEP governs screen reading and fake clicks. MCP is a real interface. Both exist at once. Teams that already treat [tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work) as a permission problem should read this as a policy surface, not a demo.",
+            "For [enterprise buyers](/blog/enterprise-ai-adoption-what-is-working), an agent that can search local photos, messages, and notes is a data-boundary event. Cocoloop lists ISO 27001, ISO 27701, ISO/IEC 42001, and China's MLPS Level 3 in the company's materials. Those certificates are not an audit of what leaves the device. The fingerprint key is an entry checkpoint. It is not an item-by-item log of background access after you grant it."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/doubao-phone-assistant-saep-stack.svg",
+            "alt": "Diagram comparing Doubao Operate Phone beta GUI taps, SAEP app refusals for screen automation, and MCP APIs that Alibaba and Tencent super apps may open instead",
+            "caption": "GUI taps stay in beta. Super apps may demand MCP. SAEP is the app-side refuse switch."
+          },
+          "paragraphs": [
+            "Consumers in China feel it first. Doubao Phone Assistant ships on Nubia NaviX Ultra. ByteDance has not published a date for other models. National Business Daily and Beebom put the sale at 16 September, 14:00 CST. Beebom reports a 6.78-inch 1.5K 144 Hz panel, Snapdragon 8 Elite Gen 5, and a 7,100mAh battery. TechNode's 7 September note still treated the Snapdragon and battery figures as unconfirmed. Score the phone as a vehicle for the assistant, not as a global SKU.",
+            "App developers sit one layer up. A banking app can refuse transfers. A social app can allow outbound messages. ByteDance has not said whether a SAEP declaration is app-wide or page-wide, who is authorized to file it, or whether the refusal list is public. Coverage of Doubao's product pages says Operate Phone beta is limited to system and ZTE apps, ByteDance-owned apps, and some integrated third parties. That is a small garden, not the full Chinese app store.",
+            "Rival phone makers feel the calendar. BigGo notes vivo X500, OPPO Find X10, and Honor Magic9 land in the same window, while QuestMobile put Doubao's June monthly actives at 382 million. [Siri AI](/blog/siri-ai-eu-delay-ios-27-dma) is still an English-first, EU-blocked assistant on iOS 27. [Apple Intelligence](/blog/apple-intelligence-daily-limits-unpriced-fee) is rationing cloud features with unpublished daily limits. Doubao is a shipping computer-use beta on one Android flagship. Do not treat them as the same product."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: TechNode dated the Doubao Phone Assistant consumer launch 14 September 2026 and named screen Q&A, local search, voice activation, a dedicated AI key, Operate Phone in beta, and SAEP so apps can reject automation. Fact: TechNode, Beebom, National Business Daily, and AIBase put the Nubia NaviX Ultra sale on 16 September at 2 p.m. Beijing time, as a ZTE and ByteDance device. Fact: BlockBeats says Operate Phone remains in beta and, citing LatePost, that Alibaba and Tencent super apps are not GUI-driven unless they open MCP. Fact: Cocoloop and BigGo describe a 30-day public comment period on SAEP. Fact: ByteDance has not published page-level versus app-level SAEP scope, a public refusal list, or a date for other phone models.",
+            "Prediction: the first useful SAEP signal will be which payment and super apps file refusals, not the comment-period PDF. Prediction: Operate Phone stays inside the ByteDance and ZTE garden through the 16 September sale, then expands only as MCP deals land. Prediction: CAPTCHAs, payment confirms, and login states remain the failure modes. Do not staff a global Android rollout on a China-only flagship."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch who files SAEP refusals in the 30-day window, and whether ByteDance publishes the list. Watch 16 September unit sales and whether Operate Phone still fails on CAPTCHA and checkout. Watch whether Alibaba and Tencent open MCP, or keep the GUI door closed. Watch whether Nubia remains exclusive past this flagship. Watch vivo, OPPO, and Honor answer with their own assistants in the same launch week. And watch whether SAEP is copied as an industry pattern or stays a ByteDance rulebook that other agents ignore."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Doubao Phone Assistant? It is ByteDance's system-level mobile assistant. The consumer version launched on 14 September 2026 with screen-based Q&A, local search across photos, messages, and notes, voice activation, a dedicated AI key, and Operate Phone in beta. The first device is the Nubia NaviX Ultra.",
+            "What is the SAEP protocol? SAEP is the Screen Automation Execution Protocol. It lets third-party apps declare which AI screen-automation actions they permit or refuse. Coverage says Doubao will not keep running automated operations inside an app that opts out. ByteDance opened a 30-day public comment period. It has not published page-level versus app-level scope.",
+            "When does the Nubia NaviX Ultra go on sale? Nubia, TechNode, Beebom, and National Business Daily put the launch and sale at 16 September 2026, 14:00 Beijing time. The phone is co-developed by ZTE and ByteDance and is sold as an AI agent smartphone running Doubao Phone Assistant.",
+            "Can apps block Doubao screen automation? Yes, through SAEP. An app can declare that AI may not read the screen, tap, or execute operations inside it. MCP is a separate door: some super apps may expose functions only through an API, not through GUI control.",
+            "Is Doubao Operate Phone generally available? No. It launched in beta. Coverage of Doubao's product pages says support is limited to system and ZTE apps, ByteDance-owned apps, and some integrated third-party apps. Reliability still depends on device, OS, app adaptation, and user authorization."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "apple-intelligence-daily-limits-unpriced-fee",
       "title": "Apple Intelligence Daily Limits: A Fee Apple Has Not Priced",
       "excerpt": "iOS 27 ships today with daily limits on server-side Apple Intelligence. Siri AI, Image Playground, photo tools, and AFM 3 Cloud sit on the list. Apple confirmed a future fee and never published a number.",
