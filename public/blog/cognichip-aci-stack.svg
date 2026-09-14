@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">LLM agents, Cognichip ACI, and incumbent EDA compared</title>
+  <desc id="desc">Diagram comparing general LLM agents for chip tasks, Cognichip physics-informed Artificial Chip Intelligence, and incumbent Synopsys and Cadence EDA signoff tools as of 14 September 2026.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Three layers. Only one signs off silicon.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">ACI sits between chat agents and the EDA gravity well. Physics is the pitch. Signoff is still the incumbents.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.7"/>
+  <text x="140" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">LLM agents</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">General models plus tools</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">EE Times: ACI level one</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Kernels, RTL snippets, chat</text>
+  <text x="140" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">No Kirchhoff in the weights</text>
+  <text x="140" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Hallucinated nets still compile</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Cognichip ACI</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Physics-informed foundation</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Parallel search, not waterfall</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Target: ACI nine cognition</text>
+  <text x="480" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">100x is a task anecdote</text>
+  <text x="480" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">No public named tapeout</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="820" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">EDA signoff</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Synopsys, Cadence engines</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">DSO.ai, VSO.ai, Cerebrus</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Place, route, timing, masks</text>
+  <text x="820" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">AI-outside hits a ceiling</text>
+  <text x="820" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Still on the purchase order</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">ChipAgents and Ricursive raise in the same lane. A co-pilot is not a foundry tapeout.</text>
+</svg>
