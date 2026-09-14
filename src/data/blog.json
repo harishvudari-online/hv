@@ -107,7 +107,7 @@
           },
           "paragraphs": [
             "Coding and research teams get a flagship that early testers at Jane Street, Cognition, and Red Hat say is cheaper per completed task than keeping Opus 5 as the default. Defenders can now use Fable 5.1 to find software vulnerabilities, but exploit writing and penetration testing still route to Opus. Life-science R&D still needs Mythos through a US-government-linked Life Sciences Verification Program.",
-            "Rival labs feel the pricing pressure more than the headline scores. Cache-heavy agents were the expensive case. A 75% cache-read cut makes Fable-class loops viable for work that used to sit on cheaper mid-tier models."
+            "Rival labs feel the pricing pressure more than the headline scores. Cache-heavy agents were the expensive case. A 75% cache-read cut makes Fable-class loops viable for work that used to sit on cheaper mid-tier models. See [how AI model pricing changes what teams can ship](/blog/ai-model-pricing-is-changing-what-teams-can-ship)."
           ]
         },
         {
@@ -120,7 +120,209 @@
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch EFS launch timing and whether zero-data-retention customers actually move. Watch false-positive rates on cyber and medical queries, which Anthropic says are already down. Watch whether Mythos access expands beyond the first US cohort. Also watch EU watermark detection: Fable 5.1 outputs carry an invisible watermark, with a detection API in private preview for regulators and obligated enterprises."
+            "Watch EFS launch timing and whether zero-data-retention customers actually move. Watch false-positive rates on cyber and medical queries, which Anthropic says are already down. Watch whether Mythos access expands beyond the first US cohort. Also watch EU watermark detection: Fable 5.1 outputs carry an invisible watermark, with a detection API in private preview for regulators and obligated enterprises. Compare that with the [GPT-6 Astra computer-use flagship](/blog/gpt-6-astra-computer-use-flagship) if your router still needs a top-rung computer-use SKU."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Claude Fable 5.1? It is Anthropic's generally available flagship for long-horizon coding, knowledge work, and research. Developers call it as claude-fable-5-1 on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry.",
+            "How is Mythos 5.1 different from Fable 5.1? They are the same model with different safeguard stacks. Mythos 5.1 loosens cyber and biology gates for vetted labs in trusted access programs. It is not a public SKU.",
+            "Did Anthropic cut Fable's list price? No. Input and output stay $10 and $50 per million tokens. Cache reads fell to $0.25 per million tokens. Anthropic estimates that cuts typical workloads by about 25% and highly agentic runs by up to about 45%.",
+            "Can Fable 5.1 write exploits or do life-science R&D? No. Fable 5.1 can help find software vulnerabilities, but exploit writing and penetration testing still route to Opus. Life-science R&D still needs Mythos through the Life Sciences Verification Program."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "openai-agents-api-codex-harness",
+      "title": "OpenAI Agents API: Codex Harness, Hosted Sandboxes, and the Third Meter",
+      "excerpt": "OpenAI's Agents API is in public beta. It is not a new model. It is the managed Codex harness, plus sandboxes, MCP, and a bill with three meters.",
+      "category": "tools",
+      "tags": [
+        "OpenAI Agents API",
+        "Codex",
+        "sandboxes",
+        "MCP",
+        "agents"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 8,
+      "seo": {
+        "metaTitle": "OpenAI Agents API 2026: Codex, Pricing, Sandboxes",
+        "metaDescription": "OpenAI Agents API public beta briefing: Codex harness, hosted sandboxes, MCP, subagents, and how token plus container pricing actually works for teams.",
+        "keywords": [
+          "OpenAI Agents API",
+          "Codex harness",
+          "OpenAI hosted sandbox",
+          "Agents API pricing",
+          "MCP agents",
+          "GPT-6 Astra agents"
+        ]
+      },
+      "image": {
+        "src": "/blog/openai-agents-api-hero.svg",
+        "alt": "Illustration of the OpenAI Agents API connecting a session, the Codex harness, and a hosted sandbox",
+        "caption": "The OpenAI Agents API is the Codex loop as a product: sessions, tools, and a place for the agent to run code."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: Introducing the Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "title": "OpenAI docs: Agents API quickstart",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/quickstart"
+        },
+        {
+          "title": "OpenAI docs: hosted sandboxes",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted"
+        },
+        {
+          "title": "OpenAI docs: MCP connections",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/mcp"
+        },
+        {
+          "title": "OpenAI API pricing",
+          "url": "https://developers.openai.com/api/docs/pricing"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 10, 2026, OpenAI put the same harness that powers Codex behind a public Agents API. You create a session, pick a model, attach tools, and choose where code runs. Official samples default to gpt-6-astra. Requests need the OpenAI-Beta: agents=v1 header. The SDK adds it. Raw HTTP does not.",
+            "OpenAI hosts the loop: context, tool calls, retries, and session state. Compute is separate. The three options are an OpenAI-hosted Linux sandbox, your own infrastructure, or a partner sandbox. Hosted sandboxes start in /workspace, can install Python and Node packages, and publish files under /workspace/outputs as downloadable artifacts after a turn completes."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The useful jump is the product boundary. Teams have been bolting homemade agent loops onto chat APIs. The Agents API sells the loop: tool search so you do not dump every function definition into the prompt, programmatic tool calling so the agent can fan out in code, MCP connections, and parallel subagents. OpenAI documents a default cap of six concurrent subagents besides the coordinator.",
+            "That changes how [AI tools](/blog/new-ai-tools-that-actually-change-daily-work) get into production. A chat window drafts. An Agents API session can write a file, run it, and keep going on the next turn. If keep-alives stop for an hour, a hosted sandbox can be deleted, so session lifetime is now part of reliability, not an afterthought."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/openai-agents-api-meters.svg",
+            "alt": "Diagram of three OpenAI Agents API cost meters: model tokens, tools, and hosted containers",
+            "caption": "There is no extra Agents API fee. The bill is tokens, tool calls, and container time. Idle sandboxes still meter."
+          },
+          "paragraphs": [
+            "Platform teams that were maintaining a custom harness now have a hosted option with an inspectable Codex core. Product teams that already route models should treat this as infrastructure, not as a reason to put Astra on every request. See our [GPT-6 Astra briefing](/blog/gpt-6-astra-computer-use-flagship) for the model-side list price and computer-use scores.",
+            "Security and finance teams are in the blast radius. Application keys need api.agents.read, api.agents.write, and api.responses.write, and those keys stay outside the sandbox. Hosted network access can be enabled, disabled, or limited to an allowlist of exact host names. That control decides whether an agent can reach production APIs."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: OpenAI says there is no extra Agents API fee. You pay model tokens, tool calls, and standard container rates for hosted sandboxes. Fact: the pricing page lists hosted containers at $0.03 for 1 GB, $0.12 for 4 GB, $0.48 for 16 GB, and $1.92 for 64 GB per 20-minute session, billed by the minute with a five-minute minimum. Fact: the public beta is available to developers now, and official samples use gpt-6-astra.",
+            "Prediction: most teams will overpay in the first quarter by leaving sandboxes idle and by using Astra as the default model. The teams that win will treat session lifetime and model routing the same way they already treat [token pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship): as a product metric, not as a surprise invoice."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether partner sandboxes match hosted file and artifact behavior. Watch data residency before you promise an EU-only deployment, because this beta is still a United States-centric product surface even when compute sits on your own machines. Watch DevDay on September 29 for a more packaged agent product on top of this API. Also watch GPT-Live-1, the $0.05 per minute full-duplex voice layer that can hand hard work to Astra through the same kind of harness."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the OpenAI Agents API? It is a public-beta interface for running long-lived agent sessions on the Codex harness. OpenAI hosts the loop. You supply the model, instructions, tools, and environment.",
+            "How much does the OpenAI Agents API cost? There is no separate Agents API SKU. You pay the selected model's token rates, built-in tool rates, and hosted container rates if you use an OpenAI sandbox. A 4 GB container is $0.12 per 20-minute session, billed by the minute with a five-minute minimum.",
+            "Do I have to use GPT-6 Astra with the Agents API? No. Official samples default to gpt-6-astra, but you choose the model. For volume work, a cheaper model plus a sandbox is usually the right default. Astra is for long-horizon coding and computer use.",
+            "Where can the agent run code? In an OpenAI-hosted Linux sandbox with Python and Node.js, on your own infrastructure, or in a partner sandbox. Hosted sandboxes start in /workspace. Keep API keys outside that environment.",
+            "How is this different from a chat or Responses API call? A chat call returns text. An Agents API session keeps state, calls tools, runs code, and can last across many turns. If you only need a draft, stay on a cheaper chat path. If you need an agent that writes and runs files, this is the product."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gpt-6-astra-computer-use-flagship",
+      "title": "GPT-6 Astra: OpenAI's Flagship Is a Computer-Use Model",
+      "excerpt": "OpenAI's new flagship is not just a smarter chatbot. It is a computer-use and coding model now rolling into ChatGPT, the API, Azure, and Bedrock.",
+      "category": "models",
+      "tags": [
+        "GPT-6 Astra",
+        "OpenAI",
+        "computer use",
+        "agents"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "GPT-6 Astra 2026: OpenAI Flagship, Pricing, Computer Use",
+        "metaDescription": "A briefing on GPT-6 Astra: rollout, $10/$50 API pricing, computer-use scores, Agents API, and how teams should route spend.",
+        "keywords": [
+          "GPT-6 Astra",
+          "OpenAI flagship model",
+          "AI computer use",
+          "OpenAI API pricing"
+        ]
+      },
+      "image": {
+        "src": "/blog/gpt-6-astra-hero.svg",
+        "alt": "Illustration of GPT-6 Astra working across a browser, terminal, and documents",
+        "caption": "Astra is built to operate software, not only answer chat. OpenAI is shipping it through ChatGPT, the API, Azure, and Bedrock."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "title": "OpenAI API: GPT-6 Astra model card",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+        },
+        {
+          "title": "OpenAI: Introducing the Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "title": "Wikipedia: GPT-6 Astra",
+          "url": "https://en.wikipedia.org/wiki/GPT-6_Astra"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "OpenAI unveiled GPT-6 Astra on September 3, 2026, as its most capable model for computer use, coding, science, and professional work. The API model, gpt-6-astra, followed on September 4. Access is rolling through ChatGPT Plus, Pro, Business, and Enterprise, plus Microsoft Azure and AWS Bedrock.",
+            "Standard API pricing is $10 per million input tokens and $50 per million output tokens. Cached input is $1. Cache writes are $12.50. The context window is 1,050,000 tokens, with 128,000 max output. Prompts over 272,000 input tokens bill at higher long-context rates. The free API tier is not supported. Enterprise administrators start with Astra off by default."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The useful jump is not another exam score. Astra is built to operate software: browsers, terminals, CRMs, CAD tools, and document templates. On Agents' Last Exam it scores 59.3%, ahead of Claude Opus 5 at 55.5% and GPT-5.6 Sol at 53.6%. On OSWorld 2.0 it reaches 72.6% in about 40 minutes per task, versus 65.7% in about 75 minutes for Sol.",
+            "Coding is the other production test. Terminal-Bench 4.0 sits at 57.9% for Astra, versus 37.3% for Sol and 55.8% for Claude Fable 5.1, at lower estimated API cost per task. Early testers at Jane Street and Lovable said the model needs fewer iterations to reach usable code. On September 10, OpenAI also put the Codex harness behind a public Agents API, with gpt-6-astra as the default example model."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gpt-6-astra-router.svg",
+            "alt": "Diagram of cheap, mid-tier, and Astra routing lanes for AI workloads",
+            "caption": "Astra is a specialist SKU. Keep cheap models on volume work and spend the flagship on jobs that used to need a human at the keyboard."
+          },
+          "paragraphs": [
+            "Product teams that already route cheap models for extraction and expensive models for hard reasoning now have a new top rung. Astra is priced like a specialist, not a default. The winning pattern is still a router: keep mid-tier models on high volume, and spend Astra on long-horizon computer use, repo work, and high-stakes research.",
+            "Security and IT teams are in the blast radius too. OpenAI says Astra meets the Critical cybersecurity threshold in its Preparedness Framework. The shipping version is meant for defensive review and patching, and it refuses more advanced offensive work. Extra safety checks can pause a task in ChatGPT or Codex, and they stop the task in the API."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: list price, context length, and rollout channels are published by OpenAI. Fact: vendor evals show large gains on computer use and terminal coding, with smaller gaps on some general indexes. Fact: the Agents API, in public beta since September 10, is the managed harness OpenAI wants developers to use with Astra.",
+            "Prediction: most teams will not put Astra on every request. They will put it on jobs that used to need a human at the keyboard, then measure dollars per completed task, not dollars per million tokens."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch real latency and interruption rates in ChatGPT and Codex, because extra safety checks can pause work. Watch whether Azure and Bedrock match first-party tool quality. Watch whether Claude Fable 5.1 and Gemini stay cheaper on the tasks where Astra's computer-use edge does not show up. Also watch cache hit rates. At $1 cached input versus $10 uncached, prompt design now changes the bill as much as model choice."
           ]
         }
       ]
