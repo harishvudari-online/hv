@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lean kernel versus Magenta statement judge</title>
+  <desc id="desc">Diagram comparing a Lean kernel that certifies a proof of whatever statement was generated with Magenta's statement judge that checks the formalisation still matches the original contest problem.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="80" cy="80" r="180" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1120" cy="560" r="200" fill="#C084FC" fill-opacity="0.12"/>
+  <rect x="56" y="48" width="1088" height="534" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="96" y="104" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Two checks. Only one answers the contest.</text>
+  <text x="96" y="142" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Lean certifies the proof. The statement judge certifies that the theorem is the problem.</text>
+
+  <rect x="96" y="180" width="480" height="340" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="124" y="226" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Lean kernel alone</text>
+  <rect x="124" y="250" width="424" height="40" rx="8" fill="#12355A"/>
+  <text x="140" y="276" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Proof of statement S is valid</text>
+  <rect x="124" y="304" width="424" height="40" rx="8" fill="#12355A"/>
+  <text x="140" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">S may drop a hypothesis</text>
+  <rect x="124" y="358" width="424" height="40" rx="8" fill="#12355A"/>
+  <text x="140" y="384" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">S may bake in the answer</text>
+  <text x="124" y="448" fill="#C084FC" font-family="Inter, Arial, sans-serif" font-size="16">Ablation false-certification rate</text>
+  <text x="124" y="480" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">45.5%</text>
+
+  <rect x="624" y="180" width="480" height="340" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="652" y="226" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Magenta statement judge</text>
+  <rect x="652" y="250" width="424" height="40" rx="8" fill="#0B3A58"/>
+  <text x="668" y="276" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Does S preserve problem Q?</text>
+  <rect x="652" y="304" width="424" height="40" rx="8" fill="#0B3A58"/>
+  <text x="668" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Reject omitted hypotheses</text>
+  <rect x="652" y="358" width="424" height="40" rx="8" fill="#0B3A58"/>
+  <text x="668" y="384" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Then Lean checks the proof of S</text>
+  <text x="652" y="448" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Verified and correct in ablation</text>
+  <text x="652" y="480" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">63.3% vs 20.0% without it</text>
+</svg>
