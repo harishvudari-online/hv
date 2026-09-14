@@ -38,6 +38,104 @@
   ],
   "posts": [
     {
+      "slug": "gpt-live-1-voice-api-pricing",
+      "title": "GPT-Live-1: OpenAI Prices Voice Agents by the Minute",
+      "excerpt": "OpenAI's GPT-Live-1 voice API is $0.05 per minute, billed per second. The voice layer is now a separate meter from the model that does the work.",
+      "category": "pricing",
+      "tags": [
+        "GPT-Live-1",
+        "OpenAI",
+        "voice agents",
+        "API pricing"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "GPT-Live-1 Pricing 2026: OpenAI Voice API $0.05/Min",
+        "metaDescription": "GPT-Live-1 is OpenAI's full-duplex voice API at $0.05/min, billed per second. How the new meter, Astra backends, and Realtime 2.1 compare for voice agents.",
+        "keywords": [
+          "GPT-Live-1",
+          "OpenAI voice API",
+          "GPT-Live-1 pricing",
+          "full-duplex voice AI",
+          "gpt-live-1 API cost"
+        ]
+      },
+      "image": {
+        "src": "/blog/gpt-live-1-hero.svg",
+        "alt": "Illustration of GPT-Live-1 listening and speaking while a backend model handles the hard work",
+        "caption": "GPT-Live-1 is the voice front end. List price is $0.05 per minute, billed per second. The reasoning model is a separate bill."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: Introducing GPT-Live-1 in the API",
+          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+        },
+        {
+          "title": "OpenAI API: GPT-Live 1 model card",
+          "url": "https://developers.openai.com/api/docs/models/gpt-live-1"
+        },
+        {
+          "title": "OpenAI API pricing: GPT-Live sessions",
+          "url": "https://developers.openai.com/api/docs/pricing"
+        },
+        {
+          "title": "OpenAI Developer Community: GPT-Live-1 announcement",
+          "url": "https://community.openai.com/t/introducing-gpt-live-1-in-the-api/1396471"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 10, 2026, OpenAI put GPT-Live-1 on the API. The model already ran inside ChatGPT Voice. Developers now get the same full-duplex front end: it listens and speaks at the same time, handles interruptions, and keeps the conversation going while a backend model does the work.",
+            "List price is $0.05 per minute for the voice layer, billed per second, with no rounding up to a whole minute. A 30-second call is $0.025 for audio, not $0.05. Backend tokens and tools are extra. The snapshot is gpt-live-1 on /v1/live/sessions. There is no free-tier access. Concurrent session caps run from 25 on Tier 1 to 500 on Tier 5."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Voice used to be a stitched pipeline: speech-to-text, a reasoning model, then text-to-speech. Each hop added latency and made interruptions brittle. GPT-Live-1 collapses listening and speaking into one model, then delegates hard work. OpenAI says Full Duplex Bench interactivity jumped about 30 percentage points versus GPT-Realtime-2.1. Developer notes put Tau3 pass@1 at 83.6% when paired with [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) at medium reasoning, versus 45.7% for Realtime 2.1. Turn-taking latency is 0.798 seconds versus 1.41 seconds.",
+            "The billing change is the product change. Token tables still decide [how AI pricing shapes what teams ship](/blog/ai-model-pricing-is-changing-what-teams-can-ship). A voice SKU billed by the second adds a second clock. Cheap Luna on scheduling plus Live on the earpiece can beat Astra on every second of audio. Named early testers include Yelp, Speak, Intercom's Fin, Abridge, and Cognition's Devin. Speak reported almost 80% fewer interruptions during thinking pauses versus turn-based tutors. Abridge's CTO said the cascaded stack shrank by about 80% and 23,000 lines."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gpt-live-1-meters.svg",
+            "alt": "Diagram of GPT-Live-1 voice-minute billing, backend model tokens, and tool costs",
+            "caption": "Forecast three bills: occupied voice minutes, backend tokens, and tools. Closing the session is as important as picking the model."
+          },
+          "paragraphs": [
+            "Contact-center, language-learning, booking, and on-call engineering teams that already pay for Realtime 2.1 audio tokens feel it first. Realtime 2.1 still bills $32 per million audio input tokens and $64 per million audio output tokens, plus text. Live is easier to forecast per occupied minute, and worse if agents sit in silence on an open session.",
+            "Platform and security teams are in the blast radius. Interrupting speech does not cancel backend work. Permissions and task state stay in the application. Teams that already moved agent loops into the [OpenAI Agents API](/blog/openai-agents-api-codex-harness) can keep that harness and put Live in front. OpenAI Presence is the enterprise wrapper for trusted voice agents that need escalation paths."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: $0.05 per minute, per-second billing, the Live endpoint only, no image input, and no free tier are on OpenAI's model card and pricing page. Fact: vendor evals show large jumps on duplex and Tau3 when Astra is the backend. Fact: TauBanking pass@1 is 38.1% on the same pairing, so retrieval-heavy finance calls are not a solved demo. Fact: custom voices need sales approval.",
+            "Prediction: most production stacks will not put Astra behind every utterance. They will keep Live on the conversation, route routine turns to Luna or Terra, and spend Astra on the calls that used to need a human. Prediction: Realtime 2.1 stays for multimodal sessions that need images. Live does not take images."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch dollars per resolved call, not dollars per minute. Watch whether silence, hold music, and barge-in cancel or continue backend spend. Watch telephony quality versus WebRTC. Watch concurrent session limits as soon as a contact center exceeds Tier 1. Watch OpenAI Presence contracts versus DIY Live plus the Agents API. And watch whether $0.05 holds once volume voice traffic leaves the preview window."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is GPT-Live-1? GPT-Live-1 is OpenAI's full-duplex voice model for the API. It listens and speaks at the same time, handles interruptions, and delegates reasoning and tool use to a backend model you choose.",
+            "How much does GPT-Live-1 cost? Voice sessions cost $0.05 per minute, billed per second, with no rounding to a full minute. Backend model tokens and tools are billed separately at their normal rates. There is no free-tier access.",
+            "Does GPT-Live-1 include GPT-6 Astra? No. GPT-Live-1 is the voice layer. You pair it with Luna, Terra, Astra, or another backend. Astra is the pairing OpenAI used for its strongest Tau3 numbers, not a required default.",
+            "Is GPT-Live-1 replacing GPT-Realtime-2.1? Not yet. Live is stronger on duplex, turn-taking, and per-second billing. Realtime 2.1 still accepts image input, which Live does not. Teams with multimodal sessions should keep Realtime until Live gains that path."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "fujitsu-monaka-sovereign-ai-cpu",
       "title": "Fujitsu MONAKA: Japan's 2nm CPU Makes Inference a Sovereignty Play",
       "excerpt": "Fujitsu will sell a Japan-designed 2nm CPU for AI inference from November 2026. The bet is not beating NVIDIA on training. It is air-cooled, traceable servers for buyers who want compute they can audit.",
