@@ -47,7 +47,7 @@ export default function BlogIndexPage() {
             <p className="eyebrow">
               <Newspaper size={14} /> AI News & Future Trends
             </p>
-            <h1>What's moving in AI</h1>
+            <h1>What&apos;s moving in AI</h1>
             <p className="lead">
               Short notes on the tools, models, chips, and job-market shifts I actually follow — what shipped, what it
               costs, and what it means if you build product interfaces.

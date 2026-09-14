@@ -33,6 +33,12 @@ grep -q "useBlogList()" "$ROOT/src/pages/blog/index.tsx" || fail "listing must l
 grep -q "useBlogPost(slug)" "$ROOT/src/pages/blog/[slug].tsx" || fail "article page must load post from the API"
 grep -q 'id="blog"' "$ROOT/src/pages/index.tsx" || fail "homepage must include #blog section"
 grep -q 'href="/blog"' "$ROOT/src/pages/index.tsx" || fail "homepage must link More to /blog"
+grep -q "moving in AI" "$ROOT/src/pages/blog/index.tsx" || fail "listing H1 must be editorial (What's moving in AI)"
+grep -q "What&apos;s moving in AI" "$ROOT/src/pages/blog/index.tsx" || fail "listing H1 apostrophe must be escaped for next lint"
+grep -q "Recent notes on AI tools" "$ROOT/src/pages/index.tsx" || fail "homepage blog lead must be editorial"
+if grep -E "JSON (file|blog store)|blog API" "$ROOT/src/pages/blog/index.tsx" "$ROOT/src/pages/index.tsx" "$ROOT/src/pages/blog/category/[category].tsx" >/dev/null; then
+  fail "visitor-facing blog copy must not mention the JSON store or blog API"
+fi
 [[ -f "$ROOT/src/pages/api/blog/index.ts" ]] || fail "missing list API"
 [[ -f "$ROOT/src/pages/api/blog/[slug].ts" ]] || fail "missing slug API"
 
