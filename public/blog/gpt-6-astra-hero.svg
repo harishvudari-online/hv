@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GPT-6 Astra computer-use flagship</title>
+  <desc id="desc">Editorial illustration of a model routing work across a browser, terminal, and documents.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#1BE7FF" fill-opacity="0.14"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">GPT-6 Astra: a computer-use flagship</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Announced 3 Sep 2026  |  API as gpt-6-astra  |  $10 / $50 per 1M tokens</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="142" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Browser</text>
+  <rect x="142" y="272" width="252" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="306" width="198" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="340" width="230" height="22" rx="6" fill="#12355A"/>
+  <text x="142" y="402" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Forms, CRM, research tabs</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">OSWorld 2.0: 72.6%</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="472" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Terminal</text>
+  <rect x="472" y="272" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="488" y="304" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">$ agent run --repo</text>
+  <text x="488" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">apply patch</text>
+  <text x="488" y="352" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">test, retry, ship</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Terminal-Bench 4.0: 57.9%</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Documents</text>
+  <rect x="802" y="272" width="252" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="300" width="210" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="328" width="236" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="356" width="168" height="18" rx="5" fill="#12355A"/>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Slides, sheets, CAD, science</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">ChatGPT Plus to Enterprise, OpenAI API, Azure, and Bedrock</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Enterprise access starts off by default</text>
+</svg>

@@ -38,6 +38,94 @@
   ],
   "posts": [
     {
+      "slug": "gpt-6-astra-computer-use-flagship",
+      "title": "GPT-6 Astra: OpenAI's Flagship Is a Computer-Use Model",
+      "excerpt": "OpenAI's new flagship is not just a smarter chatbot. It is a computer-use and coding model now rolling into ChatGPT, the API, Azure, and Bedrock.",
+      "category": "models",
+      "tags": [
+        "GPT-6 Astra",
+        "OpenAI",
+        "computer use",
+        "agents"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "GPT-6 Astra 2026: OpenAI Flagship, Pricing, Computer Use",
+        "metaDescription": "A briefing on GPT-6 Astra: rollout, $10/$50 API pricing, computer-use scores, Agents API, and how teams should route spend.",
+        "keywords": [
+          "GPT-6 Astra",
+          "OpenAI flagship model",
+          "AI computer use",
+          "OpenAI API pricing"
+        ]
+      },
+      "image": {
+        "src": "/blog/gpt-6-astra-hero.svg",
+        "alt": "Illustration of GPT-6 Astra working across a browser, terminal, and documents",
+        "caption": "Astra is built to operate software, not only answer chat. OpenAI is shipping it through ChatGPT, the API, Azure, and Bedrock."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "title": "OpenAI API: GPT-6 Astra model card",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+        },
+        {
+          "title": "OpenAI: Introducing the Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "title": "Wikipedia: GPT-6 Astra",
+          "url": "https://en.wikipedia.org/wiki/GPT-6_Astra"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "OpenAI unveiled GPT-6 Astra on September 3, 2026, as its most capable model for computer use, coding, science, and professional work. The API model, gpt-6-astra, followed on September 4. Access is rolling through ChatGPT Plus, Pro, Business, and Enterprise, plus Microsoft Azure and AWS Bedrock.",
+            "Standard API pricing is $10 per million input tokens and $50 per million output tokens. Cached input is $1. Cache writes are $12.50. The context window is 1,050,000 tokens, with 128,000 max output. Prompts over 272,000 input tokens bill at higher long-context rates. The free API tier is not supported. Enterprise administrators start with Astra off by default."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The useful jump is not another exam score. Astra is built to operate software: browsers, terminals, CRMs, CAD tools, and document templates. On Agents' Last Exam it scores 59.3%, ahead of Claude Opus 5 at 55.5% and GPT-5.6 Sol at 53.6%. On OSWorld 2.0 it reaches 72.6% in about 40 minutes per task, versus 65.7% in about 75 minutes for Sol.",
+            "Coding is the other production test. Terminal-Bench 4.0 sits at 57.9% for Astra, versus 37.3% for Sol and 55.8% for Claude Fable 5.1, at lower estimated API cost per task. Early testers at Jane Street and Lovable said the model needs fewer iterations to reach usable code. On September 10, OpenAI also put the Codex harness behind a public Agents API, with gpt-6-astra as the default example model."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gpt-6-astra-router.svg",
+            "alt": "Diagram of cheap, mid-tier, and Astra routing lanes for AI workloads",
+            "caption": "Astra is a specialist SKU. Keep cheap models on volume work and spend the flagship on jobs that used to need a human at the keyboard."
+          },
+          "paragraphs": [
+            "Product teams that already route cheap models for extraction and expensive models for hard reasoning now have a new top rung. Astra is priced like a specialist, not a default. The winning pattern is still a router: keep mid-tier models on high volume, and spend Astra on long-horizon computer use, repo work, and high-stakes research.",
+            "Security and IT teams are in the blast radius too. OpenAI says Astra meets the Critical cybersecurity threshold in its Preparedness Framework. The shipping version is meant for defensive review and patching, and it refuses more advanced offensive work. Extra safety checks can pause a task in ChatGPT or Codex, and they stop the task in the API."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: list price, context length, and rollout channels are published by OpenAI. Fact: vendor evals show large gains on computer use and terminal coding, with smaller gaps on some general indexes. Fact: the Agents API, in public beta since September 10, is the managed harness OpenAI wants developers to use with Astra.",
+            "Prediction: most teams will not put Astra on every request. They will put it on jobs that used to need a human at the keyboard, then measure dollars per completed task, not dollars per million tokens."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch real latency and interruption rates in ChatGPT and Codex, because extra safety checks can pause work. Watch whether Azure and Bedrock match first-party tool quality. Watch whether Claude Fable 5.1 and Gemini stay cheaper on the tasks where Astra's computer-use edge does not show up. Also watch cache hit rates. At $1 cached input versus $10 uncached, prompt design now changes the bill as much as model choice."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "nvidia-buys-hugging-face-open-model-hub",
       "title": "NVIDIA Buys Hugging Face: The Open-Model Hub Becomes a Chip Story",
       "excerpt": "A $12.9 billion agreement would put the default marketplace for open models inside NVIDIA. The filing is clear. The hard test is whether the hub stays vendor-neutral after close.",
