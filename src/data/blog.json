@@ -158,6 +158,870 @@
       ]
     },
     {
+      "slug": "salesforce-agentforce-job-ready-agents",
+      "title": "Salesforce Agentforce: Job-Ready Agents That Run for Weeks",
+      "excerpt": "Salesforce restated seven job-ready Agentforce agents a day before Dreamforce. Six are generally available. Hunter stays in pilot until November. The long-horizon runtime is the actual product.",
+      "category": "tools",
+      "tags": [
+        "Salesforce Agentforce",
+        "job-ready agents",
+        "long-horizon runtime",
+        "Agentforce Hunter"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Salesforce Agentforce Job-Ready Agents 2026: Hunter Runtime",
+        "metaDescription": "Salesforce shipped 7 job-ready Agentforce agents plus a long-horizon runtime. Hunter stays in pilot until November. AI Skills and Optimizer go GA in October.",
+        "keywords": [
+          "Salesforce Agentforce job-ready agents",
+          "Agentforce long-horizon runtime",
+          "Agentforce Hunter",
+          "Agentforce Hunter GA date",
+          "Agentforce Coworker AI Skills",
+          "Agentforce Agent Optimizer",
+          "Multi-Agent Orchestration Salesforce",
+          "Agentic Work Units",
+          "Agent Script Salesforce",
+          "Salesforce job-ready agents Casey Paige Carter"
+        ]
+      },
+      "image": {
+        "src": "/blog/salesforce-agentforce-job-ready-hero.svg",
+        "alt": "Illustration of Salesforce Agentforce job-ready agents with six generally available and Hunter still in pilot on the long-horizon runtime until November 2026, ahead of Dreamforce",
+        "caption": "The chat ends. The quarter does not. Hunter is the first agent Salesforce says can keep going."
+      },
+      "sources": [
+        {
+          "title": "Salesforce: Agentforce job-ready agents for high-value work",
+          "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/"
+        },
+        {
+          "title": "Salesforce: Asia-Pacific restatement of the Agentforce portfolio (14 Sep 2026)",
+          "url": "https://www.salesforce.com/ap/news/press-releases/2026/09/14/ph-salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/"
+        },
+        {
+          "title": "Unite.AI: Salesforce debuts job-ready Agentforce agents and long-horizon runtime",
+          "url": "https://www.unite.ai/salesforce-debuts-job-ready-agentforce-agents-and-long-horizon-runtime/"
+        },
+        {
+          "title": "ppc.land: Salesforce agents gain a runtime that pursues goals over weeks",
+          "url": "https://ppc.land/salesforce-agents-gain-a-runtime-that-pursues-goals-over-weeks-not-chats/"
+        },
+        {
+          "title": "Salesforce: The Agentic Work Unit (25 Feb 2026)",
+          "url": "https://www.salesforce.com/news/stories/agentic-work-units/"
+        },
+        {
+          "title": "Salesforce Developers: Agent Script documentation",
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-script.html"
+        },
+        {
+          "title": "CXOToday: Salesforce expands Agentforce with job-ready AI agents",
+          "url": "https://cxotoday.com/media-coverage/salesforce-expands-agentforce-with-a-new-portfolio-of-ai-agents-built-for-high-value-work/"
+        },
+        {
+          "title": "Diginomica: Salesforce introduces Agentic Work Units",
+          "url": "https://diginomica.com/how-much-worth-awus-introducing-new-metric-track-agentic-value-salesforce-turns-strong-full-year"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, Salesforce's Asia-Pacific newsroom restated the Agentforce job-ready agents portfolio, a day before Dreamforce opens in San Francisco. The US story ran on 11 September. The product cut is the same: seven named agents, a long-horizon runtime, and three platform additions. Salesforce says it has delivered 7 billion Agentic Work Units across Agentforce and Slack, including 3.2 billion in the second quarter.",
+            "The seven agents are Casey for customer service, Paige for IT and HR, Carter for shoppers, Marshall for supply chain, Piper for inbound pipeline, Fin for customer experience, and Hunter for outbound sales. Salesforce lists the first six as generally available. Hunter stays in pilot, with general availability planned for November 2026. Each ships with skills, actions, and data models for the job, can be renamed, and sits on Customer 360. Agent Script, Salesforce's open-source language for agent behavior, is the control plane that mixes LLM reasoning with deterministic rules.",
+            "Hunter is the first agent on the new long-horizon runtime. Salesforce describes three parts: memory that keeps context across sessions, durable execution that keeps a plan running across days and weeks, and dynamic steering from user feedback. AI Skills in Agentforce Coworker is in pilot, with general availability in October. Multi-Agent Orchestration is generally available now. Agent Optimizer, which builds, tests, and reads session traces, is also planned for October."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Frontier labs sell a model that can use a computer. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and the [Agents API Codex harness](/blog/openai-agents-api-codex-harness) are that stack. Salesforce is selling a job. The buyer does not start with a prompt. The buyer starts with Casey or Hunter already wired to CRM objects. That is closer to [tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work) than to a new intelligence index.",
+            "The long-horizon runtime is the claim that matters. Chat agents die when the tab closes. A quarter-end rescue of at-risk deals does not. Memory plus durable execution is the same product idea as a workflow engine, with an LLM choosing the next step. [Sakana's Fugu coordinators](/blog/sakana-fugu-ultra-v2-fugu-max) route specialist models. Salesforce routes specialist jobs. Different layer, same coordination problem.",
+            "The 7 billion AWU figure is a vendor meter, not an audit. Salesforce defined an Agentic Work Unit in February as one discrete task: a prompt processed, a reasoning chain completed, or a tool invoked. Independent coverage notes there is no external audit and no breakdown by agent. A failed tool call can still count as work. Treat it the way [enterprise buyers](/blog/enterprise-ai-adoption-what-is-working) treat token tables: a consumption number, not proof that a case stayed closed."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/salesforce-agentforce-runtime-stack.svg",
+            "alt": "Diagram of Salesforce Agentforce job-ready agents on Customer 360, with Hunter first on the long-horizon runtime of memory, durable execution, and dynamic steering, plus October and November general-availability dates",
+            "caption": "Hunter is first on the weeks-long runtime. The other six are GA without it. Price is still unpublished."
+          },
+          "paragraphs": [
+            "Salesforce customers who already run Agentforce feel it first. Six agents are generally available. Hunter is the one on the long-horizon runtime, and it is still a pilot until November. Teams that want weeks-long outbound work are buying a wait, not a SKU. Dreamforce runs 15 to 17 September at Moscone. Pricing, packaging, and edition structure were not in the announcement.",
+            "Sales, service, commerce, and HR teams inherit named agents. Salesforce attributes customer numbers to the launch: Engine's Eva fully resolves 50 percent of chat inquiries; Perk's Hunter builds 60 percent of sales pipeline; Autism Queensland's Paige resolves 70 percent of administrative requests; Hibbett AI handles 90 percent of core shopper journeys after six weeks; Asana's Piper drives 4x conversation volume, with customers deploying Piper in 45 days on average; Fin autonomously resolves 79 percent of Anthropic conversations it sees. Those are Salesforce-cited figures. They are not third-party audits.",
+            "IT and security sit one layer up. Every agent is said to run inside customer rules, permissions, and security. Agent Script can force if/else, variable state, and action chaining so the LLM is not the only decision maker. Marshall's audit record of every supply-chain action is the back-office version of that promise. [Model pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) still sits underneath. Salesforce did not publish an AWU price or a token-to-AWU bill for this portfolio. [Job design](/blog/anthropic-ai-jobs-2030-econ-scenarios) is the other bill: Hunter that researches and reaches out for weeks is a seller's calendar, not only a CRM feature."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Salesforce's 11 September US story and 14 September Asia-Pacific restatement name seven job-ready Agentforce agents, with Hunter in pilot and general availability planned for November 2026. Fact: Casey, Paige, Carter, Marshall, Piper, and Fin are listed as generally available. Fact: Hunter is the first agent on the long-horizon runtime, described as memory, durable execution, and dynamic steering. Fact: AI Skills is in pilot, with general availability in October 2026. Multi-Agent Orchestration is generally available. Agent Optimizer is planned for October 2026. Fact: Salesforce cites 7 billion Agentic Work Units across Agentforce and Slack, including 3.2 billion in the second quarter. Fact: the February AWU definition is one discrete task accomplished by an AI agent. Fact: Dreamforce 2026 runs 15 to 17 September. Fact: Salesforce did not publish pricing or edition packaging for the new portfolio.",
+            "Prediction: Dreamforce will attach a price or a credit bundle to AWUs before Hunter's November general availability, because a weeks-long sales agent is otherwise unbudgetable. Prediction: Casey, Paige, and Piper will be the volume agents; Hunter's runtime will stay the keynote. Prediction: Agent Script, not the LLM, will be the approval gate that legal and IT actually sign. Do not staff a company-wide Agentforce rollout on a pilot sales agent."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch Dreamforce on 15 to 17 September for a price, a credit pack, or an edition that names these seven agents. Watch whether Hunter's long-horizon runtime stays exclusive through November, or whether Casey and Marshall get memory and durable execution sooner. Watch AI Skills and Agent Optimizer on the October general-availability date, and whether teaching Coworker a task once actually replicates across Slack and CRM. Watch whether Salesforce publishes an AWU breakdown by agent, or keeps a single vanity total. Watch Fin Apex and the model layer under the job layer. And watch whether a weeks-long Hunter plan still asks for seller approval when the deal is at risk, or starts sending mail on its own."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What are Salesforce Agentforce job-ready agents? They are seven prebuilt Agentforce agents Salesforce announced for sales, service, commerce, employee experience, and back-office work. Each ships with skills, actions, and data models for a named job and can be renamed. Six are generally available. Hunter, the outbound sales agent, is in pilot, with general availability planned for November 2026.",
+            "What is the Agentforce long-horizon runtime? It is a runtime Salesforce says lets agents pursue goals across days and weeks instead of a single conversation. It uses memory across sessions, durable execution that keeps plans running, and dynamic steering from user feedback. Hunter is the first agent on it.",
+            "When does Agentforce Hunter become generally available? Salesforce lists Hunter as pilot now, with general availability in November 2026. It is the outbound sales agent and the first agent on the long-horizon runtime.",
+            "What is an Agentic Work Unit? Salesforce defined an AWU in February 2026 as one discrete task accomplished by an AI agent, such as a prompt processed, a reasoning chain completed, or a tool invoked. The September announcement cites 7 billion AWUs across Agentforce and Slack, including 3.2 billion in the second quarter. Salesforce counts the metric. There is no published third-party audit.",
+            "When do Agentforce AI Skills and Agent Optimizer go generally available? Salesforce says AI Skills in Agentforce Coworker is in pilot, with general availability in October 2026. Agent Optimizer is also planned for October 2026. Multi-Agent Orchestration is generally available now."
+          ]
+        }
+      ]
+    },
+  {
+    "slug": "google-ai-contribution-pilot-search-console",
+    "title": "Google AI Contribution Pilot: Search Console Pays for Answers",
+    "excerpt": "Google is paying invited publishers when their pages help generate Gemini, AI Overviews, or AI Mode answers. Search Console shows a monthly total. The rate card is still unpublished.",
+    "category": "pricing",
+    "tags": [
+      "Google AI contribution pilot",
+      "Search Console",
+      "AI Overviews",
+      "publisher licensing"
+    ],
+    "publishedAt": "2026-09-14",
+    "readingMinutes": 7,
+    "seo": {
+      "metaTitle": "Google AI Contribution Pilot 2026: Search Console Pay",
+      "metaDescription": "Google AI Contribution Pilot pays invited publishers in Search Console when pages help generate Gemini, AI Overviews, or AI Mode answers. Rate card unpublished.",
+      "keywords": [
+        "Google AI contribution pilot",
+        "Google AI contribution pilot Search Console",
+        "Google pay publishers AI Overviews",
+        "Google AI Mode publisher payments",
+        "Gemini AI contribution payments",
+        "Google pay-per-use AI licensing",
+        "Search Console AI earnings",
+        "Google AI Performance Report",
+        "Google News Showcase vs AI contribution",
+        "Google publisher AI licensing 2026",
+        "AI Overviews pay publishers",
+        "Search Console AI contribution widget"
+      ]
+    },
+    "image": {
+      "src": "/blog/google-ai-contribution-pilot-hero.svg",
+      "alt": "Illustration of the Google AI Contribution Pilot paying invited publishers through a Search Console widget when pages help generate Gemini, AI Overviews, or AI Mode answers, with the payout formula unpublished",
+      "caption": "The click used to be the invoice. Now Google meters the answer and hides the formula."
+    },
+    "sources": [
+      {
+        "title": "Digiday: Google rolls out pay-per-use AI licensing program to publishers",
+        "url": "https://digiday.com/media/google-rolls-out-pay-per-use-ai-licensing-program-to-publishers/"
+      },
+      {
+        "title": "Search Engine Roundtable: Google Search Console AI contribution pilot",
+        "url": "https://www.seroundtable.com/google-al-contribution-pilot-42076.html"
+      },
+      {
+        "title": "Storyboard18: Google tests usage-based payouts for publishers in AI responses",
+        "url": "https://www.storyboard18.com/digital/google-tests-pay-per-use-for-publishers-in-ai-responses-ws-l-110639.htm"
+      },
+      {
+        "title": "Adgully: Google tests pay-per-use model for publisher content in AI answers",
+        "url": "https://www.adgully.com/post/20528/google-tests-pay-per-use-model-for-publisher-content-in-ai-answers"
+      },
+      {
+        "title": "Google: New opportunities, control and insights for website owners (3 June 2026, updated 31 August)",
+        "url": "https://blog.google/products-and-platforms/products/search/new-controls-website-owners/"
+      },
+      {
+        "title": "Google: How AI Mode and AI Overviews help you explore the web",
+        "url": "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/"
+      },
+      {
+        "title": "Google Search Central: Optimizing for generative AI features on Google Search",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      },
+      {
+        "title": "PPC Land: Google AI contribution pilot and platform-set publisher rates",
+        "url": "https://ppc.land/ninth-circuit-frees-perplexitys-shopping-agent-from-amazons-hacking-claim/"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "What happened",
+        "paragraphs": [
+          "Today, 14 September 2026, Digiday reported that Google is quietly scaling the Google AI contribution pilot inside Search Console. Publishers who accept the Program Terms see an AI earnings widget with a monthly total. Google told Digiday the scheme is an early-stage learning pilot to reward high-quality content, on top of the traffic and tools it already provides. Search Engine Roundtable published the help-doc language the same morning. Storyboard18 and Adgully independently repeated the product list: Gemini, AI Overviews, and AI Mode.",
+          "The help document, quoted by Search Engine Roundtable from Digiday's screenshots, is specific about what counts. Earnings accrue when a page contributes significantly to the creation of an AI-generated response. A page used only to confirm a fact after the answer is written, or a link shown after generation, does not qualify. That split is the news. Visibility in an AI answer is not the same event as contribution to the answer.",
+          "Google has not published a rate card, a per-query price, or a qualifying-score formula. Digiday says payments are based more on value than raw usage, and that publishers can cancel in Search Console at any time. At least dozens of publishers have been approached. Digiday could not confirm the number. The pitch has landed better with small and mid-sized sites than with large newsrooms, and it has widened beyond news. Search Engine Roundtable first spotted the surface in April. Today's reporting is the first public copy of the welcome screen and the generation-versus-citation rule."
+        ]
+      },
+      {
+        "heading": "Why it matters",
+        "paragraphs": [
+          "Search used to pay publishers with a click. [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) already sits in the Gemini app, AI Mode, and Gemini in Sheets. Google's 3 June blog, updated 31 August, said AI Overviews has over 2.5 billion monthly active users and AI Mode has passed one billion. Those surfaces answer on the results page. The referral invoice shrinks even when impressions rise. A Search Console widget that pays for generation is Google testing a replacement unit of account, not restoring ten blue links.",
+          "The unpublished formula is the other half. [Apple Intelligence](/blog/apple-intelligence-daily-limits-unpriced-fee) shipped a daily meter with no published fee. This pilot ships a paycheck with no published rate. Teams that already treat [model pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) as a product constraint should read the same pattern here: Google can change the economics of grounding without a public SKU. David Buttle of Spur, quoted by Digiday, called it a hedge against a world where Google would have to pay for actual usage of journalism in AI.",
+          "It is also a legal and regulatory object. Google's June post said it was engaging with the UK Competition and Markets Authority while testing a Search Console toggle that lets sites opt out of grounding in AI Overviews, AI Mode, and Discover. That toggle is a refuse switch. The contribution pilot is a pay switch. They are not the same control. [Enterprise buyers](/blog/enterprise-ai-adoption-what-is-working) who license content into their own agents should not copy Google's unpublished score and call it a marketplace."
+        ]
+      },
+      {
+        "heading": "Who is affected",
+        "image": {
+          "src": "/blog/google-ai-contribution-pilot-stack.svg",
+          "alt": "Diagram comparing Google News Showcase negotiated licensing, the Search Console AI Performance Report that shows impressions without payment, and the AI Contribution Pilot that pays only when a page shapes a generated Gemini, AI Overviews, or AI Mode answer",
+          "caption": "Showcase pays a catalog. AI reports show impressions. Contribution pays a hidden formula."
+        },
+        "paragraphs": [
+          "Small and mid-sized publishers feel the invite first. Digiday says they are more likely to join than large newsrooms. Some participants called early returns peanuts relative to advertising. Another executive told Digiday the lowball numbers offered to their company and several peers did not clear an internal revenue threshold, and that talks were still open. Luke Stillman of Madison and Wall argued that smaller sites lack leverage for a bespoke deal, so a Search Console check is incremental upside and a reputational hedge for Google.",
+          "Large newsrooms sit one layer up. Google News Showcase already covers more than 2,800 publications in 33 countries. Google's news AI scheme covers more than 200 titles globally. OpenAI-style lump-sum licenses are the other door. Joining a black-box meter can weaken that leverage if Google later points to the widget as proof that compensation exists. The AI Performance Report, rolled out from the UK test in June to all websites worldwide on 31 August, already shows impressions, pages, and countries. An impression is not an earning event under the help doc.",
+          "SEO and content teams sit on the measurement split. Google Search Central still tells sites to ship unique, crawlable pages if they want to appear in generative Search. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) made model weights a priced distribution object. This pilot tries to make grounding a priced inference object. Do not staff a rewrite program on a widget Google has not opened to the full Search Console population. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) for publishers is still traffic plus licensing, not a secret per-answer fee."
+        ]
+      },
+      {
+        "heading": "Facts versus predictions",
+        "paragraphs": [
+          "Fact: Digiday dated the AI contribution pilot report 14 September 2026 and said Google confirmed it as an early-stage learning pilot inside Search Console, with a monthly earnings widget and no detailed payout formula. Fact: Search Engine Roundtable quoted the help document: qualifying events are pages that significantly influence generation in the Gemini app, AI Overviews, and AI Mode; post-generation fact checks and citation links do not pay. Fact: publishers accept Program Terms, can cancel anytime, and bank transfers can differ from estimated earnings after tax or local thresholds. Fact: Digiday reported at least dozens of publishers approached, a wider-than-news mix, and stronger interest among small and mid-sized sites, without a confirmed headcount. Fact: Google's 3 June 2026 Search Ecosystem post, updated 31 August, put AI Overviews above 2.5 billion monthly users, AI Mode above one billion, and said the grounding-opt-out toggle plus AI insights had rolled out worldwide. Fact: Google has not published a rate card, a qualifying-score formula, or a public signup URL.",
+          "Prediction: the first useful signal will be whether Google publishes per-page earnings, not the monthly lump in the widget. Prediction: large newsrooms stay on Showcase and negotiated licenses, while smaller sites accept the peanuts to stay inside the tent. Prediction: citation links in AI Overviews will keep looking like payment to readers and keep paying nothing under the current rule. Do not budget 2027 publisher P&L on an unpublished formula."
+        ]
+      },
+      {
+        "heading": "What to watch next",
+        "paragraphs": [
+          "Watch whether Google opens a public help page and a rate card, or keeps the document behind the invite. Watch whether the AI Performance Report and the earnings widget ever share a page-level join key, so a publisher can see which URL was paid. Watch who stays out because the numbers are peanuts, and whether those refusals become a bargaining bloc. Watch CMA and other regulators treat the unpublished score as a market-power fact, not a product experiment. Watch whether OpenAI-style lump-sum licenses remain the only priced alternative. And watch whether Google-Extended and the grounding toggle become the refuse switch that the contribution widget never is."
+        ]
+      },
+      {
+        "heading": "FAQ",
+        "paragraphs": [
+          "What is the Google AI contribution pilot? It is an invite-only Search Console program that pays participating publishers when their pages contribute significantly to AI-generated responses in the Gemini app, AI Overviews, and AI Mode. Google calls it an early-stage learning pilot. Digiday and Search Engine Roundtable reported the details on 14 September 2026.",
+          "Does Google pay publishers for AI Overviews citations? Not under the help document quoted today. A page that is linked after an answer is generated, or used only to confirm a fact, does not qualify. Payment is tied to the generation phase, when web content significantly influences what response is produced.",
+          "How do publishers join the Google AI contribution pilot? Google approaches selected sites. Participants accept Program Terms in Search Console, add payment details, and can cancel in settings at any time. There is no public signup URL. Search Engine Roundtable notes the surface lives in Search Console, not Publisher Center or AdSense.",
+          "How much does the Google AI contribution pilot pay? Google has not published a rate card or a per-query price. Search Console shows a monthly earnings number with some history. Participating executives told Digiday the interface is a black box, and some called early returns peanuts versus advertising revenue.",
+          "Is the AI Performance Report the same as AI contribution pay? No. The AI Performance Report, rolled out worldwide by 31 August 2026, shows impressions and which pages appear in generative Search. The contribution pilot is a separate earnings widget for invited publishers. An impression is not automatically a paid contribution."
+        ]
+      }
+    ]
+  },
+    {
+      "slug": "amdkernelvault-hip-triton-kernel-agents",
+      "title": "AMDKernelVault: An 8B Model Beats GPT-5 on HIP Kernels",
+      "excerpt": "AMD researchers released AMDKernelVault, an open HIP and Triton kernel corpus for CDNA GPUs. A trained Qwen3-8B hits 34.0% PyTorch-to-HIP Pass@1. GPT-5 scored 24.0% under the same budget.",
+      "category": "research",
+      "tags": [
+        "AMDKernelVault",
+        "HIP",
+        "ROCm",
+        "Qwen3-8B"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "AMDKernelVault 2026: HIP Dataset, Qwen3-8B vs GPT-5",
+        "metaDescription": "AMDKernelVault is AMD's open HIP and Triton kernel corpus. A local Qwen3-8B hits 34% PyTorch-to-HIP Pass@1 versus GPT-5 at 24%. Dataset, code, and limits.",
+        "keywords": [
+          "AMDKernelVault",
+          "AMDKernelVault dataset",
+          "AMD GPU kernel optimization",
+          "HIPKernelGen",
+          "TritonKernelGen",
+          "Qwen3-8B HIP kernels",
+          "PyTorch to HIP Pass@1",
+          "ROCm kernel generation",
+          "AMD Triton kernels",
+          "GEAK AMD kernel agent",
+          "amd/AIG-Datasets Hugging Face",
+          "HIP kernel LLM"
+        ]
+      },
+      "image": {
+        "src": "/blog/amdkernelvault-hip-triton-hero.svg",
+        "alt": "Illustration of AMDKernelVault shipping 62,153 HIP samples and 39,893 Triton kernels, with a local Qwen3-8B scoring 34.0 percent PyTorch-to-HIP Pass@1 against GPT-5 at 24.0 percent",
+        "caption": "The dataset is the product. The 8B model is a proof that HIP data can live on-box."
+      },
+      "sources": [
+        {
+          "title": "arXiv: AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization (2609.12471)",
+          "url": "https://arxiv.org/abs/2609.12471"
+        },
+        {
+          "title": "arXiv HTML: AMDKernelVault paper (v1)",
+          "url": "https://arxiv.org/html/2609.12471v1"
+        },
+        {
+          "title": "Hugging Face: amd/AIG-Datasets GPU kernel collection",
+          "url": "https://huggingface.co/datasets/amd/AIG-Datasets"
+        },
+        {
+          "title": "GitHub: AMD-AGI/hip_kernel_llm_lab training and kernel-generation code",
+          "url": "https://github.com/AMD-AGI/hip_kernel_llm_lab"
+        },
+        {
+          "title": "PulseAugur: New dataset and framework aim to optimize AMD GPU kernels using AI",
+          "url": "https://pulseaugur.com/cluster/251989-new-dataset-and-framework-aim-to-optimize-amd-gpu-kernels-using-ai"
+        },
+        {
+          "title": "AMD: HIP programming guide",
+          "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/"
+        },
+        {
+          "title": "DOI: AMDKernelVault arXiv record",
+          "url": "https://doi.org/10.48550/arXiv.2609.12471"
+        },
+        {
+          "title": "KernelBench: Can LLMs Write Efficient GPU Kernels? (Ouyang et al., 2025)",
+          "url": "https://arxiv.org/abs/2502.10767"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, arXiv listed AMDKernelVault as a new cs.CL paper. Ji Liu, Saptarshi Majumder, Yiqing Huang, Wenwen Ouyang, and colleagues at Advanced Micro Devices describe an open HIP and Triton kernel corpus for recent AMD CDNA GPUs, plus the pipelines that built it. PulseAugur dated the same announcement today. The weights sit on Hugging Face as amd/AIG-Datasets. Training and generation code sit on GitHub as AMD-AGI/hip_kernel_llm_lab.",
+            "The paper's headline counts are 62,153 execution-verified HIP kernel samples, 2,377 production-grounded ROCm Libraries QA entries from rocBLAS and rocSOLVER, and 39,893 Triton kernels. HIPKernelGen and TritonKernelGen start from PyTorch references, then generate, compile under ROCm, check numerical correctness, and profile latency on AMD hardware. Much of the HIP set was produced from August to December 2025 with GPT-5 as the generator. Retention depends on ROCm execution, not on which model wrote the first draft.",
+            "The second claim is a local model. The authors train Qwen3-8B with supervised fine-tuning and execution-aware reinforcement learning, then drop that one policy into a GEAK-style loop as generator, reflector, and optimizer. Under a fixed budget it posts 34.0% Pass@1 correctness on PyTorch-to-HIP, against GPT-5 at 24.0%. They are explicit that this is a corpus utility test, not a new RL algorithm, and that the 8B model does not uniformly win compilation or speed."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Kernel agents have been a CUDA story. KernelBench, Kevin, AutoTriton, and most public Triton loops assume NVIDIA warps, tiling constants, and CUDA compiler feedback. AMD's HIP looks similar on the page. Performant kernels still depend on ROCm compilation, wavefront width, LDS, coalescing, and matrix-core support. hipify can keep the API and still ship NVIDIA-shaped constants that fail or crawl on Instinct. AMDKernelVault is the first large public set that treats native ROCm compile, execute, and profile as the filter.",
+            "The cost argument is the other half. Existing kernel agents call a frontier model again for generation, reflection, and optimization. That bill, and the data-residency problem, is why private AMD shops cannot just wrap GPT-5. A compact policy that lives next to hipcc is the point. It sits beside, not instead of, the [chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). Buying MI300-class GPUs does not give you CUDA's kernel-writing ecosystem. This paper tries to manufacture that missing data.",
+            "It is a different research object from [MIT HardFlow](/blog/mit-hardflow-safety-critical-generative-ai). HardFlow steers a sampler so a trajectory or image obeys a hard constraint. AMDKernelVault trains a code model so a HIP or Triton kernel compiles and matches a PyTorch reference. Both are execution-gated. Neither is a chatbot eval. Teams already stuck on the [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) should not confuse a refusal policy with a kernel correctness loop."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/amdkernelvault-benchmarks.svg",
+            "alt": "Diagram of AMDKernelVault scores showing Qwen3-8B at 34.0 percent PyTorch-to-HIP Pass@1, 33.2 percent TritonBench-G Corr@3, and 41.94 percent ROCmBench Corr@3, with Claude Sonnet 4 still ahead on ROCmBench compile and speed",
+            "caption": "Correctness is the win. Compilation and speed still belong to other models on the 31-kernel ROCm set."
+          },
+          "paragraphs": [
+            "ROCm kernel teams feel it first. If you translate PyTorch operators to HIP, or retune existing HIP, the paper's 200 KernelBench Level-1/2 tasks and 100 held-out HIP-to-HIP modules are the working test. The trained 8B model reaches 83.5% compile and 34.0% correct on translation, and 90% compile with 84% correct on HIP-to-HIP optimization. GPT-5 still leads that optimization set on correctness (87%) and Speed@10 (1.32x versus 1.14x). Use the 8B model to cut frontier calls. Do not retire GPT-5 on the last 16 points.",
+            "Triton-on-AMD teams sit one layer over. TritonBench-G (184 kernels) and ROCmBench (31 AMD-specific kernels) use a fixed 3-iteration OptimAgent-v2 protocol on MI355X. The trained Qwen3-8B hits 33.2% Corr@3 on TritonBench-G versus GPT-5 at 15.2% and Claude Sonnet 4 at 29.8%. On ROCmBench it leads correctness at 41.94%, while Sonnet 4 still leads Comp@3 (67.74% versus 58.06%) and speed (1.82x versus 1.61x). D5 kernels stay unsolved by every model in the table. A 31-kernel AMD set is a signal, not a procurement score.",
+            "Buyers of [OpenAI Jalape\u00f1o](/blog/openai-jalapeno-inference-chip), [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu), or AMD Instinct still need kernels that run. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) makes an AMD-hosted dataset on that hub a political object as well as a file. [Enterprise adopters](/blog/enterprise-ai-adoption-what-is-working) who already standardized on CUDA kernel agents should treat this as a second toolchain, with per-source licenses on the Hugging Face card, not as a drop-in CUDA replacement."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: arXiv posted AMDKernelVault (2609.12471) as submitted 11 September 2026 and listed it as new on 14 September, with authors at Advanced Micro Devices. Fact: the paper reports 62,153 execution-verified HIP samples, 2,377 ROCm Libraries QA entries, and 39,893 Triton kernels, with code at AMD-AGI/hip_kernel_llm_lab and data at amd/AIG-Datasets. Fact: Qwen3-8B trained with SFT and RL scores 34.0% PyTorch-to-HIP Pass@1 correctness versus GPT-5 at 24.0% on 200 KernelBench tasks, 33.2% TritonBench-G Corr@3 versus GPT-5 at 15.2%, and 41.94% ROCmBench Corr@3. Fact: Claude Sonnet 4 still leads ROCmBench compilation and speed. Fact: the authors say they did not run a corpus-wide semantic near-duplicate audit, did not aggregate rejection rates, and do not uniformly win compile or speed. Fact: Hugging Face v0.2 also publishes a 14,282-entry HIP-AICUDA subset that the paper says was not used in the reported training.",
+            "Prediction: the useful artifact for most teams will be the validated HIP and Triton pairs, not the 8B checkpoint, until someone ships a supported serving recipe. Prediction: CUDA kernel agents stay default outside AMD-only clusters. Prediction: independent reproduction on a held-out operator family will cut the headline Pass@1 before it rises. Do not staff a HIP migration on 34% correctness."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether AMD publishes the trained Qwen3-8B weights, or only the data and training recipes. Watch independent KernelBench and TritonBench-G reruns on MI325X versus MI355X, because the paper's Triton inference used MI355X and the corpus targeted gfx942 and gfx950. Watch D4 and D5: Sonnet 4 still solves more D4 kernels (18 of 84 versus 13), and D5 is empty. Watch license notes on each upstream subset before you train. Watch whether NVIDIA-owned Hugging Face ranking changes how findable amd/AIG-Datasets stays. And watch profiler-guided feedback, which the authors already flag as the next gap. A kernel that matches atol 1e-4 is not yet a production GEMM."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is AMDKernelVault? It is an open HIP and Triton kernel corpus and training framework from AMD researchers for recent CDNA GPUs. The paper reports 62,153 execution-verified HIP samples, 2,377 rocBLAS and rocSOLVER QA entries, and 39,893 Triton kernels, plus HIPKernelGen and TritonKernelGen pipelines that compile and test candidates under ROCm.",
+            "Does AMDKernelVault replace CUDA kernel agents? No. The authors position it as the AMD-native counterpart to CUDA-centric datasets such as KernelBench derivatives. hipify is not treated as sufficient. Teams on NVIDIA GPUs still use CUDA loops. Teams on Instinct get a local data path they did not have.",
+            "How did Qwen3-8B compare with GPT-5 on HIP kernels? On 200 KernelBench Level-1/2 PyTorch-to-HIP tasks, the SFT plus RL Qwen3-8B reached 34.0% Pass@1 correctness and 83.5% compile accuracy. GPT-5 reached 24.0% correctness and 75.5% compile. On HIP-to-HIP optimization, GPT-5 still led correctness (87% versus 84%) and Speed@10 (1.32x versus 1.14x).",
+            "Where can I download AMDKernelVault? The dataset is on Hugging Face as amd/AIG-Datasets, with v0.2 as the unified-schema release. Training, RL, and kernel-generation code is on GitHub at AMD-AGI/hip_kernel_llm_lab. The paper and DOI are arXiv 2609.12471.",
+            "Is the 8B model ready for production HIP kernels? No. Expert-level and D5 kernels remain unsolved. Common failures include tile sizes on unusual shapes, multi-stage reduction sync, and AMD wavefront coalescing. The authors tell readers to validate generated kernels in the target environment before production use."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-mai-code-of-conduct-consultation",
+      "title": "Microsoft MAI Code of Conduct Opens for Public Consultation",
+      "excerpt": "Satya Nadella said Microsoft will publish a Code of Conduct for first-party MAI models today. The pledge covers Humanist Superintelligence, embedded evaluators, and enterprise-owned weights. The customer services code is a different document.",
+      "category": "companies",
+      "tags": [
+        "Microsoft MAI",
+        "MAI Code of Conduct",
+        "Satya Nadella",
+        "Humanist Superintelligence"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Microsoft MAI Code of Conduct 2026: Consultation Guide",
+        "metaDescription": "Microsoft opens a public MAI Code of Conduct consultation today. What Nadella pledged, which models it covers, and how it differs from the customer services code.",
+        "keywords": [
+          "Microsoft MAI Code of Conduct",
+          "MAI Code of Conduct public consultation",
+          "Satya Nadella superintelligence",
+          "Humanist Superintelligence",
+          "MAI-Thinking-1",
+          "Microsoft first-party AI models",
+          "Microsoft Enterprise AI Services Code of Conduct",
+          "Satya Nadella embedded evaluators"
+        ]
+      },
+      "image": {
+        "src": "/blog/microsoft-mai-code-of-conduct-hero.svg",
+        "alt": "Illustration of the Microsoft MAI Code of Conduct public consultation on 14 September 2026, with Nadella's human-control pledge beside the MAI model family on Foundry and OpenRouter",
+        "caption": "The headline is a Code of Conduct for first-party MAI models. The May 2026 customer services code is already live and is not today's document."
+      },
+      "sources": [
+        {
+          "title": "Microsoft AI: Building a hill-climbing machine, launching seven new MAI models",
+          "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+        },
+        {
+          "title": "Microsoft Blog: Microsoft Build 2026",
+          "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+        },
+        {
+          "title": "Microsoft AI: Introducing MAI-Thinking-1",
+          "url": "https://microsoft.ai/news/introducing-mai-thinking-1/"
+        },
+        {
+          "title": "Microsoft Learn: Use MAI-Thinking-1 in Foundry",
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-thinking"
+        },
+        {
+          "title": "Microsoft Learn: Code of Conduct for Microsoft AI Services",
+          "url": "https://learn.microsoft.com/en-us/legal/ai-code-of-conduct"
+        },
+        {
+          "title": "Anadolu Agency: Microsoft chief backs pacing AI and independent evaluators",
+          "url": "https://www.aa.com.tr/en/world/microsoft-chief-backs-pacing-ai-independent-evaluators-for-superintelligence/4056214"
+        },
+        {
+          "title": "Unite.AI: Nadella announces public consultation on Microsoft MAI model rules",
+          "url": "https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/"
+        },
+        {
+          "title": "TechBriefly: Nadella says superintelligence without human control is not worth it",
+          "url": "https://techbriefly.com/2026/09/14/nadella-superintelligence-not-worth-pursuing-human-control/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 13 September 2026, Microsoft chairman and CEO Satya Nadella posted that any pursuit of superintelligence has to stay grounded in one test: if the AI is not helping humanity and is not under human control, it is not worth pursuing. He welcomed the research and the \"deliberate pacing needed to get alignment right,\" backed ideas such as embedded evaluators, and said governance cannot be controlled by a handful of entities. It has to draw in the ecosystem, countries, academia, and other fields. He also said Microsoft would publish a Code of Conduct underlying its first-party MAI models for public consultation on Monday, 14 September 2026. Anadolu Agency, Unite.AI, and TechBriefly all carried that timeline. Mustafa Suleyman, CEO of Microsoft AI, replied the same day. He called the view straightforward common sense, and said any technology that fails to serve humanity is a failure and should be rejected.",
+            "The MAI family is not a new rumor. On 2 June 2026, at Build, Microsoft AI launched seven in-house models. [MAI-Thinking-1](https://microsoft.ai/news/introducing-mai-thinking-1/) is the flagship reasoning SKU: a mid-sized sparse mixture of experts with about 35 billion active parameters, a 256K context window, no third-party distillation, and a public preview on Microsoft Foundry. MAI-Code-1-Flash is the Copilot and VS Code coding SKU, with 5 billion active parameters. MAI-Image-2.5 and its Flash variant cover text-to-image and image editing. MAI Transcribe-1.5 lists 43 languages. MAI-Voice-2 lists more than 15, with a Flash variant then listed as coming soon. The same June note put the models on Foundry, OpenRouter, Fireworks, and Baseten, and said developers would be able to tune the weights themselves. The lab's stated goal is Humanist Superintelligence: advanced systems designed to serve people and organizations, remaining tools under human oversight.",
+            "Do not confuse today's consultation with a document that already exists. Microsoft Learn hosts the [Enterprise AI Services Code of Conduct](https://learn.microsoft.com/en-us/legal/ai-code-of-conduct), last revised as version 4.0 on 1 May 2026. That text binds customers of Microsoft AI Services. MAI model cards already point at it. Nadella's 14 September consultation is about rules under the first-party MAI models themselves. As of this briefing, microsoft.ai and the Microsoft blog have not posted a public URL for that new consultation text. The Sunday post is on the record. The PDF is the missing artifact."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The [pace the frontier](/blog/pace-the-frontier-ai-slowdown) debate is about slowing how fast labs raise capabilities. Microsoft's move is narrower and more commercial. It is about how first-party MAI models should behave, who owns the learning loop, and whether a hyperscaler's own stack will take outside desks the way Anthropic and OpenAI pledged evaluator access. A Code of Conduct that names SKUs, audit rights, and weight ownership is a procurement document. A slogan about Humanist Superintelligence is not.",
+            "Nadella's operational line is enterprise control. He wrote that every organization should be able to build its own continuous learning loop, or hill-climbing machine, without becoming dependent on any one model provider, and should embed its knowledge in models and weights it controls. That matches Frontier Tuning from the June launch: reinforcement learning inside the customer's boundary. Microsoft said a tuned Excel MAI model matched GPT 5.4 while being up to 10 times more efficient. If the consultation makes that ownership a rule, buyers get a test they can write into a contract. If it stays a slide, [enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) still fails the same way: the platform SKU is treated as infrastructure until the policy attached to it changes.",
+            "It also sits next to Microsoft's other Copilot story this week. [Grok in Word, Excel, and PowerPoint](/blog/grok-microsoft-copilot-word-excel-powerpoint) is a third-party SpaceXAI model behind an admin gate, off in the EU. MAI-Code-1-Flash and MAI-Thinking-1 are first-party SKUs already in Copilot, Foundry, and VS Code. A Code of Conduct that only covers MAI leaves Grok, OpenAI, and Anthropic routes on different paper. Buyers need to know which policy attaches to which model ID. Microsoft's lab also says it does not distill from other labs, which is the opposite of the unauthorized [Claude distillation](/blog/anthropic-claude-distillation-threat-report) CISA is tracking. A public MAI code that repeats the no-distillation claim, with a right to inspect data lineage, would be stronger than a model-card footnote. That is the same [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) product teams already feel when a safety claim cannot be checked."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/microsoft-mai-code-of-conduct-stack.svg",
+            "alt": "Diagram separating Microsoft's May 2026 customer Enterprise AI Services Code of Conduct, the 14 September 2026 first-party MAI Code of Conduct consultation, and the embedded evaluator pledge Nadella backed",
+            "caption": "Score three columns. The customer code is live. The MAI model consultation needs a URL. Evaluator desks need a named start date."
+          },
+          "paragraphs": [
+            "Foundry and Azure application teams feel it first. MAI-Thinking-1 is already a Chat Completions deployment in Microsoft Foundry, with model version 2026-06-01. If the Code of Conduct adds use limits, logging, or independent review on that ID, every agent that hardcoded it needs a policy pass, not a model swap. Copilot and VS Code teams on MAI-Code-1-Flash sit in the same blast radius. The June model card already points at GitHub Copilot terms plus the customer services code. Today's consultation is the extra layer, if it actually publishes.",
+            "Security, legal, and procurement sit one layer up. They already have a customer Code of Conduct, Responsible AI Standard language, and product terms. They do not yet have a first-party MAI-model code they can comment on. The useful questions are specific: which MAI SKUs are in scope, whether Frontier Tuning and Mayo Clinic co-created weights are in or out, whether OpenRouter and Fireworks copies follow the same text, and whether Grok in Copilot is carved out. Open-source buyers should read the closed-and-open sentence in Nadella's post as a direction, not a license grant.",
+            "Safety organizations are the third lane. Anthropic named METR-class evaluators with desks and the right to publish. OpenAI said it would match employee-like access. Nadella backed embedded evaluators as an idea and asked for mechanisms that make the talk real. He did not name an evaluator, a start date, or a publish-without-edit clause for Microsoft. Until those appear, Microsoft has endorsed the [pacing](/blog/pace-the-frontier-ai-slowdown) direction without matching the only live commitment on the table."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Nadella said on 13 September 2026 that Microsoft would publish a Code of Conduct for first-party MAI models for public consultation on 14 September 2026, and that superintelligence which does not help humanity or stay under human control is not worth pursuing. Fact: Suleyman publicly backed that standard the same day. Fact: Microsoft AI launched the MAI family on 2 June 2026, including MAI-Thinking-1, MAI-Code-1-Flash, MAI-Image-2.5, MAI Transcribe-1.5, and MAI-Voice-2, with distribution on Foundry, OpenRouter, Fireworks, and Baseten. Fact: MAI-Thinking-1 is documented on Microsoft Learn as a Foundry preview with model version 2026-06-01. Fact: the Enterprise AI Services Code of Conduct version 4.0 is dated 1 May 2026 and applies to customers of Microsoft AI Services. Fact: as of this briefing, a public consultation URL for a new first-party MAI-model Code of Conduct has not appeared on microsoft.ai or the Microsoft blog.",
+            "Prediction: the consultation text will look more like an update to model-card and Responsible AI language than like Anthropic's evaluator contract, unless it names an outside team with publish rights. Prediction: Grok and other third-party Copilot models will stay on separate terms, which is the first confusion in tenant reviews. Prediction: Frontier Tuning customers will care more about weight ownership and data residency clauses than about the Humanist Superintelligence slogan. Do not staff a compliance program on a Sunday social post."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Microsoft posts a dated consultation page, a comment window, and a list of MAI SKUs in scope. Watch whether the text covers only first-party MAI models or also third-party Copilot routes such as Grok. Watch whether it adds evaluator desks, badges, and a no-editorial-veto publish right, or only restates Humanist Superintelligence. Watch Foundry and OpenRouter listings for MAI-Thinking-1 and MAI-Code-1-Flash, in case use limits or logging change with the code. Watch Frontier Tuning and the Mayo Clinic co-created health model for a different ownership clause. And watch whether Microsoft names an independent evaluator this quarter. If the calendars for MAI, Copilot, and Astra do not move, pacing remains messaging."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the Microsoft MAI Code of Conduct? It is the first-party rule set Satya Nadella said Microsoft would publish on 14 September 2026 for public consultation, covering in-house MAI models. It is not the same document as the Enterprise AI Services Code of Conduct that already binds customers on Microsoft Learn.",
+            "Does the MAI Code of Conduct replace Microsoft's Enterprise AI Services Code of Conduct? No. Version 4.0 of the customer services code is dated 1 May 2026 and still applies to Microsoft AI Services. MAI model cards already cite it. Nadella's consultation is an additional layer for first-party MAI models. Until Microsoft posts the new text, treat the May customer code as the live contract and the Sunday post as intent.",
+            "Which Microsoft MAI models does the consultation cover? Nadella said it underlies first-party MAI models. The June 2026 family includes MAI-Thinking-1, MAI-Code-1-Flash, MAI-Image-2.5, MAI Transcribe-1.5, and MAI-Voice-2, plus Flash variants. The consultation page, once posted, has to name the SKUs. Third-party Copilot models such as Grok are a separate paper trail unless the text says otherwise.",
+            "Did Satya Nadella agree to slow down AI development? He welcomed deliberate pacing so alignment can be a design goal, and he backed embedded evaluators. He also said AI benefits should spread, and that enterprises should keep control of their own learning loops and weights. That is not a training freeze. Microsoft has not matched Anthropic's named evaluator commitment with a start date."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "grok-4-8-release-date",
+      "title": "Grok 4.8 Release Date: A 2.5T Model With No API",
+      "excerpt": "Elon Musk named Grok 4.8 on 13 September as a 2.5 trillion parameter model on a new C++ stack. Training finishes this week, then RL. xAI still ships Grok 4.6. Grok 4.7 has no model card.",
+      "category": "models",
+      "tags": [
+        "Grok 4.8",
+        "Grok 4.7",
+        "xAI",
+        "Grok 4.6"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Grok 4.8 Release Date 2026: 2.5T, No API Yet",
+        "metaDescription": "Musk named Grok 4.8 on 13 Sep 2026 as a 2.5T model on a new C++ stack. xAI still ships Grok 4.6 at $2/$6. Grok 4.7 has no API. See what to run today.",
+        "keywords": [
+          "Grok 4.8",
+          "Grok 4.8 release date",
+          "Grok 4.8 2.5T",
+          "Grok 4.8 vs Grok 4.7",
+          "Grok 4.8 C++ software stack",
+          "xAI Grok 4.8",
+          "Grok 4.7 delay",
+          "Grok 4.6 pricing",
+          "when is Grok 4.8 coming out",
+          "Grok 4.8 vs Grok 4.6"
+        ]
+      },
+      "image": {
+        "src": "/blog/grok-4-8-hero.svg",
+        "alt": "Illustration of shipped Grok 4.6 at $2/$6 beside delayed Grok 4.7 and named Grok 4.8, a 2.5 trillion parameter model with no API or release date",
+        "caption": "The live SKU is grok-4.6. Grok 4.8 is a founder post. Grok 4.7 still has no card."
+      },
+      "sources": [
+        {
+          "title": "SpaceXAI: Introducing Grok 4.6",
+          "url": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "title": "SpaceXAI docs: Grok 4.6 model page",
+          "url": "https://docs.x.ai/developers/models/grok-4.6"
+        },
+        {
+          "title": "SpaceXAI docs: API pricing",
+          "url": "https://docs.x.ai/developers/pricing"
+        },
+        {
+          "title": "SpaceXAI docs: API release notes",
+          "url": "https://docs.x.ai/developers/release-notes"
+        },
+        {
+          "title": "SpaceXAI: Grok 4.6 model card (PDF)",
+          "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf"
+        },
+        {
+          "title": "CellCog: Grok 4.8 release date tracker",
+          "url": "https://cellcog.ai/blog/grok-4-8-release-date/"
+        },
+        {
+          "title": "AIBase: Musk says Grok 4.8 is 2.5T on a new C++ stack",
+          "url": "https://news.aibase.com/news/31018"
+        },
+        {
+          "title": "CGTN: Musk Grok 4.8 training and RL quote",
+          "url": "https://news.cgtn.com/news/2026-09-14/news-1QqnL4SApna/p.html"
+        },
+        {
+          "title": "Newsquawk: Musk Grok 4.8 finishes training this week",
+          "url": "https://www.newsquawk.com/headlines/spacex-spcx-ceo-musk-says-grok-48-which-is-a-25t-model-trained-with-our-news-c-software-stack-will-finish-training-this-week-and-start-rl"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On 13 September 2026, at 9:24 p.m. Eastern, Elon Musk replied on X with a model name that had not appeared on x.ai: Grok 4.8. The full public description is one sentence. It is a 2.5 trillion parameter model trained with xAI's new C++ software stack, it will finish training this week, and it will then start reinforcement learning. CGTN, AIBase, and Newsquawk repeated that quote on 14 September. CellCog checked xAI's news feed, model directory, API release notes, and llms.txt at 01:47 UTC the same morning and found no Grok 4.8 line, and no Grok 4.7 line either.",
+            "That is not a product launch. SpaceXAI's last numbered release is still Grok 4.6, shipped on 12 August 2026. The launch note lists the API, Cursor, Grok Build, OpenRouter, Vercel, and Cloudflare. The docs page names the model id `grok-4.6`, a 500,000 token context window, text and image in, text out, and list prices of $2 input and $6 output per million tokens below 200,000 prompt tokens, doubling above that threshold. Cached input is $0.50, or $1.00 in the long-context band. None of those fields exist for 4.8.",
+            "Grok 4.7 is the model people were actually waiting on. Musk said on 11 September that it needed a few more days to cook, and blamed an RL setting that penalized response length too hard, so the model gave up on hard tasks and skipped checking its own work. AIBase dates that delay against a 12 September window. As of this morning, there is still no 4.7 model card, API identifier, price, or eval table. Naming 4.8 two days later does not retire 4.7. It puts a larger, later run on the same calendar."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers typing Grok 4.8 release date are looking for a ship window. The honest answer is that nobody at xAI has published one. Musk's last two training-finished posts preceded actual releases by 25 days (Grok 4.6) and 52 days (Grok 4.5), per CellCog's dated record. A mid-September training finish, if it holds, points to October or early November if those gaps repeat. That arithmetic is not a date. Grok 4.5's own \"2 to 3 weeks\" promise took seven.",
+            "The contrast is the rest of the field. [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) went generally available on 1 September. [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) got a model card on 2 September. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) published a safety overview on 3 September. Those labs put ids, prices, and evals in public. xAI put a parameter count on a social post. A 2.5T label is memory theater until there is an active-parameter figure, a context window, and a token price. The Grok 4.6 card does call that model a 1.5T-scale family. Musk has also called 4.6 1.5T and 4.7 2.1T. xAI has not printed 2.1T or 2.5T on a spec sheet.",
+            "For buyers, this is a [pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) and routing event, not a science event. Grok 4.6 already sits at the same $2/$6 band as several workhorse SKUs, with a 61 on Artificial Analysis's Intelligence Index, matching GPT-5.6 Sol and trailing Fable 5 Max by one point on xAI's own table. A larger successor on a faster stack could be cheaper per useful token, or more expensive to serve. Until a card exists, the only billable Grok flagship is 4.6. [Grok in Microsoft Copilot](/blog/grok-microsoft-copilot-word-excel-powerpoint) is a different door: an Office preview of the Grok family, not a 4.8 endpoint."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/grok-4-8-ladder.svg",
+            "alt": "Timeline of Grok 4.6 shipping on 12 August 2026, Grok 4.7 missing its 11 September window, and Grok 4.8 named on 13 September with training still underway",
+            "caption": "Score the dates separately. 12 August is a product. 11 September is a miss. 13 September is a name."
+          },
+          "paragraphs": [
+            "API and agent teams feel it first. If your router already points at `grok-4.6`, keep it there. Do not reserve capacity for a 4.7 or 4.8 id that docs.x.ai does not list. Cursor and Grok Build users are on the same live SKU. GitHub Copilot already named Grok 4.6 on 14 August. Microsoft 365 Copilot's Frontier preview still talks about the Grok family, not a version. Those are distribution paths for the model that exists.",
+            "Procurement should treat Musk dates as signals, not as SLAs. Grok 4.6's launch note leaned on long-running agents, code, research, and self-testing. The 4.7 delay Musk described, quitting early and skipping review, is the opposite of that pitch. If 4.7 ships as a short-lived flagship, the way 4.5 was replaced by 4.6 in 27 days, teams that rewrote prompts for one id will rewrite them again. If 4.7 is folded into 4.8, the wait gets longer and the migration happens once.",
+            "Rival labs and open routers gain the week. A buyer who needs a dated card can stay on Fable 5.1, Gemini 3.8 Flash, or Astra, or keep a cheap orchestrated pool. xAI still has a compute story. That does not mint an API identifier. EU and UK Copilot admins already know Grok is off in the Frontier Office preview. A 4.8 that never reaches a public card does not change that gate."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Musk named Grok 4.8 on 13 September 2026 as a 2.5T model trained with a new C++ software stack that would finish training this week and then start RL. Fact: as of 14 September, xAI's public news, model docs, and release notes list Grok 4.6 and do not list Grok 4.7 or Grok 4.8. Fact: Grok 4.6 shipped on 12 August 2026 with model id `grok-4.6`, a 500k context window, and $2/$6 list pricing below 200k prompt tokens. Fact: xAI reports Grok 4.6 at 61 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Sol. Fact: Musk said on 11 September that Grok 4.7 needed more time because an RL length penalty made it quit early.",
+            "Prediction: Grok 4.7 still ships, but as a brief flagship, unless xAI skips it and jumps to 4.8. Prediction: a Grok 4.8 API, if it arrives, lands weeks after the training-finished post, not this week. Prediction: the first useful 4.8 artifact will be a model id and a price next to 4.6, not another parameter count. Do not staff a cutover on a social post."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch x.ai/news and docs.x.ai for a Grok 4.8 or Grok 4.7 model page, id, and rate card. Watch whether Musk posts that RL has started, which is the next milestone in his own sentence. Watch whether 4.7 ships at all, because every 4.8 date depends on that. Watch whether the C++ stack claim is attached to 4.7 as well, or stays a 4.8 exclusive. Watch Grok 4.6 quality on the long-agent jobs the launch note sold, especially if 4.7's early-quit bug was already leaking into 4.6 sessions. And watch list price: a larger model on a faster stack can move $2/$6 either way."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Grok 4.8? It is a Grok model Elon Musk named on 13 September 2026. He said it has 2.5 trillion parameters, is trained with xAI's new C++ software stack, will finish training the week of 14 September, and will then start reinforcement learning. xAI has not published a model page, API identifier, price, or benchmark for it.",
+            "When is the Grok 4.8 release date? There is no official Grok 4.8 release date. Musk did not give a ship day. CellCog notes that his last two training-finished posts preceded Grok 4.6 by about 25 days and Grok 4.5 by about 52 days. That is a historical gap, not a calendar invite.",
+            "Is Grok 4.7 released? No. As of 14 September 2026, xAI's docs still present Grok 4.6 as the live flagship. Musk said on 11 September that Grok 4.7 needed a few more days because an RL length penalty made it give up on hard tasks. There is still no 4.7 model card.",
+            "What should I use instead of Grok 4.8 today? Use Grok 4.6 if you already run xAI. The API id is `grok-4.6`, with $2 input and $6 output per million tokens below 200k prompt tokens, a 500k context window, and availability in the xAI API, Cursor, Grok Build, and listed partners. If you need a different lab's dated card, compare Claude Fable 5.1, Gemini 3.8 Flash, or GPT-6 Astra.",
+            "Does Grok 4.8 replace Grok in Microsoft Copilot? No. Microsoft's Copilot preview is about the Grok family inside Word, Excel, and PowerPoint. It does not name Grok 4.8. GitHub Copilot already lists Grok 4.6. A future 4.8 id would be a separate routing change."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "doubao-phone-assistant-saep-protocol",
+      "title": "Doubao Phone Assistant: Apps Can Refuse Screen Automation",
+      "excerpt": "ByteDance shipped Doubao Phone Assistant today with SAEP, so third-party apps can refuse screen automation. Operate Phone stays in beta. Nubia NaviX Ultra goes on sale 16 September.",
+      "category": "tools",
+      "tags": [
+        "Doubao Phone Assistant",
+        "SAEP",
+        "ByteDance",
+        "Nubia NaviX Ultra"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Doubao Phone Assistant SAEP 2026: Apps Can Opt Out",
+        "metaDescription": "Doubao Phone Assistant shipped today with SAEP, so apps can refuse screen automation. Nubia NaviX Ultra goes on sale 16 Sep. What Operate Phone beta covers.",
+        "keywords": [
+          "Doubao Phone Assistant",
+          "Doubao Phone Assistant consumer version",
+          "SAEP protocol",
+          "Screen Automation Execution Protocol",
+          "Doubao Operate Phone beta",
+          "Nubia NaviX Ultra",
+          "AI agent smartphone",
+          "apps refuse AI automation",
+          "ByteDance Doubao mobile assistant",
+          "Doubao MCP vs SAEP"
+        ]
+      },
+      "image": {
+        "src": "/blog/doubao-phone-assistant-saep-hero.svg",
+        "alt": "Illustration of Doubao Phone Assistant shipping on 14 September 2026 with SAEP so apps can refuse screen automation beside the Nubia NaviX Ultra sale on 16 September",
+        "caption": "The assistant can tap. The app being tapped now has a formal refuse switch."
+      },
+      "sources": [
+        {
+          "title": "TechNode: Doubao Phone Assistant launches consumer version with beta phone controls",
+          "url": "https://technode.com/2026/09/14/doubao-phone-assistant-launches-consumer-version-with-beta-phone-controls/"
+        },
+        {
+          "title": "TechNode: Nubia sets Sept. 16 launch for Doubao-powered NaviX Ultra",
+          "url": "https://technode.com/2026/09/07/nubia-navix-ultra-ai-agent-phone/"
+        },
+        {
+          "title": "BlockBeats: Doubao mobile assistant goes official, apps can reject AI operations",
+          "url": "https://en.theblockbeats.news/flash/366909"
+        },
+        {
+          "title": "Cocoloop: Doubao Phone Assistant launches and apps can refuse AI automation",
+          "url": "https://news.cocoloop.cn/en/2026/09/doubao-phone-assistant-saep/"
+        },
+        {
+          "title": "Beebom: Nubia NaviX Ultra China launch date and AI-agent phone specs",
+          "url": "https://gadgets.beebom.com/news/nubia-navix-ultra-china-launch-date-confirmed"
+        },
+        {
+          "title": "National Business Daily: Nubia NaviX Ultra Doubao AI phone launches 16 Sep",
+          "url": "http://www.nbdpress.com/articles/2026-09-08/71950.html"
+        },
+        {
+          "title": "AIBase: Nubia NaviX Ultra scheduled for 16 Sep with Doubao Mobile Assistant",
+          "url": "https://news.aibase.com/news/30861"
+        },
+        {
+          "title": "BigGo: Doubao Phone Assistant consumer edition and SAEP protocol",
+          "url": "https://finance.biggo.com/news/b5590ef4-4c9c-4c39-9e29-6e573687a604"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, ByteDance shipped the consumer version of Doubao Phone Assistant. TechNode reports screen-based Q&A, local search across photos, messages, and notes, voice activation, and a dedicated AI key. The same launch opens Operate Phone in beta. The first device is the Nubia NaviX Ultra, co-developed by ZTE and ByteDance, going on sale on 16 September at 2 p.m. Beijing time. Preorders are already open.",
+            "The same day ByteDance published SAEP, the Screen Automation Execution Protocol, with a 30-day public comment period. Third-party apps can declare which screen-automation actions they allow or refuse. Coverage from TechNode, BlockBeats, and Cocoloop says that if an app opts out, Doubao will not keep running automated taps inside it. That is the news, not a rumor about a future agent OS.",
+            "A May preview already showed the assistant. Today's cut is the consumer build. BlockBeats notes that Operate Phone was not removed. It stayed in beta. Cocoloop, citing company materials, adds a fingerprint check on the AI key, on-screen Q&A without a screenshot, Feishu Minutes follow-ups on recordings, and hybrid on-device plus cloud processing. Capability still depends on device model, system version, app adaptation, and user authorization."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Computer-use agents have been a GUI grab: accessibility APIs, screenshots, simulated taps. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and the [Agents API Codex harness](/blog/openai-agents-api-codex-harness) are the Western stack for that pattern. The app being tapped had no formal say. SAEP is the first public switch that sits on the operated app, not only on the assistant. Payments, social, and content apps care because automated traffic distorts risk control, billing, and recommendation models.",
+            "MCP is the other door. BlockBeats, citing July LatePost reporting, says the new Doubao phones will not GUI-drive Alibaba and Tencent super apps unless those apps open MCP services. SAEP governs screen reading and fake clicks. MCP is a real interface. Both exist at once. Teams that already treat [tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work) as a permission problem should read this as a policy surface, not a demo.",
+            "For [enterprise buyers](/blog/enterprise-ai-adoption-what-is-working), an agent that can search local photos, messages, and notes is a data-boundary event. Cocoloop lists ISO 27001, ISO 27701, ISO/IEC 42001, and China's MLPS Level 3 in the company's materials. Those certificates are not an audit of what leaves the device. The fingerprint key is an entry checkpoint. It is not an item-by-item log of background access after you grant it."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/doubao-phone-assistant-saep-stack.svg",
+            "alt": "Diagram comparing Doubao Operate Phone beta GUI taps, SAEP app refusals for screen automation, and MCP APIs that Alibaba and Tencent super apps may open instead",
+            "caption": "GUI taps stay in beta. Super apps may demand MCP. SAEP is the app-side refuse switch."
+          },
+          "paragraphs": [
+            "Consumers in China feel it first. Doubao Phone Assistant ships on Nubia NaviX Ultra. ByteDance has not published a date for other models. National Business Daily and Beebom put the sale at 16 September, 14:00 CST. Beebom reports a 6.78-inch 1.5K 144 Hz panel, Snapdragon 8 Elite Gen 5, and a 7,100mAh battery. TechNode's 7 September note still treated the Snapdragon and battery figures as unconfirmed. Score the phone as a vehicle for the assistant, not as a global SKU.",
+            "App developers sit one layer up. A banking app can refuse transfers. A social app can allow outbound messages. ByteDance has not said whether a SAEP declaration is app-wide or page-wide, who is authorized to file it, or whether the refusal list is public. Coverage of Doubao's product pages says Operate Phone beta is limited to system and ZTE apps, ByteDance-owned apps, and some integrated third parties. That is a small garden, not the full Chinese app store.",
+            "Rival phone makers feel the calendar. BigGo notes vivo X500, OPPO Find X10, and Honor Magic9 land in the same window, while QuestMobile put Doubao's June monthly actives at 382 million. [Siri AI](/blog/siri-ai-eu-delay-ios-27-dma) is still an English-first, EU-blocked assistant on iOS 27. [Apple Intelligence](/blog/apple-intelligence-daily-limits-unpriced-fee) is rationing cloud features with unpublished daily limits. Doubao is a shipping computer-use beta on one Android flagship. Do not treat them as the same product."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: TechNode dated the Doubao Phone Assistant consumer launch 14 September 2026 and named screen Q&A, local search, voice activation, a dedicated AI key, Operate Phone in beta, and SAEP so apps can reject automation. Fact: TechNode, Beebom, National Business Daily, and AIBase put the Nubia NaviX Ultra sale on 16 September at 2 p.m. Beijing time, as a ZTE and ByteDance device. Fact: BlockBeats says Operate Phone remains in beta and, citing LatePost, that Alibaba and Tencent super apps are not GUI-driven unless they open MCP. Fact: Cocoloop and BigGo describe a 30-day public comment period on SAEP. Fact: ByteDance has not published page-level versus app-level SAEP scope, a public refusal list, or a date for other phone models.",
+            "Prediction: the first useful SAEP signal will be which payment and super apps file refusals, not the comment-period PDF. Prediction: Operate Phone stays inside the ByteDance and ZTE garden through the 16 September sale, then expands only as MCP deals land. Prediction: CAPTCHAs, payment confirms, and login states remain the failure modes. Do not staff a global Android rollout on a China-only flagship."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch who files SAEP refusals in the 30-day window, and whether ByteDance publishes the list. Watch 16 September unit sales and whether Operate Phone still fails on CAPTCHA and checkout. Watch whether Alibaba and Tencent open MCP, or keep the GUI door closed. Watch whether Nubia remains exclusive past this flagship. Watch vivo, OPPO, and Honor answer with their own assistants in the same launch week. And watch whether SAEP is copied as an industry pattern or stays a ByteDance rulebook that other agents ignore."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Doubao Phone Assistant? It is ByteDance's system-level mobile assistant. The consumer version launched on 14 September 2026 with screen-based Q&A, local search across photos, messages, and notes, voice activation, a dedicated AI key, and Operate Phone in beta. The first device is the Nubia NaviX Ultra.",
+            "What is the SAEP protocol? SAEP is the Screen Automation Execution Protocol. It lets third-party apps declare which AI screen-automation actions they permit or refuse. Coverage says Doubao will not keep running automated operations inside an app that opts out. ByteDance opened a 30-day public comment period. It has not published page-level versus app-level scope.",
+            "When does the Nubia NaviX Ultra go on sale? Nubia, TechNode, Beebom, and National Business Daily put the launch and sale at 16 September 2026, 14:00 Beijing time. The phone is co-developed by ZTE and ByteDance and is sold as an AI agent smartphone running Doubao Phone Assistant.",
+            "Can apps block Doubao screen automation? Yes, through SAEP. An app can declare that AI may not read the screen, tap, or execute operations inside it. MCP is a separate door: some super apps may expose functions only through an API, not through GUI control.",
+            "Is Doubao Operate Phone generally available? No. It launched in beta. Coverage of Doubao's product pages says support is limited to system and ZTE apps, ByteDance-owned apps, and some integrated third-party apps. Reliability still depends on device, OS, app adaptation, and user authorization."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apple-intelligence-daily-limits-unpriced-fee",
+      "title": "Apple Intelligence Daily Limits: A Fee Apple Has Not Priced",
+      "excerpt": "iOS 27 ships today with daily limits on server-side Apple Intelligence. Siri AI, Image Playground, photo tools, and AFM 3 Cloud sit on the list. Apple confirmed a future fee and never published a number.",
+      "category": "pricing",
+      "tags": [
+        "Apple Intelligence",
+        "daily usage limits",
+        "iOS 27",
+        "AFM 3 Cloud"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Apple Intelligence Daily Limits 2026: Unpriced Fee",
+        "metaDescription": "iOS 27 ships with Apple Intelligence daily limits on Siri AI, Image Playground, and AFM 3 Cloud. Apple confirmed a future fee but has not priced it.",
+        "keywords": [
+          "Apple Intelligence daily limits",
+          "Apple Intelligence usage limits",
+          "Apple Intelligence subscription price",
+          "iOS 27 Apple Intelligence fee",
+          "AFM 3 Cloud daily limit",
+          "Apple Intelligence paid tier",
+          "iCloud+ Apple Intelligence limits",
+          "Siri AI daily usage limit"
+        ]
+      },
+      "image": {
+        "src": "/blog/apple-intelligence-daily-limits-hero.svg",
+        "alt": "Illustration of Apple Intelligence daily limits on Siri AI, Image Playground, photo tools, and AFM 3 Cloud beside an unpublished quota and an unpriced future fee",
+        "caption": "The OS is free today. The cloud half of Apple Intelligence is a meter with no published rate."
+      },
+      "sources": [
+        {
+          "title": "Apple: Apple Intelligence product page",
+          "url": "https://www.apple.com/apple-intelligence/"
+        },
+        {
+          "title": "Apple Newsroom: Apple advances health and fitness with Apple Intelligence",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/"
+        },
+        {
+          "title": "Apple Newsroom: Apple Intelligence everyday experiences (June 2026)",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"
+        },
+        {
+          "title": "Apple Developer: Acceptable use for the Foundation Models framework",
+          "url": "https://developer.apple.com/apple-intelligence/acceptable-use-requirements-for-the-foundation-models-framework/"
+        },
+        {
+          "title": "9to5Mac: Apple Intelligence usage limits and terms",
+          "url": "https://9to5mac.com/2026/09/09/apple-shares-more-details-about-apple-intelligence-usage-limits-and-terms/"
+        },
+        {
+          "title": "Mac Observer: Apple Intelligence daily limits and unpriced fee",
+          "url": "https://www.macobserver.com/news/apple-intelligence-daily-limits-confirmed-fee-not-priced/"
+        },
+        {
+          "title": "Mac Observer: Two Apple answers on paying for more Intelligence",
+          "url": "https://www.macobserver.com/news/apple-intelligence-daily-limits-icloud-plus-paid-tier/"
+        },
+        {
+          "title": "MacRumors: iOS 27 release date and Siri AI limits",
+          "url": "https://www.macrumors.com/2026/09/13/ios-27-release-date-new-features/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, iOS 27, iPadOS 27, macOS 27, watchOS 27, and visionOS 27 ship. The free software update is not the bill. The bill is the cloud half of Apple Intelligence. Apple's September footnotes, repeated on the Apple Intelligence page and in this month's health newsroom release, say certain features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, intelligent photo editing tools, Image Playground, and AFM 3 Cloud models in Shortcuts. The next sentence is the pricing event: expanded access to such features will be available for a fee in the future. Apple has not published the size of any limit, a price, a product name, or a date.",
+            "That is a different sentence from June. On 8 June, Apple's Apple Intelligence newsroom note said some features, including image generation, have daily usage limits because they rely on powerful server models, and that increased access is available with most iCloud+ subscription plans. The September footnote does not mention iCloud+. Apple has not said whether the June benefit, the September fee, or both will apply on a live device today. The only published numbers sit in a different aisle: Home app video summaries are capped at 1 camera on the 2 TB iCloud+ plan, 2 cameras on 6 TB, and 5 cameras on 12 TB.",
+            "A 9 September support article, Learn about Apple Intelligence usage limits, named a longer list than the footnote: Siri AI; Clean Up, Extend, and Spatial Reframing; Image Playground; AFM 3 Cloud and AFM 3 Cloud Pro in Shortcuts; and developer apps using Apple Foundation Models in Private Cloud Compute. That article also said Apple will implement usage limits in the future, and that a feature that hits a cap becomes unavailable for a period, then returns. Product footnotes on ship day use present tense. The support page hedges timing. None of the three documents prints a quota."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is a consumer meter, not a token table. Teams already know how to read [model pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) and a [voice minute](/blog/gpt-live-1-voice-api-pricing). Apple is doing the inverse of those pages. It is confirming that server-side Apple Intelligence is scarce, confirming that extra capacity will cost money, and refusing to say how scarce or how much. A limit that varies by feature, request complexity, system demand, and system policies is not a plan you can staff. It is a valve Apple can turn without a price list.",
+            "Siri AI is the sharpest case. It is in beta, it is named on the daily-limit list, it is English-first, and it is already withheld from iPhone, iPad, and Watch in the EU under the [Digital Markets Act fight](/blog/siri-ai-eu-delay-ios-27-dma). Three constraints, one assistant. On-device Apple Intelligence still runs on Apple silicon. The rationing language is aimed at Private Cloud Compute, the larger server models Apple says do not store personal data. If a request stays on device, the footnote does not obviously apply. If it hops to AFM 3 Cloud, it does. Users cannot see that hop as a line item.",
+            "For [enterprise buyers](/blog/enterprise-ai-adoption-what-is-working), the missing SKU is the risk. A Shortcut that calls AFM 3 Cloud Pro, a third-party app on Private Cloud Compute, or a photo desk that lives in Extend and Clean Up can fail closed when a cap hits. Apple's Usage Terms, as quoted in the 9 September coverage, allow throttling or suspension for excessive, abusive, or automated use. That is a second meter on top of the unpublished daily cap. It is closer to a platform ToS than to Bedrock's dated model cards, where [Nova Premier's end of life](/blog/amazon-nova-premier-eol-bedrock) at least prints the day the ID dies."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/apple-intelligence-daily-limits-stack.svg",
+            "alt": "Diagram comparing Apple's June iCloud+ language, September future-fee footnote, and Home camera counts of 1, 2, and 5 cameras by iCloud+ storage plan",
+            "caption": "iCloud+ is a live ladder only for Home cameras. Siri AI and Image Playground still have a footnote instead of a price."
+          },
+          "paragraphs": [
+            "Consumers on iPhone 15 Pro or newer feel it first, because that is the Apple Intelligence floor. iOS 27 itself still installs on iPhone 11 and later. The extra intelligence does not. Anyone generating Image Playground images, running Clean Up or Extend, or asking Siri AI long questions is on the unnamed quota. There is no published reset time. There is no published remaining-count UI. The first honest test today is whether Settings or the feature itself tells you when you are done.",
+            "iCloud+ subscribers should not assume they already bought the extra lane. June said most plans raise access. September said a fee comes later. Apple has not said whether the cheapest iCloud+ tier is in or out, whether Apple One counts, or whether the future fee stacks on top of storage. Home camera intelligence is the exception: the camera counts are in the support coverage as a storage-tier product, not as a rumor.",
+            "Developers and IT sit one layer up. Third-party apps that call Apple Foundation Models through Private Cloud Compute are on the same list as Siri AI. Heavy Shortcuts that point at AFM 3 Cloud or AFM 3 Cloud Pro can look like automation, which the Usage Terms treat as a reason to restrict. EU iPhone users are not in this queue for Siri AI at all. Mac and Vision Pro still get the assistant there. Do not staff a rollout that treats Siri AI as a global default."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Apple's September footnotes state that certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, naming Siri AI, intelligent photo editing tools, Image Playground, and AFM 3 Cloud models in Shortcuts, and that expanded access will be available for a fee in the future. Fact: Apple has not published a numeric daily limit, a price, a date, or a product name for that fee. Fact: the 8 June newsroom note said increased access is available with most iCloud+ plans. Fact: Apple's support coverage lists Home video summaries at 1, 2, and 5 cameras on the 2 TB, 6 TB, and 12 TB iCloud+ plans. Fact: iOS 27 and the rest of the OS 27 family ship today, 14 September 2026. Fact: Siri AI is English-first and is not available on iOS 27, iPadOS 27, and watchOS 27 in the EU.",
+            "Prediction: the first public number will be a Settings string or an error sheet, not a price. Prediction: the future fee will be a separate Apple Intelligence add-on rather than a silent bump inside every iCloud+ plan, because September stopped mentioning iCloud+ in the limit footnote. Prediction: Image Playground and photo tools will hit caps before Siri AI for most users, because generation is easier to count. Do not budget a 2026 Apple Intelligence line item on a SKU that does not exist."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the Apple Intelligence page and the usage-limits support article for the first integer. Watch whether iOS 27 shows remaining requests, a paywall, or a silent fail when a cap hits. Watch whether an existing iCloud+ plan actually raises Image Playground or Siri AI headroom on a device that is not a Home camera. Watch App Store listings and MDM profiles for third-party apps that depend on Private Cloud Compute. Watch EU availability separately from the meter. And watch the fee language. Until Apple names a price and a date, the paid tier is a promise, not a product."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What are Apple Intelligence daily limits? They are usage caps Apple applies to certain Apple Intelligence features that rely on server-side models. Product footnotes name Siri AI, intelligent photo editing tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Apple says limits may vary by feature, request complexity, system demand, and system policies. It has not published a number.",
+            "Does Apple Intelligence cost extra on iOS 27? The OS update is free on supported iPhones. Apple Intelligence on compatible devices is included, with daily limits on some server-side features. Apple says expanded access will be available for a fee in the future. It has not priced that fee or set a date.",
+            "Does iCloud+ raise Apple Intelligence usage limits? In June, Apple said increased access is available with most iCloud+ subscription plans. In September, the limit footnote said expanded access will be available for a fee in the future and did not mention iCloud+. Home camera video summaries are the exception, with published camera counts by storage plan. Apple has not reconciled the two consumer-feature statements.",
+            "What happens when you hit an Apple Intelligence usage limit? Coverage of Apple's 9 September support article says the affected feature becomes unavailable for a period of time, then access is restored. Other features can keep working. Apple has not published the timeout length or a remaining-quota display.",
+            "Which Apple Intelligence features have usage limits? Apple's support list includes Siri AI; Clean Up, Extend, and Spatial Reframing; Image Playground; AFM 3 Cloud and AFM 3 Cloud Pro in Shortcuts; and developer apps using Apple Foundation Models in Private Cloud Compute. The product footnote says the list is not exhaustive."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "asml-high-na-euv-intel-tsmc-samsung",
       "title": "ASML High NA EUV: Intel Ships While TSMC Waits Until 2030",
       "excerpt": "ASML High NA EUV now has public production dates. Intel is already in high-volume manufacturing. Samsung and SK hynix target 2028 DRAM. TSMC commits for 2030 AI nodes. Standard EUV is sold out through 2027.",

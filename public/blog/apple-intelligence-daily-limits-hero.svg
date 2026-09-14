@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Apple Intelligence daily limits versus an unpriced future fee</title>
+  <desc id="desc">Editorial illustration of iOS 27 shipping with Apple Intelligence daily limits on Siri AI, Image Playground, photo tools, and AFM 3 Cloud, while Apple has not published a quota or a price.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1060" cy="560" r="250" fill="#FF9B80" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Apple Intelligence daily limits: fee confirmed, price blank</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">iOS 27 ships 14 Sep 2026  |  server-side models  |  no quota  |  no SKU</text>
+
+  <rect x="118" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="148" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Named on the list</text>
+  <rect x="148" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="166" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Siri AI, Image Playground, photo tools</text>
+  <text x="166" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">AFM 3 Cloud and Cloud Pro in Shortcuts</text>
+  <text x="166" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Third-party apps on Private Cloud Compute</text>
+  <text x="148" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Hit a cap and the feature stops, then returns later</text>
+
+  <rect x="622" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="652" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Still unpublished</text>
+  <rect x="652" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="670" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">No request count, no reset clock</text>
+  <text x="670" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">No price, no date, no product name</text>
+  <text x="670" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">iCloud+ vs a future fee still unresolved</text>
+  <text x="652" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Home camera counts are the only numbers Apple posted</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">The OS ships free. The cloud half of Apple Intelligence is now a meter Apple has not priced.</text>
+</svg>

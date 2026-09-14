@@ -1,0 +1,43 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Three Microsoft AI rule layers</title>
+  <desc id="desc">Diagram separating the May 2026 customer Enterprise AI Services Code of Conduct, today's first-party MAI model consultation, and the embedded evaluator pledge.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="80" cy="520" r="180" fill="#00C2FF" fill-opacity="0.10"/>
+  <circle cx="1120" cy="80" r="200" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="54" width="1056" height="522" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="108" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Do not mix the three Microsoft paper trails</text>
+  <text x="118" y="146" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="17">Customer services code, first-party MAI Code of Conduct, and evaluator desks are not the same document.</text>
+
+  <rect x="118" y="186" width="300" height="300" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="142" y="230" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">1. Customer CoC</text>
+  <rect x="142" y="254" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="156" y="286" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Enterprise AI Services</text>
+  <text x="156" y="310" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Version 4.0, 1 May 2026</text>
+  <text x="156" y="334" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Binds customers, not the lab</text>
+  <text x="156" y="358" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Live on Microsoft Learn</text>
+  <text x="142" y="422" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Already in MAI model cards</text>
+  <text x="142" y="446" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">This is not today's consultation.</text>
+
+  <rect x="448" y="186" width="300" height="300" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="230" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">2. MAI model CoC</text>
+  <rect x="472" y="254" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="486" y="286" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">First-party MAI family</text>
+  <text x="486" y="310" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Promised 14 Sep 2026</text>
+  <text x="486" y="334" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Public consultation</text>
+  <text x="486" y="358" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">URL not posted at briefing</text>
+  <text x="472" y="422" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Procurement test: named SKUs</text>
+  <text x="472" y="446" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">Does Grok in Copilot sit outside?</text>
+
+  <rect x="778" y="186" width="300" height="300" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="802" y="230" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">3. Evaluator desks</text>
+  <rect x="802" y="254" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="816" y="286" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Embedded independent monitors</text>
+  <text x="816" y="310" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Nadella backed the idea</text>
+  <text x="816" y="334" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Anthropic and OpenAI pledged</text>
+  <text x="816" y="358" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Microsoft has not named METR</text>
+  <text x="802" y="422" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">A code is not a badge and laptop</text>
+  <text x="802" y="446" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">Watch for a named start date.</text>
+
+  <text x="118" y="528" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="17">Humanist Superintelligence is the lab slogan. The Code of Conduct is the contract language, if it ships.</text>
+</svg>

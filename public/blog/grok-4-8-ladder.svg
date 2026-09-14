@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ladderTitle ladderDesc">
+  <title id="ladderTitle">Grok 4.6 shipped versus Grok 4.7 and Grok 4.8 status</title>
+  <desc id="desc">Timeline of Grok 4.6 shipping on 12 August 2026, Grok 4.7 missing its September window, and Grok 4.8 named on 13 September with training still underway.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">What you can call versus what Musk named</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Status as of 14 Sep 2026. Parameter counts for 4.7 and 4.8 are Musk posts, not xAI cards.</text>
+
+  <rect x="110" y="210" width="310" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65"/>
+  <text x="132" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">12 Aug</text>
+  <text x="132" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Grok 4.6 GA</text>
+  <text x="132" y="360" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Shipped</text>
+  <text x="132" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">1.5T-scale family on the card</text>
+  <text x="132" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">API, Cursor, Grok Build, partners</text>
+
+  <rect x="445" y="210" width="310" height="280" rx="18" fill="#08203A" stroke="#E8A87C" stroke-opacity="0.7"/>
+  <text x="467" y="258" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">11 Sep</text>
+  <text x="467" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Grok 4.7 window</text>
+  <text x="467" y="360" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Missed</text>
+  <text x="467" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">A few more days to cook</text>
+  <text x="467" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">No id, price, or eval table</text>
+
+  <rect x="780" y="210" width="310" height="280" rx="18" fill="#08203A" stroke="#FF7A59" stroke-opacity="0.7"/>
+  <text x="802" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">13 Sep</text>
+  <text x="802" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Grok 4.8 named</text>
+  <text x="802" y="360" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Training</text>
+  <text x="802" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Finish this week, then start RL</text>
+  <text x="802" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Release date: nobody published one</text>
+</svg>
