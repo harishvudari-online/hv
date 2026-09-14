@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="priceTitle priceDesc">
+  <title id="priceTitle">Gemini 3.8 Flash pricing versus GPT-6 Astra</title>
+  <desc id="desc">Diagram comparing Gemini 3.8 Flash intro rates, 2027 rates, and GPT-6 Astra list price.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">List price is cheap. The 2027 cliff is not.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Standard rates per million tokens. Output includes thinking tokens.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="132" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Flash through 2026</text>
+  <text x="132" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Intro price to 31 Dec</text>
+  <text x="132" y="360" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">$0.75</text>
+  <text x="132" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">in  /  $3.75 out</text>
+  <text x="132" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Same sticker as 3.7 Flash</text>
+
+  <rect x="440" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#E8A87C" stroke-opacity="0.65"/>
+  <text x="462" y="258" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Flash from 1 Jan 2027</text>
+  <text x="462" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Standard price doubles</text>
+  <text x="462" y="360" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">$1.50</text>
+  <text x="462" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">in  /  $7.50 out</text>
+  <text x="462" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Still far below flagship SKUs</text>
+
+  <rect x="770" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.5"/>
+  <text x="792" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">GPT-6 Astra list</text>
+  <text x="792" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Specialist computer-use SKU</text>
+  <text x="792" y="360" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">$10</text>
+  <text x="792" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">in  /  $50 out</text>
+  <text x="792" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">About 13x Flash intro rates</text>
+</svg>

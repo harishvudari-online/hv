@@ -38,6 +38,105 @@
   ],
   "posts": [
     {
+      "slug": "gemini-3-8-flash-agent-workhorse",
+      "title": "Gemini 3.8 Flash: Google's Cheap Workhorse for Agents",
+      "excerpt": "Google's third Flash drop in six weeks is generally available as gemini-3.8-flash. List price stays $0.75 and $3.75 per million tokens through 2026. The catch is token burn, a 2027 price cliff, and a cyber SKU only trusted defenders can buy.",
+      "category": "models",
+      "tags": [
+        "Gemini 3.8 Flash",
+        "Google DeepMind",
+        "Antigravity",
+        "Flash Cyber"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Gemini 3.8 Flash 2026: Pricing, API, Antigravity",
+        "metaDescription": "Gemini 3.8 Flash is GA at $0.75/$3.75 per 1M tokens through Dec 2026. API specs, Antigravity default, Flash Cyber Fairwind, and the Jan 2027 price hike.",
+        "keywords": [
+          "Gemini 3.8 Flash",
+          "gemini-3.8-flash",
+          "Gemini 3.8 Flash pricing",
+          "Gemini 3.8 Flash Cyber",
+          "Google Antigravity"
+        ]
+      },
+      "image": {
+        "src": "/blog/gemini-3-8-flash-hero.svg",
+        "alt": "Illustration of Gemini 3.8 Flash as a cheap agent workhorse beside Gemini 3.8 Flash Cyber for trusted defenders",
+        "caption": "Gemini 3.8 Flash is the public workhorse. Flash Cyber is the Fairwind SKU for vulnerability find and patch, not a general API model."
+      },
+      "sources": [
+        {
+          "title": "Google: Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "title": "Google AI: What's new in Gemini 3.8 Flash",
+          "url": "https://ai.google.dev/gemini-api/docs/latest-model"
+        },
+        {
+          "title": "Google Cloud: Developer's guide to Gemini 3.8 Flash",
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/guides/gemini-3-8-flash"
+        },
+        {
+          "title": "Google DeepMind: Gemini 3.8 Flash Cyber",
+          "url": "https://deepmind.google/models/gemini/cyber/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 2, 2026, Google DeepMind shipped Gemini 3.8 Flash as a generally available API model, gemini-3.8-flash, and a restricted sibling, Gemini 3.8 Flash Cyber. It is the third Flash point release in six weeks, after 3.7 Flash about three weeks earlier. Google kept the introductory list price at $0.75 per million input tokens and $3.75 per million output tokens through December 31, 2026. Standard rates of $1.50 and $7.50 start on January 1, 2027.",
+            "The model is built for long-horizon software engineering, autonomous agents, and enterprise workflows. Specs: 1,048,576-token context, 65,536 max output, multimodal input, and thinking levels of low, medium, and high, with medium as the default. Minimal thinking is not supported and returns an error. Google also made 3.8 Flash the default model for the Antigravity managed agent and the Antigravity SDK. Consumers on Google AI Pro and Ultra get it in the Gemini app, AI Mode in Search, and Gemini in Sheets. Enterprises get it in Gemini Enterprise."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The useful story is not another flagship. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) sit at $10 input and $50 output. Gemini 3.8 Flash undercuts that by about 13 times on the intro card, and still by about 7 times after the 2027 hike. Google's own Cloud table shows where the jump landed: Terminal-bench 2.1 rose to 90.8% from 81.6% on 3.7 Flash. SWE-Atlas moved to 51.9% from 48.0%. Tau3-bench Banking moved to 38.1% from 30.9%. SWE-Bench Pro barely moved, 61.6% versus 60.4%. Standard Humanity's Last Exam actually slipped, 45.4% versus 45.7%. The number Google highlights is 54.9% on HLE-Verified.",
+            "Google is explicit that 3.8 Flash works harder. On complex tasks it takes extra reasoning steps, calls tools iteratively, and can spend more tokens, especially at higher thinking levels. Output pricing includes thinking tokens. Same sticker as 3.7 Flash does not mean the same bill. That is the other half of [how model pricing changes what teams can ship](/blog/ai-model-pricing-is-changing-what-teams-can-ship): dollars per finished task, not dollars per million tokens.",
+            "Flash Cyber is the safety fork. It is not on the public API. Trusted defenders in the Fairwind Program get a more permissive cyber stack aimed at vulnerability discovery and automated patching, not exploitation. On Collinear's CWE-Bench it posts a pass@1 of 47.2%, next to Fable 5 at 47.8%, at much lower cost. Chrome Security said it produced 2.6 times more correct patches than larger commercial models. Wiz reported 7.5 to 9.7 points higher recall on an internal pentest bench at 2.3 to 5.2 times lower cost. Google's Cloud Vulnerability Research team said it found a critical foundational vulnerability in less than two hours."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gemini-3-8-flash-pricing.svg",
+            "alt": "Chart comparing Gemini 3.8 Flash intro pricing, 2027 standard pricing, and GPT-6 Astra list rates per million tokens",
+            "caption": "Flash intro rates are $0.75 and $3.75 through 31 Dec 2026, then $1.50 and $7.50. Astra remains $10 and $50. Budget the loop, not the sticker."
+          },
+          "paragraphs": [
+            "Product teams already on Google Antigravity or the Gemini API are in the blast radius even if they did not change a model string. An unchanged Antigravity agent identifier now runs 3.8 Flash. Pin thinking_level, compare accepted-task cost against a 3.7 baseline, and do not assume the new default is cheaper. Keep 3.7 Flash if the job is latency and token efficiency, which Google still supports.",
+            "Security and platform teams should treat Flash Cyber like Anthropic's Mythos lane: a trusted-access SKU, not a default. Public 3.8 Flash still ships CBRN and cyber-offense safeguards under Google's Frontier Safety Framework. If you need defensive find-and-patch at Flash speed, apply to Fairwind. If you need a managed coding harness on OpenAI's stack, that is still the [Agents API and Codex harness](/blog/openai-agents-api-codex-harness), not Antigravity."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Google announced Gemini 3.8 Flash and Flash Cyber on September 2, 2026, with gemini-3.8-flash generally available. Fact: introductory API pricing is $0.75 and $3.75 per million tokens through December 31, 2026, then $1.50 and $7.50. Fact: context is 1,048,576 tokens, max output is 65,536, thinking levels are low, medium, and high, and Antigravity now defaults to 3.8 Flash. Fact: Flash Cyber is limited to the Fairwind Program, with published CWE-Bench, Chrome, Wiz, and internal discovery results.",
+            "Prediction: most teams will put 3.8 Flash on agent loops and keep Astra or Fable for computer-use and high-stakes reasoning, then get surprised by thinking-token spend before they get surprised by the January 2027 list-price doubling. Prediction: Fairwind will stay a small, gated club. The public Flash model is the volume product."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch token counts on accepted tasks at medium versus high thinking, because Google says 3.8 Flash can use more tokens by design. Watch whether Antigravity quality beats a pinned 3.7 baseline on your eval set, not Google's Terminal-bench clip. Watch the January 1, 2027 price change, which hits 3.6, 3.7, and 3.8 Flash together. Watch Fairwind access criteria and whether Flash Cyber stays defender-only as other labs split public and trusted cyber SKUs. And watch whether a Gemini Pro refresh reclaims the exams that Flash did not move."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Gemini 3.8 Flash? It is Google DeepMind's generally available Flash model for long-horizon coding, autonomous agents, and enterprise workflows, with the API id gemini-3.8-flash, a 1,048,576-token context window, and 65,536 max output tokens.",
+            "How much does Gemini 3.8 Flash cost? Introductory API pricing is $0.75 per million input tokens and $3.75 per million output tokens through December 31, 2026. Standard pricing of $1.50 and $7.50 starts January 1, 2027. Output billing includes thinking tokens.",
+            "What is Gemini 3.8 Flash Cyber? It is a defender-only variant for vulnerability discovery and automated patching, sold through Google's Fairwind Program to trusted governments, critical infrastructure operators, and software maintainers. It is not the public Gemini API default.",
+            "Is Gemini 3.8 Flash better than GPT-6 Astra? Not as a flagship. Astra is the computer-use specialist at $10 and $50 per million tokens. Flash is the cheap workhorse that approaches heavier models on some coding and agent benches. Route by task and dollars per completed job, not by launch-day rank."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "anthropic-ai-jobs-2030-econ-scenarios",
       "title": "Anthropic AI Jobs 2030: Three Scenarios, Not One Forecast",
       "excerpt": "Anthropic's Economics team modeled US jobs and GDP through 2030. In the extreme path, growth hits 15% a year while economy-wide unemployment reaches 11.9%. The authors attach no probabilities.",
