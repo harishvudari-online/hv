@@ -38,6 +38,127 @@
   ],
   "posts": [
     {
+      "slug": "apple-intelligence-daily-limits-unpriced-fee",
+      "title": "Apple Intelligence Daily Limits: A Fee Apple Has Not Priced",
+      "excerpt": "iOS 27 ships today with daily limits on server-side Apple Intelligence. Siri AI, Image Playground, photo tools, and AFM 3 Cloud sit on the list. Apple confirmed a future fee and never published a number.",
+      "category": "pricing",
+      "tags": [
+        "Apple Intelligence",
+        "daily usage limits",
+        "iOS 27",
+        "AFM 3 Cloud"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Apple Intelligence Daily Limits 2026: Unpriced Fee",
+        "metaDescription": "iOS 27 ships with Apple Intelligence daily limits on Siri AI, Image Playground, and AFM 3 Cloud. Apple confirmed a future fee but has not priced it.",
+        "keywords": [
+          "Apple Intelligence daily limits",
+          "Apple Intelligence usage limits",
+          "Apple Intelligence subscription price",
+          "iOS 27 Apple Intelligence fee",
+          "AFM 3 Cloud daily limit",
+          "Apple Intelligence paid tier",
+          "iCloud+ Apple Intelligence limits",
+          "Siri AI daily usage limit"
+        ]
+      },
+      "image": {
+        "src": "/blog/apple-intelligence-daily-limits-hero.svg",
+        "alt": "Illustration of Apple Intelligence daily limits on Siri AI, Image Playground, photo tools, and AFM 3 Cloud beside an unpublished quota and an unpriced future fee",
+        "caption": "The OS is free today. The cloud half of Apple Intelligence is a meter with no published rate."
+      },
+      "sources": [
+        {
+          "title": "Apple: Apple Intelligence product page",
+          "url": "https://www.apple.com/apple-intelligence/"
+        },
+        {
+          "title": "Apple Newsroom: Apple advances health and fitness with Apple Intelligence",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/"
+        },
+        {
+          "title": "Apple Newsroom: Apple Intelligence everyday experiences (June 2026)",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/"
+        },
+        {
+          "title": "Apple Developer: Acceptable use for the Foundation Models framework",
+          "url": "https://developer.apple.com/apple-intelligence/acceptable-use-requirements-for-the-foundation-models-framework/"
+        },
+        {
+          "title": "9to5Mac: Apple Intelligence usage limits and terms",
+          "url": "https://9to5mac.com/2026/09/09/apple-shares-more-details-about-apple-intelligence-usage-limits-and-terms/"
+        },
+        {
+          "title": "Mac Observer: Apple Intelligence daily limits and unpriced fee",
+          "url": "https://www.macobserver.com/news/apple-intelligence-daily-limits-confirmed-fee-not-priced/"
+        },
+        {
+          "title": "Mac Observer: Two Apple answers on paying for more Intelligence",
+          "url": "https://www.macobserver.com/news/apple-intelligence-daily-limits-icloud-plus-paid-tier/"
+        },
+        {
+          "title": "MacRumors: iOS 27 release date and Siri AI limits",
+          "url": "https://www.macrumors.com/2026/09/13/ios-27-release-date-new-features/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, iOS 27, iPadOS 27, macOS 27, watchOS 27, and visionOS 27 ship. The free software update is not the bill. The bill is the cloud half of Apple Intelligence. Apple's September footnotes, repeated on the Apple Intelligence page and in this month's health newsroom release, say certain features that rely on server-side models are subject to daily usage limits, including but not limited to Siri AI, intelligent photo editing tools, Image Playground, and AFM 3 Cloud models in Shortcuts. The next sentence is the pricing event: expanded access to such features will be available for a fee in the future. Apple has not published the size of any limit, a price, a product name, or a date.",
+            "That is a different sentence from June. On 8 June, Apple's Apple Intelligence newsroom note said some features, including image generation, have daily usage limits because they rely on powerful server models, and that increased access is available with most iCloud+ subscription plans. The September footnote does not mention iCloud+. Apple has not said whether the June benefit, the September fee, or both will apply on a live device today. The only published numbers sit in a different aisle: Home app video summaries are capped at 1 camera on the 2 TB iCloud+ plan, 2 cameras on 6 TB, and 5 cameras on 12 TB.",
+            "A 9 September support article, Learn about Apple Intelligence usage limits, named a longer list than the footnote: Siri AI; Clean Up, Extend, and Spatial Reframing; Image Playground; AFM 3 Cloud and AFM 3 Cloud Pro in Shortcuts; and developer apps using Apple Foundation Models in Private Cloud Compute. That article also said Apple will implement usage limits in the future, and that a feature that hits a cap becomes unavailable for a period, then returns. Product footnotes on ship day use present tense. The support page hedges timing. None of the three documents prints a quota."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is a consumer meter, not a token table. Teams already know how to read [model pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) and a [voice minute](/blog/gpt-live-1-voice-api-pricing). Apple is doing the inverse of those pages. It is confirming that server-side Apple Intelligence is scarce, confirming that extra capacity will cost money, and refusing to say how scarce or how much. A limit that varies by feature, request complexity, system demand, and system policies is not a plan you can staff. It is a valve Apple can turn without a price list.",
+            "Siri AI is the sharpest case. It is in beta, it is named on the daily-limit list, it is English-first, and it is already withheld from iPhone, iPad, and Watch in the EU under the [Digital Markets Act fight](/blog/siri-ai-eu-delay-ios-27-dma). Three constraints, one assistant. On-device Apple Intelligence still runs on Apple silicon. The rationing language is aimed at Private Cloud Compute, the larger server models Apple says do not store personal data. If a request stays on device, the footnote does not obviously apply. If it hops to AFM 3 Cloud, it does. Users cannot see that hop as a line item.",
+            "For [enterprise buyers](/blog/enterprise-ai-adoption-what-is-working), the missing SKU is the risk. A Shortcut that calls AFM 3 Cloud Pro, a third-party app on Private Cloud Compute, or a photo desk that lives in Extend and Clean Up can fail closed when a cap hits. Apple's Usage Terms, as quoted in the 9 September coverage, allow throttling or suspension for excessive, abusive, or automated use. That is a second meter on top of the unpublished daily cap. It is closer to a platform ToS than to Bedrock's dated model cards, where [Nova Premier's end of life](/blog/amazon-nova-premier-eol-bedrock) at least prints the day the ID dies."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/apple-intelligence-daily-limits-stack.svg",
+            "alt": "Diagram comparing Apple's June iCloud+ language, September future-fee footnote, and Home camera counts of 1, 2, and 5 cameras by iCloud+ storage plan",
+            "caption": "iCloud+ is a live ladder only for Home cameras. Siri AI and Image Playground still have a footnote instead of a price."
+          },
+          "paragraphs": [
+            "Consumers on iPhone 15 Pro or newer feel it first, because that is the Apple Intelligence floor. iOS 27 itself still installs on iPhone 11 and later. The extra intelligence does not. Anyone generating Image Playground images, running Clean Up or Extend, or asking Siri AI long questions is on the unnamed quota. There is no published reset time. There is no published remaining-count UI. The first honest test today is whether Settings or the feature itself tells you when you are done.",
+            "iCloud+ subscribers should not assume they already bought the extra lane. June said most plans raise access. September said a fee comes later. Apple has not said whether the cheapest iCloud+ tier is in or out, whether Apple One counts, or whether the future fee stacks on top of storage. Home camera intelligence is the exception: the camera counts are in the support coverage as a storage-tier product, not as a rumor.",
+            "Developers and IT sit one layer up. Third-party apps that call Apple Foundation Models through Private Cloud Compute are on the same list as Siri AI. Heavy Shortcuts that point at AFM 3 Cloud or AFM 3 Cloud Pro can look like automation, which the Usage Terms treat as a reason to restrict. EU iPhone users are not in this queue for Siri AI at all. Mac and Vision Pro still get the assistant there. Do not staff a rollout that treats Siri AI as a global default."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Apple's September footnotes state that certain Apple Intelligence features that rely on server-side models are subject to daily usage limits, naming Siri AI, intelligent photo editing tools, Image Playground, and AFM 3 Cloud models in Shortcuts, and that expanded access will be available for a fee in the future. Fact: Apple has not published a numeric daily limit, a price, a date, or a product name for that fee. Fact: the 8 June newsroom note said increased access is available with most iCloud+ plans. Fact: Apple's support coverage lists Home video summaries at 1, 2, and 5 cameras on the 2 TB, 6 TB, and 12 TB iCloud+ plans. Fact: iOS 27 and the rest of the OS 27 family ship today, 14 September 2026. Fact: Siri AI is English-first and is not available on iOS 27, iPadOS 27, and watchOS 27 in the EU.",
+            "Prediction: the first public number will be a Settings string or an error sheet, not a price. Prediction: the future fee will be a separate Apple Intelligence add-on rather than a silent bump inside every iCloud+ plan, because September stopped mentioning iCloud+ in the limit footnote. Prediction: Image Playground and photo tools will hit caps before Siri AI for most users, because generation is easier to count. Do not budget a 2026 Apple Intelligence line item on a SKU that does not exist."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the Apple Intelligence page and the usage-limits support article for the first integer. Watch whether iOS 27 shows remaining requests, a paywall, or a silent fail when a cap hits. Watch whether an existing iCloud+ plan actually raises Image Playground or Siri AI headroom on a device that is not a Home camera. Watch App Store listings and MDM profiles for third-party apps that depend on Private Cloud Compute. Watch EU availability separately from the meter. And watch the fee language. Until Apple names a price and a date, the paid tier is a promise, not a product."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What are Apple Intelligence daily limits? They are usage caps Apple applies to certain Apple Intelligence features that rely on server-side models. Product footnotes name Siri AI, intelligent photo editing tools, Image Playground, and AFM 3 Cloud models in Shortcuts. Apple says limits may vary by feature, request complexity, system demand, and system policies. It has not published a number.",
+            "Does Apple Intelligence cost extra on iOS 27? The OS update is free on supported iPhones. Apple Intelligence on compatible devices is included, with daily limits on some server-side features. Apple says expanded access will be available for a fee in the future. It has not priced that fee or set a date.",
+            "Does iCloud+ raise Apple Intelligence usage limits? In June, Apple said increased access is available with most iCloud+ subscription plans. In September, the limit footnote said expanded access will be available for a fee in the future and did not mention iCloud+. Home camera video summaries are the exception, with published camera counts by storage plan. Apple has not reconciled the two consumer-feature statements.",
+            "What happens when you hit an Apple Intelligence usage limit? Coverage of Apple's 9 September support article says the affected feature becomes unavailable for a period of time, then access is restored. Other features can keep working. Apple has not published the timeout length or a remaining-quota display.",
+            "Which Apple Intelligence features have usage limits? Apple's support list includes Siri AI; Clean Up, Extend, and Spatial Reframing; Image Playground; AFM 3 Cloud and AFM 3 Cloud Pro in Shortcuts; and developer apps using Apple Foundation Models in Private Cloud Compute. The product footnote says the list is not exhaustive."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "asml-high-na-euv-intel-tsmc-samsung",
       "title": "ASML High NA EUV: Intel Ships While TSMC Waits Until 2030",
       "excerpt": "ASML High NA EUV now has public production dates. Intel is already in high-volume manufacturing. Samsung and SK hynix target 2028 DRAM. TSMC commits for 2030 AI nodes. Standard EUV is sold out through 2027.",
