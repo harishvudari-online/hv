@@ -49,7 +49,7 @@ export default function BlogCategoryPage() {
             </p>
             <h1>{label} briefings</h1>
             <p className="lead">
-              <Link href="/blog">All briefings</Link> loaded from the JSON blog store through the API.
+              Notes in this category. See <Link href="/blog">all briefings</Link> for the rest of the archive.
             </p>
           </section>
           <BlogStatus status={viewStatus} empty="Unknown category." />
