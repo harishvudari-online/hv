@@ -38,6 +38,137 @@
   ],
   "posts": [
     {
+      "slug": "siri-model-delegation-claude-chatgpt",
+      "title": "Siri Model Delegation: Claude and GPT-5.6 Are Wired, Not On",
+      "excerpt": "iOS 27 and macOS Golden Gate ship today. Code shows a Model Delegation API for Claude and an Inference Providing path that can swap Siri's backend for GPT-5.6 Terra. Apple has not opened the entitlement.",
+      "category": "tools",
+      "tags": [
+        "Siri Model Delegation API",
+        "Siri Ask Claude",
+        "GPT-5.6 Terra",
+        "iOS 27"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Siri Model Delegation 2026: Claude, GPT-5.6, No Switch",
+        "metaDescription": "iOS 27 code shows Siri Model Delegation for Claude and GPT-5.6 Terra. ChatGPT is in the Ask menu. Apple has not opened the entitlement. What shipped today.",
+        "keywords": [
+          "Siri Model Delegation API",
+          "replace Siri with Claude",
+          "replace Siri with ChatGPT iOS 27",
+          "Siri Ask Claude",
+          "GPT-5.6 Terra Siri",
+          "Inference Providing protocol Apple",
+          "iOS 27 Siri third party AI",
+          "macOS Golden Gate Siri extensions",
+          "Siri AI ChatGPT Claude",
+          "Model Manager Services Siri"
+        ]
+      },
+      "image": {
+        "src": "/blog/siri-model-delegation-hero.svg",
+        "alt": "Illustration of two private Siri AI hooks in iOS 27 and macOS Golden Gate on 14 September 2026: Model Delegation for Claude in the Ask menu, and Inference Providing that can swap Siri's server backend for GPT-5.6 Terra, with neither entitlement opened to users",
+        "caption": "Two private hooks. One Ask menu. Apple still holds the switch."
+      },
+      "sources": [
+        {
+          "title": "MacRumors: Apple's Siri AI can be swapped out for Claude, ChatGPT, code shows",
+          "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/"
+        },
+        {
+          "title": "AppleInsider: Siri AI is built to be replaceable by Claude or ChatGPT",
+          "url": "https://appleinsider.com/articles/26/09/14/siri-ai-is-built-to-be-replaceable-by-claude-or-chatgpt"
+        },
+        {
+          "title": "9to5Mac: iOS 27 code shows you may be able to replace Siri AI with Claude or ChatGPT",
+          "url": "https://9to5mac.com/2026/09/14/ios-27-code-shows-you-may-be-able-to-replace-siri-ai-with-claude-or-chatgpt-poll/"
+        },
+        {
+          "title": "MacRumors Forums: Siri Extensions shipped in macOS 27, Ask Claude working",
+          "url": "https://forums.macrumors.com/threads/apples-rumored-siri-extensions-quietly-shipped-in-macos-27-i-got-ask-claude-working.2486206/"
+        },
+        {
+          "title": "pdfu on X: private Siri hooks for Model Delegation and Inference Providing",
+          "url": "https://x.com/itspdfu"
+        },
+        {
+          "title": "9to5Mac: Apple confirms macOS 27 Golden Gate launch date September 14",
+          "url": "https://9to5mac.com/2026/09/09/apple-confirms-macos-27-golden-gate-launch-date-september-14/"
+        },
+        {
+          "title": "MacRumors: macOS Golden Gate release date",
+          "url": "https://www.macrumors.com/2026/09/10/macos-27-golden-gate-release-date/"
+        },
+        {
+          "title": "Apple: Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27",
+          "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/"
+        },
+        {
+          "title": "POLITICO: Apple blames EU rules as it withholds new Siri AI from European devices",
+          "url": "https://www.politico.eu/article/apple-blames-eu-rules-as-it-withholds-new-siri-ai-from-european-devices/"
+        },
+        {
+          "title": "MacObserver: Siri AI EU exclusion and the DMA proposal Apple says regulators rejected",
+          "url": "https://www.macobserver.com/news/siri-ai-eu-exclusion-dma-proposal-regulators-rejected/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, iOS 27 and macOS 27 Golden Gate are the public software drop. The headline assistant is Siri AI. The code drop is quieter. Developer pdfu, writing as @itspdfu, posted videos on 13 September from the Golden Gate release candidate. MacRumors, AppleInsider, and 9to5Mac all confirmed the same two private hooks today. One is a Model Delegation API in App Intents. The other is an Inference Providing protocol in Model Manager Services.",
+            "Model Delegation is the Siri extension path. In the demo, Claude appears in Siri's Ask menu the way the built-in ChatGPT extension already does. The user picks Ask Claude, asks it to set a reminder, and Siri creates the reminder. Replies are prefixed Claude. A follow-up demo has Claude return a CSV file, a job Siri AI still cannot do. A MacRumors Forums write-up from the same researcher says the extension implements Apple's internal AgentIntent, receives an IntentPrompt, and is gated by the private entitlement com.apple.developer.model-delegation. It also says the same extension can run across Siri AI, Writing Tools, Visual Intelligence, and the Use Model Shortcut action, and that Image Playground is out because Claude has no native image generator.",
+            "Inference Providing is the deeper cut. In the second video, an app extension replaces Siri AI's server model with GPT-5.6 Terra. ChatGPT receives Apple's native Siri planner prompt and tool definitions. It can call system actions, receive the resulting personal data, and hand an answer back that Siri presents with its own interface and voice. The example is find these emails, summarize the action points, then send a Messages note to a contact. MacRumors is explicit that Claude is not in the Ask menu of the Golden Gate release candidate, and that Apple has not opened the model-delegation entitlement to third parties. Score two working private APIs. Do not score a Settings toggle."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is not the [Siri AI EU delay](/blog/siri-ai-eu-delay-ios-27-dma). That briefing is about who does not get the assistant on iPhone and iPad. This one is about who the assistant can call once it is running. Apple already ships a ChatGPT fallback. Model Delegation makes that fallback a first-class Ask target. Inference Providing goes further: the third-party model becomes the planner. Siri keeps the chrome. That is a distribution fight, not a model-card fight.",
+            "The Digital Markets Act is why the hooks exist even if they stay dark. Apple's June newsroom post said EU regulators wanted any AI system to reach the same device actions as Siri AI. Apple proposed a Trusted System Agent and an 18-month rollout. The Commission, via spokesman Thomas Regnier, called that an exemption request and said the decision not to ship Siri AI on EU iPhone and iPad is Apple's. Today's code does not settle that argument. It shows Apple already built two interoperability surfaces. 9to5Mac's take is that the choice may land only in the EU. Treat that as a guess until Apple publishes a region list.",
+            "Buyers should also keep the meter in view. [Apple Intelligence daily limits](/blog/apple-intelligence-daily-limits-unpriced-fee) already sit on server-side Siri AI with an unpriced future fee. A Claude or GPT-5.6 Terra backend does not erase that quota, and it may add a second bill from Anthropic or OpenAI. [Grok in Microsoft Copilot](/blog/grok-microsoft-copilot-word-excel-powerpoint) is the comparison: a third-party model inside someone else's shell, off by default, and blocked in the EU. Apple has the shell. It has not published the on switch, the region, or the price."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/siri-model-delegation-stack.svg",
+            "alt": "Diagram of three Siri third-party model doors on 14 September 2026: the built-in ChatGPT Ask extension visible in the macOS Golden Gate release candidate, a private Model Delegation entitlement used to demo Ask Claude, and an Inference Providing protocol that can replace Siri's server model with GPT-5.6 Terra",
+            "caption": "ChatGPT Ask is on the release candidate. Claude and the GPT-5.6 Terra backend swap are still Apple's keys."
+          },
+          "paragraphs": [
+            "Mac users on Golden Gate feel the visible half first. The release candidate already exposes ChatGPT in the Ask menu. Both pdfu demos run on a Mac. AppleInsider notes that ChatGPT can already control Messages on a Mac, and that iPhone still blocks that path. Advanced Siri AI features still need Apple silicon Macs with M3 or later and 12GB of memory, per 9to5Mac's compatibility note. Do not assume an M1 Mac, or an iPhone 11 that can install iOS 27, gets the same planner swap.",
+            "Anthropic and OpenAI sit one layer up. Ask Claude, if Apple ever entitles it, is a new on-device distribution channel for Claude, including [Claude Fable](/blog/claude-fable-5-1-mythos-trusted-access) class work that Siri cannot do, such as writing a CSV. Inference Providing is the more dangerous gift: GPT-5.6 Terra receiving Siri's tool list is closer to [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use than to a chat extension. The [OpenAI Agents API](/blog/openai-agents-api-codex-harness) already sells a hosted harness. Apple's version would put that harness behind Siri's voice. Neither lab has a published Apple entitlement today.",
+            "EU users and app vendors are in the blast radius. The [Siri AI EU delay](/blog/siri-ai-eu-delay-ios-27-dma) still withholds the assistant on iPhone, iPad, and Watch. A private Mac demo does not reopen those platforms. Phone-agent vendors should also keep [Doubao's SAEP refuse switch](/blog/doubao-phone-assistant-saep-protocol) in a different bucket: that is an app declaring it will not be GUI-driven. Apple's Model Delegation is the opposite design, an Apple-signed door into Siri. Until the entitlement is public, treat every third-party Siri agent as a research build, not a shipping product."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: MacRumors, AppleInsider, and 9to5Mac on 14 September 2026 reported pdfu's 13 September videos of private Siri hooks in iOS 27 and macOS Golden Gate. Fact: Model Delegation, in App Intents, can put Claude in Siri's Ask menu and relay system actions such as Reminders back to Siri. Fact: Inference Providing, in Model Manager Services, can replace Siri's server model with GPT-5.6 Terra, which then receives Apple's planner prompt and tool definitions. Fact: MacRumors says the Ask implementation on the Golden Gate release candidate is limited to the ChatGPT extension, Claude is not available, and Apple has not opened the model-delegation entitlement. Fact: iOS 27 and macOS 27 Golden Gate are the public release dated 14 September 2026. Fact: Apple's June DMA post still withholds Siri AI from EU iPhone and iPad, with no timeline.",
+            "Prediction: Apple will document Model Delegation as an EU interoperability surface before it ships as a global Settings picker. Prediction: the first entitled third party after ChatGPT will be Claude, because the Ask menu and AgentIntent path are already demonstrated, not Gemini or Grok. Prediction: Inference Providing will stay private longer than Model Delegation, because handing Siri's planner and personal data to GPT-5.6 Terra is the DMA fight Apple said it would not dump raw. Do not staff a Siri-replacement program on an entitlement Apple has not issued."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Settings, Apple Intelligence and Siri, grows an Ask provider list after today's public builds, or only ChatGPT remains. Watch whether Apple publishes the model-delegation entitlement, an Inference Providing entitlement, or a Trusted System Agent spec. Watch whether the EU iPhone carve-out moves once a third-party assistant can actually complete Reminders and Messages through Siri. Watch whether Claude, Gemini, or Grok is named in an Apple partner note. Watch whether Apple Intelligence daily limits apply to delegated models, and who bills the overflow. And watch whether the Golden Gate ChatGPT Ask path is the only thing that actually ships this week."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "Can you replace Siri with Claude or ChatGPT on iOS 27? Not as a user-facing switch today. iOS 27 and macOS Golden Gate contain private hooks that let a Siri extension call Claude and let an inference provider replace Siri's server model with GPT-5.6 Terra. MacRumors says Apple has not opened the model-delegation entitlement, and the Golden Gate release candidate only exposes ChatGPT in the Ask menu.",
+            "What is the Siri Model Delegation API? It is a private App Intents API. An entitled extension implements AgentIntent, appears in Siri's Ask menu, and can relay device actions such as Reminders back to Siri AI. pdfu demonstrated Ask Claude this way on a Mac. Replies are prefixed Claude. The entitlement name reported on the MacRumors Forums thread is com.apple.developer.model-delegation.",
+            "What is Apple's Inference Providing protocol for Siri? It sits in Model Manager Services. An app extension can replace Siri AI's server-side model. In the demo, GPT-5.6 Terra receives Apple's Siri planner prompt and tool definitions, can perform system actions, and Siri still presents the answer. That is a backend swap, not a chat overlay.",
+            "Is Ask Claude available in macOS Golden Gate today? No. MacRumors says the Ask implementation on the release candidate is limited to the built-in ChatGPT extension. Claude is not a shipping Siri provider. The working Claude demo used a private entitlement and a companion process, not an App Store toggle.",
+            "Does Siri Model Delegation satisfy the Digital Markets Act? Apple has not said so. The [Siri AI EU delay](/blog/siri-ai-eu-delay-ios-27-dma) still withholds Siri AI from EU iPhone and iPad. Today's code shows Apple built interoperability surfaces. It does not show a Commission-accepted spec, a public SDK, or a timeline for EU mobile."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "softbank-openai-11-9-billion-loan",
       "title": "SoftBank OpenAI Loan: $11.9 Billion Against a $65 Billion Bet",
       "excerpt": "Bloomberg says SoftBank sealed an $11.87 billion two-year OpenAI loan, up from a $10 billion target. Tomorrow it prepays $25.9 billion. A $10 billion tranche is still due 1 October.",
