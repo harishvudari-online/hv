@@ -1,0 +1,43 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Projection sampling versus MIT HardFlow</title>
+  <desc id="desc">Diagram comparing per-step projection, which constrains every sample, with HardFlow, which enforces hard constraints only on the final output.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="80" cy="80" r="180" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1120" cy="560" r="200" fill="#1BE7FF" fill-opacity="0.12"/>
+  <rect x="56" y="48" width="1088" height="534" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="96" y="104" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Two ways to enforce hard constraints</text>
+  <text x="96" y="142" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Only the finished sample has to be legal. Intermediate noise does not.</text>
+
+  <rect x="96" y="180" width="480" height="340" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.45" stroke-width="2"/>
+  <text x="124" y="226" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Projection during sampling</text>
+  <rect x="124" y="250" width="84" height="36" rx="8" fill="#12355A"/>
+  <text x="140" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">t=0</text>
+  <rect x="232" y="250" width="84" height="36" rx="8" fill="#12355A"/>
+  <text x="248" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">t=1</text>
+  <rect x="340" y="250" width="84" height="36" rx="8" fill="#12355A"/>
+  <text x="356" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">t=2</text>
+  <rect x="448" y="250" width="84" height="36" rx="8" fill="#12355A"/>
+  <text x="460" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">final</text>
+  <text x="124" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Force every step onto the safe set</text>
+  <text x="124" y="362" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Prunes the search space too early</text>
+  <text x="124" y="394" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Often longer paths, more collisions</text>
+  <text x="124" y="448" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Constraint: pathwise feasibility</text>
+  <text x="124" y="480" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Quality is an afterthought</text>
+
+  <rect x="624" y="180" width="480" height="340" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="652" y="226" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">HardFlow terminal control</text>
+  <rect x="652" y="250" width="84" height="36" rx="8" fill="#0B3A58"/>
+  <text x="668" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">t=0</text>
+  <rect x="760" y="250" width="84" height="36" rx="8" fill="#0B3A58"/>
+  <text x="776" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">t=1</text>
+  <rect x="868" y="250" width="84" height="36" rx="8" fill="#0B3A58"/>
+  <text x="884" y="274" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">t=2</text>
+  <rect x="976" y="250" width="84" height="36" rx="8" fill="#1BE7FF"/>
+  <text x="988" y="274" fill="#06142A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">final</text>
+  <text x="652" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Let the path wander, land in the set</text>
+  <text x="652" y="362" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Also minimize path length and cost</text>
+  <text x="652" y="394" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">1.00 safety rate on MIT robot trials</text>
+  <text x="652" y="448" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Constraint: terminal feasibility</text>
+  <text x="652" y="480" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Safety and quality in one optimizer</text>
+</svg>
