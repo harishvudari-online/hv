@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NVIDIA CUDA-Q Logical ships for fault-tolerant quantum codesign</title>
+  <desc id="desc">Editorial illustration of NVIDIA shipping CUDA-Q Logical on 14 September 2026, with Fermilab cutting fault-tolerant algorithm development from five months to three weeks and Iceberg Quantum modeling 1,000 logical qubits on about 150,000 Diraq physical qubits.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1060" cy="560" r="250" fill="#7CFFB2" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">CUDA-Q Logical: codesign logical qubits in weeks</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">NVIDIA ships today  |  Fermilab 7x  |  Sandia QUOPS in CUDA-Q</text>
+
+  <rect x="118" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="148" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Fermilab</text>
+  <rect x="148" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="166" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Typical: about five months of special infra</text>
+  <text x="166" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">With CUDA-Q Logical: three weeks</text>
+  <text x="166" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">7x on architecture and algorithm codesign</text>
+  <text x="148" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Anna Grassellino: SQMS, not a production QPU</text>
+
+  <rect x="622" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="652" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Iceberg + Diraq</text>
+  <rect x="652" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="670" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">1,000 logical qubits in the model</text>
+  <text x="670" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">About 150,000 physical qubits</text>
+  <text x="670" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Roughly 10x fewer than prior Diraq estimates</text>
+  <text x="652" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">A resource model, not a shipped machine</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">Open orchestration for logical qubits. GitHub today. PyPI still calls it preview.</text>
+</svg>

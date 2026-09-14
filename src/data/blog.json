@@ -38,6 +38,130 @@
   ],
   "posts": [
     {
+      "slug": "nvidia-cuda-q-logical-fault-tolerant-quantum",
+      "title": "CUDA-Q Logical: Fermilab Cuts Quantum Codesign From Months to Weeks",
+      "excerpt": "NVIDIA shipped CUDA-Q Logical today, an open orchestration layer for logical qubits. Fermilab cut fault-tolerant algorithm development from five months to three weeks. Sandia QUOPS now lives in CUDA-Q.",
+      "category": "research",
+      "tags": [
+        "CUDA-Q Logical",
+        "NVIDIA CUDA-Q",
+        "logical qubits",
+        "QUOPS",
+        "Fermilab"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "CUDA-Q Logical 2026: NVIDIA Fault-Tolerant Quantum",
+        "metaDescription": "NVIDIA shipped CUDA-Q Logical today. Fermilab cut fault-tolerant algorithm development from five months to three weeks. Sandia QUOPS is in CUDA-Q.",
+        "keywords": [
+          "CUDA-Q Logical",
+          "NVIDIA CUDA-Q Logical",
+          "CUDA-Q Logical Fermilab",
+          "fault-tolerant quantum computing NVIDIA",
+          "logical qubits CUDA-Q",
+          "QUOPS Sandia CUDA-Q",
+          "Iceberg Quantum Diraq logical qubits",
+          "NVIDIA quantum GPU supercomputing",
+          "CUDA-Q Logical GitHub",
+          "NVQLink CUDA-Q"
+        ]
+      },
+      "image": {
+        "src": "/blog/nvidia-cuda-q-logical-hero.svg",
+        "alt": "Illustration of NVIDIA CUDA-Q Logical shipping on 14 September 2026 with Fermilab cutting fault-tolerant quantum codesign from five months to three weeks and Iceberg Quantum modeling 1,000 logical qubits on about 150,000 Diraq physical qubits",
+        "caption": "The news is a codesign loop, not a utility-scale machine. GitHub is open. PyPI still labels the logical API as preview."
+      },
+      "sources": [
+        {
+          "title": "NVIDIA Newsroom: NVIDIA expands open source CUDA-Q platform for fault-tolerant quantum computing",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-quantum-computing"
+        },
+        {
+          "title": "GlobeNewswire via StockTitan: NVIDIA CUDA-Q Logical helps Fermilab reach 7x speedup",
+          "url": "https://www.stocktitan.net/news/NVDA/nvidia-expands-open-source-cuda-q-platform-for-fault-tolerant-vgi37dfaotcc.html"
+        },
+        {
+          "title": "arXiv 2609.12146: Benchmarking the computational power of quantum computers (QUOPS)",
+          "url": "https://arxiv.org/abs/2609.12146"
+        },
+        {
+          "title": "PyPI: cudaq-logical 0.1.1 fault-tolerant logical resource estimation",
+          "url": "https://pypi.org/project/cudaq-logical/0.1.1/"
+        },
+        {
+          "title": "GitHub: NVIDIA/cuda-quantum open CUDA-Q platform",
+          "url": "https://github.com/NVIDIA/cuda-quantum/"
+        },
+        {
+          "title": "NVIDIA Developer: CUDA-Q platform for accelerated quantum supercomputing",
+          "url": "https://developer.nvidia.com/cuda-q"
+        },
+        {
+          "title": "NVIDIA CUDA-QX docs: CUDA-Q QEC quantum error correction library",
+          "url": "https://nvidia.github.io/cudaqx/components/qec/introduction.html"
+        },
+        {
+          "title": "NVIDIA Newsroom: NVQLink connecting quantum and GPU computing",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-nvqlink-quantum-gpu-computing"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, NVIDIA expanded the open source CUDA-Q platform with CUDA-Q Logical. The Toronto GlobeNewswire note, mirrored on NVIDIA's newsroom, calls it an orchestration layer for designing and testing fault-tolerant quantum applications that run on logical qubits. Timothy Costa, NVIDIA's vice president and general manager of quantum, said researchers need an open, customizable platform that can represent every part of a fault-tolerant system, not only a physical qubit count.",
+            "The named early users are Fermi National Accelerator Laboratory, Infleqtion, IQM Quantum Computers, QCDesign, Quantum Motion, and Sandia National Laboratories. Fermilab, in a quote from Anna Grassellino, CTO and director of the Superconducting Quantum Materials and Systems Center, said the team explored combinations of algorithm, error correction, architecture, and hardware in three weeks, against about five months of building specialized infrastructure. NVIDIA presents that as a 7x speedup on fault-tolerant algorithm and architecture development. It is a codesign calendar, not a claim that Fermilab now has a utility-scale QPU.",
+            "The same release adds Sandia's QUOPS benchmark to CUDA-Q. Iceberg Quantum used CUDA-Q Logical to model a fault-tolerant architecture for Diraq's qubits and reported that 1,000 logical qubits could be created with about 150,000 physical qubits, roughly 10x fewer than Diraq's previous estimates. CUDA-Q Logical is available on GitHub. The cudaq-logical Python package on PyPI, version 0.1.1, still says the tools are in preview and can change without notice. Score the ship date as software and a resource model, not as a new quantum computer."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Physical qubits are noisy. Logical qubits are the error-corrected units that drug discovery, financial modeling, and materials work actually need. NVIDIA's own framing is that a change to an algorithm, an error-correction code, a hardware architecture, or another QPU component can swing the resource bill. CUDA-Q Logical's job is to let labs swap those knobs without rebuilding a private toolchain each time. That is the same bottleneck the [evaluation and safety](/blog/ai-research-evaluation-and-safety-bottleneck) briefing named for generative models: you cannot pace a field if you cannot measure the thing you claim to have improved.",
+            "QUOPS is the measurement layer. Sandia's preprint, arXiv 2609.12146, defines a quantum universal operation performance system that scores the largest computationally relevant circuits a machine can run and the rate at which it can run them. On physical qubits the paper reports Google Willow at 216 QUOPS, IBM ibm boston at 204, Quantinuum H2-1 at 1,320, and Quantinuum Helios-1 at 1,504. Translating recognized utility-scale challenge problems into equivalent QUOPS circuit sizes, the authors say capability still has to grow by five orders of magnitude. A reference implementation now sits inside CUDA-Q. That is a hardware-agnostic yardstick next to vendor qubit-count slides.",
+            "The AI angle is the GPU coupling, not a chatbot. Diraq used NVIDIA Ising, which NVIDIA calls an open-model family for AI that helps quantum systems, to calibrate a silicon qubit processor. NVQLink remains the open architecture that ties QPUs to GPU supercomputers. Anyon Computing, Quandela, and Quantum Machines are named as NVQLink integrators in today's note. This sits beside [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub): open weights and open quantum software are the same distribution bet. It is not the same product as [Intern-S2 scientific agents](/blog/intern-s2-preview-397b-scientific-agents), which still run on classical GPUs."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/nvidia-cuda-q-logical-stack.svg",
+            "alt": "Diagram of NVIDIA CUDA-Q Logical orchestrating algorithm, error-correction, and hardware knobs, with Sandia QUOPS scoring utility-scale readiness and NVQLink coupling QPUs to GPU supercomputers",
+            "caption": "Swap the circuit, the QEC code, or the QPU. QUOPS is the independent score. NVQLink is the GPU pipe."
+          },
+          "paragraphs": [
+            "National labs feel it first. Fermilab now has a repeatable workflow instead of a five-month special build. Sandia gets QUOPS in the same platform the QPU vendors already use. Timothy Proctor, co-director of Sandia's Quantum Performance Laboratory, said the lab needs to track and forecast capability so partners move faster. Buyers at DOE and other science agencies should ask for QUOPS scores, not only qubit counts, the way [HardFlow](/blog/mit-hardflow-safety-critical-generative-ai) asks for evidence on generative systems that sit on a plant floor.",
+            "QPU vendors sit one layer up. Iceberg Quantum's Diraq model is a resource estimate: 1,000 logical qubits on about 150,000 physical qubits. It is not a rack you can order. Infleqtion, IQM, QCDesign, and Quantum Motion are named as CUDA-Q Logical users. Google, IBM, and Quantinuum already appear in the QUOPS preprint on physical qubits, with a small logical-qubit Helios-1 experiment using up to eight [[7,1,3]] encoded qubits. Those numbers will be compared. They will also be gamed. Independent reruns matter more than NVIDIA's press page.",
+            "Enterprise AI teams are not the first customer. Drug discovery and materials groups that already wrestle with [what is working in enterprise AI](/blog/enterprise-ai-adoption-what-is-working) should treat this as a five-year research option, not a 2026 inference SKU. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) still holds: policy and tooling lag the slogans. CUDA-Q Logical shortens the codesign loop. It does not retire GPU clusters, [Jalape\u00f1o](/blog/openai-jalapeno-inference-chip) samples, or [MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) CPUs."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: NVIDIA announced CUDA-Q Logical on 14 September 2026 as an orchestration layer inside open source CUDA-Q, available on GitHub. Fact: Fermilab's Anna Grassellino said the team explored algorithm, error-correction, architecture, and hardware combinations in three weeks versus about five months of specialized infrastructure, which NVIDIA calls a 7x speedup. Fact: Iceberg Quantum modeled 1,000 logical qubits on about 150,000 Diraq physical qubits, roughly 10x below prior Diraq estimates. Fact: Sandia QUOPS is in CUDA-Q, and arXiv 2609.12146 reports physical-qubit QUOPS scores of 216 for Willow, 204 for ibm boston, 1,320 for H2-1, and 1,504 for Helios-1, plus a five-order gap to utility-scale challenge problems. Fact: cudaq-logical 0.1.1 on PyPI is labeled preview.",
+            "Prediction: the first useful public artifact will be a QUOPS table that names a logical-qubit stack, not another physical-qubit leaderboard. Prediction: Iceberg's 150,000-physical-qubit figure will be rerun by Diraq or a third lab before it becomes a procurement number. Prediction: PyPI will drop the preview tag only after the compiler-bench-ftqc-logical target and the QEC decoder APIs stop moving. Do not staff a quantum roadmap on a 7x calendar that still has no utility-scale machine attached."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the CUDA-Q Logical paper NVIDIA linked from the newsroom, and whether it matches the GitHub APIs. Watch Sandia's IEEE Quantum Week talk and whether Google, IBM, and Quantinuum publish matching QUOPS runs. Watch whether Iceberg or Diraq open the 150,000-physical-qubit model. Watch cudaq-logical on PyPI for a version that drops the preview warning. Watch NVQLink demos that close the loop from a logical-qubit circuit to a live decoder inside qubit coherence time. And watch whether Fermilab publishes the three-week workflow, because a press quote is not a reproducible notebook."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is CUDA-Q Logical? It is an orchestration layer NVIDIA added to the open source CUDA-Q platform on 14 September 2026. It lets researchers compose algorithms, quantum error-correction codes, and hardware architectures for fault-tolerant applications that target logical qubits, then compare resource needs when those knobs change.",
+            "How much faster was Fermilab's workflow with CUDA-Q Logical? Anna Grassellino said Fermilab explored combinations of algorithm, error correction, architecture, and hardware in three weeks, compared with about five months of building specialized infrastructure. NVIDIA presents that as a 7x speedup. It is a codesign timeline, not a claim that a utility-scale quantum computer exists.",
+            "What is QUOPS? QUOPS is Sandia National Laboratories' quantum universal operation performance system. The arXiv 2609.12146 preprint measures the largest computationally relevant circuits a machine can execute and the rate of those operations. A reference implementation is now in NVIDIA CUDA-Q. Early physical-qubit scores include 216 for Google Willow, 204 for IBM ibm boston, 1,320 for Quantinuum H2-1, and 1,504 for Helios-1.",
+            "Did Iceberg Quantum and Diraq build 1,000 logical qubits? No. Using CUDA-Q Logical, Iceberg Quantum modeled a fault-tolerant architecture for Diraq's qubits and reported that 1,000 logical qubits could be created with about 150,000 physical qubits, roughly 10x fewer than prior Diraq estimates. That is a resource model, not a shipped processor.",
+            "Where can developers get CUDA-Q Logical? NVIDIA says it is available on GitHub through the CUDA-Q platform. The cudaq-logical package on PyPI, version 0.1.1, provides fault-tolerant logical resource estimation and still labels the tools as preview. CUDA-Q QEC documentation covers decoders and real-time syndrome APIs that sit next to the new logical layer."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "ai-standards-body-anthropic-openai-google",
       "title": "AI Standards Body: Anthropic, OpenAI, and Google Hold Talks",
       "excerpt": "CNN and The Information report Anthropic, OpenAI, and Google have discussed an AI standards body since July. Hassabis wants FINRA-style tests. There is still no charter, board, or start date.",
