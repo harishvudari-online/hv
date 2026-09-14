@@ -38,6 +38,131 @@
   ],
   "posts": [
     {
+      "slug": "amdkernelvault-hip-triton-kernel-agents",
+      "title": "AMDKernelVault: An 8B Model Beats GPT-5 on HIP Kernels",
+      "excerpt": "AMD researchers released AMDKernelVault, an open HIP and Triton kernel corpus for CDNA GPUs. A trained Qwen3-8B hits 34.0% PyTorch-to-HIP Pass@1. GPT-5 scored 24.0% under the same budget.",
+      "category": "research",
+      "tags": [
+        "AMDKernelVault",
+        "HIP",
+        "ROCm",
+        "Qwen3-8B"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "AMDKernelVault 2026: HIP Dataset, Qwen3-8B vs GPT-5",
+        "metaDescription": "AMDKernelVault is AMD's open HIP and Triton kernel corpus. A local Qwen3-8B hits 34% PyTorch-to-HIP Pass@1 versus GPT-5 at 24%. Dataset, code, and limits.",
+        "keywords": [
+          "AMDKernelVault",
+          "AMDKernelVault dataset",
+          "AMD GPU kernel optimization",
+          "HIPKernelGen",
+          "TritonKernelGen",
+          "Qwen3-8B HIP kernels",
+          "PyTorch to HIP Pass@1",
+          "ROCm kernel generation",
+          "AMD Triton kernels",
+          "GEAK AMD kernel agent",
+          "amd/AIG-Datasets Hugging Face",
+          "HIP kernel LLM"
+        ]
+      },
+      "image": {
+        "src": "/blog/amdkernelvault-hip-triton-hero.svg",
+        "alt": "Illustration of AMDKernelVault shipping 62,153 HIP samples and 39,893 Triton kernels, with a local Qwen3-8B scoring 34.0 percent PyTorch-to-HIP Pass@1 against GPT-5 at 24.0 percent",
+        "caption": "The dataset is the product. The 8B model is a proof that HIP data can live on-box."
+      },
+      "sources": [
+        {
+          "title": "arXiv: AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization (2609.12471)",
+          "url": "https://arxiv.org/abs/2609.12471"
+        },
+        {
+          "title": "arXiv HTML: AMDKernelVault paper (v1)",
+          "url": "https://arxiv.org/html/2609.12471v1"
+        },
+        {
+          "title": "Hugging Face: amd/AIG-Datasets GPU kernel collection",
+          "url": "https://huggingface.co/datasets/amd/AIG-Datasets"
+        },
+        {
+          "title": "GitHub: AMD-AGI/hip_kernel_llm_lab training and kernel-generation code",
+          "url": "https://github.com/AMD-AGI/hip_kernel_llm_lab"
+        },
+        {
+          "title": "PulseAugur: New dataset and framework aim to optimize AMD GPU kernels using AI",
+          "url": "https://pulseaugur.com/cluster/251989-new-dataset-and-framework-aim-to-optimize-amd-gpu-kernels-using-ai"
+        },
+        {
+          "title": "AMD: HIP programming guide",
+          "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/"
+        },
+        {
+          "title": "DOI: AMDKernelVault arXiv record",
+          "url": "https://doi.org/10.48550/arXiv.2609.12471"
+        },
+        {
+          "title": "KernelBench: Can LLMs Write Efficient GPU Kernels? (Ouyang et al., 2025)",
+          "url": "https://arxiv.org/abs/2502.10767"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 14 September 2026, arXiv listed AMDKernelVault as a new cs.CL paper. Ji Liu, Saptarshi Majumder, Yiqing Huang, Wenwen Ouyang, and colleagues at Advanced Micro Devices describe an open HIP and Triton kernel corpus for recent AMD CDNA GPUs, plus the pipelines that built it. PulseAugur dated the same announcement today. The weights sit on Hugging Face as amd/AIG-Datasets. Training and generation code sit on GitHub as AMD-AGI/hip_kernel_llm_lab.",
+            "The paper's headline counts are 62,153 execution-verified HIP kernel samples, 2,377 production-grounded ROCm Libraries QA entries from rocBLAS and rocSOLVER, and 39,893 Triton kernels. HIPKernelGen and TritonKernelGen start from PyTorch references, then generate, compile under ROCm, check numerical correctness, and profile latency on AMD hardware. Much of the HIP set was produced from August to December 2025 with GPT-5 as the generator. Retention depends on ROCm execution, not on which model wrote the first draft.",
+            "The second claim is a local model. The authors train Qwen3-8B with supervised fine-tuning and execution-aware reinforcement learning, then drop that one policy into a GEAK-style loop as generator, reflector, and optimizer. Under a fixed budget it posts 34.0% Pass@1 correctness on PyTorch-to-HIP, against GPT-5 at 24.0%. They are explicit that this is a corpus utility test, not a new RL algorithm, and that the 8B model does not uniformly win compilation or speed."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Kernel agents have been a CUDA story. KernelBench, Kevin, AutoTriton, and most public Triton loops assume NVIDIA warps, tiling constants, and CUDA compiler feedback. AMD's HIP looks similar on the page. Performant kernels still depend on ROCm compilation, wavefront width, LDS, coalescing, and matrix-core support. hipify can keep the API and still ship NVIDIA-shaped constants that fail or crawl on Instinct. AMDKernelVault is the first large public set that treats native ROCm compile, execute, and profile as the filter.",
+            "The cost argument is the other half. Existing kernel agents call a frontier model again for generation, reflection, and optimization. That bill, and the data-residency problem, is why private AMD shops cannot just wrap GPT-5. A compact policy that lives next to hipcc is the point. It sits beside, not instead of, the [chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). Buying MI300-class GPUs does not give you CUDA's kernel-writing ecosystem. This paper tries to manufacture that missing data.",
+            "It is a different research object from [MIT HardFlow](/blog/mit-hardflow-safety-critical-generative-ai). HardFlow steers a sampler so a trajectory or image obeys a hard constraint. AMDKernelVault trains a code model so a HIP or Triton kernel compiles and matches a PyTorch reference. Both are execution-gated. Neither is a chatbot eval. Teams already stuck on the [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) should not confuse a refusal policy with a kernel correctness loop."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/amdkernelvault-benchmarks.svg",
+            "alt": "Diagram of AMDKernelVault scores showing Qwen3-8B at 34.0 percent PyTorch-to-HIP Pass@1, 33.2 percent TritonBench-G Corr@3, and 41.94 percent ROCmBench Corr@3, with Claude Sonnet 4 still ahead on ROCmBench compile and speed",
+            "caption": "Correctness is the win. Compilation and speed still belong to other models on the 31-kernel ROCm set."
+          },
+          "paragraphs": [
+            "ROCm kernel teams feel it first. If you translate PyTorch operators to HIP, or retune existing HIP, the paper's 200 KernelBench Level-1/2 tasks and 100 held-out HIP-to-HIP modules are the working test. The trained 8B model reaches 83.5% compile and 34.0% correct on translation, and 90% compile with 84% correct on HIP-to-HIP optimization. GPT-5 still leads that optimization set on correctness (87%) and Speed@10 (1.32x versus 1.14x). Use the 8B model to cut frontier calls. Do not retire GPT-5 on the last 16 points.",
+            "Triton-on-AMD teams sit one layer over. TritonBench-G (184 kernels) and ROCmBench (31 AMD-specific kernels) use a fixed 3-iteration OptimAgent-v2 protocol on MI355X. The trained Qwen3-8B hits 33.2% Corr@3 on TritonBench-G versus GPT-5 at 15.2% and Claude Sonnet 4 at 29.8%. On ROCmBench it leads correctness at 41.94%, while Sonnet 4 still leads Comp@3 (67.74% versus 58.06%) and speed (1.82x versus 1.61x). D5 kernels stay unsolved by every model in the table. A 31-kernel AMD set is a signal, not a procurement score.",
+            "Buyers of [OpenAI Jalape\u00f1o](/blog/openai-jalapeno-inference-chip), [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu), or AMD Instinct still need kernels that run. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) makes an AMD-hosted dataset on that hub a political object as well as a file. [Enterprise adopters](/blog/enterprise-ai-adoption-what-is-working) who already standardized on CUDA kernel agents should treat this as a second toolchain, with per-source licenses on the Hugging Face card, not as a drop-in CUDA replacement."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: arXiv posted AMDKernelVault (2609.12471) as submitted 11 September 2026 and listed it as new on 14 September, with authors at Advanced Micro Devices. Fact: the paper reports 62,153 execution-verified HIP samples, 2,377 ROCm Libraries QA entries, and 39,893 Triton kernels, with code at AMD-AGI/hip_kernel_llm_lab and data at amd/AIG-Datasets. Fact: Qwen3-8B trained with SFT and RL scores 34.0% PyTorch-to-HIP Pass@1 correctness versus GPT-5 at 24.0% on 200 KernelBench tasks, 33.2% TritonBench-G Corr@3 versus GPT-5 at 15.2%, and 41.94% ROCmBench Corr@3. Fact: Claude Sonnet 4 still leads ROCmBench compilation and speed. Fact: the authors say they did not run a corpus-wide semantic near-duplicate audit, did not aggregate rejection rates, and do not uniformly win compile or speed. Fact: Hugging Face v0.2 also publishes a 14,282-entry HIP-AICUDA subset that the paper says was not used in the reported training.",
+            "Prediction: the useful artifact for most teams will be the validated HIP and Triton pairs, not the 8B checkpoint, until someone ships a supported serving recipe. Prediction: CUDA kernel agents stay default outside AMD-only clusters. Prediction: independent reproduction on a held-out operator family will cut the headline Pass@1 before it rises. Do not staff a HIP migration on 34% correctness."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether AMD publishes the trained Qwen3-8B weights, or only the data and training recipes. Watch independent KernelBench and TritonBench-G reruns on MI325X versus MI355X, because the paper's Triton inference used MI355X and the corpus targeted gfx942 and gfx950. Watch D4 and D5: Sonnet 4 still solves more D4 kernels (18 of 84 versus 13), and D5 is empty. Watch license notes on each upstream subset before you train. Watch whether NVIDIA-owned Hugging Face ranking changes how findable amd/AIG-Datasets stays. And watch profiler-guided feedback, which the authors already flag as the next gap. A kernel that matches atol 1e-4 is not yet a production GEMM."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is AMDKernelVault? It is an open HIP and Triton kernel corpus and training framework from AMD researchers for recent CDNA GPUs. The paper reports 62,153 execution-verified HIP samples, 2,377 rocBLAS and rocSOLVER QA entries, and 39,893 Triton kernels, plus HIPKernelGen and TritonKernelGen pipelines that compile and test candidates under ROCm.",
+            "Does AMDKernelVault replace CUDA kernel agents? No. The authors position it as the AMD-native counterpart to CUDA-centric datasets such as KernelBench derivatives. hipify is not treated as sufficient. Teams on NVIDIA GPUs still use CUDA loops. Teams on Instinct get a local data path they did not have.",
+            "How did Qwen3-8B compare with GPT-5 on HIP kernels? On 200 KernelBench Level-1/2 PyTorch-to-HIP tasks, the SFT plus RL Qwen3-8B reached 34.0% Pass@1 correctness and 83.5% compile accuracy. GPT-5 reached 24.0% correctness and 75.5% compile. On HIP-to-HIP optimization, GPT-5 still led correctness (87% versus 84%) and Speed@10 (1.32x versus 1.14x).",
+            "Where can I download AMDKernelVault? The dataset is on Hugging Face as amd/AIG-Datasets, with v0.2 as the unified-schema release. Training, RL, and kernel-generation code is on GitHub at AMD-AGI/hip_kernel_llm_lab. The paper and DOI are arXiv 2609.12471.",
+            "Is the 8B model ready for production HIP kernels? No. Expert-level and D5 kernels remain unsolved. Common failures include tile sizes on unusual shapes, multi-stage reduction sync, and AMD wavefront coalescing. The authors tell readers to validate generated kernels in the target environment before production use."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "microsoft-mai-code-of-conduct-consultation",
       "title": "Microsoft MAI Code of Conduct Opens for Public Consultation",
       "excerpt": "Satya Nadella said Microsoft will publish a Code of Conduct for first-party MAI models today. The pledge covers Humanist Superintelligence, embedded evaluators, and enterprise-owned weights. The customer services code is a different document.",
@@ -157,7 +282,7 @@
         }
       ]
     },
-{
+    {
       "slug": "grok-4-8-release-date",
       "title": "Grok 4.8 Release Date: A 2.5T Model With No API",
       "excerpt": "Elon Musk named Grok 4.8 on 13 September as a 2.5 trillion parameter model on a new C++ stack. Training finishes this week, then RL. xAI still ships Grok 4.6. Grok 4.7 has no model card.",

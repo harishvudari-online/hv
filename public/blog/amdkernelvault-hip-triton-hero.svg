@@ -1,0 +1,33 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AMDKernelVault HIP and Triton kernel corpus with Qwen3-8B vs GPT-5</title>
+  <desc id="desc">Editorial illustration of AMDKernelVault shipping an open HIP and Triton kernel dataset for AMD CDNA GPUs, with a local Qwen3-8B scoring 34.0 percent PyTorch-to-HIP Pass@1 against GPT-5 at 24.0 percent.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1060" cy="560" r="250" fill="#FF9B80" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">AMDKernelVault: HIP kernels without a frontier API</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">arXiv 2609.12471  |  14 Sep 2026  |  AMD CDNA, HIP, Triton, ROCm</text>
+
+  <rect x="118" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="148" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Open corpus</text>
+  <rect x="148" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="148" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="166" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">62,153 execution-verified HIP samples</text>
+  <text x="166" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">39,893 Triton kernels plus 2,377 ROCm QA</text>
+  <text x="166" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">HIPKernelGen and TritonKernelGen loops</text>
+  <text x="148" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Weights and code: Hugging Face plus AMD-AGI GitHub</text>
+
+  <rect x="622" y="210" width="460" height="270" rx="22" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="652" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Local 8B vs GPT-5</text>
+  <rect x="652" y="282" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="334" width="400" height="40" rx="10" fill="#12355A"/>
+  <rect x="652" y="386" width="400" height="40" rx="10" fill="#12355A"/>
+  <text x="670" y="308" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Qwen3-8B SFT+RL: 34.0% PyTorch-to-HIP Pass@1</text>
+  <text x="670" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">GPT-5: 24.0% correctness, 75.5% compile</text>
+  <text x="670" y="412" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">TritonBench-G Corr@3: 33.2% vs 15.2%</text>
+  <text x="652" y="456" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Speed and compile still go to other models</text>
+
+  <text x="118" y="534" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18">The dataset is the product. The 8B model is a proof that HIP data can live on-box.</text>
+</svg>
