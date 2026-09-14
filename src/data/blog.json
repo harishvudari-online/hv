@@ -38,6 +38,111 @@
   ],
   "posts": [
     {
+      "slug": "bodhan-ai-indic-language-models",
+      "title": "Bodhan AI: IIT Madras Opens Indic Language Models",
+      "excerpt": "IIT Madras Bodhan AI, AI4Bharat, and NVIDIA shipped four open-weight Indic models. Speech, translation, TTS, and OCR sit under the Bharat EduAI Stack. The bet is one public layer, not another chatbot.",
+      "category": "models",
+      "tags": [
+        "Bodhan AI",
+        "Indic language models",
+        "Bharat EduAI Stack",
+        "AI4Bharat"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Bodhan AI Indic Models 2026: IIT Madras NVIDIA",
+        "metaDescription": "Bodhan AI from IIT Madras shipped four open-weight Indic language models with AI4Bharat and NVIDIA. Bharat EduAI Stack, Tutor Bot, and what teams should ship.",
+        "keywords": [
+          "Bodhan AI",
+          "Indic language AI models",
+          "Bharat EduAI Stack",
+          "IIT Madras AI models",
+          "AI4Bharat NVIDIA"
+        ]
+      },
+      "image": {
+        "src": "/blog/bodhan-ai-indic-hero.svg",
+        "alt": "Illustration of four Bodhan AI Indic language models: Transcribe, Speak, Translate, and OCR under the Bharat EduAI Stack",
+        "caption": "Four models, one public layer. Bodhan AI wants states and edtech firms to stop rebuilding speech and OCR for every language."
+      },
+      "sources": [
+        {
+          "title": "Economic Times: IIT Madras Bodhan AI launches four AI models for Indian languages",
+          "url": "https://economictimes.indiatimes.com/ai/ai-insights/iit-madras-bodhan-ai-launches-four-ai-models-for-indian-languages-in-partnership-with-ai4bharat/articleshow/133755779.cms"
+        },
+        {
+          "title": "Hindu Business Line: Bodhan AI and AI4Bharat launch open-weight Indic models",
+          "url": "https://www.thehindubusinessline.com/info-tech/bodhan-ai-launches-open-weight-foundational-ai-models-for-indic-languages/article71457810.ece"
+        },
+        {
+          "title": "Careers360: Bodhan AI open models as digital public goods",
+          "url": "https://news.careers360.com/iit-madras-bodhan-ai-ai4bharat-launches-four-open-models-indian-languages-digital-public-goods-sovereign-ai-student-teacher-bot"
+        },
+        {
+          "title": "Hugging Face: bodhan-ai/indic-transcribe-flex",
+          "url": "https://huggingface.co/bodhan-ai/indic-transcribe-flex"
+        },
+        {
+          "title": "Bodhan AI",
+          "url": "https://bodhan.ai/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "This week, IIT Madras-incubated Bodhan AI put a named stack under India's classroom AI bet. With AI4Bharat and NVIDIA, it released four open-weight Indic language models: Indic-Transcribe for speech recognition, Indic-Speak for text to speech, Indic-Translate for machine translation, and Indic-OCR for printed and handwritten documents. The models also ship as hosted endpoints on sovereign digital infrastructure. Coverage ran from 4 September through 12 September 2026, and was still moving on 14 September.",
+            "Bodhan AI is a Centre of Excellence in AI for Education, incubated at IIT Madras and supported by the Union Ministry of Education. Principal investigator Prof. Mitesh Khapra said the group built voice and vision models as digital public goods so every institution does not duplicate the same work. IIT Madras director Prof. V. Kamakoti put the political line in one sentence: India's AI journey cannot be built on technology alone. It must be built on technology that understands India.",
+            "The training stack is NVIDIA. Bodhan AI and AI4Bharat used the NeMo framework, including post-training of NVIDIA Nemotron 3.5 ASR for Indian languages, dialects, and accents. Inference is served with TensorRT-LLM and vLLM microservices. The two sides also said they will share datasets, training recipes, and evaluations for later Indic foundation models."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "English flagships still dominate the global scoreboard. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship), [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access), and [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) are not built first for Tamil worksheets, Hinglish classrooms, or Santali script. Bodhan AI is selling a different product: a shared Indic language layer that states, universities, and edtech firms can fine-tune instead of training ASR and OCR from scratch.",
+            "The weights are specific. Hugging Face lists Indic-Transcribe-Flex as a 1.2 billion parameter Canary-style model covering 27 languages: Indian-accented English, the 22 constitutionally recognized languages, Hindi dialects Chhattisgarhi and Haryanvi, plus Bhili and Bhojpuri. It offers native-script, mixed-script, and romanized output, plus built-in language identification. On the Voice of India benchmark, Flex posts an average word error rate of 11.3, against 21.1 for Gemini 3 Pro and 23.1 for Gemini 3 Flash. A sibling, Indic-Transcribe-Core, is tighter at 8.7 WER if you do not need the extra modes. Careers360 reports OCR at 23 languages, TTS at 23, and Bodhan-Translate at 22. Indic-OCR is described as reading print, handwriting, equations, and tables.",
+            "This is also a sovereignty story, not only a model card. It sits next to [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) in a useful way: the chipmaker is both buying the open-model hub and underwriting a national language stack. Japan's [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) play is a CPU you can trace. India's play, here, is language coverage you can host. Education applications built on the models stay free for learners, teachers, and partnering state governments. Commercial hosting for others is not a free-for-all. The Indic Open Model License on Transcribe-Flex asks for written sign-off before you run a public hosted service, unless you are nonprofit, government, or academic, or you release an equally capable open version within 90 days."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/bodhan-ai-indic-stack.svg",
+            "alt": "Diagram of the Bharat EduAI Stack from NVIDIA training through four Indic models to Student Tutor Bot and Teacher Assistant Bot",
+            "caption": "The stack is the product. Tutor Bot and Teacher Bot are proofs that the layer can teach, not only transcribe."
+          },
+          "paragraphs": [
+            "Edtech builders and state education departments are the first buyers. Instead of a new Tamil ASR project in Chennai and a separate Hindi OCR project in Lucknow, they can start from one open layer. Two apps already sit on top. Student Tutor Bot targets Classes 6 to 12 on NCERT and SCERT content, with text or voice in 22 Indian languages, including an interactive canvas for diagrams. Teacher Assistant Bot drafts lesson plans, worksheets, quizzes, and homework, and can score uploaded student work against a mark scheme. Bodhan AI says teachers stay in control: generated copy is a draft to review, edit, regenerate, or discard.",
+            "Startups and researchers get weights and hosted endpoints. Fine-tune for agriculture call centres or clinic intake if that is your product. Do not assume the classroom WER holds in far-field noise, overlapping speakers, or Bhili, which the model card flags as weak. If you need a consumer English voice agent with a published minute rate, that is still [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing), a different market.",
+            "Policy teams should read this as digital public infrastructure, with the usual test. Khapra's line, build with the ecosystem, not compete with it, only holds if the evals are public and the license does not quietly close the best checkpoint. Treat it like the rest of the [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck): a model card is not a classroom outcome until someone measures learning, not only WER."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Bodhan AI, with AI4Bharat and NVIDIA, released four open-weight Indic models covering speech recognition, speech generation, translation, and OCR, plus hosted endpoints on sovereign infrastructure. Fact: the models are framed as the Bharat EduAI Stack, a proposed public layer for education AI. Fact: Indic-Transcribe-Flex covers 27 languages, is 1.2 billion parameters, and reports 11.3 average WER on Voice of India, better than Gemini 3 Pro on that table. Fact: Student Tutor Bot and Teacher Assistant Bot launched on the same stack, with education uses kept free for learners, teachers, and partnering states. Fact: IIT Madras director V. Kamakoti backed the launch as technology that understands India.",
+            "Prediction: the models will show up first in state pilots and edtech wrappers, not as a ChatGPT rival. Prediction: the hard part will be license clarity for commercial APIs, per-language quality on low-resource scripts, and whether Teacher Bot stays a draft tool when districts want auto-grading at scale."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch which states actually plug Tutor Bot into SCERT content, and whether usage data comes back into training as Bodhan AI claims. Watch Hugging Face download and license terms as more checkpoints land besides Transcribe-Flex. Watch whether NVIDIA publishes Indic training recipes, or whether the partnership stays a press quote plus a chip SKU. Watch commercial API pricing for non-education use, because free for schools does not mean free for a bank's IVR. And watch independent Voice of India and OCR benches, including handwriting and math, before anyone treats this as a solved Indic stack."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Bodhan AI? Bodhan AI is an IIT Madras-incubated Centre of Excellence in AI for Education, backed by India's Ministry of Education. With AI4Bharat, it is building the Bharat EduAI Stack: open Indic language models and classroom tools meant to work as digital public infrastructure.",
+            "What Indic language models did Bodhan AI launch? Four foundational models: Indic-Transcribe for speech to text, Indic-Speak for text to speech, Indic-Translate for translation, and Indic-OCR for printed and handwritten documents. They are available as open weights and as hosted endpoints.",
+            "What is the Bharat EduAI Stack? It is Bodhan AI's name for a shared, sovereign technology layer for education AI in Indian languages. The idea is that schools, states, and startups reuse one speech, translation, and OCR layer instead of each building their own.",
+            "Are Bodhan AI models free for Indian schools? Educational applications built on the models stay free for learners, teachers, and partnering state governments. Open weights are available to developers under the Indic Open Model License, which adds conditions for large-scale commercial hosting."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "meta-project-ot-ai-job-cuts",
       "title": "Meta Project OT: AI Native Job Cuts Stopped at 8,000",
       "excerpt": "Meta's Project OT planned AI agents in place of staff and 60% cuts on some teams. After 8,000 May layoffs, Zuckerberg halted the November wave. The agent data did not keep up.",
