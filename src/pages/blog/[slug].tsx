@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import { ArrowLeft, Clock3, Newspaper } from "lucide-react";
 import { BlogCard } from "@/components/BlogCard";
+import { BlogFigure } from "@/components/BlogFigure";
 import { BlogStatus } from "@/components/BlogStatus";
 import { SiteFrame } from "@/components/SiteFrame";
 import { SiteHeader, ThemeToggle } from "@/components/SiteHeader";
@@ -39,6 +40,12 @@ export default function BlogArticlePage() {
             <meta property="og:description" content={post.seo.metaDescription} />
             <meta property="og:url" content={canonical} />
             <meta property="og:type" content="article" />
+            {post.image ? (
+              <>
+                <meta property="og:image" content={`https://harishvudari.online${post.image.src}`} />
+                <meta name="twitter:image" content={`https://harishvudari.online${post.image.src}`} />
+              </>
+            ) : null}
           </>
         ) : null}
       </Head>
@@ -72,9 +79,11 @@ export default function BlogArticlePage() {
                   </span>
                 </p>
                 <p className="lead">{post.excerpt}</p>
+                {post.image ? <BlogFigure image={post.image} priority /> : null}
                 {post.sections.map((section) => (
                   <section key={section.heading ?? section.paragraphs[0]} className="blog-article-section">
                     {section.heading ? <h2>{section.heading}</h2> : null}
+                    {section.image ? <BlogFigure image={section.image} /> : null}
                     {section.paragraphs.map((paragraph) => (
                       <p key={paragraph}>{paragraph}</p>
                     ))}

@@ -16,9 +16,16 @@ export type BlogSource = {
   url: string;
 };
 
+export type BlogImage = {
+  src: string;
+  alt: string;
+  caption?: string;
+};
+
 export type BlogSection = {
   heading?: string;
   paragraphs: string[];
+  image?: BlogImage;
 };
 
 export type BlogPost = {
@@ -36,6 +43,7 @@ export type BlogPost = {
   };
   sources: BlogSource[];
   sections: BlogSection[];
+  image?: BlogImage;
 };
 
 export type BlogCategory = {
