@@ -1331,6 +1331,25 @@ ul {
   gap: 0.3rem;
 }
 
+.blog-crumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.45rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.86rem;
+}
+
+.blog-crumb-sep {
+  opacity: 0.45;
+}
+
+.blog-article-section a,
+.blog-article .lead a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .blog-article {
   max-width: 760px;
 }
@@ -1386,9 +1405,6 @@ ul {
   margin-top: 1.5rem;
 }
 
-.blog-crumb {
-  margin-bottom: 0.6rem;
-}
 
 @keyframes meshFloat {
   0% {

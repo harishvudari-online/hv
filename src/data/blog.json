@@ -38,6 +38,111 @@
   ],
   "posts": [
     {
+      "slug": "openai-agents-api-codex-harness",
+      "title": "OpenAI Agents API: Codex Harness, Hosted Sandboxes, and the Third Meter",
+      "excerpt": "OpenAI's Agents API is in public beta. It is not a new model. It is the managed Codex harness, plus sandboxes, MCP, and a bill with three meters.",
+      "category": "tools",
+      "tags": [
+        "OpenAI Agents API",
+        "Codex",
+        "sandboxes",
+        "MCP",
+        "agents"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 8,
+      "seo": {
+        "metaTitle": "OpenAI Agents API 2026: Codex, Pricing, Sandboxes",
+        "metaDescription": "OpenAI Agents API public beta briefing: Codex harness, hosted sandboxes, MCP, subagents, and how token plus container pricing actually works for teams.",
+        "keywords": [
+          "OpenAI Agents API",
+          "Codex harness",
+          "OpenAI hosted sandbox",
+          "Agents API pricing",
+          "MCP agents",
+          "GPT-6 Astra agents"
+        ]
+      },
+      "image": {
+        "src": "/blog/openai-agents-api-hero.svg",
+        "alt": "Illustration of the OpenAI Agents API connecting a session, the Codex harness, and a hosted sandbox",
+        "caption": "The OpenAI Agents API is the Codex loop as a product: sessions, tools, and a place for the agent to run code."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: Introducing the Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "title": "OpenAI docs: Agents API quickstart",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/quickstart"
+        },
+        {
+          "title": "OpenAI docs: hosted sandboxes",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted"
+        },
+        {
+          "title": "OpenAI docs: MCP connections",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/tools/mcp"
+        },
+        {
+          "title": "OpenAI API pricing",
+          "url": "https://developers.openai.com/api/docs/pricing"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 10, 2026, OpenAI put the same harness that powers Codex behind a public Agents API. You create a session, pick a model, attach tools, and choose where code runs. Official samples default to gpt-6-astra. Requests need the OpenAI-Beta: agents=v1 header. The SDK adds it. Raw HTTP does not.",
+            "OpenAI hosts the loop: context, tool calls, retries, and session state. Compute is separate. The three options are an OpenAI-hosted Linux sandbox, your own infrastructure, or a partner sandbox. Hosted sandboxes start in /workspace, can install Python and Node packages, and publish files under /workspace/outputs as downloadable artifacts after a turn completes."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The useful jump is the product boundary. Teams have been bolting homemade agent loops onto chat APIs. The Agents API sells the loop: tool search so you do not dump every function definition into the prompt, programmatic tool calling so the agent can fan out in code, MCP connections, and parallel subagents. OpenAI documents a default cap of six concurrent subagents besides the coordinator.",
+            "That changes how [AI tools](/blog/new-ai-tools-that-actually-change-daily-work) get into production. A chat window drafts. An Agents API session can write a file, run it, and keep going on the next turn. If keep-alives stop for an hour, a hosted sandbox can be deleted, so session lifetime is now part of reliability, not an afterthought."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/openai-agents-api-meters.svg",
+            "alt": "Diagram of three OpenAI Agents API cost meters: model tokens, tools, and hosted containers",
+            "caption": "There is no extra Agents API fee. The bill is tokens, tool calls, and container time. Idle sandboxes still meter."
+          },
+          "paragraphs": [
+            "Platform teams that were maintaining a custom harness now have a hosted option with an inspectable Codex core. Product teams that already route models should treat this as infrastructure, not as a reason to put Astra on every request. See our [GPT-6 Astra briefing](/blog/gpt-6-astra-computer-use-flagship) for the model-side list price and computer-use scores.",
+            "Security and finance teams are in the blast radius. Application keys need api.agents.read, api.agents.write, and api.responses.write, and those keys stay outside the sandbox. Hosted network access can be enabled, disabled, or limited to an allowlist of exact host names. That control decides whether an agent can reach production APIs."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: OpenAI says there is no extra Agents API fee. You pay model tokens, tool calls, and standard container rates for hosted sandboxes. Fact: the pricing page lists hosted containers at $0.03 for 1 GB, $0.12 for 4 GB, $0.48 for 16 GB, and $1.92 for 64 GB per 20-minute session, billed by the minute with a five-minute minimum. Fact: the public beta is available to developers now, and official samples use gpt-6-astra.",
+            "Prediction: most teams will overpay in the first quarter by leaving sandboxes idle and by using Astra as the default model. The teams that win will treat session lifetime and model routing the same way they already treat [token pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship): as a product metric, not as a surprise invoice."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether partner sandboxes match hosted file and artifact behavior. Watch data residency before you promise an EU-only deployment, because this beta is still a United States-centric product surface even when compute sits on your own machines. Watch DevDay on September 29 for a more packaged agent product on top of this API. Also watch GPT-Live-1, the $0.05 per minute full-duplex voice layer that can hand hard work to Astra through the same kind of harness."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the OpenAI Agents API? It is a public-beta interface for running long-lived agent sessions on the Codex harness. OpenAI hosts the loop. You supply the model, instructions, tools, and environment.",
+            "How much does the OpenAI Agents API cost? There is no separate Agents API SKU. You pay the selected model's token rates, built-in tool rates, and hosted container rates if you use an OpenAI sandbox. A 4 GB container is $0.12 per 20-minute session, billed by the minute with a five-minute minimum.",
+            "Do I have to use GPT-6 Astra with the Agents API? No. Official samples default to gpt-6-astra, but you choose the model. For volume work, a cheaper model plus a sandbox is usually the right default. Astra is for long-horizon coding and computer use.",
+            "Where can the agent run code? In an OpenAI-hosted Linux sandbox with Python and Node.js, on your own infrastructure, or in a partner sandbox. Hosted sandboxes start in /workspace. Keep API keys outside that environment.",
+            "How is this different from a chat or Responses API call? A chat call returns text. An Agents API session keeps state, calls tools, runs code, and can last across many turns. If you only need a draft, stay on a cheaper chat path. If you need an agent that writes and runs files, this is the product."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gpt-6-astra-computer-use-flagship",
       "title": "GPT-6 Astra: OpenAI's Flagship Is a Computer-Use Model",
       "excerpt": "OpenAI's new flagship is not just a smarter chatbot. It is a computer-use and coding model now rolling into ChatGPT, the API, Azure, and Bedrock.",
@@ -286,7 +391,7 @@
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability — not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
+            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability \u2014 not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
           ]
         }
       ]
@@ -350,7 +455,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: employers are already rewriting job descriptions around AI tools and asking for evaluation, prompt-to-product workflow, and systems thinking. Fact: several support and content operations teams have already reduced junior layers.",
-            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end — data, evals, fallbacks, and cost — more than people who only generate drafts."
+            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end \u2014 data, evals, fallbacks, and cost \u2014 more than people who only generate drafts."
           ]
         },
         {
@@ -409,7 +514,7 @@
         {
           "heading": "What changed for builders",
           "paragraphs": [
-            "Features that used to stay in internal demos — full-repo review, continuous research agents, meeting-to-ticket pipelines — are crossing into production because inference is cheaper and routing is better.",
+            "Features that used to stay in internal demos \u2014 full-repo review, continuous research agents, meeting-to-ticket pipelines \u2014 are crossing into production because inference is cheaper and routing is better.",
             "The winning architecture is rarely 'one frontier model for everything.' It is a router: cheap models for classification and extraction, mid-tier models for drafting, and expensive models only for high-stakes reasoning."
           ]
         },
@@ -467,7 +572,7 @@
           "heading": "The pattern that works",
           "paragraphs": [
             "The tools that stick are not generic chat windows. They are copilots with a privileged seat: the IDE, the ticket queue, the CRM, the browser tab where research already happens.",
-            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals — not another landing page."
+            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals \u2014 not another landing page."
           ]
         },
         {
@@ -544,7 +649,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: multiple labs now ship models that can use tools and long documents in production. Fact: distillation and smaller specialist models are doing more real traffic than keynote clips suggest.",
-            "Prediction: the next year rewards teams that version prompts, evals, and models together — the same way they already version APIs — more than teams that chase every launch."
+            "Prediction: the next year rewards teams that version prompts, evals, and models together \u2014 the same way they already version APIs \u2014 more than teams that chase every launch."
           ]
         }
       ]
@@ -720,7 +825,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: benchmark saturation and contamination are widely reported problems. Fact: regulators and large buyers are asking for documented risk processes, not vibes.",
-            "Prediction: the next prestige research area that product companies will hire for is evaluation science — people who can prove a system improved — not only people who can call a new API."
+            "Prediction: the next prestige research area that product companies will hire for is evaluation science \u2014 people who can prove a system improved \u2014 not only people who can call a new API."
           ]
         }
       ]
