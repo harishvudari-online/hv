@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI Jalapeño inference chip</title>
+  <desc id="desc">Editorial illustration of OpenAI Jalapeño, a 700W custom inference chip, compared with NVIDIA systems on work per watt.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#E85D4C" fill-opacity="0.14"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">OpenAI Jalapeño: an inference chip, not a GPU SKU</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Hot Chips 25 Aug 2026  |  Broadcom co-design  |  700W A0 samples</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#E85D4C" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="142" y="252" fill="#E85D4C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Work per watt</text>
+  <rect x="142" y="272" width="252" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="306" width="198" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="340" width="230" height="22" rx="6" fill="#12355A"/>
+  <text x="142" y="392" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">1.5x to 1.9x vs comparison</text>
+  <text x="142" y="422" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Peak throughput, three public models</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="472" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Latency</text>
+  <rect x="472" y="272" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="488" y="304" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">GPT-OSS 120B: ~1,400 tok/s/user</text>
+  <text x="488" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">DeepSeek R1: 700+ tok/s at c=1</text>
+  <text x="488" y="352" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">No MTP or speculative decode</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">1.7x to 3.6x lower end-to-end</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="802" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Status</text>
+  <rect x="802" y="272" width="252" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="300" width="210" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="328" width="236" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="356" width="168" height="18" rx="5" fill="#12355A"/>
+  <text x="802" y="402" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">A0 samples now, B0 in the fab</text>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Volume ramp targeted for 2027</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">InferenceX on GPT-OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">OpenAI supplied the numbers. SemiAnalysis watched some lab runs.</text>
+</svg>

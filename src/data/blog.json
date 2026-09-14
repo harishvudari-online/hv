@@ -38,6 +38,104 @@
   ],
   "posts": [
     {
+      "slug": "openai-jalapeno-inference-chip",
+      "title": "OpenAI Jalapeño Chip: First Results Beat NVIDIA on Watts",
+      "excerpt": "OpenAI's first custom inference chip posted 1.5 to 1.9 times more work per watt at Hot Chips. The A0 samples are real. Volume, and a fair NVIDIA fight, still sit in 2027.",
+      "category": "chips",
+      "tags": [
+        "OpenAI Jalapeño",
+        "AI chips",
+        "inference",
+        "NVIDIA"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "OpenAI Jalapeño Chip 2026: Benchmarks vs NVIDIA",
+        "metaDescription": "OpenAI's Jalapeño inference chip posted 1.5 to 1.9x more work per watt at Hot Chips. What A0 samples show vs NVIDIA, TCO vs Rubin, and when volume ships.",
+        "keywords": [
+          "OpenAI Jalapeño chip",
+          "OpenAI inference chip",
+          "Jalapeño vs NVIDIA",
+          "custom AI ASIC",
+          "OpenAI Broadcom chip"
+        ]
+      },
+      "image": {
+        "src": "/blog/openai-jalapeno-hero.svg",
+        "alt": "Illustration of the OpenAI Jalapeño inference chip showing work per watt, latency, and 2027 volume status",
+        "caption": "Jalapeño is a 700W inference ASIC, not a training GPU. OpenAI published the first InferenceX numbers on 25 Aug 2026."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: Jalapeño's first results",
+          "url": "https://openai.com/index/jalapeno-first-results/"
+        },
+        {
+          "title": "SemiAnalysis: OpenAI Jalapeño vs NVIDIA Blackwell and Rubin",
+          "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
+        },
+        {
+          "title": "THE DECODER: Jalapeño beats NVIDIA Blackwell and Rubin in inference benchmarks",
+          "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/"
+        },
+        {
+          "title": "TechRadar: OpenAI lifts the lid on its in-house Jalapeño chip",
+          "url": "https://www.techradar.com/pro/openai-lifts-the-lid-on-its-in-house-jalapeno-chip-with-benchmarks-claiming-it-beats-nvidias-gb300"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On August 25, 2026, OpenAI published the first results for Jalapeño, its first custom inference chip, at Hot Chips. The company designed the ASIC with Broadcom. Design work started in mid-2024. The CoWoS package taped out in November 2025. OpenAI says older models helped with the design, and current models sped up programming.",
+            "The published bake-off used SemiAnalysis InferenceX on three public models: GPT-OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. Across those rows, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. Interactive workloads were 2.1 to 4.1 times higher. GPT-OSS reached about 1,400 tokens per second per user. DeepSeek R1 topped 700 tokens per second at concurrency one. OpenAI supplied the numbers. SemiAnalysis watched some of the lab runs."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is not another GPU SKU. Jalapeño is an inference-only ASIC. It does not train. It is also not a private OpenAI-only kernel: SemiAnalysis says the chip is a general LLM inference accelerator, and the public models in the bake-off are not OpenAI flagships. The useful metric is tokens per megawatt, because OpenAI is power-limited, not cash-limited. A 700W package that holds sustained power at or below 550W on the tested loads is a datacenter story before it is a FLOPS story.",
+            "The NVIDIA comparison is the headline, and it needs a split. Blackwell is the easy win. Vera Rubin is the fairer rival because both use HBM4, and Rubin systems already ship. SemiAnalysis says Jalapeño still leads on output tokens per megawatt, even though the NVIDIA rows used multi-token prediction and Jalapeño did not. On total cost of ownership per token, the two land roughly even today. That is the live fight: watts now, dollars later, once speculative decoding lands on the OpenAI stack. It does not rewrite the broader [NVIDIA, AMD, TPU, and Trainium race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). It adds a lab-owned inference lane inside it."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/openai-jalapeno-compare.svg",
+            "alt": "Diagram comparing OpenAI Jalapeño with NVIDIA on watts, total cost of ownership, and shipping timelines",
+            "caption": "Score three things separately: work per watt, tokens per dollar, and whether the chip is in a rack customers can buy."
+          },
+          "paragraphs": [
+            "OpenAI's own serving fleet feels it first. More tokens per watt is how [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use traffic, voice minutes, and agent traces stay inside a power envelope. CFO Sarah Friar said Jalapeño complements NVIDIA, AMD, AWS, Cerebras, and CoreWeave rather than replacing them. Treat that as capacity planning, not a breakup. NVIDIA still sells OpenAI a lot of silicon. OpenAI now has a second supply of inference watts.",
+            "Buyers who want a Japan-origin, air-cooled CPU path should keep reading [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu). That is a sovereignty product. Jalapeño is a frontier-lab product. Cloud operators and GPU lessors should watch software bring-up more than the press chart. SemiAnalysis noted that OpenAI stood up a stack from zero in months, which is why the CUDA moat argument is in play. Model distribution is a different layer: [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) still sits on the hub side, not the serving ASIC."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: OpenAI published the 1.5x to 1.9x work-per-watt and 1.7x to 3.6x latency ranges on 25 August 2026 for the three public models above. Fact: Jalapeño A0 is rated at 700W, uses HBM4, and has not shipped beyond engineering samples. Fact: SemiAnalysis verified some InferenceX runs in person and still flags missing AgentX results, missing larger models such as DeepSeek V4 Pro and Kimi K3, and a Rubin fleet that already ships.",
+            "Prediction: the B0 stepping, which SemiAnalysis says is in the fab with about 25% better performance per watt, will matter more than the A0 press chart. Prediction: NVIDIA will not lose training share to Jalapeño this cycle. The fight is inference TCO inside OpenAI's own halls, then whether those kernels ever become a merchant SKU."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether end-of-2026 means a handful of racks or a named cluster. Watch AgentX and long-context cache behavior, because 8k-in/1k-out is an easier workload than agent traces. Watch speculative decoding on Jalapeño; SemiAnalysis treats that as leftover headroom versus Rubin. Watch B0 silicon and 2027 volume, not just A0 demos. And watch whether OpenAI keeps buying NVIDIA systems at scale. A custom chip that complements the GPU bill is a win. A custom chip that has to replace it, before yield and compilers are boring, is a risk."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the OpenAI Jalapeño chip? It is OpenAI's first custom AI inference ASIC, co-designed with Broadcom and shown at Hot Chips on 25 August 2026. It runs large language models. It does not train them. OpenAI says the architecture works on in-house and third-party models.",
+            "How does the OpenAI Jalapeño chip compare with NVIDIA? On the published InferenceX rows, Jalapeño delivered 1.5 to 1.9 times more work per watt than the comparison NVIDIA systems, with 1.7 to 3.6 times lower latency. SemiAnalysis says Vera Rubin is the fairer rival than Blackwell. Tokens per dollar currently land about even.",
+            "When will the OpenAI Jalapeño chip ship? OpenAI plans to start deploying Jalapeño in its own compute fleet by the end of 2026. SemiAnalysis and later coverage say volume ramps through 2027. What exists today is A0 engineering-sample silicon, with a B0 stepping already in the fab.",
+            "Does Jalapeño replace NVIDIA GPUs? No. OpenAI still partners with NVIDIA, AMD, AWS, and other suppliers. Jalapeño is an extra inference supply inside a power-limited fleet. Training-scale clusters, and chips customers can order this quarter, still sit on merchant GPUs, TPUs, and Trainium."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gemini-3-8-flash-agent-workhorse",
       "title": "Gemini 3.8 Flash: Google's Cheap Workhorse for Agents",
       "excerpt": "Google's third Flash drop in six weeks is generally available as gemini-3.8-flash. List price stays $0.75 and $3.75 per million tokens through 2026. The catch is token burn, a 2027 price cliff, and a cyber SKU only trusted defenders can buy.",
@@ -980,7 +1078,7 @@
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability \u2014 not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
+            "Watch memory capacity, high-speed interconnect, compiler quality, and actual cloud availability — not launch-day benchmarks. Also watch energy per token. The winners will be the chips that teams can buy this quarter and operate without a custom systems team."
           ]
         }
       ]
@@ -1044,7 +1142,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: employers are already rewriting job descriptions around AI tools and asking for evaluation, prompt-to-product workflow, and systems thinking. Fact: several support and content operations teams have already reduced junior layers.",
-            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end \u2014 data, evals, fallbacks, and cost \u2014 more than people who only generate drafts."
+            "Prediction: the next hiring wave will reward people who can own an AI workflow end-to-end — data, evals, fallbacks, and cost — more than people who only generate drafts."
           ]
         },
         {
@@ -1103,7 +1201,7 @@
         {
           "heading": "What changed for builders",
           "paragraphs": [
-            "Features that used to stay in internal demos \u2014 full-repo review, continuous research agents, meeting-to-ticket pipelines \u2014 are crossing into production because inference is cheaper and routing is better.",
+            "Features that used to stay in internal demos — full-repo review, continuous research agents, meeting-to-ticket pipelines — are crossing into production because inference is cheaper and routing is better.",
             "The winning architecture is rarely 'one frontier model for everything.' It is a router: cheap models for classification and extraction, mid-tier models for drafting, and expensive models only for high-stakes reasoning."
           ]
         },
@@ -1161,7 +1259,7 @@
           "heading": "The pattern that works",
           "paragraphs": [
             "The tools that stick are not generic chat windows. They are copilots with a privileged seat: the IDE, the ticket queue, the CRM, the browser tab where research already happens.",
-            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals \u2014 not another landing page."
+            "Cursor, Copilot-class coding tools, meeting-to-notes systems, and support assistants that can draft from approved knowledge bases are now ordinary. The differentiator is memory, permissions, and evals — not another landing page."
           ]
         },
         {
@@ -1238,7 +1336,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: multiple labs now ship models that can use tools and long documents in production. Fact: distillation and smaller specialist models are doing more real traffic than keynote clips suggest.",
-            "Prediction: the next year rewards teams that version prompts, evals, and models together \u2014 the same way they already version APIs \u2014 more than teams that chase every launch."
+            "Prediction: the next year rewards teams that version prompts, evals, and models together — the same way they already version APIs — more than teams that chase every launch."
           ]
         }
       ]
@@ -1414,7 +1512,7 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: benchmark saturation and contamination are widely reported problems. Fact: regulators and large buyers are asking for documented risk processes, not vibes.",
-            "Prediction: the next prestige research area that product companies will hire for is evaluation science \u2014 people who can prove a system improved \u2014 not only people who can call a new API."
+            "Prediction: the next prestige research area that product companies will hire for is evaluation science — people who can prove a system improved — not only people who can call a new API."
           ]
         }
       ]
