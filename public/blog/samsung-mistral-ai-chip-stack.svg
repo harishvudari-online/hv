@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stackTitle stackDesc">
+  <title id="stackTitle">Samsung Mistral on-prem semiconductor AI stack</title>
+  <desc id="stackDesc">Diagram of Mistral Large inside Samsung Device Solutions for design, defect detection, equipment, and yield.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Four fab jobs, one on-prem stack</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Samsung keeps process data inside DS. Mistral supplies the model layer.</text>
+
+  <rect x="110" y="210" width="230" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65"/>
+  <text x="132" y="258" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Design</text>
+  <text x="132" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Chip design analysis</text>
+  <text x="132" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">DS engineering data</text>
+  <text x="132" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Shorter development cycles</text>
+  <text x="132" y="430" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">Mistral Large plus</text>
+  <text x="132" y="454" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">custom Samsung models</text>
+
+  <rect x="360" y="210" width="230" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="382" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Defects</text>
+  <text x="382" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Detection and prediction</text>
+  <text x="382" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Inspection streams</text>
+  <text x="382" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Faster fab data analysis</text>
+  <text x="382" y="430" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">Named use case in</text>
+  <text x="382" y="454" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">Samsung's own note</text>
+
+  <rect x="610" y="210" width="230" height="280" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5"/>
+  <text x="632" y="258" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Tools</text>
+  <text x="632" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Equipment optimization</text>
+  <text x="632" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Machine parameters</text>
+  <text x="632" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Process control loops</text>
+  <text x="632" y="430" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">On-prem enterprise</text>
+  <text x="632" y="454" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">stack, not a public API</text>
+
+  <rect x="860" y="210" width="230" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55"/>
+  <text x="882" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Yield</text>
+  <text x="882" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Stabilization target</text>
+  <text x="882" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Memory and logic first</text>
+  <text x="882" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Foundry in the longer plan</text>
+  <text x="882" y="430" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">No public yield delta</text>
+  <text x="882" y="454" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="14">Score the pilots, not the PR</text>
+</svg>
