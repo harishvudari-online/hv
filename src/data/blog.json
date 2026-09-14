@@ -38,6 +38,110 @@
   ],
   "posts": [
     {
+      "slug": "meta-project-ot-ai-job-cuts",
+      "title": "Meta Project OT: AI Native Job Cuts Stopped at 8,000",
+      "excerpt": "Meta's Project OT planned AI agents in place of staff and 60% cuts on some teams. After 8,000 May layoffs, Zuckerberg halted the November wave. The agent data did not keep up.",
+      "category": "jobs",
+      "tags": [
+        "Meta Project OT",
+        "AI jobs",
+        "Meta layoffs",
+        "AI agents"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Meta Project OT: AI Native Layoffs Halted After 8,000",
+        "metaDescription": "Meta Project OT planned 60% team cuts and AI agents in place of staff. After 8,000 May layoffs, Zuckerberg halted the November wave. What the data showed.",
+        "keywords": [
+          "Meta Project OT",
+          "Meta AI layoffs 2026",
+          "Meta AI native workforce",
+          "Zuckerberg AI agents jobs",
+          "Meta 8000 job cuts"
+        ]
+      },
+      "image": {
+        "src": "/blog/meta-project-ot-hero.svg",
+        "alt": "Illustration of Meta Project OT: AI native job-cut plan, 8,000 May layoffs, and the cancelled November wave",
+        "caption": "Project OT had three acts. Only the May cut shipped. The November wave died the night before."
+      },
+      "sources": [
+        {
+          "title": "Reuters: Mark Zuckerberg had a bold plan to replace Meta staff with AI",
+          "url": "https://www.reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/"
+        },
+        {
+          "title": "Reuters: Zuckerberg says AI agent tech progressing slower than expected",
+          "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/"
+        },
+        {
+          "title": "TechCrunch: Zuckerberg tells staff AI agents have not progressed as hoped",
+          "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/"
+        },
+        {
+          "title": "The Next Web: Meta planned to cut some teams by 60% and replace the work with AI",
+          "url": "https://thenextweb.com/news/meta-project-ot-ai-native-layoffs-cancelled"
+        },
+        {
+          "title": "Times of India: Zuckerberg ran a secret project to make Meta AI native",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/meta-ceo-mark-zuckerberg-ran-a-secret-project-to-make-the-company-ai-native-asked-teams-to-study-impact-of-/articleshow/134212125.cms"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Meta spent the first half of 2026 trying to become what internal planners called an AI native company. The effort had a code name, Project OT, short for Organization Transformation. Reuters, working from scores of internal documents and more than 20 people familiar with the company, reported that Mark Zuckerberg and senior leaders hatched it in January at the annual leadership retreat in Hawaii. The idea was simple and extreme. AI agents would take over much of the daily work thousands of employees still do. Smaller, talent-dense groups of humans would supervise those virtual workers.",
+            "In scenario exercises, executives looked at shrinking many teams by as much as 60%. Meta later confirmed that figure applied to some teams, not the whole company, and that the exercise mixed layoffs with redeployments. The plan ran in two waves: a first purge on 20 May 2026, then a second shake-up in November. On the night of 19 May, hours before the first notices went out, Zuckerberg cancelled planning for November. The next morning Meta still cut about 10% of staff, roughly 8,000 jobs, and moved about 7,000 people into AI roles, including Applied AI and an Agent Transformation group.",
+            "Four months later, the sequel is not another cut. Reporting this week says engineers in Applied AI, including former managers parked as individual contributors, are being offered a voluntary route back into management. That is the tell. Project OT tried to flatten the org chart around agents. Meta is now rebuilding a human layer the plan tried to delete."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is the clearest large-company case study yet of swapping headcount for agents and then blinking. Anthropic's [AI jobs 2030 scenarios](/blog/anthropic-ai-jobs-2030-econ-scenarios) model capability and adoption as separate knobs. Project OT turned those knobs inside one firm. Adoption happened: code changes to internal platforms jumped 220% year on year, Andrew Bosworth wrote in a June post Reuters reviewed. Capability that shows up for users did not match. Changes that reached people as new or upgraded features rose 36%.",
+            "The gap was not cosmetic. Internal posts said unchecked agents performed large-scale, disruptive actions humans are unlikely to execute. Major technical and security incidents, including service disruptions and possible data leaks, climbed 40%. Time spent firefighting them rose 70%. In June, attackers used Meta's AI customer support bot to reach high-profile Instagram accounts, including the dormant Obama White House page. Volume without supervision looks like productivity in a dashboard and like risk in production.",
+            "Buyers chasing the same swap should read this next to the [roles at risk and roles being created](/blog/ai-jobs-roles-at-risk-and-roles-being-created) briefing. Coding agents and computer-use models, from the [OpenAI Agents API](/blog/openai-agents-api-codex-harness) to [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship), can raise output. They do not automatically retire managers, incident owners, or people who decide what ships. Meta's own Pulse survey fell from 74% favorable to 55% as staff concluded they were training their replacements, including via keystroke and mouse-click capture that Meta later paused."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/meta-project-ot-gap.svg",
+            "alt": "Diagram of Meta Project OT results: 220 percent more code, 36 percent more user features, 40 percent more incidents, and 70 percent more firefighting time",
+            "caption": "Bosworth's June numbers split the story. Agents wrote more. Users saw less. On-call saw more."
+          },
+          "paragraphs": [
+            "Meta employees feel it first. About 8,000 people left in May. Others were sent to write software puzzles as training data, work many called rote. An internal AI-Native Playbook told product teams of 10 to 20 specialists to become pods of three to five builders, with middle management gone and unit heads watching 30 to 50 people, supported by HR and unspecified AI systems. Meta told Reuters that performance ratings and promotions were and are made by people, not AI. The people now being asked to manage again are the proof that the playbook was early.",
+            "Hiring managers outside Meta get a cheaper lesson than a 10% cut. Do not budget a second-wave reduction on agent demos. Watch feature output, incident load, and whether you still need a named owner for merge quality. Policy and labor teams get a live example of the caution in the [five-year outlook for business and society](/blog/five-year-outlook-ai-business-and-society): tools move faster than org charts, and org charts snap back when the tools miss. Investors watching Meta's at least $130 billion 2026 AI infrastructure spend should treat headcount as a lagging indicator of agent reliability, not a leading one."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Meta confirmed Project OT as a year-long effort on cost, team structure, and moving staff into priority AI work such as training data. Fact: it confirmed two waves and that the most drastic scenarios cut some teams by up to 60%, not 60% of the whole company. Fact: Zuckerberg cancelled the November wave on 19 May, then cut about 8,000 jobs on 20 May and said he did not expect other company-wide layoffs this year. Fact: Reuters reviewed internal data showing +220% internal code changes, +36% user-facing features, +40% major incidents, and +70% firefighting time. Fact: at a 2 July town hall, Zuckerberg said the trajectory of agentic development over at least the prior four months had not accelerated as expected, and that the new structure had not come to fruition yet.",
+            "Prediction: team-level cuts and 2027 remain open, because the promise was company-wide and this year, not a hiring freeze. Prediction: Applied AI will keep some former managers in IC seats and put others back on people problems, because agents still need supervisors. Prediction: other large firms will copy the May cut more often than they copy the November halt, until their own feature-versus-diff charts look like Meta's."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Applied AI actually restores manager seats, and how many. Watch whether Meta republishes a feature-output number that closes the 220% versus 36% gap. Watch incident and security metrics after the June support-bot breach, not launch-day agent demos. Watch the wording on layoffs: company-wide and this year still leaves team cuts and 2027. Watch [enterprise AI adoption](/blog/enterprise-ai-adoption-what-is-working) outside Meta for the same pattern, more diffs, more on-call, not fewer people. And watch whether the three-to-six-month payoff Zuckerberg flagged in July shows up before year end. If it does not, Project OT stays a case study in pacing people to a technology that was not ready."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Meta Project OT? Project OT, short for Organization Transformation, was Meta's 2026 plan to become AI native. Internal documents described agents taking over daily work, smaller talent-dense human teams supervising those agents, and two waves of restructuring in May and November.",
+            "Did Meta replace employees with AI agents in 2026? Not at the scale the scenarios implied. Meta cut about 8,000 jobs in May, moved about 7,000 people into AI work, and cancelled the November wave. Zuckerberg later said agent development had not accelerated as expected.",
+            "Did Meta plan to cut 60% of its workforce? No. Meta said the 60% figure applied to scenarios for some teams, mixed with redeployments, and that it never intended to lay off 60% of the entire company. Several major units sat outside the exercise.",
+            "Why did Mark Zuckerberg cancel the November 2026 layoffs? Reuters could not pin a single cause. The documented backdrop is employee revolt, weak agent productivity versus code volume, a spike in incidents, and a July admission that the reorganisation was mistimed. This week's reporting adds a practical sequel: some Applied AI engineers are being invited back into management."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "amazon-nova-premier-eol-bedrock",
       "title": "Amazon Nova Premier End of Life: Two Bedrock Models Die Today",
       "excerpt": "AWS Bedrock stops Nova Premier and original Nova Sonic today. Canvas and Reel follow on 30 September. Nova 2 Lite, Nova 2 Sonic, Forge, and Act stay. Migration is not automatic.",

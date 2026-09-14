@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Meta Project OT agent productivity gap</title>
+  <desc id="desc">Diagram of Meta internal AI agent results: 220 percent more code changes, 36 percent more user-facing features, 40 percent more incidents, and 70 percent more firefighting time.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="180" cy="80" r="220" fill="#00C2FF" fill-opacity="0.14"/>
+  <circle cx="1040" cy="560" r="240" fill="#FF7A59" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="124" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">The gap that stopped the second layoff wave</text>
+  <text x="118" y="162" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="17">Internal posts reviewed by Reuters. Meta declined to comment on the numbers.</text>
+
+  <rect x="118" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="138" y="240" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Code volume</text>
+  <text x="138" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">+220%</text>
+  <text x="138" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Internal platform</text>
+  <text x="138" y="328" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">changes, year on year</text>
+
+  <rect x="368" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="388" y="240" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">User features</text>
+  <text x="388" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">+36%</text>
+  <text x="388" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">New or upgraded</text>
+  <text x="388" y="328" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">features that shipped</text>
+
+  <rect x="618" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#FF7A59" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="638" y="240" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Incidents</text>
+  <text x="638" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">+40%</text>
+  <text x="638" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Major tech and</text>
+  <text x="638" y="328" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">security events</text>
+
+  <rect x="868" y="200" width="230" height="150" rx="16" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="888" y="240" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Firefighting</text>
+  <text x="888" y="272" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">+70%</text>
+  <text x="888" y="304" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Staff time spent</text>
+  <text x="888" y="328" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">fixing agent messes</text>
+
+  <rect x="118" y="380" width="980" height="140" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="148" y="430" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What this means for AI jobs, not just Meta</text>
+  <text x="148" y="464" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Volume is not value. Agents can raise diffs and incidents at the same time.</text>
+  <text x="148" y="492" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Headcount bets that assume agents replace managers still need a human layer to supervise and repair.</text>
+</svg>
