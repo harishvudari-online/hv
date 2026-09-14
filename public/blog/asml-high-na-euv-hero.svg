@@ -1,0 +1,46 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ASML High NA EUV production dates for Intel, Samsung, SK hynix, and TSMC</title>
+  <desc id="desc">Editorial illustration of ASML High NA EUV adoption: Intel in production now, memory makers in 2028, TSMC in 2030.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#FF7A59" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">ASML High NA EUV: the dates are now public</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">$200M EUV sold out through 2027. $400M High NA tools now have customer production dates.</text>
+
+  <rect x="118" y="210" width="230" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="140" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Intel</text>
+  <text x="140" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Live in HVM</text>
+  <text x="140" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Panther Lake layers</text>
+  <text x="140" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Intel 18A, Oregon</text>
+  <text x="140" y="400" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">1M+ wafers processed</text>
+  <text x="140" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">6-inch masks today</text>
+
+  <rect x="368" y="210" width="230" height="250" rx="20" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="390" y="258" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Samsung</text>
+  <text x="390" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">DRAM in 2028</text>
+  <text x="390" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Memory scaling first</text>
+  <text x="390" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">AI HBM pipeline</text>
+  <text x="390" y="400" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Earlier than expected</text>
+  <text x="390" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Logic still later</text>
+
+  <rect x="618" y="210" width="230" height="250" rx="20" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="640" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">SK hynix</text>
+  <text x="640" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">DRAM in 2028</text>
+  <text x="640" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">EXE:5200B at M16</text>
+  <text x="640" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">NA 0.55 vs 0.33</text>
+  <text x="640" y="400" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">1.7x smaller patterns</text>
+  <text x="640" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">2.9x density claim</text>
+
+  <rect x="868" y="210" width="230" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="890" y="258" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">TSMC</text>
+  <text x="890" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Logic in 2030</text>
+  <text x="890" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">AI transistor nodes</text>
+  <text x="890" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">12-inch masks later</text>
+  <text x="890" y="400" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Pilot line: 2031</text>
+  <text x="890" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Full systems: 2033</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">High NA prints features about 40% smaller than standard EUV. Micron ordered tools without a date.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">This is lithography capacity, not a GPU SKU. Score the year, not the press photo.</text>
+</svg>

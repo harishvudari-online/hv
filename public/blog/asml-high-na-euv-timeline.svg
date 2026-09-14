@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tlTitle tlDesc">
+  <title id="tlTitle">ASML High NA EUV timeline from Intel production to TSMC 2030</title>
+  <desc id="tlDesc">Timeline of ASML High NA EUV: Intel shipping now, memory makers in 2028, TSMC in 2030, 12-inch masks in 2031 to 2033.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Four dates, four different products</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Do not collapse Intel shipping, DRAM High NA, TSMC logic, and 12-inch masks into one event.</text>
+
+  <line x1="160" y1="320" x2="1040" y2="320" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="4"/>
+
+  <circle cx="200" cy="320" r="14" fill="#7CFFB2"/>
+  <text x="200" y="250" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Now</text>
+  <text x="200" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15" text-anchor="middle">Intel HVM</text>
+  <text x="200" y="370" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">Select 18A</text>
+  <text x="200" y="394" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">Panther Lake</text>
+  <text x="200" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">6-inch masks</text>
+
+  <circle cx="430" cy="320" r="14" fill="#FF9B80"/>
+  <text x="430" y="250" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">2027</text>
+  <text x="430" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15" text-anchor="middle">EUV sold out</text>
+  <text x="430" y="370" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">$200M NXE</text>
+  <text x="430" y="394" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">tools booked</text>
+  <text x="430" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">AI chip boom</text>
+
+  <circle cx="660" cy="320" r="14" fill="#74D7FF"/>
+  <text x="660" y="250" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">2028</text>
+  <text x="660" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15" text-anchor="middle">DRAM High NA</text>
+  <text x="660" y="370" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">Samsung</text>
+  <text x="660" y="394" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">SK hynix</text>
+  <text x="660" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">Micron: no date</text>
+
+  <circle cx="890" cy="320" r="14" fill="#1BE7FF"/>
+  <text x="890" y="250" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">2030</text>
+  <text x="890" y="278" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15" text-anchor="middle">TSMC logic</text>
+  <text x="890" y="370" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">AI nodes</text>
+  <text x="890" y="394" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">12-in 2031-33</text>
+  <text x="890" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">Not this GPU cycle</text>
+
+  <text x="110" y="490" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Fact: Intel is the only logic maker shipping High NA product today. Prediction: 2028 DRAM lands before 2030 foundry logic.</text>
+  <text x="110" y="522" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">A 12-inch mask pilot in 2031 does not move a 2027 cluster buy.</text>
+</svg>
