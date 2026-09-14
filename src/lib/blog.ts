@@ -45,3 +45,45 @@ export function selectRelated(posts: BlogPost[], post: BlogPost, count = 3): Blo
 export function isBlogCategoryId(value: string): value is BlogCategoryId {
   return BLOG_CATEGORIES.some((item) => item.id === value);
 }
+
+export type BlogFaqItem = {
+  question: string;
+  answer: string;
+};
+
+export function splitRichText(text: string): Array<{ type: "text"; value: string } | { type: "link"; label: string; href: string }> {
+  const parts: Array<{ type: "text"; value: string } | { type: "link"; label: string; href: string }> = [];
+  const pattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null = pattern.exec(text);
+  while (match) {
+    const index = match.index;
+    if (index > lastIndex) {
+      parts.push({ type: "text", value: text.slice(lastIndex, index) });
+    }
+    parts.push({ type: "link", label: match[1], href: match[2] });
+    lastIndex = index + match[0].length;
+    match = pattern.exec(text);
+  }
+  if (lastIndex < text.length) {
+    parts.push({ type: "text", value: text.slice(lastIndex) });
+  }
+  return parts;
+}
+
+export function selectFaq(post: BlogPost): BlogFaqItem[] {
+  return post.sections
+    .filter((section) => section.heading?.toLowerCase() === "faq")
+    .flatMap((section) => section.paragraphs)
+    .map((paragraph) => {
+      const splitAt = paragraph.indexOf("? ");
+      if (splitAt === -1) {
+        return null;
+      }
+      return {
+        question: paragraph.slice(0, splitAt + 1).trim(),
+        answer: paragraph.slice(splitAt + 2).trim()
+      };
+    })
+    .filter((item): item is BlogFaqItem => Boolean(item?.question && item.answer));
+}
