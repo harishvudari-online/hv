@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI IPO delay 2026</title>
+  <desc id="desc">Editorial illustration of OpenAI taking 2026 off the IPO calendar while pointing to 2027, with Anthropic still on a Nasdaq path.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#F4C15D" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">OpenAI IPO delay: 2026 is off the table</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Fortune interview 12 Sep 2026  |  Altman: ill-advised moment  |  Friar: public in 2027</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#E85D4C" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="142" y="252" fill="#E85D4C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Not 2026</text>
+  <rect x="142" y="272" width="252" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="306" width="198" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="340" width="230" height="22" rx="6" fill="#12355A"/>
+  <text x="142" y="392" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Safety before listing</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Confidential S-1 still sits</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="472" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Target 2027</text>
+  <rect x="472" y="272" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="488" y="304" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Sarah Friar to staff</text>
+  <text x="488" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Public company in 2027</text>
+  <text x="488" y="352" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">$1T valuation was the bar</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Nonprofit control stays live</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="802" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Anthropic</text>
+  <rect x="802" y="272" width="252" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="300" width="210" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="328" width="236" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="356" width="168" height="18" rx="5" fill="#12355A"/>
+  <text x="802" y="402" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Nasdaq path still open</text>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">$2T talk, $965B last round</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">The listing is a governance choice, not a missed banker calendar.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">OpenAI wants room to act against shareholder pressure. Anthropic is testing that thesis in public.</text>
+</svg>

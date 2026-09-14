@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OpenAI versus Anthropic IPO paths</title>
+  <desc id="desc">Diagram comparing OpenAI's 2027 public-company target with Anthropic's nearer Nasdaq listing path and SpaceX as the 2026 IPO precedent.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="80" cy="80" r="180" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1120" cy="560" r="200" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="122" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Two labs, two listing clocks</text>
+  <text x="118" y="158" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the year, the exchange, and who can say no to shareholders.</text>
+
+  <rect x="118" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#E85D4C" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="138" y="236" fill="#E85D4C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">OpenAI</text>
+  <text x="138" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">IPO not in 2026</text>
+  <text x="138" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Friar: public in 2027</text>
+  <text x="138" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Confidential S-1 on file</text>
+  <text x="138" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Nonprofit can override</text>
+  <text x="138" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Safety named as the reason</text>
+  <text x="138" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">$1T target from June talks</text>
+
+  <rect x="448" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="468" y="236" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Anthropic</text>
+  <text x="468" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Nasdaq still in play</text>
+  <text x="468" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Investor meetings now</text>
+  <text x="468" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">$965B last private mark</text>
+  <text x="468" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">$65B ARR in July</text>
+  <text x="468" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Pacing essay, listing intact</text>
+  <text x="468" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">$2T talk is a bid, not a print</text>
+
+  <rect x="778" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="798" y="236" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">SpaceX precedent</text>
+  <text x="798" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">June 2026 IPO</text>
+  <text x="798" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Record listing size</text>
+  <text x="798" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Opened near $1.8T</text>
+  <text x="798" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Now around $2T</text>
+  <text x="798" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Grok sits inside that stack</text>
+  <text x="798" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Market already prices AI risk</text>
+
+  <text x="118" y="508" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Investors can buy SpaceX today. They cannot buy OpenAI. Anthropic is the next test of that gap.</text>
+  <text x="118" y="538" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">If Anthropic lists while OpenAI waits, the public tape prices Claude first.</text>
+</svg>
