@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sakana Fugu orchestration stack</title>
+  <desc id="desc">Diagram of a model pool routing through a Fugu coordinator into one billed API response.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="180" cy="80" r="220" fill="#00C2FF" fill-opacity="0.14"/>
+  <circle cx="1040" cy="560" r="240" fill="#7CFFB2" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="124" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">One billed endpoint. Many specialist models.</text>
+  <text x="118" y="162" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="17">Pool membership is proprietary. Fees do not stack when several agents run.</text>
+
+  <rect x="118" y="200" width="210" height="88" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="138" y="236" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Open weights</text>
+  <text x="138" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Nemotron and specialists</text>
+
+  <rect x="348" y="200" width="210" height="88" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="368" y="236" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Closed experts</text>
+  <text x="368" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Swappable, not named</text>
+
+  <rect x="578" y="200" width="210" height="88" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="598" y="236" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Self-calls</text>
+  <text x="598" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Recursive Fugu agents</text>
+
+  <rect x="808" y="200" width="210" height="88" rx="16" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="828" y="236" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Not in Ultra v2</text>
+  <text x="828" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Astra, Fable 5, 5.1</text>
+
+  <rect x="118" y="328" width="900" height="92" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="148" y="372" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Fugu coordinator (TRINITY + Conductor research)</text>
+  <text x="148" y="400" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Learned routing. Thinker, Worker, Verifier roles. Routing policy is not exposed.</text>
+
+  <rect x="118" y="448" width="430" height="78" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="140" y="480" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Your client</text>
+  <text x="140" y="506" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">OpenAI protocol, one model parameter</text>
+
+  <rect x="568" y="448" width="450" height="78" rx="16" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="590" y="480" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Bill</text>
+  <text x="590" y="506" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Max $2/$6  |  Ultra v2 $5/$30  |  no EU/EEA yet</text>
+</svg>
