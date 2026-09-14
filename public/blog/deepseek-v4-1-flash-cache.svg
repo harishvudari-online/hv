@@ -1,0 +1,30 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cacheTitle cacheDesc">
+  <title id="cacheTitle">DeepSeek V4.1 Flash KV cache and pricing</title>
+  <desc id="cacheDesc">Diagram of Causal Encoder-Decoder split, 890-byte KV cache, and off-peak versus peak API rates for DeepSeek V4.1 Flash.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Smaller KV cache. Cheaper agent loops.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Causal Encoder-Decoder, CSA2, FP4 KV. Direct API USD per 1M tokens.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65"/>
+  <text x="132" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Architecture</text>
+  <text x="132" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">20-layer encoder</text>
+  <text x="132" y="330" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">20-layer decoder</text>
+  <text x="132" y="380" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">8B / 16B</text>
+  <text x="132" y="420" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">active prefill / decode</text>
+  <text x="132" y="456" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">890 bytes KV per token</text>
+
+  <rect x="440" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="462" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Off-peak Flash</text>
+  <text x="462" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Nights, weekends, gaps</text>
+  <text x="462" y="360" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">$0.15</text>
+  <text x="462" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">in  /  $0.60 out</text>
+  <text x="462" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Cache hit input $0.003</text>
+
+  <rect x="770" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#E8A87C" stroke-opacity="0.65"/>
+  <text x="792" y="258" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Peak Flash</text>
+  <text x="792" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">01-04 and 06-10 UTC, weekdays</text>
+  <text x="792" y="360" fill="#E8A87C" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">$0.30</text>
+  <text x="792" y="400" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">in  /  $1.20 out</text>
+  <text x="792" y="448" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Twice off-peak. Pro is still higher.</text>
+</svg>
