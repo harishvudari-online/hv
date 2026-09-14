@@ -1,0 +1,46 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Magenta Lean verification pipeline</title>
+  <desc id="desc">Editorial illustration of Magenta taking a natural-language olympiad problem through a reasoner, Lean 4 statement, statement judge, and machine-checked proof, with K2-Horizon-7B solving all six IMO 2026 problems.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="160" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#C084FC" fill-opacity="0.14"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Magenta Lean verification</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">arXiv 2609.11319  |  10 Sep 2026  |  training-free  |  Lean 4.29.1</text>
+
+  <rect x="118" y="210" width="220" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="140" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Problem</text>
+  <rect x="140" y="272" width="176" height="18" rx="5" fill="#12355A"/>
+  <rect x="140" y="300" width="148" height="18" rx="5" fill="#12355A"/>
+  <rect x="140" y="328" width="164" height="18" rx="5" fill="#12355A"/>
+  <text x="140" y="392" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Natural language</text>
+  <text x="140" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">AIME, HMMT, IMO</text>
+
+  <rect x="366" y="210" width="220" height="250" rx="20" fill="#08203A" stroke="#C084FC" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="388" y="252" fill="#C084FC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Reasoner</text>
+  <rect x="388" y="272" width="176" height="40" rx="8" fill="#12355A"/>
+  <text x="400" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">K2-Horizon-7B</text>
+  <text x="388" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Informal solution</text>
+  <text x="388" y="386" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">Then a Lean 4 statement</text>
+  <text x="388" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">Open weights on Hugging Face</text>
+
+  <rect x="614" y="210" width="220" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="636" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Statement judge</text>
+  <rect x="636" y="272" width="176" height="64" rx="8" fill="#06182E"/>
+  <text x="648" y="300" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">Does this theorem</text>
+  <text x="648" y="320" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">match the problem?</text>
+  <text x="636" y="382" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">No judge: 45.5% false</text>
+  <text x="636" y="408" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">certificates in ablation</text>
+
+  <rect x="862" y="210" width="220" height="250" rx="20" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="884" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Lean kernel</text>
+  <rect x="884" y="272" width="176" height="18" rx="5" fill="#1BE7FF"/>
+  <rect x="884" y="300" width="150" height="18" rx="5" fill="#12355A"/>
+  <rect x="884" y="328" width="164" height="18" rx="5" fill="#12355A"/>
+  <text x="884" y="392" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Machine-checked proof</text>
+  <text x="884" y="418" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="13">SafeVerify, no sorry</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">100% on 93 AIME and HMMT problems. All six IMO 2026 problems with a 7B reasoner.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Leang et al., MBZUAI IFM / Imperial / Edinburgh / UCL. Preprint. No public certificates yet.</text>
+</svg>
