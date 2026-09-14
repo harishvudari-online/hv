@@ -27,6 +27,9 @@ jobs:
       - name: Guard existing Vercel project
         run: bash scripts/test-deploy-entrypoint.sh
 
+      - name: Guard blog preview data
+        run: bash scripts/test-blog.sh
+
   deploy:
     name: Deploy existing Vercel project
     needs: validate
