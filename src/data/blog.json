@@ -38,6 +38,103 @@
   ],
   "posts": [
     {
+      "slug": "fujitsu-monaka-sovereign-ai-cpu",
+      "title": "Fujitsu MONAKA: Japan's 2nm CPU Makes Inference a Sovereignty Play",
+      "excerpt": "Fujitsu will sell a Japan-designed 2nm CPU for AI inference from November 2026. The bet is not beating NVIDIA on training. It is air-cooled, traceable servers for buyers who want compute they can audit.",
+      "category": "chips",
+      "tags": [
+        "Fujitsu MONAKA",
+        "sovereign AI",
+        "AI chips",
+        "inference"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Fujitsu MONAKA CPU 2026: Sovereign AI Chip, Specs, Sales",
+        "metaDescription": "Fujitsu MONAKA is Japan's 2nm AI inference CPU. November 2026 sales, MONAKA Server specs, TSMC manufacturing, and what sovereign AI buyers should watch.",
+        "keywords": [
+          "Fujitsu MONAKA",
+          "sovereign AI infrastructure",
+          "Japan AI chip",
+          "AI inference CPU"
+        ]
+      },
+      "image": {
+        "src": "/blog/fujitsu-monaka-hero.svg",
+        "alt": "Illustration of the Fujitsu MONAKA 2nm CPU powering air-cooled sovereign AI servers",
+        "caption": "Fujitsu MONAKA is a 2nm Arm CPU for inference, not a training GPU. Sales start in November 2026, with Japan-built servers following into 2027."
+      },
+      "sources": [
+        {
+          "title": "Fujitsu: FUJITSU-MONAKA CPU and MONAKA Server launch",
+          "url": "https://www.jcnnewswire.com/english/pressrelease/110030/3/Fujitsu-launches-made-in-Japan-next-generation-CPU-FUJITSU-MONAKA-and-Fujitsu-MONAKA-Server-for-sove"
+        },
+        {
+          "title": "Kyodo News: Fujitsu to sell Japan-made AI chip globally from November",
+          "url": "https://english.kyodonews.net/articles/-/84987"
+        },
+        {
+          "title": "Fujitsu Global: FUJITSU-MONAKA",
+          "url": "https://global.fujitsu/en-global/technology/research/fujitsu-monaka"
+        },
+        {
+          "title": "Asia Business Daily: Fujitsu exports 2nm CPU, Super Micro supply",
+          "url": "https://www.asiae.co.kr/en/article/2026091313133163674"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 14, 2026, Fujitsu said it will begin global sales of FUJITSU-MONAKA in November 2026. The chip is a Japan-designed Arm CPU aimed at AI inference, sold as silicon to cloud operators, data centers, and server vendors. The company will also sell Fujitsu MONAKA Server, a Japan-built rack system, first in Japan and Europe, including defense customers.",
+            "Fujitsu's published numbers: 3.8 GHz peak, 8800 MT/s memory, a 2nm core stacked on 5nm cache and I/O, and twice the AI inference throughput of other CPUs. That last figure is a vendor claim against unnamed CPU rivals, not a published GPU bake-off. Kyodo reports the wafers are made at TSMC, with Rapidus still a later option. Asiae, citing Nikkei, says Super Micro is the first confirmed overseas server customer."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "This is a sovereignty product more than a FLOPS product. GPUs still run the largest training jobs. Fujitsu is selling something different: CPU-only inference that can sit in an air-cooled hall, with component traceability from the Kasashima plant in Ishikawa. The 1U box uses CDI/CXL to pool memory and accelerators, and Fujitsu says cooling power can drop by up to 80% if the room can hold 40 C air or 45 C water.",
+            "Power, floor space, and export control are the constraints that make the pitch land. Countries that do not want agent traffic parked on a US GPU cluster now have a Japan-origin stack to evaluate, bundled with Fujitsu Kozuchi and the Takane enterprise model. It does not replace the [NVIDIA, AMD, TPU, and Trainium race](/blog/ai-chip-race-nvidia-amd-tpu-trainium). It tries to occupy the on-prem inference lane those chips leave expensive."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/fujitsu-monaka-stack.svg",
+            "alt": "Diagram of Fujitsu MONAKA silicon, Japan-built servers, and Kozuchi software for sovereign AI inference",
+            "caption": "Buyers will score three layers: the CPU, the Ishikawa-built server, and the Kozuchi/Takane software wrap. A win on one layer is not a win on the stack."
+          },
+          "paragraphs": [
+            "Data-center operators in Japan and Europe who need air cooling feel it first, along with finance and telecom buyers already in proof-of-concept. Kyodo says Fujitsu is talking with about 40 firms. Asiae, citing Nikkei, says 24 are already on prototypes. US and APAC clouds can buy the CPU later, in Fujitsu's FY2026 fourth quarter. Rival GPU vendors lose nothing on training. They do lose a talking point if CPU inference at half the server count shows up in customer TCO sheets.",
+            "Model labs that publish open weights still live on the hub NVIDIA just agreed to buy. See [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub). A Japan-made inference CPU does not change that distribution layer. It changes where some of those weights can run without a water-cooled GPU hall."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: the November 2026 sales window, 2nm/5nm stack, 3.8 GHz, 8800 MT/s, Arm CCA confidential computing, and April 2027 sequential server shipments are in Fujitsu's launch materials. Fact: TSMC manufacturing and Super Micro supply are reported by Kyodo and Nikkei coverage, not by an SEC filing. Fact: the 2x inference claim is versus other CPUs, as Fujitsu defines them.",
+            "Prediction: MONAKA will win where auditors, not kernels, decide the purchase: public sector, regulated industry, and European buyers who already ask for Japanese supply chains. Prediction: it will not take training share from NVIDIA this cycle. The interesting fight is inference TCO against cheap GPU SKUs and cloud TPUs, once independent energy-per-token numbers exist."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether November sales start means orderable SKUs or brochure dates. Watch Super Micro board support and compiler quality, because Fugaku heritage does not automatically equal PyTorch nightlies. Watch Rapidus: Fujitsu has flagged it as a future foundry, not the MONAKA line. Watch the 250 billion yen cumulative CPU-sales goal through FY2030 that Nikkei coverage attached to the export push. And watch whether air-cooled CPU inference actually displaces GPU nodes, or only fills rooms GPUs cannot enter."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Fujitsu MONAKA? It is Fujitsu's next-generation Arm CPU for AI inference and data-center work, designed in Japan on a 2nm core with 5nm cache and I/O. The matching Fujitsu MONAKA Server is built in Ishikawa for sovereign AI, HPC, and defense buyers.",
+            "When will Fujitsu MONAKA be available? Fujitsu says global CPU sales start in November 2026. Japan and Europe get 1U and 2U servers on the same timetable, with sequential shipments from April 2027. Processor sales to US and APAC clouds are planned for the fourth quarter of Fujitsu's FY2026.",
+            "Does Fujitsu MONAKA replace NVIDIA GPUs? No. Fujitsu is pitching CPU-only inference, air cooling, and supply-chain traceability. Training-scale clusters still sit on GPUs, TPUs, and Trainium. Treat MONAKA as an on-prem inference option, not a drop-in for flagship training SKUs.",
+            "Who is manufacturing Fujitsu MONAKA? Kyodo reports TSMC makes the silicon. Fujitsu designs the chip and builds servers at its Kasashima plant. Rapidus is discussed as a later Japanese foundry option, including for a 1.4nm follow-on, not as the current MONAKA line."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "claude-fable-5-1-mythos-trusted-access",
       "title": "Claude Fable 5.1: One Model, Two Safeguard Lanes",
       "excerpt": "Anthropic's new flagship is the same weights twice. Fable 5.1 is generally available. Mythos 5.1 opens cyber and biology work only to vetted labs.",

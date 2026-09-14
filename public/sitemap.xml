@@ -25,6 +25,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harishvudari.online/blog/category/chips</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/fujitsu-monaka-sovereign-ai-cpu</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://harishvudari.online/blog/claude-fable-5-1-mythos-trusted-access</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
