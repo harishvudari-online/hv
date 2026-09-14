@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Three Copilot products, three Grok paths</title>
+  <desc id="desc">Diagram showing GitHub Copilot on Grok 4.6, Copilot Studio on Grok 4.1 Fast, and Microsoft 365 Copilot Office apps on an unnamed Grok model family with an admin gate.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="80" cy="80" r="180" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1120" cy="560" r="200" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="122" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Grok is in Copilot. Which Copilot?</text>
+  <text x="118" y="158" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Name the surface before you name the model. The SKUs are not the same.</text>
+
+  <rect x="118" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="138" y="236" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">GitHub Copilot</text>
+  <text x="138" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Grok 4.6 named</text>
+  <text x="138" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Since 14 Aug 2026</text>
+  <text x="138" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">VS Code, CLI, cloud agent</text>
+  <text x="138" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Provider list pricing</text>
+  <text x="138" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Business policy off by default</text>
+  <text x="138" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Best version pin today</text>
+
+  <rect x="448" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="468" y="236" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Copilot Studio</text>
+  <text x="468" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Grok 4.1 Fast</text>
+  <text x="468" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">US makers in preview</text>
+  <text x="468" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Hosted outside Microsoft</text>
+  <text x="468" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">xAI terms apply</text>
+  <text x="468" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Safety note: less aligned</text>
+  <text x="468" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Not for production agents</text>
+
+  <rect x="778" y="196" width="304" height="268" rx="18" fill="#08203A" stroke="#74D7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="798" y="236" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Microsoft 365</text>
+  <text x="798" y="268" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Grok model family</text>
+  <text x="798" y="296" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Word, Excel, PowerPoint</text>
+  <text x="798" y="324" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Frontier preview only</text>
+  <text x="798" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Version not named</text>
+  <text x="798" y="400" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">EU, EFTA, UK stay out</text>
+  <text x="798" y="428" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Admin gate is the product</text>
+
+  <text x="118" y="508" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Microsoft Foundry is a fourth door for builders: grok-4.6 and faster SKUs as APIs.</text>
+  <text x="118" y="538" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">If you need a named model behind a spreadsheet, GitHub Copilot is the honest picker.</text>
+</svg>

@@ -38,6 +38,118 @@
   ],
   "posts": [
     {
+      "slug": "grok-microsoft-copilot-word-excel-powerpoint",
+      "title": "Grok in Microsoft Copilot: Word, Excel, and PowerPoint",
+      "excerpt": "Microsoft is putting Grok from SpaceXAI into Copilot inside Word, Excel, and PowerPoint. It is a Frontier preview, off by default, and blocked in the EU, EFTA, and UK.",
+      "category": "companies",
+      "tags": [
+        "Grok Microsoft Copilot",
+        "SpaceXAI",
+        "Microsoft 365",
+        "xAI"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Grok in Microsoft Copilot 2026: Office Preview Guide",
+        "metaDescription": "Microsoft is adding Grok from SpaceXAI to Copilot in Word, Excel, and PowerPoint. Who gets the preview, how admins enable it, and why the EU stays off.",
+        "keywords": [
+          "Grok Microsoft Copilot",
+          "Grok in Microsoft Copilot",
+          "Grok in Microsoft 365 Copilot",
+          "SpaceXAI Copilot",
+          "enable Grok Copilot",
+          "Grok Word Excel PowerPoint",
+          "Grok Copilot EU availability"
+        ]
+      },
+      "image": {
+        "src": "/blog/grok-microsoft-copilot-hero.svg",
+        "alt": "Illustration of Grok from SpaceXAI entering Microsoft Copilot in Word, Excel, and PowerPoint, with an admin gate and the EU preview turned off",
+        "caption": "The headline is Grok in Microsoft Copilot. The product is an admin-gated Frontier preview that does not run in the EU, EFTA, or UK."
+      },
+      "sources": [
+        {
+          "title": "Microsoft Learn: Connect to SpaceXAI models",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-models"
+        },
+        {
+          "title": "Microsoft Copilot Blog: xAI Grok 4.1 Fast in Copilot Studio",
+          "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/more-choice-more-flexibility-xai-grok-4-1-fast-now-available-in-microsoft-copilot-studio/"
+        },
+        {
+          "title": "GitHub Changelog: Grok 4.6 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot/"
+        },
+        {
+          "title": "Microsoft Learn: Allow external language models for generative responses",
+          "url": "https://learn.microsoft.com/en-us/power-platform/admin/allow-llm-generative-responses"
+        },
+        {
+          "title": "techAU: Microsoft adds SpaceXAI Grok to Copilot in Word, Excel, and PowerPoint",
+          "url": "https://techau.com.au/microsoft-adds-spacexais-grok-llm-to-copilot-across-word-excel-and-powerpoint/"
+        },
+        {
+          "title": "Office Watch: Grok AI in Microsoft 365 Copilot",
+          "url": "https://office-watch.com/2026/grok-ai-microsoft-365-copilot/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Grok in Microsoft Copilot stopped being a rumor on Saturday, September 12, 2026. Satya Nadella posted that more model choice is coming to Copilot, and welcomed Grok. Reporting on Microsoft's Copilot announcement says Grok models from SpaceXAI are entering Microsoft 365 Copilot in Word, Excel, and PowerPoint, on web and desktop, through the Microsoft Frontier Program. This is a focused preview for eligible Frontier customers. It is not a switch that flips for every Copilot license.",
+            "SpaceXAI is the vendor name Microsoft uses for Elon Musk's xAI. Grok is the model family. Microsoft has added SpaceXAI to the Online Services Subprocessor List, which is how a third party is allowed to process Microsoft customer data. Global administrators still have to opt in. Microsoft Learn says the path is Copilot, Settings, View all, then AI providers for other large language models. The SpaceXAI toggle is off until someone accepts the terms and picks users or groups.",
+            "This is not Microsoft's first Grok door. GitHub Copilot added Grok 4.6 on August 14 across Visual Studio Code, Visual Studio, Copilot CLI, the cloud agent, JetBrains, Xcode, and Eclipse. That SKU is billed at provider list pricing, and Business and Enterprise policies stay off until an admin enables them. Copilot Studio already offers Grok 4.1 Fast to United States-based makers after a separate admin opt-in. Microsoft Foundry hosts several Grok SKUs for builders. The Office preview is the cautious one: coverage of the post describes the Grok model family, not a version number."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Copilot used to mean OpenAI wrapped in Office. It now means a switchboard. OpenAI still ships [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) through Microsoft's cloud. Anthropic still powers some Office creation agents. SpaceXAI is the third lab inside the same Word, Excel, and PowerPoint windows. That is a procurement story for anyone who assumed Microsoft 365 Copilot was a single-model product. It is also a data story.",
+            "Microsoft Learn is explicit. When an organization chooses a SpaceXAI model, it shares data with SpaceXAI. That data is processed outside all Microsoft-managed environments and audit controls. Microsoft Product Terms, the Data Processing Addendum, data residency commitments, audit requirements, service-level agreements, and the Customer Copyright Commitment do not apply. xAI's enterprise terms and data processing addendum do. Admins who treat \"it is in Copilot\" as \"it is under Microsoft's umbrella\" will get that wrong.",
+            "The contrast with Anthropic is the useful one. Word, Excel, and PowerPoint Agents still run Anthropic models, and Microsoft documents Anthropic as a subprocessor under Microsoft's DPA for those agents. Grok in Copilot is independent-processor territory. The EU, EFTA, and UK exclusion during the Frontier preview sits next to [Apple's Siri AI EU delay](/blog/siri-ai-eu-delay-ios-27-dma). Different statute, same user question: does the flagship assistant work here? Microsoft has not published a date for those regions."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/grok-microsoft-copilot-surfaces.svg",
+            "alt": "Diagram of three Grok paths: GitHub Copilot on Grok 4.6, Copilot Studio on Grok 4.1 Fast, and Microsoft 365 Copilot Office apps on an unnamed Grok model family",
+            "caption": "Ask which Copilot before you ask which Grok. Only GitHub Copilot names Grok 4.6 today. Office names a family."
+          },
+          "paragraphs": [
+            "CIOs and Global admins feel it first. A Microsoft Copilot license is required. After the Microsoft 365 admin-center opt-in, Copilot Studio still needs a second allow in the Power Platform admin center for external models. Microsoft says the connection can take a few hours. If nobody opts in, existing agents and default models do not change.",
+            "Knowledge workers in Frontier tenants outside the EU, EFTA, and UK get a model choice in Word, Excel, and PowerPoint only after that gate. Microsoft 365 Personal and Family do not get this preview. Developers already have cleaner version pins: GitHub Copilot's named Grok 4.6 picker, and Foundry's grok-4.6 and grok-4.1-fast APIs. If you need to know which weights sit behind a spreadsheet formula, Office is the wrong surface.",
+            "Safety teams should read Microsoft's own note on Grok 4.1 Fast (Non-Reasoning). Learn pages say Microsoft's evaluations found that SKU less aligned than other models tested, with higher risk of harmful content and weaker jailbreak scores, and that it is not recommended for production. That warning is about Copilot Studio's experimental model, not a blanket on Grok 4.6. It still explains why the admin gate exists, and why this is a governance change more than a new button in [the AI tools that change daily work](/blog/new-ai-tools-that-actually-change-daily-work)."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Nadella welcomed Grok into Copilot on 12 September 2026. Fact: the Word, Excel, and PowerPoint path is a Microsoft Frontier preview, off by default, and not available to Frontier customers in the EU, EFTA, or UK. Fact: SpaceXAI is on Microsoft's Online Services Subprocessor List. Fact: Microsoft Learn says SpaceXAI processing sits outside Microsoft-managed environments, so Microsoft's customer agreements do not apply. Fact: GitHub Copilot has offered Grok 4.6 since 14 August 2026. Fact: Copilot Studio offers Grok 4.1 Fast to US makers, off by default.",
+            "Prediction: Teams and Outlook will wait on Frontier feedback, and on a named Office model version. Prediction: EU and UK access will wait until Microsoft can put a data-boundary story on a Learn page, not until a keynote. Prediction: the live test is whether a CIO enables SpaceXAI for a small security group, not whether the welcome tweet trends."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Microsoft names the Grok version inside Word, Excel, and PowerPoint. Watch whether Teams and Outlook get a date, which techAU says Microsoft will consider after the preview. Watch whether the EU, EFTA, and UK leave the exclusion list, or whether the carve-out hardens the way Apple's iPhone gap did. Watch GitHub Copilot bills for Grok 4.6 at provider list pricing. Watch whether OpenAI and Anthropic answer with deeper Office hooks for Astra and [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access). And watch Nadella's other line from this week, that superintelligence without human control is not worth pursuing, against a product that now routes office documents to a third lab."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "Is Grok in Microsoft Copilot? Yes, on more than one product. GitHub Copilot has Grok 4.6. Copilot Studio has Grok 4.1 Fast for US makers after admin opt-in. Microsoft 365 Copilot is adding Grok models from SpaceXAI in Word, Excel, and PowerPoint for eligible Frontier customers. It is off by default.",
+            "How do I enable Grok in Microsoft 365 Copilot? A Global administrator opens the Microsoft 365 admin center, goes to Copilot, Settings, View all, then AI providers for other large language models, chooses SpaceXAI, accepts the terms, and assigns users or groups. Users also need a Microsoft Copilot license. The tenant must be in the Frontier Program for the Office preview. The setting can take a few hours to apply.",
+            "Is Grok available in EU Copilot? Not in this Microsoft 365 preview. Microsoft says Frontier customers in the European Union, the European Free Trade Association, and the United Kingdom are excluded. There is no published date for those regions. Copilot Studio's Grok 4.1 Fast preview is separately limited to US-based makers.",
+            "Which Grok model is in Microsoft Copilot? It depends on the surface. GitHub Copilot names Grok 4.6. Copilot Studio names Grok 4.1 Fast. The Word, Excel, and PowerPoint preview describes the Grok model family from SpaceXAI and does not publish a version. Microsoft Foundry separately lists grok-4.6 and faster SKUs for developers.",
+            "Does Grok in Copilot send data to xAI? Yes, if you enable it. Microsoft Learn says choosing a SpaceXAI model shares data with SpaceXAI, processed outside Microsoft-managed environments and audit controls. Microsoft's Product Terms, DPA, data residency, SLAs, and Customer Copyright Commitment do not apply. xAI's enterprise terms do."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "siri-ai-eu-delay-ios-27-dma",
       "title": "Siri AI EU Delay: iOS 27 Ships Without the Assistant",
       "excerpt": "iOS 27 lands today with Siri AI as the headline. EU iPhones and iPads do not get it. Apple blames the Digital Markets Act. Mac and Vision Pro still do.",
