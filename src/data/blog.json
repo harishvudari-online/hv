@@ -38,6 +38,105 @@
   ],
   "posts": [
     {
+      "slug": "mit-hardflow-safety-critical-generative-ai",
+      "title": "MIT HardFlow: Generative AI That Must Obey Hard Constraints",
+      "excerpt": "MIT's HardFlow algorithm steers pretrained generative models so the final sample meets strict safety and physics rules. It does not retrain the model. Pretty close is no longer good enough.",
+      "category": "research",
+      "tags": [
+        "HardFlow",
+        "MIT",
+        "generative AI",
+        "safety-critical AI"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "MIT HardFlow 2026: Hard Constraints for Safety-Critical AI",
+        "metaDescription": "MIT HardFlow steers pretrained generative models to meet hard safety constraints at deploy time, without retraining. What the TPAMI paper means for robotics.",
+        "keywords": [
+          "MIT HardFlow",
+          "hard constraints generative AI",
+          "safety-critical AI",
+          "constrained sampling flow matching",
+          "HardFlow robotics"
+        ]
+      },
+      "image": {
+        "src": "/blog/mit-hardflow-hero.svg",
+        "alt": "Illustration of MIT HardFlow steering a generative model around obstacles to a feasible final sample",
+        "caption": "HardFlow is a training-free sampler. It lets a pretrained generative model explore, then lands the last sample inside the hard constraint set."
+      },
+      "sources": [
+        {
+          "title": "MIT News: New method enables AI for safety-critical situations",
+          "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914"
+        },
+        {
+          "title": "IEEE TPAMI: HardFlow (DOI 10.1109/tpami.2026.3708824)",
+          "url": "https://doi.org/10.1109/tpami.2026.3708824"
+        },
+        {
+          "title": "arXiv: HardFlow: Hard-Constrained Sampling for Flow-Matching Models",
+          "url": "https://arxiv.org/abs/2511.08425"
+        },
+        {
+          "title": "IEEE Xplore: IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "On September 14, 2026, MIT News published HardFlow, an algorithm from Zeyang Li, Kaveh Alim, and Navid Azizan at MIT's Laboratory for Information and Decision Systems. The paper appears this week in IEEE Transactions on Pattern Analysis and Machine Intelligence. The claim is narrow and useful: a pretrained generative model can be steered at deployment so the finished sample obeys hard constraints, without a new training run.",
+            "Hard constraints are the rules that cannot be approximately true. A robot path that clips a pillar is a crash, not a 95% success. MIT's write-up uses factory-floor motion planning as the example. The paper's abstract generalizes that to flow-matching and diffusion samplers, including settings such as Stable Diffusion and FLUX that teams already have on disk."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Most 'safe generation' tricks are soft. You add a penalty, hope the gradient keeps the sample legal, and accept that some draws still violate the rule. Projection-based hard methods are stricter, but they often pin every intermediate denoising step to the feasible set. Li's team argues that only the last sample has to be legal. Intermediate noise is discarded. Constraining it too early prunes better finishes.",
+            "HardFlow recasts that sampling path as a trajectory-optimization problem from optimal control. It nudges the velocity field, enforces h(x) <= 0 at the end, and can also minimize extra costs such as path length. On the D3IL-style robot manipulator and Maze2D navigation tests, HardFlow was the only method to post a 1.00 safety rate over 50 trials, with fewer steps to the target and compute that stayed comparable to the baselines. That is the product point: constraint satisfaction and solution quality in one optimizer, not a filter bolted on after sampling.",
+            "This is a different bottleneck from the [evaluation and safety work that still gates LLM shipping](/blog/ai-research-evaluation-and-safety-bottleneck). HardFlow is not a ChatGPT refusal policy. It is a sampler for physical and visual constraints where 'pretty close' is an incident."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/mit-hardflow-sampling.svg",
+            "alt": "Diagram comparing per-step projection sampling with HardFlow terminal-time hard constraints",
+            "caption": "Projection methods force every step onto the safe set. HardFlow lets the path wander and spends the constraint budget on the sample you actually keep."
+          },
+          "paragraphs": [
+            "Robotics, process-control, and vision teams that already sample from flow-matching or diffusion models feel it first. If you generate motions, PDE boundary controls, or identity-preserving image edits, you can attach HardFlow at inference instead of fine-tuning a specialist checkpoint for every new obstacle map.",
+            "Frontier chatbot launches still sit on a different stack. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) is built to operate software. HardFlow is built so a generated trajectory or image cannot violate a stated physics or safety set. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) already flagged that physical-world jobs move slower unless robotics reliability improves. A training-free hard-constraint sampler is one of the missing pieces for that slower path."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: MIT News dated the briefing September 14, 2026, named Li, Alim, and Azizan, and said the work is in IEEE TPAMI this week. Fact: the arXiv paper (2511.08425) and IEEE DOI 10.1109/tpami.2026.3708824 describe HardFlow as training-free, terminal-time constrained sampling via trajectory optimization. Fact: in the paper's robot manipulation and maze tests, HardFlow was the only method with a perfect safety rate and zero maze violations, with compute comparable to or lower than most baselines.",
+            "Prediction: this will land in motion-planning and constrained-image stacks before it lands in general chat products. Prediction: the next fight is not another leaderboard. It is whether hard constraints stay an inference plugin or get trained into the model, which the authors already flag as future work."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether vendors ship HardFlow-style terminal control beside existing guidance APIs, or keep selling per-step projection. Watch how the method behaves when the constraint function is messy, delayed, or only available from a simulator. Watch compute at the image and video sizes people actually serve, not the 50-trial robot mazes. And watch the authors' own next step: updating the model itself so constraint satisfaction is not only a sampling trick."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is MIT HardFlow? HardFlow is a training-free algorithm from MIT that steers flow-matching and diffusion samplers so the final sample satisfies hard constraints, such as staying collision-free, while still optimizing solution quality.",
+            "Does HardFlow require retraining the model? No. MIT describes it as a plug-and-play method at deployment time. You keep the pretrained generative model and change how samples are drawn.",
+            "How is HardFlow different from projection-based sampling? Projection methods often force every intermediate step onto the feasible set. HardFlow treats those steps as disposable and enforces the hard constraints on the terminal sample, which the authors say preserves a larger search space.",
+            "Where was HardFlow tested? The TPAMI paper reports robotic manipulation, maze navigation, PDE boundary control, and text-guided image editing. On the robot and maze trials, it was the only method with a 1.00 safety rate over 50 runs."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gpt-live-1-voice-api-pricing",
       "title": "GPT-Live-1: OpenAI Prices Voice Agents by the Minute",
       "excerpt": "OpenAI's GPT-Live-1 voice API is $0.05 per minute, billed per second. The voice layer is now a separate meter from the model that does the work.",
