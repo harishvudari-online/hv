@@ -47,10 +47,10 @@ export default function BlogIndexPage() {
             <p className="eyebrow">
               <Newspaper size={14} /> AI News & Future Trends
             </p>
-            <h1>Auto-blogging briefings on the AI stack</h1>
+            <h1>What's moving in AI</h1>
             <p className="lead">
-              Content is stored in one JSON file and loaded through the blog API. The homepage preview shows the latest
-              six. This page lists every briefing.
+              Short notes on the tools, models, chips, and job-market shifts I actually follow — what shipped, what it
+              costs, and what it means if you build product interfaces.
             </p>
           </section>
           <div className="blog-filters" role="tablist" aria-label="Blog categories">
@@ -86,7 +86,7 @@ export default function BlogIndexPage() {
             </>
           ) : null}
           <p className="blog-back">
-            <Link href="/#blog">Back to homepage preview</Link>
+            <Link href="/#blog">Back to homepage</Link>
           </p>
         </main>
       </SiteFrame>

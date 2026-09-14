@@ -7,8 +7,8 @@ type BlogStatusProps = {
 
 export function BlogStatus({
   status,
-  loading = "Loading briefings from the blog API…",
-  error = "Could not load briefings from the API.",
+  loading = "Loading briefings…",
+  error = "Could not load briefings. Try again in a moment.",
   empty = "No briefings found."
 }: BlogStatusProps) {
   if (status === "ok") {

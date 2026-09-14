@@ -49,9 +49,9 @@ export default function BlogArticlePage() {
         <main className="container blog-page">
           <BlogStatus
             status={status}
-            loading="Loading this briefing from the blog API…"
+            loading="Loading this briefing…"
             empty="This briefing was not found."
-            error="Could not load this briefing from the API."
+            error="Could not load this briefing. Try again in a moment."
           />
           {post ? (
             <>

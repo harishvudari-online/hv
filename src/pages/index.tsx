@@ -711,8 +711,7 @@ export default function Home() {
               </Link>
             </motion.div>
             <motion.p variants={fadeUp} className="blog-section-lead">
-              Six latest briefings loaded from the JSON blog store through the API. Choose one to read it here, or open
-              More for the full listing.
+              Recent notes on AI tools, models, and the work ahead. Pick one to read, or open More for the full archive.
             </motion.p>
             <BlogStatus status={blogStatus} />
             {blogStatus === "ok" ? (
