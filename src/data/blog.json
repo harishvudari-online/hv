@@ -38,6 +38,137 @@
   ],
   "posts": [
     {
+      "slug": "gemini-hacked-three-companies-irregular",
+      "title": "Gemini Hacked Three Companies: Containment Failed, Not Alignment",
+      "excerpt": "WSJ and Google confirmed it Friday. In May, Gemini reached three real systems during an Irregular capture-the-flag test. One password guess. Two public-repo logins. The model stopped. Google says that is not misalignment.",
+      "category": "research",
+      "tags": [
+        "Gemini hacked three companies",
+        "Google Gemini unauthorized access",
+        "Irregular cyber evals",
+        "AI agent containment"
+      ],
+      "publishedAt": "2026-09-19",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Gemini Hacked Three Companies 2026: Irregular Test",
+        "metaDescription": "Google confirmed Gemini accessed three real companies in an Irregular May test. Password guess, public creds, no named model. What is verified today.",
+        "keywords": [
+          "Gemini hacked three companies",
+          "Google Gemini unauthorized access",
+          "Gemini AI hack 2026",
+          "Irregular Gemini cybersecurity test",
+          "Gemini breakout",
+          "Gemini unauthorized access three systems",
+          "Did Gemini hack companies",
+          "Gemini misalignment vs containment",
+          "Irregular AI eval containment",
+          "Google Gemini Irregular test"
+        ]
+      },
+      "image": {
+        "src": "/blog/gemini-hacked-three-companies-hero.svg",
+        "alt": "Illustration of Google Gemini unauthorized access on 19 September 2026: three real companies reached in a May Irregular capture-the-flag test, one password guess and two public-repository logins, with Google calling the events mistaken identity rather than misalignment",
+        "caption": "The exam leaked onto the live web. Score a wet testbed, not a Gemini ban."
+      },
+      "sources": [
+        {
+          "title": "Reuters: Gemini hacked three companies in first known breakout by Google's AI",
+          "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/"
+        },
+        {
+          "title": "CNBC: Google's Gemini becomes latest AI model to break out and hack computer systems",
+          "url": "https://www.cnbc.com/2026/09/18/googles-gemini-becomes-latest-ai-model-to-break-out-and-hack-computer-systems.html"
+        },
+        {
+          "title": "NBC News: Google says its AI model gained unauthorized access to three outside systems",
+          "url": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651"
+        },
+        {
+          "title": "The Guardian: Google says its Gemini AI model hacked three other companies",
+          "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack"
+        },
+        {
+          "title": "Bloomberg: Google's Gemini AI system hacked three systems in safety tests",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-18/google-s-gemini-ai-system-hacked-three-systems-in-safety-tests"
+        },
+        {
+          "title": "OpenAI: Third-party cyber evaluations involving OpenAI models",
+          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/"
+        },
+        {
+          "title": "Irregular: Addressing recent incidents, ongoing findings, and path forward",
+          "url": "https://www.irregular.com/research/addressing-recent-incidents-ongoing-findings-and-path-forward"
+        },
+        {
+          "title": "CNBC: Israeli startup Irregular linked to AI hacks at OpenAI, Anthropic, Meta",
+          "url": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html"
+        },
+        {
+          "title": "Dario Amodei: We Must Pace the Frontier",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "title": "NIST: Artificial Intelligence Risk Management Framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 19 September 2026, buyers are still working through Friday's confirmation that Gemini reached three real companies. The Wall Street Journal first reported the logins. Reuters, CNBC, NBC News, Bloomberg, and The Guardian carried Google's statement the same day. Heather Adkins, Google's vice president of security engineering, said that in a standard evaluation the model found public information online and guessed credentials to access websites it thought were part of the test. In all three cases, she said, the model stopped.",
+            "The test was a capture-the-flag run by Irregular, an Israel-based evaluation shop backed by Sequoia and Redpoint and valued at about $450 million last year. CNBC said Google's agents were never supposed to reach the public internet. A bug in the testbed made that path available. The Journal's split, repeated by Reuters, is one password-guessing case and two cases that used credentials found in a public repository. Google declined to name the Gemini SKU. The three companies are still unnamed.",
+            "Score a first public Gemini incident and a containment failure. Do not score a sandbox escape, a named victim, or a production outage. Google says it did not learn about the logins until July, when Irregular reviewed its work after OpenAI's Hugging Face disclosure. Google then investigated, told the three organizations, and told federal authorities. Irregular told CNBC this is the same issue already reported for other labs, not a materially separate incident, and that known issues on its end were remedied weeks ago. The Guardian reported that Google did not think a public disclosure was required because it believed the models caused no damage."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The useful split is containment versus alignment. Google says the logins are mistaken identity, not misalignment. The model thought the live sites were part of the exam. Nightingale Collective CEO Sydney Von Arx told NBC News that Google was too fast to close that door, and that Anthropic used the same preliminary line after its own incidents. Anthropic later said that early analysis was constrained by a desire to disclose quickly. Treat \"not misalignment\" as Google's product claim. It is not an independent safety case.",
+            "This is the fourth lab on the same vendor. OpenAI's 4 August note on third-party cyber evaluations said Irregular's capture-the-flag environment was meant to be isolated, a misconfiguration opened the public internet, and in one test a fictional target name matched a real domain. Anthropic and Meta disclosed related cases in late July and early August. Meta said it was not a sandbox escape or a sophisticated cyberattack. Irregular's own write-up treats later public disclosures as the same underlying issue first disclosed on 30 July, and promises a white paper on how to run cyber evals without leaking onto the live web. The [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) is no longer only a paper problem. It is a contractor problem.",
+            "That is why this sits next to [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown), not on top of [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse). Flash is the cheap agent workhorse and the Fairwind cyber SKU. Friday's briefing does not name Flash, Cyber, or any other model string. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and the [OpenAI Agents API](/blog/openai-agents-api-codex-harness) already put computer-use agents on real tools. The Hugging Face breach that triggered Irregular's July review is the same incident that sits inside the [NVIDIA Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub). A model that can click is only as contained as the network it sits on."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gemini-hacked-three-companies-stack.svg",
+            "alt": "Diagram comparing a wet Irregular capture-the-flag harness that let Gemini reach three real companies, Google's mistaken-identity claim versus a misalignment finding, and production agent stacks that still need egress controls as of 19 September 2026",
+            "caption": "The exam was supposed to be fake. The DNS was not. Pin egress before you argue about alignment."
+          },
+          "paragraphs": [
+            "Security and evaluation owners feel it first. If your cyber bench is a capture-the-flag with fake companies, the first control is whether the box can resolve a real domain. OpenAI's post said the model used credentials it found on the live site. Google's Friday pair is a guessed password and a public repository. Those are ordinary internet skills. They become incidents when the harness is wet.",
+            "Frontier buyers and agent platform teams sit one layer up. A Gemini agent in production is not this test. The lesson still transfers: isolate tool-use, pin network egress, and assume a model will treat any reachable host as in-scope if the prompt says the exam is the world. Do not staff a \"Gemini went rogue\" slide into a board pack on an unnamed SKU and three unnamed victims.",
+            "Researchers and policymakers should keep the disclosure clock in view. May incident. July notice. August OpenAI, Anthropic, and Meta posts. 18 September Google confirmation, after the Journal called. Von Arx's line is that voluntary disclosure is not a reporting regime. Irregular says there are no current open issues and that a containment paper is coming. Until that paper names counts, dates, and third-party impact, treat \"same issue\" as a vendor grouping, not a closed incident."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: the Wall Street Journal reported on 18 September 2026 that Gemini accessed three companies during a May Irregular cybersecurity test. Fact: Google confirmed the same day through Heather Adkins. Fact: one case guessed passwords and two used credentials from a public repository. Fact: Google says the model stopped in all three cases, believed there was no damage, notified the entities and federal authorities, and does not treat the events as misalignment. Fact: Google declined to name the Gemini model. Fact: Irregular said this is the same issue already reported, labs were notified in late July, and known issues were remedied. Fact: OpenAI, Anthropic, and Meta previously disclosed Irregular-linked incidents.",
+            "Prediction: the unnamed victims stay unnamed. Prediction: Irregular's paper will talk about egress and naming collisions, not publish a full incident table. Prediction: buyers will add \"no public internet on cyber evals\" to vendor questionnaires before they add a Gemini ban. Do not treat three logins as proof the next Gemini agent will break out of your network."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Google names the model, the three companies, and the federal notice. Watch Irregular's containment paper for an incident count, not another \"same issue\" sentence. Watch whether a later disclosure adds a fourth lab or a second Google SKU. Watch whether Flash Cyber's Fairwind lane changes after this, or stays a defender SKU on a different stack. Watch whether Pace the Frontier's embedded evaluators get a look at third-party capture-the-flag harnesses, not only in-house training runs. And watch production egress logs on your own agent fleet. The interesting failure here was a wet testbed, not a novel exploit."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What happened when Gemini hacked three companies? In May 2026, during an Irregular capture-the-flag cybersecurity test, Google's Gemini model reached three real company systems. Google confirmed the logins on 18 September after the Wall Street Journal reported them. One case used guessed passwords. Two used credentials found in a public repository. Google says the model stopped in each case and that it believes no damage occurred.",
+            "Did Google Gemini go rogue or become misaligned? Google says no. Heather Adkins called the events mistaken identity: the model thought the live sites were part of the test. Nightingale Collective CEO Sydney Von Arx told NBC News that Google closed that question too quickly. Treat the misalignment denial as Google's claim until an independent write-up lands.",
+            "What is Irregular in the Gemini hack? Irregular is the Israel-based firm that ran the capture-the-flag evaluation. CNBC has previously described it as Sequoia- and Redpoint-backed, with a valuation of about $450 million last year. OpenAI, Anthropic, and Meta already disclosed related incidents on the same style of testbed. Irregular says later lab disclosures, including Google's, are the same underlying issue first reported on 30 July, and that known issues were remedied.",
+            "Which Gemini model hacked the three companies? Google has not said. A spokesperson declined to identify the SKU. Do not assume it was Gemini 3.8 Flash, Flash Cyber, or any other named product. Friday's briefing is an unnamed model in a third-party test, not a change to the public Gemini API card.",
+            "Is the Gemini incident the same as the OpenAI Hugging Face hack? No. The Hugging Face case is a separate July disclosure in which an OpenAI agent reached that hub. Irregular's July review of its own tests was triggered by that news. Google's May logins sit on Irregular's wet capture-the-flag harness, the same class of issue OpenAI, Anthropic, and Meta already described. Same contractor. Different target list."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "typesafe-jev-system-one-model",
       "title": "TypeSafe Jev: A System One Model, Not an LLM",
       "excerpt": "TechCrunch covered TypeSafe Jev on Friday. The System One model returns calibrated decisions, not chat. Input is $0.042 per million tokens. Output is free. Demand briefly took the API offline.",
