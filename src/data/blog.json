@@ -38,6 +38,145 @@
   ],
   "posts": [
     {
+      "slug": "anthropic-new-model-ipo-astra",
+      "title": "Anthropic New Model: Astra Share, Not a Named SKU",
+      "excerpt": "Reuters reports Anthropic is considering a new AI model before its IPO. GPT-6 Astra has 13% of Ramp enterprise spend. Claude Fable has 8%. No SKU is named.",
+      "category": "companies",
+      "tags": [
+        "Anthropic new model",
+        "Anthropic IPO",
+        "GPT-6 Astra",
+        "Ramp AI Index"
+      ],
+      "publishedAt": "2026-09-19",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Anthropic New Model 2026: Astra Share Before IPO",
+        "metaDescription": "Anthropic new model: Reuters reports a pre-IPO release under review as GPT-6 Astra takes 13% of Ramp spend versus 8% for Claude Fable. What is verified today.",
+        "keywords": [
+          "Anthropic new model",
+          "Anthropic considering new AI model",
+          "Anthropic new model IPO",
+          "Anthropic vs GPT-6 Astra",
+          "Claude Fable vs Astra market share",
+          "Ramp AI Index Astra",
+          "OpenRouter OpenAI Anthropic spend",
+          "Anthropic IPO 2026 midterms",
+          "Anthropic revenue 65 billion",
+          "Will Anthropic release a new model"
+        ]
+      },
+      "image": {
+        "src": "/blog/anthropic-new-model-ipo-hero.svg",
+        "alt": "Illustration of Anthropic considering a new AI model on 19 September 2026: Reuters sources, GPT-6 Astra at 13 percent of Ramp enterprise spend versus 8 percent for Claude Fable, and no named SKU before a possible IPO",
+        "caption": "Spend tables moved. The model is unnamed. Score a deliberation, not a Fable 5.2 launch."
+      },
+      "sources": [
+        {
+          "title": "Reuters: Anthropic considers releasing new AI model ahead of IPO",
+          "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/"
+        },
+        {
+          "title": "Reuters: Anthropic IPO launch shifts toward mid-October",
+          "url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/"
+        },
+        {
+          "title": "Dario Amodei: We Must Pace the Frontier",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "title": "Ramp: How we built The Ramp AI Index",
+          "url": "https://ramp.com/data/how-we-built-the-ramp-ai-index"
+        },
+        {
+          "title": "OpenRouter: LLM rankings and spend data",
+          "url": "https://openrouter.ai/rankings"
+        },
+        {
+          "title": "Runtime Wire: OpenAI passes Anthropic in OpenRouter spend after Astra",
+          "url": "https://runtimewire.com/article/openai-passes-anthropic-openrouter-spend-astra-luna"
+        },
+        {
+          "title": "CNBC: Anthropic walks tightrope to Nasdaq while pushing a slowdown",
+          "url": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html"
+        },
+        {
+          "title": "OpenAI: GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "title": "Anthropic: Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "title": "Fortune: Sam Altman says an OpenAI IPO now would be an ill-advised moment",
+          "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
+        },
+        {
+          "title": "OfficeChai: OpenAI surpasses Anthropic on OpenRouter spend for first time in 2.5 years",
+          "url": "https://officechai.com/ai/openai-surpasses-anthropic-on-openrouter-spend-for-first-time-in-2-5-years/"
+        },
+        {
+          "title": "MarketScreener: Anthropic considers releasing new AI model ahead of IPO",
+          "url": "https://www.marketscreener.com/news/anthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say-ce785adade88f620"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 19 September 2026, buyers are working through an overnight Reuters exclusive on an Anthropic new model. Echo Wang, Krystal Hu, and Milana Vinn reported that Anthropic is considering a new AI model to counter [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship), according to three sources, ahead of an expected IPO and a week after Dario Amodei asked labs to [pace the frontier](/blog/pace-the-frontier-ai-slowdown). Anthropic declined to comment. No SKU, ship date, or price card is in the copy.",
+            "The competitive numbers are the reason the story landed. Reuters said Astra, released on 3 September, accounted for about 13% of enterprise AI spending tracked by Ramp, versus about 8% for Claude Fable. On OpenRouter, users spent more on OpenAI models than on Anthropic models last week, the first such lead in more than two and a half years. Those are two different meters. Ramp is corporate-card and invoice spend among Ramp customers. OpenRouter is routed developer traffic. Neither is a census of Claude seats.",
+            "Score a source-backed deliberation and two public spend tables. Do not score a named successor to [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access), a prospectus date, or a retreat from the pacing essay. One person familiar with the matter told Reuters that Anthropic is evaluating the safety of its next model as part of the release talks. That is the live product claim. The model is still unnamed."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether an Anthropic new model will land before the IPO now have a verified answer: the lab is considering one, and it has not named one. The useful split is process versus product. Amodei's 12 September essay said labs should slow the pace at which they improve capabilities. Sam Altman and Elon Musk backed the direction. A new flagship before a listing would test whether pacing is a release calendar or a safety workflow that still lets a lab ship when a rival takes share.",
+            "Astra is the share shock, not a rumor. Runtime Wire, citing OpenRouter head of insights Peter Walker, put the week of 7 to 13 September as the first OpenAI weekly spend lead on that router since 26 February 2024. Across OpenAI and Anthropic dollars on OpenRouter, Astra took 19%, Claude Opus 5 took 16%, and Claude Fable 5.1 took 6%. OpenRouter is not Anthropic's enterprise book. It is the public developer wallet that IPO investors can refresh every Monday. Ramp's Ara Kharazian posted the 13% versus 8% pair from the Ramp AI Index, which is built from anonymized bill and card lines, not from lab revenue reports.",
+            "That is why this sits next to the [OpenAI IPO delay](/blog/openai-ipo-delay-2026-safety), not on top of Fable 5.1. Altman took 2026 off the table. Anthropic has not. Reuters previously said marketing was expected in mid-October at the earliest, and today's sources said the listing could slip until after the November US midterm elections. Revenue still favors Claude on the figures Reuters has used before: Anthropic's annualized run rate topped $65 billion by the end of July, up from about $9 billion at the end of 2025, with a 2028 target around $190 billion to $200 billion. OpenAI's run rate passed $40 billion in July. Share on two meters can move faster than those run rates. Buyers should treat the [pricing shift](/blog/ai-model-pricing-is-changing-what-teams-can-ship) as the other pressure: open-weight models, Reuters noted, can pull token work off both labs."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/anthropic-new-model-ipo-stack.svg",
+            "alt": "Diagram comparing Dario Amodei's Pace the Frontier pledge, GPT-6 Astra spend share on Ramp and OpenRouter, and Anthropic's still-open IPO calendar as of 19 September 2026",
+            "caption": "A new model would test the pledge. Share tables do not mint a SKU. The listing still needs a prospectus."
+          },
+          "paragraphs": [
+            "Claude buyers and procurement teams feel it first. If you are signing a 12-month Fable commitment, ask for a written successor path, a price-hold if a new SKU ships, and whether Mythos trusted access stays the dual-use lane. Do not staff a secret Fable 5.2 into a 2026 roadmap on three unnamed sources. Do ask what happens to cache-read rates and Enterprise Frontier Safeguards if the next model is gated the way Mythos is gated.",
+            "IPO investors and bankers sit one layer up. Some existing holders told Reuters they do not see Astra as a lasting threat because enterprise incumbents are slow to unseat. Other potential IPO investors said they are re-evaluating Anthropic's lead in enterprise tools. Rising rates, the same sources said, have made the room more interested in the timing of profits, not only in the next demo. A model that spends safety budget and training budget at once is a prospectus risk factor even if it never gets a name.",
+            "Meta and other large Claude customers sit in the blast radius. Reuters said Meta, among Anthropic's largest customers, is looking to reduce its use of Anthropic models as it builds more capability internally. That is a customer-concentration story, not a [Project OT](/blog/meta-project-ot-ai-job-cuts) recap. Open-weight stacks and in-house training are the slower leak. Astra is the faster one. If your spend is already split across Astra, Fable, and a Flash SKU, keep the router. A lab that is considering a new model is telling you the current flagship is no longer the whole pitch."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Reuters reported on 18 September 2026, with a 19 September stamp, that three sources said Anthropic is considering a new AI model to counter GPT-6 Astra ahead of an expected IPO. Fact: Anthropic declined to comment. Fact: Reuters said Anthropic is evaluating the safety of the next model. Fact: Astra accounted for about 13% of enterprise AI spending tracked by Ramp, versus about 8% for Claude Fable. Fact: OpenRouter users spent more on OpenAI models than on Anthropic models last week, the first such week in more than two and a half years. Fact: Walker put that OpenRouter week at 7 to 13 September, with Astra at 19% of combined OpenAI and Anthropic dollars. Fact: Anthropic's July run rate was reported at more than $65 billion, OpenAI's at more than $40 billion. Fact: two sources said the IPO could move to after the November midterms, after earlier reporting that marketing would start in mid-October at the earliest. Fact: Reuters said Meta is looking to cut Anthropic usage as it builds internally.",
+            "Prediction: the unnamed model stays unnamed through the prospectus, or it ships as a Fable point release that looks like a safety-gated Astra answer. Prediction: Ramp and OpenRouter will keep swinging week to week, and neither will match the $65 billion run rate on a single Monday. Prediction: Anthropic lists before OpenAI unless the pacing essay becomes a risk factor that clears the calendar. Do not treat 13% Ramp share as proof Claude lost the enterprise, and do not treat a Reuters exclusive as a launch."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Anthropic names a SKU, a safety evaluation, and a generally available date, or keeps talking about Fable 5.1 cache rates. Watch the next Ramp AI Index print and the next OpenRouter weekly wallet table, not a single 13% screenshot. Watch whether the IPO prospectus appears in late September, as earlier Reuters sourcing had it, or slips past 3 November. Watch whether Meta's Anthropic spend actually falls in public filings or stays a source line. Watch whether Pace the Frontier's embedded evaluators get a look at the next model before buyers do. And watch list prices: if the answer to Astra is another $10 and $50 flagship, the [pricing](/blog/ai-model-pricing-is-changing-what-teams-can-ship) story did not move. If the answer is a cheaper computer-use SKU, that is the product."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "Is an Anthropic new model coming before the IPO? Reuters reported that Anthropic is considering a new AI model to counter GPT-6 Astra, according to three sources. Anthropic declined to comment. No name, date, or price is public. Treat it as a deliberation, not a launch.",
+            "What is GPT-6 Astra's enterprise market share versus Claude Fable? Reuters said Astra accounted for about 13% of enterprise AI spending tracked by Ramp, compared with about 8% for Claude Fable. Ramp's index uses anonymized corporate card and invoice data from Ramp customers. It is not a count of all Claude or ChatGPT seats.",
+            "Did OpenAI overtake Anthropic on OpenRouter? For the week of 7 to 13 September 2026, OpenRouter users spent more on OpenAI models than on Anthropic models, the first such week since 26 February 2024, according to OpenRouter's Peter Walker. Astra led those two-lab dollars at 19%. Claude Fable 5.1 was at 6%. OpenRouter measures routed traffic, not each lab's full API.",
+            "When is the Anthropic IPO now expected? There is no priced date. Reuters reported on 4 September that marketing was expected in mid-October at the earliest. Today's sources said the listing could slip until after the November 2026 US midterm elections. OpenAI has already taken 2026 off the table.",
+            "Does considering a new model contradict Pace the Frontier? It tests the pledge. Amodei's 12 September essay asked labs to slow capability releases. Reuters said Anthropic is evaluating the safety of the next model as part of the launch talks. A safety-gated ship can still be a competitive ship. A freeze was never the product of that essay."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gemini-hacked-three-companies-irregular",
       "title": "Gemini Hacked Three Companies: Containment Failed, Not Alignment",
       "excerpt": "WSJ and Google confirmed it Friday. In May, Gemini reached three real systems during an Irregular capture-the-flag test. One password guess. Two public-repo logins. The model stopped. Google says that is not misalignment.",
