@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-14",
+  "generatedAt": "2026-09-19",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,137 @@
     }
   ],
   "posts": [
+    {
+      "slug": "typesafe-jev-system-one-model",
+      "title": "TypeSafe Jev: A System One Model, Not an LLM",
+      "excerpt": "TechCrunch covered TypeSafe Jev on Friday. The System One model returns calibrated decisions, not chat. Input is $0.042 per million tokens. Output is free. Demand briefly took the API offline.",
+      "category": "models",
+      "tags": [
+        "TypeSafe Jev",
+        "System One model",
+        "RLCD",
+        "TypeSafe AI"
+      ],
+      "publishedAt": "2026-09-19",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "TypeSafe Jev 2026: System One Model, Not an LLM",
+        "metaDescription": "TechCrunch covers TypeSafe Jev. A System One model returns calibrated decisions, not prose. $0.042 per million input tokens. What is verified today.",
+        "keywords": [
+          "TypeSafe Jev",
+          "Jev AI model",
+          "System One model",
+          "TypeSafe AI",
+          "TypeSafe Jev pricing",
+          "Jev vs LLM",
+          "RLCD TypeSafe",
+          "TypeSafe Jev API",
+          "calibrated decision model",
+          "what is TypeSafe Jev"
+        ]
+      },
+      "image": {
+        "src": "/blog/typesafe-jev-hero.svg",
+        "alt": "Illustration of TypeSafe Jev on 19 September 2026: a System One decision model rather than an LLM, $0.042 per million input tokens with free output, 70 to 500 millisecond latency, and waitlisted early access after TechCrunch reported API demand",
+        "caption": "Decisions in. Prose out of scope. Score a waitlisted API, not a 400x budget cut."
+      },
+      "sources": [
+        {
+          "title": "TechCrunch: A new kind of AI model from a ChatGPT inventor is thrilling developers",
+          "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/"
+        },
+        {
+          "title": "TypeSafe: Introducing System One Models and Jev",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+        },
+        {
+          "title": "InfoWorld: TypeSafe AI's new models work with machines, not humans",
+          "url": "https://www.infoworld.com/article/4223468/typesafe-ais-new-models-work-with-machines-not-humans.html"
+        },
+        {
+          "title": "Business Wire: TypeSafe AI emerges from stealth with $40M and Jev",
+          "url": "https://www.businesswire.com/news/home/20260915525333/en/TypeSafe-AI-Emerges-From-Stealth-With-%2440M-in-Funding-With-New-Model-for-Composable-AI"
+        },
+        {
+          "title": "FinSMEs: TypeSafe AI raises $40M in seed funding",
+          "url": "https://www.finsmes.com/2026/09/typesafe-ai-raises-40m-in-seed-funding.html"
+        },
+        {
+          "title": "TypeSafe AI homepage and early access waitlist",
+          "url": "https://typesafe.ai/"
+        },
+        {
+          "title": "Daniel Kahneman: Thinking, Fast and Slow (System 1 / System 2)",
+          "url": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow"
+        },
+        {
+          "title": "Encyclopaedia Britannica: William Stanley Jevons and Jevons paradox",
+          "url": "https://www.britannica.com/money/William-Stanley-Jevons"
+        },
+        {
+          "title": "OpenAI: GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "title": "Vercel AI Gateway: model routing documentation",
+          "url": "https://vercel.com/docs/ai-gateway"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 19 September 2026, buyers are still working through Friday's TechCrunch briefing on TypeSafe Jev. Diogo Almeida, a former OpenAI researcher who worked on ChatGPT and reinforcement learning from human feedback, left two years ago to start TypeSafe AI. The company came out of stealth on 15 September with about $40 million in seed funding led by DCVC and a first public model that refuses to write. Jev is not a chatbot. It takes unstructured state, a list of typed questions, and returns structured decisions with probabilities.",
+            "TechCrunch said developers briefly overwhelmed the API. Vercel engineer Pranit Sharma replaced ChatGPT Luna 5.6 on a command-safety classifier and reported results 5 to 18 times faster, with better accuracy. Bryo AI chief technology officer Nikhil Mudholkar compared Jev with Gemini on business email classification: Gemini was slightly more accurate and 10 to 20 times more expensive. Armin Ronacher, chief technology officer of Earendil, said the useful part is the probability. At 50 percent you discard the call. At 95 percent you can act.",
+            "Score a waitlisted hosted model and a set of named developer anecdotes. Do not score a public bake-off, an on-premises SKU, or a named production service level. Business Wire's launch copy still says early access for select developers. The waitlist is the product surface this morning."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Frontier labs still sell strings. [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship), [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access), and [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) generate tokens one at a time. TypeSafe's launch post prices those inputs from $0.20 to $10 per million tokens, with output about five times the input rate, and end-to-end latency from 3 to 329 seconds. Jev prices input at $0.042 per million tokens, $42 per billion, and calls output too cheap to meter. Vendor latency is 70 to 500 milliseconds. The homepage pair, 193.6 times faster and 444.6 times cheaper, comes from TypeSafe's own workflow evals. The company says those sit at the high end.",
+            "The training claim is RLCD, Reinforcement Learning for Calibrated Decisions, on synthetic data. Almeida told TechCrunch that making the data was a better bet than the launch, and better than RLHF. The architecture is closed. Outside observers still suspect an open-weight base. The product claim is a parallel sampler that emits every answer in one shot, with a maximum of 255 options on a choice. Schema match, TypeSafe says, is mathematically guaranteed. Hallucinated strings are out of scope because there are no strings.",
+            "That is why this sits next to, not on top of, the [OpenAI Agents API](/blog/openai-agents-api-codex-harness). Agents write, click, and loop. Jev is the cheap gate: route, score, refuse, or escalate. [Sakana Fugu](/blog/sakana-fugu-ultra-v2-fugu-max) sells orchestration among large language models. Jev sells a decision primitive those orchestrators can call. The [pricing shift](/blog/ai-model-pricing-is-changing-what-teams-can-ship) already pushed teams toward Flash SKUs such as [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks). Jev is a further cut: stop paying for prose when the software only needed a branch."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/typesafe-jev-stack.svg",
+            "alt": "Diagram comparing frontier large language models that generate text, TypeSafe Jev System One calibrated decisions, and application code that still owns thresholds and escalation as of 19 September 2026",
+            "caption": "Use Jev to route and refuse. Keep Astra or Fable for the work that still needs a sentence."
+          },
+          "paragraphs": [
+            "Agent and platform teams feel it first. Sharma's Vercel classifier is the intended job: a bounded safety check that used to hit a chat model. Ronacher's second use is model routing. Predicting whether a request needs Astra or a cheap Flash model is itself an expensive call if you send it to a frontier endpoint. Jev is priced to sit on that path.",
+            "Enterprise buyers sit one layer up. InfoWorld's Anirban Ghoshal collected the caution. Stephanie Walter of HyperFrame said teams still have to define questions, outputs, thresholds, and escalation in advance, then validate calibration on their own labels as the data drifts. Paul Chada of Doozer AI noted a probability is not an explanation. That matters in regulated workflows. Advait Patel of Broadcom flagged the vendor shape: early-stage, hosted, currently a single West Coast region, with the usual questions on residency, commitments, and lock-in.",
+            "Researchers and evaluation owners should keep the [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) in view. TypeSafe's workflow benches use the average of Astra and Fable 5.1 as the reference. The workflows were written by the company's model capabilities team. Independent public benches are thin. Treat 193.6x as a ceiling until someone else reruns the graph."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: TypeSafe emerged from stealth on 15 September 2026 with about $40 million in seed funding led by DCVC. Fact: the named founders are Diogo Almeida, Erik Gafni, and Sasha Sheng. Fact: Jev is in waitlisted early access. Fact: the published list price is $0.042 per million input tokens and free output. Fact: vendor latency is 70 to 500 milliseconds. Fact: TechCrunch on 18 September reported API demand high enough to interrupt service, plus named developer tests at Vercel and Bryo AI. Fact: TypeSafe says Jev cannot emit a type error because the schema is fixed in advance. Fact: the company has not published weights, an on-premises build, or a multi-region service commitment.",
+            "Prediction: Jev becomes a routing and guardrail SKU next to Flash models, not a ChatGPT replacement. Prediction: competitors ship decision models once the API stays up for a month. Prediction: the $0.042 rate moves, or the waitlist stays, before a named production customer goes on the record. Do not staff a 400x cost cut into a 2026 budget on vendor workflows and three developer quotes."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether TypeSafe names a production customer, a second region, and a written service commitment. Watch whether the $0.042 input rate holds once the waitlist clears. Watch an independent rerun of the four workflow evals with a frozen harness. Watch whether a gateway lists a TypeSafe Jev route at the same list price and the same calibration. Watch a public calibration plot on customer data, not only a launch demo. And watch whether an open-weight clone appears, which is the usual next move when a new interface is this simple."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is TypeSafe Jev? TypeSafe Jev is a System One model from TypeSafe AI. It returns typed decisions with calibrated probabilities instead of generated text. The company launched it in early access on 15 September 2026 after a $40 million seed led by DCVC. TechCrunch covered developer demand on 18 September.",
+            "Is TypeSafe Jev a large language model? TypeSafe says no. Jev does not generate strings. It samples structured answers in parallel from a schema you define. Outside observers still suspect an open-weight large language model somewhere in the stack. Until weights or a paper land, treat \"not an LLM\" as a product claim, not a peer-reviewed architecture.",
+            "How much does TypeSafe Jev cost? TypeSafe lists $0.042 per million input tokens, also written as $42 per billion, and free output tokens. The company says output is too cheap to meter. It also says it cannot prove the price is not subsidized. Gateway prices can differ.",
+            "Can TypeSafe Jev hallucinate? TypeSafe says the model cannot emit a value outside the schema, so type errors are impossible by construction. A calibrated probability can still be wrong. InfoWorld's sources said you still have to pick thresholds and validate calibration on your own data. A wrong branch with 0.92 confidence is not a hallucination. It is still a bad decision.",
+            "Who should use TypeSafe Jev in 2026? Teams that need cheap, bounded decisions inside software: classify, route, score, guardrail, or escalate. It is the wrong tool for chat, long-form writing, or open computer use. Early access is waitlisted. InfoWorld's analysts expect internal automation first, not regulated production, until calibration and audit trails are proven."
+          ]
+        }
+      ]
+    },
     {
       "slug": "cognichip-aci-physics-informed-chip-design",
       "title": "Cognichip ACI: Physics-Informed Chip Design, Not an LLM Wrapper",
