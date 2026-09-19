@@ -38,6 +38,137 @@
   ],
   "posts": [
     {
+      "slug": "huawei-atlas-960e-superpod-npo",
+      "title": "Huawei Atlas 960E SuperPoD: Optics Scale, Not a Faster Chip",
+      "excerpt": "CONNECT 2026 closed in Shanghai today. Huawei's Atlas 960E SuperPoD uses near-packaged optics to wire 4,096 NPUs. The Ascend 960DT chip moved up. The pod is smaller than last year's 15,488 chart.",
+      "category": "chips",
+      "tags": [
+        "Huawei Atlas 960E",
+        "SuperPoD",
+        "Ascend 960",
+        "AI chips"
+      ],
+      "publishedAt": "2026-09-19",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Huawei Atlas 960E SuperPoD 2026: 4,096 NPUs, Q3 2027",
+        "metaDescription": "Huawei Atlas 960E SuperPoD wires 4,096 NPUs with NPO optics at CONNECT 2026. Ascend 960DT moved to Q1 2027. What is verified vs the old 15,488 claim.",
+        "keywords": [
+          "Huawei Atlas 960E SuperPoD",
+          "Huawei SuperPoD",
+          "Huawei vs Nvidia 2026",
+          "Ascend 960DT launch date",
+          "near-packaged optics SuperPoD",
+          "Huawei Hi-ONE NPO",
+          "Atlas 960E 4096 NPUs",
+          "When is Huawei Atlas 960E available",
+          "Huawei UnifiedBus SuperPoD",
+          "Ascend 960 vs Nvidia"
+        ]
+      },
+      "image": {
+        "src": "/blog/huawei-atlas-960e-superpod-hero.svg",
+        "alt": "Illustration of the Huawei Atlas 960E SuperPoD on 19 September 2026: near-packaged optics wiring 4,096 NPUs, Ascend 960DT moved to Q1 2027, and a smaller pod than last year's 15,488 chip chart",
+        "caption": "The chip moved earlier. The pod shrank. Score an NPO cluster, not a B300 killer."
+      },
+      "sources": [
+        {
+          "title": "Huawei: Atlas 960E SuperPoD, the first NPO-based SuperPoD",
+          "url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode"
+        },
+        {
+          "title": "Huawei: UnifiedBus computing architecture for SuperPoDs and clusters",
+          "url": "https://www.huawei.com/en/news/2026/9/hc-lingqu-agent-ai"
+        },
+        {
+          "title": "TechCrunch: Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+          "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/"
+        },
+        {
+          "title": "The Next Web: Huawei's answer to Nvidia is a much bigger machine",
+          "url": "https://thenextweb.com/news/huawei-connect-2026-ascend-960-superpod-unifiedbus"
+        },
+        {
+          "title": "KR-Asia: Huawei brings near-packaged optics to AI with Atlas 960E",
+          "url": "https://kr-asia.com/huawei-brings-near-packaged-optics-to-ai-with-atlas-960e-superpod"
+        },
+        {
+          "title": "Huawei Central: Atlas 960E commercial availability in Q3 2027",
+          "url": "https://www.huaweicentral.com/heres-when-huawei-atlas-960e-worlds-first-npo-superpod-will-be-available/"
+        },
+        {
+          "title": "RCR Wireless: Huawei accelerates AI chip roadmap toward million-NPU systems",
+          "url": "https://rcrtech.com/ai-infrastructure-news/huawei-ai-chip/"
+        },
+        {
+          "title": "Huawei: 2025 SuperPoDs, Atlas 960 at 15,488 NPUs",
+          "url": "https://www.huawei.com/en/news/2025/9/hc-lingqu-ai-superpod"
+        },
+        {
+          "title": "Channel Insider: Huawei Atlas 960 SuperPoD takes aim at Nvidia",
+          "url": "https://www.channelinsider.com/ai/news-huawei-atlas-960-superpod-nvidia-ai/"
+        },
+        {
+          "title": "Huawei Central: Ascend 960 SuperPoD computing cluster",
+          "url": "https://www.huaweicentral.com/huawei-unveils-ascend-960-superpod-computing-cluster-targeting-nvidia/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 19 September 2026, HUAWEI CONNECT 2026 closes in Shanghai. Buyers are working through Thursday's keynote from David Wang, Huawei's rotating chairman. He launched the [Huawei Atlas 960E SuperPoD](https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode), which the company calls the industry's first SuperPoD built on near-packaged optics. One pod scales to 4,096 NPUs. Huawei's English note puts that box at 8 EFLOPS at FP8 and 16 EFLOPS at FP4, with a fully liquid-cooled orthogonal design and UnifiedBus memory addressing.",
+            "The optics are the product. Huawei's Hi-ONE engine, a mass-produced NPO module with a built-in light source, is rated at 7.2 Tbit/s. The company says 5,500 of those engines replace about 48,000 conventional 800G pluggable modules, cut more than 550 kilowatts, and lift availability to 99.8%. Yang Chaobin, who runs the ICT group, put the rest of the stack on stage the same day: UnifiedBus LinkBlade inside the cabinet, LinkDevice between cabinets, a UBG switch across clusters, an upgraded TaiShan 950 SuperPoD with a 256 TB memory pool, and OceanStor M900 as petabyte-scale KV cache.",
+            "Score a systems announcement with named interconnects and a public NPU count. Do not score a die that beats Nvidia's B300, a merchant GPU SKU, or a million-NPU cluster that exists in a hall. TechCrunch's Kate Park dated the chip calendar 17 September: a Huawei spokesperson said the Ascend 960DT is expected in the first quarter of 2027, three quarters earlier than the prior Q3 2027 plan, with the 960PR still in the third quarter. China tech analyst Rui Ma flagged the other number. Last year's Atlas 960 SuperPoD chart said 15,488 Ascend 960 chips. This week's Atlas 960E holds 4,096."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what a Huawei SuperPoD is now have a verified split. The chip moved up. The pod that Huawei put on the 2026 keynote is smaller than the 2025 chart, and the story is wiring, not a process-node miracle. Huawei has said for a year that export controls on advanced lithography pushed it to combine more accelerators instead of waiting for a denser die. That is cousin to the [ASML High NA](/blog/asml-high-na-euv-intel-tsmc-samsung) calendar, not a rebuttal of it. Near-packaged optics sit the optical engine next to the switch chip on the board. They are not co-packaged optics. KR-Asia noted Nvidia and Broadcom already ship CPO switches. Huawei told Nikkei that NPO parts are pluggable, which is a service argument, not a bandwidth trophy.",
+            "The software half is the CUDA problem restated. CANN is now community-driven open source. The Next Web said external developers make up 61% of that community, and that Ascend is listed as a PyTorch accelerator backend. That is the same moat [NVIDIA's CUDA-Q](/blog/nvidia-cuda-q-logical-fault-tolerant-quantum) and the [Hugging Face hub deal](/blog/nvidia-buys-hugging-face-open-model-hub) sit on. A SuperPoD without kernels is a dark hall. A SuperPoD with PyTorch and DeepSeek Harness plugins is a domestic training option.",
+            "It also tests the pacing debate. TechCrunch noted Xu telling the Financial Times that Chinese firms still need to accelerate before they can judge frontier risk. [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) is a US-lab pledge. This keynote is a scale-up pledge. Trump and Xi are due in Washington on 24 September. Score a calendar collision, not a treaty."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/huawei-atlas-960e-superpod-stack.svg",
+            "alt": "Diagram comparing the Ascend 960DT chip calendar, the 4,096-NPU Atlas 960E SuperPoD announced at CONNECT 2026, and the still-theoretical million-NPU SuperCluster as of 19 September 2026",
+            "caption": "The die moved earlier. The 4,096-NPU NPO box is the announcement. A million NPUs is a topology slide."
+          },
+          "paragraphs": [
+            "Chinese labs and cloud buyers feel it first. If you are booking 2027 training capacity on Ascend, ask which SKU is on the purchase order: the 4,096-NPU Atlas 960E, or the older 15,488 Atlas 960 chart. Huawei Central dated Atlas 960E commercial availability to the third quarter of 2027. Huawei's English launch note did not print that date. Ask for the Hi-ONE count, the liquid-cooling plant, and whether UnifiedBus or RoCE is the cluster fabric. The Next Web, citing The Register, still puts the 960DT well behind Nvidia's B300 on per-chip FP8 and FP4. Nvidia cannot sell that B300 in China. That is the local math.",
+            "Sovereign and non-US buyers sit one layer out. The Next Web named Standard Bank on Huawei Cloud Stack and Sky47 in Pakistan. Europe is still arguing about radio kits, not SuperPoDs. Treat this as a [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) cousin: a non-Nvidia supply with a software tax. It is not an [OpenAI Jalapeño](/blog/openai-jalapeno-inference-chip) merchant bake-off. Jalapeño is a lab inference ASIC. Atlas 960E is a cluster you either can import or cannot.",
+            "Nvidia, AMD, TPU, and Trainium buyers should keep the [chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) table and add a row for interconnect, not a row for a surprise process node. Samsung's [Mistral on-prem fab](/blog/samsung-mistral-ai-chip-partnership) story is still a foundry partnership. This is a banned-market substitute. Xu was blunt, per The Next Web: Huawei now claims more AI chip share than Nvidia inside China and still cannot make enough of them. DeepSeek's plan for at least 160,000 Ascend 950DT chips is a backlog, not a filled rack."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Huawei published the Atlas 960E SuperPoD note on 17 September 2026 from CONNECT in Shanghai. Fact: the English note says 4,096 NPUs, 8 EFLOPS FP8, 16 EFLOPS FP4, 5,500 Hi-ONE engines, more than 550 kW saved versus 48,000 800G modules, and 99.8% availability. Fact: TechCrunch quoted a Huawei spokesperson that Ascend 960DT moved from Q3 2027 to Q1 2027. Fact: Rui Ma, cited by TechCrunch, contrasted this week's 4,096-NPU pod with the prior 15,488 Atlas 960 claim. Fact: Huawei's 18 September 2025 SuperPoD note listed Atlas 960 at 15,488 NPUs. Fact: a two-tier four-plane Clos network is specified to 512,000 NPUs, and a multi-rail topology to one million. Fact: Huawei has not demonstrated a million-NPU cluster. Fact: CANN is described as community-driven open source.",
+            "Prediction: the 4,096-NPU Atlas 960E ships in 2027 before anyone builds the 15,488 chart as a single logical machine. Prediction: per-chip Nvidia gaps stay the talking point outside China, and interconnect utilization stays the talking point inside it. Prediction: export rules, not FLOPS slides, decide whether this kit shows up in Europe. Do not treat 8 EFLOPS as a public bake-off against Blackwell, and do not treat a million NPUs as a purchase order."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Huawei publishes a customer SuperPoD with a named 4,096-NPU count, or keeps mixing Atlas 960 and Atlas 960E in follow-on coverage. Watch the Ascend 960DT tapeout and whether Q1 2027 means samples or volume. Watch Hi-ONE yield and the OIF implementation agreement, which KR-Asia says is not yet a standard. Watch CANN commits from people who do not work at Huawei. Watch DeepSeek and other domestic labs: backlog versus installed 950DT is the supply tell. And watch 24 September. A Trump-Xi readout that moves export rules would reprice this cluster faster than a new EFLOPS slide."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the Huawei Atlas 960E SuperPoD? It is Huawei's NPO-based AI cluster announced at CONNECT 2026 on 17 September. One SuperPoD uses UnifiedBus and Hi-ONE near-packaged optics to treat up to 4,096 NPUs as a single logical machine for training and inference on models Huawei says approach 10 trillion parameters.",
+            "How many NPUs does the Atlas 960E SuperPoD have? Huawei's 17 September 2026 English note says 4,096. That is not last year's Atlas 960 chart of 15,488 Ascend 960 chips. TechCrunch quoted analyst Rui Ma on that gap. Ask which SKU is on a 2027 quote.",
+            "When will the Huawei Atlas 960E SuperPoD be available? Huawei Central dated commercial availability to the third quarter of 2027. Huawei's English launch note did not print a ship date. The Ascend 960DT chip is separately expected in Q1 2027, according to a Huawei spokesperson speaking to TechCrunch, with the 960PR inference chip still in Q3 2027.",
+            "Does the Huawei SuperPoD beat Nvidia? Not on a public per-chip bake-off. The Next Web, citing The Register, still puts the 960DT at roughly half the FP8 and a third of the FP4 compute of Nvidia's B300. Nvidia cannot sell the B300 in China. Huawei's claim is cluster scale, optics, and utilization, not a faster individual accelerator.",
+            "What is near-packaged optics in the Atlas 960E? NPO places an optical engine next to the switch chip on the board, short of co-packaged optics that sit inside the same package. Huawei's Hi-ONE module is rated at 7.2 Tbit/s with a built-in light source. The company says 5,500 of them replace about 48,000 800G pluggables and cut more than 550 kilowatts."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "hacktron-claude-opus-5-openai",
       "title": "Hacktron Used Claude to Hack OpenAI: Opus 5, Not a Breakout",
       "excerpt": "The Journal and TechCrunch covered Hacktron this week. Three researchers used Claude Opus 5 to reach OpenAI staff ChatGPT and Codex accounts. OpenAI paid $6,500. Score a bounty, not a rogue agent.",
