@@ -38,6 +38,145 @@
   ],
   "posts": [
     {
+      "slug": "anthropic-accenture-embedded-evaluator",
+      "title": "Anthropic Accenture Deal: Faculty Embed, Not a METR Desk",
+      "excerpt": "Anthropic named Accenture's Faculty as its first embedded evaluator on Friday. Each firm expects to invest at least $1 billion over five years. Anthropic will fund the work directly. METR is still in talks.",
+      "category": "companies",
+      "tags": [
+        "Anthropic Accenture",
+        "embedded evaluator",
+        "Faculty",
+        "AI safety"
+      ],
+      "publishedAt": "2026-09-19",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Anthropic Accenture 2026: $1B Faculty Evaluator Deal",
+        "metaDescription": "Anthropic Accenture deal: Faculty embeds inside the lab with $1B each over five years. Anthropic funds the work. METR is still in talks. What is verified today.",
+        "keywords": [
+          "Anthropic Accenture",
+          "Anthropic embedded evaluator",
+          "Anthropic Accenture $1 billion",
+          "Faculty Accenture Anthropic",
+          "Anthropic first embedded evaluator",
+          "METR vs Accenture Anthropic",
+          "Anthropic Accenture Faculty",
+          "Who is Anthropic embedded evaluator",
+          "Accenture AI safety Anthropic",
+          "Will METR evaluate Anthropic"
+        ]
+      },
+      "image": {
+        "src": "/blog/anthropic-accenture-embedded-evaluator-hero.svg",
+        "alt": "Illustration of the Anthropic Accenture deal on 19 September 2026: Faculty as the first named embedded evaluator, $1 billion from each firm over five years, and METR still in talks rather than seated",
+        "caption": "The essay named METR-class desks. The first signed embed is a paid consultancy. Score Faculty, not a freeze."
+      },
+      "sources": [
+        {
+          "title": "Anthropic: Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        },
+        {
+          "title": "Accenture: Partner to build a team of embedded evaluators at Anthropic",
+          "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-partner-to-build-team-of-embedded-evaluators-at-anthropic"
+        },
+        {
+          "title": "CNBC: Anthropic selects Accenture as first embedded evaluator",
+          "url": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html"
+        },
+        {
+          "title": "TechCrunch: Anthropic's first embedded evaluator is Accenture",
+          "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/"
+        },
+        {
+          "title": "Reuters: Anthropic, Accenture to invest $2 billion in AI model evaluation",
+          "url": "https://www.reuters.com/business/anthropic-accenture-invest-2-billion-ai-model-evaluation-as-safety-concerns-rise-2026-09-18/"
+        },
+        {
+          "title": "Bloomberg: Anthropic to embed evaluators from Accenture",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-18/anthropic-to-embed-evaluators-from-accenture-to-test-ai-safety"
+        },
+        {
+          "title": "Dario Amodei: We Must Pace the Frontier",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "title": "Accenture: Agrees to acquire Faculty, 6 January 2026",
+          "url": "https://newsroom.accenture.com/news/2026/accenture-to-acquire-faculty-to-scale-ai-capabilities"
+        },
+        {
+          "title": "Accenture: Completes acquisition of Faculty, 16 March 2026",
+          "url": "https://newsroom.accenture.com/news/2026/accenture-completes-acquisition-of-faculty"
+        },
+        {
+          "title": "Reuters: Accenture and Anthropic expand Claude deployment, December 2025",
+          "url": "https://www.reuters.com/business/accenture-anthropic-strike-multi-year-partnership-boost-ai-adoption-2025-12-09/"
+        },
+        {
+          "title": "CNBC: Sam Altman on why the AI industry wants to slow down",
+          "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html"
+        },
+        {
+          "title": "Anadolu Agency: Microsoft chief backs pacing AI and independent evaluators",
+          "url": "https://www.aa.com.tr/en/world/microsoft-chief-backs-pacing-ai-independent-evaluators-for-superintelligence/4056214"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 19 September 2026, buyers are still working through Friday's Anthropic Accenture notes. Anthropic published [Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation). Accenture's newsroom posted the same day. CNBC's Ashley Capoot dated the recap 5:31 p.m. Eastern. TechCrunch's Tim Fernholz followed. Reuters and Bloomberg treated it as a $1 billion-each capacity pledge, not a named SKU. Faculty, Accenture's specialist AI unit, will evaluate and red-team models, run alignment assessments, and test safeguards.",
+            "The money line is two expectations, not one invoice. Anthropic and Accenture each expect to invest at least $1 billion over five years in building capacity. Anthropic also said that, given urgency, it will fund Accenture's work directly. Long term, the lab still wants pooled or government money, the June Advanced AI Framework ask. Neither pool exists. There is no team size, billing card, start date, or first public report. Score a named embed with employee-comparable access. Do not score a $2 billion purchase order or a [training freeze](/blog/pace-the-frontier-ai-slowdown).",
+            "The partnership is non-exclusive. Anthropic says more evaluators will be named in the coming weeks and that it is talking to METR and other nonprofits about pilots that would use their own funding. Accenture says it will do similar work for other AI developers. There are still no standards for what embedded evaluators can see or how they should report. That is the same hole sitting next to the [three-lab standards talks](/blog/ai-standards-body-anthropic-openai-google)."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking who Anthropic's first embedded evaluator is now have a verified split. [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) named METR-class teams with desks, badges, and a right to publish without an editorial veto. Friday's first name is Faculty. Accenture agreed to buy the UK firm on 6 January 2026 and closed on 16 March. Marc Warner, Faculty's CEO, is Accenture's chief technology officer. TechCrunch noted the surprise: the weekend essay pointed at safety nonprofits. The first signed desk is a consultancy that already deploys Claude.",
+            "Independence is the product question. In December 2025, Reuters reported Accenture and Anthropic expanding a Claude deal that would train about 30,000 Accenture staff. Faculty had already advised frontier labs on safety before the sale. Anthropic paying Accenture directly is the opposite of the METR lane, where the nonprofit would bring its own funds. TechCrunch said Accenture's shares jumped about 8% after hours. That is a market read on a capacity pledge. It is not a published revenue schedule.",
+            "It also tests the IPO and ship calendars. Reuters and CNBC both put this next to Anthropic's listing talk and [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) share. [Anthropic's unnamed pre-IPO model](/blog/anthropic-new-model-ipo-astra) is still a deliberation. An embed that can watch a model take shape in training is the process claim buyers should attach to that SKU. If Faculty cannot publish a finding the lab dislikes, the [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) did not move."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/anthropic-accenture-embedded-evaluator-stack.svg",
+            "alt": "Diagram comparing Accenture Faculty as Anthropic's first paid embedded evaluator, METR still in talks on its own funding, and the still-unsigned AI standards body as of 19 September 2026",
+            "caption": "A paid embed is live copy. A nonprofit pilot is a conversation. A referee is still unsigned."
+          },
+          "paragraphs": [
+            "Anthropic safety and IPO buyers feel it first. Ask who sits in training, who can speak to staff, and who can publish an incident note without a lab edit. Anthropic says independent embeds do not reduce its accountability. That sentence is a responsibility claim. It is not a publication protocol. Tie it to the next [Fable or Mythos](/blog/claude-fable-5-1-mythos-trusted-access) card, not to a press-line dollar figure.",
+            "METR, Apollo, Redwood, and other nonprofit evaluators sit one layer out. They were the names in Amodei's essay. They are not Friday's counterparty. Watch whether a METR pilot lands with its own funding, or whether Accenture remains the only desk with employee-like access when the next model ships. [Microsoft's MAI consultation](/blog/microsoft-mai-code-of-conduct-consultation) still has no named evaluator. OpenAI pledged to match employee-like access and has not named a firm.",
+            "Enterprise buyers and Accenture clients are in the blast radius too. A Faculty method that later sells as governance work is the upside case. A consultant that already staffs Claude deployments is the conflict case. The [Gemini Irregular](/blog/gemini-hacked-three-companies-irregular) and [Hacktron](/blog/hacktron-claude-opus-5-openai) week showed why labs want outside eyes. It did not settle who those eyes work for. Do not collapse a paid embed, a nonprofit pilot, and a FINRA-style referee into one control."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Anthropic and Accenture published matching notes on 18 September 2026 naming Faculty as the lead embedded evaluator. Fact: each company expects to invest at least $1 billion over five years, and Anthropic said it will fund Accenture's work directly. Fact: embeds get access comparable to an employee, including watching models in training and speaking to staff. Fact: the partnership is non-exclusive, and Anthropic is in talks with METR and other nonprofits that would use their own funding. Fact: Accenture agreed to buy Faculty on 6 January 2026 and closed on 16 March. Fact: no access standard, report template, team size, or first public report has been published.",
+            "Prediction: Faculty will be inside Anthropic before METR has a signed embed. Prediction: the first public Faculty note will be a process update, not a blocked ship date. Prediction: buyers will ask for a publish-without-edit clause before they treat $1 billion as a safety budget. Do not treat Reuters' $2 billion headline as a single contract, and do not treat Friday as a freeze on [Astra](/blog/gpt-6-astra-computer-use-flagship) or Fable."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Anthropic publishes a Faculty start date, badge policy, and a right-to-publish clause that matches the weekend essay. Watch the next named evaluator, and whether METR's pilot uses its own money. Watch whether a Faculty finding delays a model that would otherwise have shipped, including any pre-IPO SKU. Watch Accenture's other AI-developer embeds, which the newsroom said will come. Watch whether Microsoft or OpenAI names a counterpart. And watch the [standards-body](/blog/ai-standards-body-anthropic-openai-google) talks. A paid desk is not a referee."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the Anthropic Accenture deal? On 18 September 2026 Anthropic named Accenture's Faculty unit as its first embedded evaluator. Faculty will red-team models, run alignment assessments, and test safeguards from inside the lab, with access comparable to an employee. Each company expects to invest at least $1 billion over five years. Anthropic said it will fund Accenture's work directly.",
+            "Who is Anthropic's first embedded evaluator? Faculty, the specialist AI business Accenture agreed to buy on 6 January 2026 and closed on 16 March. CNBC called it Anthropic's first concrete step toward Dario Amodei's Pace the Frontier plan. METR and other nonprofits are still in talks and would use their own funding.",
+            "Is the Anthropic Accenture $1 billion a contract? No public contract, team size, or billing schedule was disclosed. Both firms said they expect to invest at least $1 billion over five years in capacity. Reuters added those lines into a $2 billion headline. That is two expectations, not a purchase order.",
+            "Will METR evaluate Anthropic? Not as Friday's named embed. Anthropic said it is in dialogue with METR and other nonprofits to pilot elements of embedded evaluation using their own funding. More evaluators are due in the coming weeks. Until a METR start date lands, Faculty is the only named desk.",
+            "Does an embedded evaluator make Anthropic slower to ship? Only if a finding can delay a release. Anthropic says embeds do not reduce its accountability and that it will keep training and releasing frontier models. There is still no published access standard or report template. Watch the next model date, not the dollar figure."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "huawei-atlas-960e-superpod-npo",
       "title": "Huawei Atlas 960E SuperPoD: Optics Scale, Not a Faster Chip",
       "excerpt": "CONNECT 2026 closed in Shanghai today. Huawei's Atlas 960E SuperPoD uses near-packaged optics to wire 4,096 NPUs. The Ascend 960DT chip moved up. The pod is smaller than last year's 15,488 chart.",
@@ -4037,14 +4176,14 @@
         {
           "heading": "Facts versus predictions",
           "paragraphs": [
-            "Fact: Amodei published the three-step plan on 12 September 2026 and said Anthropic is committing to embedded evaluators now, including the right to publish without editorial veto. Fact: Altman publicly agreed to pace the frontier and to match employee-like access for independent evaluators. Fact: Musk, Hassabis, and Nadella backed the direction in public remarks. Fact: Trump rejected a slowdown, citing China. Fact: Amodei defined pacing as taking time to align and safeguard models, not as a halt to training.",
-            "Prediction: desks will appear faster than a compute cap. Prediction: US statute will lag the voluntary evaluator pledge while China remains the White House's blocking argument. Prediction: the first real pacing signal will be a named outside team inside Anthropic or OpenAI this quarter, plus a slower ship date on a model that would otherwise have launched."
+            "Fact: Amodei published the three-step plan on 12 September 2026 and said Anthropic is committing to embedded evaluators now, including the right to publish without editorial veto. Fact: Altman publicly agreed to pace the frontier and to match employee-like access for independent evaluators. Fact: Musk, Hassabis, and Nadella backed the direction in public remarks. Fact: Trump rejected a slowdown, citing China. Fact: Amodei defined pacing as taking time to align and safeguard models, not as a halt to training. Fact: on 18 September 2026 Anthropic named Accenture's Faculty as its first embedded evaluator. Details sit in the [Anthropic Accenture briefing](/blog/anthropic-accenture-embedded-evaluator).",
+            "Prediction: desks will appear faster than a compute cap. Prediction: US statute will lag the voluntary evaluator pledge while China remains the White House's blocking argument. Prediction: the next pacing signal is a Faculty finding that delays a ship date, or a METR desk with its own funding. A named consultancy is not yet a slower calendar."
           ]
         },
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch whether Anthropic names the evaluator organization, the start date, and the first public report. Watch OpenAI's promised follow-up, and whether employee-like access includes training pipelines or only pre-release evals. Watch whether DeepMind's standards body gets a charter, a 30-day pre-release window, and teeth, or stays a July essay. Watch for an antitrust waiver that lets labs discuss capability limits without it looking like a cartel. Watch chip-export enforcement and unauthorized distillation, which Amodei treats as the price of any democratic slowdown. And watch the next Astra, Fable, and Gemini dates. If those calendars do not move, pacing is messaging."
+            "Watch the [Anthropic Accenture briefing](/blog/anthropic-accenture-embedded-evaluator) for Faculty's start date, badge policy, and first public report. The named evaluator is no longer the open question. Watch OpenAI's promised follow-up, and whether employee-like access includes training pipelines or only pre-release evals. Watch whether DeepMind's standards body gets a charter, a 30-day pre-release window, and teeth, or stays a July essay. Watch for an antitrust waiver that lets labs discuss capability limits without it looking like a cartel. Watch chip-export enforcement and unauthorized distillation, which Amodei treats as the price of any democratic slowdown. And watch the next Astra, Fable, and Gemini dates. If those calendars do not move, pacing is messaging."
           ]
         },
         {
@@ -4052,7 +4191,7 @@
           "paragraphs": [
             "What does pace the frontier mean? It means slowing how fast labs improve the most capable AI models so alignment, testing, and independent review can keep up. Dario Amodei says it is not a halt to training or technical progress. The point is extra time, used well, before systems reach critical capability.",
             "Are AI companies stopping model training in 2026? No. Anthropic, OpenAI, Google DeepMind, and Microsoft have backed pacing, evaluators, or standards, not a freeze. Sam Altman said pacing is not stopping, and President Trump has rejected a slowdown because of competition with China.",
-            "What are independent AI evaluators? They are outside teams, such as METR, with ongoing employee-like access to a lab's safety work. Anthropic says they should get desks, badges, comparable tools, and the right to publish findings on risk and incidents without the company editing the conclusions.",
+            "What are independent AI evaluators? They are outside teams with ongoing employee-like access to a lab's safety work. Anthropic's essay named METR-class groups. On 18 September 2026 the first signed name was Accenture's Faculty unit. METR is still in talks. Anthropic says evaluators should get desks, badges, comparable tools, and the right to publish findings without the company editing the conclusions.",
             "Did OpenAI agree to Dario Amodei's AI slowdown plan? OpenAI agreed to the first step. Altman said the company will give independent evaluators employee-like access and that it welcomes a federal safety framework. It has not publicly committed to a shared compute cap or a training pause."
           ]
         }
