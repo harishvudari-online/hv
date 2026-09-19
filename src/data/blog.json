@@ -38,6 +38,141 @@
   ],
   "posts": [
     {
+      "slug": "anthropic-rd-automation-index-claude",
+      "title": "Anthropic R&D Automation Index: Claude Leads 26%, Not AL5",
+      "excerpt": "Anthropic published its R&D Automation Index on Thursday. Claude leads 26% of AI R&D at AL4 as of August. Zero measured work is AL5. About 30,000 agents run on the main platform.",
+      "category": "jobs",
+      "tags": [
+        "Anthropic R&D Automation Index",
+        "Claude AL4",
+        "Epoch AI",
+        "AI R&D jobs"
+      ],
+      "publishedAt": "2026-09-19",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Anthropic R&D Automation Index 2026: Claude Leads 26%",
+        "metaDescription": "Anthropic R&D Automation Index: Claude leads 26% of AI R&D at AL4 as of August 2026. Zero AL5. 30,000 agents. What is verified vs recursive self-improvement.",
+        "keywords": [
+          "Anthropic R&D Automation Index",
+          "Claude leads 26% R&D",
+          "Claude AL4 Anthropic",
+          "Epoch AI automation level",
+          "Anthropic 30000 AI agents",
+          "Is Claude recursively self-improving",
+          "Anthropic safety compute 6%",
+          "Claude building next model",
+          "What is AL4 vs AL5",
+          "Anthropic R&D automation August 2026"
+        ]
+      },
+      "image": {
+        "src": "/blog/anthropic-rd-automation-index-hero.svg",
+        "alt": "Illustration of Anthropic's R&D Automation Index on 19 September 2026: Claude leads 26% of AI R&D at AL4 as of August, zero measured work at AL5, about 30,000 agents on the main platform, and a conservative 6% safety-compute share",
+        "caption": "Thursday's index is a work-share meter. Score 26% AL4 with a human still shipping. Do not score recursive self-improvement."
+      },
+      "sources": [
+        {
+          "title": "Anthropic: Measurements for understanding the pace of AI development inside frontier labs",
+          "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+        },
+        {
+          "title": "Reuters: Anthropic says Claude now leads a quarter of work building its next AI models",
+          "url": "https://www.reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17/"
+        },
+        {
+          "title": "Bloomberg: Anthropic says Claude drives 26% of its research and development",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-17/anthropic-says-claude-drives-26-of-its-research-and-development"
+        },
+        {
+          "title": "Los Angeles Times: Anthropic's Claude starts building its own successor",
+          "url": "https://www.latimes.com/business/story/2026-09-18/anthropics-claude-starts-building-its-own-successor-as-ai-safety-debate-intensifies"
+        },
+        {
+          "title": "Business Insider: Claude leading more than a quarter of work needed to replace itself",
+          "url": "https://www.businessinsider.com/claude-leading-quarter-of-ai-research-to-replace-itself-2026-9"
+        },
+        {
+          "title": "heise online: Anthropic: Claude takes over more and more work on its own further development",
+          "url": "https://www.heise.de/en/news/Anthropic-Claude-takes-over-more-and-more-work-on-its-own-further-development-11458118.html"
+        },
+        {
+          "title": "Epoch AI: Toward an O*NET for AI R&D",
+          "url": "https://epoch.ai/gradient-updates/toward-an-onet-for-ai-rnd"
+        },
+        {
+          "title": "Dario Amodei: We Must Pace the Frontier",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "title": "Anthropic: Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        },
+        {
+          "title": "Anthropic: Redacted Risk Report, August 2026",
+          "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted+Risk+Report+August+2026+.pdf"
+        },
+        {
+          "title": "Metaverse Post: Anthropic discloses automation, agent oversight, and safety compute metrics",
+          "url": "https://mpost.io/frontier-lab-transparency-anthropic-discloses-automation-agent-oversight-and-safety-compute-metrics/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 19 September 2026, buyers are still working through Thursday's Anthropic Institute note. [Measurements for understanding the pace of AI development inside frontier labs](https://www.anthropic.com/institute/measuring-pace-of-ai-development) landed as Reuters, Bloomberg, the Associated Press, and Business Insider recast it as Claude building the next Claude. The named product is the Anthropic R&D Automation Index, a prototype work basket, not a model card. As of August 2026, Claude \"leads\" 26% of Anthropic's AI research and development. The share of work at or above \"AI collaborates\" is above 90%. Claude is not operating fully autonomously for any measured subset.",
+            "Lead is a defined term. Anthropic adopted Epoch AI's 0 to 5 automation scale. At AL4, the model completes most of a task end to end from a high-level prompt while a human supervises, course-corrects, and still ships. At AL5, the model notices the work, scopes it, and deploys without a required human. That AL5 line is also Anthropic's public definition of recursive self-improvement: a model fully autonomously building its successor. The August print is 26% AL4 and 0% AL5. Reuters dated the recap 17 September. The Los Angeles Times carried the AP rewrite on Friday.",
+            "Two other meters rode along. About 30,000 agents were doing research and engineering on the most-used internal platform at any one time in August. Every action on that platform passes an online monitor before it runs. Of more than a billion decisions that month, about 0.002%, one in 47,000, were blocked. A July 13 to 20 compute snapshot put about 6% of AI R&D compute on safety work, and about 12% of AI-driven AI R&D compute. Both shares are conservative: dual-use tokens counted as capability. Score a first public work-share print. Do not score a researcher layoff or a [training freeze](/blog/pace-the-frontier-ai-slowdown)."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether Claude now builds the next Anthropic model have a verified split. [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) named recursive self-improvement as the reason to slow capability gains. Thursday's index is the first lab-owned meter for how much of that loop is already automated. It is not the loop closing. The 26% figure is a person-time-weighted share of a frozen July task tree, 542 nodes, 378 leaves, about 15,000 sampled tasks. It is not 26% of headcount and not 26% of tokens.",
+            "The judge is also Claude. Anthropic says staff who own the work areas later rated the same categories without seeing the model evidence. Model-versus-human exact agreement was 59%. Human-versus-human was 35%. Ratings sat within one level 97% of the time. That is a useful check. It is not an independent audit. The [Accenture Faculty embed](/blog/anthropic-accenture-embedded-evaluator) is the desk Anthropic says will later verify metrics like these. Faculty is named. It is not seated on this print.",
+            "The job question is narrower than the [2030 economy-wide scenarios](/blog/anthropic-ai-jobs-2030-econ-scenarios). Those paths model US cognitive occupations. This print models the desks that write [Fable, Mythos](/blog/claude-fable-5-1-mythos-trusted-access), and any [pre-IPO SKU](/blog/anthropic-new-model-ipo-astra). AL4 means a researcher still approves the pipeline fix. AL5 would mean the researcher is optional. [Z.AI's Fully Self-Training](/blog/z-ai-5-billion-fully-self-training-glm) filing called recursive self-improvement a technical vision. Anthropic's AL5 line is the same claim with a number attached: zero, for now."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/anthropic-rd-automation-index-stack.svg",
+            "alt": "Diagram comparing Epoch AI automation levels used by Anthropic as of 19 September 2026: AL3 collaborate above 90% of work, AL4 lead at 26%, and AL5 fully autonomous at zero measured subsets",
+            "caption": "AL4 still needs a person to ship. AL5 is the recursive self-improvement line. Do not collapse them into one job-cut headline."
+          },
+          "paragraphs": [
+            "Anthropic research scientists and research engineers feel it first. The company's own Responsible Scaling Policy treats full substitution of that set, at competitive cost, as an AI R&D threshold. Thursday's note does not say the threshold was crossed. It says Claude can take a failure alert, find the broken stage, write and test a fix, and hand back a write-up. The human still decides whether it ships tonight. That is a change in who does the middle of the ticket. It is not a published reduction in researcher seats, unlike [Meta's Project OT cuts](/blog/meta-project-ot-ai-job-cuts).",
+            "Buyers and policy desks sit one layer out. A 26% AL4 share with 100% pre-execution monitoring is the oversight claim they can take to a board. A 6% safety-compute share is the resource claim. Anthropic says those figures would be expected to move if labs actually paced the frontier, and that any developer could publish the same three meters. Until OpenAI, Google, or xAI print a comparable basket, this is a single-lab prototype. The [evaluation bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck) did not close because the judge and the worker share a brand.",
+            "Agent platform teams should read the 30,000-agent count next to the [OpenAI Agents API](/blog/openai-agents-api-codex-harness), not next to a consumer chat SKU. Coverage is 100% on one internal scaffold. Offline monitors flag about 100,000 transcripts a week and escalate about 50 to humans. That is a review load, not a misalignment rate. The one-in-47,000 block figure is a filter trip, not a count of harmful intent. Do not staff either number into a 2026 hiring plan without the next monthly print."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Anthropic published the R&D Automation Index on 17 September 2026 and said Claude leads 26% of AI R&D as of August, up from about 1% in March, with more than 90% of work at or above AL3. Fact: no measured subset is AL5. Fact: the index used about 15,000 July tasks, a frozen tree of 542 nodes, and person-time weights; Claude agents catalogued and judged the work. Fact: about 30,000 agents ran on the main internal platform in August, 100% of their actions hit an online monitor, and about 1 in 47,000 of more than a billion decisions were blocked. Fact: in the week of 13 to 20 July, about 6% of AI R&D compute and about 12% of AI-driven AI R&D compute went to safety, on a conservative definition. Fact: Faculty is not named as the verifier of this print.",
+            "Prediction: the next monthly index moves the AL4 share before any AL5 cell lights up. Prediction: other labs will praise the idea and decline to publish a matching basket until a referee exists. Prediction: headlines will keep saying Claude is replacing itself. That is the AL5 sentence. It is not the August number. Do not treat 26% as a 26% cut to Anthropic research headcount, and do not treat Thursday as proof that the [2030 extreme jobs path](/blog/anthropic-ai-jobs-2030-econ-scenarios) has started."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the next Anthropic R&D Automation Index print, and whether AL5 is still zero. Watch whether Faculty, METR, or another embed reruns the judge on a subsample the lab did not score. Watch whether OpenAI's unexpected-behavior reports, promised the day before this note, include a comparable work-share number. Watch the 6% safety-compute share across more than one July week. Watch researcher and engineer hiring against the 30,000-agent count. And watch the [roles at risk](/blog/ai-jobs-roles-at-risk-and-roles-being-created) inside labs, not only in the wider cognitive workforce. A lead share is a job design change. It is not yet a layoff memo."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the Anthropic R&D Automation Index? It is a prototype meter Anthropic published on 17 September 2026. The lab catalogued AI R&D tasks, rated each category on Epoch AI's 0 to 5 automation scale, and weighted the basket by person-time. As of August 2026, Claude leads 26% of that basket at AL4. More than 90% of work is at least AL3. No measured subset is AL5.",
+            "Does Claude lead 26% of Anthropic R&D? Yes, on Anthropic's August 2026 print. Lead means AL4: Claude completes most of a task from a high-level prompt while a human supervises and still ships the change. The 26% is a weighted share of a frozen July task tree, not 26% of employees or 26% of compute. The share was about 1% in March.",
+            "Is Claude recursively self-improving? Not on Anthropic's own definition. The lab says recursive self-improvement is a model fully autonomously building its successor, which it maps to AL5. Thursday's index says Claude is not fully autonomous on any measured subset of AI R&D. Pace the Frontier still treats the loop as the reason to slow capability gains. The meter and the essay are not the same claim.",
+            "What is AL4 vs AL5 in Anthropic's index? AL4, lead, is a human handing Claude a failure alert and reviewing a tested write-up before deploy. AL5, autonomous, is Claude noticing the break, patching it, and shipping without a required human. Anthropic's pipeline footnote makes that split concrete. The August print is 26% AL4 and 0% AL5.",
+            "How many AI agents work at Anthropic? About 30,000 research and engineering agents ran at once on the most-used internal platform in August 2026. That count covers one scaffold. Online monitors see 100% of those actions before execution. About 1 in 47,000 of more than a billion August decisions were blocked. Offline monitors flag roughly 100,000 transcripts a week and escalate about 50 to humans."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "anthropic-accenture-embedded-evaluator",
       "title": "Anthropic Accenture Deal: Faculty Embed, Not a METR Desk",
       "excerpt": "Anthropic named Accenture's Faculty as its first embedded evaluator on Friday. Each firm expects to invest at least $1 billion over five years. Anthropic will fund the work directly. METR is still in talks.",
