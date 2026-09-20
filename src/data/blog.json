@@ -161,6 +161,280 @@
       ]
     },
     {
+      "slug": "stepfun-step-5-preview-api",
+      "title": "Step 5 Preview: API Today, Weights October 15",
+      "excerpt": "StepFun announced Step 5 Preview on 20 September. It is a 600B sparse MoE with 27B active per token and a 1M-token context. The API is $1/$2.70. Open weights are scheduled for 15 October. It is not a downloadable checkpoint today.",
+      "category": "models",
+      "tags": [
+        "Step 5 Preview",
+        "StepFun",
+        "open weights",
+        "agent models"
+      ],
+      "publishedAt": "2026-09-20",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Step 5 Preview 2026: $1/$2.70 API, Oct 15 Weights",
+        "metaDescription": "Step 5 Preview is callable as of 20 Sep 2026. 600B MoE, 27B active, $1/$2.70, 1M context. Weights are due 15 Oct. Not a Kimi K3 remap.",
+        "keywords": [
+          "Step 5 Preview",
+          "StepFun Step 5 Preview",
+          "step-5-preview",
+          "Step 5 Preview pricing",
+          "Step 5 Preview API",
+          "Step 5 Preview open weights",
+          "Is Step 5 Preview available",
+          "Step 5 Preview vs Kimi K3",
+          "Step 5 Preview October 15",
+          "StepFun 600B MoE"
+        ]
+      },
+      "image": {
+        "src": "/blog/stepfun-step-5-preview-hero.svg",
+        "alt": "Illustration of StepFun Step 5 Preview announced 20 September 2026: 600 billion parameter sparse mixture of experts with 27 billion active per token, 1 million token context, API at $1 input and $2.70 output per million tokens, open weights scheduled for 15 October rather than a downloadable checkpoint today",
+        "caption": "Sunday's drop is a hosted ID. Score the API meter and the 15 October date. Do not score a self-host."
+      },
+      "sources": [
+        {
+          "title": "StepFun: Introducing Step 5 Preview",
+          "url": "https://www.stepfun.com/step-5-preview"
+        },
+        {
+          "title": "StepFun Open Platform: Step 5 Preview model guide",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        },
+        {
+          "title": "StepFun Open Platform: Pricing and rate limits",
+          "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details"
+        },
+        {
+          "title": "StepFun Open Platform: Pricing overview",
+          "url": "https://platform.stepfun.ai/docs/en/guides/pricing/intro"
+        },
+        {
+          "title": "StepFun Open Platform: Step Plan overview",
+          "url": "https://platform.stepfun.ai/docs/en/step-plan/overview"
+        },
+        {
+          "title": "Artificial Analysis: Step 5 Preview intelligence, performance, and price",
+          "url": "https://artificialanalysis.ai/models/step-5"
+        },
+        {
+          "title": "Artificial Analysis: Step 5 Preview API providers",
+          "url": "https://artificialanalysis.ai/models/step-5/providers"
+        },
+        {
+          "title": "Hugging Face: stepfun-ai/Step-5-Preview-BF16",
+          "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16"
+        },
+        {
+          "title": "OrcaRouter: Step 5 Preview, what StepFun's 600B flagship really ships",
+          "url": "https://www.orcarouter.ai/blog/step-5-preview-open-weights"
+        },
+        {
+          "title": "RuntimeWire: StepFun launches a 600B agent model at $1 per million input tokens",
+          "url": "https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing"
+        },
+        {
+          "title": "AI Weekly: StepFun ships Step 5 Preview API at $1/$2.70, Intelligence Index 44",
+          "url": "https://aiweekly.co/alerts/stepfun-ships-step-5-preview-api-a-600b-moe-at-1270-that-scores-44-on"
+        },
+        {
+          "title": "Data Studios: StepFun launches Step 5 Preview, open weights coming October 15",
+          "url": "https://www.datastudios.org/post/stepfun-launches-step-5-preview-with-600b-parameters-1m-context-and-open-weights-coming-october-15"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 20 September 2026, StepFun put a name on a model that Artificial Analysis had already been scoring. [Step 5 Preview](https://www.stepfun.com/step-5-preview) is the company's new flagship for agentic work. The documented model ID is `step-5-preview`. The [platform guide](https://platform.stepfun.ai/docs/en/guides/models/step-5-preview) lists a 1 million token input window, a 64,000 token maximum output, native text, image, and video in, and text out. StepFun's product page adds the architecture: a 600 billion parameter sparse mixture of experts with 27 billion parameters active per token. API and Studio access opened the same day.",
+            "This is not [Kimi K3 on Amazon Bedrock](/blog/kimi-k3-amazon-bedrock). K3 already has July open weights and an 18 September hosted SKU. Sunday is a StepFun ID on StepFun's meter. It is also not a self-host. StepFun says open weights follow on 15 October. [OrcaRouter](https://www.orcarouter.ai/blog/step-5-preview-open-weights) dated the Hugging Face namespace `stepfun-ai/Step-5-Preview-BF16` to 20 September at 03:52 UTC and found a single `.gitattributes` file: no shards, no license, no model card. Score a callable preview. Do not score a checkpoint you can load tonight.",
+            "Two meters matter, and they are not the same clock as a weights drop. [Pricing docs](https://platform.stepfun.ai/docs/en/guides/pricing/details) list cache-miss input at $1.00 per million tokens, cache-hit input at $0.05, and output at $2.70. Cache-miss input includes writing new content to the cache. Output tokens include reasoning and the final answer. [Artificial Analysis](https://artificialanalysis.ai/models/step-5) scores the reasoning SKU at 44 on Intelligence Index v4.3.2, with $1.00 in, $2.70 out, a 95 percent cache discount, 99.8 output tokens per second, and 2.96 seconds to first token. The board dates the model 18 September, two days before the announcement. Cite Sunday for availability. Cite the independent table for the bill."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether Step 5 Preview is available now have a verified split. The API is on. The weights are a calendar date. [AI Weekly](https://aiweekly.co/alerts/stepfun-ships-step-5-preview-api-a-600b-moe-at-1270-that-scores-44-on) put the same split in one line: callable today, downloadable on 15 October. A team that needs a bake-off ID can start. A team that needs a license file, a config, and a cluster recipe cannot. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) did not fill that repo. A reserved BF16 name is a scheduling signal. It is not a weight.",
+            "The independent table is the other split. Artificial Analysis places Step 5 Preview at 44, matching the Kimi K3 class on the same index, at roughly a third of Bedrock Global's $3/$15 list and far below Claude Opus 5's $5/$25. Cost per Intelligence Index task is $0.71. The run burned 160 million output tokens against a 92 million median, and $922.84 to complete the index. Verbosity eats some of the sticker. [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) is still cheaper per token at $0.15/$0.60. Flash is not a 44. The [broader pricing reset](/blog/ai-model-pricing-is-changing-what-teams-can-ship) still applies: dollars per resolved task after reasoning tokens, not dollars per pretty million.",
+            "The window is not unlimited in both directions. StepFun documents 1 million tokens of input and 64,000 tokens of output. OrcaRouter had flagged a 350,000 / 64,000 pair in circulating tooling. The output cap is now first-party. Long-horizon agents that dump traces into the completion will hit 64k before they hit 1M. Sparse activation is also not a laptop story. 27 billion active parameters per token is about 4.5 percent of 600 billion. The inactive experts still have to live in memory. [Data Studios](https://www.datastudios.org/post/stepfun-launches-step-5-preview-with-600b-parameters-1m-context-and-open-weights-coming-october-15) put BF16 at about 1.2 TB before runtime overhead. Score a hosted 600B. Do not staff a 27B box."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/stepfun-step-5-preview-stack.svg",
+            "alt": "Diagram comparing Step 5 Preview on StepFun's API as of 20 September 2026, the 15 October open-weights date, and Kimi K3 which already has July weights plus an 18 September Amazon Bedrock SKU",
+            "caption": "An API ID is a meter. A weights date is a promise. Kimi K3 already ships both. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Agent and coding teams feel it first. Point long-context software work, document research, and finance write-ups at `step-5-preview`, with `reasoning_effort` set to low, medium, or high on Chat Completions, or `output_config.effort` on the Messages API. The guide allows up to 60 images, video as URL, Base64, or `stepfile://`, and MP4 files under 128 MB. Tool calling, JSON Mode, JSON Schema, streaming, and prompt caching are on. Tools still belong to the app. The model does not reach your laptop or the open web by itself. Do not paste a [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use graph onto a StepFun WebSocket and call it a cutover.",
+            "Platform and procurement teams sit one layer out. Artificial Analysis lists a single provider: StepFun. There is no Bedrock row, no OpenRouter row, and no second region in the independent table. [RuntimeWire](https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing) notes public rate limits, geographic restrictions, and enterprise terms are still thin outside the published top-up ladder. A V0 account is 5 concurrent requests, 10 RPM, and 5 million TPM. That is a trial, not a contact-center fleet. The [Step Plan](https://platform.stepfun.ai/docs/en/step-plan/overview) overview still names `step-3.7-flash` as the subscription flagship. The Step 5 Preview page points Claude Code users at Step Plan for 1M context. Treat that as a watch item, not as proof the ID is inside every monthly SKU.",
+            "Self-host and eval teams sit one layer up. Until 15 October, the only billable path is StepFun's API. Vendor-published rows on DeepSWE v1.1 (67.7), StepCodeBench (49.0), Terminal-Bench v4 (33.3), FrontierFinance (66.4), and DRACO (83.3) are StepFun's table. Artificial Analysis independently records 33.3 percent on Terminal-Bench 4.0. The 1/8 Claude Opus 5 task-cost claim is also StepFun's, without a public task mix. Bake the preview against Kimi K3 and your own traces. Do not take a house benchmark as a migration warrant, and do not treat a 44 as proof you can skip evals."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: StepFun announced Step 5 Preview on 20 September 2026 and opened API and Studio access the same day under the ID `step-5-preview`. Fact: the platform guide lists a 1 million token input window, a 64,000 token maximum output, and text, image, and video input with text output. Fact: StepFun describes a 600B sparse MoE with 27B parameters active per token. Fact: paid API pricing is $1.00 per million cache-miss input tokens, $0.05 per million cache-hit input tokens, and $2.70 per million output tokens, with output including reasoning. Fact: Artificial Analysis scores Step 5 Preview at 44 on the Intelligence Index, $0.71 per index task, 99.8 tokens per second, 2.96 seconds to first token, and lists StepFun as the only provider. Fact: StepFun says open weights ship on 15 October 2026. Fact: this is not Kimi K3, and it is not a downloadable checkpoint today.",
+            "Prediction: most broken 3.7 Flash graphs will land on `step-5-preview` for the 1M window, not because 33.3 percent Terminal-Bench beats GPT-6 Astra's vendor-reported 57.9, but because the meter is $1/$2.70. Prediction: cache hit rate and reasoning tokens, not GPQA, will decide whether the ID stays in a production router next to [Kimi K3](/blog/kimi-k3-amazon-bedrock). Prediction: headlines will call Sunday an open-weight launch. The repo is a name. 15 October is the test. Do not treat a 44 as a frontier crown, and do not treat $1.00 as a flat million-token tax."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether `stepfun-ai/Step-5-Preview-BF16` fills on 15 October, and with what license. Watch whether a config file confirms 600B total and 27B active. Watch whether Step Plan adds a dedicated `step-5-preview` row, or keeps pointing Claude Code at 3.7 Flash. Watch independent Terminal-Bench and finance reruns against StepFun's house table. Watch whether the 64k output cap is enough for agent traces, or whether teams start summarizing the model's own reasoning to stay under it. Watch second providers. A one-vendor 44 is a bake-off ID, not a multi-cloud SKU. And watch the weights versus API question. If a workload has to run on Sunday, it needs `step-5-preview` and a measured cache window, not a rumor that the BF16 repo is already a cluster."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Step 5 Preview? It is StepFun's flagship agentic model, announced 20 September 2026 under the ID `step-5-preview`. StepFun describes a 600 billion parameter sparse mixture of experts with 27 billion parameters active per token. The platform guide lists a 1 million token input window, a 64,000 token maximum output, and text, image, and video input with text output. It is a hosted preview. It is not an open-weight checkpoint today.",
+            "Is Step 5 Preview available? Yes, on StepFun's API and Studio as of 20 September 2026. Artificial Analysis lists StepFun as the only provider. Open weights are scheduled for 15 October. Recaps of the Hugging Face namespace `stepfun-ai/Step-5-Preview-BF16` still describe a placeholder, not shards. Step Plan's public model list still leads with `step-3.7-flash`. Check the ID before you assume the monthly SKU includes it.",
+            "How much does Step 5 Preview cost? On the paid StepFun API, cache-miss input is $1.00 per million tokens, cache-hit input is $0.05, and output is $2.70. Output includes reasoning tokens. Artificial Analysis reports a 95 percent cache discount, $0.71 per Intelligence Index task, and a 7:2:1 blended rate of $0.51 per million tokens. Rate limits follow the account top-up ladder, starting at 10 RPM on a V0 account.",
+            "When will Step 5 Preview open weights ship? StepFun's product page says 15 October 2026. Until that date, treat the model as proprietary API access. The reserved BF16 repository is a scheduling claim. It is not evidence that self-hosting is possible this week. License, quantization, and cluster recipes are unknown until the files exist.",
+            "Is Step 5 Preview the same as Kimi K3? No. Kimi K3 is Moonshot's 2.8T open-weight flagship, with July Hugging Face weights and an 18 September Amazon Bedrock SKU at $3/$15 Global. Step 5 Preview is StepFun's 600B hosted preview at $1/$2.70. Artificial Analysis scores both at 44 on the Intelligence Index. Bake them off. Do not remap them."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gemini-3-8-live-voice-api",
+      "title": "Gemini 3.8 Live: Two Voice SKUs, Not a Flash Twin",
+      "excerpt": "Google shipped Gemini 3.8 Live on 15 September. It is a native audio-to-audio Live API pair, not Gemini 3.8 Flash. Audio is $0.005 in and $0.018 out per minute. Extended Thinking leads Speech-to-Speech at 82.6. The cheap SKU is the one people prefer.",
+      "category": "tools",
+      "tags": [
+        "Gemini 3.8 Live",
+        "Gemini Live API",
+        "Extended Thinking",
+        "voice agents"
+      ],
+      "publishedAt": "2026-09-20",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Gemini 3.8 Live 2026: Pricing, API, Extended Thinking",
+        "metaDescription": "Gemini 3.8 Live is GA as of 15 Sep 2026. Two voice SKUs, $3/$12 audio tokens or $0.005/$0.018 per min. Extended Thinking leads at 82.6. Not Flash.",
+        "keywords": [
+          "Gemini 3.8 Live",
+          "Gemini 3.8 Live Extended Thinking",
+          "Gemini 3.8 Live pricing",
+          "gemini-3.8-live",
+          "gemini-3.8-live-extended-thinking",
+          "Gemini Live API pricing",
+          "Gemini 3.8 Live vs GPT-Live-1",
+          "Is Gemini 3.8 Live available",
+          "Gemini 3.8 Live audio per minute",
+          "Gemini 3.1 Flash Live Preview migration"
+        ]
+      },
+      "image": {
+        "src": "/blog/gemini-3-8-live-hero.svg",
+        "alt": "Illustration of Gemini 3.8 Live generally available on 15 September 2026: two native audio-to-audio Live API SKUs at $0.005 input and $0.018 output per minute, not a Gemini 3.8 Flash remap and not OpenAI GPT-Live-1",
+        "caption": "Tuesday's drop is two Live IDs. Score the SKU and the compounding audio window. Do not score a Flash twin."
+      },
+      "sources": [
+        {
+          "title": "Google: Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+        },
+        {
+          "title": "Google: Build real-time voice applications with Gemini 3.8 Live",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/"
+        },
+        {
+          "title": "Gemini API: Gemini 3.8 Live model reference",
+          "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live"
+        },
+        {
+          "title": "Gemini API: Gemini 3.8 Live Extended Thinking model reference",
+          "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live-extended-thinking"
+        },
+        {
+          "title": "Gemini API: Thinking in the Live API",
+          "url": "https://ai.google.dev/gemini-api/docs/live-api/thinking"
+        },
+        {
+          "title": "Gemini API: Live API best practices and billing",
+          "url": "https://ai.google.dev/gemini-api/docs/live-api/best-practices"
+        },
+        {
+          "title": "Gemini API: Developer pricing",
+          "url": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "title": "Google DeepMind: Gemini 3.8 Audio model card",
+          "url": "https://deepmind.google/models/model-cards/gemini-3-8-audio"
+        },
+        {
+          "title": "Google DeepMind: Gemini Audio live dialogue",
+          "url": "https://deepmind.google/models/gemini-audio/live-dialogue/"
+        },
+        {
+          "title": "Artificial Analysis: Speech to Speech leaderboard",
+          "url": "https://artificialanalysis.ai/speech-to-speech"
+        },
+        {
+          "title": "9to5Google: Gemini 3.8 Live Extended Thinking powers Gemini Live, Gmail, and Keep",
+          "url": "https://9to5google.com/2026/09/15/gemini-3-8-live-announced/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 20 September 2026, buyers are still mapping Tuesday's Live API drop. [Gemini 3.8 Live](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/) and Gemini 3.8 Live Extended Thinking listed as generally available on 15 September. The named products are `gemini-3.8-live` and `gemini-3.8-live-extended-thinking`. Google's developer note prices both at $0.005 per minute of audio input and $0.018 per minute of audio output, the same $3/$12 per million audio-token row as `gemini-3.1-flash-live-preview`. [9to5Google](https://9to5google.com/2026/09/15/gemini-3-8-live-announced/) dated the consumer recap the same day: Search Live for the base SKU, Gemini Live plus Docs, Gmail, and Keep for Extended Thinking.",
+            "This is not [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse). Flash is the 1 million token text workhorse at $0.75/$3.75. Gemini 3.8 Live is a native speech-to-speech pair based on Gemini 3 Pro. The [model card](https://deepmind.google/models/model-cards/gemini-3-8-audio) lists a 128K input window, 64K output, image and video in, audio and text out, and a January 2025 knowledge cutoff. API docs publish 131,072 / 65,536. Caching, code execution, file search, and structured outputs are off. The Live API itself remains in preview.",
+            "Two meters matter, and they are not the same clock as [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing). Google's list is token-based, with a per-minute estimate of about 25 audio tokens per second. [Live API billing docs](https://ai.google.dev/gemini-api/docs/live-api/best-practices) say every turn re-bills the accumulated native-audio context. Proactive audio is permanently on for both 3.8 Live SKUs, so input tokens accrue while the session is listening. Video frames are sent by default. Score a hosted voice ID with a compounding window. Do not score a Flash remap, and do not score OpenAI's $0.05 occupied-minute layer."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether Gemini 3.8 Live is available now have a verified split. Tuesday is a Live API GA, plus Search Live and Gemini Live surfaces. It is not a silent Flash point release. The predecessor to migrate is `gemini-3.1-flash-live-preview`. Google's migration notes drop `thinking_level` on the base SKU, lock proactive audio on, and default turn coverage to audio activity plus all video. Affective dialogue is gone. Audio is the supported response modality. Turn on output transcription if you need a text log, and budget that as extra text-output tokens.",
+            "The independent table is the other split. [Artificial Analysis](https://artificialanalysis.ai/speech-to-speech) ranks Gemini 3.8 Live Extended Thinking (High) first on the Speech to Speech Index at 82.6, with 68.6% on τ-Voice, 98% speech reasoning, 1.35 seconds to first audio, and $3.50 per hour of input audio on its Big Bench subset. The base Gemini 3.8 Live SKU sits at 76.0, with 30.1% agentic, 96.1% conversational dynamics, 1083 Arena Elo, 1.18 seconds to first audio, and $0.84 per input hour. Google also cites 35.1% on Sierra's τ-Voice-banking set and 97.7% on Big Bench Audio for Extended Thinking. Preference and agentic skill have decoupled. The cheap SKU is the one people prefer talking to. The thinking SKU is the one that finishes tool-heavy calls.",
+            "The sticker is not the bill. GPT-Live-1 is $0.05 per occupied minute plus a backend model. Gemini 3.8 Live's headline $0.005/$0.018 only holds if you compress the window. Without `contextWindowCompression`, Google says audio-only sessions hit about 15 minutes and audio-video sessions about 2 minutes before the native-audio pile-up. That is the Live half of [how model pricing changes what teams can ship](/blog/ai-model-pricing-is-changing-what-teams-can-ship): dollars per resolved call after re-billing, not dollars per pretty minute."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gemini-3-8-live-stack.svg",
+            "alt": "Diagram comparing Gemini 3.8 Live, Gemini 3.8 Live Extended Thinking, and OpenAI GPT-Live-1 as of 20 September 2026, showing native audio token meters versus a per-minute voice layer with a separate backend",
+            "caption": "A Live ID is a compounding audio window. GPT-Live-1 is occupied minutes plus a backend. Flash is not in this table."
+          },
+          "paragraphs": [
+            "Voice-agent and contact-center teams feel it first. Point high-volume triage, language practice, and fast tools at `gemini-3.8-live`. Point multi-step bookings, diagnostics, and long tool latency at `gemini-3.8-live-extended-thinking`, with `thinking_level` set to low, medium, or high. MINIMAL returns an error. Extended Thinking requires `behavior: NON_BLOCKING` on every function. `turnComplete: true` only ends an utterance. The session is idle when `interaction_status` is `IDLE`. Do not paste a Flash agent graph onto a Live WebSocket and call it a cutover.",
+            "Platform teams sit one layer out. Google named Agora, Fishjam, LiveKit, LangChain, Pipecat, Vercel, and Vision Agents as Live API integration partners. Salesforce is on the customer list next to [Agentforce job-ready agents](/blog/salesforce-agentforce-job-ready-agents). That is a telephony and CX path. It is not the [OpenAI Agents API](/blog/openai-agents-api-codex-harness). All generated audio carries a SynthID watermark. The model card still lists Vertex AI among distribution channels, but Tuesday's developer GA is Gemini API and Google AI Studio. Enterprise is a private preview in Gemini Enterprise.",
+            "Procurement and Workspace admins sit one layer up. Google AI Pro and Ultra get Extended Thinking in Docs Live. All Google AI subscribers get it in Gmail Live and Keep Live. Search Live uses the base SKU. [Siri's private delegation hooks](/blog/siri-model-delegation-claude-chatgpt) are a different assistant bet: Apple still holds the switch. Gemini 3.8 Live is already on. Treat Vertex GA, session-resumption token lifetime (two hours after last close), and GoAway handling as watch items, not findings. A Chinese-language or 97-language claim in the blog is also a watch item. Live API overview copy still lags on language count."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Google announced Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking on 15 September 2026, with model IDs `gemini-3.8-live` and `gemini-3.8-live-extended-thinking`. Fact: developer audio pricing is $3.00 per million input tokens or $0.005 per minute, and $12.00 per million output tokens or $0.018 per minute; text is $0.75 in and $4.50 out, including thinking tokens; image and video input is $1.00 per million or $0.002 per minute. Fact: Artificial Analysis lists Extended Thinking (High) at 82.6 on the Speech to Speech Index and 68.6% on τ-Voice, and lists Gemini 3.8 Live at 76.0, 1083 Arena Elo, and $0.84 per input hour. Fact: caching is unsupported, proactive audio is permanently enabled, and the Live API remains in preview. Fact: the knowledge cutoff is January 2025. Fact: this is not Gemini 3.8 Flash.",
+            "Prediction: most broken 3.1 Flash Live graphs will land on `gemini-3.8-live`, not Extended Thinking, because 30.1% τ-Voice still beats a 1.35 second thinking pause for simple IVR. Prediction: compounding audio re-billing, not GPQA, will decide whether Gemini 3.8 Live stays in a production router next to [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing). Prediction: headlines will call Tuesday a Gemini 3.8 launch. The text workhorse already shipped. Tuesday is distribution for speech. Do not treat an 82.6 index as proof you can skip evals, and do not treat $0.005 as a flat minute tax."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Google adds a dedicated pricing row for the 3.8 Live IDs, or whether they keep sharing the 3.1 Flash Live Preview card. Watch context-window compression hit rates once 15-minute calls are in production. Watch Vertex GA versus the private Gemini Enterprise preview. Watch independent τ-Voice-banking reruns against the 35.1% Sierra clip. Watch whether video-by-default stays a cost trap or gets an off switch that does not break visual grounding. Watch SynthID detection in the contact-center recording stack. And watch the Flash versus Live question. If a workload has to speak on Tuesday, it needs a Live model ID and a measured compression window, not a rumor that 3.8 Flash now does voice."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Gemini 3.8 Live? It is Google DeepMind's native audio-to-audio Live API model, generally available as of 15 September 2026 under the ID `gemini-3.8-live`. It takes text, images, audio, and video, and it outputs audio and text. The sibling SKU is Gemini 3.8 Live Extended Thinking. Both are based on Gemini 3 Pro. They are not Gemini 3.8 Flash.",
+            "Is Gemini 3.8 Live available? Yes. Google lists developer access in the Gemini API and Google AI Studio, Search Live for the base SKU, and Gemini Live plus Workspace Docs, Gmail, and Keep for Extended Thinking. Gemini Enterprise is a private preview. The Live API itself is still documented as preview. The predecessor to migrate is `gemini-3.1-flash-live-preview`.",
+            "How much does Gemini 3.8 Live cost? On the paid Gemini API, audio is $3.00 per million input tokens or about $0.005 per minute, and $12.00 per million output tokens or about $0.018 per minute. Text is $0.75 input and $4.50 output per million tokens, including thinking. Image and video input is $1.00 per million tokens or $0.002 per minute. The Live API re-bills accumulated native-audio context every turn. Compression is required for long sessions.",
+            "What is Gemini 3.8 Live Extended Thinking? It is the high-reasoning Live SKU, `gemini-3.8-live-extended-thinking`. It plans and calls asynchronous tools in the background while speaking fillers. thinking_level is low, medium, or high. MINIMAL is not supported. Tools must be NON_BLOCKING. Artificial Analysis ranks the High setting first on the Speech to Speech Index at 82.6, with 68.6% on τ-Voice.",
+            "Is Gemini 3.8 Live the same as Gemini 3.8 Flash or GPT-Live-1? No. Flash is the cheap text agent workhorse with a 1 million token window. GPT-Live-1 is OpenAI's $0.05 per minute voice layer with a separate backend model. Gemini 3.8 Live is a native speech-to-speech pair with a 128K-class context, compounding audio tokens, and two SKUs. Bake them off. Do not remap them."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "kimi-k3-amazon-bedrock",
       "title": "Kimi K3 Amazon Bedrock: 2.8T Hosted, Not a Nova Remap",
       "excerpt": "Amazon Bedrock listed Kimi K3 as generally available on 18 September. It is Moonshot's 2.8T open-weight flagship with a 1M-token context. Global Standard is $3/$15 per million tokens. It is not a Nova Premier successor.",

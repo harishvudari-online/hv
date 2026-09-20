@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/category/tools</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -62,6 +62,18 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/openai-compaction-summaries-sol</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/stepfun-step-5-preview-api</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/gemini-3-8-live-voice-api</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
