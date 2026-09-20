@@ -38,6 +38,149 @@
   ],
   "posts": [
     {
+      "slug": "openai-robotics-salary-data-factory",
+      "title": "OpenAI Robotics Salary: $500K for Data, Not a Robot SKU",
+      "excerpt": "OpenAI's careers board now advertises robotics base pay up to $500,000. The top band is a distributed-data ML role, not an actuator job. Business Insider counted 27 robotics listings this week, up from 11 in May. That is a data factory hire, not a consumer robot.",
+      "category": "jobs",
+      "tags": [
+        "OpenAI robotics salary",
+        "OpenAI robotics jobs",
+        "robotics data pipeline",
+        "Richmond warehouse"
+      ],
+      "publishedAt": "2026-09-20",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "OpenAI Robotics Salary 2026: $500K Data Jobs, Not a Bot",
+        "metaDescription": "OpenAI robotics salary is $380K-$500K base for data-pipeline ML. 27 listings vs 11 in May. Richmond is a data factory, not a humanoid SKU.",
+        "keywords": [
+          "OpenAI robotics salary",
+          "OpenAI robotics jobs",
+          "OpenAI robotics engineer salary",
+          "OpenAI $500000 robotics",
+          "OpenAI robotics data pipeline",
+          "Is OpenAI hiring robotics engineers",
+          "OpenAI Richmond robotics warehouse",
+          "OpenAI robotics inference engineer",
+          "OpenAI robotics vs Figure",
+          "OpenAI robotics 2026"
+        ]
+      },
+      "image": {
+        "src": "/blog/openai-robotics-salary-hero.svg",
+        "alt": "Illustration of OpenAI robotics hiring as of 20 September 2026: advertised base pay of 380 to 500 thousand dollars for a distributed-data machine learning role, a larger robotics jobs board than May, and a Richmond warehouse treated as a data factory rather than a consumer robot SKU",
+        "caption": "Sunday's card is a careers-board count. Score a $500K data-pipeline ID. Do not score a humanoid SKU."
+      },
+      "sources": [
+        {
+          "title": "OpenAI: Machine Learning Engineer, Distributed Data Systems - Robotics",
+          "url": "https://openai.com/careers/machine-learning-engineer-distributed-data-systems-robotics-san-francisco/"
+        },
+        {
+          "title": "OpenAI: Inference Engineer, Robotics",
+          "url": "https://openai.com/careers/inference-engineer-robotics-san-francisco/"
+        },
+        {
+          "title": "OpenAI: Robotics Software Engineer",
+          "url": "https://openai.com/careers/robotics-software-engineer-san-francisco/"
+        },
+        {
+          "title": "OpenAI: Control Systems Software Engineer, Robotics",
+          "url": "https://openai.com/careers/control-systems-software-engineer-robotics-san-francisco/"
+        },
+        {
+          "title": "OpenAI: Field Engineer",
+          "url": "https://openai.com/careers/field-engineer-san-francisco/"
+        },
+        {
+          "title": "Business Insider: OpenAI is offering robotics engineers up to $500,000 in salary",
+          "url": "https://www.businessinsider.com/openai-is-offering-robotics-engineers-up-to-500-000-in-salary-2026-9"
+        },
+        {
+          "title": "The Next Web: OpenAI's highest robotics salary is $500,000, and it is not for building robots",
+          "url": "https://thenextweb.com/news/openai-robotics-engineer-salaries-500000"
+        },
+        {
+          "title": "TechTimes: OpenAI posts $500K robotics salaries to fund a data factory",
+          "url": "https://www.techtimes.com/articles/327751/20260920/openai-posts-500k-robotics-salaries-fund-data-factory-behind-its-robot-comeback.htm"
+        },
+        {
+          "title": "San Francisco Chronicle: OpenAI lands massive Richmond site for robotics push",
+          "url": "https://www.sfchronicle.com/tech/article/openai-richmond-warehouse-robotics-22160624.php"
+        },
+        {
+          "title": "San Francisco Business Times: OpenAI Richmond lease lasts at least 10 years",
+          "url": "https://www.bizjournals.com/sanfrancisco/news/2026/04/16/openai-richmond-east-bay-lease.html"
+        },
+        {
+          "title": "Sam Altman: OpenAI Robotics is hiring (31 May 2026)",
+          "url": "https://x.com/sama/status/2061117302528188712"
+        },
+        {
+          "title": "VentureBeat: OpenAI disbands its robotics research team",
+          "url": "https://venturebeat.com/business/openai-disbands-its-robotics-research-team"
+        },
+        {
+          "title": "Ashby: Machine Learning Engineer, Distributed Data Systems - Robotics",
+          "url": "https://jobs.ashbyhq.com/openai/4a13c764-18c3-4076-ac87-29e05491be07"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 20 September 2026, the OpenAI robotics salary story is a careers-board count, not a product drop. [Business Insider](https://www.businessinsider.com/openai-is-offering-robotics-engineers-up-to-500-000-in-salary-2026-9) reviewed the public listings on 18 September and counted 27 robotics jobs, up from 11 in May. Advertised base pay runs from $177,000 to $500,000 before equity. [The Next Web](https://thenextweb.com/news/openai-robotics-engineer-salaries-500000) counted 21 San Francisco robotics roles the same day. Cite the reviewer for the headcount. Do not invent a single official total.",
+            "The $500,000 ceiling is a named ID. OpenAI's [Machine Learning Engineer, Distributed Data Systems - Robotics](https://openai.com/careers/machine-learning-engineer-distributed-data-systems-robotics-san-francisco/) listing pays $380,000 to $500,000 plus equity. The work is distributed compute, orchestration, storage, streaming, and multimodal training pipelines. [Ashby](https://jobs.ashbyhq.com/openai/4a13c764-18c3-4076-ac87-29e05491be07) dated that posting 6 February 2026. Sunday is not a new pay scale. It is a larger board sitting on a band that has been public for months.",
+            "This is not a [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use remap, and it is not the [OpenAI Agents API](/blog/openai-agents-api-codex-harness). Those are software SKUs. The robotics listings describe workcells, data-collection labs, and on-site San Francisco days. [Sam Altman](https://x.com/sama/status/2061117302528188712) said on 31 May that OpenAI Robotics is hiring hardware, ops, systems, and ML engineers for robots that help skilled workers build infrastructure, with a personal robot as the long-term picture. A hiring post is not a ship date."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what the OpenAI robotics salary is have a verified split. The top dollar is a data job. [The Next Web](https://thenextweb.com/news/openai-robotics-engineer-salaries-500000) put that in the headline: the $500,000 role does not pay people to build robots on the bench. An [Inference Engineer, Robotics](https://openai.com/careers/inference-engineer-robotics-san-francisco/) listing is a flat $380,000 plus equity for GPU serving and inference-friendly model design. A [Robotics Software Engineer](https://openai.com/careers/robotics-software-engineer-san-francisco/) who needs five years and Rust or C++ is $255,000 to $325,000. Control systems sit at $380,000 to $460,000. Field engineering is $266,000 to $380,000 to keep data-acquisition workcells up.",
+            "The 2021 shutdown is the other split. [VentureBeat](https://venturebeat.com/business/openai-disbands-its-robotics-research-team) recorded Wojciech Zaremba saying the first robotics team stopped because data, not the approach, was missing. The current IDs read like a fix for that failure: data systems at the top of the band, software to grow collection labs, field engineers on the floor. [TechTimes](https://www.techtimes.com/articles/327751/20260920/openai-posts-500k-robotics-salaries-fund-data-factory-behind-its-robot-comeback.htm) calls the San Francisco site a three-shift teleoperation lab on GELLO controllers and Franka arms, grown from about 100 contractors to more than 400. That shop-floor picture is a recap. It is not on the careers pages. Score the listings. Treat the shift count as reported color.",
+            "The job question is narrower than the [2030 economy-wide scenarios](/blog/anthropic-ai-jobs-2030-econ-scenarios) and different from [Anthropic's R&D Automation Index](/blog/anthropic-rd-automation-index-claude). Those meters track Claude leading lab work. This board tracks humans OpenAI will pay to manufacture robot demonstrations. It is also not [Meta's Project OT cuts](/blog/meta-project-ot-ai-job-cuts). Sunday is a hire signal. It is not a layoff memo, and it is not proof that a personal robot is on a price list."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/openai-robotics-salary-stack.svg",
+            "alt": "Diagram comparing OpenAI robotics pay as of 20 September 2026: 380 to 500 thousand dollars for distributed-data machine learning, 255 to 380 thousand for software, inference, and field roles that keep data cells online, and hardware jobs that often carry no public salary band",
+            "caption": "The $500K row buys pipelines. Floor roles keep cells online. Hardware often has no list price. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Robotics and physical-AI engineers feel it first. Figure, Physical Intelligence, Tesla Optimus, 1X, and Apptronik already bid for the same small pool. OpenAI's public base for data-systems ML sits at the top of that pile before equity. Hardware IDs for actuator design, firmware, PCB layout, and prototyping often have no published range in the recaps. Do not treat a missing number as a cheap seat. Treat it as an unpriced negotiation.",
+            "Cloud, facilities, and capital desks sit one layer out. The [San Francisco Chronicle](https://www.sfchronicle.com/tech/article/openai-richmond-warehouse-robotics-22160624.php) dated the Richmond lease in March: 202,000 square feet at 1411 Harbour Way S., about 15.75 acres, more than 14,000 amps, formerly planned for Moxion Power. The [Business Times](https://www.bizjournals.com/sanfrancisco/news/2026/04/16/openai-richmond-east-bay-lease.html) later said the term is at least ten years with extension options and a right of first offer to buy. That is industrial power and time. It is not a SKU. Pair it with the [SoftBank loan](/blog/softbank-openai-11-9-billion-loan) only as a funding backdrop. Do not paste a warehouse amp rating onto a [Jalapeño inference chip](/blog/openai-jalapeno-inference-chip) roadmap.",
+            "Policy and talent teams sit one layer up. Altman's May note named infrastructure build-out first and a personal robot later. Caitlin Kalinowski, hired from Meta in late 2024 to lead hardware and robotics, resigned in March. The Next Web says no replacement is named on the listings. A board without a public lead is a hiring fact. It is not a product cancel. Compare the desks to [roles being created](/blog/ai-jobs-roles-at-risk-and-roles-being-created), not to [ChatGPT for Financial Services](/blog/chatgpt-for-financial-services-junior-bankers). Junior banker work is a software seat. This board is a floor and a pipeline."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: OpenAI lists a Machine Learning Engineer, Distributed Data Systems - Robotics role in San Francisco at $380,000 to $500,000 base plus equity. Fact: related public bands include Inference Engineer at $380,000, Control Systems Software Engineer at $380,000 to $460,000, Robotics Software Engineer at $255,000 to $325,000, and Field Engineer at $266,000 to $380,000. Fact: Business Insider counted 27 robotics-related listings on 18 September 2026, up from 11 in May, with advertised bases from $177,000 to $500,000. Fact: The Next Web counted 21 the same day. Fact: Ashby dated the $500,000 ML posting 6 February 2026. Fact: OpenAI leased about 202,000 square feet at 1411 Harbour Way S. in Richmond in March 2026. Fact: this is not a consumer robot launch and not a 2026 IPO event.",
+            "Prediction: most applicants will chase the $500,000 headline and miss that the ID is a data-platform job posted in February. Prediction: humanoid startups will feel the bid more on pipeline and inference talent than on PCB layout, because those bands are public. Prediction: headlines will call Sunday a robot comeback. The listings are a data factory and a warehouse. Do not treat 27 open reqs as a ship date, and do not treat $500,000 as the typical OpenAI robotics salary."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether OpenAI publishes a single robotics careers index, or whether 21 and 27 keep drifting by how reviewers tag adjacent IDs. Watch whether the $500,000 ML role fills, closes, or stays evergreen. Watch whether Richmond job text moves from San Francisco-first to an East Bay reporting line. Watch whether a named hardware lead replaces Kalinowski. Watch first-party confirmation of the three-shift teleoperation story. And watch the [IPO delay](/blog/openai-ipo-delay-2026-safety) against this hire wave. A data factory can grow while a listing waits. A consumer robot still needs a model card, a safety case, and a price."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the OpenAI robotics salary? The highest public robotics base on OpenAI's careers pages is $380,000 to $500,000 plus equity for Machine Learning Engineer, Distributed Data Systems - Robotics. Other listed bases include $380,000 for Inference Engineer, $380,000 to $460,000 for Control Systems Software Engineer, $255,000 to $325,000 for Robotics Software Engineer, and $266,000 to $380,000 for Field Engineer. Business Insider's 18 September review put the advertised robotics range at $177,000 to $500,000 before equity.",
+            "Is OpenAI hiring robotics engineers? Yes. Business Insider counted 27 robotics-related listings on 18 September 2026, up from 11 in May. The Next Web counted 21 San Francisco robotics jobs the same day. Sam Altman posted a hiring call for OpenAI Robotics on 31 May 2026. Check the live careers IDs. Recaps disagree on the exact total.",
+            "Does the $500,000 OpenAI robotics salary pay people who build robots? Not as the primary job. The $500,000 ceiling is the distributed-data ML listing: pipelines, storage, streaming, and multimodal training infrastructure. Hardware roles such as actuator design, firmware, and PCB layout often have no public base in the recaps. Software and field roles that keep data-collection cells running sit below the $500,000 cap.",
+            "What is OpenAI building in Richmond? County-cited reporting says OpenAI leased about 202,000 square feet at 1411 Harbour Way S. in Richmond in March 2026, on a waterfront site with more than 14,000 amps. The Business Times later described a lease of at least ten years with extension options. That is industrial space and power for robotics operations. It is not a named consumer product.",
+            "Is OpenAI shipping a consumer robot? No public SKU, price, or generally available robot is attached to this week's careers-board story. Altman's May note framed near-term work as robots that support skilled workers on infrastructure, and a personal robot as a long-term picture. Score open jobs and a warehouse lease. Do not score a humanoid you can order."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "stepfun-step-5-preview-api",
       "title": "Step 5 Preview: API Today, Weights October 15",
       "excerpt": "StepFun announced Step 5 Preview on 20 September. It is a 600B sparse MoE with 27B active per token and a 1M-token context. The API is $1/$2.70. Open weights are scheduled for 15 October. It is not a downloadable checkpoint today.",
