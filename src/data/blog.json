@@ -1519,6 +1519,137 @@
       ]
     },
     {
+      "slug": "magenta-lean-verification-imo-2026",
+      "title": "Magenta Lean Verification: A 7B Model Solves IMO 2026",
+      "excerpt": "Magenta is a training-free Lean 4 pipeline. A 7B open-weight reasoner solved all six IMO 2026 problems. The statement judge, not the kernel, is what stops false certificates.",
+      "category": "research",
+      "tags": [
+        "Magenta Lean verification",
+        "Lean 4",
+        "K2-Horizon-7B",
+        "IMO 2026"
+      ],
+      "publishedAt": "2026-09-14",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Magenta Lean Verification 2026: 7B Model Solves IMO",
+        "metaDescription": "Magenta Lean verification hit 100% on AIME 2025, 2026, and HMMT. A 7B reasoner plus Lean 4 solved all six IMO 2026 problems. What the preprint proves.",
+        "keywords": [
+          "Magenta Lean verification",
+          "Magenta Lean 4",
+          "Magenta AI math",
+          "K2-Horizon-7B IMO 2026",
+          "Lean 4 AI proofs",
+          "Magenta statement judge",
+          "autoformalization gap Lean",
+          "AIME 2026 AI 100 percent",
+          "Magenta training-free agentic pipeline",
+          "IMO 2026 Lean proofs"
+        ]
+      },
+      "image": {
+        "src": "/blog/magenta-lean-verification-hero.svg",
+        "alt": "Illustration of the Magenta Lean verification pipeline taking a natural-language olympiad problem through a K2-Horizon-7B reasoner, a statement judge, and a Lean 4 machine-checked proof that solved all six IMO 2026 problems",
+        "caption": "Magenta writes the Lean statement it then proves. The judge is what keeps that statement honest."
+      },
+      "sources": [
+        {
+          "title": "arXiv: Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification (2609.11319)",
+          "url": "https://arxiv.org/abs/2609.11319"
+        },
+        {
+          "title": "arXiv HTML: Magenta paper (2609.11319v1)",
+          "url": "https://arxiv.org/html/2609.11319v1"
+        },
+        {
+          "title": "Agentic Tribune: Magenta preprint turns olympiad math into Lean proofs",
+          "url": "https://agentictribune.com/article/20260912-preprint-magenta-reportedly-turns-olympiad-math-into-lean-statements-and-machine-checked-proofs"
+        },
+        {
+          "title": "Hugging Face: IFM/K2-Horizon-7B",
+          "url": "https://huggingface.co/IFM/K2-Horizon-7B"
+        },
+        {
+          "title": "IFM: Introducing K2 Horizon",
+          "url": "https://ifm.ai/blog/k2/"
+        },
+        {
+          "title": "SafeVerify: Lean 4 proof certification wrapper",
+          "url": "https://github.com/GasStationManager/SafeVerify"
+        },
+        {
+          "title": "Lean 4 theorem prover",
+          "url": "https://lean-lang.org/"
+        },
+        {
+          "title": "Nature: Olympiad-level formal mathematical reasoning with reinforcement learning (AlphaProof)",
+          "url": "https://www.nature.com/articles/s41586-025-09833-y"
+        },
+        {
+          "title": "Google DeepMind: AlphaProof silver-medal IMO 2024",
+          "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/"
+        },
+        {
+          "title": "Papers with Code: Magenta Lean verification",
+          "url": "https://paperswithcode.co/paper/2609.11319"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "The Magenta Lean verification preprint landed on arXiv on 10 September 2026 as 2609.11319. Joshua Ong Jun Leang and colleagues at the Institute of Foundation Models at MBZUAI, Imperial College London, the University of Edinburgh, and University College London describe a training-free agentic pipeline. Give it a natural-language olympiad problem. It returns an informal solution, a Lean 4 statement, and a machine-checked proof. Independent coverage from Agentic Tribune circulated by 12 September.",
+            "Table 1 reports 100% verified accuracy on AIME 2025, AIME 2026, and HMMT February 2026: 93 problems, four reasoners (K2-Horizon-7B, K2-Horizon-375B, Qwen3.8-27B, and GPT-5.6-Sol). The headline is smaller. Paired with the open-weight K2-Horizon-7B reasoner, Magenta solves all six IMO 2026 problems. The authors call that the smallest reported reasoner to score perfectly on the task.",
+            "Two caveats sit in the paper itself. First, Magenta is not a 7B one-shot. The main eval budget is 32 reasoner attempts, 512 formal-statement samples per answer, and 4,096 proof attempts per accepted statement. On IMO 2026, K2-Horizon-7B needed 5.7 math-error rounds on average, plus compiler repairs. Second, Agentic Tribune notes the preprint does not link a public code repo or the generated Lean files. Treat the scores as author-reported until someone else runs the certificates."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Lean can certify a proof of a statement. It cannot certify that the statement is the problem you asked. The authors call that the autoformalisation gap. Magenta's statement judge is the product. In a batched ablation, accepting the first elaborated statement drops verified-and-correct from 63.3% to 20.0%, and the false certification rate hits 45.5%. Nearly half the surviving certificates prove something else: a weakened goal, a dropped hypothesis, or an answer baked into the theorem.",
+            "That is the same class of failure as the [evaluation and safety bottleneck](/blog/ai-research-evaluation-and-safety-bottleneck): a passing check that is not the claim. [MIT HardFlow](/blog/mit-hardflow-safety-critical-generative-ai) is the physical version, a sampler that must land inside a hard constraint. Magenta Lean verification is the mathematical version. It has to prove the original contest problem, not a weaker surrogate.",
+            "The 7B result is a test-time story, not a parameter story. Standalone K2-Horizon-7B scores 74.19% on the 93-problem mix. Magenta lifts it to 100%. Independent resampling verifies only 1 of 6 IMO problems. Feedback-guided correction verifies all six. Buyers comparing this with [Intern-S2 scientific agents](/blog/intern-s2-preview-397b-scientific-agents) should score the harness, the judge, and the search budget, not the parameter count on the card. [AlphaProof](https://www.nature.com/articles/s41586-025-09833-y) still starts from human-written Lean more often than teams admit. Magenta's claim is end-to-end: English in, certificate out."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/magenta-lean-verification-judge.svg",
+            "alt": "Diagram comparing a Lean kernel that only certifies a proof of the generated statement with Magenta's statement judge, which checks that the Lean theorem still matches the original olympiad problem",
+            "caption": "The kernel is sound on statement S. Without a judge, S can be the wrong problem."
+          },
+          "paragraphs": [
+            "Math-tooling teams feel it first. The default stack is Goedel-Formaliser-32B, DeepSeek-V4-Flash as both judges, and Leanstral-1.5 as the prover, checked with Lean 4.29.1, Mathlib, and SafeVerify. SafeVerify rejects sorry, admit, new axioms, and native_decide. Replacing the formaliser and prover with GPT-5.6-Sol still posted 100% on the AIME and HMMT mix. The pipeline is the result. The [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) family is load-bearing as the judge, not as the olympiad reasoner.",
+            "Open-weight labs sit one layer up. K2-Horizon-7B is on Hugging Face under Apache-2.0, with a native 512K context, from the same IFM group on Magenta's author list. Weights are public. The Magenta harness is not. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) makes the checkpoint easy to find. It does not make the certificates easy to audit.",
+            "Contest-eval buyers third. Claude Opus 5, Gemini 3.7 Flash, and Kimi K3 are scored as pass@1 answer-only baselines. Magenta is a verified pipeline with a large retry budget. Do not paste those columns into the same who-won-IMO cell. The paper also used Codex plus a former IMO medallist to mark IMO write-ups, and a K2-Horizon-375B alignment judge to catch incomplete informal proofs. Formal correctness and a communicable derivation are still two jobs."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: arXiv 2609.11319v1, dated 10 September 2026, introduces Magenta as a training-free agentic pipeline that produces an answer, a Lean 4 statement, and a machine-checked proof. Fact: Table 1 reports 100% verified accuracy on AIME 2025, AIME 2026, and HMMT February 2026 across four reasoners, 93 problems in total. Fact: the authors report that K2-Horizon-7B plus Magenta solves all six IMO 2026 problems, with 5.7 average math-error rounds. Fact: without the statement judge, the batched ablation's false certification rate is 45.5%, and verified-and-correct falls from 63.3% to 20.0%. Fact: Agentic Tribune, on 12 September, found no public Magenta code or Lean files. Fact: proofs are checked with Lean 4.29.1, Mathlib, and SafeVerify.",
+            "Prediction: the first useful replication is a public Lean dump of the 93 plus 6 certificates, not another 100% table. Prediction: statement judges become a standard gate on autoformalisation products before the 7B IMO claim becomes a procurement line. Prediction: teams will try to shrink the 512-statement and 4,096-proof budgets before they try to shrink the reasoner further. Do not staff a math-agent SKU on a preprint with no artifacts."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch for a GitHub dump of statements and proofs, with SafeVerify logs attached. Watch independent IMO marking against the official scheme, not only Codex. Watch whether DeepSeek-V4-Flash as judge is a load-bearing choice, or whether a smaller open judge holds the same false-certificate line. Watch the paper's paraphrase re-runs as the contamination control, and whether later versions add held-out 2026 contests. Watch whether AlphaProof-style closed systems answer Magenta with public certificates, or stay Nature-paper only. And watch the search bill: a 7B reasoner plus thousands of Lean calls is a cluster product, not a laptop demo."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Magenta Lean verification? Magenta is a training-free agentic pipeline from Leang et al. that takes a natural-language math problem, writes a Lean 4 statement, and returns a machine-checked proof. A statement judge checks that the theorem still matches the original problem. An error judge routes failures to math re-derivation or Lean repair.",
+            "Did Magenta solve IMO 2026? The preprint reports that K2-Horizon-7B plus Magenta solved all six IMO 2026 problems, which the authors call the smallest reported reasoner to score perfectly on that task. The result is author-reported. Agentic Tribune found no public Lean files at the time of its 12 September review.",
+            "Does Lean prove the original contest problem? Not by itself. Lean certifies a proof of the generated statement. Magenta adds a statement judge so that statement is supposed to preserve the original problem and answer. In a batched ablation, turning that judge off raised the false certification rate to 45.5%.",
+            "Is Magenta open source? The Magenta paper is a preprint. K2-Horizon-7B weights are public on Hugging Face under Apache-2.0. The Magenta harness, generated Lean theorems, and proofs were not linked in the arXiv posting or in Agentic Tribune's review.",
+            "Which models does Magenta use? Reasoners in Table 1 are K2-Horizon-7B, K2-Horizon-375B, Qwen3.8-27B, and GPT-5.6-Sol. The default formaliser is Goedel-Formaliser-32B. Both judges are DeepSeek-V4-Flash. The default prover is Leanstral-1.5. Proofs are checked with Lean 4.29.1, Mathlib, and SafeVerify."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "cognichip-aci-physics-informed-chip-design",
       "title": "Cognichip ACI: Physics-Informed Chip Design, Not an LLM Wrapper",
       "excerpt": "Forbes covers Cognichip ACI today. The company says physics-informed models, not LLM agents, can cut chip design tasks from months to days. AI Infra Summit starts tomorrow. No named tapeout is public.",
