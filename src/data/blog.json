@@ -38,6 +38,145 @@
   ],
   "posts": [
     {
+      "slug": "stepfun-step-5-preview-api",
+      "title": "Step 5 Preview: API Today, Weights October 15",
+      "excerpt": "StepFun announced Step 5 Preview on 20 September. It is a 600B sparse MoE with 27B active per token and a 1M-token context. The API is $1/$2.70. Open weights are scheduled for 15 October. It is not a downloadable checkpoint today.",
+      "category": "models",
+      "tags": [
+        "Step 5 Preview",
+        "StepFun",
+        "open weights",
+        "agent models"
+      ],
+      "publishedAt": "2026-09-20",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Step 5 Preview 2026: $1/$2.70 API, Oct 15 Weights",
+        "metaDescription": "Step 5 Preview is callable as of 20 Sep 2026. 600B MoE, 27B active, $1/$2.70, 1M context. Weights are due 15 Oct. Not a Kimi K3 remap.",
+        "keywords": [
+          "Step 5 Preview",
+          "StepFun Step 5 Preview",
+          "step-5-preview",
+          "Step 5 Preview pricing",
+          "Step 5 Preview API",
+          "Step 5 Preview open weights",
+          "Is Step 5 Preview available",
+          "Step 5 Preview vs Kimi K3",
+          "Step 5 Preview October 15",
+          "StepFun 600B MoE"
+        ]
+      },
+      "image": {
+        "src": "/blog/stepfun-step-5-preview-hero.svg",
+        "alt": "Illustration of StepFun Step 5 Preview announced 20 September 2026: 600 billion parameter sparse mixture of experts with 27 billion active per token, 1 million token context, API at $1 input and $2.70 output per million tokens, open weights scheduled for 15 October rather than a downloadable checkpoint today",
+        "caption": "Sunday's drop is a hosted ID. Score the API meter and the 15 October date. Do not score a self-host."
+      },
+      "sources": [
+        {
+          "title": "StepFun: Introducing Step 5 Preview",
+          "url": "https://www.stepfun.com/step-5-preview"
+        },
+        {
+          "title": "StepFun Open Platform: Step 5 Preview model guide",
+          "url": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview"
+        },
+        {
+          "title": "StepFun Open Platform: Pricing and rate limits",
+          "url": "https://platform.stepfun.ai/docs/en/guides/pricing/details"
+        },
+        {
+          "title": "StepFun Open Platform: Pricing overview",
+          "url": "https://platform.stepfun.ai/docs/en/guides/pricing/intro"
+        },
+        {
+          "title": "StepFun Open Platform: Step Plan overview",
+          "url": "https://platform.stepfun.ai/docs/en/step-plan/overview"
+        },
+        {
+          "title": "Artificial Analysis: Step 5 Preview intelligence, performance, and price",
+          "url": "https://artificialanalysis.ai/models/step-5"
+        },
+        {
+          "title": "Artificial Analysis: Step 5 Preview API providers",
+          "url": "https://artificialanalysis.ai/models/step-5/providers"
+        },
+        {
+          "title": "Hugging Face: stepfun-ai/Step-5-Preview-BF16",
+          "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-BF16"
+        },
+        {
+          "title": "OrcaRouter: Step 5 Preview, what StepFun's 600B flagship really ships",
+          "url": "https://www.orcarouter.ai/blog/step-5-preview-open-weights"
+        },
+        {
+          "title": "RuntimeWire: StepFun launches a 600B agent model at $1 per million input tokens",
+          "url": "https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing"
+        },
+        {
+          "title": "AI Weekly: StepFun ships Step 5 Preview API at $1/$2.70, Intelligence Index 44",
+          "url": "https://aiweekly.co/alerts/stepfun-ships-step-5-preview-api-a-600b-moe-at-1270-that-scores-44-on"
+        },
+        {
+          "title": "Data Studios: StepFun launches Step 5 Preview, open weights coming October 15",
+          "url": "https://www.datastudios.org/post/stepfun-launches-step-5-preview-with-600b-parameters-1m-context-and-open-weights-coming-october-15"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 20 September 2026, StepFun put a name on a model that Artificial Analysis had already been scoring. [Step 5 Preview](https://www.stepfun.com/step-5-preview) is the company's new flagship for agentic work. The documented model ID is `step-5-preview`. The [platform guide](https://platform.stepfun.ai/docs/en/guides/models/step-5-preview) lists a 1 million token input window, a 64,000 token maximum output, native text, image, and video in, and text out. StepFun's product page adds the architecture: a 600 billion parameter sparse mixture of experts with 27 billion parameters active per token. API and Studio access opened the same day.",
+            "This is not [Kimi K3 on Amazon Bedrock](/blog/kimi-k3-amazon-bedrock). K3 already has July open weights and an 18 September hosted SKU. Sunday is a StepFun ID on StepFun's meter. It is also not a self-host. StepFun says open weights follow on 15 October. [OrcaRouter](https://www.orcarouter.ai/blog/step-5-preview-open-weights) dated the Hugging Face namespace `stepfun-ai/Step-5-Preview-BF16` to 20 September at 03:52 UTC and found a single `.gitattributes` file: no shards, no license, no model card. Score a callable preview. Do not score a checkpoint you can load tonight.",
+            "Two meters matter, and they are not the same clock as a weights drop. [Pricing docs](https://platform.stepfun.ai/docs/en/guides/pricing/details) list cache-miss input at $1.00 per million tokens, cache-hit input at $0.05, and output at $2.70. Cache-miss input includes writing new content to the cache. Output tokens include reasoning and the final answer. [Artificial Analysis](https://artificialanalysis.ai/models/step-5) scores the reasoning SKU at 44 on Intelligence Index v4.3.2, with $1.00 in, $2.70 out, a 95 percent cache discount, 99.8 output tokens per second, and 2.96 seconds to first token. The board dates the model 18 September, two days before the announcement. Cite Sunday for availability. Cite the independent table for the bill."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether Step 5 Preview is available now have a verified split. The API is on. The weights are a calendar date. [AI Weekly](https://aiweekly.co/alerts/stepfun-ships-step-5-preview-api-a-600b-moe-at-1270-that-scores-44-on) put the same split in one line: callable today, downloadable on 15 October. A team that needs a bake-off ID can start. A team that needs a license file, a config, and a cluster recipe cannot. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) did not fill that repo. A reserved BF16 name is a scheduling signal. It is not a weight.",
+            "The independent table is the other split. Artificial Analysis places Step 5 Preview at 44, matching the Kimi K3 class on the same index, at roughly a third of Bedrock Global's $3/$15 list and far below Claude Opus 5's $5/$25. Cost per Intelligence Index task is $0.71. The run burned 160 million output tokens against a 92 million median, and $922.84 to complete the index. Verbosity eats some of the sticker. [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) is still cheaper per token at $0.15/$0.60. Flash is not a 44. The [broader pricing reset](/blog/ai-model-pricing-is-changing-what-teams-can-ship) still applies: dollars per resolved task after reasoning tokens, not dollars per pretty million.",
+            "The window is not unlimited in both directions. StepFun documents 1 million tokens of input and 64,000 tokens of output. OrcaRouter had flagged a 350,000 / 64,000 pair in circulating tooling. The output cap is now first-party. Long-horizon agents that dump traces into the completion will hit 64k before they hit 1M. Sparse activation is also not a laptop story. 27 billion active parameters per token is about 4.5 percent of 600 billion. The inactive experts still have to live in memory. [Data Studios](https://www.datastudios.org/post/stepfun-launches-step-5-preview-with-600b-parameters-1m-context-and-open-weights-coming-october-15) put BF16 at about 1.2 TB before runtime overhead. Score a hosted 600B. Do not staff a 27B box."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/stepfun-step-5-preview-stack.svg",
+            "alt": "Diagram comparing Step 5 Preview on StepFun's API as of 20 September 2026, the 15 October open-weights date, and Kimi K3 which already has July weights plus an 18 September Amazon Bedrock SKU",
+            "caption": "An API ID is a meter. A weights date is a promise. Kimi K3 already ships both. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Agent and coding teams feel it first. Point long-context software work, document research, and finance write-ups at `step-5-preview`, with `reasoning_effort` set to low, medium, or high on Chat Completions, or `output_config.effort` on the Messages API. The guide allows up to 60 images, video as URL, Base64, or `stepfile://`, and MP4 files under 128 MB. Tool calling, JSON Mode, JSON Schema, streaming, and prompt caching are on. Tools still belong to the app. The model does not reach your laptop or the open web by itself. Do not paste a [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use graph onto a StepFun WebSocket and call it a cutover.",
+            "Platform and procurement teams sit one layer out. Artificial Analysis lists a single provider: StepFun. There is no Bedrock row, no OpenRouter row, and no second region in the independent table. [RuntimeWire](https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing) notes public rate limits, geographic restrictions, and enterprise terms are still thin outside the published top-up ladder. A V0 account is 5 concurrent requests, 10 RPM, and 5 million TPM. That is a trial, not a contact-center fleet. The [Step Plan](https://platform.stepfun.ai/docs/en/step-plan/overview) overview still names `step-3.7-flash` as the subscription flagship. The Step 5 Preview page points Claude Code users at Step Plan for 1M context. Treat that as a watch item, not as proof the ID is inside every monthly SKU.",
+            "Self-host and eval teams sit one layer up. Until 15 October, the only billable path is StepFun's API. Vendor-published rows on DeepSWE v1.1 (67.7), StepCodeBench (49.0), Terminal-Bench v4 (33.3), FrontierFinance (66.4), and DRACO (83.3) are StepFun's table. Artificial Analysis independently records 33.3 percent on Terminal-Bench 4.0. The 1/8 Claude Opus 5 task-cost claim is also StepFun's, without a public task mix. Bake the preview against Kimi K3 and your own traces. Do not take a house benchmark as a migration warrant, and do not treat a 44 as proof you can skip evals."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: StepFun announced Step 5 Preview on 20 September 2026 and opened API and Studio access the same day under the ID `step-5-preview`. Fact: the platform guide lists a 1 million token input window, a 64,000 token maximum output, and text, image, and video input with text output. Fact: StepFun describes a 600B sparse MoE with 27B parameters active per token. Fact: paid API pricing is $1.00 per million cache-miss input tokens, $0.05 per million cache-hit input tokens, and $2.70 per million output tokens, with output including reasoning. Fact: Artificial Analysis scores Step 5 Preview at 44 on the Intelligence Index, $0.71 per index task, 99.8 tokens per second, 2.96 seconds to first token, and lists StepFun as the only provider. Fact: StepFun says open weights ship on 15 October 2026. Fact: this is not Kimi K3, and it is not a downloadable checkpoint today.",
+            "Prediction: most broken 3.7 Flash graphs will land on `step-5-preview` for the 1M window, not because 33.3 percent Terminal-Bench beats GPT-6 Astra's vendor-reported 57.9, but because the meter is $1/$2.70. Prediction: cache hit rate and reasoning tokens, not GPQA, will decide whether the ID stays in a production router next to [Kimi K3](/blog/kimi-k3-amazon-bedrock). Prediction: headlines will call Sunday an open-weight launch. The repo is a name. 15 October is the test. Do not treat a 44 as a frontier crown, and do not treat $1.00 as a flat million-token tax."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether `stepfun-ai/Step-5-Preview-BF16` fills on 15 October, and with what license. Watch whether a config file confirms 600B total and 27B active. Watch whether Step Plan adds a dedicated `step-5-preview` row, or keeps pointing Claude Code at 3.7 Flash. Watch independent Terminal-Bench and finance reruns against StepFun's house table. Watch whether the 64k output cap is enough for agent traces, or whether teams start summarizing the model's own reasoning to stay under it. Watch second providers. A one-vendor 44 is a bake-off ID, not a multi-cloud SKU. And watch the weights versus API question. If a workload has to run on Sunday, it needs `step-5-preview` and a measured cache window, not a rumor that the BF16 repo is already a cluster."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Step 5 Preview? It is StepFun's flagship agentic model, announced 20 September 2026 under the ID `step-5-preview`. StepFun describes a 600 billion parameter sparse mixture of experts with 27 billion parameters active per token. The platform guide lists a 1 million token input window, a 64,000 token maximum output, and text, image, and video input with text output. It is a hosted preview. It is not an open-weight checkpoint today.",
+            "Is Step 5 Preview available? Yes, on StepFun's API and Studio as of 20 September 2026. Artificial Analysis lists StepFun as the only provider. Open weights are scheduled for 15 October. Recaps of the Hugging Face namespace `stepfun-ai/Step-5-Preview-BF16` still describe a placeholder, not shards. Step Plan's public model list still leads with `step-3.7-flash`. Check the ID before you assume the monthly SKU includes it.",
+            "How much does Step 5 Preview cost? On the paid StepFun API, cache-miss input is $1.00 per million tokens, cache-hit input is $0.05, and output is $2.70. Output includes reasoning tokens. Artificial Analysis reports a 95 percent cache discount, $0.71 per Intelligence Index task, and a 7:2:1 blended rate of $0.51 per million tokens. Rate limits follow the account top-up ladder, starting at 10 RPM on a V0 account.",
+            "When will Step 5 Preview open weights ship? StepFun's product page says 15 October 2026. Until that date, treat the model as proprietary API access. The reserved BF16 repository is a scheduling claim. It is not evidence that self-hosting is possible this week. License, quantization, and cluster recipes are unknown until the files exist.",
+            "Is Step 5 Preview the same as Kimi K3? No. Kimi K3 is Moonshot's 2.8T open-weight flagship, with July Hugging Face weights and an 18 September Amazon Bedrock SKU at $3/$15 Global. Step 5 Preview is StepFun's 600B hosted preview at $1/$2.70. Artificial Analysis scores both at 44 on the Intelligence Index. Bake them off. Do not remap them."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "gemini-3-8-live-voice-api",
       "title": "Gemini 3.8 Live: Two Voice SKUs, Not a Flash Twin",
       "excerpt": "Google shipped Gemini 3.8 Live on 15 September. It is a native audio-to-audio Live API pair, not Gemini 3.8 Flash. Audio is $0.005 in and $0.018 out per minute. Extended Thinking leads Speech-to-Speech at 82.6. The cheap SKU is the one people prefer.",
