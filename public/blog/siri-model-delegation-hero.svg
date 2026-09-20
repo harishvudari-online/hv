@@ -1,0 +1,30 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Siri Model Delegation and Inference Providing on iOS 27</title>
+  <desc id="desc">Editorial illustration of two private Siri AI hooks in iOS 27 and macOS Golden Gate: Model Delegation for Claude in the Ask menu, and Inference Providing that can swap Siri's server backend for GPT-5.6 Terra. Neither entitlement is a user-facing switch on 14 September 2026.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#F4C15D" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Siri Model Delegation: wired in the code, not on</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">iOS 27 and macOS Golden Gate  |  14 Sep 2026  |  Private entitlements</text>
+
+  <rect x="118" y="210" width="460" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Model Delegation API</text>
+  <rect x="142" y="272" width="412" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="306" width="340" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="340" width="388" height="22" rx="6" fill="#12355A"/>
+  <text x="142" y="392" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Claude in Siri's Ask menu, prefixed replies</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">System actions relay back to Siri AI</text>
+
+  <rect x="608" y="210" width="460" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="632" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Inference Providing</text>
+  <rect x="632" y="272" width="412" height="128" rx="10" fill="#06182E"/>
+  <text x="648" y="304" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">Model Manager Services protocol</text>
+  <text x="648" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">GPT-5.6 Terra gets Siri planner tools</text>
+  <text x="648" y="352" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Siri still owns voice and chrome</text>
+  <text x="632" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Backend swap, not a Settings toggle</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">ChatGPT is the only Ask option in the Golden Gate release candidate.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Claude and the backend swap still sit behind Apple's private entitlement.</text>
+</svg>

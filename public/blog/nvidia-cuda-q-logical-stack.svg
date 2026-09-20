@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CUDA-Q Logical stack with QUOPS, NVQLink, and GitHub availability</title>
+  <desc id="desc">Diagram of NVIDIA CUDA-Q Logical as an orchestration layer over algorithms, error-correction codes, and QPU architectures, with Sandia QUOPS as a CUDA-Q benchmark and NVQLink coupling QPUs to GPU supercomputers.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="180" cy="80" r="220" fill="#00C2FF" fill-opacity="0.14"/>
+  <circle cx="1040" cy="560" r="240" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="124" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">One codesign loop. Three knobs. One benchmark.</text>
+  <text x="118" y="162" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="17">CUDA-Q Logical orchestrates the stack. QUOPS scores utility-scale readiness.</text>
+
+  <rect x="118" y="200" width="300" height="120" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="138" y="242" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Algorithm</text>
+  <text x="138" y="274" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Change the circuit</text>
+  <text x="138" y="298" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Resource count moves</text>
+
+  <rect x="448" y="200" width="300" height="120" rx="16" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="468" y="242" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Error correction</text>
+  <text x="468" y="274" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Swap the QEC code</text>
+  <text x="468" y="298" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Physical qubit bill changes</text>
+
+  <rect x="778" y="200" width="300" height="120" rx="16" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="798" y="242" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Hardware</text>
+  <text x="798" y="274" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Change the QPU type</text>
+  <text x="798" y="298" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Runtime and layout shift</text>
+
+  <rect x="118" y="348" width="960" height="88" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="148" y="388" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">CUDA-Q Logical orchestration layer (GitHub today, PyPI preview)</text>
+  <text x="148" y="416" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">Fermilab, Infleqtion, IQM, QCDesign, Quantum Motion, Sandia named as users</text>
+
+  <rect x="118" y="456" width="460" height="70" rx="16" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="140" y="486" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Sandia QUOPS</text>
+  <text x="140" y="510" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Google, IBM, Quantinuum early numbers</text>
+
+  <rect x="598" y="456" width="480" height="70" rx="16" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="620" y="486" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">NVQLink + CUDA-Q</text>
+  <text x="620" y="510" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">QPU plus GPU supercomputer coupling</text>
+</svg>
