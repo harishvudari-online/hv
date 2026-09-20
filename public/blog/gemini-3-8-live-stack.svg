@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">Gemini 3.8 Live, Extended Thinking, and GPT-Live-1 meters</title>
+  <desc id="cmpDesc">Diagram comparing Gemini 3.8 Live, Gemini 3.8 Live Extended Thinking, and OpenAI GPT-Live-1 as of 20 September 2026: native audio SKUs versus a per-minute voice layer with a separate backend model.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Three voice meters. Only two are Gemini 3.8 Live.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Native audio tokens compound. GPT-Live-1 bills occupied minutes plus a backend.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.7"/>
+  <text x="140" y="258" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">3.8 Live</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">gemini-3.8-live</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$0.005 / $0.018 per min</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">AA cost $0.84 / input hour</text>
+  <text x="140" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Proactive audio always on</text>
+  <text x="140" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Compress after ~15 minutes</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Extended Thinking</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">...live-extended-thinking</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Same audio sticker as Live</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Thinking billed as text out</text>
+  <text x="480" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">AA cost $3.50 / input hour</text>
+  <text x="480" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">interaction_status, not idle</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="820" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">GPT-Live-1</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">$0.05 per occupied minute</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Billed per second, no round-up</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Backend tokens are extra</text>
+  <text x="820" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Astra medium S2S 81.5</text>
+  <text x="820" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">AA cost $5.83 / input hour</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the SKU and the compounding window. Do not treat $0.005 as a flat minute tax.</text>
+</svg>
