@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tencent Gander open 9B omni interaction agent</title>
+  <desc id="desc">Editorial illustration of Tencent Hunyuan Speech shipping Gander, an Apache-2.0 9B omni agent that keeps talking while a pluggable Codex back brain runs long tasks.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#FF9B80" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Tencent Gander: talk while the agent works</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Hunyuan Speech  |  9B Apache-2.0  |  MiniCPM-o 4.5  |  paper 9 Sep 2026</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Cerebellum</text>
+  <rect x="142" y="272" width="252" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="306" width="198" height="22" rx="6" fill="#12355A"/>
+  <rect x="142" y="340" width="230" height="22" rx="6" fill="#12355A"/>
+  <text x="142" y="402" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">1s video, speech, text chunks</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Listen, speak, or interrupt</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="472" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Runtime</text>
+  <rect x="472" y="272" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="488" y="304" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">task_start, send, resolve</text>
+  <text x="488" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Lean or coordinator mode</text>
+  <text x="488" y="352" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">Gateway holds task state</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Local serve.sh, no hosted API</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Back brain</text>
+  <rect x="802" y="272" width="252" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="300" width="210" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="328" width="236" height="18" rx="5" fill="#12355A"/>
+  <rect x="802" y="356" width="168" height="18" rx="5" fill="#12355A"/>
+  <text x="802" y="402" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Default worker: Codex</text>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Claude Code also named</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Full-Duplex-Bench v3: 100% take-turn, 8% premature interrupt, Pass@1 0.400</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Weights: Gander-Omni/Gander on Hugging Face. Dataset: still coming soon.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Gander Cerebellum Brain stack versus GPT-Live-1</title>
+  <desc id="desc">Diagram comparing Gander local Thinker Talker runtime and pluggable Codex brain against OpenAI GPT-Live-1 billed voice sessions.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="180" cy="520" r="200" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1020" cy="90" r="210" fill="#7CFFB2" fill-opacity="0.10"/>
+  <rect x="72" y="58" width="1056" height="514" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="108" y="112" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Same job, two bills: open stack vs hosted minute</text>
+  <text x="108" y="148" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Gander Unit-8 is research weights. GPT-Live-1 is a priced API. Do not mix the SKUs.</text>
+
+  <rect x="108" y="180" width="470" height="330" rx="22" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="136" y="224" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Gander (local)</text>
+  <text x="136" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Thinker + Talker on MiniCPM-o 4.5</text>
+  <text x="136" y="294" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">128 chunks, about two minutes of context</text>
+  <text x="136" y="326" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Apache-2.0 weights, two GPUs in the sample</text>
+  <text x="136" y="358" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Brain is training-free: Codex or Claude Code</text>
+  <text x="136" y="390" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">SpokenQA Llama Questions 75.60%</text>
+  <text x="136" y="422" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Daily-Omni 78.53, WorldSense 49.62</text>
+  <text x="136" y="468" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Hy-Realtime is named, not shipped here</text>
+
+  <rect x="622" y="180" width="470" height="330" rx="22" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="650" y="224" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">GPT-Live-1 (hosted)</text>
+  <text x="650" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Full-duplex session on /v1/live/sessions</text>
+  <text x="650" y="294" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">$0.05 per minute, billed per second</text>
+  <text x="650" y="326" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Delegates to Luna, Terra, or Astra</text>
+  <text x="650" y="358" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">WebRTC, WebSockets, SIP. No free tier.</text>
+  <text x="650" y="390" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Turn-taking 0.798s vs Realtime 2.1 1.41s</text>
+  <text x="650" y="422" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="16">Tau3 pass@1 with Astra medium: 83.6%</text>
+  <text x="650" y="468" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Closed weights. You rent the minute.</text>
+</svg>

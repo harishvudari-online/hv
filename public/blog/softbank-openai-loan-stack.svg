@@ -1,0 +1,54 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SoftBank OpenAI debt stack 2026</title>
+  <desc id="desc">Diagram of SoftBank Group's OpenAI financing stack in September 2026: a $40 billion unsecured bridge being prepaid, a reported $11.87 billion two-year loan, a $10 billion margin loan against the OpenAI stake, and a possible $10 to $20 billion junk-bond sale, against a $64.6 billion cumulative OpenAI investment.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="140" cy="520" r="200" fill="#00C2FF" fill-opacity="0.12"/>
+  <circle cx="1080" cy="80" r="210" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="56" width="1056" height="518" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="112" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">SoftBank OpenAI debt stack, September 2026</text>
+  <text x="118" y="148" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Refinance the bridge. Keep the $10B 1 October tranche funded. IPO liquidity is a 2027 story.</text>
+
+  <rect x="118" y="186" width="230" height="280" rx="18" fill="#08203A" stroke="#E85D4C" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="138" y="226" fill="#E85D4C" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">$40B bridge</text>
+  <text x="138" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Filed 27 Mar 2026</text>
+  <text x="138" y="288" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">$30B drawn</text>
+  <text x="138" y="314" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">$25.9B left</text>
+  <text x="138" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Prepay 15 Sep</text>
+  <text x="138" y="382" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Was due 25 Mar 2027</text>
+  <text x="138" y="430" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">JPM, GS, Mizuho,</text>
+  <text x="138" y="450" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">SMBC, MUFG</text>
+
+  <rect x="368" y="186" width="230" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="388" y="226" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">$11.87B loan</text>
+  <text x="388" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Two-year term</text>
+  <text x="388" y="288" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">~20 banks</text>
+  <text x="388" y="314" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Target was $10B</text>
+  <text x="388" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Sealed last week</text>
+  <text x="388" y="382" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Bloomberg sources</text>
+  <text x="388" y="430" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">SoftBank declined</text>
+  <text x="388" y="450" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">to comment</text>
+
+  <rect x="618" y="186" width="230" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="638" y="226" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">$10B margin</text>
+  <text x="638" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Backed by OpenAI</text>
+  <text x="638" y="288" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">stake at SVF2</text>
+  <text x="638" y="314" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Two-year loan</text>
+  <text x="638" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Filed in Q1 FY2026</text>
+  <text x="638" y="382" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">report, 6 Aug story</text>
+  <text x="638" y="430" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">GS, JPM, Mizuho,</text>
+  <text x="638" y="450" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">Apollo, SMBC</text>
+
+  <rect x="868" y="186" width="230" height="280" rx="18" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="888" y="226" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Bonds + cheque</text>
+  <text x="888" y="262" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">$10B to $20B junk</text>
+  <text x="888" y="288" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">NY meetings this week</text>
+  <text x="888" y="314" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="14">Not a priced deal</text>
+  <text x="888" y="352" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">OpenAI $10B due 1 Oct</text>
+  <text x="888" y="382" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Preferred, converts at IPO</text>
+  <text x="888" y="430" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">$64.6B cumulative</text>
+  <text x="888" y="450" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="13">~13% if the last close hits</text>
+
+  <text x="118" y="508" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">The $11.87B ticket is a reported refinance, not a SoftBank IR filing. The $25.9B prepay and the $10B 1 October tranche are.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="15">IFR earlier described a $10B two-year refinance. Do not treat that term sheet as the signed $11.87B contract.</text>
+</svg>
