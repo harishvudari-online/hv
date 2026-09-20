@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kimi K3 Amazon Bedrock briefing</title>
+  <desc id="desc">Editorial illustration of Kimi K3 generally available on Amazon Bedrock on 18 September 2026: Moonshot AI 2.8 trillion parameter open-weight flagship, 1 million token context, Global Standard $3 input and $15 output per million tokens, hosted inference rather than a Nova Premier remap.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Kimi K3 Amazon Bedrock: hosted 2.8T, not a remap</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">GA 18 Sep 2026  |  global.moonshotai.kimi-k3  |  AWS card, Inside AI</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">The SKU</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Moonshot Kimi K3 on Bedrock</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">2.8T MoE, 104B active / token</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">1,048,576 token context</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Native vision, no Bedrock video</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Weights live since 27 July</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">The meter</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Global $3 in / $15 out</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Cache read $0.30 / 1M tokens</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">US Geo is 10% higher</text>
+  <text x="472" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Flex 0.5x, Priority 1.75x</text>
+  <text x="472" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">First open-weight explicit cache</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a Nova Premier remap</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a new July checkpoint</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not an 8x B300 cluster</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">No in-Region-only profile</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Score a hosted ID, not a twin</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Friday's card is managed inference for a 2.8T open-weight flagship.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Ask for the profile ID, the cache hit rate, and whether video is even in scope.</text>
+</svg>
