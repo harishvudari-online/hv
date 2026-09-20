@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-19",
+  "generatedAt": "2026-09-20",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,137 @@
     }
   ],
   "posts": [
+    {
+      "slug": "ai-pacing-collusion-lawsuit-openai-anthropic",
+      "title": "AI Pacing Collusion Lawsuit: Four Labs Sued, Not Frozen",
+      "excerpt": "A Friday complaint names Anthropic, OpenAI, SpaceXAI, and Google. The AI pacing collusion lawsuit is a Sherman Act claim by four paid subscribers. There is no verdict and no training freeze.",
+      "category": "companies",
+      "tags": [
+        "AI pacing collusion lawsuit",
+        "Buist v Anthropic",
+        "Sherman Act",
+        "OpenAI Anthropic Google"
+      ],
+      "publishedAt": "2026-09-20",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "AI Pacing Collusion Lawsuit 2026: OpenAI, Anthropic, Google",
+        "metaDescription": "AI pacing collusion lawsuit filed 18 Sep 2026. Buist v Anthropic names OpenAI, SpaceXAI, Google. Sherman Act claim, no verdict. What is verified today.",
+        "keywords": [
+          "AI pacing collusion lawsuit",
+          "OpenAI Anthropic Google antitrust lawsuit",
+          "Buist v Anthropic",
+          "Sherman Act AI companies",
+          "SpaceXAI collusion lawsuit",
+          "Were OpenAI and Anthropic sued for slowing AI",
+          "Is Pace the Frontier illegal collusion",
+          "ChatGPT Claude Grok Gemini class action",
+          "AI subscriber class action 2026",
+          "Section 1 Sherman Act AI slowdown"
+        ]
+      },
+      "image": {
+        "src": "/blog/ai-pacing-collusion-lawsuit-hero.svg",
+        "alt": "Illustration of the AI pacing collusion lawsuit on 20 September 2026: Buist v Anthropic filed 18 September in the Northern District of California, naming Anthropic, OpenAI, SpaceXAI, and Google under Sherman Act Section 1, with no verdict and no training freeze",
+        "caption": "Friday's filing is a caption. Score a Sherman Act complaint. Do not score a freeze."
+      },
+      "sources": [
+        {
+          "title": "Bloomberg Law: OpenAI, Anthropic, Google, SpaceXAI hit with antitrust lawsuit",
+          "url": "https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit"
+        },
+        {
+          "title": "The Hill: Lawsuit accuses Anthropic, OpenAI, SpaceXAI, Google of AI pacing collusion",
+          "url": "https://thehill.com/policy/technology/6099571-lawsuit-accuses-anthropic-openai-spacexai-google-of-ai-pacing-collusion/"
+        },
+        {
+          "title": "Mint / ANI: Four labs face federal antitrust lawsuit over calls to slow AI",
+          "url": "https://www.livemint.com/technology/anthropic-openai-spacexai-google-face-federal-antitrust-lawsuit-over-calls-to-slowdown-ai-development-11789791351245.html"
+        },
+        {
+          "title": "Unite.AI: Consumers sue Anthropic, OpenAI, SpaceXAI and Google over alleged AI pact",
+          "url": "https://www.unite.ai/de/consumers-sue-anthropic-openai-spacexai-and-google-over-alleged-ai-pact/"
+        },
+        {
+          "title": "Superpower Daily: Four labs face antitrust suit over AI slowdown calls",
+          "url": "https://superpowerdaily.com/posts/anthropic-openai-spacexai-and-google-face-antitrust-suit-over-ai-slowdown-calls"
+        },
+        {
+          "title": "Newser: CEOs' agreement on slowing AI is collusion, lawsuit says",
+          "url": "https://www.newser.com/story/396728/ceos-agreement-on-slowing-ai-is-collusion-lawsuit-says.html"
+        },
+        {
+          "title": "Dario Amodei: We Must Pace the Frontier",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        },
+        {
+          "title": "CNBC: OpenAI, Google, Anthropic discussing collaboration on AI safety",
+          "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html"
+        },
+        {
+          "title": "CNBC: Sam Altman on why the AI industry wants to slow down",
+          "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html"
+        },
+        {
+          "title": "Anthropic: Partnering with Accenture on embedded evaluation",
+          "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 20 September 2026, buyers are still working through Friday's AI pacing collusion lawsuit. [Bloomberg Law](https://news.bloomberglaw.com/litigation/openai-anthropic-google-spacexai-hit-with-antitrust-lawsuit) dated the recap 18 September at 11:30 p.m. UTC. The Hill's Finya Swai followed Saturday morning. Mint carried an ANI rewrite that cited Politico. The named product is a civil complaint, Buist v. Anthropic PBC, No. 3:26-cv-10693, filed in the U.S. District Court for the Northern District of California, San Francisco Division. The defendants are Anthropic PBC, OpenAI OpCo LLC, SpaceXAI LLC, and Google LLC.",
+            "The claim is Section 1 of the Sherman Act. Four paid subscribers say public endorsements of Dario Amodei's 12 September essay, [We Must Pace the Frontier](https://darioamodei.com/post/we-must-pace-the-frontier), amount to an agreement among competitors to slow how fast rival products improve. Bloomberg Law quotes the filing: plaintiffs challenge only what the antitrust laws forbid, an agreement among competitors about how fast their competing products will improve. Congress has granted no exemption for that agreement. Trial Lawyers for Justice is counsel. Nicholas C. Rowley is lead, with Andrew T. Tutt, R. Stanton Jones, and Jakob Z. Norman.",
+            "There is no answer, no motion to dismiss date, no class certification, and no defendant comment in the first-day recaps. Score a caption and a theory of overcharge. Do not score a [training freeze](/blog/pace-the-frontier-ai-slowdown) or a finding that anyone broke the law."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether OpenAI and Anthropic were sued for slowing AI now have a verified split. The [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) briefing covered the essay and the CEO posts. Friday's docket is the first civil case that treats those posts as the agreement. The Hill says Musk wrote \"Dario is right,\" Altman said he agreed, and Hassabis called the proposal the right path forward. Public praise is easy to quote. A meeting of the minds is what a Section 1 plaintiff still has to prove.",
+            "The injury theory is a paid-tier overcharge, not a researcher layoff. Unite.AI's readout of the complaint defines a U.S. market for paid consumer subscriptions to general-purpose frontier assistants: ChatGPT, Claude, Grok, and Gemini. The four defendants allegedly hold at least 80 percent of that paid stack. ChatGPT Plus is cited at about $20 a month. Buist, Hunt, and Spetsas say they bought all four. Bullock subscribed to Claude. The proposed class is every U.S. person who, from 12 September 2026 through the end of the alleged effects, bought a paid individual subscription directly from a defendant. That is a subscriber case. It is not the [2030 jobs print](/blog/anthropic-ai-jobs-2030-econ-scenarios).",
+            "It also tests the safety calendar the labs just advertised. The complaint, as Unite.AI recaps it, does not challenge unilateral safety, independent slowing, lawful research, government compliance, or petitioning Congress. It targets a horizontal deal on rate, compute caps, coordinated release delays, capability checkpoints, or information exchanged to police those limits. That is why buyers should keep the [standards-body talks](/blog/ai-standards-body-anthropic-openai-google) and the [Faculty embed](/blog/anthropic-accenture-embedded-evaluator) on separate lines. A working group is not a cartel finding. A paid desk is not a freeze."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/ai-pacing-collusion-lawsuit-stack.svg",
+            "alt": "Diagram comparing Friday's AI pacing collusion lawsuit, the still-unsigned AI standards body talks, and a training freeze that has not been ordered as of 20 September 2026",
+            "caption": "A complaint is live copy. A referee is still unsigned. A freeze is not on the docket."
+          },
+          "paragraphs": [
+            "Anthropic, OpenAI, SpaceXAI, and Google legal and policy desks feel it first. SpaceXAI is the caption name for the Grok company. The Hill still writes Space XAI in one line. Ask whether Friday's posts are treated as puffery, as parallel independent views, or as an offer and acceptance. Amodei's own essay flagged a narrow antitrust waiver for safety talk. Senator Josh Hawley already said he would not bless three or four firms colluding. The complaint now makes that waiver fight a live exhibit, not a panel talking point.",
+            "Paid ChatGPT, Claude, Grok, and Gemini subscribers sit one layer out. They are the proposed class, not a certified one. The ask is treble damages under the Clayton Act and an injunction against maintaining or monitoring a horizontal pace deal. Plaintiffs say they do not want to ban a lab from slowing on its own. Until a judge certifies anyone, do not treat your $20 receipt as a ticket. IPO and ship buyers should read the same caption next to [OpenAI's listing delay](/blog/openai-ipo-delay-2026-safety) and any [pre-IPO Anthropic SKU](/blog/anthropic-new-model-ipo-astra). A pending Section 1 case is a disclosure item. It is not a blocked [Astra](/blog/gpt-6-astra-computer-use-flagship) date.",
+            "Washington and the still-unsigned referee are in the blast radius too. CNBC on 15 September confirmed OpenAI had been talking to Anthropic and Google since the July standards proposal. Chris Lehane said the company would work with or without a government blessing. Plaintiff Cheyenne Hunt, in the ANI recap, called the weekend posts a pinky promise that gave Speaker Mike Johnson cover to adjourn before a binding AI bill. That is her claim. It is not a court finding. [Microsoft's MAI consultation](/blog/microsoft-mai-code-of-conduct-consultation) is still a comment period, not a fourth defendant."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: on 18 September 2026, Charles Buist, Nick Spetsas, Cheyenne Hunt, and Christine Bullock filed Buist v. Anthropic PBC, No. 3:26-cv-10693, in the Northern District of California. Fact: the complaint names Anthropic PBC, OpenAI OpCo LLC, SpaceXAI LLC, and Google LLC and pleads a Section 1 Sherman Act claim, plus Clayton Act damages and an injunction. Fact: Bloomberg Law, The Hill, Mint/ANI citing Politico, and Unite.AI all treat Friday as a filed complaint, not a ruling. Fact: first-day recaps say the companies did not immediately comment. Fact: the filing, as Unite.AI recaps it, does not challenge unilateral safety choices or petitioning government. Fact: no class has been certified and no temporary restraining order has been reported.",
+            "Prediction: the first real court paper will be a motion to dismiss arguing that public essays are speech, not a contract. Prediction: labs will keep shipping [Fable](/blog/claude-fable-5-1-mythos-trusted-access), Astra, Gemini, and [Grok](/blog/grok-4-8-release-date) while they brief that motion. Prediction: headlines will keep saying the industry has already agreed to slow down. That is the plaintiffs' sentence. It is not Friday's docket status. Do not treat a complaint as proof of a cartel, and do not treat the absence of a comment as a guilty plea."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether any defendant answers or moves to dismiss, and on what theory: no agreement, no output restriction, or no antitrust injury. Watch whether a judge certifies a nationwide paid-subscriber class or trims it to one product. Watch whether the injunction language reaches compute caps and release dates, or dies at the pleading stage. Watch whether Faculty, METR, or a standards-body charter is cited as evidence of coordination or as proof of independent safety work. Watch ship calendars for Astra, Fable, Grok, and Gemini against the 12 September class start. And watch Congress. Hawley already opposed a waiver. A pending case makes that vote harder, not easier."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the AI pacing collusion lawsuit? It is a proposed class action filed on 18 September 2026 in the Northern District of California as Buist v. Anthropic PBC, No. 3:26-cv-10693. Four paid subscribers accuse Anthropic, OpenAI, SpaceXAI, and Google of agreeing to slow how fast rival frontier assistants improve. The claim is Section 1 of the Sherman Act. There is no verdict.",
+            "Were OpenAI and Anthropic sued for slowing AI? They were named, with SpaceXAI and Google, in Friday's complaint. The allegation is not that any lab slowed on its own. The allegation is that public endorsements of Amodei's 12 September essay, plus earlier standards talks, add up to a horizontal agreement. Bloomberg Law and The Hill both stress that the companies had not commented in the first recaps.",
+            "Is Pace the Frontier illegal collusion? Not on any court's finding. Pace the Frontier is Amodei's essay and a set of public CEO posts. The lawsuit is a plaintiff theory that those posts are an agreement about product improvement speed. Plaintiffs say they do not challenge unilateral safety or petitioning government. A judge has not decided either point.",
+            "Who filed Buist v Anthropic? Charles Buist and Nick Spetsas of Florida, and Cheyenne Hunt and Christine Bullock of California, each as individuals and for a proposed nationwide class. Hunt, Buist, and Spetsas say they paid for Claude, ChatGPT, Grok, and Gemini. Bullock subscribed to Claude. Nicholas C. Rowley of Trial Lawyers for Justice is lead counsel.",
+            "Does the lawsuit freeze ChatGPT, Claude, Grok, or Gemini? No reported order stops training or a release. Plaintiffs ask for an injunction against a horizontal pace deal and for treble damages. They say a lab may still slow by itself. Until a court certifies a class or issues relief, treat Friday as a docket entry. Do not treat it as a ship-date stay."
+          ]
+        }
+      ]
+    },
     {
       "slug": "anthropic-rd-automation-index-claude",
       "title": "Anthropic R&D Automation Index: Claude Leads 26%, Not AL5",
