@@ -38,6 +38,137 @@
   ],
   "posts": [
     {
+      "slug": "kimi-k3-amazon-bedrock",
+      "title": "Kimi K3 Amazon Bedrock: 2.8T Hosted, Not a Nova Remap",
+      "excerpt": "Amazon Bedrock listed Kimi K3 as generally available on 18 September. It is Moonshot's 2.8T open-weight flagship with a 1M-token context. Global Standard is $3/$15 per million tokens. It is not a Nova Premier successor.",
+      "category": "models",
+      "tags": [
+        "Kimi K3 Amazon Bedrock",
+        "Moonshot AI",
+        "prompt caching",
+        "open weights"
+      ],
+      "publishedAt": "2026-09-20",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Kimi K3 Amazon Bedrock 2026: 2.8T Pricing Guide",
+        "metaDescription": "Kimi K3 is GA on Amazon Bedrock as of 18 Sep 2026. 2.8T open weights, 1M context, $3/$15 Global. US Geo costs 10% more. What is verified vs a Nova remap.",
+        "keywords": [
+          "Kimi K3 Amazon Bedrock",
+          "Kimi K3 pricing",
+          "Moonshot AI Kimi K3",
+          "global.moonshotai.kimi-k3",
+          "Kimi K3 1 million token context",
+          "Kimi K3 prompt caching Bedrock",
+          "Is Kimi K3 available on Amazon Bedrock",
+          "Kimi K3 vs Nova Premier",
+          "us.moonshotai.kimi-k3",
+          "Kimi K3 Bedrock Flex Priority pricing"
+        ]
+      },
+      "image": {
+        "src": "/blog/kimi-k3-amazon-bedrock-hero.svg",
+        "alt": "Illustration of Kimi K3 generally available on Amazon Bedrock on 18 September 2026: Moonshot AI 2.8 trillion parameter open-weight flagship, 1 million token context, Global Standard $3 input and $15 output per million tokens, hosted inference rather than a Nova Premier remap",
+        "caption": "Friday's card is a hosted model ID. Score $3/$15 Global with a cache meter. Do not score a Nova twin."
+      },
+      "sources": [
+        {
+          "title": "AWS: Kimi K3 model card on Amazon Bedrock",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.html"
+        },
+        {
+          "title": "AWS: Moonshot AI models on Amazon Bedrock",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards-moonshot-ai.html"
+        },
+        {
+          "title": "AWS Machine Learning Blog: Deploying Kimi K3 on SageMaker HyperPod and Amazon EKS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-amazon-sagemaker-hyperpod-and-amazon-eks/"
+        },
+        {
+          "title": "AWS Builder Center: Getting started with Kimi Code and Kimi K3 on Amazon Bedrock",
+          "url": "https://builder.aws.com/content/3JWn21K5S5mKNqS2V3g2lz9g2B3/getting-started-with-kimi-code-and-kimi-k3-on-amazon-bedrock"
+        },
+        {
+          "title": "Moonshot AI: Kimi K3 quickstart",
+          "url": "https://platform.moonshot.ai/docs/guide/kimi-k3-quickstart"
+        },
+        {
+          "title": "Hugging Face: moonshotai/Kimi-K3 model card",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        },
+        {
+          "title": "Inside AI: Kimi K3 by Moonshot AI is now generally available on Amazon Bedrock",
+          "url": "https://insideai.news/news/ai-in-business/kimi-k3-amazon-bedrock/12298/"
+        },
+        {
+          "title": "AWS: Amazon Bedrock pricing",
+          "url": "https://aws.amazon.com/bedrock/pricing/"
+        },
+        {
+          "title": "AWS: Amazon Bedrock model lifecycle",
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html"
+        },
+        {
+          "title": "MarkTechPost: Moonshot AI releases Kimi K3 2.8T open MoE model",
+          "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 20 September 2026, buyers are still working through Friday's Amazon Bedrock card. [Kimi K3](https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-moonshot-ai-kimi-k3.html) lists a model launch date of 18 September 2026. The named product is Moonshot AI's flagship, served as `global.moonshotai.kimi-k3` or `us.moonshotai.kimi-k3`. [Inside AI](https://insideai.news/news/ai-in-business/kimi-k3-amazon-bedrock/12298/) dated a recap 19 September. AWS's Builder Center tested Kimi Code 2.0.1 against the Oregon runtime the same day the card went live.",
+            "The weights are not new. Moonshot published Kimi K3 in mid-July and put [open weights](https://huggingface.co/moonshotai/Kimi-K3) on Hugging Face on 27 July as `moonshotai/Kimi-K3`, under the Kimi K3 License. AWS's 30 July [HyperPod note](https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-amazon-sagemaker-hyperpod-and-amazon-eks/) already described a 2.8 trillion parameter mixture of experts, about 104 billion active per token, 896 experts with 16 routed, a 1,048,576 token context, and native vision. Friday is a managed Bedrock SKU. It is not a new checkpoint and not a silent remap of [Nova Premier](/blog/amazon-nova-premier-eol-bedrock).",
+            "Two meters matter on the card. Standard Global cross-Region inference is $3.00 input, $15.00 output, $0.30 cache read, and $3.75 cache write per million tokens, with a 30-minute cache. US Geo is 10 percent higher. Explicit prompt caching is on Responses and Chat Completions, with a 1,024 token minimum per checkpoint. Recaps call Kimi K3 the first open-weight Bedrock model to take those explicit cache controls. Implicit caching is on by default. Score a hosted flagship with a cache meter. Do not score a GPU cluster you already own."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether Kimi K3 is available on Amazon Bedrock now have a verified split. The July weights were a self-host story. Friday is a model ID inside the same control plane that just retired Premier. Premier was Amazon's 1 million token multimodal teacher. K3 also advertises a 1 million token window and vision. AWS will not migrate dead Premier traffic. A bake-off is allowed. A twin is not.",
+            "The price is the other split. Global Standard $3/$15 is in [Fable](/blog/claude-fable-5-1-mythos-trusted-access) and [Astra](/blog/gpt-6-astra-computer-use-flagship) territory, not the [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) off-peak $0.15/$0.60 lane. The lever is cache. A $0.30 cache-read rate is 10 percent of uncached input. That only pays if a repo, policy pack, or knowledge prefix actually hits. Flex is 0.5 times Standard. Priority is 1.75 times. Both tiers, and explicit cache, are limited to Responses and Chat Completions. Converse and Invoke stay on Standard on-demand. AWS also warns Converse can throw `InternalServerException` when prior-turn reasoning blocks are left in the thread.",
+            "Open weights do not mean a laptop deploy. Hugging Face lists MXFP4 weights, 93 layers, MoonViT-V2, and the Kimi K3 License. AWS's self-host recipe still wants `ml.p6-b300.48xlarge`, eight Blackwell Ultra GPUs, tensor parallel 8, and `vllm/vllm-openai:kimi-k3`. [NVIDIA's Hugging Face deal](/blog/nvidia-buys-hugging-face-open-model-hub) did not shrink that bill. Bedrock is the product for teams that refuse that cluster. The [broader pricing reset](/blog/ai-model-pricing-is-changing-what-teams-can-ship) still applies: you pay for a living ID, or you pay in GPUs."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/kimi-k3-amazon-bedrock-stack.svg",
+            "alt": "Diagram comparing Kimi K3 on Amazon Bedrock as of 20 September 2026, the SageMaker HyperPod self-host path on p6-b300, and Nova Premier which reached end of life on 14 September",
+            "caption": "A Bedrock profile is a leased ID. A HyperPod job is an 8x B300 cluster. Premier is already a failed request."
+          },
+          "paragraphs": [
+            "Bedrock application teams feel it first. Point new 1 million token jobs at `global.moonshotai.kimi-k3` unless US residency forces `us.moonshotai.kimi-k3`. AWS recommends Chat Completions on `bedrock-runtime`. Place images before text. The `detail` image parameter is honored only on Chat Completions. Video inputs are not supported on this Bedrock endpoint, even though Moonshot's own API accepts video files. Knowledge bases and intelligent prompt routing are listed as unsupported. Do not paste a Premier agent graph onto K3 and call it a cutover.",
+            "Self-host and platform teams sit one layer out. If you already reserved p6-b300 capacity, Friday does not retire that path. It adds a metered alternative that stays inside AWS's boundary, which Inside AI flags as the governance pitch versus downloading weights. Kimi Code CLI can talk to Bedrock's OpenAI-compatible endpoint. That is a terminal workflow. It is not the [OpenAI Agents API](/blog/openai-agents-api-codex-harness). Moonshot-reported benches put K3 near [Fable 5](/blog/claude-fable-5-1-mythos-trusted-access) and GPT-5.6 Sol on several coding and agent sets. Those are vendor numbers from the July card, often with the Kimi Code harness. Rerun your own tasks.",
+            "Procurement and compliance sit one layer up. Global is about 10 percent cheaper than US Geo. Flex is the batch discount. Priority is the latency premium. The card lists no EOL date and promises at least 45 days' notice, the opposite of this month's [Premier hard fail](/blog/amazon-nova-premier-eol-bedrock). [Enterprise adoption](/blog/enterprise-ai-adoption-what-is-working) still fails when a model ID is treated as infrastructure. A Chinese-developed open-weight flagship on a US cloud is also a policy question Inside AI raised and AWS has not answered in the recaps. Treat that as a watch item, not a finding."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: the Amazon Bedrock Kimi K3 card lists a launch date of 18 September 2026, context of 1 million tokens, and Active lifecycle with at least 45 days' EOL notice. Fact: the documented inference profiles are `global.moonshotai.kimi-k3` and `us.moonshotai.kimi-k3`. Fact: Standard Global prices are $3.00 input, $15.00 output, $0.30 cache read, and $3.75 cache write per million tokens; US Geo is $3.30, $16.50, $0.33, and $4.125. Fact: Priority is 1.75 times Standard and Flex is 0.5 times Standard on Responses and Chat Completions only. Fact: Hugging Face and AWS describe a 2.8T MoE with about 104B active parameters, 896 experts, and 16 routed per token. Fact: Bedrock does not support video inputs on K3. Fact: Nova Premier reached end of life on 14 September and AWS says it will not remap traffic.",
+            "Prediction: most broken Premier graphs will land on Nova 2 Lite or another living Amazon SKU before they land on K3, because $15 output is not a default failover. Prediction: cache-hit rate, not GPQA, will decide whether K3 stays in a production router next to [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse). Prediction: headlines will call Friday a 3T model launch. The checkpoint is from July. Friday is distribution. Do not treat a Bedrock ID as proof you can skip evals, and do not treat open weights as a free cluster."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether AWS adds an in-Region-only profile, or whether US Geo and Global remain the only paths. Watch cache-hit rates on 1 million token prefixes once explicit checkpoints are in the client. Watch Converse compatibility in LangChain and Strands after the reasoning-block warning. Watch whether video input ever appears on the Bedrock card, or stays on Moonshot's own API. Watch p6-b300 reservations versus the hosted $3/$15 bill. Watch independent DeepSWE and Terminal-Bench runs that do not use the Kimi Code harness. And watch the Premier replacement question. If a workload has to run on Tuesday, it needs a live model ID and a measured cache, not a rumor that K3 is the new Amazon teacher."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Kimi K3 Amazon Bedrock? It is Moonshot AI's 2.8 trillion parameter open-weight flagship, served as a managed Amazon Bedrock model as of 18 September 2026. The card lists a 1 million token context, native vision, and inference profiles `global.moonshotai.kimi-k3` and `us.moonshotai.kimi-k3`. The July Hugging Face weights are the same class of model. Friday is hosted inference, not a new training run.",
+            "Is Kimi K3 available on Amazon Bedrock? Yes. AWS lists the model launch date as 18 September 2026 and the lifecycle as Active. Access is through US Geo and Global cross-Region inference, not a documented single-Region-only profile. Inside AI recapped general availability on 19 September. AWS's Builder Center tested Kimi Code against Bedrock on 18 September.",
+            "How much does Kimi K3 cost on Amazon Bedrock? On the Standard tier, Global cross-Region inference is $3.00 per million input tokens, $15.00 per million output tokens, $0.30 per million cache-read tokens, and $3.75 per million cache-write tokens for a 30-minute cache. US Geo is 10 percent higher. Priority is 1.75 times Standard. Flex is 0.5 times Standard. Those two tiers apply only to Responses and Chat Completions.",
+            "Is Kimi K3 a Nova Premier replacement? No. Nova Premier, `amazon.nova-premier-v1:0`, reached end of life on 14 September 2026 and AWS says it will not migrate traffic. Kimi K3 is a Moonshot model with a similar 1 million token window and vision, billed at $3/$15 Global. It is a bake-off candidate. It is not a remap and not an Amazon-native teacher SKU.",
+            "What is the difference between global.moonshotai.kimi-k3 and us.moonshotai.kimi-k3? The global profile may route to any supported commercial AWS Region and is about 10 percent cheaper. The US Geo profile keeps processing in US geography for residency requirements. AWS documents both as cross-Region inference. Self-hosting `moonshotai/Kimi-K3` on HyperPod or EKS is a third path and still needs reserved p6-b300 capacity."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "ai-pacing-collusion-lawsuit-openai-anthropic",
       "title": "AI Pacing Collusion Lawsuit: Four Labs Sued, Not Frozen",
       "excerpt": "A Friday complaint names Anthropic, OpenAI, SpaceXAI, and Google. The AI pacing collusion lawsuit is a Sherman Act claim by four paid subscribers. There is no verdict and no training freeze.",
