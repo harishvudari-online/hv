@@ -38,6 +38,140 @@
   ],
   "posts": [
     {
+      "slug": "grok-4-7-same-price-api",
+      "title": "Grok 4.7: Same $2/$6 API, Not Grok 4.8",
+      "excerpt": "SpaceXAI shipped Grok 4.7 today as grok-4.7. List price stays $2/$6 below 200k prompt tokens, the same meter as 4.6. Cursor and Grok Build have it now. Consumer Grok comes later. Grok 4.8 is still a name.",
+      "category": "models",
+      "tags": [
+        "Grok 4.7",
+        "grok-4.7",
+        "Grok 4.7 Fast",
+        "SpaceXAI"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Grok 4.7 2026: Same $2/$6 API, Not 4.8",
+        "metaDescription": "Grok 4.7 is live as grok-4.7 at $2/$6, the same meter as 4.6. Cursor and Grok Build ship it today. Consumer Grok is later. Grok 4.8 is still a name.",
+        "keywords": [
+          "Grok 4.7",
+          "Grok 4.7 pricing",
+          "Grok 4.7 API",
+          "grok-4.7",
+          "Grok 4.7 vs Grok 4.6",
+          "Grok 4.7 Fast",
+          "Is Grok 4.7 available",
+          "Grok 4.7 Cursor",
+          "Grok 4.7 vs Fable 5.1",
+          "Grok 4.7 vs Grok 4.8",
+          "Grok 4.7 context window",
+          "Grok 4.7 Fast not on API"
+        ]
+      },
+      "image": {
+        "src": "/blog/grok-4-7-same-price-hero.svg",
+        "alt": "Illustration of Grok 4.7 as of 21 September 2026: live API id grok-4.7 at $2 input and $6 output per million tokens below 200k prompt tokens, available in Cursor and Grok Build, with consumer Grok later and Grok 4.8 still only a name",
+        "caption": "Monday's card is a billed id at last month's price. Score grok-4.7. Do not score a 4.8 name."
+      },
+      "sources": [
+        {
+          "title": "SpaceXAI: Introducing Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "title": "SpaceXAI docs: Grok 4.7 model page",
+          "url": "https://docs.x.ai/developers/models/grok-4.7"
+        },
+        {
+          "title": "SpaceXAI docs: API pricing",
+          "url": "https://docs.x.ai/developers/pricing"
+        },
+        {
+          "title": "SpaceXAI docs: API release notes",
+          "url": "https://docs.x.ai/developers/release-notes"
+        },
+        {
+          "title": "SpaceXAI: Grok 4.7 model card (PDF)",
+          "url": "https://media.x.ai/v1/website/4p7card-5eccc980.pdf"
+        },
+        {
+          "title": "Decrypt: xAI launches Grok 4.7, bigger but late to the frontier party",
+          "url": "https://decrypt.co/378824/xai-launches-grok-4-7"
+        },
+        {
+          "title": "OfficeChai: Grok 4.7 benchmarks versus Sol and Fable 5.1",
+          "url": "https://officechai.com/ai/grok-4-7-benchmarks/"
+        },
+        {
+          "title": "Kingy: Grok 4.7 features, pricing, and how to try it",
+          "url": "https://kingy.ai/blog/grok-4-7-release-features-pricing-access/"
+        },
+        {
+          "title": "Vercel AI Gateway: Grok 4.7 model listing",
+          "url": "https://vercel.com/ai-gateway/models/grok-4.7"
+        },
+        {
+          "title": "SpaceXAI: Introducing Grok 4.6",
+          "url": "https://x.ai/news/grok-4-6"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, SpaceXAI published [Introducing Grok 4.7](https://x.ai/news/grok-4-7). The live product is a model id, not a founder post. [Docs](https://docs.x.ai/developers/models/grok-4.7) name it `grok-4.7`. Context is 500,000 tokens. Modalities are text and image in, text out. Reasoning efforts are low, medium, high, and xhigh, with high as the default. [Release notes](https://docs.x.ai/developers/release-notes) add that Responses always return `reasoning.encrypted_content`, even when `include` does not list it, and that the US regional endpoint serves the same id.",
+            "The meter is last month's meter. [Pricing](https://docs.x.ai/developers/pricing) lists $2 input, $0.50 cached input, and $6 output per million tokens below 200,000 prompt tokens, then $4 / $1 / $12 at or above that threshold. Those are the same bands as [Grok 4.6](https://x.ai/news/grok-4-6). The announcement's line is \"same price and speed.\" The launch also names a Fast variant at twice the output speed and twice the token rates. Release notes close the trap: Fast is Cursor and Grok Build only. It is not on the public xAI API, and Grok Build's free tier does not include it.",
+            "This is not [Grok 4.8](/blog/grok-4-8-release-date). That briefing is a 13 September name: 2.5T, a new C++ stack, no id. Monday's card is the delayed 4.7 SKU that briefing said had no model page. It is also not [Grok in Microsoft Copilot](/blog/grok-microsoft-copilot-word-excel-powerpoint). The [model card](https://media.x.ai/v1/website/4p7card-5eccc980.pdf) makes Grok 4.7 the default in SpaceXAI's own Word, PowerPoint, and Excel add-ins. That is a Grok-branded add-in. It is not a Copilot family remap. Consumer grok.com, mobile apps, and Grok-in-X are dated \"at a later date\" on the same card. [Decrypt](https://decrypt.co/378824/xai-launches-grok-4-7) put the Grok app in the live list. Score the card. Do not score the app headline."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Grok 4.7 is have a split they can use. [OfficeChai](https://officechai.com/ai/grok-4-7-benchmarks/) reprints the launch table: CursorBench 4.0 at 46.3% against Grok 4.6's 40.4%, GPT-5.6 Sol's 41.7%, and [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) at 51.8%. DeepSWE v1.1 is 71.0% at high, behind Sol's 72.7% and ahead of Fable's 70.0%. AA Briefcase is 1,657 Elo against Fable's 1,678. Terminal-Bench 4.0 is 38.0% against Fable's 57.9%. Harvey's legal agent score is 19.6%, the table's largest lead over Sol and Fable. HealthBench Professional is 56.7%, still behind Sol and Fable. The launch pitch is \"twice as fast, at half the price of comparable models.\" The table is a price-performance claim against Fable's $10 / $50 list, not a CursorBench win.",
+            "Two numbers on the same bench should stay two numbers. The announcement table prints EEBench at 64.0% for Grok 4.7. The model card's xhigh run is 66.0%, still behind [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) at 69.3% max. Decrypt and OfficeChai read the GDPval chart as 1,695 Elo, up from 4.6's 1,605, behind Fable's 1,735 and ahead of Astra's 1,542. The card does not give a parameter count. Decrypt repeats a 2.1T figure and five slipped dates since July. Treat 2.1T as a press number. Do not treat it as a printed spec.",
+            "The honest Fast card is thinner than \"twice the price.\" Short-context Fast is $4 / $1 / $12. The long-context Fast row is $6 / $1.50 / $18, which is not double the standard $4 / $1 / $12 band. [Kingy](https://kingy.ai/blog/grok-4-7-release-features-pricing-access/) flags that mismatch. US regional traffic on `https://us.api.x.ai/v1` adds 10%, so grok-4.7 becomes $2.20 / $0.55 / $6.60 below 200k. Batch is listed as not supported on the model page. Same-day tool news sits next to the SKU: X Search flips at noon Pacific from $5 per 1,000 calls to $5 per 1,000 posts fetched and $10 per 1,000 profiles fetched. That is a search meter. It is not the 4.7 list."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/grok-4-7-same-price-stack.svg",
+            "alt": "Diagram comparing Grok 4.7 as of 21 September 2026 with same-price Grok 4.6, Cursor-only Grok 4.7 Fast at twice the token rates, and named Grok 4.8 which still has no API identifier",
+            "caption": "Score the billed id. Fast is a serving SKU. 4.8 is a name. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Cursor and Grok Build desks feel it first. The card says Grok 4.7 is on every Cursor plan and is the default in Grok Build's terminal agent. Supplemental training used anonymized Cursor workflow data. OfficeChai notes CursorBench is built by Cursor, which SpaceX acquired last month. Score a first-party harness on a first-party bench. Do not treat 46.3% as an independent lab. If you already route [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) or [Step 5 Preview](/blog/stepfun-step-5-preview-api) as the cheap coding id, Monday is a same-price swap test, not a new invoice class.",
+            "API teams sit one layer out. Gateways named on the card include OpenRouter, Vercel, Cloudflare, Snowflake, and Databricks Mosaic. [Vercel](https://vercel.com/ai-gateway/models/grok-4.7) lists `spacexai/grok-4.7` with a 500k window. Gateway sticker prices are not the xAI list. Keep `grok-4.6` on any job that still needs the old id. Do not invent a public `grok-4.7-fast` slug. Priority Processing remains a 2x `service_tier` on the standard API. It is not Fast.",
+            "Office and consumer buyers sit one layer up. SpaceXAI add-ins for Word, PowerPoint, and Excel default to 4.7. Microsoft Copilot's Grok preview is still the family door from the [Copilot briefing](/blog/grok-microsoft-copilot-word-excel-powerpoint), not a versioned 4.7 endpoint. Kingy checked the consumer plan page and still saw Grok 4.6 named there. The neighbor for a coding harness is the [OpenAI Agents API](/blog/openai-agents-api-codex-harness), not a chat app. Do not staff a grok.com cutover on an API launch."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: SpaceXAI launched Grok 4.7 on 21 September 2026 with model id `grok-4.7`, a 500k context window, and $2 / $0.50 / $6 list pricing below 200k prompt tokens. Fact: those rates match Grok 4.6. Fact: the model is live in the xAI API, Cursor, Grok Build, named gateways, and SpaceXAI Office add-ins. Fact: the model card dates consumer web, mobile, and Grok-in-X as later. Fact: Grok 4.7 Fast is the same model on faster hosts, billed at the Fast table, and is not on the public API. Fact: the launch table trails Fable 5.1 on CursorBench, AA Briefcase, Terminal-Bench, and HealthBench, and trails GPT-6 Astra on the card's EEBench xhigh run. Fact: Grok 4.8 still has no model page. Fact: the card does not print a 2.1T parameter count.",
+            "Prediction: most headlines will call Grok 4.7 a consumer app upgrade and a Fable killer. The card and the table contradict both. Prediction: Fast long-context jobs will be quoted at 2x when the printed row is $6 / $1.50 / $18. Prediction: aggregators will paste Decrypt's 2.1T onto the docs page. Do not treat a founder number as a spec, and do not treat a Cursor picker as grok.com."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether grok.com, iOS, Android, and Grok-in-X actually flip, because the card still says later. Watch independent CursorBench and Terminal-Bench reruns outside the Grok Build harness. Watch whether Fast's long-context row stays $6 / $1.50 / $18 or gets restated as true 2x. Watch US-regional volume against the 10% premium. Watch whether Batch support appears, because today's model page says it does not. Watch X Search invoices after the noon Pacific fetch-based meter. And watch [Grok 4.8](/blog/grok-4-8-release-date). A shipped 4.7 does not mint a 4.8 id. A name is still a name."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Grok 4.7? Grok 4.7 is SpaceXAI's 21 September 2026 flagship for coding, agents, and knowledge work. The API id is `grok-4.7`. It has a 500,000 token context window, text and image input, text output, and reasoning efforts from low to xhigh. It is a billed model id. It is not Grok 4.8.",
+            "How much does Grok 4.7 cost? Official list is $2 input, $0.50 cached input, and $6 output per million tokens when the prompt stays below 200,000 tokens. Prompts at or above that threshold bill $4 / $1 / $12 for every token in the request. Those are the same bands as Grok 4.6. US regional requests add 10%. Fast uses a separate, higher table.",
+            "Is Grok 4.7 available? Yes, in the xAI API, Cursor on every plan, Grok Build, named gateways, and SpaceXAI's Word, PowerPoint, and Excel add-ins. The model card says consumer web, mobile apps, and Grok-in-X come later. Do not treat a Decrypt app headline as the consumer cutover.",
+            "What is Grok 4.7 Fast? Fast is the same Grok 4.7 checkpoint served on faster infrastructure. Short-context rates are $4 / $1 / $12. Long-context Fast is $6 / $1.50 / $18. It is available in Cursor and Grok Build, not on the public xAI API, and not on Grok Build's free tier. It is not Priority Processing.",
+            "How does Grok 4.7 compare with Fable 5.1 and GPT-6 Astra? On SpaceXAI's launch table, Fable 5.1 still leads CursorBench 4.0 (51.8% vs 46.3%), AA Briefcase, Terminal-Bench, and HealthBench. Grok 4.7 leads Harvey legal and wins EEBench against Sol and Fable in that table. The model card's EEBench xhigh run is 66.0%, behind Astra's 69.3%. Those are vendor numbers. They are not a third-lab rerun.",
+            "Is Grok 4.7 the same as Grok 4.8? No. Grok 4.8 is the 2.5T name Elon Musk posted on 13 September. It still has no API id, price, or model card. Grok 4.7 is the SKU that shipped today. Use `grok-4.7` if you want the current flagship. Do not reserve capacity for a 4.8 identifier that docs.x.ai does not list."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "googlebook-gemini-intelligence-laptops",
       "title": "Googlebook: Gemini Intelligence Ships, Not a Chromebook",
       "excerpt": "Google opened preorders today for five Googlebook laptops. The SKU is Gemini Intelligence on Android-based hardware, not a Chromebook. Acer starts at $899. Magic Pointer, Rambler, and Antigravity ship on the device. Units land 4 October in the US.",
@@ -3876,7 +4010,7 @@
     {
       "slug": "grok-4-8-release-date",
       "title": "Grok 4.8 Release Date: A 2.5T Model With No API",
-      "excerpt": "Elon Musk named Grok 4.8 on 13 September as a 2.5 trillion parameter model on a new C++ stack. Training finishes this week, then RL. xAI still ships Grok 4.6. Grok 4.7 has no model card.",
+      "excerpt": "Elon Musk named Grok 4.8 on 13 September as a 2.5 trillion parameter model on a new C++ stack. That name still has no API. Grok 4.7 later shipped on 21 September at the same $2/$6 meter as 4.6.",
       "category": "models",
       "tags": [
         "Grok 4.8",
@@ -3888,24 +4022,23 @@
       "readingMinutes": 7,
       "seo": {
         "metaTitle": "Grok 4.8 Release Date 2026: 2.5T, No API Yet",
-        "metaDescription": "Musk named Grok 4.8 on 13 Sep 2026 as a 2.5T model on a new C++ stack. xAI still ships Grok 4.6 at $2/$6. Grok 4.7 has no API. See what to run today.",
+        "metaDescription": "Musk named Grok 4.8 on 13 Sep 2026 as a 2.5T model on a new C++ stack. It still has no API. Grok 4.7 shipped 21 Sep. See what 4.8 still lacks.",
         "keywords": [
           "Grok 4.8",
           "Grok 4.8 release date",
           "Grok 4.8 2.5T",
-          "Grok 4.8 vs Grok 4.7",
           "Grok 4.8 C++ software stack",
           "xAI Grok 4.8",
-          "Grok 4.7 delay",
           "Grok 4.6 pricing",
           "when is Grok 4.8 coming out",
-          "Grok 4.8 vs Grok 4.6"
+          "Grok 4.8 vs Grok 4.6",
+          "Is Grok 4.8 released"
         ]
       },
       "image": {
         "src": "/blog/grok-4-8-hero.svg",
         "alt": "Illustration of shipped Grok 4.6 at $2/$6 beside delayed Grok 4.7 and named Grok 4.8, a 2.5 trillion parameter model with no API or release date",
-        "caption": "The live SKU is grok-4.6. Grok 4.8 is a founder post. Grok 4.7 still has no card."
+        "caption": "The named SKU is still Grok 4.8. Grok 4.7 shipped later. Do not treat a founder post as an API id."
       },
       "sources": [
         {
@@ -3951,7 +4084,7 @@
           "paragraphs": [
             "On 13 September 2026, at 9:24 p.m. Eastern, Elon Musk replied on X with a model name that had not appeared on x.ai: Grok 4.8. The full public description is one sentence. It is a 2.5 trillion parameter model trained with xAI's new C++ software stack, it will finish training this week, and it will then start reinforcement learning. CGTN, AIBase, and Newsquawk repeated that quote on 14 September. CellCog checked xAI's news feed, model directory, API release notes, and llms.txt at 01:47 UTC the same morning and found no Grok 4.8 line, and no Grok 4.7 line either.",
             "That is not a product launch. SpaceXAI's last numbered release is still Grok 4.6, shipped on 12 August 2026. The launch note lists the API, Cursor, Grok Build, OpenRouter, Vercel, and Cloudflare. The docs page names the model id `grok-4.6`, a 500,000 token context window, text and image in, text out, and list prices of $2 input and $6 output per million tokens below 200,000 prompt tokens, doubling above that threshold. Cached input is $0.50, or $1.00 in the long-context band. None of those fields exist for 4.8.",
-            "Grok 4.7 is the model people were actually waiting on. Musk said on 11 September that it needed a few more days to cook, and blamed an RL setting that penalized response length too hard, so the model gave up on hard tasks and skipped checking its own work. AIBase dates that delay against a 12 September window. As of this morning, there is still no 4.7 model card, API identifier, price, or eval table. Naming 4.8 two days later does not retire 4.7. It puts a larger, later run on the same calendar."
+            "Grok 4.7 was the model people were actually waiting on. Musk said on 11 September that it needed a few more days to cook, and blamed an RL setting that penalized response length too hard, so the model gave up on hard tasks and skipped checking its own work. AIBase dates that delay against a 12 September window. As of 14 September, there was still no 4.7 model card, API identifier, price, or eval table. Update, 21 September 2026: SpaceXAI later shipped Grok 4.7 with id `grok-4.7` at the same $2/$6 list as 4.6. That launch is a [separate briefing](/blog/grok-4-7-same-price-api). This page stays on the 4.8 name. Naming 4.8 did not retire 4.7."
           ]
         },
         {
@@ -3979,13 +4112,13 @@
           "heading": "Facts versus predictions",
           "paragraphs": [
             "Fact: Musk named Grok 4.8 on 13 September 2026 as a 2.5T model trained with a new C++ software stack that would finish training this week and then start RL. Fact: as of 14 September, xAI's public news, model docs, and release notes list Grok 4.6 and do not list Grok 4.7 or Grok 4.8. Fact: Grok 4.6 shipped on 12 August 2026 with model id `grok-4.6`, a 500k context window, and $2/$6 list pricing below 200k prompt tokens. Fact: xAI reports Grok 4.6 at 61 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Sol. Fact: Musk said on 11 September that Grok 4.7 needed more time because an RL length penalty made it quit early.",
-            "Prediction: Grok 4.7 still ships, but as a brief flagship, unless xAI skips it and jumps to 4.8. Prediction: a Grok 4.8 API, if it arrives, lands weeks after the training-finished post, not this week. Prediction: the first useful 4.8 artifact will be a model id and a price next to 4.6, not another parameter count. Do not staff a cutover on a social post."
+            "Prediction, as of 14 September: Grok 4.7 still ships, but as a brief flagship, unless xAI skips it and jumps to 4.8. Update, 21 September 2026: 4.7 did ship, with a card and a price, eight days after this briefing. Prediction that still stands: a Grok 4.8 API, if it arrives, lands weeks after the training-finished post, not the week it was named. The first useful 4.8 artifact will be a model id and a price next to 4.7, not another parameter count. Do not staff a cutover on a social post."
           ]
         },
         {
           "heading": "What to watch next",
           "paragraphs": [
-            "Watch x.ai/news and docs.x.ai for a Grok 4.8 or Grok 4.7 model page, id, and rate card. Watch whether Musk posts that RL has started, which is the next milestone in his own sentence. Watch whether 4.7 ships at all, because every 4.8 date depends on that. Watch whether the C++ stack claim is attached to 4.7 as well, or stays a 4.8 exclusive. Watch Grok 4.6 quality on the long-agent jobs the launch note sold, especially if 4.7's early-quit bug was already leaking into 4.6 sessions. And watch list price: a larger model on a faster stack can move $2/$6 either way."
+            "Watch x.ai/news and docs.x.ai for a Grok 4.8 model page, id, and rate card. Grok 4.7 no longer belongs on that watch list. It shipped on 21 September; use the [Grok 4.7 briefing](/blog/grok-4-7-same-price-api). Watch whether Musk posts that 4.8 RL has started, which is the next milestone in his own sentence. Watch whether the C++ stack claim stays a 4.8 exclusive. And watch list price: a larger 4.8 on a faster stack can move the $2/$6 band either way."
           ]
         },
         {
@@ -3993,8 +4126,8 @@
           "paragraphs": [
             "What is Grok 4.8? It is a Grok model Elon Musk named on 13 September 2026. He said it has 2.5 trillion parameters, is trained with xAI's new C++ software stack, will finish training the week of 14 September, and will then start reinforcement learning. xAI has not published a model page, API identifier, price, or benchmark for it.",
             "When is the Grok 4.8 release date? There is no official Grok 4.8 release date. Musk did not give a ship day. CellCog notes that his last two training-finished posts preceded Grok 4.6 by about 25 days and Grok 4.5 by about 52 days. That is a historical gap, not a calendar invite.",
-            "Is Grok 4.7 released? No. As of 14 September 2026, xAI's docs still present Grok 4.6 as the live flagship. Musk said on 11 September that Grok 4.7 needed a few more days because an RL length penalty made it give up on hard tasks. There is still no 4.7 model card.",
-            "What should I use instead of Grok 4.8 today? Use Grok 4.6 if you already run xAI. The API id is `grok-4.6`, with $2 input and $6 output per million tokens below 200k prompt tokens, a 500k context window, and availability in the xAI API, Cursor, Grok Build, and listed partners. If you need a different lab's dated card, compare Claude Fable 5.1, Gemini 3.8 Flash, or GPT-6 Astra.",
+            "Is Grok 4.7 released? Yes. SpaceXAI shipped it on 21 September 2026 with model id `grok-4.7`, a 500k context window, and the same $2/$6 list as Grok 4.6. See the [Grok 4.7 briefing](/blog/grok-4-7-same-price-api). This page is about the 4.8 name, which still has no API.",
+            "What should I use instead of Grok 4.8 today? Use Grok 4.7 if you already run xAI. The API id is `grok-4.7`, with $2 input and $6 output per million tokens below 200k prompt tokens, a 500k context window, and availability in the xAI API, Cursor, and Grok Build. If you need a different lab's dated card, compare Claude Fable 5.1, Gemini 3.8 Flash, or GPT-6 Astra.",
             "Does Grok 4.8 replace Grok in Microsoft Copilot? No. Microsoft's Copilot preview is about the Grok family inside Word, Excel, and PowerPoint. It does not name Grok 4.8. GitHub Copilot already lists Grok 4.6. A future 4.8 id would be a separate routing change."
           ]
         }

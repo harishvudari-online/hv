@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">Grok 4.7 versus Grok 4.6, Grok 4.7 Fast, and Grok 4.8</title>
+  <desc id="desc">Diagram comparing Grok 4.7 as of 21 September 2026 with same-price Grok 4.6, Cursor-only Grok 4.7 Fast at twice the token rates, and named Grok 4.8 which still has no API identifier.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Three Grok cards. Only one is today's flagship id.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">4.7 is grok-4.7. Fast is a Cursor meter. 4.8 is still a founder post.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.7"/>
+  <text x="140" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Grok 4.7</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Live this briefing</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">id grok-4.7, 500k</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$2 / $6 below 200k</text>
+  <text x="140" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">API, Cursor, Grok Build</text>
+  <text x="140" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Consumer surfaces later</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Grok 4.7 Fast</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Same weights, faster host</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$4 / $1 / $12 below 200k</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$6 / $1.50 / $18 above</text>
+  <text x="480" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Cursor and Grok Build only</text>
+  <text x="480" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Not on the public xAI API</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="820" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Grok 4.8</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Named 13 Sep, still no id</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Musk: 2.5T, new C++ stack</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">No price, evals, or card</text>
+  <text x="820" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Not a 4.7 remap</text>
+  <text x="820" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Do not reserve capacity</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the billed id. Fast is a serving SKU. 4.8 is a name. Do not collapse the three.</text>
+</svg>
