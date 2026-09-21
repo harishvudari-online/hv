@@ -38,6 +38,146 @@
   ],
   "posts": [
     {
+      "slug": "qwen-image-2-1-research-license",
+      "title": "Qwen-Image-2.1: 7B RGBA Weights, Research License Only",
+      "excerpt": "Qwen-Image-2.1 is Alibaba's 7B DiT for text-to-image and editing, with native 2048 RGBA and up to 10 reference images. The weights are live on Hugging Face and ModelScope. The license is research-only. It is not Apache 2.0, and it is not a hosted list price.",
+      "category": "models",
+      "tags": [
+        "Qwen-Image-2.1",
+        "Qwen Research License",
+        "RGBA image generation",
+        "QwenImage21Pipeline"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Qwen-Image-2.1 2026: 7B RGBA, Research License",
+        "metaDescription": "Qwen-Image-2.1 is Alibaba's 7B DiT with native 2048 RGBA and 10-reference edits. Research license only. Weights live. Not Apache. Not a priced API.",
+        "keywords": [
+          "Qwen-Image-2.1",
+          "Qwen-Image-2.1 Hugging Face",
+          "Qwen-Image-2.1 license",
+          "Qwen-Image-2.1 commercial use",
+          "Qwen-Image-2.1 RGBA",
+          "Qwen-Image-2.1 Diffusers",
+          "Is Qwen-Image-2.1 open source",
+          "QwenImage21Pipeline",
+          "Qwen-Image-2.1 ComfyUI",
+          "Qwen-Image-2.1 vs Apache 2.0"
+        ]
+      },
+      "image": {
+        "src": "/blog/qwen-image-2-1-hero.svg",
+        "alt": "Illustration of Qwen-Image-2.1 as of 21 September 2026: a 7 billion parameter visual DiT with native 2048 RGBA output, up to 10 reference images, live Hugging Face and ModelScope weights, and a Qwen Research License that bars commercial use without a separate agreement",
+        "caption": "Monday's card is a downloadable image checkpoint. Score RGBA and the license file. Do not score Apache."
+      },
+      "sources": [
+        {
+          "title": "Hugging Face: Qwen/Qwen-Image-2.1",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+        },
+        {
+          "title": "Hugging Face: Qwen/Qwen-Image-2.1-PE-T2I",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I"
+        },
+        {
+          "title": "Hugging Face: Qwen/Qwen-Image-2.1-PE-I2I",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I"
+        },
+        {
+          "title": "Hugging Face: Qwen-Image-2.1 LICENSE",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE"
+        },
+        {
+          "title": "Hugging Face Space: Qwen/Qwen-Image-2.1",
+          "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1"
+        },
+        {
+          "title": "ModelScope: Qwen/Qwen-Image-2.1",
+          "url": "https://www.modelscope.cn/models/Qwen/Qwen-Image-2.1"
+        },
+        {
+          "title": "Qwen blog: Qwen-Image-2.1",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1"
+        },
+        {
+          "title": "GitHub: QwenLM/Qwen-Image (earlier Apache line)",
+          "url": "https://github.com/QwenLM/Qwen-Image"
+        },
+        {
+          "title": "Hugging Face: Comfy-Org/Qwen-Image-2.1",
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1"
+        },
+        {
+          "title": "AI Weekly: Alibaba ships Qwen-Image-2.1 and drops Apache",
+          "url": "https://aiweekly.co/alerts/alibaba-ships-qwen-image-21-7b-dit-with-native-2048x2048-and-rgba-drops-apache"
+        },
+        {
+          "title": "RuntimeWire: Qwen-Image-2.1 transparent editing and research-only weights",
+          "url": "https://runtimewire.com/article/alibaba-qwen-image-2-1-transparent-editing-research-license"
+        },
+        {
+          "title": "The Decoder: Qwen-Image-2.1 claims and research license",
+          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, the Qwen-Image-2.1 story is a live image checkpoint, not a teaser card. [Hugging Face](https://huggingface.co/Qwen/Qwen-Image-2.1) hosts Qwen/Qwen-Image-2.1 as a unified text-to-image and editing model, with a [ModelScope](https://www.modelscope.cn/models/Qwen/Qwen-Image-2.1) mirror, a [demo Space](https://huggingface.co/spaces/Qwen/Qwen-Image-2.1), and a [vendor blog](https://qwen.ai/blog?id=qwen-image-2.1) linked from the ModelScope README. The visual generation component is 7 billion parameters across 32 single-stream DiT layers. The same card names native transparent (RGBA) output, up to 10 reference images, and local edits by circle, painted annotation, or a separate mask.",
+            "The license is the other ship. The [Qwen Research License Agreement](https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE) is dated 20 September 2026. The licensor is Hangzhou Tongyi Laboratory Technology Co., Ltd. Section 2 grants use, reproduction, distribution, and modification for non-commercial purposes only, defined as research or evaluation. Commercial use needs a separate license requested from the lab. [AI Weekly](https://aiweekly.co/alerts/alibaba-ships-qwen-image-21-7b-dit-with-native-2048x2048-and-rgba-drops-apache) dated the Hugging Face and ModelScope push to 20 September 13:57 UTC. Recaps disagree on whether to call Monday or Sunday the public day. Score the live files and the license date. Do not invent a keynote.",
+            "This is not [Atria Dawn Preview](/blog/atria-dawn-preview-open-weights). Atria is a text-only 744B GLM-5.2 agent under MIT. Send it an image and the endpoint returns 400. Qwen-Image-2.1 is the inverse: it is an image generator, and its weights are not MIT. It is also not [Intern-S2-Preview-397B](/blog/intern-s2-preview-397b-scientific-agents). Intern-S2 is a science multimodal intern-latest ID. Do not point a sticker pipeline at a science agent, and do not paste Apache from [QwenLM/Qwen-Image](https://github.com/QwenLM/Qwen-Image) onto 2.1."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Qwen-Image-2.1 is have a split they can use. The 7B line is the visual transformer, not the download. ModelScope's published shard list sums to about 33.1 GB: roughly 14.2 GB for the DiT, 17.5 GB for the Qwen3-VL 8B text encoder, and 1.35 GB for the VAE. [Comfy-Org's split pack](https://huggingface.co/Comfy-Org/Qwen-Image-2.1) names the encoder files qwen3vl_8b. If you budget VRAM from \"7B,\" you will miss the encoder. The card's native square is 2048 by 2048 at 40 steps, with six other aspect-ratio presets. CPU offload is documented. A laptop demo is not.",
+            "The editing claim is one pipeline, not three products. The same [QwenImage21Pipeline](https://huggingface.co/Qwen/Qwen-Image-2.1) takes a text prompt, an input image, or an RGBA prompt that says the background is transparent. Two prompt-rewriter checkpoints shipped beside it: [Qwen-Image-2.1-PE-T2I](https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I) and [Qwen-Image-2.1-PE-I2I](https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I), each a 9B Qwen3.5-VL fine-tune. They rewrite a vague request into a JSON prompt for the DiT. They are not the image model. Treat a rewriter miss as a prompt miss, not as a broken decoder.",
+            "The [open-model hub](/blog/nvidia-buys-hugging-face-open-model-hub) now has another Qwen card next to [Kimi K3](/blog/kimi-k3-amazon-bedrock) and [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks). Kimi already has July weights and an 18 September Bedrock SKU. Flash has a public price. Qwen-Image-2.1 has weights and a research file. [The Decoder](https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/) notes the vendor bench is first-party and independent scores are still pending. Do not paste a closed-model win onto Qwen-Image-Bench. Do not treat this as the [Claude distillation](/blog/anthropic-claude-distillation-threat-report) story. That brief named Qwen as a lab. This brief names an image SKU."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/qwen-image-2-1-stack.svg",
+            "alt": "Diagram comparing Qwen-Image-2.1 research-licensed 7B RGBA weights as of 21 September 2026 with the earlier Apache 2.0 Qwen-Image line and with Atria Dawn Preview, a text-only MIT language agent rather than an image model",
+            "caption": "Score the research license. The older Qwen-Image repo is Apache. Atria is a text agent. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Local image and design teams feel it first. Diffusers wants torch 2.4 or newer, transformers 5.17 or newer, and Diffusers installed from GitHub so QwenImage21Pipeline imports. [Comfy-Org](https://huggingface.co/Comfy-Org/Qwen-Image-2.1) republishes bf16 and int8 splits plus text-to-image and image-edit workflow templates. That is a weekend eval path. It is not a product license. If your job is a paid sticker pack, a try-on SKU, or a packaged poster tool, stop at the LICENSE file before you queue a batch.",
+            "Procurement and legal desks sit one layer out. The earlier [Qwen-Image GitHub repo](https://github.com/QwenLM/Qwen-Image) still presents the line under Apache 2.0, with Qwen-Image-2.0 dated 10 February 2026. 2.1 does not inherit that grant. A team that shipped on Apache weights cannot treat 2.1 as a drop-in upgrade. Compare the gate to [Step 5 Preview](/blog/stepfun-step-5-preview-api) only as a calendar contrast: StepFun sold an API on 20 September and dated weights to 15 October. Qwen sold shards on 20 September and withheld commercial use. Neither is [Atria's MIT checkpoint](/blog/atria-dawn-preview-open-weights).",
+            "Research and serving teams sit one layer up. [RuntimeWire](https://runtimewire.com/article/alibaba-qwen-image-2-1-transparent-editing-research-license) lists launch-day wiring for ComfyUI, vLLM-Omni, SGLang, and LightX2V. Score the cards you can open. The Hugging Face Space is a hosted demo, not a published per-image tariff. Do not paste a gateway $0 row onto a missing meter. If you need a science multimodal loop, stay on [Intern-S2](/blog/intern-s2-preview-397b-scientific-agents). If you need a language agent, stay on Atria. Qwen-Image-2.1 is pixels, masks, and a research file."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Qwen-Image-2.1 is published by Alibaba's Qwen team on Hugging Face as Qwen/Qwen-Image-2.1 and on ModelScope as Qwen/Qwen-Image-2.1, with a live Hugging Face Space. Fact: the card describes a 7B, 32-layer single-stream DiT visual component, native transparent RGBA generation and editing, up to 10 reference images, and 2048-by-2048 examples at 40 steps. Fact: ModelScope's listed shards total about 33.1 GB, with the text encoder larger than the DiT. Fact: PE-T2I and PE-I2I are separate 9B Qwen3.5-VL prompt rewriters, not the image model. Fact: the Qwen Research License Agreement dated 20 September 2026 limits the grant to non-commercial research or evaluation and requires a separate license for commercial use. Fact: this is not Atria Dawn Preview, not Intern-S2-Preview-397B, and not the Apache Qwen-Image GitHub grant.",
+            "Prediction: most headlines will call Monday an open-source image drop and paste Apache onto 2.1. The license file says otherwise. Prediction: teams will load the 7B DiT, OOM on the 8B encoder, and read it as a broken release. It is a pile size. Prediction: aggregators will print a $0 row because a Space is live. Until Qwen publishes a hosted tariff, the meter is unpriced. Do not treat a first-party bench chart as a third-party league, and do not treat a research grant as a product license."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Qwen publishes commercial terms, or whether model-license mail stays the only path. Watch whether a third party reproduces Qwen-Image-Bench, or whether the closed-model win stays a vendor chart. Watch whether multi-reference identity holds past three portraits, which early recaps already flag as the first failure mode. Watch whether Diffusers pins a stable QwenImage21Pipeline release, or whether git install remains the card. Watch PE-I2I language rules on packaging text, because a rewriter that translates a label is a rejected asset. And watch Apache on the older repo against this file. One line still grants product use. This one does not."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Qwen-Image-2.1? Qwen-Image-2.1 is Alibaba Qwen's unified text-to-image and image-editing model. The visual generation component is a 7B, 32-layer single-stream DiT. The card adds native RGBA output, up to 10 reference images, and local edits by circle, paint, or mask. Weights are on Hugging Face and ModelScope. The default square example is 2048 by 2048 at 40 inference steps.",
+            "Is Qwen-Image-2.1 open source? Qwen calls the release open-source on the model card. The legal grant is the Qwen Research License Agreement dated 20 September 2026, which allows non-commercial research or evaluation only. That is not Apache 2.0. The earlier QwenLM/Qwen-Image repository still presents the prior line under Apache. Do not treat the two grants as the same.",
+            "Can I use Qwen-Image-2.1 commercially? Not under the published research license. Commercial use requires a separate license from Hangzhou Tongyi Laboratory Technology Co., Ltd. Weights are free to download for research and evaluation. Shipping them inside a paid product, a hosted API, or a client deliverable needs that extra agreement. Do not treat a Hugging Face Space as a commercial grant.",
+            "How do I run Qwen-Image-2.1? Install torch 2.4 or newer, transformers 5.17 or newer, and Diffusers from GitHub, then load QwenImage21Pipeline from Qwen/Qwen-Image-2.1 in bfloat16. The card documents enable_model_cpu_offload. Comfy-Org publishes split weights and workflow templates. Plan for the 8B text encoder as well as the 7B DiT. The full ModelScope pile is about 33 GB.",
+            "Does Qwen-Image-2.1 generate transparent images? Yes. The model card shows native RGBA generation and editing, including subject extraction from photographs. The recommended prompt states that the image has an alpha channel and a transparent background. This replaces a separate layered SKU for that job. It does not change the research-only license.",
+            "Is Qwen-Image-2.1 the same as Atria Dawn Preview? No. Atria Dawn Preview is Shanghai AI Laboratory's text-only GLM-5.2 agent under MIT, with a hosted API that rejects images. Qwen-Image-2.1 is an image generator and editor under a research license. Intern-S2-Preview-397B is a different science multimodal SKU. Do not mix the three IDs."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "atria-dawn-preview-open-weights",
       "title": "Atria Dawn Preview: MIT Weights Today, Text Only",
       "excerpt": "Shanghai AI Laboratory's Atria Dawn Preview is a 744B GLM-5.2 agent with MIT weights on Hugging Face and a live API. The card is 256K and text-only. Claude still leads SWE-bench Pro. There is no list price.",
