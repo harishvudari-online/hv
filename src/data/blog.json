@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-21",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,138 @@
     }
   ],
   "posts": [
+    {
+      "slug": "atria-dawn-preview-open-weights",
+      "title": "Atria Dawn Preview: MIT Weights Today, Text Only",
+      "excerpt": "Shanghai AI Laboratory's Atria Dawn Preview is a 744B GLM-5.2 agent with MIT weights on Hugging Face and a live API. The card is 256K and text-only. Claude still leads SWE-bench Pro. There is no list price.",
+      "category": "models",
+      "tags": [
+        "Atria Dawn Preview",
+        "Shanghai AI Laboratory",
+        "GLM-5.2",
+        "Verifiable Experience Pipeline"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Atria Dawn Preview 2026: MIT Weights, API, Text Only",
+        "metaDescription": "Atria Dawn Preview is Shanghai AI Lab's MIT-licensed 744B GLM-5.2 agent. Weights and API are live. Text-only, 256K, no list price. Not Intern-S2.",
+        "keywords": [
+          "Atria Dawn Preview",
+          "Atria Dawn Preview Hugging Face",
+          "Atria Dawn Preview API",
+          "Atria Dawn Preview MIT license",
+          "Atria Dawn Preview vs Intern-S2",
+          "Atria Dawn Preview text only",
+          "Is Atria Dawn Preview open source",
+          "Atria Dawn Preview SWE-bench",
+          "Verifiable Experience Pipeline",
+          "Shanghai AI Laboratory Atria"
+        ]
+      },
+      "image": {
+        "src": "/blog/atria-dawn-preview-hero.svg",
+        "alt": "Illustration of Atria Dawn Preview as of 21 September 2026: MIT-licensed weights on Hugging Face, a live hosted API, a 256K text-only context window, and a 744 billion parameter GLM-5.2 mixture-of-experts base rather than a vision agent or an Intern-S2 remap",
+        "caption": "Monday's card is a downloadable checkpoint and a console key. Score MIT weights. Do not score a screenshot agent."
+      },
+      "sources": [
+        {
+          "title": "Hugging Face: internlm/Atria-Dawn-Preview",
+          "url": "https://huggingface.co/internlm/Atria-Dawn-Preview"
+        },
+        {
+          "title": "Hugging Face: internlm/Atria-Dawn-Preview-FP8",
+          "url": "https://huggingface.co/internlm/Atria-Dawn-Preview-FP8"
+        },
+        {
+          "title": "ModelScope: Shanghai_AI_Laboratory/Atria-Dawn-Preview",
+          "url": "https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Atria-Dawn-Preview"
+        },
+        {
+          "title": "Atria Dawn Preview Model API documentation",
+          "url": "https://api.atria-asi.ai/docs"
+        },
+        {
+          "title": "Atria Dawn official site",
+          "url": "https://atria-asi.ai/"
+        },
+        {
+          "title": "GitHub: atria-asi/Atria-Dawn-Preview",
+          "url": "https://github.com/atria-asi/Atria-Dawn-Preview"
+        },
+        {
+          "title": "arXiv: Atria Dawn: The Dawn of Agentic Superintelligence (2609.15818)",
+          "url": "https://arxiv.org/abs/2609.15818"
+        },
+        {
+          "title": "mlllm.io: Shanghai AI Lab releases weights for Atria Dawn Preview",
+          "url": "https://mlllm.io/news/3256-shanghai-ai-lab-releases-weights-for-atria-dawn-preview-agentic-model/"
+        },
+        {
+          "title": "AI-Driven Lab: Atria Dawn Preview specs and 23-page development record",
+          "url": "https://note.com/ai_driven/n/n5c7a1f8d3331"
+        },
+        {
+          "title": "HokAI: Atria Dawn Preview context, SWE-bench, and unpriced API",
+          "url": "https://hokai.io/hub/models/atria-dawn-preview"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, the Atria Dawn Preview story is a live checkpoint, not a teaser repo. [Hugging Face](https://huggingface.co/internlm/Atria-Dawn-Preview) hosts internlm/Atria-Dawn-Preview as an MIT-licensed instruct model, with an [FP8 twin](https://huggingface.co/internlm/Atria-Dawn-Preview-FP8) and a [ModelScope](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/Atria-Dawn-Preview) mirror. The card says Shanghai Artificial Intelligence Laboratory built the agent on Z.ai's 744-billion-parameter MoE [GLM-5.2](https://arxiv.org/abs/2609.15818) base. The tensor inventory on the same card reads 753B. Cite both. Do not invent a third size.",
+            "The hosted ID is also live. [Atria's API docs](https://api.atria-asi.ai/docs) take a console key at api.atria-asi.ai and accept Chat Completions, Anthropic-style Messages, and OpenAI Responses. The model field is Atria-Dawn-Preview, case sensitive, with a 256K window and a 1-to-65,536 output cap. Codex, Claude Code, and Kimi Code recipes are on the card. [Weekend recaps](https://mlllm.io/news/3256-shanghai-ai-lab-releases-weights-for-atria-dawn-preview-agentic-model/) treated the weights drop as the news. Recaps disagree on whether the first public README landed 14 or 20 September. Score the live files. Do not invent a first-party ship date.",
+            "This is not [Intern-S2-Preview-397B](/blog/intern-s2-preview-397b-scientific-agents). That SKU is a science multimodal intern-latest ID under Apache 2.0. Atria Dawn Preview is text-only. Send an image and the endpoint returns 400: it is not a multimodal model. It is also not [Step 5 Preview](/blog/stepfun-step-5-preview-api). StepFun's API opened 20 September. Those weights are still dated 15 October. Monday is the inverse: shards now, no published token meter."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Atria Dawn Preview is have a split they can use. The lab did post-training, not a new pretrain. The [paper](https://arxiv.org/abs/2609.15818) names a Verifiable Experience Pipeline: tasks run in real environments, outcomes are checked with tests, metrics, file state, geometry, or sources, and only complete trajectories stay in the training set. [AI-Driven Lab](https://note.com/ai_driven/n/n5c7a1f8d3331) notes the local recipes point at GLM-5.2 serving, not a custom stack. If you already host GLM-5.2, this is a post-train. If you do not, the BF16 pile is a cluster job, not a laptop demo.",
+            "The vendor table is 16 benches. Atria Dawn Preview leads five: DeepSearchQA 96.0, BrowseComp 92.5, BFCL v4 77.0, AutomationBench 53.8, and CyberGym 86.5. Those rows are search, tool calling, and security. The honesty rows sit the other way. SWE-bench Pro is 59.6 against Claude Opus 5 at 74.7. Terminal-Bench 2.1 is 78.3 against 90.2. JobBench is 50.3 against 68.0. GDPval is 1583 against 1768. The paper also logs 769 task records from 56 people and says participants rated about one-third of completed AI-assisted tasks as infeasible without the model. That is a development diary. It is not a third-party bake-off.",
+            "The [open-model hub](/blog/nvidia-buys-hugging-face-open-model-hub) now has another MIT checkpoint next to [Kimi K3](/blog/kimi-k3-amazon-bedrock) and [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks). Kimi already has July weights and an 18 September Bedrock SKU. Flash has a public price. Atria has weights and a console. [HokAI](https://hokai.io/hub/models/atria-dawn-preview) and the API docs both omit a per-million rate. Do not paste a gateway $0 row onto a missing tariff. Do not treat this as [Z.AI's Fully Self-Training GLM raise](/blog/z-ai-5-billion-fully-self-training-glm). That was capital. This is a post-trained GLM-5.2 agent."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/atria-dawn-preview-stack.svg",
+            "alt": "Diagram comparing Atria Dawn Preview MIT weights and a live API as of 21 September 2026 with Intern-S2-Preview-397B science multimodal weights and Step 5 Preview, whose open weights are still scheduled for 15 October",
+            "caption": "Score the MIT checkpoint. Intern-S2 is science vision. Step 5 is a priced API with no shards yet. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Agent platform and coding-harness teams feel it first. The docs show how to point [Codex](/blog/openai-agents-api-codex-harness), Claude Code, and Kimi Code at api.atria-asi.ai. They also show why that wiring fails if the client attaches a screenshot. Atria Dawn Preview is a text loop: paste logs, diffs, and extracted PDF text. It is not a [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) computer-use remap and not a [Claude Fable](/blog/claude-fable-5-1-mythos-trusted-access) vision seat. If your eval is UI debugging, stop here.",
+            "Self-host and infra desks sit one layer out. The card lists SGLang v0.5.13.post1 or newer and vLLM v0.23.0 or newer, and it points at GLM-5.2 recipes. Recaps put full BF16 near 1.5 TB before runtime buffers. FP8 is the smaller twin, not a laptop SKU. Rate-limit responses on the hosted API include Retry-After and x-rpm-limit headers. The docs illustrate a 60-request-per-minute cap. Treat that as an illustrated header, not a published SLA.",
+            "Research and security teams sit one layer up. CyberGym 86.5 is the vendor lead. The card lists authorized vulnerability analysis as a use case. That is a bench and a warning, not a green light to scan systems you do not own. Compare the science job to [Intern-S2](/blog/intern-s2-preview-397b-scientific-agents), not to this text agent. Intern-S2 is pages, spectra, and crystals. Atria Dawn Preview is plans, tools, code, and a retry loop you can check."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Atria Dawn Preview is published by Shanghai Artificial Intelligence Laboratory on internlm/Atria-Dawn-Preview and internlm/Atria-Dawn-Preview-FP8, with a ModelScope mirror, under the MIT License. Fact: the card and paper describe a 744B MoE GLM-5.2 foundation; the Hugging Face size line reads 753B params. Fact: advertised context is 256K tokens, output limits run from 1 to 65,536, and the hosted model ID is Atria-Dawn-Preview at api.atria-asi.ai. Fact: the model is text-only and rejects image and PDF attachments. Fact: the vendor table leads on DeepSearchQA 96.0, BrowseComp 92.5, BFCL v4 77.0, AutomationBench 53.8, and CyberGym 86.5, and trails Claude Opus 5 on SWE-bench Pro 59.6 to 74.7. Fact: no official per-token price is on the API docs. Fact: this is not Intern-S2-Preview-397B and not Step 5 Preview.",
+            "Prediction: most headlines will call Monday an open-weight Claude killer. The SWE-bench and Terminal-Bench gaps say otherwise. Prediction: teams will paste screenshots into Codex and read the 400 as an outage. It is a modality limit. Prediction: aggregators will print a $0 input row because a gateway listed it. Until Atria publishes a tariff, the hosted meter is unpriced. Do not treat 16 self-reported benches as a third-party league, and do not treat a missing price as free forever."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Atria publishes a per-million input and output rate, or whether the console stays invite-and-quota. Watch whether a third party reproduces BFCL, BrowseComp, and CyberGym, or whether the table stays first-party. Watch whether the 256K advertised window and the larger position count in config.json get a tested million-token card. Watch whether a multimodal sibling ships, or whether the 400 stays the product. Watch GLM-5.3 and later Z.ai post-trains against this agent, because they share a base. And watch Step 5 on 15 October. One lab already gave you shards. The other still owes a license and a file."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Atria Dawn Preview? Atria Dawn Preview is Shanghai Artificial Intelligence Laboratory's preview agentic model, post-trained on Z.ai's 744B MoE GLM-5.2 base. It is sold as a research and engineering agent with a 256K context window, MIT weights, and a hosted ID of Atria-Dawn-Preview. The card is text-only. The training write-up names a Verifiable Experience Pipeline that keeps only externally checked trajectories.",
+            "Is Atria Dawn Preview open source? The Hugging Face card says the code and model weights are released under the MIT License. BF16 and FP8 checkpoints are on internlm/Atria-Dawn-Preview and internlm/Atria-Dawn-Preview-FP8, with a ModelScope copy. MIT permits use, including commercial use, under that license. It does not publish a per-token hosted price, and it does not make the model multimodal.",
+            "How do I call the Atria Dawn Preview API? Create a key in the Atria console and send requests to https://api.atria-asi.ai/v1. The docs support /v1/chat/completions, /v1/messages, and /v1/responses. Set model to Atria-Dawn-Preview exactly. Output limits are 1 to 65,536 tokens. Codex, Claude Code, and Kimi Code wiring is documented. Images and PDFs are rejected.",
+            "Is Atria Dawn Preview the same as Intern-S2-Preview-397B? No. Intern-S2-Preview-397B is Shanghai AI Laboratory's science multimodal intern-latest SKU under Apache 2.0. Atria Dawn Preview is a text-only GLM-5.2 agent under MIT, with a different model ID, API host, and bench table. Do not point intern-latest at Atria, and do not treat Atria as a vision science model.",
+            "Does Atria Dawn Preview have a list price? Not on the official API documentation as of 21 September 2026. Weights are free to download under MIT. Self-host cost is your cluster. Hosted traffic needs a console key and is subject to quota and rate-limit headers. Do not treat an aggregator $0 row as Atria's tariff.",
+            "Can Atria Dawn Preview read images? No. The model card and API docs say it accepts text input only. Clients that attach screenshots or PDFs can receive HTTP 400 with the message that Atria-Dawn-Preview is not a multimodal model. Extract the text first."
+          ]
+        }
+      ]
+    },
     {
       "slug": "openai-robotics-salary-data-factory",
       "title": "OpenAI Robotics Salary: $500K for Data, Not a Robot SKU",

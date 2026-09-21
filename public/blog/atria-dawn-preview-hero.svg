@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2001/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Atria Dawn Preview briefing</title>
+  <desc id="desc">Editorial illustration of Atria Dawn Preview as of 21 September 2026: MIT-licensed weights on Hugging Face, a live hosted API at api.atria-asi.ai, a 256K text-only context window, and a 744 billion parameter GLM-5.2 mixture-of-experts base rather than a vision agent or an Intern-S2 remap.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#F4C15D" fill-opacity="0.10"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Atria Dawn Preview: MIT weights today, text only</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Shanghai AI Lab  |  21 Sep 2026  |  744B GLM-5.2 MoE  |  256K, no images</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What ships</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">internlm/Atria-Dawn-Preview</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">BF16 and FP8, MIT license</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">api.atria-asi.ai is live</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">ID: Atria-Dawn-Preview</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Chat, Messages, Responses</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">The scorecard</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Leads 5 of 16 benches</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">BFCL v4 77.0, Browse 92.5</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">CyberGym 86.5, Auto 53.8</text>
+  <text x="472" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">SWE-bench Pro 59.6</text>
+  <text x="472" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Claude Opus 5 is 74.7</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not Intern-S2 science vision</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a Step 5 Oct 15 wait</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a published token meter</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Text only: images return 400</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Score weights plus a hosted ID</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Monday's card is a downloadable checkpoint and a console key. It is not a vision SKU and not a Claude rematch.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Ask for the repo, the license, the model ID, and whether the task is text, code, or a screenshot.</text>
+</svg>
