@@ -38,6 +38,138 @@
   ],
   "posts": [
     {
+      "slug": "us-china-ai-safety-notification",
+      "title": "US-China AI Safety Notification: Alerts Proposed, Not a Treaty",
+      "excerpt": "Treasury Secretary Scott Bessent proposed a US-China AI safety notification after Sunday talks with He Lifeng. The channel would flag national-security incidents. Xinhua confirmed an AI dialogue, not the US mechanism. Chip export controls stayed off the table.",
+      "category": "future",
+      "tags": [
+        "US China AI safety notification",
+        "US-China AI dialogue",
+        "Bessent He Lifeng",
+        "Trump Xi AI summit"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "US-China AI Safety Notification 2026: Alerts, Not a Deal",
+        "metaDescription": "The US proposed a US-China AI safety notification for national-security incidents. Xinhua did not accept it. Chip export controls stay off the table.",
+        "keywords": [
+          "US China AI safety notification",
+          "AI safety notification mechanism",
+          "US-China AI dialogue",
+          "Bessent He Lifeng AI talks",
+          "Trump Xi AI summit 2026",
+          "AI incident alert system",
+          "Did China agree to AI safety notification",
+          "US China AI notification export controls",
+          "Xinhua AI talks readout",
+          "US China AI safety channel vs Pace the Frontier"
+        ]
+      },
+      "image": {
+        "src": "/blog/us-china-ai-safety-notification-hero.svg",
+        "alt": "Illustration of the US-China AI safety notification as of 21 September 2026: a proposed alert channel for national-security AI incidents after Bessent-He talks in New York, no signed treaty, and chip export controls kept off the agenda",
+        "caption": "Monday's card is a US ask. Score an incident channel. Do not score a slowdown treaty."
+      },
+      "sources": [
+        {
+          "title": "Reuters: Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+          "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/"
+        },
+        {
+          "title": "NBC News: U.S. proposes exchanging AI safety alerts with China, Bessent says",
+          "url": "https://www.nbcnews.com/world/asia/us-proposes-exchanging-ai-safety-alerts-china-bessent-says-rcna598923"
+        },
+        {
+          "title": "DW: US proposes AI safety mechanism in talks with China",
+          "url": "https://www.dw.com/en/us-proposes-ai-safety-mechanism-in-talks-with-china/a-79350248"
+        },
+        {
+          "title": "Al Jazeera: US proposes AI safety notification mechanism in talks with China",
+          "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit"
+        },
+        {
+          "title": "China Daily: China, US delegations hold trade talks in New York",
+          "url": "https://www.chinadailyhk.com/hk/article/639871"
+        },
+        {
+          "title": "Reuters: Bessent to discuss AI, rare earths with China's He, source says",
+          "url": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/"
+        },
+        {
+          "title": "CBS News: Transcript, Rep. Ro Khanna on Face the Nation, Sept. 20, 2026",
+          "url": "https://www.cbsnews.com/news/ro-khanna-california-democrat-face-the-nation-transcript-09-20-2026/"
+        },
+        {
+          "title": "Christian Science Monitor: On eve of China summit, Trump raises stakes on AI competition",
+          "url": "https://www.csmonitor.com/USA/Politics/2026/0921/trump-ai-china-regulate"
+        },
+        {
+          "title": "CNN: Bessent proposes AI safety notifications in talks with China",
+          "url": "https://www.cnn.com/2026/09/20/business/us-china-trade-talks-ai-intl-hnk"
+        },
+        {
+          "title": "The Hill: Khanna calls for a government AI agency like the FDA",
+          "url": "https://thehill.com/policy/technology/6100322-khanna-proposes-ai-regulatory-agency/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, the live US-China AI safety notification story is a proposal, not a signed channel. After about eight hours of talks at JPMorgan Chase headquarters in New York on Sunday, Treasury Secretary Scott Bessent told reporters the United States had proposed a [notification mechanism](https://www.dw.com/en/us-proposes-ai-safety-mechanism-in-talks-with-china/a-79350248) between the two countries. [Reuters](https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/) and [NBC News](https://www.nbcnews.com/world/asia/us-proposes-exchanging-ai-safety-alerts-china-bessent-says-rcna598923) say the idea sits inside a new US-China AI dialogue: alert each other to AI-related incidents that rise to a national-security level. Bessent's line was about opacity. \"We think that, just like with any cross-border activity, that moving from opaque to more transparency between the number one and the number two AI powers in the world is very important.\" He said both sides had agreed to meet again on the AI issue.",
+            "China's public paper is thinner. Vice Premier He Lifeng and trade negotiator Li Chenggang left without speaking to reporters. [China Daily](https://www.chinadailyhk.com/hk/article/639871), citing the Ministry of Commerce, says the two sides held candid, in-depth and constructive exchanges on economic and trade issues and \"also held dialogues on artificial intelligence-related issues.\" [NBC](https://www.nbcnews.com/world/asia/us-proposes-exchanging-ai-safety-alerts-china-bessent-says-rcna598923) and [DW](https://www.dw.com/en/us-proposes-ai-safety-mechanism-in-talks-with-china/a-79350248) both note that the Xinhua readout does not mention the US mechanism. Score an AI dialogue that Beijing will acknowledge. Do not score a Chinese yes to a notification duty, a reporting clock, or a list of covered incidents.",
+            "This is not [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown). That briefing is a lab essay and evaluator pledges. This one is Treasury and USTR talking to He Lifeng. It is also not the [AI standards body](/blog/ai-standards-body-anthropic-openai-google) that Anthropic, OpenAI, and Google have discussed since July, and not the [pacing collusion lawsuit](/blog/ai-pacing-collusion-lawsuit-openai-anthropic) filed Friday. [Reuters](https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/) adds the May context: Trump and Xi discussed consultations on AI development in Beijing, but that forum was never formalized. Sunday is a second try at a government channel, not a product SKU and not a freeze."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what the US-China AI safety notification is have a split they can use. Bessent described notifications for potential incidents, or an instance that rises to a national-security level from AI. [DW](https://www.dw.com/en/us-proposes-ai-safety-mechanism-in-talks-with-china/a-79350248) quotes him calling the talks a \"very successful engagement\" on trade and AI. Success here means a continued dialogue. It does not mean a hotline number, a 24-hour clock, or a joint inspectorate. Harvard's Rana Mitter, speaking to the [Christian Science Monitor](https://www.csmonitor.com/USA/Politics/2026/0921/trump-ai-china-regulate), called the likely summit outcome \"talks about talks.\" That is the honest product until Thursday's readout prints something more.",
+            "The pre-talks card is about models, not meters. In a [18 September statement](https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/), Bessent said the discussions would cover both open- and closed-weight models, that the United States remains the leader in AI, and that Washington is open to talks on avoiding shared risks and avoiding bifurcation of the two systems. He has also called for guardrails so powerful models do not land with malign non-state actors. That is why Chinese open-weight cards such as [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) sit in the same week as a Treasury meeting. Cheap weights are a commercial fact. They are not a notification protocol.",
+            "The chip half stays separate on purpose. US Trade Representative Jamieson Greer told reporters that export controls on sophisticated AI chips and semiconductor manufacturing equipment were not on the agenda for the AI mechanism talks. Score that against [OpenAI's Jalapeño inference chip](/blog/openai-jalapeno-inference-chip) and [Huawei's Atlas 960E SuperPoD](/blog/huawei-atlas-960e-superpod-npo), which already treat 24 September as a calendar that can reprice supply. A notification channel that cannot discuss [ASML High NA](/blog/asml-high-na-euv-intel-tsmc-samsung) tools is an incident wire, not an export bargain. Do not paste a chip truce onto a missing sentence."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/us-china-ai-safety-notification-stack.svg",
+            "alt": "Diagram comparing the proposed US-China AI safety notification for national-security incidents as of 21 September 2026 with Pace the Frontier, a lab slowdown pledge, and the still-unsigned AI standards body talks among Anthropic, OpenAI, and Google",
+            "caption": "Score the government alert ask. Pace the Frontier is a lab pledge. The standards body is still unsigned. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Frontier labs feel the wording first. [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) asked governments to mediate cross-lab slowdown talks. Sunday's channel, if it exists, would sit one layer up: capitals notifying capitals about incidents, not desks inside Anthropic or OpenAI. The [pacing lawsuit](/blog/ai-pacing-collusion-lawsuit-openai-anthropic) already treats public CEO posts as a possible agreement among rivals. A bilateral alert system does not settle that case. It also does not replace the [AI standards body](/blog/ai-standards-body-anthropic-openai-google) that still lacks a charter. Three instruments, three owners.",
+            "Chip, cluster, and open-weight teams sit one layer out. Greer's carve-out means the notification talks are not the venue where a [Jalapeño](/blog/openai-jalapeno-inference-chip) lane or an Atlas pod gets a license change. [Al Jazeera](https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit) notes the Busan trade truce still expires 10 November, and that rare-earth magnet flows were on the broader agenda with no new progress announced. If your risk register is tungsten, magnets, or foundry tools, this briefing is adjacent. It is not your meter.",
+            "Policy and buyer desks sit one layer up. Rep. Ro Khanna, ranking Democrat on the House Select Committee on Strategic Competition, told [CBS Face the Nation](https://www.cbsnews.com/news/ro-khanna-california-democrat-face-the-nation-transcript-09-20-2026/) that the first ask of Trump and Xi should be an international agreement whose core principles include banning recursive self-improving AI and safeguards against biological and nuclear misuse. [The Hill](https://thehill.com/policy/technology/6100322-khanna-proposes-ai-regulatory-agency/) also recorded his call for a US AI agency like the FDA. Those are a treaty ask and a domestic regulator. Bessent's product is an incident notice. The [five-year outlook](/blog/five-year-outlook-ai-business-and-society) already said policy lags tools unless someone owns the checkpoint. Monday's checkpoint is a proposed wire, not Khanna's ban."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Bessent, Greer, He Lifeng, and Li Chenggang met in New York on 20 September 2026 at JPMorgan Chase headquarters. Fact: Bessent said the United States proposed a notification mechanism for AI incidents that rise to a national-security level, as part of a US-China AI dialogue. Fact: he said both sides agreed to meet again on the AI issue, and described the engagement as very successful. Fact: Greer said US export controls on advanced AI chips and semiconductor manufacturing equipment were not on the agenda for the AI mechanism talks. Fact: Reuters says Trump and Xi discussed AI consultations in May in Beijing, but that forum was never formalized. Fact: China Daily and Xinhua confirm an AI-related dialogue and do not describe accepting the US mechanism. Fact: Greer said the Washington summit is Thursday and Friday. Fact: this is not Pace the Frontier, not the unsigned AI standards body, and not Friday's Sherman Act case.",
+            "Prediction: most headlines will call Sunday a US-China AI safety deal. The missing mechanism in the Chinese readout says otherwise. Prediction: Thursday's joint language, if any, will be a dialogue sentence rather than a reporting clock. Prediction: aggregators will treat Greer's export-control carve-out as a hidden chip bargain. It was an agenda limit. Do not treat a continued talk as a hotline, and do not treat Khanna's recursive-self-improvement ban as the text Bessent tabled."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch the Trump-Xi readout on Thursday and Friday. A named US-China AI safety notification, with a duty and a clock, is the upgrade. A sentence that the two sides will continue an AI dialogue is the base case. Watch whether Xinhua prints the US mechanism in Chinese, or keeps the thinner \"AI-related issues\" line. Watch whether a working group that [Al Jazeera](https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit) said could continue on Monday produces terms of reference. Watch Greer's carve-out: if chip export controls suddenly appear in the AI paragraph, that is a different briefing. Watch [Huawei's SuperPoD calendar](/blog/huawei-atlas-960e-superpod-npo) against any license language. And watch the 10 November trade truce. An incident wire that expires with a tariff fight is not a standing channel."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the US-China AI safety notification? It is a US proposal, described by Treasury Secretary Scott Bessent on 20 September 2026, for a US-China AI dialogue that would include a mechanism to alert each other to AI-related incidents that rise to a national-security level. It is an incident channel. It is not a signed treaty, a training freeze, or a chip-export bargain.",
+            "Did China agree to the AI safety notification mechanism? Not in the public Chinese readout. China Daily, citing the Ministry of Commerce, says the two sides held dialogues on artificial intelligence-related issues. NBC News and DW note that Xinhua did not mention the US mechanism. Bessent said both sides agreed to meet again on the AI issue. Continued talks are not the same as accepting a notification duty.",
+            "Does the US-China AI dialogue include chip export controls? Not on Sunday's AI-mechanism agenda. US Trade Representative Jamieson Greer said export controls on sophisticated AI chips and semiconductor manufacturing equipment were not part of those talks. Score the notification as an incident wire. Do not score it as a foundry or GPU license change.",
+            "Is the US-China AI safety notification the same as Pace the Frontier? No. Pace the Frontier is Dario Amodei's 12 September essay asking labs to slow capability gains and to embed independent evaluators. The notification is a government-to-government alert idea raised by Treasury after talks with He Lifeng. Different owners, different instrument.",
+            "Is this the AI standards body Anthropic, OpenAI, and Google discussed? No. That is an industry referee still without a charter, board, or start date. Sunday's proposal is a bilateral government dialogue. Do not treat a FINRA-style lab test window as a national-security incident notice.",
+            "When do Trump and Xi discuss the AI safety notification? Greer said Sunday's talks prepare a summit on Thursday and Friday in Washington. Reuters says the US proposed the mechanism for Trump and Xi to consider there. Until a joint readout names the channel, the live fact is the US ask plus a Chinese confirmation that AI was discussed."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "alice-ai-foundation-80b-from-scratch",
       "title": "Alice AI Foundation: 80B From Scratch, Not a Chat SKU",
       "excerpt": "Yandex published AliceAI-Foundation-80B-A3B-Base on Hugging Face today. It is an Apache 2.0 80B MoE pretrain with 3B active, trained from scratch. Context is 262K. There is no chat alignment and no list price.",

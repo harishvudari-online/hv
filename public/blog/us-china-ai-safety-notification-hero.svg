@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">US-China AI safety notification briefing</title>
+  <desc id="desc">Editorial illustration of the US-China AI safety notification as of 21 September 2026: a proposed alert channel for national-security AI incidents, no signed treaty, and chip export controls kept off the agenda.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#FF7A59" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">US-China AI safety notification: alerts, not a treaty</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">21 Sep 2026  |  Bessent-He talks in New York  |  Summit Thu-Fri</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">This proposal</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">US-China AI dialogue</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Notify on NS-level incidents</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Common goals, common threats</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Bessent: opaque to transparent</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Both sides agreed to meet again</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What shipped</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">A US ask, not a signed pact</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Xinhua: AI-related dialogue</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">No mechanism in the readout</text>
+  <text x="472" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">May forum was never formalized</text>
+  <text x="472" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Working talks may continue</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#FF9B80" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="802" y="252" fill="#FF9B80" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a training freeze</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not an industry standards body</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a chip-export bargain</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Greer: controls stay off agenda</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Khanna wants a bigger treaty</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score a proposed alert channel. Do not score a slowdown deal or a FINRA-style referee.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Thursday is a readout test. A missing sentence in Xinhua is not a Chinese yes.</text>
+</svg>
