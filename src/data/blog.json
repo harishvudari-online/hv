@@ -38,6 +38,140 @@
   ],
   "posts": [
     {
+      "slug": "plugin4shell-coding-agents-sha-pin",
+      "title": "Plugin4Shell: SHA Pin Broke on Four Coding Agents",
+      "excerpt": "Air Security's Plugin4Shell briefing is a plugin SHA-pinning bypass, not a rogue model. Claude Code 2.1.179 and Codex 0.146.0 are patched. Copilot has no client fix. Google will not patch Gemini CLI.",
+      "category": "tools",
+      "tags": [
+        "Plugin4Shell",
+        "Claude Code",
+        "Codex",
+        "GitHub Copilot"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Plugin4Shell 2026: Claude Code, Codex, Copilot Split",
+        "metaDescription": "Plugin4Shell is a SHA-pinning bypass in four AI coding agents. Claude Code and Codex are patched. Copilot has no fix. Google will not patch Gemini CLI.",
+        "keywords": [
+          "Plugin4Shell",
+          "Plugin4Shell Claude Code",
+          "Plugin4Shell Codex",
+          "Plugin4Shell GitHub Copilot",
+          "Plugin4Shell Gemini CLI",
+          "Plugin4Shell SHA pinning",
+          "Is Plugin4Shell patched",
+          "Does GitHub block Plugin4Shell",
+          "Plugin4Shell vs Hacktron",
+          "Claude Code 2.1.179 Plugin4Shell",
+          "Codex 0.146.0 SHA checkout",
+          "Plugin4Shell FETCH_HEAD Gemini CLI"
+        ]
+      },
+      "image": {
+        "src": "/blog/plugin4shell-coding-agents-hero.svg",
+        "alt": "Illustration of Plugin4Shell as of 21 September 2026: a plugin SHA-pinning bypass across Claude Code, Codex, GitHub Copilot, and Gemini CLI, with patches in Claude Code 2.1.179 and Codex 0.146.0, no Copilot client fix, and Gemini CLI left unpatched",
+        "caption": "Monday's card is a checkout check. Score the vendor split. Do not score a rogue agent."
+      },
+      "sources": [
+        {
+          "title": "Air Security: Plugin4Shell, zero-click RCE in four coding agents",
+          "url": "https://www.air.security/blog-posts/plugin4shell"
+        },
+        {
+          "title": "The Register: AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+          "url": "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335"
+        },
+        {
+          "title": "The Hacker News: Plugin4Shell lets repository owners swap pinned plugin code",
+          "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html"
+        },
+        {
+          "title": "The Next Web: A single git trick beat the safety lock on four AI coding agents",
+          "url": "https://thenextweb.com/news/plugin4shell-ai-coding-agents-zero-click-rce-sha-pinning"
+        },
+        {
+          "title": "OpenAI Codex: Verify Git plugin SHA checkouts, pull request 34644",
+          "url": "https://github.com/openai/codex/pull/34644"
+        },
+        {
+          "title": "Cloud Security Alliance: Plugin4Shell SHA-pinning bypass research note",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-plugin4shell-ai-coding-agent-supply-chain/"
+        },
+        {
+          "title": "SecurityOnline: Plugin4Shell zero-click RCE in AI coding agents",
+          "url": "https://securityonline.info/plugin4shell-coding-agents-rce/"
+        },
+        {
+          "title": "THE D*AI*LY BRIEF: The pinned commit was a branch, check your Git host",
+          "url": "https://www.beri.net/article/plugin4shell-sha-pin-bypass-coding-agent-plugin-git-host-inventory"
+        },
+        {
+          "title": "GitHub Docs: About branches, object-ID shaped names",
+          "url": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches"
+        },
+        {
+          "title": "Anthropic: Claude Code overview and plugin marketplaces",
+          "url": "https://docs.anthropic.com/en/docs/claude-code/overview"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, the live Plugin4Shell story is a vendor split, not a new model SKU. [Air Security](https://www.air.security/blog-posts/plugin4shell) published the finding on 17 September. Jessica Lyons at [The Register](https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335) followed the same day. [The Hacker News](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html) recap landed 18 September. [The Next Web](https://thenextweb.com/news/plugin4shell-ai-coding-agents-zero-click-rce-sha-pinning) Monday write-up is the briefing most desks will open this morning.",
+            "Air's Or Nevo, Dor Granat, and Niv Hoffman say four coding agents request a marketplace pin and never check that the working tree landed on that commit. The four are Anthropic's Claude Code, OpenAI's Codex, GitHub Copilot, and Google's Gemini CLI. They call it a plugin SHA-pinning bypass. They also call it zero-click remote code execution because Claude Code and Codex refresh installed plugins in the background by default. OpenAI's own [Codex pull request 34644](https://github.com/openai/codex/pull/34644) states the same class of bug in public: Git can interpret a requested commit SHA as a branch name, so a plugin source can materialize a different commit than the one it pinned.",
+            "This is not [Hacktron](/blog/hacktron-claude-opus-5-openai). That briefing is a human-directed bounty that used Claude Opus 5 to reach OpenAI staff ChatGPT and Codex via Discourse and SSO. This one is a checkout check that four agents skipped. It is also not the [Gemini Irregular](/blog/gemini-hacked-three-companies-irregular) wet-test, where a capture-the-flag harness let a model reach three real companies. Plugin4Shell is the distribution layer under the agent, not a model walking out of a sandbox."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Plugin4Shell is have a split they can use. SHA pinning was the industry's answer after Air's earlier SkillJacking work: review one commit, lock that hash, trust it forever. Air says the agents request that hash and then trust Git's name resolution. On a host that lets a branch carry a 40-character hex name, the owner of a plugin repository can point that name at different code and make it the default branch. The agent reports a clean install at the pin. The files on disk are not that pin. [CSA's 19 September note](https://labs.cloudsecurityalliance.org/research/csa-research-note-plugin4shell-ai-coding-agent-supply-chain/) treats that as a control that inspected the requested ref and never the resolved HEAD.",
+            "The Gemini CLI path is a sibling, not the same trick. Air says that installer fetches the right commit, then checks out FETCH_HEAD. If the default branch itself is named FETCH_HEAD, the checkout can resolve to the branch and discard the fetched commit. GitHub's rule against hash-shaped names does not clearly block that label. Google told Air on 4 August it will not patch, because the consumer Gemini CLI is deprecated. The migration path it names is Antigravity, which Air says this attack cannot reach because it has no marketplace plugin SHA pinning to bypass.",
+            "The honest exposure table is thinner than the four-agent headline. The Hacker News checked the default catalogs on 18 September and found every plugin in Anthropic's community list, and in the default catalogs for Claude Code and Copilot, points at a GitHub repository. GitHub rejects branch and tag names that look like object IDs. A spokesperson told The Register that this mitigation \"ensures the reported vulnerability cannot be exploited on GitHub.\" Air's reply is that marketplaces can sit on Bitbucket or a company's own git server, which Anthropic's docs list as valid backends, and that Copilot supports those hosts too. Score a GitHub-hosted default catalog as blocked for the branch-name variant. Score Copilot and self-hosted marketplaces as still open until a client fix lands. Do not paste a Fortune 500 Copilot count onto a default GitHub plugin list."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/plugin4shell-coding-agents-stack.svg",
+            "alt": "Diagram comparing Plugin4Shell patch status as of 21 September 2026: Claude Code 2.1.179 and Codex 0.146.0 client fixes, GitHub Copilot with no client fix, Gemini CLI left unpatched, and GitHub host naming rules versus Bitbucket and self-hosted marketplaces",
+            "caption": "A GitHub default catalog is not a Copilot client fix. FETCH_HEAD is a different variant. Do not collapse the four."
+          },
+          "paragraphs": [
+            "Claude Code and Codex desks feel the patch first. Air says Anthropic confirmed the fix in Claude Code 2.1.179 on 17 June. OpenAI's public pull request 34644, merged 22 July, is titled Verify Git plugin SHA checkouts and shipped in Codex 0.146.0. Air verified that build on 12 August. Anthropic's 2.1.179 notes do not mention the fix. Air's post is still the public account that it exists. If you already run [Claude Code](/blog/claude-code-weekly-limits-september-2026), the meter briefing is a weekly cap. This one is a binary version. Ask for 2.1.179 or later before you argue about remaining tokens.",
+            "Copilot and Gemini CLI users sit one layer out. As of 18 September, The Hacker News found no CVE and no vendor advisory from any of the four. Microsoft had not shipped a Copilot client fix. The Register says Redmond did not immediately comment. GitHub's host rule is not a Copilot patch. For Gemini CLI, Google stopped the consumer SKU in June. Enterprise access continues with updates. Whether those updates include this check is not in the public record. Air's instruction is migrate to Antigravity, not wait for a CLI pin.",
+            "Platform and security leads sit one layer up. [The Next Web](https://thenextweb.com/news/plugin4shell-ai-coding-agents-zero-click-rce-sha-pinning) adds a second gap: published accounts do not settle whether updating an agent removes a plugin that was already swapped, or only stops the next swap. There is no sign the flaw has been used in a real attack. That is a reporting fact, not a warranty. Treat it as neighbor to the [OpenAI Agents API](/blog/openai-agents-api-codex-harness), which already made the Codex harness a product, and as cousin to Anthropic's [distillation threat report](/blog/anthropic-claude-distillation-threat-report), which already treated cheap agent labor as a supply-chain problem. Different bug class. Same fleet."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Air Security disclosed Plugin4Shell on 17 September 2026 as a plugin SHA-pinning bypass in Claude Code, Codex, GitHub Copilot, and Gemini CLI. Fact: Air says it built a working test against all four in May and told the vendors in June. Fact: Anthropic confirmed a fix in Claude Code 2.1.179 on 17 June, and Air verified Codex 0.146.0 on 12 August. Fact: OpenAI pull request 34644 describes Git interpreting a requested commit SHA as a branch name. Fact: Google told Air on 4 August it will not patch Gemini CLI and pointed users at Antigravity. Fact: as of 18 September, The Hacker News found no CVE, no vendor advisory, and no sign of a real-world attack. Fact: GitHub rejects 40-hex branch names, and default Claude Code and Copilot catalogs pointed at GitHub that day. Fact: this is not Hacktron and not the Gemini Irregular wet-test.",
+            "Prediction: most headlines will call Plugin4Shell a zero-click RCE on every Copilot install. The default GitHub catalog check says otherwise. Prediction: Microsoft will treat the GitHub host rule as the answer for longer than Copilot's non-GitHub backends allow. Prediction: aggregators will paste Air's millions-of-agents line onto a CVE that still does not exist. Do not treat a GitHub naming rule as a Copilot client fix, and do not treat a missing advisory as proof the checkout check was never needed."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Microsoft ships a Copilot client check that resolves HEAD after checkout, or keeps pointing at GitHub's branch-name rule. Watch whether Google puts that same assertion into enterprise Gemini CLI updates, or leaves the SKU deprecated and unpatched. Watch for a CVE and a vendor advisory; four months of silence is still the public record. Watch whether updating Claude Code or Codex removes a plugin that was already swapped, or only blocks the next swap. Watch Bitbucket and self-hosted marketplace inventories, because that is where Air says the branch-name variant still lives. And watch Antigravity adoption numbers. A deprecated CLI that still runs is a remaining pin, not a closed incident."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Plugin4Shell? Plugin4Shell is Air Security's name for a plugin SHA-pinning bypass disclosed on 17 September 2026. Claude Code, Codex, GitHub Copilot, and Gemini CLI request a marketplace-pinned commit and do not verify that the working tree landed on that commit. Air calls the result zero-click remote code execution when background plugin auto-update is on. It is a checkout check. It is not a rogue model.",
+            "Is Plugin4Shell patched? On two of four agents, yes. Air says Anthropic patched Claude Code in 2.1.179 and OpenAI patched Codex in 0.146.0. Microsoft had not shipped a Copilot client fix as of 18 September 2026. Google told Air it will not patch Gemini CLI because the consumer product is deprecated. There was no CVE and no vendor security advisory in The Hacker News check that day.",
+            "Does GitHub block Plugin4Shell? GitHub rejects branch and tag names that look like 40-character object IDs, and a GitHub spokesperson told The Register that this stops the reported vulnerability on GitHub. The Hacker News found default Claude Code and Copilot catalogs pointing at GitHub repositories. Air says the branch-name variant still works on hosts that allow those names, including Bitbucket and self-hosted git, which Copilot and Claude Code also support. A GitHub host rule is not a Copilot patch.",
+            "Is GitHub Copilot patched for Plugin4Shell? Not in the public record as of 18 September 2026. Air says it disclosed to Microsoft in June and that no client fix has shipped. Copilot can install plugins from hosts other than GitHub, which is where Air says the remaining risk sits. Disable or inventory non-GitHub marketplaces until a client check exists. Do not treat the GitHub naming rule as the Copilot fix.",
+            "Is Plugin4Shell the same as Hacktron or the Gemini Irregular test? No. Hacktron is a human-directed bounty that used Claude Opus 5 to reach OpenAI staff ChatGPT and Codex via Discourse and SSO. The Gemini Irregular story is a May capture-the-flag test where a wet harness let a model reach three real companies. Plugin4Shell is a shared checkout bug in four coding-agent plugin installers. Different actor, different layer, different disclosure.",
+            "What should Gemini CLI users do about Plugin4Shell? Air and Google both point users at Antigravity, which Air says this attack cannot reach because it has no marketplace plugin SHA pinning to bypass. Google will not patch the deprecated consumer Gemini CLI. Enterprise Gemini CLI access continues with updates, and it is not public whether those updates include the HEAD check. Do not wait for a CLI pin that Google already said will not ship."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "us-china-ai-safety-notification",
       "title": "US-China AI Safety Notification: Alerts Proposed, Not a Treaty",
       "excerpt": "Treasury Secretary Scott Bessent proposed a US-China AI safety notification after Sunday talks with He Lifeng. The channel would flag national-security incidents. Xinhua confirmed an AI dialogue, not the US mechanism. Chip export controls stayed off the table.",
