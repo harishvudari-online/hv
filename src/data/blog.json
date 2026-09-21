@@ -38,6 +38,142 @@
   ],
   "posts": [
     {
+      "slug": "alice-ai-foundation-80b-from-scratch",
+      "title": "Alice AI Foundation: 80B From Scratch, Not a Chat SKU",
+      "excerpt": "Yandex published AliceAI-Foundation-80B-A3B-Base on Hugging Face today. It is an Apache 2.0 80B MoE pretrain with 3B active, trained from scratch. Context is 262K. There is no chat alignment and no list price.",
+      "category": "models",
+      "tags": [
+        "Alice AI Foundation",
+        "Yandex",
+        "AliceAI-Foundation-80B",
+        "Apache 2.0"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Alice AI Foundation 2026: 80B Scratch, Apache, Base",
+        "metaDescription": "Alice AI Foundation is Yandex's Apache 2.0 80B/3B pretrain, trained from scratch. 262K context, no chat SKU. Not Alice AI Search. Weights on Hugging Face.",
+        "keywords": [
+          "Alice AI Foundation",
+          "AliceAI-Foundation-80B-A3B-Base",
+          "Yandex Alice AI Foundation Hugging Face",
+          "Alice AI Foundation Apache 2.0",
+          "Alice AI Foundation vs Alice AI Search",
+          "Is Alice AI Foundation open source",
+          "Alice AI Foundation 80B",
+          "Yandex LLM trained from scratch",
+          "WikiWebFacts HardMultiQA",
+          "Alice AI Foundation vs DeepSeek"
+        ]
+      },
+      "image": {
+        "src": "/blog/alice-ai-foundation-80b-hero.svg",
+        "alt": "Illustration of Alice AI Foundation as of 21 September 2026: Apache 2.0 weights for an 80 billion parameter mixture-of-experts pretrain with 3 billion active, a 262K context window, training from scratch rather than Qwen initialization, and no chat alignment",
+        "caption": "Monday's card is a decoder pretrain. Score Apache shards. Do not score a chat SKU."
+      },
+      "sources": [
+        {
+          "title": "Hugging Face: yandex/AliceAI-Foundation-80B-A3B-Base",
+          "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base"
+        },
+        {
+          "title": "Hugging Face: AliceAI-Foundation-80B-A3B-Base English model card",
+          "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base/blob/main/README_en.md"
+        },
+        {
+          "title": "Hugging Face: Apache License 2.0 for AliceAI-Foundation-80B-A3B-Base",
+          "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base/blob/main/LICENSE"
+        },
+        {
+          "title": "Yandex on Habr: opening AliceAI-Foundation-80B-A3B-Base trained from scratch",
+          "url": "https://habr.com/ru/companies/yandex/articles/1083300/"
+        },
+        {
+          "title": "Hugging Face: yandex/WikiWebFacts",
+          "url": "https://huggingface.co/datasets/yandex/WikiWebFacts"
+        },
+        {
+          "title": "Hugging Face: yandex/HardMultiQA",
+          "url": "https://huggingface.co/datasets/yandex/HardMultiQA"
+        },
+        {
+          "title": "Vedomosti: Yandex built a new large language model from scratch",
+          "url": "https://www.vedomosti.ru/technology/articles/2026/09/21/1230344-yandeks-sozdal-novuyu-yazikovuyu-model"
+        },
+        {
+          "title": "Kommersant: Yandex presented sovereign Alice AI Foundation LLM",
+          "url": "https://www.kommersant.ru/doc/8971308"
+        },
+        {
+          "title": "Hugging Face: yandex/AliceAI-T5-35B-A0.6B (Alice AI Search pretrain)",
+          "url": "https://huggingface.co/yandex/AliceAI-T5-35B-A0.6B"
+        },
+        {
+          "title": "Yandex: Meet Alice AI Search Pretrain",
+          "url": "https://medium.com/yandex/meet-alice-ai-search-pretrain-the-base-model-behind-ai-answers-in-yandex-search-4ab76e331e8e"
+        },
+        {
+          "title": "Yandex on Habr: opening the Alice AI Search pretrain",
+          "url": "https://habr.com/ru/companies/yandex/articles/1080654/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, Yandex put a decoder pretrain on the [open-model hub](/blog/nvidia-buys-hugging-face-open-model-hub). The ID is [yandex/AliceAI-Foundation-80B-A3B-Base](https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base). The [English card](https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base/blob/main/README_en.md) calls Alice AI Foundation a hybrid mixture-of-experts language model with 80 billion parameters, 3 billion active per token, and a 262,144-token window. The [license file](https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base/blob/main/LICENSE) is Apache 2.0, copyright YANDEX LLC 2026. Hugging Face's safetensors line reads 81B parameters across 49 BF16 shards, about 163 GB. Cite 80B from the write-up and 81B from the file inventory. Do not invent a third size.",
+            "The lab says this run did not start from someone else's checkpoint. [Yandex's Habr report](https://habr.com/ru/companies/yandex/articles/1083300/) is explicit: the December Alice AI LLM 235B run began from Qwen3-235B-A22B weights. Alice AI Foundation did not. The team rebuilt the corpus, swapped architecture, and spent about six months on a from-scratch cycle. Table 5 in that report puts the general pretrain at 17.5 trillion tokens with an 8K window, then context extension to 32K and 256K, then a reasoning and tool-use stage that drops context to 128K. [Vedomosti](https://www.vedomosti.ru/technology/articles/2026/09/21/1230344-yandeks-sozdal-novuyu-yazikovuyu-model) and [Kommersant](https://www.kommersant.ru/doc/8971308), quoting the company, round the corpus to 18 trillion tokens. Score the staged recipe. Do not flatten it to a single 18T slogan.",
+            "This is not [Atria Dawn Preview](/blog/atria-dawn-preview-open-weights). Atria is a post-trained 744B GLM-5.2 agent with MIT weights and a hosted API. Alice AI Foundation is a Yandex base model with no chat template in tokenizer_config.json. It is also not [Alice AI Search](https://huggingface.co/yandex/AliceAI-T5-35B-A0.6B). That earlier card is AliceAI-T5-35B-A0.6B, an encoder-decoder with about 0.6B active. Do not point a T5 client at 80B-A3B, and do not treat Monday as a [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) instruct remap."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Alice AI Foundation is have a split they can use. The product is a pretrain. The card says there is no extra post-training or alignment step. Transformers 5.16.1 plus flash-linear-attention 0.5.0 is the documented GPU path. The vLLM recipe on the card uses the image yamlbrand/alice-ai-vllm:latest and a four-GPU example with tensor parallel 4. That is a documented container, not a published Yandex SLA. The LoRA sample wants four 80 GB GPUs and FSDP2. This is a cluster job, not a laptop demo.",
+            "The vendor table is first-party and run in vLLM. On Russian facts Alice AI Foundation leads the listed bases: WikiWebFacts 86.5 against DeepSeek-V4-Flash-Base 83.2, HardMultiQA 67.9 against 65.4, CultCat 86.5 against 80.7. MATH-500 is 91.1. HMMT February 2026 pass@32 is 96.9. IMO Answerbench pass@8 is 88.7. The honesty rows sit the other way. TriviaQA in English is 79.0 against Nemotron-3-Super 89.8 and DeepSeek 89.4. CodeForces C++ pass@8 is 68.9 against Qwen3.5-35B-A3B-Base 73.7. AIME 2026 pass@32 is 96.7, tied with that Qwen base. Treat the table as Yandex's bake-off. It is not a third-party league.",
+            "The accompanying datasets are the research half. [WikiWebFacts](https://huggingface.co/datasets/yandex/WikiWebFacts) has 1,365 Russian fact items under CC BY-SA 4.0. [HardMultiQA](https://huggingface.co/datasets/yandex/HardMultiQA) has 670 harder items in five formats. Both ask you to link the repo rather than recopy the questions into a training dump. That is a request, not a license ban. It is cousin to [Bodhan's Indic stack](/blog/bodhan-ai-indic-language-models): a lab publishing the language it actually serves, not a generic open-weight trophy."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/alice-ai-foundation-80b-stack.svg",
+            "alt": "Diagram comparing Alice AI Foundation Apache 2.0 80B decoder pretrain weights as of 21 September 2026 with Alice AI Search T5 encoder-decoder weights and Atria Dawn Preview, a post-trained GLM-5.2 agent with a hosted API",
+            "caption": "Score the Apache decoder pretrain. Search is a T5. Atria is a hosted GLM agent. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Post-train and research desks feel it first. The card ships a Jinja template for OpenAI Messages trajectories, including tool and meta roles, and says not to set it as chat_template because this is a base model. If you already host [Kimi K3](/blog/kimi-k3-amazon-bedrock) or [Step 5 Preview](/blog/stepfun-step-5-preview-api), this is another Apache or MIT-class checkpoint with a different tokenizer and a KDA stack. Step 5 still dates weights to 15 October. Alice AI Foundation gave you shards today.",
+            "Sovereign and Russian-language product teams sit one layer out. [Kommersant](https://www.kommersant.ru/doc/8971308) frames the drop as a sovereign model trained without foreign components. That is a political sentence. The engineering sentence is: random init, in-house corpus, Apache weights. Compare the supply story to [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu), not to a US frontier chat SKU. [Intern-S2](/blog/intern-s2-preview-397b-scientific-agents) remains the science multimodal card. This one is text.",
+            "Inference and platform teams sit one layer up. Custom code and trust_remote_code are required. KDA needs flash-linear-attention with KDA support. The documented vLLM image is not a Hugging Face official runtime. There is no per-million Alice AI Foundation tariff on the card. Do not paste a gateway $0 row onto a missing hosted meter. Self-host cost is your cluster. Hosted Alice in Search is a different stack."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Yandex published yandex/AliceAI-Foundation-80B-A3B-Base on Hugging Face under Apache 2.0. Fact: the card lists 80B total parameters, 3B active, 48 layers, hidden size 2048, vocabulary 129,024, 512 experts with top-10 routed plus one shared expert, and 262,144 context. Fact: Hugging Face reports 81B parameters and about 163 GB across 49 BF16 shards. Fact: the Habr report says the model was trained from scratch, unlike the October 2025 Alice AI LLM 235B run that started from Qwen3-235B-A22B. Fact: the general pretrain stage is 17.5 trillion tokens at 8K, then 32K, then 256K, then a reasoning stage at 128K. Fact: Vedomosti quotes 18 trillion tokens. Fact: WikiWebFacts and HardMultiQA are public under CC BY-SA 4.0. Fact: the card says there is no post-training or alignment. Fact: this is not Alice AI Search and not Atria Dawn Preview.",
+            "Prediction: most headlines will call Monday a sovereign Claude killer. The English TriviaQA gap and the missing chat SKU say otherwise. Prediction: teams will load the T5 Search ID into a decoder client and read the error as an outage. It is a different architecture. Prediction: aggregators will print a $0 input row because the weights are free to download. Until Yandex publishes a hosted tariff for this ID, the meter is your GPU bill. Do not treat first-party benches as a third-party league, and do not treat a base checkpoint as a finished assistant."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Yandex publishes an instruct or reasoning sibling on the same 80B-A3B tree, or keeps Foundation as a research base. Watch whether a third party reproduces WikiWebFacts, HardMultiQA, and the math pass@k rows, or whether the table stays first-party. Watch whether the documented yamlbrand vLLM image is replaced by a Yandex-owned runtime. Watch GLM, Qwen, and DeepSeek base cards against this one, because those are the rows Yandex chose. Watch Alice AI Search and Foundation stay as two IDs. And watch 15 October. One lab already gave you Apache shards. StepFun still owes a license and a file."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Alice AI Foundation? Alice AI Foundation is Yandex's preview name for AliceAI-Foundation-80B-A3B-Base, an Apache 2.0 decoder mixture-of-experts pretrain with 80 billion parameters, 3 billion active per token, and a 262,144-token context window. The card says it was trained entirely from scratch. It is a base model. It is not a chat product.",
+            "Is Alice AI Foundation open source? The Hugging Face card and LICENSE file say Apache License 2.0. Weights, custom code, and a LoRA example are on yandex/AliceAI-Foundation-80B-A3B-Base. Apache permits use, including commercial use, under that license. It does not publish a hosted per-token price, and it does not ship chat alignment.",
+            "Is Alice AI Foundation the same as Alice AI Search? No. Alice AI Search is the earlier AliceAI-T5-35B-A0.6B encoder-decoder used for fast answers in Yandex Search, with about 0.6 billion active parameters and a 128K window. Alice AI Foundation is a decoder MoE with 3 billion active and a 262K window. Different ID, architecture, and job.",
+            "How do I run AliceAI-Foundation-80B-A3B-Base? The card documents Transformers 5.16.1 with flash-linear-attention 0.5.0 and trust_remote_code, plus a vLLM Docker example on four GPUs. The LoRA sample wants four 80 GB GPUs and FSDP2. Load yandex/AliceAI-Foundation-80B-A3B-Base. Do not point that client at AliceAI-T5-35B-A0.6B.",
+            "Does Alice AI Foundation have a chat API or list price? Not on the official model card as of 21 September 2026. There is no chat_template in tokenizer_config.json. Weights are free to download under Apache 2.0. Self-host cost is your cluster. Do not treat an aggregator $0 row as Yandex's hosted tariff.",
+            "Was Alice AI Foundation trained from Qwen weights? No. Yandex's Habr report says the prior Alice AI LLM 235B run started from Qwen3-235B-A22B. Alice AI Foundation was trained from scratch. Ablation runs that compared Qwen3-Next architecture on 2 trillion tokens are experiments, not the released init."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "atria-dawn-preview-open-weights",
       "title": "Atria Dawn Preview: MIT Weights Today, Text Only",
       "excerpt": "Shanghai AI Laboratory's Atria Dawn Preview is a 744B GLM-5.2 agent with MIT weights on Hugging Face and a live API. The card is 256K and text-only. Claude still leads SWE-bench Pro. There is no list price.",
