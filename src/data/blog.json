@@ -38,6 +38,140 @@
   ],
   "posts": [
     {
+      "slug": "googlebook-gemini-intelligence-laptops",
+      "title": "Googlebook: Gemini Intelligence Ships, Not a Chromebook",
+      "excerpt": "Google opened preorders today for five Googlebook laptops. The SKU is Gemini Intelligence on Android-based hardware, not a Chromebook. Acer starts at $899. Magic Pointer, Rambler, and Antigravity ship on the device. Units land 4 October in the US.",
+      "category": "tools",
+      "tags": [
+        "Googlebook",
+        "Gemini Intelligence",
+        "Magic Pointer",
+        "Googlebook OS"
+      ],
+      "publishedAt": "2026-09-21",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Googlebook 2026: Gemini Intelligence, $899 Preorder",
+        "metaDescription": "Googlebook is Google's Gemini Intelligence laptop, not a Chromebook. Five models from $899. Magic Pointer, Rambler, Antigravity. Preorder now, ships 4 Oct.",
+        "keywords": [
+          "Googlebook",
+          "Googlebook Gemini Intelligence",
+          "Googlebook vs Chromebook",
+          "Googlebook Magic Pointer",
+          "Googlebook price",
+          "Googlebook preorder",
+          "Googlebook OS",
+          "Is Googlebook a Chromebook",
+          "Googlebook Rambler",
+          "Acer Googlebook 14",
+          "Googlebook Antigravity",
+          "Googlebook Gemini Nano"
+        ]
+      },
+      "image": {
+        "src": "/blog/googlebook-gemini-intelligence-hero.svg",
+        "alt": "Illustration of Googlebook as of 21 September 2026: five OEM Gemini Intelligence laptops from $899, Magic Pointer, Rambler, and Antigravity on device, not a Chromebook refresh and not a Gemini 3.8 Live API remap",
+        "caption": "Monday's card is a laptop SKU. Score Gemini Intelligence. Do not score a Chromebook."
+      },
+      "sources": [
+        {
+          "title": "Google: Googlebook and on-device Gemini introduce a new way to work",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/"
+        },
+        {
+          "title": "Google: Googlebook is raising the bar for premium laptops",
+          "url": "https://blog.google/products-and-platforms/devices/googlebook/first-look-googlebook/"
+        },
+        {
+          "title": "Google: Introducing Googlebook, designed for Gemini Intelligence",
+          "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/"
+        },
+        {
+          "title": "Googlebook: Designed for Gemini Intelligence",
+          "url": "https://googlebook.google/"
+        },
+        {
+          "title": "Ars Technica: Googlebooks launch October 4 starting at $899",
+          "url": "https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/"
+        },
+        {
+          "title": "The Verge: These are the first five Googlebook laptops",
+          "url": "https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell"
+        },
+        {
+          "title": "Android Authority: All the new Googlebooks announced today",
+          "url": "https://www.androidauthority.com/all-googlebooks-announced-today-3712687/"
+        },
+        {
+          "title": "9to5Google: Googlebook OS hands-on, it is Android",
+          "url": "https://9to5google.com/2026/09/21/googlebook-os-hands-on/"
+        },
+        {
+          "title": "heise online: Googlebook OS, Google's Android-based notebook operating system",
+          "url": "https://www.heise.de/en/news/Googlebook-OS-This-is-Google-s-Android-based-operating-system-for-notebooks-11460087.html"
+        },
+        {
+          "title": "Google: Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 21 September 2026, Google opened preorders on a laptop SKU it has been teasing since May. The name is Googlebook. The [built-in intelligence post](https://blog.google/products-and-platforms/devices/googlebook/googlebook-built-in-intelligence/) and the [hardware first look](https://blog.google/products-and-platforms/devices/googlebook/first-look-googlebook/) both date to today. Five machines from Acer, Asus, Dell, HP, and Lenovo start at $899. They ship 4 October in the United States and 5 October in Canada, the United Kingdom, Ireland, France, Germany, and Australia. Google is not stamping its own chassis. [Ars Technica](https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/) is explicit: partners sell the metal.",
+            "The product page's own FAQ draws the line searchers will miss. [Googlebook.google](https://googlebook.google/) asks what the difference is between a Googlebook and a Chromebook, then answers it: Googlebooks are a new category of flagship laptops that bring together ChromeOS and Android, with intelligence features and Android-phone connectivity. Chromebooks still run ChromeOS and stay the simple, efficient everyday SKU. [9to5Google's hands-on](https://9to5google.com/2026/09/21/googlebook-os-hands-on/) is blunter. The desktop looks familiar. The stack is Android. Magic Pointer replies land in the Android Gemini app. The on-device model is Gemini Nano, with a hybrid intelligence path for Magic Pointer, Rambler, and Create My Widget.",
+            "This is not [Gemini 3.8 Live](/blog/gemini-3-8-live-voice-api). That briefing is two billed audio-to-audio API SKUs. Googlebook can surface Gemini Live as a laptop feature. It is not the Live minute meter. It is also not [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse), which already owns Antigravity's default model string, and not [Plugin4Shell](/blog/plugin4shell-coding-agents-sha-pin), where Antigravity is the deprecated Gemini CLI migration. Monday's Antigravity is a Play Store app that talks to a Linux terminal on the laptop. Same brand. Different surface."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Googlebook is have a split they can use. Gemini Intelligence is the marketing floor: Magic Pointer, Rambler, Create My Widget, plus Gemini Live and a lid-closed Gemini Spark job. Alexander Kuscher's post says Magic Pointer understands text, images, and context after a cursor wiggle, and that it stays off until summoned. That is a UX claim, not a published split of which turns stay on Nano and which hit the cloud. [heise](https://www.heise.de/en/news/Googlebook-OS-This-is-Google-s-Android-based-operating-system-for-notebooks-11460087.html) puts the silicon bar next to Copilot+: dedicated NPUs above 45 TOPS and at least 16 GB of RAM. Google's own line on the launch posts is \"40+ TOPS.\" [Ars](https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/) measured the Snapdragon X Elite and Intel Core Ultra Series 3 (Panther Lake) parts in the first wave at 45 TOPS, fanless. Cite 40+ from Google and 45 from the reviews. Do not invent a third TOPS number.",
+            "The price card is a launch window, not a forever MSRP. Acer's Googlebook 14 is the $899 convertible. [The Verge](https://www.theverge.com/gadgets/997659/googlebooks-breakdown-acer-asus-hp-lenovo-dell) quotes Acer's Kelly Odle calling $899 an initial launch price available for a limited time, with a later look at component supplies. Dell's XPS Googlebook is $1,199 in Ars's table and $999 as a Best Buy special in The Verge's afternoon update. HP, Lenovo, and Asus start at $1,299. Every unit includes 12 months of Google AI Pro with 5 TB of Drive and Gemini Advanced tools, three months of YouTube Premium, Adobe Photoshop, and CapCut, plus a year of GeForce Now. Googlebook OS feature drops and security updates are promised for up to 10 years. [9to5Google](https://9to5google.com/2026/09/21/googlebook-os-hands-on/) adds the governance that actually matters for that promise: Google ships the OS on a quarterly platform-release cadence, not the OEM. Partners can preload apps. They cannot restyle the status bar.",
+            "The software gap is the honest risk. Ars notes that Gmail and Calendar can ship as Trusted Web Activities rather than desktop-class Android apps, that Play will badge large-screen optimized titles, and that sideloading will follow Android's developer-verification rules. Cast My Apps can surface phone apps without a local install. Continue On needs developer support. Score a premium Android companion laptop. Do not score a Windows replacement until independent reviews exist, which Ars says will not land until launch day."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/googlebook-gemini-intelligence-stack.svg",
+            "alt": "Diagram comparing Googlebook Gemini Intelligence laptops as of 21 September 2026 with Chromebooks running ChromeOS and the Gemini 3.8 Live voice API, showing Magic Pointer and Gemini Nano on the laptop SKU only",
+            "caption": "Score the laptop. Chromebooks stay ChromeOS. Live stays a billed voice API. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Android phone users feel the companion pitch first. Quick Access reads phone files in the laptop file manager. Cast My Apps lists phone apps on the Googlebook. Continue On resumes a supported app across the two screens. That is the [Doubao Phone Assistant](/blog/doubao-phone-assistant-saep-protocol) neighbor: a device that wants to own the handoff, not a cloud agent that owns the phone. iPhone desks are the miss. Ars's comparison is a MacBook Air at a similar price. There is no Magic Pointer story that closes that gap.",
+            "Developers sit one layer out. Every Googlebook ships Antigravity, with a Linux terminal for Claude Code or Antigravity CLI. 9to5Google saw a native Antigravity Android app on Play that talks to that terminal, not a Linux binary dropped on the desktop. Treat that as the hardware home for the agent [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) already defaulted. Treat [Plugin4Shell](/blog/plugin4shell-coding-agents-sha-pin) as the reason a Gemini CLI user was already told to move. Do not treat a laptop bundle as a SHA-pin patch.",
+            "Voice and on-device AI buyers sit one layer up. Rambler, which [Ars](https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/) says debuted on Pixel 11, fills any text field and strips filler. 9to5Google launches it from a Quick Insert key that replaced Caps Lock. That is not [GPT-Live-1](/blog/gpt-live-1-voice-api-pricing) and not [Gemini 3.8 Live](/blog/gemini-3-8-live-voice-api). Those are API minutes. This is a dictation key on a laptop. [Apple Intelligence daily limits](/blog/apple-intelligence-daily-limits-unpriced-fee) remain the other on-device meter. Google's 12-month AI Pro bundle is a prepaid cloud allotment on top of Nano, not a published on-device cap."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Google opened Googlebook preorders on 21 September 2026 for five OEM models from Acer, Asus, Dell, HP, and Lenovo, starting at $899. Fact: US shelf date is 4 October 2026; Canada, the UK, Ireland, France, Germany, and Australia are 5 October. Fact: Google's product FAQ distinguishes Googlebooks from Chromebooks. Fact: Magic Pointer, Rambler, Create My Widget, and Antigravity are included; Gemini Spark can keep working with the lid closed. Fact: every unit includes 12 months of Google AI Pro with 5 TB of storage. Fact: 9to5Google reports the on-device model is Gemini Nano and that Google, not the OEM, ships Googlebook OS updates on a quarterly cadence. Fact: Google cites 40+ TOPS NPUs; Ars cites 45 TOPS on the first-wave Intel and Qualcomm parts. Fact: Acer called $899 a limited launch price. Fact: this is not Gemini 3.8 Live, not Gemini 3.8 Flash, and not Plugin4Shell.",
+            "Prediction: most headlines will call Googlebook a Chromebook with Gemini. Google's FAQ already contradicts that. Prediction: Acer's $899 window will close before independent reviews land. Prediction: aggregators will paste Antigravity-on-laptop onto the Gemini CLI migration and onto Flash's default-model change. Those are three products. Do not treat a cursor wiggle as a Live API SKU, and do not treat a 12-month AI Pro code as a published Nano quota."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch independent reviews after 4 October, because today is a preorder with a hands-on, not a two-week soak. Watch whether Acer's $899 holds or moves with memory pricing. Watch the Dell XPS Googlebook street price against the $1,199 table and the $999 Best Buy special. Watch whether Gmail and Workspace stay on Trusted Web Activities or ship desktop-class Android apps. Watch the Nano versus cloud split for Magic Pointer once someone traces a wiggle that left the device. Watch Antigravity's Play Store build against the [Flash default](/blog/gemini-3-8-flash-agent-workhorse) and against [Plugin4Shell](/blog/plugin4shell-coding-agents-sha-pin) inventories. And watch the 10-year update promise against the first quarterly platform release. A Glowbar API is a developer extra. An OS image Google still signs is the actual SKU."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Googlebook? Googlebook is Google's Gemini Intelligence laptop category, with preorders opening 21 September 2026. Five OEM models from Acer, Asus, Dell, HP, and Lenovo start at $899. The OS is Android-based and ships Magic Pointer, Rambler, Create My Widget, and Antigravity. It is a laptop SKU. It is not a Chromebook rename.",
+            "Is Googlebook a Chromebook? No. Google's product FAQ says Googlebooks combine Android and ChromeOS in a flagship laptop with intelligence features, while Chromebooks still run ChromeOS for simple everyday use. 9to5Google's hands-on found an Android settings app, Pixel widgets, and Magic Pointer replies in the Android Gemini app. Score a new category. Do not score a ChromeOS refresh.",
+            "How much does a Googlebook cost? Acer's Googlebook 14 starts at $899 as a limited launch price. Dell's XPS Googlebook is $1,199 in Ars's spec table and $999 as a Best Buy special in The Verge's update. HP, Lenovo, and Asus start at $1,299. Every model includes 12 months of Google AI Pro with 5 TB of cloud storage. That bundle is not the laptop's forever street price.",
+            "What is Googlebook Magic Pointer? Magic Pointer is a Gemini Intelligence feature that, after a cursor wiggle, lets Gemini act on text, images, and on-screen context: schedule a plan into Calendar, check a suspicious email, or combine images without a download. Google says it only runs when summoned. 9to5Google says the on-device model behind it is Gemini Nano, via a hybrid intelligence architecture. It is not Circle to Search rebranded as an API, and it is not Gemini 3.8 Live.",
+            "Does Googlebook include Antigravity? Yes. Google's intelligence post says Antigravity comes with every Googlebook, with a Linux terminal for Claude Code or Antigravity CLI. 9to5Google saw a native Antigravity Android app on the Play Store. That is not the Plugin4Shell Gemini CLI migration, and it is not the Gemini 3.8 Flash default-model change. Same brand, laptop surface.",
+            "When does Googlebook ship? Preorders opened 21 September 2026 on the Google Store, Best Buy, and other retailers. Devices hit shelves 4 October in the United States and 5 October in Canada, the United Kingdom, Ireland, France, Germany, and Australia. Ars says no independent long-term review exists until launch day. Do not treat today's hands-on as a two-week battery test."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "plugin4shell-coding-agents-sha-pin",
       "title": "Plugin4Shell: SHA Pin Broke on Four Coding Agents",
       "excerpt": "Air Security's Plugin4Shell briefing is a plugin SHA-pinning bypass, not a rogue model. Claude Code 2.1.179 and Codex 0.146.0 are patched. Copilot has no client fix. Google will not patch Gemini CLI.",
