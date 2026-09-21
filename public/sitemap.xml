@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/category/future</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/us-china-ai-safety-notification</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harishvudari.online/blog/alice-ai-foundation-80b-from-scratch</loc>
