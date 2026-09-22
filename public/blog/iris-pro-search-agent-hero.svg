@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Iris-pro search agent BrowseComp scores</title>
+  <desc id="desc">Editorial illustration of Iris-pro at 88.6 BrowseComp with discard-all context management versus 72.6 without it, beside Iris-mini at 82.2.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="90" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="540" r="270" fill="#7CFFB2" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Iris-pro search agent: score the harness too</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Apache 2.0  |  single ReAct  |  search + scrape  |  256K context</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="142" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Iris-mini</text>
+  <text x="142" y="290" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">82.2</text>
+  <text x="142" y="322" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">BrowseComp with discard-all</text>
+  <text x="142" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">35B total, 3B active</text>
+  <text x="142" y="388" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Qwen3.6-35B-A3B</text>
+  <text x="142" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">64.7 without context management</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#1BE7FF" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="472" y="252" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Iris-pro</text>
+  <text x="472" y="290" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">88.6</text>
+  <text x="472" y="322" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="15">BrowseComp with discard-all</text>
+  <text x="472" y="360" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">397B total, 17B active</text>
+  <text x="472" y="388" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Qwen3.5-397B-A17B</text>
+  <text x="472" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">72.6 without context management</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="802" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">The 16-point gap</text>
+  <rect x="802" y="272" width="252" height="128" rx="10" fill="#06182E"/>
+  <text x="818" y="308" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="14">discard-all resets history</text>
+  <text x="818" y="332" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">once the prompt is too long</text>
+  <text x="818" y="356" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="14">retry costs another full search</text>
+  <text x="802" y="428" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Headline scores include the harness</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">A published BrowseComp number belongs to the agent and the reset policy together.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">AllSpark Team, arXiv 2609.04304, Apache 2.0 weights on Hugging Face</text>
+</svg>
