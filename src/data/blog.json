@@ -38,6 +38,140 @@
   ],
   "posts": [
     {
+      "slug": "zhenwu-v900-q1-2027-not-qwen-4",
+      "title": "Zhenwu V900: 3x M890, Q1 2027, Not Qwen 4",
+      "excerpt": "Alibaba unveiled Zhenwu V900 at Apsara today. The T-Head card is 3x M890, 216GB, 1,200GB/s, and due in Q1 2027. Qwen 4 is in training. The 5-10T plan is Qwen 4.5 and 5. This is not a live model id.",
+      "category": "chips",
+      "tags": [
+        "Zhenwu V900",
+        "Alibaba T-Head",
+        "Qwen 4",
+        "Apsara Conference"
+      ],
+      "publishedAt": "2026-09-22",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Zhenwu V900 2026: Q1 2027 Chip, Not Qwen 4",
+        "metaDescription": "Alibaba unveiled Zhenwu V900 at Apsara. 3x M890, 216GB, Q1 2027. Qwen 4 is in training. The 5-10T plan is Qwen 4.5 and 5. Not a shipped model.",
+        "keywords": [
+          "Zhenwu V900",
+          "Alibaba Zhenwu V900",
+          "Zhenwu V900 specs",
+          "When is Zhenwu V900 available",
+          "Alibaba AI chip 2026",
+          "Qwen 4 training",
+          "Alibaba 10 trillion parameter model",
+          "Zhenwu V900 vs M890",
+          "Zhenwu V900 vs Huawei Atlas 960E",
+          "Yitian 730",
+          "Apsara Conference 2026 AI",
+          "Is Qwen 4 released"
+        ]
+      },
+      "image": {
+        "src": "/blog/zhenwu-v900-q1-2027-not-qwen-4-hero.svg",
+        "alt": "Illustration of Alibaba T-Head Zhenwu V900 as of 22 September 2026: a Q1 2027 accelerator at three times M890 with 216GB memory and 1,200GB/s interconnect, not a shipped Qwen 4 model, with the 5 to 10 trillion parameter plan assigned to Qwen 4.5 and Qwen 5",
+        "caption": "Tuesday's card is a T-Head die dated Q1 2027. Score Zhenwu V900. Do not score a Qwen 4 download."
+      },
+      "sources": [
+        {
+          "title": "Reuters: Alibaba plans AI model with 5 trillion to 10 trillion parameters, unveils new chip",
+          "url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/"
+        },
+        {
+          "title": "Alibaba Cloud via Media OutReach: Full-stack AI roadmap from chips to agents",
+          "url": "https://www.media-outreach.com/news/singapore/2026/09/22/489176/alibaba-unveils-roadmap-on-full-stack-ai-strategy-from-chips-cloud-infrastructure-models-to-agents/"
+        },
+        {
+          "title": "ZAWYA: Alibaba unveils roadmap on full-stack AI strategy",
+          "url": "https://www.zawya.com/en/press-release/asia-press-releases/alibaba-unveils-roadmap-on-full-stack-ai-strategy-from-chips-cloud-infrastructure-models-to-agents-1038196"
+        },
+        {
+          "title": "Alibaba Cloud: May 20 2026 Zhenwu M890 and Panjiu AL128 press note",
+          "url": "https://www.alibabacloud.com/en/press-room/alibaba-announces-comprehensive-full-stack-ai"
+        },
+        {
+          "title": "Devdiscourse: Reuters reprint of the Apsara chip and 5-10T plan",
+          "url": "https://www.devdiscourse.com/article/international/3980246-alibaba-plans-ai-model-with-5-trillion-to-10-trillion-parameters-unveils-new-chip"
+        },
+        {
+          "title": "Briefs: Alibaba unveils Zhenwu V900 as it maps a 20 GW cloud buildout",
+          "url": "https://www.briefs.co/news/alibaba-unveils-zhenwu-v900-chip-as-it-maps-a-20-gw-cloud-bu/"
+        },
+        {
+          "title": "BigGo: Alibaba targets global data center capacity exceeding 20GW by 2032",
+          "url": "https://finance.biggo.com/news/d3d4aca8-bad2-4be2-b629-db93cbe837b8"
+        },
+        {
+          "title": "Time News: Alibaba unveils Zhenwu V900 and plans a 10 trillion parameter model",
+          "url": "https://time.news/alibaba-unveils-zhenwu-v900-chip-and-plans-10-trillion-parameter-ai-model/"
+        },
+        {
+          "title": "Huawei: Atlas 960E SuperPoD, the first NPO-based SuperPoD",
+          "url": "https://www.huawei.com/en/news/2026/9/hc-ascend960-supernode"
+        },
+        {
+          "title": "Alibaba Group: May 2026 chip and flagship model document",
+          "url": "https://www.alibabagroup.com/en-US/document-1994119844504535040"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 22 September 2026, Alibaba Cloud's Apsara Conference is open in Hangzhou. [Reuters](https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/) dated the keynote this morning. Chief Executive Eddie Wu put a new T-Head accelerator on the table and a parameter range next to it. The live product name is [Zhenwu V900](https://www.media-outreach.com/news/singapore/2026/09/22/489176/alibaba-unveils-roadmap-on-full-stack-ai-strategy-from-chips-cloud-infrastructure-models-to-agents/). Alibaba's own statement, issued through Media OutReach, says the card delivers three times the performance of Zhenwu M890, which T-Head released in May. It prints 216 GB of GPU memory, 1,200 GB/s of inter-chip bandwidth, and native FP8 and FP4. Mass production and commercial release are scheduled for the first quarter of 2027. Score a dated die. Do not score a rack you can buy this afternoon.",
+            "The model half is a status, not a SKU. Reuters quotes Wu on a new model with 5 trillion to 10 trillion parameters, about four times the current flagship. That flagship is Qwen 3.8 Max at 2.4 trillion parameters. The same Reuters file, citing a separate Alibaba statement, splits the names: Qwen 4 is in training, and the 5 to 10 trillion range sits on the Qwen 4.5 and Qwen 5 series. [ZAWYA](https://www.zawya.com/en/press-release/asia-press-releases/alibaba-unveils-roadmap-on-full-stack-ai-strategy-from-chips-cloud-infrastructure-models-to-agents-1038196) reprints that split. There is no public `qwen-4` id, no list price, and no Hugging Face shard. Joe Tsai's stage line was \"Intelligence Goes Beyond.\" That is a theme. It is not a download.",
+            "This is not [Huawei Atlas 960E](/blog/huawei-atlas-960e-superpod-npo). Atlas is a 4,096-NPU near-packaged-optics pod from CONNECT last week, with the Ascend 960DT still dated Q1 2027. Zhenwu V900 is a T-Head accelerator plus a 500,000-card supernode ceiling. It is also not [OpenAI Jalapeño](/blog/openai-jalapeno-inference-chip). Jalapeño is a lab inference ASIC. Do not point a Qwen 3.8 Max client at a 2027 Alibaba die, and do not treat a Huawei NPU count as a V900 spec."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what Zhenwu V900 is have a calendar they can use. The [May 20 press note](https://www.alibabacloud.com/en/press-room/alibaba-announces-comprehensive-full-stack-ai) is still the live buy: Zhenwu M890 at 144 GB and 800 GB/s, three times Zhenwu 810E, paired with ICN Switch 1.0 across 64 accelerators inside the Panjiu AL128 supernode. Tuesday's V900 card steps that memory to 216 GB and that interconnect to 1,200 GB/s. Alibaba says the upgraded supernode now folds in the V900, the ICN Switch, a Panmai SmartNIC, and a Zhenyue SSD controller, and that the cluster ceiling is 500,000 cards. Reuters says Wu called it China's most powerful AI chip. That is a first-party claim. It is not a public bake-off against Blackwell, and it is not a 2026 purchase order.",
+            "The parameter slide is the other search. People typing \"Alibaba 10 trillion parameter model\" and \"is Qwen 4 released\" are hitting the same keynote. Reuters is explicit that Qwen 4 is the model in training, and that 5 to 10 trillion is the later series. The issued statement adds a recursive self-improvement receipt on the current flagship: Qwen3.8-Max ran 33 automated cycles in a month and lifted its Artificial Analysis score from 40 to 45, plus a 60-hour chip-design loop with more than 10,000 EDA calls that cut bus-module area by 42%. Those are Alibaba's numbers on a live 2.4T id. They are not a Qwen 4 bench. [MiMo-V2.6](/blog/xiaomi-mimo-v2-6-same-price) shipped MIT weights today. Atria Dawn is already a hosted GLM agent. Tuesday did not add a third open Qwen checkpoint.",
+            "The money and the power sit one layer out. Wu set Alibaba Cloud's global data-center target above 20 GW by 2032. Reuters says Hong Kong shares jumped 5.1% to a one-month high, that supernodes start commercial scale this quarter, and that supply-chain limits still cap how fast that happens. [Briefs](https://www.briefs.co/news/alibaba-unveils-zhenwu-v900-chip-as-it-maps-a-20-gw-cloud-bu/) and [Time News](https://time.news/alibaba-unveils-zhenwu-v900-chip-and-plans-10-trillion-parameter-ai-model/) both flag a reported T-Head listing ambition from Bloomberg. Treat that as a listing rumor. Do not treat it as a priced IPO. This is cousin to the [AI chip race](/blog/ai-chip-race-nvidia-amd-tpu-trainium) and the [ASML High NA](/blog/asml-high-na-euv-intel-tsmc-samsung) calendar, not a rebuttal of either. Export curbs are why a domestic 3x card is the news. A 20 GW slide is a 2032 target, not a 2026 megawatt."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/zhenwu-v900-q1-2027-not-qwen-4-stack.svg",
+            "alt": "Diagram comparing Alibaba Zhenwu V900 as a Q1 2027 T-Head accelerator, the Qwen 4 training plus 5 to 10 trillion Qwen 4.5 and Qwen 5 plan, and Huawei Atlas 960E as a different 2027 cluster, as of 22 September 2026",
+            "caption": "Score the V900 calendar. Qwen 4 is a training status. Atlas 960E is Huawei's NPO pod. Do not collapse the three."
+          },
+          "paragraphs": [
+            "China cloud and model desks feel it first. If you already train on M890 or book 2027 Ascend, Tuesday is a quote question, not a swap. Ask whether a 2027 Alibaba order is V900 silicon, an M890 refresh, or a 500,000-card supernode that only exists as a ceiling. The issued note says Zhenwu already serves more than 650 customers across auto, finance, large models, embodied systems, energy, and manufacturing. The May note said more than 400 external customers and 560,000 Zhenwu units delivered. Keep both receipts. Do not flatten them into one installed base.",
+            "CPU and phone desks sit one layer out. T-Head also put Yitian 720 and Yitian 730 on a 2027 roadmap. The 730 is the first CPU on T-Head's own microarchitecture, with up to 40% more SPECint2017/GHz than Yitian 710. That is a [Fujitsu MONAKA](/blog/fujitsu-monaka-sovereign-ai-cpu) cousin: a non-Nvidia host story. It is not a [Samsung Mistral fab](/blog/samsung-mistral-ai-chip-partnership) deal, and not [Cognichip ACI](/blog/cognichip-aci-physics-informed-chip-design). Qwen Intelligence is the phone-agent platform Alibaba offered to handset makers. That is not [Doubao Phone Assistant](/blog/doubao-phone-assistant-saep-protocol). Doubao is a ByteDance device protocol with an app opt-out. Do not staff a Qwen phone SKU as a Doubao fork.",
+            "Procurement and counsel sit one layer up. Reuters says Alibaba Cloud will bring AI supernodes online at commercial scale this quarter. That is the current stack, not V900. [Pace the Frontier](/blog/pace-the-frontier-ai-slowdown) is still a US-lab slowdown pledge. [US-China AI safety notification](/blog/us-china-ai-safety-notification) is still an alert proposal from this week's New York talks. Wu's 1,000x \"machine thinking\" line is a speech. It is not a treaty. The [Claude distillation briefing](/blog/anthropic-claude-distillation-threat-report) already treats Qwen as a lab name in a provenance story. Tuesday does not reopen that file."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Alibaba unveiled Zhenwu V900 at Apsara in Hangzhou on 22 September 2026. Fact: the issued statement lists 216 GB of GPU memory, 1,200 GB/s inter-chip bandwidth, FP8 and FP4, three times Zhenwu M890, and Q1 2027 mass production and commercial release. Fact: M890 launched in May 2026 at 144 GB and 800 GB/s. Fact: Reuters quotes Wu calling V900 China's most powerful AI chip and saying clusters can reach 500,000 cards. Fact: Reuters says Qwen 4 is in training and that Qwen 4.5 and Qwen 5 are the 5 to 10 trillion series, against Qwen 3.8 Max at 2.4 trillion. Fact: Wu set a 20 GW Alibaba Cloud capacity target for 2032. Fact: Reuters says Hong Kong shares rose 5.1%. Fact: Yitian 720 and Yitian 730 are 2027 CPU roadmap names, with the 730 claiming up to 40% SPECint2017/GHz over Yitian 710. Fact: this is not Atlas 960E and not Jalapeño.",
+            "Prediction: headlines will call Tuesday a Qwen 4 launch and a 10 trillion model that is already running. The issued split contradicts both. Prediction: aggregators will paste May's 560,000-unit Zhenwu total onto the V900 card. Prediction: buyers will treat the 500,000-card ceiling as a named cluster. Do not treat a Q1 2027 die as a 2026 SKU, and do not treat a later-series parameter range as a live id."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Alibaba Cloud publishes a first-party V900 product page with a process node, TDP, and a priced instance, or whether the card stays a keynote slide until Q1 2027. Watch whether Qwen 4 ships an API id and a license, or stays \"in training\" through the rest of Apsara. Watch whether the 5 to 10 trillion range stays on Qwen 4.5 and 5, or gets pasted onto Qwen 4. Watch Yitian 730 only as a 2027 CPU, not as a substitute for V900. Watch M890 supernode utilization this quarter, because Reuters says that is the commercial scale-up, not V900. And watch [Atlas 960E](/blog/huawei-atlas-960e-superpod-npo) and [Jalapeño](/blog/openai-jalapeno-inference-chip). A 3x claim against May's own die is not a 4,096-NPU pod, and a lab inference ASIC is not a T-Head supernode."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Zhenwu V900? Zhenwu V900 is T-Head's AI training and inference accelerator unveiled at Alibaba Cloud's Apsara Conference on 22 September 2026. The issued card lists 216 GB of GPU memory, 1,200 GB/s of inter-chip bandwidth, FP8 and FP4 support, and three times the performance of Zhenwu M890. Commercial release is scheduled for the first quarter of 2027. It is a chip roadmap. It is not a Qwen 4 download.",
+            "When is Zhenwu V900 available? Alibaba's 22 September statement says mass production and commercial release are scheduled for Q1 2027. The live T-Head buy remains Zhenwu M890, launched 20 May 2026 with 144 GB and 800 GB/s. Reuters says Alibaba Cloud will bring AI supernodes online at commercial scale this quarter. That is the current stack, not V900 volume.",
+            "Is Qwen 4 released? No. Reuters and Alibaba's issued statement say Qwen 4 is currently in training. There is no public model id, list price, or weight dump in Tuesday's notes. Qwen 3.8 Max at 2.4 trillion parameters remains the named flagship.",
+            "Is the 5 to 10 trillion parameter model Qwen 4? Not on the issued split. Reuters says Alibaba assigned the 5 to 10 trillion range to the upcoming Qwen 4.5 and Qwen 5 series. Wu's stage line was a new model in that size band for longer-horizon tasks. Treat 5 to 10 trillion as a later-series plan. Do not treat it as a live Qwen 4 spec.",
+            "How does Zhenwu V900 compare with Huawei Atlas 960E? They are different SKUs. Atlas 960E is Huawei's 4,096-NPU SuperPoD with near-packaged optics, announced 17 September, with commercial chatter in Q3 2027. Zhenwu V900 is a T-Head accelerator with a 500,000-card supernode ceiling and a Q1 2027 commercial date. Alibaba's 3x claim is versus its own M890. Huawei's story is cluster optics. Do not collapse the two into one China chip.",
+            "What else did Alibaba announce with Zhenwu V900? The same statement names Yitian 720 and Yitian 730 CPUs for 2027, Qwen3.8-LiveTranslate, a Qwen-Audio-3.1 speech suite, Qwen-Image 3.1 later this year, Qwen Intelligence for phone makers, and a 20 GW Alibaba Cloud capacity target for 2032. Those are roadmap lines. They do not move the V900 ship date."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "amazon-blocks-meta-muse-tos",
       "title": "Amazon Blocks Muse: TOS Popup, Not a CFAA Ban",
       "excerpt": "Amazon cut Meta Muse off Amazon.com with a Conditions of Use popup. The wall went up Sunday night. The Ninth Circuit already closed the Perplexity CFAA door. This is a customer contract, not a hacking injunction.",
