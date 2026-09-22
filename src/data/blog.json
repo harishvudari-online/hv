@@ -38,6 +38,144 @@
   ],
   "posts": [
     {
+      "slug": "amazon-blocks-meta-muse-tos",
+      "title": "Amazon Blocks Muse: TOS Popup, Not a CFAA Ban",
+      "excerpt": "Amazon cut Meta Muse off Amazon.com with a Conditions of Use popup. The wall went up Sunday night. The Ninth Circuit already closed the Perplexity CFAA door. This is a customer contract, not a hacking injunction.",
+      "category": "companies",
+      "tags": [
+        "Amazon Meta Muse",
+        "Muse AI",
+        "Conditions of Use",
+        "Perplexity Comet"
+      ],
+      "publishedAt": "2026-09-22",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Amazon Blocks Muse 2026: TOS, Not a CFAA Ban",
+        "metaDescription": "Amazon blocked Meta Muse with a Conditions of Use popup. Ninth Circuit vacated the Perplexity CFAA injunction. This is contract, not a hacking ban.",
+        "keywords": [
+          "Amazon Meta Muse",
+          "Amazon blocks Muse",
+          "Muse AI Amazon",
+          "Meta Muse shopping agent",
+          "Amazon Conditions of Use AI agent",
+          "Can Muse shop on Amazon",
+          "Why did Amazon block Meta Muse",
+          "Amazon Perplexity CFAA Muse",
+          "Muse vs Perplexity Comet",
+          "unauthorized AI agent Amazon",
+          "Amazon Buy for Me vs Muse",
+          "Muse Secure VM credentials"
+        ]
+      },
+      "image": {
+        "src": "/blog/amazon-blocks-meta-muse-tos-hero.svg",
+        "alt": "Illustration of Amazon blocking Meta Muse as of 22 September 2026: a Conditions of Use popup against an unauthorized AI agent, not a Computer Fraud and Abuse Act ban, after the Ninth Circuit vacated Amazon's Perplexity injunction and left contract claims open",
+        "caption": "Tuesday's card is a customer contract. Score the popup. Do not score a CFAA injunction Amazon already lost."
+      },
+      "sources": [
+        {
+          "title": "GeekWire: Amazon blocks Meta's Muse AI assistant in new standoff over agentic shopping",
+          "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/"
+        },
+        {
+          "title": "Meta Newsroom: Introducing Muse: The World's First Personal AI Agent Built for Everyone",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+        },
+        {
+          "title": "Ninth Circuit: Amazon.com Services v. Perplexity AI, No. 26-1444 (4 Aug 2026)",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
+        },
+        {
+          "title": "The Verge: Amazon doesn't trust Meta's Muse AI agent",
+          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
+        },
+        {
+          "title": "Engadget: Amazon bars Meta's Muse AI from shopping on its site",
+          "url": "https://www.engadget.com/2263659/amazon-bars-metas-muse-ai-from-shopping-on-its-site/"
+        },
+        {
+          "title": "The Register: Amazon shows Meta's Muse AI shopping agent the door",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/21/amazon-shows-metas-muse-ai-shopping-agent-the-door/5297777"
+        },
+        {
+          "title": "ADWEEK: Amazon locks out Meta's Muse in agentic shopping standoff",
+          "url": "https://www.adweek.com/commerce/amazon-locks-out-metas-muse-in-agentic-shopping-standoff/"
+        },
+        {
+          "title": "AWS: Meta signs agreement to power agentic AI on Amazon's Graviton chips",
+          "url": "https://press.aboutamazon.com/aws/2026/4/meta-signs-agreement-with-aws-to-power-agentic-ai-on-amazons-graviton-chips"
+        },
+        {
+          "title": "GeekWire: Meta signs multibillion-dollar deal to use Amazon's Graviton chips for agentic AI",
+          "url": "https://www.geekwire.com/2026/meta-signs-multibillion-dollar-deal-to-use-amazons-graviton-chips-for-agentic-ai/"
+        },
+        {
+          "title": "Cooley: Ninth Circuit rules on AI agent access to third-party websites under the CFAA",
+          "url": "https://www.cooley.com/news/insight/2026/2026-08-06-ninth-circuit-rules-on-ai-agent-access-to-third-party-websites-under-cfaa"
+        },
+        {
+          "title": "Traictory: Amazon blocks Meta's Muse from its store, and the precedent it would cite is the one it lost",
+          "url": "https://traictory.com/news/2026-09-22-amazon-blocks-meta-muse-agent"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 22 September 2026, Amazon's Conditions of Use wall is still the live product against [Meta Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/). The popup started Sunday night, 20 September. [GeekWire](https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/) published after midnight Pacific: \"Continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" [The Register](https://www.theregister.com/ai-and-ml/2026/09/21/amazon-shows-metas-muse-ai-shopping-agent-the-door/5297777) quotes Muse hitting that wall and stopping: the browser could not reach search, and the agent would not push past a notice that said continuing would violate Amazon's terms. Score a customer contract. Do not score a new statute.",
+            "Amazon's three complaints are first-party. [GeekWire](https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/) and [ADWEEK](https://www.adweek.com/commerce/amazon-locks-out-metas-muse-in-agentic-shopping-standoff/) print the same stack: Meta did not tell Amazon Muse would touch the store, the agent does not identify itself when it browses, and it appears to capture and store customer credentials, including account pages and order history when prompted. Amazon says it asked Meta to remove Amazon.com first, then blocked. A spokesperson's line is that third-party apps that buy from other businesses \"should operate openly and respect service provider decisions about whether or not to participate.\" Asked about a lawsuit, Amazon declined to comment. It says it is still talking to Meta.",
+            "This is not [Amazon Nova Premier's Bedrock end of life](/blog/amazon-nova-premier-eol-bedrock). That briefing is a model SKU sunset. Tuesday is a storefront popup. It is also not [Kimi K3 on Amazon Bedrock](/blog/kimi-k3-amazon-bedrock). Kimi is a billed AWS id. Muse is a consumer agent on WhatsApp, iOS, Android, and muse.ai. [The Verge](https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping) bought tank tops through Muse on Amazon before the wall. That test is a pre-Sunday receipt. It is not a live path today."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking whether Amazon blocked Meta Muse have a split they can use. The Ninth Circuit already closed the hacking door Amazon used last time. In [Amazon.com Services v. Perplexity AI, No. 26-1444](https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf), filed 4 August 2026, the panel vacated the March injunction against Perplexity's Comet Assistant. Judge Milan D. Smith, Jr. wrote that on that record \"it is the user who 'accesses' Amazon's computers, with the help of the Assistant.\" Footnote 5 kept one route: \"This outcome does not impair Amazon's ability to regulate access to Amazon.com via private terms of service for its users.\" [GeekWire](https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/) says rehearing was denied 10 September. Sunday's popup walks that footnote. It does not refile the CFAA.",
+            "Meta's credential answer predates the wall. The [8 September launch post](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) says Muse \"has no visibility into people's passwords or payment methods\" and that shared credentials \"go into secure storage, so Muse can use them without seeing them, including passwords a person types into the browser themselves.\" Muse Secure VM holds the agent and the data. A separate Sentinel process must approve outbound traffic. Checkout is a one-time Link card from Stripe. That answers a design question. It does not answer Amazon's disclosure question. [Engadget](https://www.engadget.com/2263659/amazon-bars-metas-muse-ai-from-shopping-on-its-site/) says Meta did not comment on the block. Score two claims. Do not flatten them into one.",
+            "The money is ads and the checkout, not a model meter. GeekWire puts Amazon's ad business above $68 billion last year, a line that needs people on Amazon pages looking at sponsored products. Amazon's own Buy for Me, the company says, identifies itself and lets brands opt out. That is the standard it now applies to Muse. The companies are still partners: Amazon products have been buyable inside Facebook and Instagram since 2023, and on 24 April AWS said Meta would run agentic work on [Graviton](https://press.aboutamazon.com/aws/2026/4/meta-signs-agreement-with-aws-to-power-agentic-ai-on-amazons-graviton-chips). A chip deal is not a storefront license. Do not treat Graviton as consent to browse amazon.com as an undeclared agent."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/amazon-blocks-meta-muse-tos-stack.svg",
+            "alt": "Diagram comparing Amazon's 20 September 2026 Conditions of Use popup against Meta Muse with the vacated Perplexity CFAA injunction and the Amazon Nova Premier Bedrock end-of-life card",
+            "caption": "Score the Muse TOS wall. Perplexity is a vacated statute. Nova Premier is a Bedrock sunset. Do not collapse the three."
+          },
+          "paragraphs": [
+            "Muse users feel it first. [GeekWire](https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/) says Muse hit No. 1 free in Apple's US App Store a week after the 8 September launch, ahead of ChatGPT. The US roll-out is iOS, Android, muse.ai, and WhatsApp, free for most tasks, with paid tiers. If your grocery or stroller job started on Amazon, Sunday moved it off that cart. Other merchants are not named in the popup. Do not treat one storefront wall as a Muse shutdown.",
+            "Retail and agent desks sit one layer out. Amazon says it has also moved against shopping agents from Google and OpenAI. That is Amazon's claim, not a docket. The neighbor for a coding harness is still the [OpenAI Agents API](/blog/openai-agents-api-codex-harness), not a WhatsApp shopper. [Salesforce Agentforce](/blog/salesforce-agentforce-job-ready-agents) is a named enterprise runtime with merchant consent. [Doubao Phone Assistant](/blog/doubao-phone-assistant-saep-protocol) is a device protocol with an opt-out. Muse on Amazon was the no-API browser path Meta's launch post described: if a service has no public API, Muse \"can use the service through a browser the way you would.\" Amazon's answer is that the customer already promised not to.",
+            "Security and counsel sit one layer up. Amazon's credential complaint is not [Plugin4Shell](/blog/plugin4shell-coding-agents-sha-pin), a SHA-pin bypass in coding agents, and not [Gemini hacking three companies](/blog/gemini-hacked-three-companies-irregular), an Irregular CTF wet-test. ADWEEK pasted both next to Muse. Those are different bug classes. [Meta Project OT](/blog/meta-project-ot-ai-job-cuts) is a headcount story. It is not this agent. Treat Muse Secure VM as Meta's architecture claim. Treat Amazon's undeclared-third-party line as a storefront rule. Do not staff a CFAA complaint Amazon has not filed."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Amazon began showing Muse users a Conditions of Use popup on the night of 20 September 2026 that calls continued access by an unauthorized AI agent a violation of the customer's agreement. Fact: GeekWire first reported the block and printed Amazon's three complaints: no notice, no self-identification, and apparent credential capture. Fact: Amazon says it asked Meta to remove Amazon.com first and is still in conversation. Fact: Amazon declined to comment on legal action. Fact: Meta launched Muse on 8 September 2026 and says the agent cannot see passwords or payment methods. Fact: the Ninth Circuit vacated Amazon's Perplexity CFAA and CDAFA injunction on 4 August 2026 in No. 26-1444, holding the user accessed Amazon. Fact: footnote 5 of that opinion left private terms of service open. Fact: this is not Nova Premier's Bedrock end of life and not Kimi K3.",
+            "Prediction: headlines will call Tuesday a CFAA rematch or a Muse shutdown. The popup and the docket contradict both. Prediction: Meta will add a user-agent string and a merchant opt-out before anyone files. Prediction: other large retailers will copy Amazon's clause before they copy Amazon's lawsuit. Do not treat a customer contract as a hacking verdict, and do not treat a Graviton deal as storefront consent."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Meta ships self-identification and a merchant opt-out, because that is the Buy for Me standard Amazon named. Watch whether Amazon files a contract case, because Sunday's comment was a decline, not a waiver. Watch whether Perplexity's remand in 26-1444 picks up the same Conditions of Use theory the Muse popup now uses. Watch confirmation-email redaction, which [The Verge](https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping) says has stripped item names and images since July. Watch other storefronts for the same unauthorized-agent clause. And watch [Nova Premier](/blog/amazon-nova-premier-eol-bedrock) only as a Bedrock sunset. A popup on amazon.com does not retire a model id, and a model id does not authorize a shopping agent."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Amazon Meta Muse? Amazon Meta Muse is the 20 September 2026 storefront clash: Amazon blocked Meta's Muse personal AI agent from shopping on Amazon.com with a Conditions of Use popup. Muse launched on 8 September as a US consumer agent on iOS, Android, WhatsApp, and muse.ai. The live product is the wall. It is not a new Amazon model.",
+            "Can Muse shop on Amazon? Not through the path GeekWire, The Verge, Engadget, and The Register described after Sunday night. Users see a popup that says continued access by an unauthorized AI agent violates Amazon's Conditions of Use. The Register quotes Muse stopping at an anti-bot wall and refusing to push past it. Other merchants are not named in that notice.",
+            "Why did Amazon block Meta Muse? Amazon says Meta never disclosed that Muse would access the store, that the agent does not identify itself while browsing, and that it appears to capture and store customer credentials, including account and order-history pages when asked. Amazon says it asked Meta to remove Amazon.com first. Meta's launch post says Muse cannot see passwords or payment methods. Meta has not answered the block on the record.",
+            "Did Amazon sue Meta over Muse? No public filing is in the reporting. GeekWire asked Amazon about legal action. The company declined to comment and said it remains in direct conversation with Meta. Do not treat the Conditions of Use popup as a complaint.",
+            "How is this different from Amazon v. Perplexity? In August the Ninth Circuit vacated Amazon's CFAA and CDAFA injunction against Perplexity's Comet Assistant, holding that the user, not Perplexity, accessed Amazon. Footnote 5 said Amazon can still regulate access through private terms of service. The Muse popup cites the customer's Conditions of Use. It does not refile that statute.",
+            "Is this the same as Amazon Nova Premier ending on Bedrock? No. Nova Premier end of life is a Bedrock model sunset. Kimi K3 on Bedrock is a billed AWS model id. Muse is a Meta consumer agent. The Amazon in this briefing is the store, not the model catalog."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "xiaomi-mimo-v2-6-same-price",
       "title": "MiMo-V2.6: Same V2.5 Price, MIT Weights Today",
       "excerpt": "Xiaomi shipped MiMo-V2.6-Pro and Flash today with MIT weights and the V2.5 API meter. Pro stays $0.435/$0.87. Flash stays $0.14/$0.28. UltraSpeed is a serving SKU. This is not Kimi K3.",
