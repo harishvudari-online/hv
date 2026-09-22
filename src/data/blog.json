@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-21",
+  "generatedAt": "2026-09-22",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,152 @@
     }
   ],
   "posts": [
+    {
+      "slug": "xiaomi-mimo-v2-6-same-price",
+      "title": "MiMo-V2.6: Same V2.5 Price, MIT Weights Today",
+      "excerpt": "Xiaomi shipped MiMo-V2.6-Pro and Flash today with MIT weights and the V2.5 API meter. Pro stays $0.435/$0.87. Flash stays $0.14/$0.28. UltraSpeed is a serving SKU. This is not Kimi K3.",
+      "category": "models",
+      "tags": [
+        "MiMo-V2.6",
+        "MiMo-V2.6-Pro",
+        "Xiaomi MiMo",
+        "mimo-v2.6-pro"
+      ],
+      "publishedAt": "2026-09-22",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "MiMo-V2.6 2026: Same V2.5 Price, MIT Weights",
+        "metaDescription": "Xiaomi MiMo-V2.6 ships MIT weights at the V2.5 meter. Pro is $0.435/$0.87. Flash is $0.14/$0.28. UltraSpeed is a third SKU. Not Kimi K3.",
+        "keywords": [
+          "MiMo-V2.6",
+          "Xiaomi MiMo-V2.6",
+          "MiMo-V2.6-Pro",
+          "MiMo-V2.6-Flash",
+          "MiMo-V2.6 pricing",
+          "mimo-v2.6-pro",
+          "Is MiMo-V2.6 open source",
+          "MiMo-V2.6 vs Kimi K3",
+          "MiMo-V2.6 UltraSpeed",
+          "MiMo-V2.6 API",
+          "MiMo-V2.6 Hugging Face",
+          "MiMo-V2.6 vs V2.5"
+        ]
+      },
+      "image": {
+        "src": "/blog/xiaomi-mimo-v2-6-same-price-hero.svg",
+        "alt": "Illustration of Xiaomi MiMo-V2.6 as of 22 September 2026: MIT-licensed Pro and Flash weights, the same V2.5 API meter at $0.435/$0.87 and $0.14/$0.28, a 1 million token context window, and UltraSpeed as a separate serving SKU rather than a Kimi K3 or Atria Dawn remap",
+        "caption": "Tuesday's card is two billed ids and MIT shards. Score mimo-v2.6-pro. Do not score a Kimi remap."
+      },
+      "sources": [
+        {
+          "title": "Xiaomi MiMo: MiMo-V2.6, scaling up reinforcement learning for self-improvement",
+          "url": "https://mimo.mi.com/docs/en-US/news/latest/v2-6"
+        },
+        {
+          "title": "Hugging Face: XiaomiMiMo/MiMo-V2.6-Pro-RL",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
+        },
+        {
+          "title": "Hugging Face: XiaomiMiMo/MiMo-V2.6-Flash-RL",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL"
+        },
+        {
+          "title": "Hugging Face: MiMo-V2.6 collection",
+          "url": "https://huggingface.co/collections/XiaomiMiMo/mimo-v26"
+        },
+        {
+          "title": "Hugging Face: XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+        },
+        {
+          "title": "Hugging Face: MiMo-V2.6 technical report (PDF)",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf"
+        },
+        {
+          "title": "OpenRouter: Xiaomi MiMo-V2.6-Pro",
+          "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro"
+        },
+        {
+          "title": "OpenRouter: Xiaomi MiMo-V2.6-Flash",
+          "url": "https://openrouter.ai/xiaomi/mimo-v2.6-flash"
+        },
+        {
+          "title": "OpenRouter: Xiaomi MiMo-V2.6-Pro-UltraSpeed",
+          "url": "https://openrouter.ai/xiaomi/mimo-v2.6-pro-ultraspeed"
+        },
+        {
+          "title": "Vercel AI Gateway: MiMo V2.6 Pro",
+          "url": "https://vercel.com/ai-gateway/models/mimo-v2.6-pro"
+        },
+        {
+          "title": "Xiaomi MiMo: MiMo-V2.5-Pro-UltraSpeed pricing card",
+          "url": "https://mimo.mi.com/docs/en-US/model-intro/mimo-v2.5-pro-ultraspeed"
+        },
+        {
+          "title": "RuntimeWire: Xiaomi open-sources MiMo-V2.6 and the RL machinery",
+          "url": "https://runtimewire.com/article/xiaomi-open-sources-mimo-v2-6-rl-cost-3-47m"
+        },
+        {
+          "title": "TestingCatalog: Xiaomi open-sources MiMo-V2.6 Pro and Flash",
+          "url": "https://www.testingcatalog.com/xiaomi-open-sources-mimo-v2-6-pro-and-flash-models/"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 22 September 2026, Xiaomi published [MiMo-V2.6: Scaling Up Reinforcement Learning for Self-Improvement](https://mimo.mi.com/docs/en-US/news/latest/v2-6). The launch page's update stamp is today. Hugging Face created [XiaomiMiMo/MiMo-V2.6-Pro-RL](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL) on 21 September. The live product is two model ids, not a founder post. API names are all lowercase: `mimo-v2.6-pro`, `mimo-v2.6-flash`, and `mimo-v2.6-pro-ultraspeed`. The [collection](https://huggingface.co/collections/XiaomiMiMo/mimo-v26) also ships [MiMo-V2.6-Distill-Qwen-9B](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B), a 9B SFT starter on Qwen3.5-9B. That distill is a research seed. It is not the flagship.",
+            "The meter is last series' meter. Xiaomi says the V2.6 series keeps V2.5 API prices. [OpenRouter](https://openrouter.ai/xiaomi/mimo-v2.6-pro) and [Vercel](https://vercel.com/ai-gateway/models/mimo-v2.6-pro) list Pro at $0.435 input and $0.87 output per million tokens, with cache read at $0.0036. [Flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) is $0.14 / $0.0028 / $0.28. Both cards claim a 1,048,576-token window and text, image, video, and audio in, text out. Hugging Face tags the Pro repo `license:mit`. Score a billed id plus MIT shards. Do not treat a 9B distill as the 1T story.",
+            "This is not [Kimi K3 on Amazon Bedrock](/blog/kimi-k3-amazon-bedrock). Xiaomi's own launch line says Pro scores 46 on the Artificial Analysis Intelligence Index and sits ahead of Kimi K3 and Qwen3.8 Max among open models. That is a bake-off sentence. It is not a Bedrock remap. It is also not [Atria Dawn Preview](/blog/atria-dawn-preview-open-weights). Atria is a text-only 744B GLM-5.2 agent with no list price. MiMo-V2.6 is omnimodal, priced, and Xiaomi-hosted. Do not point a Kimi client at `mimo-v2.6-pro`."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking what MiMo-V2.6 is have a split they can use. The [Pro card](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL) prints a sparse MoE with 1.02 trillion total parameters and 42 billion active, 70 layers, 384 routed experts with 8 active, and a 681 million parameter MiMo ViT. Hugging Face's safetensors inventory on the same repo is 524 billion parameters. Cite 1.02T from the write-up and 524B from the file count. The [Flash card](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL) prints 309 billion total and 15 billion active. The inventory there is 159 billion. Do not invent a third size.",
+            "The vendor table is first-party. On DeepSWE v1.1 the card lists Pro at 71.9 and Flash at 67.9, behind Claude Opus 5 at 74.0 and GPT-5.6 Sol at 73.0, and just ahead of [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) at 70.0. Terminal Bench 4.0 is the honest gap: Pro 34.9 against Opus 49.0, Sol 39.9, and Fable 42.4. Terminal Bench 2.1 flips: Pro 89.9 against Opus 89.1. ExploitBench is 47.9 against Sol's 78.5. [TestingCatalog](https://www.testingcatalog.com/xiaomi-open-sources-mimo-v2-6-pro-and-flash-models/) reprints the AA Index as 46.32 on v4.3. The launch page rounds that to 46 and still trails Fable and [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship). Treat the table as Xiaomi's bake-off. It is not a third-lab league.",
+            "The RL receipt is the other number. Xiaomi says Flash and Pro each finished 30 steps in under six days, about 750,000 trajectories, at training costs of about $850,000 and $2.62 million. Each update used 1,568 samples and 3.5 to 3.7 billion tokens. The launch page's own DeepSWE training curve is Flash 48.8 to 65.7 and Pro 58.4 to 72.6. Those are run deltas. They are not the eval-table rows. [RuntimeWire](https://runtimewire.com/article/xiaomi-open-sources-mimo-v2-6-rl-cost-3-47m) keeps both. So should you."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/xiaomi-mimo-v2-6-same-price-stack.svg",
+            "alt": "Diagram comparing Xiaomi MiMo-V2.6 MIT omnimodal weights and same-price V2.5 API as of 22 September 2026 with Kimi K3 on Amazon Bedrock and Atria Dawn Preview, a text-only hosted GLM agent",
+            "caption": "Score the Xiaomi ids. Kimi is a Bedrock SKU. Atria is a hosted GLM agent. Do not collapse the three."
+          },
+          "paragraphs": [
+            "API and agent desks feel it first. If you already route [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) or [Step 5 Preview](/blog/stepfun-step-5-preview-api) as the cheap coding id, Tuesday is a same-price Xiaomi swap test, not a new invoice class. Step 5 still dates weights to 15 October. MiMo gave you shards today. The neighbor for a coding harness is the [OpenAI Agents API](/blog/openai-agents-api-codex-harness), not a chat app. Keep `mimo-v2.5-pro` on any job that still needs the old id.",
+            "Self-host and research desks sit one layer out. The Pro SGLang recipe wants two nodes and tensor parallel 16. Flash's example is tensor parallel 8. vLLM still points at the V2.5 container `vllm/vllm-openai:mimov25-cu129`. That is a documented recipe, not a published Xiaomi SLA. The [technical report](https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL/blob/main/MiMo_V2_6_technical_report.pdf) plus 7,000-plus RL task environments are the research half. Distill-Qwen-9B is the laptop-scale starter. It is not [Alice AI Foundation](/blog/alice-ai-foundation-80b-from-scratch), a from-scratch base with no chat SKU, and not [Intern-S2](/blog/intern-s2-preview-397b-scientific-agents).",
+            "Procurement sits one layer up. Xiaomi already appears in the [Claude distillation briefing](/blog/anthropic-claude-distillation-threat-report) as more than 400,000 attributed exchanges. That is a provenance question for the same lab, not a V2.6 spec. UltraSpeed is the invoice trap. The launch page claims up to 20x inference speed at the same quality. [OpenRouter's UltraSpeed page](https://openrouter.ai/xiaomi/mimo-v2.6-pro-ultraspeed) lists $4.35 / $8.70, ten times the Pro sticker, and describes the speed as roughly 10x. The [V2.5 UltraSpeed card](https://mimo.mi.com/docs/en-US/model-intro/mimo-v2.5-pro-ultraspeed) Xiaomi says the series still uses is $1.305 / $2.61, three times Pro. Score two meters. Do not flatten a 20x speed claim into one price."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Xiaomi's MiMo-V2.6 launch page is dated 22 September 2026 and names `mimo-v2.6-pro`, `mimo-v2.6-flash`, and `mimo-v2.6-pro-ultraspeed`. Fact: Hugging Face hosts XiaomiMiMo/MiMo-V2.6-Pro-RL and XiaomiMiMo/MiMo-V2.6-Flash-RL under MIT. Fact: the Pro card lists 1.02T total and 42B active parameters. Fact: Hugging Face reports 524B parameters on that repo. Fact: the Flash card lists 309B / 15B, and Hugging Face reports 159B. Fact: Pro list on OpenRouter and Vercel is $0.435 / $0.87 with $0.0036 cache read. Fact: Flash list is $0.14 / $0.28 with $0.0028 cache read. Fact: both cards claim a 1,048,576-token window and omnimodal input. Fact: Xiaomi reports a six-day RL run at about $850,000 for Flash and $2.62 million for Pro. Fact: the launch page's AA Index is 46, still behind Fable 5.1 and GPT-6 Astra. Fact: this is not Kimi K3 and not Atria Dawn Preview.",
+            "Prediction: most headlines will call Tuesday a Kimi killer and a 20x UltraSpeed bargain. The closed-model rows and the OpenRouter 10x UltraSpeed sticker contradict both. Prediction: aggregators will paste Hugging Face's 524B onto the 1.02T card. Prediction: teams will load Distill-Qwen-9B and read the 9B bench as the Pro result. Do not treat a first-party table as a third-lab league, and do not treat a speed claim as a price."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether Artificial Analysis publishes an independent 46.32 rerun, or whether 46 stays a Xiaomi slide. Watch Terminal Bench 4.0 and ExploitBench outside the first-party harness, because those are the rows that still trail Opus and Sol. Watch whether the OpenRouter UltraSpeed sticker stays $4.35 / $8.70 or snaps back to the V2.5 $1.305 / $2.61 table. Watch two-node SGLang jobs against the vLLM V2.5 image. Watch Distill-Qwen-9B only as an RL starter, not as a 1T proxy. And watch [Kimi K3](/blog/kimi-k3-amazon-bedrock) and [Step 5](/blog/stepfun-step-5-preview-api). An AA Index claim does not mint a Bedrock SKU, and 15 October is still a date, not a file."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is MiMo-V2.6? MiMo-V2.6 is Xiaomi's 22 September 2026 omnimodal series. The flagship checkpoint is MiMo-V2.6-Pro-RL, a sparse mixture-of-experts the card lists at 1.02 trillion total parameters and 42 billion active, with a 1,048,576-token context window. Flash is the efficiency sibling. Both take text, image, video, and audio. Both return text. They are billed model ids. They are not Kimi K3.",
+            "How much does MiMo-V2.6 cost? Xiaomi says V2.6 keeps the V2.5 API meter. OpenRouter and Vercel list Pro at $0.435 input, $0.0036 cache read, and $0.87 output per million tokens. Flash is $0.14 / $0.0028 / $0.28. UltraSpeed is a third SKU. OpenRouter lists it at $4.35 / $8.70. The older V2.5 UltraSpeed card is $1.305 / $2.61. Score the invoice in front of you.",
+            "Is MiMo-V2.6 open source? Hugging Face tags XiaomiMiMo/MiMo-V2.6-Pro-RL and XiaomiMiMo/MiMo-V2.6-Flash-RL as MIT. Xiaomi also published a technical report, RL task environments, and MiMo-V2.6-Distill-Qwen-9B. MIT permits use, including commercial use, under that license. Self-host cost is your cluster. The API meter is separate.",
+            "Is MiMo-V2.6 available everywhere? The launch page lists Xiaomi AI Studio, MiMo Code, MiMo Desktop, the Xiaomi MiMo Open Platform, and OpenRouter. Vercel lists `xiaomi/mimo-v2.6-pro`. Desktop's invitation-only beta ends in one week. Use the lowercase ids. Do not invent a public `mimo-v2.6-fast` slug.",
+            "How does MiMo-V2.6 compare with Kimi K3 and Fable 5.1? Xiaomi says Pro scores 46 on the Artificial Analysis Intelligence Index, ahead of Kimi K3 and Qwen3.8 Max among open models, and still behind Claude Fable 5.1 and GPT-6 Astra. On the first-party table, Pro trails Opus 5 and Sol on DeepSWE v1.1 and trails closed models on Terminal Bench 4.0 and ExploitBench. Those are vendor numbers. They are not a third-lab rerun.",
+            "Is MiMo-V2.6 UltraSpeed the same price as Pro? No. UltraSpeed is the same Pro checkpoint on faster hosts. Xiaomi claims up to 20x inference speed. OpenRouter bills $4.35 / $8.70, ten times Pro. The V2.5 UltraSpeed card that Xiaomi says remains in force is $1.305 / $2.61, three times Pro. It is not the standard `mimo-v2.6-pro` meter."
+          ]
+        }
+      ]
+    },
     {
       "slug": "grok-4-7-same-price-api",
       "title": "Grok 4.7: Same $2/$6 API, Not Grok 4.8",
