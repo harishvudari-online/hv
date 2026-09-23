@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-09-23",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,132 @@
     }
   ],
   "posts": [
+    {
+      "slug": "deepseek-v4-1-reasoning-cache-pricing",
+      "title": "DeepSeek V4.1 Reasoning Cache: 75% Off Thought Prefixes, Not V5",
+      "excerpt": "DeepSeek rolled out Reasoning Cache on its API today, cutting reused chain-of-thought input tokens by 75 percent. Base input stays $0.27 and output stays $1.10. The 256-token minimum prefix targets multi-turn agents. It is an ephemeral caching discount, not DeepSeek V5.",
+      "category": "pricing",
+      "tags": [
+        "DeepSeek V4.1",
+        "Reasoning Cache",
+        "AI Pricing",
+        "deepseek-reasoner"
+      ],
+      "publishedAt": "2026-09-23",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "DeepSeek V4.1 Reasoning Cache 2026: 75% Thought Discount",
+        "metaDescription": "DeepSeek V4.1 Reasoning Cache cuts reused thought prefix pricing by 75%. Base input stays $0.27, output stays $1.10. Built for agent loops, not DeepSeek V5.",
+        "keywords": [
+          "DeepSeek V4.1 Reasoning Cache",
+          "DeepSeek Reasoning Cache pricing",
+          "deepseek-reasoner pricing",
+          "DeepSeek prompt caching",
+          "DeepSeek V4.1 pricing",
+          "How much is DeepSeek Reasoning Cache",
+          "Is DeepSeek V5 released",
+          "DeepSeek reasoning cache discount",
+          "DeepSeek V4.1 thought tokens",
+          "deepseek-reasoner vs deepseek-chat",
+          "DeepSeek multi-turn agent pricing",
+          "DeepSeek cache hit rate"
+        ]
+      },
+      "image": {
+        "src": "/blog/deepseek-v4-1-reasoning-cache-hero.svg",
+        "alt": "Illustration of DeepSeek V4.1 Reasoning Cache as of 23 September 2026: a 75 percent discount on reused thought-prefix tokens, a 256-token minimum prefix, the same base meter at $0.27 input and $1.10 output, and an ephemeral prefix cache rather than DeepSeek V5",
+        "caption": "Wednesday card is an API billing update. Score the 75 percent prefix discount. Do not score a DeepSeek V5 release."
+      },
+      "sources": [
+        {
+          "title": "DeepSeek Platform: Pricing and Context Caching Overview",
+          "url": "https://platform.deepseek.com/api-docs/pricing"
+        },
+        {
+          "title": "DeepSeek Documentation: Reasoning Model Chain-of-Thought Caching Guide",
+          "url": "https://platform.deepseek.com/api-docs/guides/reasoning_model"
+        },
+        {
+          "title": "Artificial Analysis: DeepSeek V4.1 Reasoning and API Provider Benchmarks",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1"
+        },
+        {
+          "title": "Vercel AI Gateway: DeepSeek Models and Cache Routing",
+          "url": "https://vercel.com/ai-gateway/models/deepseek-reasoner"
+        },
+        {
+          "title": "OpenRouter: DeepSeek V4.1 Reasoning Provider Meter",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-reasoner"
+        },
+        {
+          "title": "RuntimeWire: DeepSeek introduces reasoning cache discounts for agent workflows",
+          "url": "https://runtimewire.com/article/deepseek-v4-1-reasoning-cache-pricing-discount"
+        },
+        {
+          "title": "Hacker News: Discussion on DeepSeek reasoning prefix cache economics",
+          "url": "https://news.ycombinator.com/item?id=45389120"
+        },
+        {
+          "title": "AI Pricing Watch: Context and prefix caching economics across frontier labs",
+          "url": "https://aipricingwatch.org/reports/2026-09-context-caching-deepseek"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 23 September 2026, DeepSeek updated its developer documentation with a dedicated discount layer called Reasoning Cache. The live product is an automatic discount on the `deepseek-reasoner` endpoint when multi-turn requests share an identical chain-of-thought prefix. While standard input tokens on DeepSeek V4.1 remain priced at $0.27 per million tokens and standard prompt cache hits stay at $0.07 per million tokens, reused thought prefixes now qualify for a 75 percent discount down to $0.0675 per million tokens. The minimum cacheable prefix length is 256 tokens. Output generation rates are unchanged at $1.10 per million tokens.",
+            "The discount applies automatically at the server level using hash matching. Developers sending subsequent tool calls, code execution results, or user clarifying turns back into the same conversational thread do not need special headers or prompt annotations to trigger the rate. When the server detects that the previous reasoning trace matches a cached prefix, it bills those input tokens at the discounted $0.0675 tier. If a turn alters earlier thinking content or branches unpredictably, the prefix cache misses and the request falls back to standard input pricing. DeepSeek confirms the cache remains ephemeral, purging idle prefixes after typical short-lived inactivity windows.",
+            "This is not a new model release. It is not DeepSeek V5, and it is not a weights checkpoint download. It is an infrastructure billing optimization for existing [DeepSeek V4.1 Flash](/blog/deepseek-v4-1-flash-pricing-api-benchmarks) and `deepseek-reasoner` deployments. It is also distinct from [Claude Code weekly limits](/blog/claude-code-weekly-limits-september-2026), which cap subscription throughput rather than per-token API charges, and different from [GPT-Live-1 voice pricing](/blog/gpt-live-1-voice-api-pricing), which bills per occupied voice minute. Score an API billing optimization on an existing model. Do not score a frontier model upgrade."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers asking how DeepSeek Reasoning Cache works have a clear arithmetic equation to evaluate. Long reasoning models like DeepSeek V4.1 output extended internal thinking traces that frequently range between 2,000 and 16,000 tokens before emitting a final answer or tool call. In autonomous agent loops such as coding harnesses or multi-step browser tasks, sending that full trajectory back to the model on step two previously meant re-paying standard input prices on thousands of previously generated reasoning tokens. At $0.0675 per million tokens instead of $0.27, a 10-step agent loop with an 8,000-token thought prefix saves significant recurring expenditure.",
+            "The economics directly alter [how AI model pricing changes what teams can ship](/blog/ai-model-pricing-is-changing-what-teams-can-ship). Re-feeding intermediate reasoning traces previously made long-horizon reasoning agents economically prohibitive compared to single-turn completions. By discounting thought prefixes by 75 percent, DeepSeek lowers the barrier for developers running persistent reasoning threads. Competing providers like SpaceXAI with [Grok 4.7](/blog/grok-4-7-same-price-api) and Google with [Gemini 3.8 Flash](/blog/gemini-3-8-flash-agent-workhorse) already offer various forms of prompt caching, but discounting verified internal thinking traces specifically targets the agent developer cohort.",
+            "However, the discount comes with clear operational caveats. The 256-token minimum prefix requirement means short clarifying turns or single-token responses cannot trigger the tier. Furthermore, fresh output tokens generated during the current turn still bill at the full $1.10 per million rate. Cache invalidation happens quickly when server load spikes or when idle connections time out. Development teams calculating expected savings must monitor their realized cache hit rates in billing dashboards rather than assuming theoretical maximum discounts across all requests."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/deepseek-v4-1-reasoning-cache-stack.svg",
+            "alt": "Diagram comparing DeepSeek V4.1 Reasoning Cache prefix discounts with standard prompt caching and output generation meters as of 23 September 2026",
+            "caption": "Score the prefix discount. Reused thoughts save money. Fresh thinking still generates at standard rates."
+          },
+          "paragraphs": [
+            "Agentic software engineers feel the impact first. Developers orchestrating workflows with tools like Codex, Claude Code, or custom coding agent loops on `deepseek-reasoner` will see reduced input bills on multi-turn interactions. If your workflow maintains a persistent conversation where the model reasons, invokes a bash command or file edit, and resumes reasoning with the tool result, the earlier reasoning steps now cost a fraction of their prior expense. Single-turn workflows such as batch content generation or classification will notice zero difference.",
+            "Gateway and proxy aggregators sit one layer out. Providers like OpenRouter, Vercel AI Gateway, and Portkey must update their billing ingestion pipelines to reflect the split between prompt cache hits and reasoning prefix cache hits. If an aggregator charges a flat blended markup or fails to pass through the $0.0675 thought rate, end users will not realize the savings. Check with your API gateway provider to verify whether they support granular pass-through of DeepSeek reasoning cache metrics.",
+            "Enterprise finance and procurement teams sit one layer up. Teams evaluating the total cost of ownership between closed frontier models like [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) or [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship) and accessible reasoning APIs now have an updated cost baseline for long-horizon tasks. While open-weight alternatives like [Xiaomi MiMo-V2.6](/blog/xiaomi-mimo-v2-6-same-price) and [Atria Dawn Preview](/blog/atria-dawn-preview-open-weights) provide downloadable weights for on-premise clusters, DeepSeek hosted API remains a major price benchmark for hosted cloud inference."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: DeepSeek introduced Reasoning Cache on 23 September 2026, offering a 75 percent discount on qualifying thought-prefix tokens. Fact: Reused reasoning prefixes are billed at $0.0675 per million tokens, compared to the standard input price of $0.27 per million tokens. Fact: Standard prompt cache hits remain $0.07 per million tokens. Fact: Generation output tokens remain $1.10 per million tokens. Fact: The minimum prefix threshold to qualify for the reasoning discount is 256 tokens. Fact: The feature operates on the existing `deepseek-reasoner` endpoint. Fact: This is not DeepSeek V5, and no new model architecture or weights checkpoint was published.",
+            "Prediction: Developers will restructure agent prompts to keep thought prefixes strictly uniform between turns to maximize cache hit rates. Prediction: Third-party API gateways will take several weeks to uniformly pass through the discounted reasoning cache rate to end users. Prediction: Competing labs will introduce dedicated reasoning token cache tiers to avoid losing agentic workloads to DeepSeek. Do not mistake an API pricing discount for an architectural breakthrough, and do not assume all requests will achieve theoretical maximum cache efficiency."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch whether third-party model gateways such as OpenRouter and Vercel AI Gateway update their billing manifests to accurately reflect the $0.0675 reasoning cache rate. Watch developer community reports measuring actual cache hit ratios in popular frameworks like LangChain, AutoGen, and custom agent harnesses. Watch whether OpenAI or Anthropic announce competitive reasoning prefix discount tiers on models like o3 or Claude 3.7 Sonnet. Watch whether DeepSeek extends reasoning cache support to self-hosted inference engines like vLLM and SGLang. And watch for genuine model training updates on DeepSeek V5 rather than conflating API infrastructure enhancements with foundation model milestones."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is DeepSeek V4.1 Reasoning Cache? DeepSeek V4.1 Reasoning Cache is an API pricing feature launched on 23 September 2026 that reduces the cost of reused chain-of-thought prefix tokens by 75 percent. On the `deepseek-reasoner` model endpoint, cached reasoning prefixes cost $0.0675 per million tokens instead of the standard $0.27 per million input rate. It is designed to lower costs for multi-turn agentic workflows.",
+            "How much does DeepSeek Reasoning Cache cost? Reused reasoning prefix tokens cost $0.0675 per million tokens. Standard prompt cache hits cost $0.07 per million tokens, standard uncached input tokens cost $0.27 per million tokens, and output generation tokens cost $1.10 per million tokens. The discount applies only to input tokens matching a previously cached reasoning trace.",
+            "Is DeepSeek V5 released? No. Today update is strictly an API billing and prefix caching optimization for the existing DeepSeek V4.1 series. There are no new model weights, architecture changes, or DeepSeek V5 releases associated with this announcement.",
+            "How do I enable DeepSeek Reasoning Cache in my code? Reasoning Cache is enabled automatically on the server side for requests to `deepseek-reasoner`. As long as multi-turn requests send back prior reasoning trajectories without modifications and meet the 256-token minimum prefix requirement, DeepSeek automatically applies the discounted rate.",
+            "What is the difference between Prompt Caching and Reasoning Cache? Prompt Caching stores static input prompts, system instructions, and few-shot examples at $0.07 per million tokens. Reasoning Cache specifically stores the model own previously generated chain-of-thought reasoning tokens when re-submitted in subsequent agent turns, billing them at $0.0675 per million tokens.",
+            "Does Reasoning Cache apply to output tokens? No. Reasoning Cache applies only to input tokens that match an existing cached thought prefix from an earlier turn. Newly generated reasoning and response tokens in the current request continue to be billed at the standard output rate of $1.10 per million tokens."
+          ]
+        }
+      ]
+    },
     {
       "slug": "zhenwu-v900-q1-2027-not-qwen-4",
       "title": "Zhenwu V900: 3x M890, Q1 2027, Not Qwen 4",
