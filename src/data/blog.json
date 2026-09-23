@@ -38,6 +38,132 @@
   ],
   "posts": [
     {
+      "slug": "claude-opus-5-5-api-release",
+      "title": "Claude Opus 5.5: $4/$20 API, 1M Context, Not Fable 5.1",
+      "excerpt": "Anthropic released Claude Opus 5.5 on API and cloud platforms today at $4 input and $20 output per million tokens, cutting standard rates by 20 percent and prompt cache reads by 60 percent. Adaptive thinking is locked on. It is the first Claude 5.5 model, not Fable 5.1.",
+      "category": "models",
+      "tags": [
+        "Claude Opus 5.5",
+        "Anthropic",
+        "AI Models",
+        "API Pricing"
+      ],
+      "publishedAt": "2026-09-23",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Claude Opus 5.5 2026: $4/$20 API, 1M Context, Not Fable",
+        "metaDescription": "Anthropic released Claude Opus 5.5 at $4 input and $20 output. Cache read is $0.20 per million. 1M context, always-on thinking, first Claude 5.5 model.",
+        "keywords": [
+          "Claude Opus 5.5",
+          "Claude Opus 5.5 pricing",
+          "Claude Opus 5.5 API",
+          "Claude Opus 5.5 release date",
+          "claude-opus-5-5",
+          "Claude Opus 5.5 vs Opus 5",
+          "Claude Opus 5.5 vs Fable 5.1",
+          "Claude Opus 5.5 benchmarks",
+          "Anthropic Claude 5.5",
+          "Claude Opus 5.5 context window",
+          "Claude Opus 5.5 Bedrock",
+          "Is Claude Opus 5.5 released"
+        ]
+      },
+      "image": {
+        "src": "/blog/claude-opus-5-5-hero.svg",
+        "alt": "Illustration of Claude Opus 5.5 as of 23 September 2026: Anthropic releases the first Claude 5.5 family model at $4 input and $20 output with $0.20 cache hits, always-on thinking, and 1M context, distinct from Claude Fable 5.1 and Claude Opus 5",
+        "caption": "Wednesday card is a live flagship release. Score claude-opus-5-5 at $4/$20. Do not treat Fable parity claims as an identical architecture."
+      },
+      "sources": [
+        {
+          "title": "Anthropic Documentation: Claude Opus 5.5 Model Overview",
+          "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview"
+        },
+        {
+          "title": "Anthropic Documentation: Pricing and Rate Limits",
+          "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+        },
+        {
+          "title": "9to5Mac: Anthropic upgrades Claude with new Opus 5.5 model",
+          "url": "https://9to5mac.com/2026/09/22/anthropic-upgrades-claude-with-new-opus-5-5-model-details-here/"
+        },
+        {
+          "title": "The Star: Anthropic, OpenAI release cheaper AI even as safety fears grow",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/09/23/anthropic-openai-release-cheaper-ai-even-as-safety-fears-grow"
+        },
+        {
+          "title": "LiteLLM: Day 0 Support for Claude Opus 5.5",
+          "url": "https://docs.litellm.ai/blog/claude_opus_5_5"
+        },
+        {
+          "title": "Mixed News: Anthropic details pre-release Opus 5.5 safety monitoring",
+          "url": "https://mixed-news.com/en/anthropic-pre-release-opus-5-5-secret-stealing-commands-copying-slip/"
+        },
+        {
+          "title": "AI/TLDR: Claude Opus 5.5 Specs, Pricing and Availability",
+          "url": "https://ai-tldr.dev/models/claude-opus-5-5/"
+        },
+        {
+          "title": "Artificial Analysis: Claude Opus 5.5 Coding and Reasoning Index Evaluation",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 23 September 2026, Anthropic rolled out Claude Opus 5.5 across its first-party API and partner cloud platforms, including Amazon Bedrock, Google Cloud, and Microsoft Foundry. The live model identifier is `claude-opus-5-5`. Standard API rates drop to $4.00 per million input tokens and $20.00 per million output tokens, down from $5.00 and $25.00 on Claude Opus 5. Prompt cache read hits drop even more aggressively by 60 percent, down to $0.20 per million tokens. The context window spans 1,000,000 tokens with a maximum output limit of 128,000 tokens.",
+            "Architecturally, Opus 5.5 introduces four critical operational shifts for developers migrating existing codebases from Opus 5. First, adaptive thinking is permanently enabled and cannot be turned off; requests configure depth via the `effort` parameter rather than binary flags. Second, forced tool use constraints that previously overrode model discretion now return an explicit error. Third, internal thinking blocks are cryptographically tied to the model and conversation history. Fourth, legacy computer use tool versions prior to 2026 are rejected. Anthropic also provides an optional fast mode billed at $8.00 input and $40.00 output per million tokens on its direct API.",
+            "This is not Claude Fable 5.1. [Claude Fable 5.1](/blog/claude-fable-5-1-mythos-trusted-access) remains Anthropic top frontier model at $10.00 input and $50.00 output per million tokens. It is also not Claude Sonnet 5.5 or Haiku 5.5, which Anthropic explicitly scheduled for coming weeks, and it is not an open-weights release like [Xiaomi MiMo-V2.6](/blog/xiaomi-mimo-v2-6-same-price) or [Atria Dawn Preview](/blog/atria-dawn-preview-open-weights). Score a live foundation model shipment with lower token rates. Do not treat marketing claims of Fable parity as identical model weights."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Searchers evaluating Claude Opus 5.5 have concrete cost and benchmark numbers to analyze. While the 20 percent base token price cut brings standard input to $4.00 and output to $20.00, the primary economic lever for coding harnesses is the $0.20 cache read price. In persistent development workflows like Claude Code or Codex loops, cached conversation history and codebase context account for more than 80 percent of total token volume. Cutting cache reads from $0.50 to $0.20 per million tokens lowers total task expenses by roughly 40 percent on typical agent workloads.",
+            "On benchmark evaluations, Anthropic reports Terminal-Bench 4.0 accuracy of 66.4 percent, up from 59.2 percent on Opus 5, and an OSWorld 2.0 offline computer-use score of 81.8 percent. On the Artificial Analysis Coding Agent Index, Opus 5.5 scores 58 points, closely rivaling Fable 5.1 while generating output more than 30 percent faster. Furthermore, the model required less compute per benchmark task, using fewer internal thinking tokens to reach correct tool call sequences compared to earlier reasoning checkpoints.",
+            "The launch arrives amid fierce price competition and ongoing regulatory discussions. Hours after Anthropic announcement, OpenAI published GPT-6 Sol at $2.00 input and $10.00 output alongside GPT-6 Luna at $0.10 input. While OpenAI models push low list pricing, Opus 5.5 emphasizes deep reasoning fidelity and verified agentic autonomy. Meanwhile, safety researchers noted Anthropic disclosures regarding pre-release internal safety evals, where red-teaming caught copy error edge cases before training updates neutralized the behavior prior to public deployment."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/claude-opus-5-5-stack.svg",
+            "alt": "Diagram comparing Claude Opus 5.5 with previous flagship Claude Opus 5 and top-tier Claude Fable 5.1 as of 23 September 2026, showing price points, caching rates, and thinking configuration",
+            "caption": "Score the API price drop. Opus 5.5 lowers agent token costs while maintaining frontier coding benchmarks."
+          },
+          "paragraphs": [
+            "Enterprise software engineering teams feel the change immediately. Organizations running production coding agents, automated refactoring pipelines, or autonomous test harnesses can swap model configurations to `claude-opus-5-5` on Bedrock, Google Cloud, or Anthropic API. Applications that stream intermediate reasoning tokens must verify their `display` configuration, as empty thinking block defaults can silence UI progress bars between tool executions.",
+            "Cloud platform architects and budget owners sit one layer out. The steep drop in cache read pricing makes high-context architectures significantly cheaper to operate continuously. With cache reads at $0.20 per million tokens, teams can maintain extensive architectural documentation and repository maps in context without prohibitive cost escalation. Gateway proxies like LiteLLM already support Opus 5.5 on Day 0 across all major cloud providers.",
+            "AI security and compliance officers sit one layer up. Anthropic published transparent system evaluation notes detailing pre-release red-teaming and the automated safety mitigations embedded into Opus 5.5. Following recent industry discussions on [US-China AI safety notification](/blog/us-china-ai-safety-notification) and the [AI standards body](/blog/ai-standards-body-anthropic-openai-google) talks, Anthropic commitments to frontier monitoring and a minimum one-year API availability window through September 2027 provide contractual predictability for enterprise adopters."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Anthropic released Claude Opus 5.5 on 23 September 2026 with model identifier `claude-opus-5-5`. Fact: Base API token pricing is $4.00 per million input tokens and $20.00 per million output tokens. Fact: Prompt cache reads are priced at $0.20 per million tokens, with 5-minute cache writes at $5.00 and 1-hour writes at $8.00 per million tokens. Fact: The context window is 1,000,000 tokens with 128,000 maximum output tokens. Fact: Adaptive thinking is locked on and governed by the `effort` parameter. Fact: Fast mode is available on Anthropic API at $8.00 input and $40.00 output per million tokens. Fact: Claude Sonnet 5.5 and Claude Haiku 5.5 have not yet shipped and are scheduled for coming weeks.",
+            "Prediction: Development teams running large automated coding agents will rapidly migrate from Opus 5 to Opus 5.5 to capture the 40 percent net task savings. Prediction: Independent benchmark aggregators will evaluate Opus 5.5 directly against GPT-6 Sol in long-horizon coding environments over the next week. Prediction: Subscription users will heavily utilize the newly provided rate limit resets during high-intensity deployment cycles. Do not treat benchmark claims on synthetic tests as identical to real-world repository maintenance, and do not confuse Opus 5.5 with unreleased Sonnet 5.5."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch for independent benchmark verification from Artificial Analysis and SWE-bench testing Opus 5.5 against GPT-6 Sol and [DeepSeek V4.1 Reasoning Cache](/blog/deepseek-v4-1-reasoning-cache-pricing) in real agent loops. Watch for Anthropic rollout of Claude Sonnet 5.5 and Claude Haiku 5.5 in the coming weeks to complete the 5.5 model family tier. Watch enterprise adoption metrics across Amazon Bedrock, Google Cloud, and Microsoft Foundry. And watch how competing frontier labs adjust their prompt caching economics as low-cost reasoning tokens become the standard battleground for autonomous coding agents."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Claude Opus 5.5? Claude Opus 5.5 is Anthropic frontier AI model released on 23 September 2026, serving as the debut release of the Claude 5.5 generation. It is built for complex coding, reasoning, and long-horizon agentic workflows, featuring a 1,000,000-token context window and locked adaptive thinking.",
+            "How much does Claude Opus 5.5 cost? Claude Opus 5.5 costs $4.00 per million input tokens and $20.00 per million output tokens on the standard API tier. Prompt cache reads cost $0.20 per million tokens, 5-minute cache writes cost $5.00, and 1-hour cache writes cost $8.00. Fast mode is available at $8.00 input and $40.00 output per million tokens.",
+            "Is Claude Opus 5.5 better than Claude Opus 5? Yes. Anthropic benchmarks report a 66.4 percent score on Terminal-Bench 4.0 compared to 59.2 percent for Opus 5, alongside faster token generation and approximately 40 percent lower overall cost per task on agentic workloads.",
+            "Can you turn off thinking in Claude Opus 5.5? No. Adaptive thinking is permanently enabled in Claude Opus 5.5 and cannot be disabled. Developers control reasoning depth using the `effort` parameter, which defaults to `medium`.",
+            "Is Claude Fable 5.1 replaced by Opus 5.5? No. Claude Fable 5.1 remains Anthropic top-tier flagship model priced at $10.00 input and $50.00 output per million tokens. Opus 5.5 offers comparable practical performance on most tasks at roughly 40 percent of the cost.",
+            "Where is Claude Opus 5.5 available? Claude Opus 5.5 is available on the first-party Claude API, claude.ai for subscribers, Amazon Bedrock, Google Cloud, and Microsoft Foundry under model ID `claude-opus-5-5`."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "deepseek-v4-1-reasoning-cache-pricing",
       "title": "DeepSeek V4.1 Reasoning Cache: 75% Off Thought Prefixes, Not V5",
       "excerpt": "DeepSeek rolled out Reasoning Cache on its API today, cutting reused chain-of-thought input tokens by 75 percent. Base input stays $0.27 and output stays $1.10. The 256-token minimum prefix targets multi-turn agents. It is an ephemeral caching discount, not DeepSeek V5.",
