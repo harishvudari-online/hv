@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AWS Trainium3 UltraServer Release Briefing</title>
+  <desc id="desc">Illustration of AWS Trainium3 UltraServer as of 24 September 2026: Annapurna Labs 3nm silicon, 64-chip liquid-cooled UltraServer, EC2 Trn3 instances preview, 4x FP8 FLOPS over Trainium2, distinct from Trainium2 Trn2 and Inferentia.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#FF9900" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#00C2FF" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#FF9900" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">AWS Trainium3: 3nm UltraServer Preview, Not Trn2</text>
+  <text x="118" y="168" fill="#FFB84D" font-family="Inter, Arial, sans-serif" font-size="18">AWS Annapurna Labs  |  24 Sep 2026  |  EC2 Trn3 Preview  |  64-Chip Liquid-Cooled UltraServer</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Trainium3 Silicon</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">3nm process node</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">4x FP8 training FLOPS</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Native FP4, FP8, BF16</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">3x memory bandwidth</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Direct liquid cooling</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#FF9900" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#FF9900" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">UltraServer Fabric</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">64-chip dense topology</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">NeuronLink-v3 interconnect</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Petabit scale cross-connect</text>
+  <text x="472" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Up to 1M chips in UltraCluster</text>
+  <text x="472" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">EC2 trn3.64xlarge preview</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What It Is Not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not Trainium2 Trn2 GA</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not Inferentia3 inference ASIC</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not on-premises OEM hardware</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Not Nvidia GB200 NVL72</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Preview access by application</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score a live custom silicon preview. AWS Trainium3 delivers 4x compute density for frontier training.</text>
+  <text x="118" y="542" fill="#FFB84D" font-family="Inter, Arial, sans-serif" font-size="16">Do not treat the 64-chip UltraServer preview as immediate general availability across all EC2 regions.</text>
+</svg>
