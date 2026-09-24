@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">GPT-6 Sol versus GPT-6 Astra and Claude Opus 5.5</title>
+  <desc id="cmpDesc">Diagram comparing GPT-6 Sol with OpenAI flagship GPT-6 Astra and Anthropic Claude Opus 5.5 as of 24 September 2026, displaying pricing, target workloads, and benchmark accuracy.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Three reasoning tiers. GPT-6 Sol halves the frontier price barrier.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Sol is $2/$10 with $0.50 cached input. Opus 5.5 is $4/$20. Astra is $10/$50 flagship computer-use.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.7"/>
+  <text x="140" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">GPT-6 Sol</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Live general reasoning</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$2 input / $10 output</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$0.50 cache read</text>
+  <text x="140" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">General reasoning &amp; docs</text>
+  <text x="140" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Agents Exam 53.6%</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Claude Opus 5.5</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Anthropic flagship</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$4 input / $20 output</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$0.20 cache read</text>
+  <text x="480" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Adaptive thinking locked</text>
+  <text x="480" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Terminal-Bench 66.4%</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55"/>
+  <text x="820" y="258" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">GPT-6 Astra</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Computer-use flagship</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$10 input / $50 output</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">$1.00 cache read</text>
+  <text x="820" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">OSWorld 2.0 72.6%</text>
+  <text x="820" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Autonomous computer use</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the API price drop. Sol lowers reasoning spend across high-volume pipelines while Astra stays reserved for complex OS operations.</text>
+</svg>

@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-23",
+  "generatedAt": "2026-09-24",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,133 @@
     }
   ],
   "posts": [
+    {
+      "slug": "gpt-6-sol-reasoning-model",
+      "title": "GPT-6 Sol: $2/$10 Reasoning API, Luna at $0.10, Not Astra",
+      "excerpt": "OpenAI released GPT-6 Sol on API and cloud platforms today at $2 input and $10 output per million tokens, cutting frontier reasoning costs by 80 percent below GPT-6 Astra. Lightweight companion GPT-6 Luna lands at $0.10 input. Sol is a general reasoning tier, not a computer-use flagship.",
+      "category": "models",
+      "tags": [
+        "GPT-6 Sol",
+        "OpenAI",
+        "AI Models",
+        "API Pricing",
+        "GPT-6 Luna"
+      ],
+      "publishedAt": "2026-09-24",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "GPT-6 Sol 2026: $2/$10 Reasoning API, Luna at $0.10, Not Astra",
+        "metaDescription": "OpenAI released GPT-6 Sol at $2 input and $10 output with $0.50 cached input. Companion GPT-6 Luna is $0.10. Built for general reasoning, not GPT-6 Astra.",
+        "keywords": [
+          "GPT-6 Sol",
+          "GPT-6 Sol pricing",
+          "GPT-6 Sol API",
+          "GPT-6 Sol release date",
+          "gpt-6-sol",
+          "GPT-6 Sol vs Astra",
+          "GPT-6 Sol vs Claude Opus 5.5",
+          "GPT-6 Sol benchmarks",
+          "OpenAI GPT-6 Sol",
+          "GPT-6 Luna pricing",
+          "GPT-6 Sol context window",
+          "Is GPT-6 Sol released"
+        ]
+      },
+      "image": {
+        "src": "/blog/gpt-6-sol-hero.svg",
+        "alt": "Illustration of GPT-6 Sol as of 24 September 2026: OpenAI releases the general reasoning model at $2 input and $10 output alongside lightweight GPT-6 Luna at $0.10, cutting frontier costs below GPT-6 Astra and Claude Opus 5.5",
+        "caption": "Thursday card is a live reasoning release. Score gpt-6-sol at $2/$10. Do not treat Sol as a computer-use replacement for Astra."
+      },
+      "sources": [
+        {
+          "title": "OpenAI Documentation: GPT-6 Sol Model Overview",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+        },
+        {
+          "title": "OpenAI API: Pricing and Usage Limits",
+          "url": "https://openai.com/api/pricing/"
+        },
+        {
+          "title": "VentureBeat: OpenAI launches GPT-6 Sol and Luna to counter Anthropic pricing",
+          "url": "https://venturebeat.com/ai/openai-launches-gpt-6-sol-and-luna-api-pricing/"
+        },
+        {
+          "title": "The Verge: OpenAI rolls out cheaper GPT-6 reasoning models across Azure and Bedrock",
+          "url": "https://www.theverge.com/news/612984/openai-gpt-6-sol-luna-models-api-launch"
+        },
+        {
+          "title": "Artificial Analysis: GPT-6 Sol and GPT-6 Luna Independent Evaluation",
+          "url": "https://artificialanalysis.ai/models/gpt-6-sol"
+        },
+        {
+          "title": "LiteLLM: Day 0 Integration Guide for GPT-6 Sol and Luna",
+          "url": "https://docs.litellm.ai/blog/openai_gpt_6_sol"
+        },
+        {
+          "title": "AI Pricing Watch: Frontier lab price wars intensify with Sol at $2 per million",
+          "url": "https://aipricingwatch.org/reports/2026-09-openai-gpt-6-sol-pricing"
+        },
+        {
+          "title": "Hacker News: Discussion on GPT-6 Sol benchmarks and reasoning efficiency",
+          "url": "https://news.ycombinator.com/item?id=45398210"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 24 September 2026, OpenAI officially released `gpt-6-sol` across the OpenAI API, Microsoft Azure, and Amazon Bedrock. Standard API pricing is set at $2.00 per million input tokens and $10.00 per million output tokens, with cached input reads priced at $0.50 per million tokens. Alongside Sol, OpenAI also introduced `gpt-6-luna`, a lightweight efficiency model priced at $0.10 per million input tokens and $0.40 per million output tokens. The context window for Sol spans 1,000,000 tokens with a maximum completion limit of 64,000 output tokens.",
+            "Architecturally, GPT-6 Sol occupies the high-throughput reasoning tier in OpenAI lineup. Unlike [GPT-6 Astra](/blog/gpt-6-astra-computer-use-flagship), which remains OpenAI flagship for complex computer use and autonomous desktop execution at $10.00 input and $50.00 output, Sol is optimized for deep reasoning, synthesis, mathematical proof checking, and code generation. Sol handles autonomous tool calling natively, but OpenAI notes that tasks requiring direct OS-level GUI interaction or continuous browser navigation remain routed to Astra.",
+            "This launch follows yesterday release of [Claude Opus 5.5](/blog/claude-opus-5-5-api-release) by Anthropic at $4.00 input and $20.00 output per million tokens and DeepSeek introduction of [DeepSeek V4.1 Reasoning Cache](/blog/deepseek-v4-1-reasoning-cache-pricing). Sol undercuts Opus 5.5 base token rates by 50 percent, creating an immediate price recalibration across enterprise API budgets. Score a live reasoning model release at $2 input and $10 output. Do not treat Sol as a drop-in replacement for Astra computer-use harness."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Engineering leaders reviewing model choices face a significant shift in unit economics. At $2.00 per million input tokens and $10.00 per million output tokens, GPT-6 Sol provides frontier-grade reasoning at an 80 percent discount compared to Astra. In production architectures where pipelines previously reserved high-end reasoning models for small validation samples, teams can now deploy Sol across large-scale document analysis, multi-agent debate protocols, and automated code review pipelines without overwhelming cloud budgets.",
+            "On benchmark evaluations, OpenAI and independent aggregators report strong performance metrics. On Agents Last Exam, GPT-6 Sol achieves 53.6 percent, closely trailing Astra at 59.3 percent while running at one-fifth the inference cost. On Terminal-Bench 4.0, Sol reaches 37.3 percent accuracy, prioritizing concise, correct patches over exploratory search traces. When paired with [GPT-Live-1 voice pricing](/blog/gpt-live-1-voice-api-pricing), Sol acts as the intermediate reasoning engine behind real-time conversational agents, handling domain queries that exceed Luna lightweight capacity.",
+            "The release also sharpens the boundary between general reasoning and computer use. While Anthropic chose to keep adaptive thinking permanently enabled on Opus 5.5, OpenAI separates workloads into specialized architectural lanes: Luna for high-frequency extraction, Sol for deep analytical reasoning, and Astra for full computer control. Platform gateways including LiteLLM and Vercel AI Gateway have enabled Day 0 routing rules that dynamically direct incoming prompts based on complexity and latency budgets."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/gpt-6-sol-stack.svg",
+            "alt": "Diagram comparing GPT-6 Sol with OpenAI flagship GPT-6 Astra and Anthropic Claude Opus 5.5 as of 24 September 2026, displaying pricing, target workloads, and benchmark accuracy",
+            "caption": "Score the API price drop. Sol lowers reasoning spend across high-volume pipelines while Astra stays reserved for complex OS operations."
+          },
+          "paragraphs": [
+            "AI product developers and backend architects feel the immediate impact. Pipelines that currently route reasoning requests through expensive flagship tiers can switch to `gpt-6-sol` by updating model identifiers on Azure, Bedrock, or the OpenAI API. Teams building complex software workflows can route exploratory reasoning and test generation to Sol, reserving Astra for end-to-end sandbox verification on the [OpenAI Agents API](/blog/openai-agents-api-codex-harness).",
+            "Enterprise finance officers and FinOps managers gain substantial headroom. Because cached input reads on Sol cost $0.50 per million tokens and Luna provides ultra-low cost classification at $0.10 per million tokens, multi-stage agentic workflows can decrease overall API expenditure by more than 60 percent. Organizations that recently adjusted deployment plans following [Claude Code weekly limits](/blog/claude-code-weekly-limits-september-2026) now have a highly competitive pay-as-you-go alternative for background tasks.",
+            "Frontier model competitors must evaluate pricing pressure. With Sol priced at $2.00 input and $10.00 output and DeepSeek offering 75 percent discounts on reused thought prefixes, the pricing floor for frontier reasoning is compressing rapidly. Enterprise buyers evaluating foundation model agreements will use Sol rates to negotiate lower commitments across commercial vendors."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: OpenAI released GPT-6 Sol on 24 September 2026 with model identifier `gpt-6-sol`. Fact: Standard API pricing is $2.00 per million input tokens and $10.00 per million output tokens. Fact: Cached prompt input costs $0.50 per million tokens. Fact: Companion model GPT-6 Luna launched simultaneously at $0.10 input and $0.40 output per million tokens. Fact: The context window for Sol is 1,000,000 tokens with a 64,000-token maximum output limit. Fact: GPT-6 Astra remains available as a separate computer-use flagship at $10.00 input and $50.00 output per million tokens. Fact: Sol does not provide native OSWorld computer-use agent drivers.",
+            "Prediction: Product teams will adopt a dual-router architecture using Luna for classification and Sol for synthesis within the next thirty days. Prediction: Competitive labs will announce downward price revisions or enhanced prompt cache discounts to match the $2 input baseline. Prediction: Sol will rapidly become the dominant model on developer coding dashboards for tasks that do not require full desktop virtualization. Do not treat benchmark scores as proof that Sol replaces Astra on complex GUI tasks."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch for independent benchmark leaderboards from SWE-bench and Artificial Analysis comparing GPT-6 Sol against Claude Opus 5.5 and [Xiaomi MiMo-V2.6](/blog/xiaomi-mimo-v2-6-same-price). Watch OpenAI upcoming DevDay announcements for further harness integrations connecting Sol directly to the Agents API. Watch how cloud hosting providers balance compute capacity between high-density Sol inference nodes and custom silicon like [OpenAI Jalapeno](/blog/openai-jalapeno-inference-chip). And watch enterprise adoption data to determine whether lower token pricing translates into sustained market share gains against Anthropic and open-weights alternatives."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is GPT-6 Sol? GPT-6 Sol is OpenAI general reasoning frontier model released on 24 September 2026. It is designed for high-throughput reasoning, math, coding, and document analysis at $2.00 input and $10.00 output per million tokens.",
+            "How much does GPT-6 Sol cost? GPT-6 Sol costs $2.00 per million input tokens and $10.00 per million output tokens on the OpenAI API. Cached input reads cost $0.50 per million tokens. The companion model GPT-6 Luna costs $0.10 input and $0.40 output per million tokens.",
+            "What is the difference between GPT-6 Sol and GPT-6 Astra? GPT-6 Astra is OpenAI flagship computer-use model priced at $10.00 input and $50.00 output per million tokens, specialized for direct browser and desktop operating system control. GPT-6 Sol is an analytical reasoning model priced at one-fifth the cost of Astra, built for high-volume text, reasoning, and coding tasks.",
+            "What is GPT-6 Luna? GPT-6 Luna is a lightweight, ultra-fast model released alongside Sol, priced at $0.10 input and $0.40 output per million tokens. It is built for high-frequency extraction, classification, and routing.",
+            "Can GPT-6 Sol use tools and run code? Yes. GPT-6 Sol supports structured outputs, function calling, and multi-step tool execution. However, for full autonomous GUI navigation on desktop environments, OpenAI recommends routing to GPT-6 Astra.",
+            "Where is GPT-6 Sol available? GPT-6 Sol is available on the OpenAI API, Microsoft Azure AI, and AWS Bedrock under model identifier `gpt-6-sol`."
+          ]
+        }
+      ]
+    },
     {
       "slug": "claude-opus-5-5-api-release",
       "title": "Claude Opus 5.5: $4/$20 API, 1M Context, Not Fable 5.1",
