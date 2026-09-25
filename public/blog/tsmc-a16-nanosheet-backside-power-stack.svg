@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">TSMC A16 versus TSMC N2P and Intel 14A Node Comparison</title>
+  <desc id="cmpDesc">Diagram comparing TSMC A16 node specifications with TSMC N2P and Intel 14A as of 25 September 2026, comparing power delivery, nanosheet design, performance deltas, and risk production dates.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Three advanced foundry nodes. TSMC A16 separates power and signal.</text>
+  <text x="110" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">A16 debuts Super Power Rail for AI silicon. N2P uses frontside power. Intel 14A targets PowerVia.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.7"/>
+  <text x="140" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">TSMC A16</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">1.6nm class nanosheet</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Super Power Rail (SPR)</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">+8-10% speed vs N2P</text>
+  <text x="140" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">-15-20% power vs N2P</text>
+  <text x="140" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">H2 2026 risk production</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">TSMC N2P</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">2nm enhanced nanosheet</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Frontside power delivery</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Baseline high-volume node</text>
+  <text x="480" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Standard interconnect stack</text>
+  <text x="480" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">2026 volume production</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55"/>
+  <text x="820" y="258" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Intel 14A</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">1.4nm class node</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">PowerVia backside delivery</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">High NA EUV lithography</text>
+  <text x="820" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">Intel Foundry Services</text>
+  <text x="820" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">2027 planned production</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the power architecture. A16 relocates power lines to the backside wafer, leaving the front metal stack free for complex AI routing.</text>
+</svg>

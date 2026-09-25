@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TSMC A16 Nanosheet AI silicon production briefing</title>
+  <desc id="desc">Editorial illustration of TSMC advancing A16 1.6nm nanosheet silicon to H2 2026 risk production with Super Power Rail backside power delivery for hyperscale AI accelerators.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#00C2FF" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#7CFFB2" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">TSMC A16: 1.6nm Nanosheet Node, Super Power Rail, Not N2</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">TSMC  |  25 Sep 2026  |  A16 Process  |  Backside Power Delivery  |  Not N2 or N2P</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">A16 specifications</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">1.6nm class nanosheet</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Super Power Rail (SPR)</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">8-10% speed gain vs N2P</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">15-20% lower power vs N2P</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Up to 1.10x chip density</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Target workloads</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">AI training accelerators</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Hyperscale inference dies</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Backside power rail routing</text>
+  <text x="472" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Frontside dedicated to signals</text>
+  <text x="472" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">High-voltage drop mitigation</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not N2 or N2P (standard rail)</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not High NA EUV tool line</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not consumer phone silicon</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Not commercial tapeouts yet</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">H2 2026 risk production</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score a foundry architecture update. TSMC A16 introduces backside power delivery for AI accelerators. Do not treat A16 as a baseline N2 shrink.</text>
+  <text x="118" y="542" fill="#1BE7FF" font-family="Inter, Arial, sans-serif" font-size="16">Process node A16 is targeted at AI supercomputing accelerators with mass production slated for 2027.</text>
+</svg>
