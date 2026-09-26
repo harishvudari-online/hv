@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/category/tools</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/salesforce-agentforce-hunter-outbound-sales-ga</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harishvudari.online/blog/google-deepmind-flash-diffusion-sparse-distillation</loc>
