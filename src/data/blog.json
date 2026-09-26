@@ -38,6 +38,132 @@
   ],
   "posts": [
     {
+      "slug": "salesforce-agentforce-hunter-outbound-sales-ga",
+      "title": "Salesforce Agentforce Hunter: GA Outbound Sales Agent, Not Casey or Piper",
+      "excerpt": "Salesforce launched Agentforce Hunter into general availability today across Einstein 1, delivering an autonomous outbound SDR agent capable of multi-week account research and email prospecting. Hunter runs on Salesforce long-horizon durable runtime at $2 per conversation. It is a specialized outbound sales agent, not customer support.",
+      "category": "tools",
+      "tags": [
+        "Salesforce Agentforce",
+        "Agentforce Hunter",
+        "AI Agents",
+        "Autonomous SDR",
+        "Einstein 1",
+        "B2B Sales Tech"
+      ],
+      "publishedAt": "2026-09-26",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Agentforce Hunter GA 2026: Outbound Sales Agent, Not Casey",
+        "metaDescription": "Salesforce rolled out Agentforce Hunter into GA on Einstein 1. Multi-week outbound SDR agent executes research, email cadence, and CRM booking at $2/convo.",
+        "keywords": [
+          "Salesforce Agentforce Hunter",
+          "Agentforce Hunter GA",
+          "Agentforce Hunter pricing",
+          "Agentforce Hunter release date",
+          "Salesforce autonomous SDR",
+          "Agentforce Hunter vs Casey",
+          "Agentforce Hunter vs Piper",
+          "Agentforce long-horizon runtime",
+          "Salesforce AI sales agent",
+          "Is Agentforce Hunter available"
+        ]
+      },
+      "image": {
+        "src": "/blog/salesforce-agentforce-hunter-sales-hero.svg",
+        "alt": "Editorial illustration of Salesforce Agentforce Hunter achieving general availability on 26 September 2026: autonomous outbound prospecting and long-horizon runtime on Einstein 1, distinct from Casey and Piper",
+        "caption": "Saturday enterprise tools briefing covers autonomous SDR general availability. Hunter brings persistent multi-week prospecting to Salesforce CRM."
+      },
+      "sources": [
+        {
+          "title": "Salesforce Newsroom: Salesforce Announces General Availability of Agentforce Hunter Outbound Sales Agent",
+          "url": "https://www.salesforce.com/news/press-releases/2026/09/26/agentforce-hunter-sales-general-availability/"
+        },
+        {
+          "title": "Salesforce Documentation: Agentforce Hunter Capabilities, Setup, and Atlas Guardrails",
+          "url": "https://help.salesforce.com/s/articleView?id=sf.agentforce_hunter_overview.htm"
+        },
+        {
+          "title": "VentureBeat: Salesforce launches Agentforce Hunter to automate enterprise outbound sales pipelines",
+          "url": "https://venturebeat.com/ai/salesforce-agentforce-hunter-general-availability-autonomous-sdr/"
+        },
+        {
+          "title": "TechCrunch: Salesforce puts autonomous sales rep Hunter into GA on Einstein 1 at $2 per conversation",
+          "url": "https://techcrunch.com/2026/09/26/salesforce-agentforce-hunter-autonomous-sdr-ga/"
+        },
+        {
+          "title": "Forbes: Why Agentforce Hunter Marks a Turning Point for Autonomous B2B Revenue Workflows",
+          "url": "https://www.forbes.com/sites/technology/2026/09/26/salesforce-agentforce-hunter-b2b-autonomous-sales/"
+        },
+        {
+          "title": "Constellation Research: Market Evaluation of Salesforce Agentforce Job-Ready Agent Ecosystem",
+          "url": "https://www.constellationr.com/research/salesforce-agentforce-job-ready-agents-hunter-evaluation"
+        },
+        {
+          "title": "Gartner Research: Emerging Tech Impact Radar for Autonomous Enterprise Sales Agents",
+          "url": "https://www.gartner.com/en/documents/2026-09-autonomous-sales-agents-agentforce"
+        },
+        {
+          "title": "Hacker News: Technical discussion on Salesforce long-horizon durable runtime for Agentforce",
+          "url": "https://news.ycombinator.com/item?id=45423810"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 26 September 2026, Salesforce officially launched Agentforce Hunter into general availability (GA) across all global instances of the Einstein 1 Platform. Initially previewed at Dreamforce as a pilot prototype, Hunter is Salesforce first autonomous outbound sales development representative (SDR) agent designed to execute multi-week, account-level prospecting campaigns without requiring continuous human prompt steering.",
+            "Architecturally, Hunter is powered by Salesforce long-horizon durable runtime, which provides stateful memory and autonomous task execution across days and weeks. Rather than operating as a single-turn chatbot, Hunter ingests CRM account lists, queries unified Customer 360 signals via Data Cloud, researches company earnings transcripts and executive movements, generates hyper-personalized outreach sequences, and manages multi-stage email follow-up cadences. When a qualified prospect expresses interest, Hunter checks account executive calendars and automatically schedules discovery meetings directly inside Sales Cloud.",
+            "Hunter is billed under standard Agentforce commercial pricing at $2.00 per agent conversation, with volume enterprise tier commitments available. This release represents a specialized outbound sales agent. It is not Casey, Salesforce customer service resolution agent, and it is not Piper, the inbound lead qualification bot that responds reactively to website form fills. Both [Salesforce Agentforce job-ready agents](/blog/salesforce-agentforce-job-ready-agents) launched earlier, but Hunter is the first agent equipped with durable multi-week autonomous execution loops."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "B2B revenue teams face structural pipeline constraints as traditional cold email automation suffers from declining response rates and strict mailbox filtering. Unlike legacy sales engagement platforms that blast static templates, Hunter operates as an intelligent researcher: it evaluates buyer intent signals, recent company news, and previous CRM notes before drafting bespoke communications tailored to each recipient executive pain points.",
+            "The transition from pilot to general availability addresses long-standing reliability and trust concerns surrounding autonomous outreach. Salesforce deployed enhanced Atlas Trust policies inside Hunter to enforce strict governance guardrails. Hunter cannot initiate unapproved external communications without adhering to company-defined domain whitelists, sentiment boundaries, and rate limits. Furthermore, when prospects request technical details or raise contract objections that exceed Hunter pre-approved knowledge base, the runtime gracefully hands off the conversation trace to assigned human account executives.",
+            "The deployment also demonstrates how enterprise application layers leverage foundational reasoning advances. While foundation lab releases such as [GPT-6 Sol](/blog/gpt-6-sol-reasoning-model) and [Claude Opus 5.5](/blog/claude-opus-5-5-api-release) push down unit inference costs and extend context windows, enterprise adoption hinges on deep integration with proprietary business context. By embedding autonomous SDR capabilities directly on top of trusted CRM databases, Salesforce enables revenue teams to activate frontier agent technology without duct-taping third-party vector databases or fragile scraping scripts."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/salesforce-agentforce-hunter-sales-stack.svg",
+            "alt": "Diagram comparing Salesforce Agentforce Hunter with Casey and Piper as of 26 September 2026, illustrating execution horizons, trigger workflows, and CRM outcomes",
+            "caption": "Score the sales engineering workflow. Hunter executes multi-channel prospecting across days, bridging CRM data directly to booked discovery calls."
+          },
+          "paragraphs": [
+            "Enterprise sales development leaders and Chief Revenue Officers feel the primary impact. Sales organizations can deploy Hunter to reactivate dormant accounts in CRM pipelines, generate incremental qualified pipeline for account executives, and reduce manual prospecting grunt work. Revenue operations teams must configure Atlas Trust rules, territory assignments, and handoff triggers in Sales Cloud before activating campaigns.",
+            "Third-party sales tech vendors face sharp competitive headwinds. Standalone AI SDR startups and legacy sales engagement platforms that rely on shallow API wrappers must compete against native CRM integration where lead scoring, email sending, meeting booking, and compliance tracking occur within a single unified platform. Buyers already committed to Salesforce Einstein 1 can activate Hunter with native security and procurement clearance.",
+            "Workplace workforce planners sit one layer out. The arrival of production-grade autonomous SDRs accelerates discussions around [AI jobs and economic scenarios](/blog/anthropic-ai-jobs-2030-econ-scenarios) and corporate restructuring initiatives like [Meta Project OT](/blog/meta-project-ot-ai-job-cuts). Forward-looking sales organizations are shifting junior sales roles from manual email composition toward strategic account mapping, complex deal orchestration, and high-touch customer relationship management."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Salesforce announced the general availability of Agentforce Hunter on 26 September 2026 on the Einstein 1 Platform. Fact: Hunter is an autonomous outbound SDR agent capable of multi-week prospecting campaigns. Fact: Standard pricing is $2.00 per agent conversation. Fact: Hunter integrates natively with Sales Cloud, Data Cloud, and the long-horizon durable runtime. Fact: The agent includes automated calendar scheduling and human account executive handoff protocols. Fact: Hunter is an outbound sales agent and does not replace human account executives during live contract negotiations.",
+            "Prediction: Over 35 percent of Salesforce enterprise Sales Cloud customers will pilot Agentforce Hunter for outbound prospecting before Q1 2027. Prediction: Sales organizations utilizing Hunter will increase booked pipeline per quota-carrying account executive by 20 to 30 percent while reducing SDR headcount turnover. Prediction: Competitive CRM vendors including HubSpot and Microsoft Dynamics will accelerate releases of their own native autonomous outbound agents within the next two quarters. Do not mistake an autonomous SDR for a completely hands-off sales department."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch customer case studies from early GA adopters measuring real-world lead conversion rates and email deliverability scores under Hunter automated cadences. Watch how corporate email providers like Google Workspace and Microsoft 365 adjust spam detection heuristics as autonomous outbound volume expands. Watch for Salesforce upcoming quarterly release updates expanding Hunter multi-lingual prospecting capabilities across European and Asian markets. And watch whether enterprise procurement teams standardize on the $2.00 per conversation metric or negotiate customized outcome-based pricing models tied to booked pipeline."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Salesforce Agentforce Hunter? Agentforce Hunter is an autonomous outbound sales development representative (SDR) agent developed by Salesforce, reaching general availability on 26 September 2026. Built on the Einstein 1 Platform, it conducts autonomous account research, executes multi-week email sequences, and books meetings for sales teams.",
+            "How much does Agentforce Hunter cost? Agentforce Hunter is priced under the standard Agentforce billing rate of $2.00 per agent conversation on Salesforce Einstein 1, with enterprise volume commitment packages available through Sales Cloud licensing.",
+            "What is the difference between Agentforce Hunter, Casey, and Piper? Hunter is a proactive outbound sales agent that conducts multi-week prospecting campaigns. Casey is a customer support agent that resolves inbound service tickets. Piper is an inbound SDR that qualifies website leads immediately after form submission.",
+            "How does Hunter prevent sending unauthorized emails? Hunter operates within Salesforce Atlas Trust boundaries, strictly adhering to enterprise-configured domain whitelists, sentiment parameters, send volume caps, and human-in-the-loop escalation rules.",
+            "Does Agentforce Hunter replace human sales representatives? No. Hunter automates initial top-of-funnel account research, email outreach, and meeting scheduling, handing qualified prospects off to human account executives for live discovery calls and deal closing.",
+            "Where is Agentforce Hunter available? Agentforce Hunter is generally available globally on the Salesforce Einstein 1 Platform across US and European cloud regions starting 26 September 2026."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "google-deepmind-flash-diffusion-sparse-distillation",
       "title": "Google DeepMind FlashDiffusion: 2-Step Sparse Distillation, Not Gemini 3.8",
       "excerpt": "Google DeepMind published FlashDiffusion today, introducing a 2-step sparse latent distillation technique that slashes high-resolution image and video generation latency by 85 percent while matching full-trajectory diffusion fidelity. It is a research distillation framework, not a standalone model release.",
