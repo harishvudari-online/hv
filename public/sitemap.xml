@@ -2,13 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://harishvudari.online/</loc>
+<<<<<<< HEAD
     <lastmod>2026-09-26</lastmod>
+=======
+    <lastmod>2026-09-25</lastmod>
+>>>>>>> origin/main
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://harishvudari.online/blog</loc>
+<<<<<<< HEAD
     <lastmod>2026-09-26</lastmod>
+=======
+    <lastmod>2026-09-25</lastmod>
+>>>>>>> origin/main
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -26,7 +34,7 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/category/chips</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -61,8 +69,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+  <url>
     <loc>https://harishvudari.online/blog/google-deepmind-flash-diffusion-sparse-distillation</loc>
     <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/aws-trainium3-ultraserver-preview</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/tsmc-a16-nanosheet-backside-power</loc>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
