@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cerebras CS-3 Condor Galaxy 64-Wafer AI Supercomputer Briefing</title>
+  <desc id="desc">Editorial illustration of Cerebras Systems activating the 64-wafer CS-3 Condor Galaxy cluster on 28 September 2026: 256 exaflops AI compute, 57.6 million cores, and 76.8 petabytes per second wafer interconnect.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#FF5500" fill-opacity="0.14"/>
+  <circle cx="1080" cy="560" r="250" fill="#00C2FF" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#FF5500" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Cerebras CS-3 Wafer Scale: 64-System Cluster, 256 Exaflops, Not NVIDIA</text>
+  <text x="118" y="168" fill="#FF884D" font-family="Inter, Arial, sans-serif" font-size="18">Cerebras Systems &amp; G42  |  28 Sep 2026  |  Chips Category  |  Live Deployment  |  Not NVL72</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#FF5500" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#FF5500" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Wafer-scale silicon</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">64 CS-3 systems interconnected</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">WSE-3 5nm wafer engine</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">57.6M AI-optimized cores</text>
+  <text x="142" y="412" fill="#FFB088" font-family="Inter, Arial, sans-serif" font-size="14">2.81 TB on-chip SRAM pool</text>
+  <text x="142" y="436" fill="#FFB088" font-family="Inter, Arial, sans-serif" font-size="14">Direct water cooling manifold</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Performance &amp; Fabric</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">256 exaflops AI FP16/FP8</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">76.8 PB/s fabric bandwidth</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">SwarmX cluster interconnect</text>
+  <text x="472" y="412" fill="#A7FFD0" font-family="Inter, Arial, sans-serif" font-size="14">1.2 TB external MemoryX tier</text>
+  <text x="472" y="436" fill="#A7FFD0" font-family="Inter, Arial, sans-serif" font-size="14">Linear scaling without tensor MP</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not NVIDIA GB200 NVL72</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not discrete merchant GPU cards</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not standard PCIe server chassis</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Not hyperscaler internal ASIC</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Dedicated wafer cloud footprint</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score a wafer-scale computing milestone. Cerebras brings 64 full silicon wafers together for single-job frontier AI training.</text>
+  <text x="118" y="542" fill="#FF884D" font-family="Inter, Arial, sans-serif" font-size="16">Condor Galaxy achieves live multi-wafer execution without traditional pipeline or tensor parallelism complexity.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">Cerebras CS-3 Condor Galaxy vs NVIDIA GB200 NVL72 and AWS Trainium3</title>
+  <desc id="cmpDesc">Architectural comparison of Cerebras CS-3 64-wafer cluster with NVIDIA GB200 NVL72 and AWS Trainium3 UltraServer as of 28 September 2026, comparing form factor, compute density, memory tiering, and parallel programming models.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#FF5500" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">AI Cluster Paradigms: Wafer-Scale Mesh vs GPU NVLink Rack</text>
+  <text x="110" y="168" fill="#FF884D" font-family="Inter, Arial, sans-serif" font-size="18">Cerebras Condor Galaxy deploys 64 whole wafers with disaggregated memory, bypassing GPU distributed complexity.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#FF5500" stroke-opacity="0.7"/>
+  <text x="140" y="258" fill="#FF5500" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Cerebras CS-3 Cluster</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">64 Wafer-Scale Engines</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">57.6M AI processor cores</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">256 Exaflops AI compute</text>
+  <text x="140" y="406" fill="#FFB088" font-family="Inter, Arial, sans-serif" font-size="15">2.81 TB SRAM + MemoryX</text>
+  <text x="140" y="440" fill="#FFB088" font-family="Inter, Arial, sans-serif" font-size="15">Pure data-parallel runtime</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">NVIDIA GB200 NVL72</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Merchant GPU Standard</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">72 Blackwell GPUs in rack</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">144 PFLOPs FP8 compute</text>
+  <text x="480" y="406" fill="#A7FFD0" font-family="Inter, Arial, sans-serif" font-size="15">13.5 TB high-bandwidth HBM3e</text>
+  <text x="480" y="440" fill="#A7FFD0" font-family="Inter, Arial, sans-serif" font-size="15">Complex 4D parallelism</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55"/>
+  <text x="820" y="258" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">AWS Trainium3</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">Hyperscaler Custom ASIC</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">64 Trainium3 chips per rack</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">96 PFLOPs FP8 compute</text>
+  <text x="820" y="406" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">1.5 TB HBM3e (24.8 TB/s)</text>
+  <text x="820" y="440" fill="#9BD6EC" font-family="Inter, Arial, sans-serif" font-size="15">NeuronLink v3 cloud fabric</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the supercomputing trade-off. Wafer scale offers simplicity and extreme throughput, while merchant GPUs maintain flexible ecosystem dominance.</text>
+</svg>
