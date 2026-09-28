@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Google DeepMind Genie 3 Interactive World Model Briefing</title>
+  <desc id="desc">Editorial illustration of Google DeepMind releasing Genie 3 on 28 September 2026: a 16-billion parameter interactive world model generating 720p 30fps environments in real time with continuous physics and latent action conditioning.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#2DAEDC" fill-opacity="0.16"/>
+  <circle cx="1080" cy="560" r="250" fill="#7CFFB2" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Google Genie 3: 16B Interactive World Model, 720p 30fps, Not Genie 2</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">Google DeepMind  |  28 Sep 2026  |  Research Category  |  Latent Action Conditioning  |  Live Research Weights</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">World Model Engine</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">16B parameter diffusion transformer</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Real-time 720p 30fps generation</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Sub-50ms action-to-frame latency</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Continuous physics simulation</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Multi-camera persistent memory</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Training &amp; Policy</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Unsupervised latent action space</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Robotics &amp; agent training simulator</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Zero-shot sim-to-real transfer</text>
+  <text x="472" y="412" fill="#A7FFD0" font-family="Inter, Arial, sans-serif" font-size="14">Auto-regressive latent rollout</text>
+  <text x="472" y="436" fill="#A7FFD0" font-family="Inter, Arial, sans-serif" font-size="14">Research code on GitHub and JAX</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#F4C15D" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#F4C15D" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a commercial video game SKU</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not offline text-to-video batching</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not Veo 2 or Sora generative tool</text>
+  <text x="802" y="412" fill="#FFDC99" font-family="Inter, Arial, sans-serif" font-size="14">Not standard game engine physics</text>
+  <text x="802" y="436" fill="#FFDC99" font-family="Inter, Arial, sans-serif" font-size="14">Pure neural generative dynamics</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score an interactive foundation breakthrough. DeepMind scales world models from offline clips to interactive simulation.</text>
+  <text x="118" y="542" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Genie 3 renders continuous physical environments from user keypresses and policy actions without human-authored 3D assets.</text>
+</svg>

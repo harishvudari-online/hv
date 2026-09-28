@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/category/research</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/google-deepmind-genie-3-interactive-world-model</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harishvudari.online/blog/cerebras-cs-3-condor-galaxy-64-wafer-cluster</loc>
