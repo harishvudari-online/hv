@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EU AI Office GPAI Compliance Audits Briefing</title>
+  <desc id="desc">Editorial illustration of the European AI Office initiating the first compliance audits under the EU AI Act General-Purpose AI Code of Practice on 29 September 2026, establishing a 10^25 FLOPs frontier model registry.</desc>
+  <rect width="1200" height="630" fill="#06142A"/>
+  <circle cx="150" cy="80" r="230" fill="#0052B4" fill-opacity="0.25"/>
+  <circle cx="1080" cy="560" r="250" fill="#FFCC00" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0C223F" stroke="#2DAEDC" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">EU AI Office GPAI Audits: 10^25 FLOPs Register, First Wave, Not a Ban</text>
+  <text x="118" y="168" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="18">European AI Office  |  29 Sep 2026  |  Future Category  |  Code of Practice  |  Systemic Risk</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#7CFFB2" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#7CFFB2" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Audit Framework</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">First formal compliance inquiries</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">10^25 FLOPs systemic threshold</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Mandatory model documentation</text>
+  <text x="142" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Cybersecurity incident reporting</text>
+  <text x="142" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Adversarial red-teaming reviews</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#FFCC00" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#FFCC00" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Enforcement Scope</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Tier-2 systemic risk classification</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Up to 35M EUR or 7% global turnover</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Cross-border market oversight</text>
+  <text x="472" y="412" fill="#FFE880" font-family="Inter, Arial, sans-serif" font-size="14">Scientific panel advisory board</text>
+  <text x="472" y="436" fill="#FFE880" font-family="Inter, Arial, sans-serif" font-size="14">Open-weights research carve-outs</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#08203A" stroke="#2DAEDC" stroke-opacity="0.55" stroke-width="2"/>
+  <text x="802" y="252" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a European market shutdown</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not an immediate sales stop</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not a complete model ban</text>
+  <text x="802" y="412" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Not a replacement for the DMA</text>
+  <text x="802" y="436" fill="#9BD8F5" font-family="Inter, Arial, sans-serif" font-size="14">Requires structured filing review</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score a major regulatory milestone. Brussels operationalizes the AI Act Code of Practice for frontier models.</text>
+  <text x="118" y="542" fill="#74D7FF" font-family="Inter, Arial, sans-serif" font-size="16">Frontier labs operating in Europe face technical audits on training compute, energy consumption, and systemic safety safeguards.</text>
+</svg>
