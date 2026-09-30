@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NVIDIA Blackwell Ultra NVL72 Enterprise Shipments Briefing</title>
+  <desc id="desc">Editorial illustration of NVIDIA beginning volume enterprise shipments of the Blackwell Ultra NVL72 liquid-cooled rack-scale system on 30 September 2026: 72 B200 Ultra GPUs, 288TB per second NVLink 5 domain, and 144 PFLOPs FP8 compute.</desc>
+  <rect width="1200" height="630" fill="#051329"/>
+  <circle cx="160" cy="80" r="240" fill="#76B900" fill-opacity="0.14"/>
+  <circle cx="1080" cy="560" r="260" fill="#00D2FF" fill-opacity="0.12"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0A223E" stroke="#76B900" stroke-opacity="0.45" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#E8F6FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">NVIDIA Blackwell Ultra: NVL72 Volume Enterprise Shipments, Not Rubin</text>
+  <text x="118" y="168" fill="#99E218" font-family="Inter, Arial, sans-serif" font-size="18">NVIDIA Corporation  |  30 Sep 2026  |  Chips Category  |  Volume Enterprise Shipping  |  Not Rubin</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#061B33" stroke="#76B900" stroke-opacity="0.7" stroke-width="2"/>
+  <text x="142" y="252" fill="#76B900" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Rack-Scale Architecture</text>
+  <text x="142" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">72 B200 Ultra GPUs</text>
+  <text x="142" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">36 Grace Neoverse V2 CPUs</text>
+  <text x="142" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">144 PFLOPs FP8 compute</text>
+  <text x="142" y="412" fill="#B3F446" font-family="Inter, Arial, sans-serif" font-size="14">100 percent liquid-cooled rack</text>
+  <text x="142" y="436" fill="#B3F446" font-family="Inter, Arial, sans-serif" font-size="14">120 kW power envelope</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#061B33" stroke="#00C2FF" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="472" y="252" fill="#00C2FF" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">NVLink 5 Fabric</text>
+  <text x="472" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">1.8 TB/s per GPU bidirectional</text>
+  <text x="472" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">288 TB/s total rack bandwidth</text>
+  <text x="472" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Single unified GPU domain</text>
+  <text x="472" y="412" fill="#8CE8FF" font-family="Inter, Arial, sans-serif" font-size="14">20.7 TB HBM3e unified memory</text>
+  <text x="472" y="436" fill="#8CE8FF" font-family="Inter, Arial, sans-serif" font-size="14">9 NVLink switch trays</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#061B33" stroke="#FF9900" stroke-opacity="0.6" stroke-width="2"/>
+  <text x="802" y="252" fill="#FFB042" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What It Is Not</text>
+  <text x="802" y="298" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="15">Not Rubin R100 architecture</text>
+  <text x="802" y="328" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not Cerebras CS-3 wafer scale</text>
+  <text x="802" y="358" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">Not AWS Trainium3 custom ASIC</text>
+  <text x="802" y="412" fill="#FFC988" font-family="Inter, Arial, sans-serif" font-size="14">Not air-cooled enterprise server</text>
+  <text x="802" y="436" fill="#FFC988" font-family="Inter, Arial, sans-serif" font-size="14">Standard OEM qualification complete</text>
+
+  <text x="118" y="512" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="18">Score an enterprise datacenter computing milestone. NVIDIA initiates production customer deliveries for NVL72 racks.</text>
+  <text x="118" y="542" fill="#76B900" font-family="Inter, Arial, sans-serif" font-size="16">Liquid-cooled 72-GPU racks transition from hyperscaler testing to general enterprise availability across global cloud regions.</text>
+</svg>
