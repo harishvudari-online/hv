@@ -1,0 +1,34 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cmpTitle cmpDesc">
+  <title id="cmpTitle">NVIDIA Blackwell Ultra NVL72 vs Cerebras CS-3 and AWS Trainium3</title>
+  <desc id="cmpDesc">Architectural comparison of NVIDIA Blackwell Ultra NVL72 with Cerebras CS-3 Condor Galaxy and AWS Trainium3 UltraServer as of 30 September 2026, comparing cluster form factor, interconnect bandwidth, memory topology, and enterprise deployment models.</desc>
+  <rect width="1200" height="630" fill="#051329"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#0A223E" stroke="#76B900" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="110" y="128" fill="#E8F6FF" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Enterprise AI Training Systems: NVL72 vs Wafer Scale vs Cloud Racks</text>
+  <text x="110" y="168" fill="#99E218" font-family="Inter, Arial, sans-serif" font-size="18">NVIDIA NVL72 scales 72 GPUs across NVLink 5, competing with wafer-scale silicon and custom hyperscaler ASICs.</text>
+
+  <rect x="110" y="210" width="300" height="280" rx="18" fill="#061B33" stroke="#76B900" stroke-opacity="0.75"/>
+  <text x="140" y="258" fill="#76B900" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Blackwell Ultra NVL72</text>
+  <text x="140" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">72 B200 Ultra GPUs</text>
+  <text x="140" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">144 PFLOPs FP8 compute</text>
+  <text x="140" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">288 TB/s NVLink 5 domain</text>
+  <text x="140" y="406" fill="#B3F446" font-family="Inter, Arial, sans-serif" font-size="15">20.7 TB HBM3e memory</text>
+  <text x="140" y="440" fill="#B3F446" font-family="Inter, Arial, sans-serif" font-size="15">Broad OEM enterprise server base</text>
+
+  <rect x="450" y="210" width="300" height="280" rx="18" fill="#061B33" stroke="#FF5500" stroke-opacity="0.7"/>
+  <text x="480" y="258" fill="#FF5500" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Cerebras CS-3 Cluster</text>
+  <text x="480" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">64 Wafer-Scale Engines</text>
+  <text x="480" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">256 Exaflops AI compute</text>
+  <text x="480" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">76.8 PB/s SwarmX fabric</text>
+  <text x="480" y="406" fill="#FFB088" font-family="Inter, Arial, sans-serif" font-size="15">2.81 TB SRAM + MemoryX</text>
+  <text x="480" y="440" fill="#FFB088" font-family="Inter, Arial, sans-serif" font-size="15">Pure data-parallel wafer fabric</text>
+
+  <rect x="790" y="210" width="300" height="280" rx="18" fill="#061B33" stroke="#00C2FF" stroke-opacity="0.6"/>
+  <text x="820" y="258" fill="#00C2FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">AWS Trainium3</text>
+  <text x="820" y="302" fill="#E2F7FF" font-family="Inter, Arial, sans-serif" font-size="16">64 Trainium3 chips</text>
+  <text x="820" y="338" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">96 PFLOPs FP8 compute</text>
+  <text x="820" y="372" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="15">NeuronLink v3 ring mesh</text>
+  <text x="820" y="406" fill="#8CE8FF" font-family="Inter, Arial, sans-serif" font-size="15">1.5 TB HBM3e (24.8 TB/s)</text>
+  <text x="820" y="440" fill="#8CE8FF" font-family="Inter, Arial, sans-serif" font-size="15">Proprietary AWS cloud deployment</text>
+
+  <text x="110" y="532" fill="#DFF3FF" font-family="Inter, Arial, sans-serif" font-size="16">Score the architecture trade-offs. NVL72 provides turnkey enterprise software compatibility and extreme GPU domain density for mixture-of-experts workloads.</text>
+</svg>
