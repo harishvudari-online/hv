@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DeepSeek-Coder-V3 Launch Briefing</title>
+  <desc id="desc">Editorial illustration of DeepSeek releasing DeepSeek-Coder-V3 on 1 October 2026: 236B total parameters, 21B active parameters, 128K context window, native SWE-bench verified score of 62.8%, and dual FP8 weights under MIT license.</desc>
+  <rect width="1200" height="630" fill="#0B132B"/>
+  <circle cx="160" cy="90" r="240" fill="#4361EE" fill-opacity="0.16"/>
+  <circle cx="1060" cy="540" r="260" fill="#4CC9F0" fill-opacity="0.14"/>
+  <rect x="72" y="70" width="1056" height="490" rx="28" fill="#111D4A" stroke="#4CC9F0" stroke-opacity="0.4" stroke-width="2"/>
+
+  <text x="118" y="128" fill="#E0FBFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">DeepSeek-Coder-V3: 236B Open MoE Coding Model, Not V4</text>
+  <text x="118" y="168" fill="#4CC9F0" font-family="Inter, Arial, sans-serif" font-size="18">DeepSeek AI  |  1 Oct 2026  |  Models Category  |  MIT Open Weights  |  Not DeepSeek V4</text>
+
+  <rect x="118" y="210" width="300" height="250" rx="20" fill="#0B132B" stroke="#4CC9F0" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="142" y="252" fill="#4CC9F0" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">MoE Architecture</text>
+  <text x="142" y="298" fill="#E0FBFC" font-family="Inter, Arial, sans-serif" font-size="15">236B total parameters</text>
+  <text x="142" y="328" fill="#C5D3E8" font-family="Inter, Arial, sans-serif" font-size="15">21B active per token</text>
+  <text x="142" y="358" fill="#C5D3E8" font-family="Inter, Arial, sans-serif" font-size="15">128K token native context</text>
+  <text x="142" y="412" fill="#89DCEB" font-family="Inter, Arial, sans-serif" font-size="14">Multi-Head Latent Attention</text>
+  <text x="142" y="436" fill="#89DCEB" font-family="Inter, Arial, sans-serif" font-size="14">MIT license weights &amp; code</text>
+
+  <rect x="448" y="210" width="300" height="250" rx="20" fill="#0B132B" stroke="#7209B7" stroke-opacity="0.75" stroke-width="2"/>
+  <text x="472" y="252" fill="#B5179E" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Benchmark Leap</text>
+  <text x="472" y="298" fill="#E0FBFC" font-family="Inter, Arial, sans-serif" font-size="15">SWE-bench Verified: 62.8%</text>
+  <text x="472" y="328" fill="#C5D3E8" font-family="Inter, Arial, sans-serif" font-size="15">HumanEval Plus: 91.4%</text>
+  <text x="472" y="358" fill="#C5D3E8" font-family="Inter, Arial, sans-serif" font-size="15">Aider polyglot refactor benchmark</text>
+  <text x="472" y="412" fill="#F72585" font-family="Inter, Arial, sans-serif" font-size="14">$0.14 / $0.28 per M tokens API</text>
+  <text x="472" y="436" fill="#F72585" font-family="Inter, Arial, sans-serif" font-size="14">Dual FP8 and BF16 release</text>
+
+  <rect x="778" y="210" width="300" height="250" rx="20" fill="#0B132B" stroke="#3A0CA3" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="802" y="252" fill="#9D4EDD" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">What it is not</text>
+  <text x="802" y="298" fill="#E0FBFC" font-family="Inter, Arial, sans-serif" font-size="15">Not DeepSeek V4 foundation</text>
+  <text x="802" y="328" fill="#C5D3E8" font-family="Inter, Arial, sans-serif" font-size="15">Not a closed proprietary API</text>
+  <text x="802" y="358" fill="#C5D3E8" font-family="Inter, Arial, sans-serif" font-size="15">Not a synthetic benchmark trick</text>
+  <text x="802" y="412" fill="#C77DFF" font-family="Inter, Arial, sans-serif" font-size="14">Not inline auto-complete only</text>
+  <text x="802" y="436" fill="#C77DFF" font-family="Inter, Arial, sans-serif" font-size="14">Full repo agentic tool harness</text>
+
+  <text x="118" y="512" fill="#E0FBFC" font-family="Inter, Arial, sans-serif" font-size="18">Score an open source programming milestone. DeepSeek delivers 62.8% SWE-bench Verified coding agent intelligence.</text>
+  <text x="118" y="542" fill="#4CC9F0" font-family="Inter, Arial, sans-serif" font-size="16">V3 combines 236B MoE capacity with 21B active token efficiency, rivaling frontier proprietary code models.</text>
+</svg>
