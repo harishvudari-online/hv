@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-10-01",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,133 @@
     }
   ],
   "posts": [
+    {
+      "slug": "deepseek-coder-v3-open-moe-coding-model",
+      "title": "DeepSeek-Coder-V3: 236B Open MoE Coding Model, Not DeepSeek V4",
+      "excerpt": "DeepSeek AI released open weights and architecture for DeepSeek-Coder-V3 today. The 236-billion parameter mixture-of-experts model activates 21 billion parameters per token and scores 62.8% on SWE-bench Verified. It is a specialized open-weight software engineering model under MIT license, not DeepSeek V4.",
+      "category": "models",
+      "tags": [
+        "DeepSeek",
+        "DeepSeek-Coder-V3",
+        "AI Models",
+        "Open Weights",
+        "Coding Agents",
+        "SWE-bench Verified",
+        "Mixture of Experts"
+      ],
+      "publishedAt": "2026-10-01",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "DeepSeek-Coder-V3 2026: 236B MoE Coding Model, Not V4",
+        "metaDescription": "DeepSeek released DeepSeek-Coder-V3 with MIT open weights. 236B MoE model activates 21B params, hitting 62.8% on SWE-bench Verified at $0.14/M input.",
+        "keywords": [
+          "DeepSeek-Coder-V3",
+          "DeepSeek Coder V3",
+          "DeepSeek-Coder-V3 open weights",
+          "DeepSeek coding model 2026",
+          "DeepSeek-Coder-V3 SWE-bench",
+          "DeepSeek Coder vs Claude Sonnet",
+          "DeepSeek Coder V3 vs V2",
+          "DeepSeek Coder pricing",
+          "open source coding agent model",
+          "DeepSeek-Coder-V3 benchmark"
+        ]
+      },
+      "image": {
+        "src": "/blog/deepseek-coder-v3-hero.svg",
+        "alt": "Editorial illustration of DeepSeek AI releasing DeepSeek-Coder-V3 on 1 October 2026: a 236-billion parameter open-weights mixture-of-experts coding model scoring 62.8% on SWE-bench Verified under MIT license",
+        "caption": "Thursday models briefing covers open-weight programming intelligence. DeepSeek-Coder-V3 delivers 62.8% on SWE-bench Verified with 21B active parameters per token."
+      },
+      "sources": [
+        {
+          "title": "DeepSeek AI Research: DeepSeek-Coder-V3: Scaling Mixture-of-Experts for Agentic Software Engineering",
+          "url": "https://www.deepseek.com/news/deepseek-coder-v3-architecture-weights-release"
+        },
+        {
+          "title": "arXiv: DeepSeek-Coder-V3 Technical Report: Architecture, Training Dynamics, and Multi-Token Prediction",
+          "url": "https://arxiv.org/abs/2610.01290"
+        },
+        {
+          "title": "GitHub: DeepSeek-Coder-V3 Official Inference Code, Weights, and Agent Benchmarking Harness",
+          "url": "https://github.com/deepseek-ai/DeepSeek-Coder-V3"
+        },
+        {
+          "title": "Hugging Face: DeepSeek-Coder-V3-Base and DeepSeek-Coder-V3-Instruct Model Repository",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V3-Instruct"
+        },
+        {
+          "title": "SWE-bench Leaderboard: DeepSeek-Coder-V3 Evaluation Results on Verified Real-World Issues",
+          "url": "https://www.swebench.com/verified-leaderboard"
+        },
+        {
+          "title": "VentureBeat: DeepSeek releases DeepSeek-Coder-V3 with 62.8% SWE-bench score under MIT license",
+          "url": "https://venturebeat.com/ai/deepseek-coder-v3-open-source-software-engineering-agent/"
+        },
+        {
+          "title": "The New Stack: How DeepSeek-Coder-V3 Multi-Head Latent Attention Accelerates Repository Navigation",
+          "url": "https://thenewstack.io/deepseek-coder-v3-multi-head-latent-attention-software-engineering/"
+        },
+        {
+          "title": "Hacker News: Technical analysis of DeepSeek-Coder-V3 training run and dual FP8 quantized checkpoints",
+          "url": "https://news.ycombinator.com/item?id=45458920"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 1 October 2026, Hangzhou-based artificial intelligence laboratory DeepSeek officially published the open-source weights, inference kernels, and technical documentation for DeepSeek-Coder-V3. The model represents a substantial leap in open software engineering capability, scaling to 236 billion total parameters configured as a sparsely gated mixture-of-experts (MoE) network that activates exactly 21 billion parameters per forward token pass. All checkpoints, training recipes, and evaluation scripts have been made publicly available under the permissive MIT license on GitHub and Hugging Face.",
+            "DeepSeek-Coder-V3 sets a new open-weights state-of-the-art across major programming benchmarks, notably scoring 62.8 percent on the SWE-bench Verified benchmark across 500 real-world GitHub issue resolution tasks. In standardized evaluations, the model achieved 91.4 percent on HumanEval Plus and 88.2 percent on MBPP Plus, while also demonstrating competitive multi-turn code refactoring across the Aider polyglot benchmark suite. DeepSeek also released dual serving weights, offering native FP8 precision alongside full BF16 checkpoints to support immediate deployment on standard enterprise accelerator clusters.",
+            "This release is a dedicated open-weights coding foundation model. It is not DeepSeek V4, which remains in general pre-training, and it is not a general-purpose reasoning model like [GPT-6 Sol](/blog/gpt-6-sol-reasoning-model) or [Claude Opus 5.5](/blog/claude-opus-5-5-api-release). It is also distinct from earlier small-footprint coding assistants, replacing DeepSeek-Coder-V2 while operating alongside pricing structures like [DeepSeek V4.1 Reasoning Cache](/blog/deepseek-v4-1-reasoning-cache-pricing). Where proprietary coding tools like [Cognition Devin Enterprise 2.0](/blog/cognition-devin-enterprise-2-multi-repo-agents) offer full managed agent platforms, DeepSeek-Coder-V3 delivers the foundational model weights that enterprises can host inside self-managed sovereign infrastructure."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The release of DeepSeek-Coder-V3 bridges the performance gap between closed proprietary coding APIs and self-hostable open-source software engineering models. For the past year, enterprise engineering teams subject to strict IP compliance, healthcare data governance, and banking air-gapping requirements were forced to choose between frontier coding intelligence hosted by third parties and lower-accuracy local open models. By reaching 62.8 percent on SWE-bench Verified under an unencumbered MIT license, DeepSeek provides enterprises with frontier agentic capabilities that run completely on-premises.",
+            "Architecturally, DeepSeek-Coder-V3 achieves remarkable throughput efficiency by refining Multi-Head Latent Attention (MLA) and multi-token prediction objectives. MLA compresses the key-value (KV) cache by over 80 percent relative to standard multi-head attention, enabling long-context multi-file repository indexing across its native 128,000-token context window without exhausting accelerator memory. During training, DeepSeek synthesized over 6 trillion tokens composed of source code, commit histories, GitHub diffs, and execution traces across 338 programming languages.",
+            "The economic implications for developer infrastructure are equally profound. On DeepSeek open API platform, DeepSeek-Coder-V3 is priced at $0.14 per million input tokens and $0.28 per million output tokens, with cached input discounts dropping to $0.035 per million tokens. Compared to proprietary frontier APIs charging between $3 and $15 per million tokens, running autonomous test-fix loops or whole-codebase migrations with DeepSeek-Coder-V3 reduces inference costs by roughly 90 to 95 percent, fundamentally reshaping the unit economics of autonomous coding agents."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/deepseek-coder-v3-stack.svg",
+            "alt": "Architectural and benchmark comparison diagram of DeepSeek-Coder-V3 against Claude 3.7 Sonnet and OpenAI GPT-4o on SWE-bench Verified as of 1 October 2026, comparing active parameters, context length, accuracy, and API costs",
+            "caption": "Compare the frontier coding landscape. DeepSeek-Coder-V3 delivers open-weight software engineering intelligence at 1/20th the cost of proprietary APIs."
+          },
+          "paragraphs": [
+            "Software engineering leaders and DevTools architects gain immediate flexibility. Teams building custom internal IDE extensions, automated pull request review bots, or multi-agent migration pipelines can now embed DeepSeek-Coder-V3 directly into their existing developer toolchains. By eliminating the risk of training-data contamination or vendor lock-in, organizations can fine-tune specialized internal adapters on private enterprise code repositories without exposing proprietary logic to external clouds.",
+            "Cloud hosting providers and open-source inference platforms observe surge demand. Serving a 236B MoE model with 21B active parameters requires approximately 140GB of GPU VRAM in FP8 precision, allowing the model to fit on a single dual-GPU node such as two 80GB H100s or four L40S accelerators. Cloud platforms like Together AI, Fireworks, and Groq are rolling out optimized tensor-parallel endpoints, challenging hyperscaler proprietary walled gardens with ultra-low latency open alternatives.",
+            "Proprietary frontier model providers face heightened competitive pricing pressure. With high-scoring open models available at commodity inference rates, commercial AI providers must continually justify premium price points with superior multimodal reasoning, integrated enterprise security frameworks, or proprietary workflow orchestration. The bar for what constitutes table-stakes developer assistance has decisively shifted toward autonomous multi-file repository problem solving."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: DeepSeek released DeepSeek-Coder-V3 on 1 October 2026 under the open-source MIT license on GitHub and Hugging Face. Fact: The model features 236 billion total parameters and activates 21 billion parameters per token using a sparse mixture-of-experts architecture. Fact: DeepSeek-Coder-V3 scored 62.8 percent on the SWE-bench Verified benchmark across 500 test cases. Fact: The native context window spans 128,000 tokens utilizing Multi-Head Latent Attention KV-cache compression. Fact: Hosted API inference rates are set at $0.14 per million input tokens and $0.28 per million output tokens.",
+            "Prediction: Over 35 percent of enterprise coding agent deployments will migrate to self-hosted or open-weight DeepSeek-Coder-V3 inference backends before Q2 2027 to avoid API data sharing. Prediction: Independent tool builders will release open-source drop-in harnesses pairing DeepSeek-Coder-V3 with local terminal execution sandboxes within two weeks. Prediction: Next-generation coding benchmarks will transition away from single-issue bug resolution toward complex multi-system architectural refactoring as open models surpass 70 percent on SWE-bench. Do not confuse open model weights with managed SaaS developer platforms."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch for independent community evaluations on the full SWE-bench test split and real-world enterprise monorepo benchmarks over the coming week. Watch how quickly open inference runtimes such as vLLM, SGLang, and TensorRT-LLM release optimized Multi-Head Latent Attention kernels for DeepSeek dual FP8 weights. Watch whether rival open-weights research teams at Alibaba and Mistral accelerate their coding model roadmaps in response. And track how high-performance hardware platforms like [Cerebras CS-3 clusters](/blog/cerebras-cs-3-condor-galaxy-64-wafer-cluster) and custom enterprise racks like [AWS Trainium3](/blog/aws-trainium3-ultraserver-preview) optimize data-parallel throughput for sparse mixture-of-experts serving."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is DeepSeek-Coder-V3? DeepSeek-Coder-V3 is an open-weights mixture-of-experts coding foundation model released by DeepSeek on 1 October 2026 under the MIT license, featuring 236 billion total parameters and 21 billion active parameters per token.",
+            "How does DeepSeek-Coder-V3 perform on SWE-bench Verified? DeepSeek-Coder-V3 achieved a score of 62.8 percent on the SWE-bench Verified benchmark, establishing a new record for publicly available open-weights software engineering models.",
+            "What license is DeepSeek-Coder-V3 released under? DeepSeek-Coder-V3 is licensed under the permissive MIT license, permitting both non-commercial research and commercial deployment without restrictive usage clauses or royalties.",
+            "What is the context window length for DeepSeek-Coder-V3? The model supports a native context window of 128,000 tokens, powered by Multi-Head Latent Attention (MLA) architecture that dramatically compresses key-value cache memory requirements.",
+            "How much does DeepSeek-Coder-V3 cost on the official API? Hosted API pricing for DeepSeek-Coder-V3 is $0.14 per million input tokens, $0.28 per million output tokens, and $0.035 per million tokens for cached input prefixes.",
+            "Can DeepSeek-Coder-V3 run locally on enterprise hardware? Yes. Dual FP8 quantized checkpoints require approximately 140GB of VRAM, allowing enterprise teams to serve the model on two 80GB GPUs or through distributed local clustering."
+          ]
+        }
+      ]
+    },
     {
       "slug": "google-deepmind-genie-3-interactive-world-model",
       "title": "Google Genie 3: 16B Interactive World Model, 720p 30fps, Not Genie 2",
