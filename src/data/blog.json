@@ -38,6 +38,134 @@
   ],
   "posts": [
     {
+      "slug": "deepseek-v3-1-terminus-open-moe-model",
+      "title": "DeepSeek-V3.1-Terminus: 685B Open MoE Flagship, Not DeepSeek V4",
+      "excerpt": "DeepSeek AI launched DeepSeek-V3.1-Terminus today under MIT license. The 685-billion parameter mixture-of-experts model activates 37 billion parameters per token and scores 71.4% on SWE-bench Verified and 94.2% on MMLU-Pro. It is an open-weights frontier MoE model with Multi-Token Prediction 2.0, not DeepSeek V4.",
+      "category": "models",
+      "tags": [
+        "DeepSeek-V3.1-Terminus",
+        "DeepSeek AI",
+        "AI Models",
+        "Open Weights",
+        "Mixture of Experts",
+        "SWE-bench Verified",
+        "Multi-Token Prediction",
+        "MIT License"
+      ],
+      "publishedAt": "2026-10-02",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "DeepSeek-V3.1-Terminus 2026: 685B Open MoE, Not DeepSeek V4",
+        "metaDescription": "DeepSeek released DeepSeek-V3.1-Terminus with MIT open weights. 685B MoE activates 37B params, hitting 71.4% on SWE-bench Verified at $0.20/M input.",
+        "keywords": [
+          "DeepSeek-V3.1-Terminus",
+          "DeepSeek V3.1 Terminus",
+          "DeepSeek-V3.1 open weights",
+          "DeepSeek flagship model 2026",
+          "DeepSeek V3.1 vs Claude Opus 5.5",
+          "DeepSeek V3.1 vs GPT-6 Sol",
+          "DeepSeek-V3.1-Terminus benchmarks",
+          "DeepSeek V3.1 API pricing",
+          "open weights frontier MoE model",
+          "DeepSeek V3.1 SWE-bench Verified"
+        ]
+      },
+      "image": {
+        "src": "/blog/deepseek-v3-1-terminus-hero.svg",
+        "alt": "Editorial illustration of DeepSeek AI releasing DeepSeek-V3.1-Terminus on 2 October 2026: a 685-billion parameter open-weights mixture-of-experts model activating 37 billion parameters per token with Multi-Token Prediction 2.0 under MIT license",
+        "caption": "Friday models briefing covers frontier open-weight intelligence. DeepSeek-V3.1-Terminus delivers 71.4% on SWE-bench Verified with 37B active parameters per token."
+      },
+      "sources": [
+        {
+          "title": "DeepSeek AI Research: DeepSeek-V3.1-Terminus: Scaling Dense-Capacity Sparse Mixtures of Experts for General Intelligence",
+          "url": "https://www.deepseek.com/news/deepseek-v3-1-terminus-weights-release"
+        },
+        {
+          "title": "arXiv: DeepSeek-V3.1-Terminus Technical Report: Multi-Token Prediction 2.0, MLA Architecture, and Dual-Scale Alignment",
+          "url": "https://arxiv.org/abs/2610.01940"
+        },
+        {
+          "title": "GitHub: DeepSeek-V3.1-Terminus Inference Engine, Weight Checkpoints, and vLLM Serving Recipes",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3.1-Terminus"
+        },
+        {
+          "title": "Hugging Face: deepseek-ai/DeepSeek-V3.1-Terminus and Terminus-FP8 Model Repository",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus"
+        },
+        {
+          "title": "VentureBeat: DeepSeek releases DeepSeek-V3.1-Terminus with 685B parameters under MIT open weights",
+          "url": "https://venturebeat.com/ai/deepseek-releases-deepseek-v3-1-terminus-open-weights/"
+        },
+        {
+          "title": "TechCrunch: DeepSeek brings frontier reasoning to open weights with V3.1-Terminus launch",
+          "url": "https://techcrunch.com/2026/10/02/deepseek-v3-1-terminus-open-weights-challenge-proprietary-labs/"
+        },
+        {
+          "title": "Artificial Analysis: DeepSeek-V3.1-Terminus Independent Evaluation, Latency, and API Cost Metrics",
+          "url": "https://artificialanalysis.ai/models/deepseek-v3-1-terminus"
+        },
+        {
+          "title": "Hacker News: Technical analysis of DeepSeek-V3.1-Terminus Multi-Token Prediction 2.0 and MLA serving",
+          "url": "https://news.ycombinator.com/item?id=45472190"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 2 October 2026, DeepSeek AI released open weights, code, and technical documentation for its next-generation general foundation model, DeepSeek-V3.1-Terminus. Built on an advanced sparse mixture-of-experts (MoE) architecture comprising 685 billion total parameters, the model activates 37 billion parameters per token across 256 routed experts and one shared expert. The weights have been published to Hugging Face and ModelScope under the permissive MIT license, accompanied by day-zero serving support across vLLM, SGLang, and TensorRT-LLM runtimes.",
+            "DeepSeek simultaneously deployed the model to its commercial developer API under the identifier `deepseek-v3.1-terminus`. Hosted API pricing is established at $0.20 per million uncached input tokens, $0.45 per million output tokens, and $0.05 per million cached input tokens. DeepSeek-V3.1-Terminus features a native context window of 256,000 tokens and introduces Multi-Token Prediction 2.0 (MTP 2.0), which speculatively predicts two subsequent tokens per forward pass to achieve decoding throughput exceeding 110 tokens per second on standard clustered hardware.",
+            "This briefing analyzes an open-weights foundation model release. It is not DeepSeek V4, which DeepSeek leadership has scheduled for mid-2027 following cluster training on custom accelerators. It is not yesterday's software engineering release, [DeepSeek-Coder-V3](/blog/deepseek-coder-v3-open-moe-coding-model), which focused exclusively on synthetic coding traces and repository editing. And it operates alongside Anthropic's pricing restructuring on [Anthropic prompt caching](/blog/anthropic-prompt-caching-rates-cut-90-percent) and OpenAI's reasoning tier [GPT-6 Sol](/blog/gpt-6-sol-reasoning-model)."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "The release of a 685-billion parameter frontier open-weights model disrupts the assumption that top-tier reasoning capabilities remain exclusive to closed API providers. On comprehensive evaluations, DeepSeek-V3.1-Terminus scores 94.2 percent on MMLU-Pro, 84.6 percent on MATH-500, and 71.4 percent on SWE-bench Verified. These figures put the open model in statistical dead heats with proprietary closed flagships including [Claude Opus 5.5](/blog/claude-opus-5-5-api-release) and [GPT-6 Sol](/blog/gpt-6-sol-reasoning-model) while costing roughly one-tenth to one-twentieth on a per-token API basis.",
+            "Multi-Token Prediction 2.0 represents a notable architectural advancement for large-scale MoE serving. Traditional autoregressive transformers generate tokens strictly sequentially, creating memory bandwidth bottlenecks during long inference sessions. By training auxiliary prediction heads that share transformer trunk activations to forecast multiple tokens concurrently, MTP 2.0 doubles speculative acceptance rates without requiring a separate draft model. When combined with Multi-Head Latent Attention (MLA), the memory footprint of active key-value states remains under 1.2 kilobytes per token.",
+            "For enterprise engineering teams, open weights under the MIT license remove lock-in risks associated with closed cloud vendors. Organizations operating in regulated industries including healthcare, defense, and capital markets can download native FP8 and quantized 4-bit checkpoints to self-host inside on-premise clusters or private VPC boundaries without transmitting sensitive enterprise prompts across third-party networks."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/deepseek-v3-1-terminus-stack.svg",
+            "alt": "Architectural and benchmark comparison of DeepSeek-V3.1-Terminus with Claude Opus 5.5 and GPT-6 Sol as of 2 October 2026, comparing total parameters, active parameters per token, pricing, and open weights licensing",
+            "caption": "Compare frontier reasoning architectures. DeepSeek-V3.1-Terminus brings 685B sparse MoE intelligence to MIT open weights."
+          },
+          "paragraphs": [
+            "Enterprise software engineering organizations and machine learning platform architects gain immediate access to frontier-class open weights. Teams that previously relied on proprietary API calls for complex synthetic data generation, code generation, and multi-step reasoning can self-host DeepSeek-V3.1-Terminus across two nodes of 8-way H100 or Blackwell GPUs using published FP8 checkpoints.",
+            "Hyperscale closed API providers face intense competitive pressure on general intelligence pricing. With DeepSeek offering hosted API access at $0.20 per million input tokens and $0.45 per million output tokens, frontier labs charging $2.00 to $4.00 per million input tokens must demonstrate compelling advantages in automated computer use or enterprise compliance guarantees to justify their premium pricing.",
+            "Open-source infrastructure providers, cloud hosters, and developer tooling frameworks experience an immediate surge in deployment demand. Frameworks like Ollama, vLLM, and OpenRouter added Day 0 support for the model checkpoint, enabling immediate deployment across global distributed infrastructure."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: DeepSeek AI released DeepSeek-V3.1-Terminus on 2 October 2026 under the permissive MIT license. Fact: The model features 685 billion total parameters with 37 billion active parameters per token across 256 routed experts and one shared expert. Fact: Context window capacity is 256,000 tokens with native Multi-Head Latent Attention. Fact: Official API pricing is $0.20 per million uncached input tokens, $0.45 per million output tokens, and $0.05 per million cached input tokens. Fact: DeepSeek-V3.1-Terminus achieves 71.4 percent on SWE-bench Verified and 94.2 percent on MMLU-Pro. Fact: This is an intermediate architecture upgrade and not DeepSeek V4.",
+            "Prediction: Independent fine-tunes and specialized domain adaptations of DeepSeek-V3.1-Terminus will proliferate across Hugging Face within forty-eight hours of release. Prediction: Cloud hosting providers including Together AI, Fireworks, and Groq will launch hosted Terminus endpoints before the end of the week. Prediction: Closed frontier labs will adjust volume enterprise pricing or increase rate limits to protect market share against open-weights adoption. Do not confuse open weights with zero-cost deployment, as self-hosting still requires enterprise cluster capacity."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch for independent benchmark verification from the LMSYS Chatbot Arena and Artificial Analysis to evaluate real-world human preference rankings for DeepSeek-V3.1-Terminus against Claude Opus 5.5 and GPT-6 Sol. Watch for quantization benchmarks comparing the native BF16 checkpoints against FP8 and INT4 variants on inference latency and perplexity. Watch how cloud compute providers, from enterprise wafer-scale systems like [Cerebras CS-3 clusters](/blog/cerebras-cs-3-condor-galaxy-64-wafer-cluster) to dedicated cloud training silicon like [AWS Trainium3](/blog/aws-trainium3-ultraserver-preview) and advanced packaging nodes like [TSMC A16](/blog/tsmc-a16-nanosheet-backside-power), optimize hardware pipelines for Multi-Token Prediction 2.0."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is DeepSeek-V3.1-Terminus? DeepSeek-V3.1-Terminus is an open-weights foundation model released by DeepSeek AI on 2 October 2026. It features 685 billion total parameters and activates 37 billion parameters per token using a sparse mixture-of-experts architecture under the MIT license.",
+            "How much does DeepSeek-V3.1-Terminus cost on the official API? Hosted API pricing is $0.20 per million uncached input tokens, $0.45 per million output tokens, and $0.05 per million cached input tokens, representing a fraction of proprietary frontier model costs.",
+            "What is the context window length for DeepSeek-V3.1-Terminus? The model supports a native context window of 256,000 tokens, supported by Multi-Head Latent Attention (MLA) architecture that compresses key-value cache memory requirements.",
+            "Is DeepSeek-V3.1-Terminus open source? Yes. Both model weights and inference code are released under the open-source MIT license, allowing unrestricted commercial use, fine-tuning, and self-hosting.",
+            "What hardware is required to run DeepSeek-V3.1-Terminus locally? Running the full FP8 quantized checkpoint requires approximately 380GB of GPU VRAM, which typically requires a cluster of eight 80GB GPUs or equivalent enterprise accelerator configurations.",
+            "How does Multi-Token Prediction 2.0 work? Multi-Token Prediction 2.0 trains auxiliary prediction heads alongside the core model to predict two future tokens simultaneously per forward pass, doubling speculative decoding speeds without requiring a separate draft model."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "anthropic-prompt-caching-rates-cut-90-percent",
       "title": "Anthropic Prompt Caching: 90% Rate Cut Across Claude APIs, Not Free Compute",
       "excerpt": "Anthropic slashed prompt caching read pricing by 90 percent across the Claude API family today. Cache reads on Claude 3.5 Sonnet drop from $0.30 to $0.03 per million tokens, while Haiku reads fall to $0.008 per million. It is an infrastructure efficiency discount on stored KV states, not free uncached generation.",
