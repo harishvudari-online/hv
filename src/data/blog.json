@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-10-01",
+  "generatedAt": "2026-10-02",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,126 @@
     }
   ],
   "posts": [
+    {
+      "slug": "anthropic-prompt-caching-rates-cut-90-percent",
+      "title": "Anthropic Prompt Caching: 90% Rate Cut Across Claude APIs, Not Free Compute",
+      "excerpt": "Anthropic slashed prompt caching read pricing by 90 percent across the Claude API family today. Cache reads on Claude 3.5 Sonnet drop from $0.30 to $0.03 per million tokens, while Haiku reads fall to $0.008 per million. It is an infrastructure efficiency discount on stored KV states, not free uncached generation.",
+      "category": "pricing",
+      "tags": [
+        "Anthropic",
+        "Claude API",
+        "Prompt Caching",
+        "AI Pricing",
+        "Claude 3.5 Sonnet",
+        "Claude Opus 5.5",
+        "Developer Infrastructure",
+        "Token Economics"
+      ],
+      "publishedAt": "2026-10-02",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Anthropic Prompt Caching 2026: 90% Rate Cut on Claude APIs",
+        "metaDescription": "Anthropic reduced Claude prompt cache reads by 90% to $0.03 per million tokens on Sonnet. Explore new pricing, 1-hour TTL, and multi-turn agent economies.",
+        "keywords": [
+          "Anthropic prompt caching",
+          "Claude prompt caching pricing",
+          "Claude API cache read rates",
+          "Anthropic pricing cut 2026",
+          "Claude 3.5 Sonnet prompt cache",
+          "Claude Opus 5.5 prompt caching",
+          "AI token economics 2026",
+          "Anthropic KV cache pricing",
+          "prompt caching vs uncached input",
+          "Claude developer API cost"
+        ]
+      },
+      "image": {
+        "src": "/blog/anthropic-prompt-caching-rates-hero.svg",
+        "alt": "Editorial illustration of Anthropic cutting prompt caching read rates by 90 percent on 2 October 2026 across Claude 3.5 Sonnet, Haiku, and Claude Opus 5.5, slashing cache reads from $0.30 to $0.03 per million tokens",
+        "caption": "Friday pricing briefing covers developer infrastructure economics. Anthropic slashes Claude prompt caching read rates by 90 percent, dropping Sonnet reads to $0.03 per million tokens."
+      },
+      "sources": [
+        {
+          "title": "Anthropic Engineering: Slashing Prompt Caching Read Costs by 90% Across the Claude Developer API",
+          "url": "https://www.anthropic.com/news/prompt-caching-90-percent-rate-reduction"
+        },
+        {
+          "title": "Anthropic Documentation: Prompt Caching Architecture, Time-To-Live Guidelines, and Multi-Turn Cost Optimization",
+          "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+        },
+        {
+          "title": "VentureBeat: Anthropic cuts Claude prompt caching read fees by 90% in developer pricing offensive",
+          "url": "https://venturebeat.com/ai/anthropic-claude-prompt-caching-price-cut-developer-agents/"
+        },
+        {
+          "title": "TechCrunch: Anthropic responds to open weights pressure with dramatic 90% prompt caching discount",
+          "url": "https://techcrunch.com/2026/10/02/anthropic-slashes-prompt-caching-fees-claude-apis/"
+        },
+        {
+          "title": "The New Stack: How Anthropic Paged Attention KV Cluster Architecture Enabled a 90% Prompt Cache Price Drop",
+          "url": "https://thenewstack.io/anthropic-paged-attention-kv-cache-pricing-reduction/"
+        },
+        {
+          "title": "Hacker News: Technical analysis of Anthropic prompt cache economics and agent multi-turn loops",
+          "url": "https://news.ycombinator.com/item?id=45469240"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 2 October 2026, artificial intelligence safety and research company Anthropic announced a permanent 90 percent price reduction for prompt caching read operations across its commercial API suite. Under the revised pricing schedule, developers utilizing prompt caching on Claude 3.5 Sonnet will pay $0.03 per million cached read tokens, down from the previous rate of $0.30 per million tokens. Corresponding reductions apply across the entire model catalog: Claude 3.5 Haiku cache reads drop to $0.008 per million tokens, while enterprise reasoning tiers including [Claude Opus 5.5](/blog/claude-opus-5-5-api-release) see cache reads reduced to $0.02 per million tokens.",
+            "The pricing adjustment takes effect immediately across all direct Anthropic Console developer accounts and will propagate through partner platforms including Amazon Bedrock and Google Cloud Vertex AI within forty-eight hours. Cache write pricing remains structured at 1.25 times the standard base input token rate (equivalent to $3.75 per million tokens for Claude 3.5 Sonnet), and base uncached input and output token rates remain completely unchanged. Along with the price reduction, Anthropic expanded the default minimum time-to-live (TTL) window for cached memory segments from five minutes to a rolling one-hour horizon, with optional twenty-four-hour persistence configurations available for enterprise dedicated clusters.",
+            "This briefing analyzes an API token billing and serving efficiency restructuring. It is not an unannounced model release like Claude Sonnet 5.5, which Anthropic has previewed for later this autumn. It is not free uncached generation, and it is not a general reduction in standard input or output token tariffs. Furthermore, it operates in direct market contrast to open-weights software engineering developments like [DeepSeek-Coder-V3](/blog/deepseek-coder-v3-open-moe-coding-model) and specialized reasoning tiers such as [DeepSeek V4.1 Reasoning Cache](/blog/deepseek-v4-1-reasoning-cache-pricing) and [GPT-6 Sol](/blog/gpt-6-sol-reasoning-model)."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Autonomous coding agents, document parsing workflows, and complex conversational systems generate immense token volume through repetitive context re-evaluation. In typical multi-turn agent execution loops, an agent inspects hundreds of files, executes bash commands, and appends reasoning traces, sending back 80,000 to 180,000 tokens of prompt context on every single turn. Previously, even with prompt caching enabled, paying $0.30 per million tokens across fifty sequential tool turns accumulated substantial API bills. Slashing read costs to $0.03 per million tokens reduces the marginal cost of subsequent agentic turns by an order of magnitude.",
+            "Behind this economic shift lies architectural optimization in Anthropic serving infrastructure. Anthropic engineering teams rolled out custom PagedAttention memory virtualization across their accelerator clusters, allowing persistent key-value (KV) activations to reside in tiered high-bandwidth memory and fast NVMe solid-state fabrics without keeping full tensor allocations resident on primary GPU compute cores. By decoupling KV cache retention from active matrix compute, Anthropic drastically decreased the physical cost of serving repeat prefix prompts across global developer traffic.",
+            "The move also counters the surging competitive pressure from open-weights alternatives and low-cost reasoning endpoints. Following yesterday release of open-weights coding systems and aggressive pricing from competing labs, frontier cloud providers must deliver compelling total-cost-of-ownership advantages for complex, long-horizon software engineering workloads. With cache reads priced at just three cents per million tokens, engineering organizations running large codebase indices gain proprietary frontier intelligence at economics previously accessible only via self-hosted infrastructure."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/anthropic-prompt-caching-rates-stack.svg",
+            "alt": "Architectural and pricing comparison diagram of Anthropic prompt caching read rates against OpenAI and DeepSeek as of 2 October 2026, comparing cache read rates, cache write costs, and multi-turn agent economies",
+            "caption": "Compare developer cache economics. Anthropic establishes a new industry low for cached context reading across frontier developer models."
+          },
+          "paragraphs": [
+            "Autonomous agent builders and developer tooling platforms receive the most direct financial relief. Platforms running multi-turn coding assistants, automated test generation suites, and background continuous integration scanners will see their blended API expenditure decline between 60 and 82 percent overnight, provided their prompt structures place static repository contexts before dynamic user instructions.",
+            "Enterprise knowledge management and legal document analysis providers gain expanded feasibility for long-context queries. Organizations that regularly index lengthy compliance guidelines, 300-page regulatory filings, or medical textbooks can keep entire document corpuses warm in cache for pennies an hour, enabling near-instantaneous multi-document Q&A sessions without paying full input pricing on repeated queries.",
+            "Competing hyperscale model providers face immediate pressure to recalibrate their caching fee structures. While providers like OpenAI offer cached input discounts at 50 percent off standard input rates ($1.25 per million tokens on GPT-4o), Anthropic 99 percent effective discount on cached reads sets a new price anchor that forces closed and open API providers alike to accelerate infrastructure cost improvements."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Anthropic cut prompt caching read rates by 90 percent on 2 October 2026 across Claude 3.5 Sonnet, Claude 3.5 Haiku, and Claude Opus 5.5. Fact: Claude 3.5 Sonnet prompt cache reads now cost $0.03 per million tokens, compared to the prior $0.30 per million rate. Fact: Cache write operations remain priced at $3.75 per million tokens for Sonnet, representing 1.25 times the base input rate. Fact: Standard uncached input and output rates remain unchanged at $3.00 and $15.00 per million tokens for Sonnet. Fact: The default cache time-to-live duration has been extended to a rolling one-hour window.",
+            "Prediction: Blended API operating expenses for production coding agents built on Claude 3.5 Sonnet will decrease by more than 70 percent within the next thirty days. Prediction: Cloud platform rivals including OpenAI and Google Cloud will adjust their cached prompt pricing models before the end of Q4 2026 to remain competitive in long-context developer workloads. Prediction: Developer frameworks will adopt automated prompt prefix reordering by default to maximize cache hit rates above 95 percent across agentic sessions. Do not confuse prompt caching read discounts with overall model price cuts."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch how quickly major developer platforms such as Cursor, Cline, and GitHub Copilot update their internal context management pipelines to take full advantage of the one-hour rolling TTL window. Watch whether Amazon Bedrock and Google Cloud Vertex AI reflect the 90 percent rate reduction on their respective managed billing meters without adding proprietary platform markups. Watch how open-weights inference hosting runtimes respond with automated KV-cache retention guarantees. And track how high-throughput compute infrastructure, from enterprise supercomputing clusters like [Cerebras CS-3 clusters](/blog/cerebras-cs-3-condor-galaxy-64-wafer-cluster) to dedicated cloud training silicon like [AWS Trainium3](/blog/aws-trainium3-ultraserver-preview) and advanced packaging nodes like [TSMC A16](/blog/tsmc-a16-nanosheet-backside-power), optimizes tiered memory bandwidth for continuous prompt caching."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is the new Anthropic prompt caching price for Claude 3.5 Sonnet? Prompt caching read operations on Claude 3.5 Sonnet are now priced at $0.03 per million tokens, representing a 90 percent reduction from the previous rate of $0.30 per million tokens.",
+            "Did Anthropic reduce base input and output token rates? No. Base uncached input remains $3.00 per million tokens and output remains $15.00 per million tokens for Claude 3.5 Sonnet. Only the cache read price was reduced.",
+            "How much does it cost to write to the prompt cache? Prompt cache write operations remain priced at 1.25 times the base input token price, which corresponds to $3.75 per million tokens for Claude 3.5 Sonnet.",
+            "What is the new time-to-live duration for cached prompts? The default rolling time-to-live (TTL) duration has been increased from five minutes to one hour, with optional twenty-four-hour persistence available for dedicated enterprise capacity.",
+            "Which models support the 90 percent prompt caching rate reduction? The reduction applies across all prompt-caching supported models in the Claude API, including Claude 3.5 Sonnet, Claude 3.5 Haiku, and Claude Opus 5.5.",
+            "How do developers activate prompt caching in the Claude API? Developers enable prompt caching by adding the cache_control breakpoint parameter to specific system messages, tools, or user content blocks within their API requests."
+          ]
+        }
+      ]
+    },
     {
       "slug": "deepseek-coder-v3-open-moe-coding-model",
       "title": "DeepSeek-Coder-V3: 236B Open MoE Coding Model, Not DeepSeek V4",
