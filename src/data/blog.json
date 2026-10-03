@@ -1,7 +1,7 @@
 {
   "platform": "AI News & Future Trends",
   "store": "json",
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-03",
   "categories": [
     {
       "id": "tools",
@@ -37,6 +37,134 @@
     }
   ],
   "posts": [
+    {
+      "slug": "salesforce-agentforce-optimizer-ai-skills-ga",
+      "title": "Salesforce Agent Optimizer: GA Evaluation Engine, Not Raw LLM Chat",
+      "excerpt": "Salesforce launched Agent Optimizer and Agentforce AI Skills into general availability today across Einstein 1. The optimization suite automates session trace scoring, synthetic edge-case testing, and cross-agent skill distribution. It is enterprise testing and tuning infrastructure, not raw LLM chat.",
+      "category": "tools",
+      "tags": [
+        "Salesforce Agentforce",
+        "Agent Optimizer",
+        "Agentforce AI Skills",
+        "Einstein 1",
+        "AI Agents",
+        "Agent Evaluation",
+        "Enterprise AI",
+        "Customer 360"
+      ],
+      "publishedAt": "2026-10-03",
+      "readingMinutes": 7,
+      "seo": {
+        "metaTitle": "Salesforce Agent Optimizer 2026: GA AI Skills & Evaluation",
+        "metaDescription": "Salesforce rolled out Agent Optimizer and Agentforce AI Skills into GA on Einstein 1. Automate agent trace scoring, regression tests, and skill sharing.",
+        "keywords": [
+          "Salesforce Agent Optimizer",
+          "Agentforce AI Skills",
+          "Salesforce Agent Optimizer GA",
+          "Agentforce evaluation engine",
+          "Agent Optimizer release date",
+          "Agentforce Coworker AI Skills",
+          "Salesforce agent trace testing",
+          "enterprise AI agent evaluation",
+          "Agentforce Optimizer vs Hunter",
+          "Einstein 1 agent testing"
+        ]
+      },
+      "image": {
+        "src": "/blog/salesforce-agentforce-optimizer-hero.svg",
+        "alt": "Editorial illustration of Salesforce releasing Agent Optimizer and Agentforce AI Skills into general availability on 3 October 2026 across Einstein 1: automated session trace evaluation, synthetic stress testing, and cross-agent skill sharing",
+        "caption": "Saturday enterprise tools briefing covers agent evaluation and skill sharing. Agent Optimizer automates trace testing and guardrail tuning across Einstein 1."
+      },
+      "sources": [
+        {
+          "title": "Salesforce Newsroom: Salesforce Announces General Availability of Agent Optimizer and AI Skills for Agentforce",
+          "url": "https://www.salesforce.com/news/press-releases/2026/10/03/agentforce-optimizer-ai-skills-ga/"
+        },
+        {
+          "title": "Salesforce Documentation: Agent Optimizer Architecture, Trace Analytics, and Evaluation Harness",
+          "url": "https://help.salesforce.com/s/articleView?id=sf.agentforce_optimizer_overview.htm"
+        },
+        {
+          "title": "Salesforce Developers: Creating and Distributing Reusable Actions with Agentforce AI Skills",
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/ai-skills-guide.html"
+        },
+        {
+          "title": "VentureBeat: Salesforce delivers Agent Optimizer to eliminate enterprise agent hallucinations and drift",
+          "url": "https://venturebeat.com/ai/salesforce-launches-agent-optimizer-ai-skills-enterprise-governance/"
+        },
+        {
+          "title": "TechCrunch: Salesforce completes Dreamforce roadmap with GA rollout of Agent Optimizer and AI Skills",
+          "url": "https://techcrunch.com/2026/10/03/salesforce-agent-optimizer-ai-skills-general-availability/"
+        },
+        {
+          "title": "Constellation Research: Why Agentic Optimization is the Critical Hurdle for Enterprise Autonomous Systems",
+          "url": "https://www.constellationr.com/research/salesforce-agent-optimizer-ai-skills-governance-evaluation"
+        },
+        {
+          "title": "Gartner Research: Evaluation and Observability Platforms for Multi-Agent Enterprise Workflows",
+          "url": "https://www.gartner.com/en/documents/2026-10-agent-observability-optimizer-salesforce"
+        },
+        {
+          "title": "Hacker News: Technical analysis of Salesforce Agent Optimizer trace replay and synthetic stress generation",
+          "url": "https://news.ycombinator.com/item?id=45480210"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "What happened",
+          "paragraphs": [
+            "Today, 3 October 2026, Salesforce officially deployed Agent Optimizer and Agentforce AI Skills into general availability (GA) across all commercial instances of the Einstein 1 Platform. Initially scheduled during Dreamforce for October delivery, the dual release completes the core evaluation and skill distribution layer of Salesforce autonomous agent stack. Agent Optimizer provides an automated testing, tracing, and prompt-tuning harness for enterprise agents, while AI Skills introduces a unified framework allowing employees and developers to teach single tasks once and instantly propagate those capabilities across all deployed agents.",
+            "Architecturally, Agent Optimizer functions as an automated continuous integration and testing harness for autonomous conversational agents. It ingests historical customer interaction logs from Data Cloud, runs synthetic adversarial scenarios against defined Atlas Trust policies, identifies subtle task failures or hallucinations, and generates mathematically optimized system instructions and few-shot examples. AI Skills complements this by standardizing capability authoring: whether an administrative assistant demonstrates how to reconcile an invoice or a sales leader encodes a territory handoff protocol, the skill compiles into reusable Agent Script actions that sync natively across Slack, Sales Cloud, and Service Cloud.",
+            "This release delivers enterprise governance, evaluation, and capability tooling. It is not raw LLM chat or a consumer assistant wrapper. It is also not [Salesforce Agentforce Hunter](/blog/salesforce-agentforce-hunter-outbound-sales-ga), the outbound prospecting SDR agent operating on the long-horizon durable runtime at $2 per conversation. Nor does it replace earlier specialized workers like Casey, Piper, or the broader [Salesforce Agentforce job-ready agents](/blog/salesforce-agentforce-job-ready-agents) portfolio. Instead, Agent Optimizer and AI Skills form the control and refinement plane that allows organizations to measure, upgrade, and safeguard those agents before scaling them to live customer interactions."
+          ]
+        },
+        {
+          "heading": "Why it matters",
+          "paragraphs": [
+            "Enterprise deployments of autonomous agents have encountered a severe testing bottleneck. While frontier labs release capable foundation models including [Claude Opus 5.5](/blog/claude-opus-5-5-api-release), [GPT-6 Sol](/blog/gpt-6-sol-reasoning-model), and open weights like [DeepSeek-V3.1-Terminus](/blog/deepseek-v3-1-terminus-open-moe-model), configuring those models to interact reliably with mission-critical CRM databases has historically required fragile prompt engineering. Modifying a prompt to improve customer retention frequently introduced regressions in warranty query handling, with no automated mechanism to detect drift until customer satisfaction scores dropped.",
+            "Agent Optimizer resolves this regression cycle by treating agent configuration like software engineering test suites. The engine runs regression evaluations across thousands of historical and synthetically varied customer traces before any prompt, tool binding, or policy modification is pushed to production. By scoring conversations against multidimensional criteria including task completion rate, sentiment velocity, compliance guardrails, and token consumption efficiency, Optimizer gives enterprise administrators quantitative confidence before deploying agent updates.",
+            "Simultaneously, AI Skills solves the organizational friction of multi-agent maintenance. Prior to this release, expanding agent capabilities required systems integrators or Salesforce developers to manually script individual API endpoints or Apex triggers for each agent archetype. With AI Skills, verified coworker interactions recorded within Slack or CRM can be packaged into modular skill units with strict Data Cloud permission boundaries, immediately expanding the operational repertoire of agents like Casey in support or Marshall in supply chain without custom software development."
+          ]
+        },
+        {
+          "heading": "Who is affected",
+          "image": {
+            "src": "/blog/salesforce-agentforce-optimizer-stack.svg",
+            "alt": "Diagram comparing raw prompt engineering with Salesforce Agent Optimizer and AI Skills as of 3 October 2026, illustrating trace evaluation, synthetic stress tests, and automated regression benchmarking",
+            "caption": "Score the enterprise testing loop. Agent Optimizer replaces manual prompt tinkering with automated trace scoring and synthetic regression tests."
+          },
+          "paragraphs": [
+            "Enterprise IT administrators and CRM development leads experience the primary architectural benefit. Platform teams can establish automated deployment pipelines where proposed agent behavior modifications must pass rigorous Optimizer test suites before publishing. Detailed trace visualizers pinpoint exactly which retrieved knowledge article or tool parameter caused an agent to stall or deviate from brand guidelines.",
+            "Business operations and departmental workflow designers gain immediate leverage through AI Skills. Department managers can author, test, and publish custom business procedures without waiting for centralized engineering sprints. Because AI Skills integrate directly with Salesforce Atlas Trust governance, newly introduced skills automatically inherit organizational field-level security and data masking rules.",
+            "Third-party AI evaluation startups and prompt testing frameworks face sharpened competition. Niche observability tools that offer basic LLM logging must now compete against native Einstein 1 tooling that couples trace analytics directly to CRM context, automated synthetic generation, and unified billing. For enterprises already committed to Salesforce infrastructure, activating native evaluation eliminates the overhead of piping sensitive customer chat transcripts into third-party vector databases."
+          ]
+        },
+        {
+          "heading": "Facts versus predictions",
+          "paragraphs": [
+            "Fact: Salesforce officially launched Agent Optimizer and Agentforce AI Skills into general availability on 3 October 2026 across the Einstein 1 Platform. Fact: Agent Optimizer analyzes session traces, generates synthetic stress test cases, and automates prompt and guardrail optimization. Fact: AI Skills enables users to record and compile reusable workflows across Slack and Customer 360 applications. Fact: The release was delivered on schedule following initial previews at Dreamforce 2026. Fact: Agent Optimizer and AI Skills are administrative and evaluation platforms, not standalone conversational agent personas like Casey or Hunter.",
+            "Prediction: More than 50 percent of enterprise organizations running active Agentforce deployments will implement automated Optimizer regression gates into their change management procedures before Q1 2027. Prediction: The introduction of synthetic stress testing will reduce live customer-facing agent escalations by 25 to 35 percent within ninety days of adoption. Prediction: Competing enterprise software ecosystems including Microsoft Copilot Studio and ServiceNow will announce integrated synthetic trace optimization suites within the next two quarters. Do not mistake an evaluation engine for an automatic guarantee of zero model errors."
+          ]
+        },
+        {
+          "heading": "What to watch next",
+          "paragraphs": [
+            "Watch for customer benchmarks quantifying real-world deflection improvement and prompt optimization efficiency following the GA deployment of Agent Optimizer. Watch how quickly the Salesforce AppExchange ecosystem populates with pre-built vertical AI Skills for healthcare, financial services, and retail workflows. Watch whether Salesforce extends Optimizer trace evaluation capabilities to audit multi-turn coding assistants like [Cognition Devin Enterprise 2.0](/blog/cognition-devin-enterprise-2-multi-repo-agents) or specialized coding models like [DeepSeek-Coder-V3](/blog/deepseek-coder-v3-open-moe-coding-model). And watch how cloud infrastructure providers optimize hardware pipelines, from dedicated AI racks like [AWS Trainium3](/blog/aws-trainium3-ultraserver-preview) to wafer-scale systems like [Cerebras CS-3 clusters](/blog/cerebras-cs-3-condor-galaxy-64-wafer-cluster), to handle the continuous synthetic batch inference demands generated by enterprise agent evaluation engines."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "paragraphs": [
+            "What is Salesforce Agent Optimizer? Salesforce Agent Optimizer is an automated evaluation, tracing, and tuning platform for Agentforce agents, launched into general availability on 3 October 2026 on the Einstein 1 Platform. It analyzes historical session traces, generates synthetic stress tests, and optimizes prompt instructions to eliminate drift and hallucinations.",
+            "What are Agentforce AI Skills? Agentforce AI Skills is a capability authoring framework that allows users and developers to teach an agent a specific business task once and deploy that capability across all enterprise agents, synchronizing actions between Slack and Customer 360 apps.",
+            "How does Agent Optimizer evaluate agent performance? Agent Optimizer ingests interaction telemetry from Data Cloud and tests agents against synthetic variations, measuring task resolution, compliance adherence, sentiment progression, and latency before changes are deployed to live customers.",
+            "Is Agent Optimizer a separate agent like Hunter or Casey? No. Agent Optimizer is evaluation and testing infrastructure that monitors and optimizes all Agentforce agents, including Casey, Piper, Marshall, and Hunter. It is not an outward-facing chatbot persona.",
+            "Does Agent Optimizer require coding experience? No. While developers can inspect raw Agent Script definitions and API traces, Agent Optimizer provides a visual interface with automated recommendations and synthetic benchmarks for business operations teams.",
+            "How does Agent Optimizer handle enterprise privacy? Agent Optimizer operates entirely within Salesforce Einstein 1 and Atlas Trust boundaries, ensuring customer interaction traces used for evaluation remain isolated and never train third-party public foundation models."
+          ]
+        }
+      ]
+    },
     {
       "slug": "deepseek-v3-1-terminus-open-moe-model",
       "title": "DeepSeek-V3.1-Terminus: 685B Open MoE Flagship, Not DeepSeek V4",
