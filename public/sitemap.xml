@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://harishvudari.online/blog/category/future</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harishvudari.online/blog/agentic-web-protocol-agents-json-standard</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://harishvudari.online/blog/agentops-engineer-salary-fleet-supervisors</loc>
