@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import {
   Briefcase,
   Home as HomeIcon,
+  Instagram,
   Mail,
   Moon,
   Newspaper,
@@ -19,6 +20,7 @@ export const navItems: { id: string; label: string; icon: LucideIcon }[] = [
   { id: "experience", label: "Experience", icon: Briefcase },
   { id: "projects", label: "Projects", icon: Rocket },
   { id: "blog", label: "Blog", icon: Newspaper },
+  { id: "instapost", label: "instapost", icon: Instagram },
   { id: "contact", label: "Contact", icon: Mail }
 ];
 
@@ -31,6 +33,9 @@ type SiteHeaderProps = {
 };
 
 function navHref(id: string, variant: "home" | "inner"): string {
+  if (id === "instapost") {
+    return "/instapost";
+  }
   if (variant === "home") {
     return `#${id}`;
   }

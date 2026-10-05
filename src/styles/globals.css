@@ -1405,6 +1405,459 @@ ul {
   margin-top: 1.5rem;
 }
 
+.instapost-page {
+  padding: 1.4rem 0 3.8rem;
+}
+
+.instapost-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 1rem;
+  align-items: stretch;
+  padding: 1.4rem 0 1rem;
+}
+
+.instapost-hero h1 {
+  max-width: 860px;
+}
+
+.instapost-actions,
+.instapost-button-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.instapost-button-stack {
+  display: grid;
+}
+
+.instapost-button-stack .btn {
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  font: inherit;
+}
+
+.instapost-hero-card {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.instapost-hero-card-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent-2);
+}
+
+.instapost-live-dot {
+  width: 0.62rem;
+  height: 0.62rem;
+  border-radius: 50%;
+  background: #34f5a6;
+  box-shadow: 0 0 0 6px rgba(52, 245, 166, 0.12);
+}
+
+.instapost-metrics {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 1rem 0 1.3rem;
+}
+
+.instapost-metrics article {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.instapost-metrics svg {
+  color: var(--accent-2);
+}
+
+.instapost-metrics span,
+.instapost-status,
+.instapost-pill {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  opacity: 0.82;
+}
+
+.instapost-metrics strong {
+  font-family: Sora, sans-serif;
+  font-size: 1.45rem;
+  color: var(--accent-2);
+}
+
+.instapost-metrics p,
+.instapost-hero-card p,
+.instapost-pipeline p,
+.instapost-caption-box p,
+.instapost-approval-card p,
+.instapost-bottom-grid p {
+  margin: 0;
+  line-height: 1.58;
+  opacity: 0.9;
+}
+
+.instapost-pipeline {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(140px, 1fr));
+  gap: 0.75rem;
+  padding-top: 0.4rem;
+  overflow-x: auto;
+}
+
+.instapost-pipeline article {
+  min-width: 142px;
+}
+
+.instapost-pipeline h3,
+.instapost-slide-card h3 {
+  margin: 0.65rem 0 0.35rem;
+  font-family: Sora, sans-serif;
+  font-size: 0.96rem;
+}
+
+.instapost-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  width: fit-content;
+  padding: 0.25rem 0.48rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+}
+
+.instapost-status--done {
+  color: #5ff1bc;
+  border-color: rgba(95, 241, 188, 0.34);
+  background: rgba(12, 88, 70, 0.18);
+}
+
+.instapost-status--active {
+  color: var(--accent-2);
+  border-color: rgba(27, 231, 255, 0.42);
+  background: rgba(0, 194, 255, 0.13);
+}
+
+.instapost-dashboard-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.9fr) minmax(0, 1.55fr) minmax(260px, 0.8fr);
+  gap: 1rem;
+  margin-top: 1.2rem;
+  align-items: start;
+}
+
+.instapost-card-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.instapost-card-heading h2,
+.instapost-approval-card h2,
+.instapost-bottom-grid h2 {
+  margin: 0.35rem 0 0;
+  font-family: Sora, sans-serif;
+  font-size: 1.12rem;
+}
+
+.instapost-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: fit-content;
+  border-radius: 999px;
+  padding: 0.35rem 0.62rem;
+  border: 1px solid rgba(0, 194, 255, 0.32);
+  background: rgba(0, 194, 255, 0.12);
+  color: var(--accent-2);
+}
+
+.instapost-topic-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.instapost-topic-button {
+  width: 100%;
+  border: 1px solid rgba(0, 194, 255, 0.22);
+  border-radius: 12px;
+  padding: 0.7rem;
+  color: inherit;
+  background: rgba(3, 20, 44, 0.34);
+  text-align: left;
+  cursor: pointer;
+  display: grid;
+  gap: 0.22rem;
+}
+
+.instapost-topic-button:hover,
+.instapost-topic-button.is-active {
+  border-color: var(--accent);
+  background: rgba(0, 194, 255, 0.13);
+}
+
+.instapost-topic-button span {
+  font-weight: 800;
+}
+
+.instapost-topic-button small {
+  opacity: 0.72;
+}
+
+.instapost-detail-list {
+  display: grid;
+  gap: 0.62rem;
+  margin: 1rem 0;
+}
+
+.instapost-detail-list div {
+  border-top: 1px dashed rgba(118, 174, 216, 0.28);
+  padding-top: 0.55rem;
+}
+
+.instapost-detail-list dt {
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+
+.instapost-detail-list dd {
+  margin: 0.2rem 0 0;
+  line-height: 1.45;
+}
+
+.instapost-reference-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.instapost-reference-grid span {
+  min-height: 74px;
+  display: grid;
+  place-items: center;
+  gap: 0.25rem;
+  border-radius: 12px;
+  border: 1px dashed rgba(27, 231, 255, 0.34);
+  background:
+    radial-gradient(circle at 70% 20%, rgba(27, 231, 255, 0.22), transparent 42%),
+    rgba(4, 30, 62, 0.34);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.instapost-slide-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(148px, 1fr));
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+}
+
+.instapost-slide-card {
+  min-height: 245px;
+  border-radius: 18px;
+  padding: 1rem;
+  color: #eaffff;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 80% 12%, rgba(255, 255, 255, 0.28), transparent 28%),
+    linear-gradient(155deg, #0d2b6e, #0aa9d6 48%, #06142c);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+}
+
+.instapost-slide-card::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+}
+
+.instapost-slide-card span {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-family: Sora, sans-serif;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+.instapost-slide-card p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.instapost-slide-card small {
+  margin-top: 0.8rem;
+  line-height: 1.35;
+  opacity: 0.76;
+}
+
+.instapost-caption-box {
+  margin-top: 1rem;
+  border-radius: 14px;
+  padding: 0.9rem;
+  border: 1px solid rgba(0, 194, 255, 0.24);
+  background: rgba(0, 194, 255, 0.08);
+}
+
+.instapost-tags,
+.instapost-integration-list,
+.instapost-agent-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.instapost-tags span,
+.instapost-integration-list span,
+.instapost-agent-list span {
+  border-radius: 999px;
+  padding: 0.32rem 0.58rem;
+  background: rgba(0, 194, 255, 0.13);
+  border: 1px solid rgba(0, 194, 255, 0.2);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.instapost-checklist {
+  display: grid;
+  gap: 0.55rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.instapost-checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  line-height: 1.45;
+}
+
+.instapost-checklist svg {
+  color: #5ff1bc;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.instapost-bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.instapost-calendar {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+}
+
+.instapost-calendar div {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 10px;
+  padding: 0.52rem;
+  background: rgba(0, 194, 255, 0.08);
+}
+
+.instapost-calendar strong,
+.instapost-calendar small {
+  color: var(--accent-2);
+}
+
+.instapost-calendar span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.instapost-analytics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+}
+
+.instapost-analytics span {
+  display: grid;
+  gap: 0.25rem;
+  text-align: center;
+  border-radius: 12px;
+  padding: 0.72rem 0.4rem;
+  background: rgba(0, 194, 255, 0.09);
+  font-size: 0.78rem;
+}
+
+.instapost-analytics strong {
+  font-family: Sora, sans-serif;
+  color: var(--accent-2);
+}
+
+.page--light .instapost-topic-button,
+.page--light .instapost-reference-grid span,
+.page--light .instapost-calendar div,
+.page--light .instapost-analytics span {
+  background: rgba(221, 242, 255, 0.72);
+}
+
+.page--light .instapost-slide-card {
+  color: #f2fcff;
+}
+
+@media (max-width: 1180px) {
+  .instapost-metrics,
+  .instapost-bottom-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .instapost-dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 820px) {
+  .instapost-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .instapost-metrics,
+  .instapost-bottom-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .instapost-card-heading {
+    flex-wrap: wrap;
+  }
+
+  .instapost-calendar div,
+  .instapost-analytics {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+}
+
 
 @keyframes meshFloat {
   0% {
