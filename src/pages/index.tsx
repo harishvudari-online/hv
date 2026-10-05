@@ -149,12 +149,12 @@ export default function Home() {
   const languageMenuRef = useRef<HTMLDivElement | null>(null);
   const data = locale === "zh" ? content.zh : content.en;
   const localizedNav = {
-    en: { home: "Home", skills: "Skills", experience: "Experience", projects: "Projects", blog: "Blog", contact: "Contact", language: "Language", more: "More" },
-    zh: { home: "首页", skills: "技能", experience: "经验", projects: "项目", blog: "博客", contact: "联系", language: "语言", more: "更多" },
-    es: { home: "Inicio", skills: "Habilidades", experience: "Experiencia", projects: "Proyectos", blog: "Blog", contact: "Contacto", language: "Idioma", more: "Más" },
-    fr: { home: "Accueil", skills: "Compétences", experience: "Expérience", projects: "Projets", blog: "Blog", contact: "Contact", language: "Langue", more: "Plus" },
-    de: { home: "Start", skills: "Fähigkeiten", experience: "Erfahrung", projects: "Projekte", blog: "Blog", contact: "Kontakt", language: "Sprache", more: "Mehr" },
-    ja: { home: "ホーム", skills: "スキル", experience: "経験", projects: "プロジェクト", blog: "ブログ", contact: "連絡先", language: "言語", more: "もっと見る" }
+    en: { home: "Home", skills: "Skills", experience: "Experience", projects: "Projects", blog: "Blog", instapost: "instapost", contact: "Contact", language: "Language", more: "More" },
+    zh: { home: "首页", skills: "技能", experience: "经验", projects: "项目", blog: "博客", instapost: "instapost", contact: "联系", language: "语言", more: "更多" },
+    es: { home: "Inicio", skills: "Habilidades", experience: "Experiencia", projects: "Proyectos", blog: "Blog", instapost: "instapost", contact: "Contacto", language: "Idioma", more: "Más" },
+    fr: { home: "Accueil", skills: "Compétences", experience: "Expérience", projects: "Projets", blog: "Blog", instapost: "instapost", contact: "Contact", language: "Langue", more: "Plus" },
+    de: { home: "Start", skills: "Fähigkeiten", experience: "Erfahrung", projects: "Projekte", blog: "Blog", instapost: "instapost", contact: "Kontakt", language: "Sprache", more: "Mehr" },
+    ja: { home: "ホーム", skills: "スキル", experience: "経験", projects: "プロジェクト", blog: "ブログ", instapost: "instapost", contact: "連絡先", language: "言語", more: "もっと見る" }
   } as const;
   const { status: blogStatus, posts: previewPosts } = useBlogList({ preview: true });
   const headlineVariants = [
