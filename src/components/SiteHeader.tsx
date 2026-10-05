@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import {
   Briefcase,
   Home as HomeIcon,
-  Instagram,
+  Images,
   Mail,
   Moon,
   Newspaper,
@@ -20,7 +20,7 @@ export const navItems: { id: string; label: string; icon: LucideIcon }[] = [
   { id: "experience", label: "Experience", icon: Briefcase },
   { id: "projects", label: "Projects", icon: Rocket },
   { id: "blog", label: "Blog", icon: Newspaper },
-  { id: "instapost", label: "instapost", icon: Instagram },
+  { id: "instapost", label: "instapost", icon: Images },
   { id: "contact", label: "Contact", icon: Mail }
 ];
 

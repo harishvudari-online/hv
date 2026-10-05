@@ -56,3 +56,9 @@ Automatically plan, generate, validate, schedule, and publish one Instagram caro
 - Cloud storage for generated carousel assets
 - PostgreSQL or another persistent store for topics, posts, images, and analytics
 - Vercel Cron, GitHub Actions, Cloud Scheduler, or EventBridge for production scheduling
+
+## Current Repository Implementation
+
+The dashboard lives at `/instapost` and opens from the `instapost` menu item.
+
+V1 stores topics, reference thumbnails, generated carousel metadata, approvals, and simulated publish records in the browser. It generates a five-slide 1080×1350 carousel, caption, hashtags, and quality checks from the saved topic and reference style. Approval is required before scheduling or the local publish action. The local publish action records an Instagram-ready post ID and starter analytics, and it does not call Meta until server-side Instagram Graph API credentials are configured.

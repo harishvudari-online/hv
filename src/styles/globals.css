@@ -1826,13 +1826,222 @@ ul {
   color: #f2fcff;
 }
 
+.instapost-tabs {
+  display: flex;
+  gap: 0.45rem;
+  overflow-x: auto;
+  margin: 0.2rem 0 1rem;
+  padding-bottom: 0.2rem;
+}
+
+.instapost-tab,
+.instapost-icon-button,
+.instapost-topic-select,
+.instapost-post-row,
+.instapost-calendar button,
+.instapost-reference-grid button {
+  font: inherit;
+  color: inherit;
+}
+
+.instapost-tab,
+.instapost-calendar button,
+.instapost-post-row,
+.instapost-reference-grid button {
+  border: 1px solid rgba(0, 194, 255, 0.28);
+  background: rgba(8, 25, 52, 0.5);
+  cursor: pointer;
+}
+
+.instapost-tab {
+  border-radius: 999px;
+  padding: 0.42rem 0.75rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.instapost-tab.is-active,
+.instapost-tab:hover,
+.instapost-topic-list .card.is-active {
+  border-color: var(--accent);
+  background: rgba(0, 194, 255, 0.16);
+}
+
+.instapost-stack,
+.instapost-form {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.instapost-split {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(0, 1.2fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.instapost-field {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.instapost-field input,
+.instapost-field textarea,
+.instapost-field select {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 194, 255, 0.28);
+  background: rgba(3, 20, 44, 0.45);
+  color: inherit;
+  padding: 0.68rem 0.75rem;
+  font: inherit;
+}
+
+.instapost-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+}
+
+.instapost-message {
+  border-radius: 12px;
+  padding: 0.75rem 0.85rem;
+  margin: 0 0 0.9rem;
+  background: rgba(255, 143, 160, 0.12);
+  border: 1px solid rgba(255, 143, 160, 0.45);
+}
+
+.instapost-message--ok {
+  background: rgba(52, 245, 166, 0.1);
+  border-color: rgba(52, 245, 166, 0.38);
+}
+
+.instapost-slide-preview {
+  display: grid;
+  gap: 0.4rem;
+  min-width: 180px;
+}
+
+.instapost-slide-preview img,
+.instapost-reference-grid img {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 194, 255, 0.28);
+  background: #071833;
+}
+
+.instapost-slide-preview img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.instapost-slide-preview p,
+.instapost-reference-grid figcaption {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  opacity: 0.82;
+}
+
+.instapost-checklist .is-fail {
+  color: #ff8fa0;
+}
+
+.instapost-topic-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.instapost-topic-list .card {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.instapost-topic-select,
+.instapost-post-row {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  display: grid;
+  gap: 0.2rem;
+}
+
+.instapost-icon-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 143, 160, 0.45);
+  background: transparent;
+  cursor: pointer;
+}
+
+.instapost-upload {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.instapost-upload input {
+  display: none;
+}
+
+.instapost-reference-grid figure {
+  margin: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.instapost-reference-grid button,
+.instapost-calendar button,
+.instapost-post-row {
+  border-radius: 12px;
+  padding: 0.55rem 0.65rem;
+}
+
+.instapost-calendar button {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) auto;
+  gap: 0.55rem;
+  align-items: center;
+  text-align: left;
+}
+
+.instapost-calendar button span,
+.instapost-post-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.instapost-post-row {
+  grid-template-columns: minmax(0, 1.4fr) auto auto minmax(0, 1fr);
+}
+
+.page--light .instapost-tab,
+.page--light .instapost-field input,
+.page--light .instapost-field textarea,
+.page--light .instapost-calendar button,
+.page--light .instapost-post-row {
+  background: rgba(234, 244, 255, 0.94);
+}
+
 @media (max-width: 1180px) {
   .instapost-metrics,
   .instapost-bottom-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .instapost-dashboard-grid {
+  .instapost-dashboard-grid,
+  .instapost-split,
+  .instapost-post-row,
+  .instapost-calendar button {
     grid-template-columns: 1fr;
   }
 }

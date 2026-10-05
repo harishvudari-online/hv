@@ -18,6 +18,7 @@ const navLabels = {
   experience: "Experience",
   projects: "Projects",
   blog: "Blog",
+  instapost: "instapost",
   contact: "Contact"
 };
 
